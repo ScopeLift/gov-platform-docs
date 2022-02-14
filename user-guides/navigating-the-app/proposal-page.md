@@ -2,7 +2,7 @@
 description: Review Active or Past Proposals
 ---
 
-# Proposal Page
+# 🗳 Proposal Page
 
 The proposal page shows details of a particular active or past proposal. You can navigate back from a proposal page to the linked governance page by clicking the "Governance" link in the top left corner.
 

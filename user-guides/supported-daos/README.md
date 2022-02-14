@@ -4,7 +4,7 @@ description: >-
   with the Tally app?
 ---
 
-# Governor contracts compatibility
+# 🏗 Supported DAOs
 
 If you want to learn about adding your DAO to Tally, you’re in the right place. Tally connects with the on-chain contracts for your DAO in two places. Tally’s servers index the on-chain data, and Tally’s web3 site lets users make calls directly to the contracts running on the blockchain.&#x20;
 

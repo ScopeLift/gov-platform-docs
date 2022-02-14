@@ -2,7 +2,7 @@
 description: Review Supported Governance Systems
 ---
 
-# Governance Page
+# 🎪 DAO Page
 
 The governance page shows details about a specific governance system, including current and past proposals and vote delegate addresses.
 

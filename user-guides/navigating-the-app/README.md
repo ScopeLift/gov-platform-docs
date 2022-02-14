@@ -2,7 +2,7 @@
 description: Getting Started with Tally
 ---
 
-# Navigating the App
+# 🗺 Navigating the App
 
 The Tally App lets you to review on chain governance information, as well as participate in governance through voting or delegation.&#x20;
 

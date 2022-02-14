@@ -2,7 +2,7 @@
 description: Get More out of the Tally App
 ---
 
-# Your Tally Account
+# 🎮 Your Tally Account
 
 Creating an account with Tally comes with several benefits:
 

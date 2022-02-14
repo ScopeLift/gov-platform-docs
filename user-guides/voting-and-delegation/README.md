@@ -2,7 +2,7 @@
 description: Using Tally for On-Chain Participation
 ---
 
-# Voting and Delegation
+# ⚖ Voting and Delegation
 
 You can participate in governance through the Tally app by delegating your voting power or voting on active proposals directly.&#x20;
 
