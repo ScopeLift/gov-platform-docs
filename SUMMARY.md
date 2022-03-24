@@ -28,9 +28,9 @@
 
 ## Resources
 
-* [Tally App](https://withtally.com)
+* [Tally App](https://www.tally.xyz)
 * [Discord](https://discord.com/invite/ckn25zazRa)
 * [Chat Support](https://discord.com/invite/sCGnpWH3m4)
-* [Governance Wiki](https://wiki.withtally.com/docs)
-* [Newsletter](https://newsletter.withtally.com)
-* [Blog](https://medium.com/tally-blog)
+* [Governance Wiki](https://wiki.tally.xyz/docs)
+* [Newsletter](https://newsletter.tally.xyz)
+* [Blog](https://blog.tally.xyz)
