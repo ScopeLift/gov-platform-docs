@@ -4,6 +4,7 @@
 
 ## User Guides
 
+* [Adding a DAO to Tally](user-guides/adding-a-dao-to-tally.md)
 * [🗺 Navigating the App](user-guides/navigating-the-app/README.md)
   * [🎪 DAO Page](user-guides/navigating-the-app/governance-page.md)
   * [🗳 Proposal Page](user-guides/navigating-the-app/proposal-page.md)
