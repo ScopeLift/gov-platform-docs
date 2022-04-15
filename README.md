@@ -1,10 +1,10 @@
 ---
-description: Resources to help you use Tally
+description: >-
+  Create, operate, and scale decentralized organizations using Tally! Tally is
+  the governance platform for DAOs.
 ---
 
 # Welcome to the Tally Docs
-
-Create, operate, and scale decentralized organizations using Tally! Tally is the governance platform for DAOs.&#x20;
 
 This documentation explains how to get the most possible benefit out of the Tally platform. DAOs use Tally to create and pass proposals, enable delegation, and power voting.&#x20;
 
