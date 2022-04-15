@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Welcome to Tally](README.md)
+* [Welcome to the Tally Docs](README.md)
 
 ## User Guides
 
