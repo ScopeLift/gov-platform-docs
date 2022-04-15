@@ -4,7 +4,7 @@ description: Resources to Help You Get Started Using Tally
 
 # Welcome to the Tally Docs
 
-[🚀Adding a DAO to Tally](https://app.gitbook.com/o/zHytzWx2o7DjCP8sQY76/s/-MQO0N\_aitpkSUyz4BYE/\~/changes/BSxkXof1V8cqlg8buXAl/user-guides/adding-a-dao-to-tally)Tally empowers user owned governance through a voting dashboard, governance tooling, real time research and analysis, and an evergreen wiki.
+Tally empowers user owned governance through a voting dashboard, governance tooling, real time research and analysis, and an evergreen wiki.
 
 This documentation explains how to get the most possible benefit out of the Tally governance app. You can use the app to review data on governance systems, active and past proposals, and individual delegates or token holders. The app also supports direct voting and vote delegation, helping users put their governance insights into action.&#x20;
 
