@@ -2,6 +2,8 @@
 description: >-
   Create, operate, and scale decentralized organizations using Tally! Tally is
   the governance platform for DAOs.
+cover: .gitbook/assets/tallycover.jpeg
+coverY: 0
 ---
 
 # Welcome to the Tally Docs
