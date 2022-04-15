@@ -4,16 +4,16 @@
 
 ## User Guides
 
-* [🚀 Add a DAO to Tally](user-guides/add-a-dao-to-tally.md)
-* [✍ Create a Proposal](user-guides/create-a-proposal.md)
-* [🗳 Vote on an Active Proposal](user-guides/vote-on-an-active-proposal.md)
-* [⚡ Delegate Votes](user-guides/delegate-votes.md)
+* [🚀 Add a DAO to Tally](user-guides/adding-a-dao-to-tally.md)
+* [✍ Create a Proposal](user-guides/voting-and-delegation/create-a-proposal.md)
+* [🗳 Vote on an Active Proposal](user-guides/voting-and-delegation/vote-on-an-active-proposal.md)
+* [⚡ Delegate Votes](user-guides/voting-and-delegation/delegate-votes.md)
 * [🗺 Navigate the Tally Platform](user-guides/navigating-the-app/README.md)
-  * [🔌 Connect Your Wallet](user-guides/navigating-the-app/connect-your-wallet.md)
+  * [🔌 Connect Your Wallet](user-guides/voting-and-delegation/connect-your-wallet.md)
   * [🎪 DAO Page](user-guides/navigating-the-app/governance-page.md)
   * [🗳 Proposal Page](user-guides/navigating-the-app/proposal-page.md)
   * [🙋🏽‍♀️ Voter Page](user-guides/navigating-the-app/voter-page.md)
-  * [Disconnect Your Wallet](user-guides/navigating-the-app/disconnect-your-wallet.md)
+  * [Disconnect Your Wallet](user-guides/voting-and-delegation/disconnect-your-wallet.md)
 * [🎮 Create and Manage a Tally Account](user-guides/your-tally-account/README.md)
   * [Sign Up / Register Account](user-guides/your-tally-account/sign-up-register-account.md)
   * [Log In](user-guides/your-tally-account/log-in.md)
@@ -28,7 +28,7 @@
 
 ## Resources
 
-* [Tally App](https://www.tally.xyz)
+* [Tally Platform](https://www.tally.xyz)
 * [Discord (support & community)](https://discord.com/invite/ckn25zazRa)
 * [Blog](https://blog.tally.xyz)
 * [Newsletter](https://newsletter.tally.xyz)

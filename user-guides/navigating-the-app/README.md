@@ -30,8 +30,8 @@ You can always return to the home page by clicking the Tally logo in the top lef
 
 In the top right corner of any page, you can connect your wallet for voting or delegation using the "connect wallet" button. You can also sign up or log in to manage your Tally account.
 
-{% content-ref url="connect-your-wallet.md" %}
-[connect-your-wallet.md](connect-your-wallet.md)
+{% content-ref url="../voting-and-delegation/connect-your-wallet.md" %}
+[connect-your-wallet.md](../voting-and-delegation/connect-your-wallet.md)
 {% endcontent-ref %}
 
 {% content-ref url="../your-tally-account/" %}

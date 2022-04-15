@@ -12,8 +12,20 @@ If you have any other questions that aren't covered here, feel free to [get in t
 
 ## User Guides
 
-{% content-ref url="user-guides/add-a-dao-to-tally.md" %}
-[add-a-dao-to-tally.md](user-guides/add-a-dao-to-tally.md)
+{% content-ref url="user-guides/adding-a-dao-to-tally.md" %}
+[adding-a-dao-to-tally.md](user-guides/adding-a-dao-to-tally.md)
+{% endcontent-ref %}
+
+{% content-ref url="user-guides/voting-and-delegation/create-a-proposal.md" %}
+[create-a-proposal.md](user-guides/voting-and-delegation/create-a-proposal.md)
+{% endcontent-ref %}
+
+{% content-ref url="user-guides/voting-and-delegation/vote-on-an-active-proposal.md" %}
+[vote-on-an-active-proposal.md](user-guides/voting-and-delegation/vote-on-an-active-proposal.md)
+{% endcontent-ref %}
+
+{% content-ref url="user-guides/voting-and-delegation/delegate-votes.md" %}
+[delegate-votes.md](user-guides/voting-and-delegation/delegate-votes.md)
 {% endcontent-ref %}
 
 {% content-ref url="user-guides/navigating-the-app/" %}
@@ -22,10 +34,6 @@ If you have any other questions that aren't covered here, feel free to [get in t
 
 {% content-ref url="user-guides/your-tally-account/" %}
 [your-tally-account](user-guides/your-tally-account/)
-{% endcontent-ref %}
-
-{% content-ref url="broken-reference" %}
-[Broken link](broken-reference)
 {% endcontent-ref %}
 
 ## Links and Resources:&#x20;

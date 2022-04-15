@@ -4,7 +4,7 @@ description: >-
   the rest for you!
 ---
 
-# 🚀 Adding a DAO to Tally
+# 🚀 Add a DAO to Tally
 
 ## Steps to add a DAO to Tally <a href="#201e" id="201e"></a>
 

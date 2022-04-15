@@ -18,8 +18,8 @@ To get started, log in to your Tally account.
 
 Next, connect your wallet with the address you'd like to link to your Tally account.&#x20;
 
-{% content-ref url="../navigating-the-app/connect-your-wallet.md" %}
-[connect-your-wallet.md](../navigating-the-app/connect-your-wallet.md)
+{% content-ref url="../voting-and-delegation/connect-your-wallet.md" %}
+[connect-your-wallet.md](../voting-and-delegation/connect-your-wallet.md)
 {% endcontent-ref %}
 
 Click on your profile icon in the top right corner, and select the option for settings from the dropdown menu.
@@ -40,8 +40,8 @@ You'll now see your address in the "linked addresses" section of your profile pa
 
 You can link multiple addresses to your Tally account. To link an additional address, start by disconnecting your currently connected wallet.
 
-{% content-ref url="../navigating-the-app/disconnect-your-wallet.md" %}
-[disconnect-your-wallet.md](../navigating-the-app/disconnect-your-wallet.md)
+{% content-ref url="../voting-and-delegation/disconnect-your-wallet.md" %}
+[disconnect-your-wallet.md](../voting-and-delegation/disconnect-your-wallet.md)
 {% endcontent-ref %}
 
 In the Metamask extension, change the connected address to your preferred new address. [Reconnect your wallet](https://tally.gitbook.io/docs/user-guides/voting-and-delegation/connect-your-wallet) (with the new address now connected), and follow the same steps above to link your additional address.&#x20;
