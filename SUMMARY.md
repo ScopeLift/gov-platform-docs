@@ -30,7 +30,7 @@
 ## Resources
 
 * [Tally App](https://www.tally.xyz)
-* [Discord](https://discord.com/invite/ckn25zazRa)
+* [Discord (support & community)](https://discord.com/invite/ckn25zazRa)
 * [Chat Support](https://discord.com/invite/sCGnpWH3m4)
 * [Governance Wiki](https://wiki.tally.xyz/docs)
 * [Newsletter](https://newsletter.tally.xyz)

@@ -45,7 +45,3 @@ If you have any other questions that aren't covered here, feel free to [get in t
 {% content-ref url="broken-reference" %}
 [Broken link](broken-reference)
 {% endcontent-ref %}
-
-{% content-ref url="broken-reference" %}
-[Broken link](broken-reference)
-{% endcontent-ref %}
