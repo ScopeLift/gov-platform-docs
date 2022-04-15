@@ -38,8 +38,8 @@ If you have any other questions that aren't covered here, feel free to [get in t
 
 ## Technical Documentation
 
-{% content-ref url="user-guides/supported-dao-frameworks/" %}
-[supported-dao-frameworks](user-guides/supported-dao-frameworks/)
+{% content-ref url="technical-documentation/supported-dao-frameworks/" %}
+[supported-dao-frameworks](technical-documentation/supported-dao-frameworks/)
 {% endcontent-ref %}
 
 

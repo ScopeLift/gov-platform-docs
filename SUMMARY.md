@@ -20,11 +20,15 @@
   * [Link Address to Your Account](user-guides/your-tally-account/link-address-to-your-account.md)
   * [Link Twitter to Your Account](user-guides/your-tally-account/link-twitter-to-your-account.md)
   * [Manage Notifications](user-guides/your-tally-account/manage-notifications.md)
-* [🏗 Supported DAO Frameworks](user-guides/supported-dao-frameworks/README.md)
-  * [OpenZeppelin Style](user-guides/supported-dao-frameworks/openzeppelin-style.md)
-  * [Compound Bravo Style](user-guides/supported-dao-frameworks/compound-bravo-style.md)
-  * [Token contract](user-guides/supported-dao-frameworks/token-contract.md)
-  * [Supported use cases FAQ](user-guides/supported-dao-frameworks/supported-use-cases-faq.md)
+
+***
+
+* [Technical Documentation](technical-documentation/README.md)
+  * [🏗 Supported DAO Frameworks](technical-documentation/supported-dao-frameworks/README.md)
+    * [OpenZeppelin Style](technical-documentation/supported-dao-frameworks/openzeppelin-style.md)
+    * [Compound Bravo Style](technical-documentation/supported-dao-frameworks/compound-bravo-style.md)
+    * [Token contract](technical-documentation/supported-dao-frameworks/token-contract.md)
+    * [Supported use cases FAQ](technical-documentation/supported-dao-frameworks/supported-use-cases-faq.md)
 
 ## Resources
 
