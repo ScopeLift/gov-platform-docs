@@ -1,10 +1,10 @@
 ---
-description: Adding a DAO to Tally is Easy!
+description: >-
+  All you need to add a DAO to Tally is the DAO contract address. Tally will do
+  the rest for you!
 ---
 
-# Adding a DAO to Tally
-
-All you need to add a DAO to Tally is the DAO contract address. Tally will do the rest for you!
+# 🚀 Adding a DAO to Tally
 
 ## Steps to add a DAO to Tally <a href="#201e" id="201e"></a>
 
