@@ -2,7 +2,7 @@
 description: How to Connect Your Wallet for Voting or Delegation
 ---
 
-# Connect Your Wallet
+# 🔌 Connect Your Wallet
 
 From any page of the Tally site, select the "connect wallet" button in the top right corner.
 

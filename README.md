@@ -6,14 +6,14 @@ description: Resources to help you use Tally
 
 Create, operate, and scale decentralized organizations using Tally! Tally is the governance platform for DAOs.&#x20;
 
-This documentation explains how to get the most possible benefit out of the Tally governance platform. DAOs use Tally to create and pass proposals, enable delegation, and power voting.&#x20;
+This documentation explains how to get the most possible benefit out of the Tally platform. DAOs use Tally to create and pass proposals, enable delegation, and power voting.&#x20;
 
 If you have any other questions that aren't covered here, feel free to [get in touch in our Discord](https://discord.com/invite/sCGnpWH3m4)!
 
 ## User Guides
 
-{% content-ref url="user-guides/adding-a-dao-to-tally.md" %}
-[adding-a-dao-to-tally.md](user-guides/adding-a-dao-to-tally.md)
+{% content-ref url="user-guides/add-a-dao-to-tally.md" %}
+[add-a-dao-to-tally.md](user-guides/add-a-dao-to-tally.md)
 {% endcontent-ref %}
 
 {% content-ref url="user-guides/navigating-the-app/" %}
@@ -24,8 +24,8 @@ If you have any other questions that aren't covered here, feel free to [get in t
 [your-tally-account](user-guides/your-tally-account/)
 {% endcontent-ref %}
 
-{% content-ref url="user-guides/voting-and-delegation/" %}
-[voting-and-delegation](user-guides/voting-and-delegation/)
+{% content-ref url="broken-reference" %}
+[Broken link](broken-reference)
 {% endcontent-ref %}
 
 ## Links and Resources:&#x20;

@@ -25,7 +25,7 @@ The top of the voter page displays key details about that address's participatio
 
 The pie chart shows the distribution of this address's voting power, separated by delegator address.&#x20;
 
-You can delegate your voting power to this address by clicking the "delegate votes" button and following the steps [here](../voting-and-delegation/delegate-votes.md#delegate-votes-to-another-address).
+You can delegate your voting power to this address by clicking the "delegate votes" button and following the steps [here](../delegate-votes.md#delegate-votes-to-another-address).
 
 The chart below the top line of indicators shows address voting power over time. The table on the right shows a list of top delegator addresses, ranked by voting power contributed.
 
