@@ -1,12 +1,12 @@
 ---
-description: Resources to Help You Get Started Using Tally
+description: Resources to help you use Tally
 ---
 
 # Welcome to the Tally Docs
 
-Tally empowers user owned governance through a voting dashboard, governance tooling, real time research and analysis, and an evergreen wiki.
+Create, operate, and scale decentralized organizations using Tally! Tally is the governance platform for DAOs.&#x20;
 
-This documentation explains how to get the most possible benefit out of the Tally governance app. You can use the app to review data on governance systems, active and past proposals, and individual delegates or token holders. The app also supports direct voting and vote delegation, helping users put their governance insights into action.&#x20;
+This documentation explains how to get the most possible benefit out of the Tally governance platform. DAOs use Tally to create and pass proposals, enable delegation, and power voting.&#x20;
 
 If you have any other questions that aren't covered here, feel free to [get in touch in our Discord](https://discord.com/invite/sCGnpWH3m4)!
 
