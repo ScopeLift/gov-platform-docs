@@ -31,7 +31,6 @@
 
 * [Tally App](https://www.tally.xyz)
 * [Discord (support & community)](https://discord.com/invite/ckn25zazRa)
-* [Chat Support](https://discord.com/invite/sCGnpWH3m4)
-* [Governance Wiki](https://wiki.tally.xyz/docs)
-* [Newsletter](https://newsletter.tally.xyz)
 * [Blog](https://blog.tally.xyz)
+* [Newsletter](https://newsletter.tally.xyz)
+* [Governance Wiki](https://wiki.tally.xyz/docs)
