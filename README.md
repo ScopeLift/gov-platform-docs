@@ -36,7 +36,15 @@ If you have any other questions that aren't covered here, feel free to [get in t
 [your-tally-account](user-guides/your-tally-account/)
 {% endcontent-ref %}
 
-## Links and Resources:&#x20;
+## Technical Documentation
+
+{% content-ref url="user-guides/supported-dao-frameworks/" %}
+[supported-dao-frameworks](user-guides/supported-dao-frameworks/)
+{% endcontent-ref %}
+
+
+
+## Links and Resources&#x20;
 
 {% content-ref url="broken-reference" %}
 [Broken link](broken-reference)

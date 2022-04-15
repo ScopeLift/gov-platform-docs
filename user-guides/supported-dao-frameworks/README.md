@@ -4,9 +4,9 @@ description: >-
   with the Tally app?
 ---
 
-# 🏗 Supported DAOs
+# 🏗 Supported DAO Frameworks
 
-If you want to learn about adding your DAO to Tally, you’re in the right place. Tally connects with the on-chain contracts for your DAO in two places. Tally’s servers index the on-chain data, and Tally’s web3 site lets users make calls directly to the contracts running on the blockchain.&#x20;
+Tally connects with the on-chain contracts for your DAO in two places. Tally’s servers index the on-chain data, and Tally’s web3 site lets users make calls directly to the contracts running on the blockchain.&#x20;
 
 Here, we describe the interface that your contracts need to follow to be compatible with Tally. The easiest way to be compatible is to fork Open Zeppelin Governor or Compound’s Governor Bravo without changing anything.&#x20;
 
