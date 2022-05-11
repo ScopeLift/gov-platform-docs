@@ -4,52 +4,21 @@ description: Get stuff done for your DAO by creating a proposal
 
 # ✍ Create a Proposal
 
-Before getting started, be sure to connect your wallet.
-
-{% content-ref url="connect-your-wallet.md" %}
-[connect-your-wallet.md](connect-your-wallet.md)
-{% endcontent-ref %}
-
-To submit a proposal, you must have at least enough voting power to meet the protocol's **proposal submission threshold**. You can find this number on each protocol's governance page by selecting the "information" section near the top of the page.
+To submit a proposal, you must have at least enough voting power to meet the DAO's **proposal submission threshold**. You can find this number on each protocol's governance page by selecting the "information" section near the top of the page.
 
 ![](<../../.gitbook/assets/image (103).png>)
 
-## Submitting a proposal:
+### Follow these steps to create a proposal on Tally <a href="#c0cd" id="c0cd"></a>
 
-Select the "add new proposal" button on the top of the relevant governance page.
+1. Visit Tally.xyz
+2. Click “create proposal now” on the home page and select the DAO for which you would like to create a proposal OR visit the DAO page of the DAO for which you would like to create a proposal then click the "add new proposal" button on the top of the page
+3. Connect your wallet and choose the correct network. Tally supports DAOs on Ethereum, Polygon, and Avalanche.
+4. Name your proposal
+5. Write a detailed description of your proposal using Tally’s Markdown editor and preview mode
+6. Add a link preview image
+7. Add up to 10 actions to be executed if the proposal passes. To add an action, use Tally's Transfer Tokens recipe OR add a custom action. To use Tally's transfer tokens recipe, enter the target wallet address, select the token you would like to transfer, and enter the amount of the token you would like to transfer. To add a custom action, enter the target contract address or upload your ABI file if the contract is not on Etherscan, select the desired contract method, and  enter the call data for that method.
+8. Preview your proposal, then save it as a draft OR submit the proposal on-chain
 
-![](<../../.gitbook/assets/image (104).png>)
+### Watch a video walkthrough of creating a proposal on Tally <a href="#7d8f" id="7d8f"></a>
 
-Type in the proposal title and description in the text boxes. Then select the "add new command" option in the bottom right corner.
-
-![](<../../.gitbook/assets/image (106).png>)
-
-Enter the address of the contract you would like to interact with via the governance proposal, then click the "continue" button to advance to the next step.
-
-![](<../../.gitbook/assets/image (108).png>)
-
-Input a value of ETH in wei. In most cases, this value will be 0.
-
-![](<../../.gitbook/assets/image (109).png>)
-
-Select a function from the list of available options (these are generated automatically based on the address entered in step 1).
-
-![](<../../.gitbook/assets/image (111).png>)
-
-If the target address is not verified on Etherscan, you can manually add the contract ABI by selecting the "import ABI" button and then uploading a JSON file.
-
-![](<../../.gitbook/assets/image (112).png>)
-
-Enter any values needed for the function call you selected in step 3.
-
-![](<../../.gitbook/assets/image (113).png>)
-
-Verify that the inputted information in the summary section, paying special attention the the values/units in the "call data" section. If everything is correct, click "submit" to add this command to your proposal.
-
-![](<../../.gitbook/assets/image (114).png>)
-
-Your command has now been added to the proposal. You can review the command information again by clicking on the eye icon, or remove the command by selecting the trash can icon. If you would like to add additional commands, simply select the "add new command" button and repeat the steps above.
-
-![](<../../.gitbook/assets/image (115).png>)
-
-Once you've entered all necessary commands, click the "create proposal" button at the bottom. This will trigger a signature request for your wallet to submit the proposal as an on chain transaction.
+{% embed url="https://youtu.be/_1QbKCgLzbM" %}
