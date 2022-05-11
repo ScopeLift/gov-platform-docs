@@ -17,7 +17,8 @@ To submit a proposal, you must have at least enough voting power to meet the DAO
 5. Write a detailed description of your proposal using Tally’s Markdown editor and preview mode
 6. Add a link preview image
 7. Add up to 10 actions to be executed if the proposal passes. To add an action, use Tally's Transfer Tokens recipe OR add a custom action. To use Tally's transfer tokens recipe, enter the target wallet address, select the token you would like to transfer, and enter the amount of the token you would like to transfer. To add a custom action, enter the target contract address or upload your ABI file if the contract is not on Etherscan, select the desired contract method, and  enter the call data for that method.
-8. Preview your proposal, then save it as a draft OR submit the proposal on-chain
+8. Preview your proposal, then save it as a draft OR submit the proposal on-chain. Draft proposals are created off-chain and can later be submitted on-chain at any time. Draft proposals can be created and submitted by different users.\
+
 
 ### Watch a video walkthrough of creating a proposal on Tally <a href="#7d8f" id="7d8f"></a>
 
