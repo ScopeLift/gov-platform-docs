@@ -9,10 +9,10 @@ description: How to Set up Your Wallet for Voting or Delegate Your Voting Power
 For protocols based on the [Compound governance system](https://wiki.withtally.com/docs/compound-governance-design), only delegated tokens can participated in voting. _**What does this mean for you, a token holder?**_
 
 {% hint style="warning" %}
-You **must** set up delegation if you want you participate in governance votes.&#x20;
+You **must** set up delegation if you want you participate in on-chain votes. This doesn't apply to Poll Proposals.&#x20;
 {% endhint %}
 
-If you wish to vote on proposals directly, delegate your voting power to your own address. Or, you can delegate your voting power to another community member and let them to vote on your behalf.
+If you wish to vote on on-chain proposals directly, delegate your voting power to your own address. Or, you can delegate your voting power to another community member and let them to vote on your behalf.
 
 ## Delegate to yourself (set up wallet for direct voting):
 

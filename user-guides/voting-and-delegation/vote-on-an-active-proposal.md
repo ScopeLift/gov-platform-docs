@@ -10,10 +10,10 @@ Before getting started, ensure that you have connected your wallet.
 [connect-your-wallet.md](connect-your-wallet.md)
 {% endcontent-ref %}
 
-Also confirm that you have voting power delegated to your address.&#x20;
-
 {% hint style="warning" %}
-Note that tokens you own are not active for voting until you delegate. **You must delegate to yourself if you wish to vote on proposals directly with your own tokens.**
+**Note for on-chain proposals:** \
+****\
+****Tokens you own are not active for voting until you delegate. **You must delegate to yourself if you wish to vote on proposals directly with your own tokens.**
 {% endhint %}
 
 {% content-ref url="delegate-votes.md" %}
