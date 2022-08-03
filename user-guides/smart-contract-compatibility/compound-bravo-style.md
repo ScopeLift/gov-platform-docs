@@ -1,5 +1,5 @@
 ---
-description: Compatibility considerations when implementing Compound bravo governor
+description: Compatibility considerations when implementing Compound Governor Bravo
 ---
 
 # Compound Bravo Style

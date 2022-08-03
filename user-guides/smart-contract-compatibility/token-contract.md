@@ -1,12 +1,16 @@
 ---
 description: >-
-  Compatibility considerations when implementing the token contract that will
-  work with your governance.
+  Compatibility considerations for an ERC20 or ERC721 token contract that will
+  work with on-chain governance.
 ---
 
 # Token contract
 
 ### Events signatures
+
+
+
+Tally's API listens to event logs from token contracts when indexing them. Your token contract will need to maintain the same event signatures:
 
 ```
 event DelegateVotesChanged(
@@ -19,18 +23,41 @@ event DelegateChanged(
     address indexed fromDelegate, 
     address indexed toDelegate
 );
+```
+
+Your contract will need to support transfer events, too.  Tally works with both ERC20 transfer events and ERC721 events.
+
+ERC20:
+
+```
 event Transfer(
     address indexed from, 
     address indexed to, 
     uint256 amount
 );
+
+
 ```
 
-### Functions signatures
+ERC721:
 
-Your token contract should implement these functions, if you are using an ERC20 token, you can use the ERC20Votes or the ERC20VotesComp extensions from the OpenZeppelin library to add these to your contract.
+```
+  event Transfer(
+    address indexed from, 
+    address indexed to, 
+    uint256 indexed tokenId
+);
+```
 
-If you're using an ERC71 you will need a custom implementation that uses the events signatures mentioned above and these functions signatures or do something similar to what Nouns DAO did with their [ERC721Checkpointable](https://github.com/withtally/my-nft-dao-project/blob/main/contracts/ERC721Checkpointable.sol) contract.
+
+
+### Function signatures
+
+Your token contract also needs to implement voting and delegation functions. If you are using an ERC20 token, you can use the [`ERC20Votes`](https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/token/ERC20/extensions/ERC20Votes.sol) or the [`ERC20VotesComp`](https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/token/ERC20/extensions/ERC20VotesComp.sol) extensions from the OpenZeppelin token contracts library.
+
+If you're using an ERC71 token, you can use OpenZeppelin's draft [`ERC721Votes`](https://github.com/OpenZeppelin/openzeppelin-contracts/tree/master/contracts/token/ERC721/extensions) extension.
+
+The Tally frontend helps users make these function calls to delegate their votes:
 
 ```
 function delegate(address delegatee)
