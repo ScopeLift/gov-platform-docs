@@ -4,7 +4,7 @@
 
 ## Technical Documentation <a href="#user-guides" id="user-guides"></a>
 
-* [🏛 What is a Governor Contract?](user-guides/what-is-a-governor-contract.md)
+* [🏛 What is a Governor Contract?](user-guides/governor-contract.md)
 * [⚙ Smart Contract Compatibility](user-guides/smart-contract-compatibility/README.md)
   * [OpenZeppelin Governor](user-guides/smart-contract-compatibility/openzeppelin-governor.md)
   * [Compound Bravo Style](user-guides/smart-contract-compatibility/compound-bravo-style.md)

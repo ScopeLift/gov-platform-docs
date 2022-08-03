@@ -2,13 +2,15 @@
 description: What is a Governor Contract, and why do DAOs use them?
 ---
 
-# 🏛 Governor Contract
+# 🏛 What is a Governor Contract?
 
 ### What is Governor?
 
 The Governor Contract pattern is a commonly used open-source smart contract that allows token holders to control a DAO with fully on-chain voting.&#x20;
 
-The Governor Contract is responsible for managing DAO proposals. It keeps track of the status of proposals, and it counts the votes to see if they pass. If a proposal passes, the Governor executes the proposal on-chain. Proposals can do anything that's on chain: send funds from a treasury, update the parameters of a DeFi protocol, change permissions of sub DAOs, mint NFTs, or modify the rules of the Governor itself.
+The Governor Contract is responsible for managing DAO proposals. It keeps track of the status of proposals, and it counts the votes to see if they pass. If a proposal passes, the Governor executes the proposal on-chain.&#x20;
+
+Proposals can do anything that's on chain: send funds from a treasury, update the parameters of a DeFi protocol, change permissions of sub DAOs, mint NFTs, or modify the rules of the Governor itself.
 
 ### How does Governor work?
 
@@ -26,7 +28,7 @@ The Governor manages proposals and their lifecycle. For example, Compound’s pr
 
 ### Why do DAOs use Governor?
 
-The main benefit of the Governor pattern is that the proposal lifecycle lives completely on-chain. Token voters don’t need to trust a third party to count their votes or to execute their transactions, because the smart contract does it entirely on-chain.
+The main benefit of the Governor pattern is that the DAO's decision-making happens completely on-chain. Token voters don’t need to trust a third party to count their votes or to execute their transactions, because the smart contract does it entirely on-chain.
 
 Additionally, DAOs can use whatever application interface(s) they want to interact with Governance, because anyone can call the smart contract. Tally is, of course, a widely-used interface, but people also use [Sybil](https://sybil.org/#/connect) or [their own UI](https://nouns.wtf/vote). Contributors also commonly make calls directly from Etherscan or the command line.
 
