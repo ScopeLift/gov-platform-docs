@@ -22,6 +22,10 @@ If you're looking for information about how to use the Tally app, visit the [Tal
 [governor-contract.md](user-guides/governor-contract.md)
 {% endcontent-ref %}
 
+{% content-ref url="user-guides/deploying-daos/" %}
+[deploying-daos](user-guides/deploying-daos/)
+{% endcontent-ref %}
+
 {% content-ref url="user-guides/smart-contract-compatibility/" %}
 [smart-contract-compatibility](user-guides/smart-contract-compatibility/)
 {% endcontent-ref %}
