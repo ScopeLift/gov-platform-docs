@@ -8,15 +8,13 @@ coverY: 0
 
 # Welcome to Tally's Developer Docs
 
-These docs explain how to deploy a DAO that is compatible with Tally. If you're looking for information about how to use the Tally app, visit [our Help Portal](http://help.tally.xyz/).
-
-To learn how to build DAO contracts that are compatible with Tally, check out [Smart Contract Compatibility](user-guides/smart-contract-compatibility/).
+These docs explain how to deploy a DAO that is compatible with Tally.&#x20;
 
 If you have any other questions that aren't covered here, feel free to [get in touch in our Discord](https://discord.com/invite/sCGnpWH3m4)!
 
 ## Help Portal
 
-Learn how to use the Tally app at the [Tally Help Portal](https://help.tally.xyz).&#x20;
+If you're looking for information about how to use the Tally app, visit the [Tally Help Portal](https://help.tally.xyz).&#x20;
 
 ## Technical Documentation
 
