@@ -6,21 +6,15 @@ description: >-
 
 # Supported use cases FAQ
 
-### Does Tally support governances that use two token contracts?
+### Does Tally support Governors that use two token contracts?
 
-The Tally app currently does not support governances that use two or more tokens in their governance contract.
+No, unfortunately we don't. The Tally API doesn't have a cost-effective way to calculating voting power for something more complicated than one token, one vote.&#x20;
 
-### Does Tally support governances with multiple governor contracts?
+### Does Tally support DAOs with multiple governor contracts?
 
-#### Sequential Governors
+Yes, with a workaround. Each Governor gets its own page. Tribe DAO, for example, has three Governors: [Fei](https://www.tally.xyz/governance/eip155:1:0x0BEF27FEB58e857046d630B2c03dFb7bae567494), [Rari Capital](https://www.tally.xyz/governance/eip155:1:0x637deEED4e4deb1D222650bD4B64192abf002c00), and [TribeNope DAO](https://www.tally.xyz/governance/eip155:1:0x6C7aF43Ce97686e0C8AcbBc03b2E4f313c0394C7). Other DAOs have&#x20;
 
-The Tally app currently supports governances that changes from one governor to another within the types supported: OpenZeppelin and Compound Bravo
-
-#### Simultaneous Governors
-
-The Tally app currently does not support governances with sumultaneus governor contracts.
-
-### What if you already have a token and you want to create a DAO using that token?
+### I have an existing token. How can I make a DAO that uses the token for on-chain voting?
 
 You can enable DAO governance for your existing token by adding an OpenZeppelin Governor Contract. Learn how in [this article on Tally's blog](https://blog.tally.xyz/how-to-add-dao-governance-to-existing-token-contracts-397855f081ac).&#x20;
 

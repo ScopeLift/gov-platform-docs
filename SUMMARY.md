@@ -8,7 +8,7 @@
 * [⚙ Smart Contract Compatibility](user-guides/smart-contract-compatibility/README.md)
   * [OpenZeppelin Governor](user-guides/smart-contract-compatibility/openzeppelin-governor.md)
   * [Compound Bravo Style](user-guides/smart-contract-compatibility/compound-bravo-style.md)
-  * [Token contract](user-guides/smart-contract-compatibility/token-contract.md)
+  * [Tokens: ERC20 and NFTs](user-guides/smart-contract-compatibility/tokens-erc20-and-nfts.md)
   * [Supported use cases FAQ](user-guides/smart-contract-compatibility/supported-use-cases-faq.md)
 
 ## Resources

@@ -20,8 +20,8 @@ If you do need to change something, check the dependencies here in the docs to m
 [compound-bravo-style.md](compound-bravo-style.md)
 {% endcontent-ref %}
 
-{% content-ref url="token-contract.md" %}
-[token-contract.md](token-contract.md)
+{% content-ref url="tokens-erc20-and-nfts.md" %}
+[tokens-erc20-and-nfts.md](tokens-erc20-and-nfts.md)
 {% endcontent-ref %}
 
 {% content-ref url="supported-use-cases-faq.md" %}
