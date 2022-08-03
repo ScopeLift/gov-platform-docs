@@ -14,34 +14,34 @@ If you have any other questions that aren't covered here, feel free to [get in t
 
 ## User Guides
 
-{% content-ref url="user-guides/adding-a-dao-to-tally.md" %}
-[adding-a-dao-to-tally.md](user-guides/adding-a-dao-to-tally.md)
+{% content-ref url="broken-reference" %}
+[Broken link](broken-reference)
 {% endcontent-ref %}
 
-{% content-ref url="user-guides/voting-and-delegation/create-a-proposal.md" %}
-[create-a-proposal.md](user-guides/voting-and-delegation/create-a-proposal.md)
+{% content-ref url="broken-reference" %}
+[Broken link](broken-reference)
 {% endcontent-ref %}
 
-{% content-ref url="user-guides/voting-and-delegation/vote-on-an-active-proposal.md" %}
-[vote-on-an-active-proposal.md](user-guides/voting-and-delegation/vote-on-an-active-proposal.md)
+{% content-ref url="broken-reference" %}
+[Broken link](broken-reference)
 {% endcontent-ref %}
 
-{% content-ref url="user-guides/voting-and-delegation/delegate-votes.md" %}
-[delegate-votes.md](user-guides/voting-and-delegation/delegate-votes.md)
+{% content-ref url="broken-reference" %}
+[Broken link](broken-reference)
 {% endcontent-ref %}
 
-{% content-ref url="user-guides/navigating-the-app/" %}
-[navigating-the-app](user-guides/navigating-the-app/)
+{% content-ref url="broken-reference" %}
+[Broken link](broken-reference)
 {% endcontent-ref %}
 
-{% content-ref url="user-guides/your-tally-account/" %}
-[your-tally-account](user-guides/your-tally-account/)
+{% content-ref url="broken-reference" %}
+[Broken link](broken-reference)
 {% endcontent-ref %}
 
 ## Technical Documentation
 
-{% content-ref url="user-guides-1/supported-dao-frameworks/" %}
-[supported-dao-frameworks](user-guides-1/supported-dao-frameworks/)
+{% content-ref url="user-guides/smart-contract-compatibility/" %}
+[smart-contract-compatibility](user-guides/smart-contract-compatibility/)
 {% endcontent-ref %}
 
 

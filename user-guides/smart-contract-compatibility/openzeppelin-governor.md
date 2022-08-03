@@ -2,13 +2,13 @@
 description: Compatibility considerations when implementing OpenZeppelin governor
 ---
 
-# OpenZeppelin Style
+# OpenZeppelin Governor
 
-To be compatible with the Tally app we recommend you to use OpenZeppelin's library [Governor contract](https://docs.openzeppelin.com/contracts/4.x/api/governance). If you want to implement changes to this base contract these are the things you should keep in mind.
+To be compatible with the Tally app we recommend you to use OpenZeppelin's library [Governor contract](https://docs.openzeppelin.com/contracts/4.x/api/governance). If you want to implement changes to this base contract, here is the interface that you should follow to make sure your contract works with our app.
 
-### Events signatures
+### Event signatures
 
-Please maintain the event signatures that OZ Governor implements, we use these to index the data needed from your governance.
+Tally's API listens to event logs from Governor contracts when indexing them. Your contract will need to maintain the same event signatures that OZ Governor implements:
 
 ```
 event ProposalCreated(
@@ -22,8 +22,11 @@ event ProposalCreated(
     uint256 endBlock,
     string description
 );
+
 event ProposalCanceled(uint256 proposalId);
+
 event ProposalExecuted(uint256 proposalId);
+
 event VoteCast(
     address indexed voter, 
     uint256 proposalId, 
@@ -33,9 +36,11 @@ event VoteCast(
 );
 ```
 
-### Functions signatures
+### Function signatures
 
-These are the functions signatures that cannot change:
+Tally's frontend app helps users make web3 calls to your Governor contract. The app lets users create Proposals as well as vote on, queue and execute them.  In addition, the app reads state from the contract with function calls.&#x20;
+
+To be compatible with Tally, your Governor will need these function signatures:
 
 ```
 function votingDelay() public view virtual returns (uint256);
@@ -85,7 +90,7 @@ function castVoteBySig(
 ) public virtual returns (uint256 balance);
 ```
 
-If your OpenZeppelin governor contract implements a timelock, this function signature also needs to be maintained:
+If your OpenZeppelin governor contract uses a Timelock, it will also need this signature:
 
 ```
 function queue(
@@ -98,7 +103,7 @@ function queue(
 
 ### Proposal state lifecycle
 
-We support the following states during the proposal lifecycle if your governance uses different states from these it won't work on Tally:
+Tally's app expects the following proposal states. If your Governor uses a custom proposal lifecycle, those states won't show up correctly on on Tally:
 
 ```
 enum ProposalState {
