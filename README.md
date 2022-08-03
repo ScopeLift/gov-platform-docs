@@ -20,8 +20,8 @@ Learn how to use the Tally app at the [Tally Help Portal](https://help.tally.xyz
 
 ## Technical Documentation
 
-{% content-ref url="user-guides/governor-contract.md" %}
-[governor-contract.md](user-guides/governor-contract.md)
+{% content-ref url="user-guides/what-is-a-governor-contract.md" %}
+[what-is-a-governor-contract.md](user-guides/what-is-a-governor-contract.md)
 {% endcontent-ref %}
 
 {% content-ref url="user-guides/smart-contract-compatibility/" %}
