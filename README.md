@@ -8,6 +8,8 @@ coverY: 0
 
 # 👋 Get started
 
+
+
 Welcome! These developer docs explain how to deploy a DAO that is compatible with Tally.&#x20;
 
 If you have any other questions that aren't covered here, feel free to [get in touch in our Discord](https://discord.com/invite/sCGnpWH3m4)!
@@ -31,6 +33,8 @@ If you're looking for information about how to use the Tally app, visit the [Tal
 {% endcontent-ref %}
 
 ## Links and Resources&#x20;
+
+{% embed url="https://help.tally.xyz" %}
 
 {% content-ref url="broken-reference" %}
 [Broken link](broken-reference)
