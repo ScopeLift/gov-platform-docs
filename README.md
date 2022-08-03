@@ -6,7 +6,7 @@ cover: .gitbook/assets/tallycover.jpeg
 coverY: 0
 ---
 
-# Welcome to Tally's Developer Docs
+# 👋 Get started
 
 These docs explain how to deploy a DAO that is compatible with Tally.&#x20;
 

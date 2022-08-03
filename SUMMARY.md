@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Welcome](README.md)
+* [👋 Get started](README.md)
 
 ## Technical Documentation <a href="#user-guides" id="user-guides"></a>
 
