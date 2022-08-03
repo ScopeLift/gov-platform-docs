@@ -16,7 +16,9 @@ A Governor contract needs on a **token contract**. The token contract provides t
 
 **Implementation detail**
 
+{% hint style="info" %}
 _The token contract needs to implement a_ [_voting interface_](https://docs.openzeppelin.com/contracts/4.x/api/token/erc20#ERC20Votes) _so that a Governor can get the voting power of voters’ addresses. If your token doesn’t already have that interface, you can_ [_deploy a wrapper contract_](https://blog.tally.xyz/how-to-add-dao-governance-to-existing-token-contracts-397855f081ac) _that does._
+{% endhint %}
 
 The Governor manages proposals and their lifecycle. For example, Compound’s proposals go through this lifecycle:
 
