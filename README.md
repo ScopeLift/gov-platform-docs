@@ -6,9 +6,9 @@ cover: .gitbook/assets/tallycover.jpeg
 coverY: 0
 ---
 
-# Welcome to Tally's Tech Docs
+# Welcome to Tally's Developer Docs
 
-These docs explain how and why to deploy a DAO that is compatible with Tally. If you're looking for information about how to use the Tally app, visit [our Help Portal](http://help.tally.xyz/).
+These docs explain how to deploy a DAO that is compatible with Tally. If you're looking for information about how to use the Tally app, visit [our Help Portal](http://help.tally.xyz/).
 
 To learn how to build DAO contracts that are compatible with Tally, check out [Smart Contract Compatibility](user-guides/smart-contract-compatibility/).
 
