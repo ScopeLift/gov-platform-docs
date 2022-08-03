@@ -46,5 +46,13 @@ To learn more about **how to deploy a Governor**, check out [OpenZeppelin's guid
 
 If your DAO already has a Governor deployed, [add it to Tally here](https://tally.xyz/start-a-dao)! Tally provides easy-to-use Governor user interface for delegating votes, creating proposals, and voting on proposals.
 
-\
+#### _Helpful Links_
+
+* [Compound Governor](https://compound.finance/docs/governance)
+* [OpenZeppelin wizard](https://docs.openzeppelin.com/contracts/4.x/wizard)
+* [OpenZeppelin docs](https://docs.openzeppelin.com/contracts/4.x/governance)
+* [OpenZeppelin Introducing OZ Governor](https://blog.openzeppelin.com/governor-smart-contract/)
+* [OpenZeppelin forums](https://forum.openzeppelin.com/)
+* [Build your DAO with OpenZeppelin Governor ft. ENS](https://www.youtube.com/watch?v=Lltt6j6Hmww)
+
 \
