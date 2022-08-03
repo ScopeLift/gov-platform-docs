@@ -1,5 +1,5 @@
 ---
-description: Compatibility considerations when implementing Compound bravo governor
+description: Compatibility considerations when implementing Compound Governor Bravo
 ---
 
 # Compound Bravo Style
@@ -102,4 +102,16 @@ enum ProposalState {
     Expired,
     Executed
 }
+```
+
+
+
+Governor Parameter Changes
+
+Governors can change their own parameters, like proposal times and the amount of voting power required to create and pass proposals. To make sure that Tally indexes your Governor's parameter changes, implement these event signatures:
+
+```
+ event VotingDelaySet(uint256 oldVotingDelay, uint256 newVotingDelay);
+ event VotingPeriodSet(uint256 oldVotingPeriod, uint256 newVotingPeriod);
+ event ProposalThresholdSet(uint256 oldProposalThreshold, uint256 newProposalThreshold);
 ```
