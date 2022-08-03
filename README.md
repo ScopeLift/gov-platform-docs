@@ -8,7 +8,7 @@ coverY: 0
 
 # 👋 Get started
 
-These docs explain how to deploy a DAO that is compatible with Tally.&#x20;
+Welcome! These developer docs explain how to deploy a DAO that is compatible with Tally.&#x20;
 
 If you have any other questions that aren't covered here, feel free to [get in touch in our Discord](https://discord.com/invite/sCGnpWH3m4)!
 
