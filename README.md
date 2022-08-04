@@ -12,9 +12,9 @@ Welcome! These developer docs explain how to deploy a DAO that is compatible wit
 
 If you have any other questions that aren't covered here, feel free to [get in touch in our Discord](https://discord.com/invite/sCGnpWH3m4)!
 
-## Help Portal
+## Knowledge Base
 
-If you're looking for information about how to use the Tally app, visit the [Tally Help Portal](https://help.tally.xyz).&#x20;
+If you're looking for information about how to use the Tally app, visit the [Tally Knowledge Base](https://help.tally.xyz).&#x20;
 
 ## Technical Documentation
 
