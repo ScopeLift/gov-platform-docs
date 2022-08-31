@@ -2,7 +2,7 @@
 description: Add a DAO to an existing ERC20 token or NFT
 ---
 
-# Add a DAO to an existing token
+# Add a Governor to an existing token
 
 **How to add a Governor to a token**
 

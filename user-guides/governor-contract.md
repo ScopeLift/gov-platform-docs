@@ -42,7 +42,7 @@ Governor was later standardized by OpenZeppelin. They maintain [the most widely 
 
 Yes! Tally’s app expects a certain interface, but there’s lots of flexibility within that interface. OpenZeppelin’s version has several different modules, and the code is fully customizable with their [deployment wizard](https://wizard.openzeppelin.com/). If you make changes to the contract, you can test them on Tally by deploying to a testnet.
 
-If you want to know what changes will and won't work with Tally, check out our [Smart Contract Compatibility docs](tally-contract-compatibility/).
+If you want to know what changes will and won't work with Tally, check out our [Smart Contract Compatibility docs](smart-contract-compatibility/).
 
 To learn more about **how to deploy a Governor**, check out [OpenZeppelin's guide here](https://docs.openzeppelin.com/contracts/4.x/governance).
 

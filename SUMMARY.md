@@ -5,19 +5,19 @@
 ## Technical Documentation <a href="#user-guides" id="user-guides"></a>
 
 * [🏛 What is a Governor Contract?](user-guides/governor-contract.md)
-* [🏗 Deploying Governor DAOs](user-guides/deploying-governor-daos/README.md)
-  * [Deploy a Governor DAO](user-guides/deploying-governor-daos/deploy-a-governor-dao.md)
-  * [Deploy an NFT Governor](user-guides/deploying-governor-daos/deploy-an-nft-governor.md)
-  * [Add a Governor to an existing token](user-guides/deploying-governor-daos/add-a-governor-to-an-existing-token.md)
-  * [Pick good Governor parameters](user-guides/deploying-governor-daos/pick-good-governor-parameters.md)
-  * [Upgrade Gnosis Safe to Governor with Zodiac](user-guides/deploying-governor-daos/upgrade-gnosis-safe-to-governor-with-zodiac.md)
-* [⚙ Tally Contract Compatibility](user-guides/tally-contract-compatibility/README.md)
-  * [OpenZeppelin Governor](user-guides/tally-contract-compatibility/openzeppelin-governor.md)
-  * [Compound Bravo Style](user-guides/tally-contract-compatibility/compound-bravo-style.md)
-  * [Tokens: ERC20 and NFTs](user-guides/tally-contract-compatibility/tokens-erc20-and-nfts.md)
-  * [Supported use cases FAQ](user-guides/tally-contract-compatibility/supported-use-cases-faq.md)
-* [📝 Governor proposal Standards](user-guides/governor-proposal-standards/README.md)
-  * [What’s the standard for Governor proposal descriptions?](user-guides/governor-proposal-standards/whats-the-standard-for-governor-proposal-descriptions.md)
+* [🏗 Deploying Governor DAOs](user-guides/deploying-daos/README.md)
+  * [Deploy a Governor DAO](user-guides/deploying-daos/deploy-a-dao-with-token-voting.md)
+  * [Deploy an NFT Governor](user-guides/deploying-daos/deploy-an-nft-dao.md)
+  * [Add a Governor to an existing token](user-guides/deploying-daos/add-a-dao-to-an-existing-token.md)
+  * [Pick good Governor parameters](user-guides/deploying-daos/how-to-pick-governor-parameters.md)
+  * [Upgrade Gnosis Safe to Governor with Zodiac](user-guides/deploying-daos/how-to-upgrade-a-gnosis-safe-to-a-governor-with-zodiac.md)
+* [⚙ Tally Contract Compatibility](user-guides/smart-contract-compatibility/README.md)
+  * [OpenZeppelin Governor](user-guides/smart-contract-compatibility/openzeppelin-governor.md)
+  * [Compound Bravo Style](user-guides/smart-contract-compatibility/compound-bravo-style.md)
+  * [Tokens: ERC20 and NFTs](user-guides/smart-contract-compatibility/tokens-erc20-and-nfts.md)
+  * [Supported use cases FAQ](user-guides/smart-contract-compatibility/supported-use-cases-faq.md)
+* [📝 Governor Proposal Standards](user-guides/governor-proposals/README.md)
+  * [What’s the standard for Governor proposal descriptions?](user-guides/governor-proposals/whats-the-standard-for-governor-proposal-descriptions.md)
 
 ## Resources
 

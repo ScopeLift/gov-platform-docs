@@ -2,7 +2,7 @@
 description: How to make your Token and Governor contract compatible with Tally
 ---
 
-# ⚙ Smart Contract Compatibility
+# ⚙ Tally Contract Compatibility
 
 Tally supports DAOs on Ethereum, Polygon, Optimism, Arbitrum, Avalanche, and various testnets .
 

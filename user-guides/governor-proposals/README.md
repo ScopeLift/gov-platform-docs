@@ -1,4 +1,8 @@
-# 📝 Governor proposals
+---
+description: Standards for interacting with on-chain Governor Proposals
+---
+
+# 📝 Governor Proposal Standards
 
 #### ℹ️ _This section is a work in-progress._
 
