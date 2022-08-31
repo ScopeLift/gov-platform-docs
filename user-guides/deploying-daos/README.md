@@ -12,10 +12,10 @@
 [add-a-dao-to-an-existing-token.md](add-a-dao-to-an-existing-token.md)
 {% endcontent-ref %}
 
-{% content-ref url="pick-governor-parameters.md" %}
-[pick-governor-parameters.md](pick-governor-parameters.md)
+{% content-ref url="pick-good-governor-parameters.md" %}
+[pick-good-governor-parameters.md](pick-good-governor-parameters.md)
 {% endcontent-ref %}
 
-{% content-ref url="upgrade-gnosis-safe-to-governor-with-zodiac.md" %}
-[upgrade-gnosis-safe-to-governor-with-zodiac.md](upgrade-gnosis-safe-to-governor-with-zodiac.md)
+{% content-ref url="how-to-upgrade-a-gnosis-safe-to-a-governor-with-zodiac.md" %}
+[how-to-upgrade-a-gnosis-safe-to-a-governor-with-zodiac.md](how-to-upgrade-a-gnosis-safe-to-a-governor-with-zodiac.md)
 {% endcontent-ref %}
