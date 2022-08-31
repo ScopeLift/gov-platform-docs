@@ -14,6 +14,8 @@
   * [Compound Bravo Style](user-guides/smart-contract-compatibility/compound-bravo-style.md)
   * [Tokens: ERC20 and NFTs](user-guides/smart-contract-compatibility/tokens-erc20-and-nfts.md)
   * [Supported use cases FAQ](user-guides/smart-contract-compatibility/supported-use-cases-faq.md)
+* [📝 Governor proposals](user-guides/governor-proposals/README.md)
+  * [What’s the standard for Governor proposal descriptions?](user-guides/governor-proposals/whats-the-standard-for-governor-proposal-descriptions.md)
 
 ## Resources
 
