@@ -4,17 +4,17 @@ description: >-
   Timelock Delay.
 ---
 
-# How to pick Governor parameters
+# Pick Governor parameters
 
 A Governor contract has several important parameters that affect the lifecycles of its proposals . Think about these parameters as a balancing act between ease of passing proposals and security against malicious proposals. That’s an important – and tough – tradeoff to get right!&#x20;
 
 Here's a guide to picking these parameters to set a DAO up for success by picking the right parameters:
 
-* Picking a good [Proposal Threshold](how-to-pick-governor-parameters.md#how-to-pick-the-proposal-threshold)
-* Picking a good [Quorum](how-to-pick-governor-parameters.md#how-to-pick-the-quorum)
-* Picking a good [Voting Period](how-to-pick-governor-parameters.md#how-to-pick-the-voting-period)
-* Picking a good [Voting Delay](how-to-pick-governor-parameters.md#how-to-pick-the-voting-delay)
-* Picking a good [Timelock Delay](how-to-pick-governor-parameters.md#how-to-pick-the-timelock-delay)
+* Picking a good [Proposal Threshold](pick-governor-parameters.md#how-to-pick-the-proposal-threshold)
+* Picking a good [Quorum](pick-governor-parameters.md#how-to-pick-the-quorum)
+* Picking a good [Voting Period](pick-governor-parameters.md#how-to-pick-the-voting-period)
+* Picking a good [Voting Delay](pick-governor-parameters.md#how-to-pick-the-voting-delay)
+* Picking a good [Timelock Delay](pick-governor-parameters.md#how-to-pick-the-timelock-delay)
 
 #### ℹ️ _Governors (except legacy ones like Governor Alpha) can upgrade their parameters with an on-chain proposal. Be careful at the start, though! If the parameters are set too high, it might be too hard to make an on-chain proposal to modify them to make it easier._
 
