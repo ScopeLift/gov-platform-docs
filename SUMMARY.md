@@ -10,6 +10,7 @@
   * [Deploy an NFT DAO](user-guides/deploying-daos/deploy-an-nft-dao.md)
   * [Add a DAO to an existing token](user-guides/deploying-daos/add-a-dao-to-an-existing-token.md)
   * [How to upgrade a Gnosis Safe to a Governor with Zodiac](user-guides/deploying-daos/how-to-upgrade-a-gnosis-safe-to-a-governor-with-zodiac.md)
+  * [How to pick Governor parameters](user-guides/deploying-daos/how-to-pick-governor-parameters.md)
 * [⚙ Smart Contract Compatibility](user-guides/smart-contract-compatibility/README.md)
   * [OpenZeppelin Governor](user-guides/smart-contract-compatibility/openzeppelin-governor.md)
   * [Compound Bravo Style](user-guides/smart-contract-compatibility/compound-bravo-style.md)
