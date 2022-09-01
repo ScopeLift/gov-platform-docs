@@ -16,7 +16,11 @@ Here's a guide to picking these parameters to set a DAO up for success by pickin
 * Picking a good [Voting Delay](how-to-pick-governor-parameters.md#how-to-pick-the-voting-delay)
 * Picking a good [Timelock Delay](how-to-pick-governor-parameters.md#how-to-pick-the-timelock-delay)
 
-#### ℹ️ _Governors (except legacy ones like Governor Alpha) can upgrade their parameters with an on-chain proposal. Be careful at the start, though! If the parameters are set too high, it might be too hard to make an on-chain proposal to modify them to make it easier._
+{% hint style="info" %}
+#### Governors can generally update their parameters with an on-chain proposal.&#x20;
+
+Be careful at the start, though. If the parameters are set too high, it will be hard to make the on-chain proposal that updates the parameters!
+{% endhint %}
 
 ### **How to pick the Proposal Threshold**
 
@@ -26,21 +30,27 @@ The purpose of the threshold is to prevent spam proposals and to make sure that 
 
 Picking a good Proposal Threshold depends on the distribution of delegated voting power, which might be hard to know before the DAO gets off the ground. Once the distribution of voting power is known, it’s a good idea to have a medium-size group of delegates over the threshold. DAOs on Tally typically set their Proposal Threshold to a place where at least 5-10 delegates have enough voting power to make a proposal.
 
-#### ℹ️ _If there isn't anyone above the proposal threshold, the best option is to get more tokenholders to delegate. Another option is to ask people to delegate to an_ [_Autonomous Proposal_](https://medium.com/compound-finance/compound-autonomous-proposals-354e7a2ad6b7)_, which is a smart contract that can make a proposal when it gets enough delegations_ 
+{% hint style="info" %}
+If there isn't anyone more voting power than the proposal threshold, one option is to have people to delegate to an Autonomous Proposal, which is a smart contract that can make a proposal when it gets enough delegations. Learn more about autonomous proposals in [this blog post from Compund](https://medium.com/compound-finance/compound-autonomous-proposals-354e7a2ad6b7).
+{% endhint %}
 
 ### **How to pick the Quorum**&#x20;
 
 The Quorum is the amount of \`For\` votes – sometimes also including the amount of \`Abstain\` votes – for a proposal.&#x20;
 
-#### ℹ️ _Note that this definition of quorum is different from the commonly-used one in legislatures, which also includes \`Against\` votes. The motivation for the different definition is to prevent a situation where voting \`Against\` a proposal causes it to pass by pushing it over the quorum._
+{% hint style="info" %}
+Governor's quorum does not include `Against` votes, which is different from the commonly-used quorum rules in legislatures and parliaments. Governor's quorum is designed to avoid a situation where voting `Against` a proposal causes it to pass by pushing it over the quorum.
+{% endhint %}
 
 Picking a good quorum is tough, because it depends on voter turnout, which might be hard to know in advance. A too-high quorum might make it impossible for a Governor to pass \*any\* proposals! On the other hand, too-low quorum might open up the Governor to spam attacks, where an attacker repeatedly submits a malicious proposal and forces other voters to repeatedly vote it down.
 
 For Governors on Tally, the quorum is usually somewhere in the range of 1-10% of circulating token supply.
 
-#### ⚠️ _Note that many DAOs have a non-circulating token supply. Those tokens can’t vote! The original Yam finance bricked its Governor by calculating quorum as a percentage of total supply, while also automatically minting new supply to its timelock._
+{% hint style="info" %}
+Watch out for interactions between the quorum and the non-circulating token supply. Non-circulating tokens can’t vote!
 
-
+This interaction has bitten DAOs in the past. The original Yam finance Governor bricked itself because it calculated quorum as a percentage of total supply, including non-circulating tokens minted to its treasury.
+{% endhint %}
 
 ### **How to pick the Voting Period**
 
