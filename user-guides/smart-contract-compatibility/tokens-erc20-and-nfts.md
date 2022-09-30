@@ -69,5 +69,7 @@ function delegateBySig(
     bytes32 r, 
     bytes32 s
 )
-function getVotes(address account) public view returns (uint256)
+function getVotes(address account) uint256
+function name() string
+function symbol() string
 ```
