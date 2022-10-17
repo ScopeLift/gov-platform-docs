@@ -49,7 +49,6 @@ function castVote(uint proposalId, uint8 support) external
 function castVoteWithReason(
     uint proposalId, 
     uint8 support, 
-    string calldata 
     string reason
 ) external
 
