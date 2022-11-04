@@ -30,6 +30,12 @@ If you're looking for information about how to use the Tally app, visit the [Tal
 [smart-contract-compatibility](user-guides/smart-contract-compatibility/)
 {% endcontent-ref %}
 
+## Coming Soon!
+
+{% content-ref url="user-guides/tally-api.md" %}
+[tally-api.md](user-guides/tally-api.md)
+{% endcontent-ref %}
+
 ## Links and Resources&#x20;
 
 {% embed url="https://help.tally.xyz" %}
