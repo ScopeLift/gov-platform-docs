@@ -12,6 +12,7 @@
   * [Pick good Governor parameters](user-guides/deploying-daos/how-to-pick-governor-parameters.md)
   * [Upgrade Gnosis Safe to Governor with Zodiac](user-guides/deploying-daos/how-to-upgrade-a-gnosis-safe-to-a-governor-with-zodiac.md)
 * [⚙ Tally Contract Compatibility](user-guides/smart-contract-compatibility/README.md)
+  * [Network Support](user-guides/tally-contract-compatibility/network-support.md)
   * [OpenZeppelin Governor](user-guides/smart-contract-compatibility/openzeppelin-governor.md)
   * [Compound Bravo Style](user-guides/smart-contract-compatibility/compound-bravo-style.md)
   * [Tokens: ERC20 and NFTs](user-guides/smart-contract-compatibility/tokens-erc20-and-nfts.md)
