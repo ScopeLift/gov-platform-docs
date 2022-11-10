@@ -1,5 +1,5 @@
 ---
-description: Making votes more capital efficient, cheaper or more private
+description: Make voting more capital efficient, cheaper or more private
 ---
 
 # Flexible Voting Extension
