@@ -126,4 +126,5 @@ Governors can change their own parameters, like proposal times and the amount of
  event VotingDelaySet(uint256 oldVotingDelay, uint256 newVotingDelay);
  event VotingPeriodSet(uint256 oldVotingPeriod, uint256 newVotingPeriod);
  event ProposalThresholdSet(uint256 oldProposalThreshold, uint256 newProposalThreshold);
+ event QuorumNumeratorUpdated(uint256 oldQuorumNumerator, uint256 newQuorumNumerator);
 ```

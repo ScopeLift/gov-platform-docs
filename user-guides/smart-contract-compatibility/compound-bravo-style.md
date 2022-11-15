@@ -4,7 +4,7 @@ description: Compatibility considerations when implementing Compound Governor Br
 
 # Compound Bravo Style
 
-Tallys supports [Compound Governor Bravo](https://github.com/compound-finance/compound-protocol/blob/master/contracts/Governance/GovernorBravoDelegate.sol). However, if you are deploying a new Governor, we recommend [OpenZeppelin's Governor.](openzeppelin-governor.md) OZ Governor is more actively maintained.
+Tally supports [Compound Governor Bravo](https://github.com/compound-finance/compound-protocol/blob/master/contracts/Governance/GovernorBravoDelegate.sol). However, if you are deploying a new Governor, we recommend [OpenZeppelin's Governor.](openzeppelin-governor.md) OZ Governor is more actively maintained.
 
 &#x20;If you're already using a direct fork of Governor Bravo, then your DAO should work with Tally out of the box. If you insist on making changes to the base contract, then you can use this guide to make sure that your changes are compatible with Tally's API and web interface.
 
