@@ -101,6 +101,36 @@ function queue(
 ) public virtual override returns (uint256)
 ```
 
+#### Quorum
+
+Tally needs to know the Quorum to calculate if a proposal has passed.
+
+Tally expects either a `quorum()` function or both the `quorumNumerator()` and `quorumDenominator()` functions with these signatures:
+
+```
+function quorum(uint256 blockNumber) public view virtual returns (uint256);
+function quorumNumerator() public view virtual returns (uint256);
+function quorumDenominator() public view virtual returns (uint256);
+```
+
+If the Governor is missing either `quorumNumerator()` or `quorumDenominator()`, Tally falls back to the `quorum()` function.&#x20;
+
+#### Voting Delay
+
+Tally needs to know the voting delay to calculate when voting starts without polling the blockchain. A `votingDelay()` function on Governor is required:
+
+```
+function votingPeriod() public view virtual returns (uint256);
+```
+
+#### Voting Period
+
+Tally needs to know the voting period to calculate when a proposal finishes voting without polling the blockchain. A `votingPeriod()` function on Governor is required:
+
+```
+function votingPeriod() public view virtual returns (uint256);
+```
+
 ### Proposal state lifecycle
 
 Tally's app expects the following proposal states. If your Governor uses a custom proposal lifecycle, those states won't show up correctly on on Tally:
