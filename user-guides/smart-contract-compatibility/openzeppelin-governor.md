@@ -120,7 +120,7 @@ If the Governor is missing either `quorumNumerator()` or `quorumDenominator()`, 
 Tally needs to know the voting delay to calculate when voting starts without polling the blockchain. A `votingDelay()` function on Governor is required:
 
 ```
-function votingPeriod() public view virtual returns (uint256);
+function votingDelay() public view virtual returns (uint256);
 ```
 
 #### Voting Period
