@@ -30,7 +30,7 @@ _The token contract needs to implement a_ [_voting interface_](https://docs.open
 
 The main benefit of the Governor pattern is that the DAO's decision-making happens completely on-chain. Token voters don’t need to trust a third party to count their votes or to execute their transactions, because the smart contract does it entirely on-chain.
 
-Additionally, DAOs can use whatever application interface(s) they want to interact with Governance, because anyone can call the smart contract. Tally is, of course, a widely-used interface, but people also use [Sybil](https://sybil.org/#/connect) or [their own UI](https://nouns.wtf/vote). Contributors also commonly make calls directly from Etherscan or the command line.
+Additionally, DAOs can use whatever application interface(s) they want to interact with governance, because anyone can call the smart contract. Tally is, of course, a widely-used interface, but people also use [Sybil](https://sybil.org/#/connect) or [their own UI](https://nouns.wtf/vote). Contributors also commonly make calls directly from Etherscan or the command line.
 
 ### Who made Governor?
 
@@ -48,7 +48,7 @@ To learn more about **how to deploy a Governor**, check out [OpenZeppelin's guid
 
 ### Add your Governor contract to Tally
 
-If your DAO already has a Governor deployed, [add it to Tally here](https://tally.xyz/start-a-dao)! Tally provides easy-to-use Governor user interface for delegating votes, creating proposals, and voting on proposals.
+If your DAO already has a Governor deployed, [add it to Tally here](https://tally.xyz/start-a-dao)! Tally provides an easy-to-use Governor user interface for delegating votes, creating proposals, and voting on proposals.
 
 #### _Helpful Links_
 
