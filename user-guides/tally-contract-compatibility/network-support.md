@@ -8,27 +8,27 @@ description: Networks supported on the Tally interface.
 
 **Ethereum**
 
-* **Ethereum Mainnet** and **Görli Testnet**
+* Ethereum Mainnet and Görli Testnet
 
 **Polygon**
 
-* **Polygon Mainnet** and **Mumbai Testnet**
+* Polygon Mainnet and Mumbai Testnet
 
 **Binance Smart Chain**&#x20;
 
-* **BSC Mainnet** and **BSC Testnet**
+* BSC Mainnet and BSC Testnet
 
 **Arbitrum**
 
-* **Arbitrum One** only. **Arbitrum Görli** still in progress
+* Arbitrum One only. Arbitrum Görli still in progress
 
 **Optimism**
 
-* **Optimism** and **Optimism Goerli Testnet**
+* Optimism and Optimism Goerli Testnet
 
 **Avalanche**
 
-* **Avalanche C-Chain** and **Fuji Testnet**
+* Avalanche C-Chain and Fuji Testnet
 
 ****
 
