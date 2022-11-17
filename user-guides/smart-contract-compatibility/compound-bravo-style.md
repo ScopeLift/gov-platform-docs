@@ -38,7 +38,7 @@ event ProposalQueued(uint id, uint eta);
 event ProposalExecuted(uint id);
 ```
 
-### Functions signatures
+### Function signatures
 
 Tally's frontend app helps users make web3 calls to your Governor contract. The app lets users create Proposals as well as vote on, queue and execute them.
 
