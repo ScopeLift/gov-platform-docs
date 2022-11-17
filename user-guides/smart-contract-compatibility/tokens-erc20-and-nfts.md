@@ -81,10 +81,22 @@ function decimals() public view returns (uint8)
 
 The token contract must implement the `name()` function, so that Tally knows what to call the token.
 
+```
+function name() string
+```
+
 #### Symbol
 
 The token contract must implement a `symbol()` function, so that Tally knows the short name of the token.
 
+```
+function symbol() string
+```
+
 #### Decimals
 
-ERC20 token contracts must implement a `decimals()` function, so that Tally can correctly render token balances.
+ERC20 token contracts must implement a `decimals()` function, so that Tally can correctly render token balances:
+
+```
+function decimals() public view returns (uint8) 
+```
