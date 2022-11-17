@@ -137,7 +137,7 @@ enum ProposalState {
 
 
 
-Governor Parameter Changes
+### Governor Parameter Changes
 
 Governors can change their own parameters, like proposal times and the amount of voting power required to create and pass proposals. To make sure that Tally indexes your Governor's parameter changes, implement these event signatures:
 
