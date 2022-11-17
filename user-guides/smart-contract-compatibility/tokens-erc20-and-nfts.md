@@ -6,7 +6,7 @@ description: >-
 
 # Tokens: ERC20 and NFTs
 
-### Events signatures
+### Event signatures
 
 
 
@@ -27,7 +27,7 @@ event DelegateChanged(
 
 Your contract will need to support transfer events, too.  Tally works with both ERC20 transfer events and ERC721 events.
 
-ERC20:
+#### ERC20:
 
 ```
 event Transfer(
@@ -39,7 +39,7 @@ event Transfer(
 
 ```
 
-ERC721:
+#### ERC721:
 
 ```
   event Transfer(
@@ -72,4 +72,19 @@ function delegateBySig(
 function getVotes(address account) uint256
 function name() string
 function symbol() string
+
+// ERC20 only:
+function decimals() public view returns (uint8) 
 ```
+
+#### Name
+
+The token contract must implement the `name()` function, so that Tally knows what to call the token.
+
+#### Symbol
+
+The token contract must implement a `symbol()` function, so that Tally knows the short name of the token.
+
+#### Decimals
+
+ERC20 token contracts must implement a `decimals()` function, so that Tally can correctly render token balances.
