@@ -86,6 +86,38 @@ uint public proposalThreshold;
 uint public constant quorumVotes;
 ```
 
+#### Quorum
+
+Tally needs the quorum to figure out whether a proposal passed.
+
+Tally expects a `quorum` constant:
+
+```
+uint public constant quorumVotes;
+```
+
+_Note that the_ [_OpenZeppelin interface_](openzeppelin-governor.md) _uses a function instead of a constant for quorum._
+
+#### Voting Delay
+
+For Governor Bravo, Tally uses the voting delay to know when voting starts. Governor Alpha does not have a voting delay. For Governor Bravo, a `votingDelay` constant on Governor is required:
+
+```
+uint public votingDelay;
+```
+
+_Note that the_ [_OpenZeppelin interface_](openzeppelin-governor.md) _uses a function instead of a constant for voting delay._
+
+#### Voting Period
+
+Tally uses the voting period to correctly show the end of voting. A `votingPeriod()` constant on Governor is required:
+
+```
+uint public votingPeriod;
+```
+
+_Note that the_ [_OpenZeppelin interface_](openzeppelin-governor.md) _uses a function instead of a constant for voting period._
+
 ### Proposal state lifecycle
 
 Tally's app expects the following proposal states. If your Governor uses a custom proposal lifecycle, those states won't show up correctly on on Tally:
