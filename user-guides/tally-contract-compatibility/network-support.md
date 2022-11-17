@@ -41,9 +41,9 @@ To support a chain, Tally has several must-have dependencies:
 * An archive node with a high rate limit for indexing
 * A block explorer with an Etherscan-compatible API
 
-There are some more nice-to-have dependencies:
+In addition, these nice-to-have dependencies will unlock all the features and improve the UX:
 
-* [Gnosis Safe support](https://docs.gnosis-safe.io/contracts/gnosis-safe-on-other-evm-based-networks)
-* Support from major wallets
-* [Tenderly support](https://docs.tenderly.co/supported-networks-and-languages)
+* Support from major wallets for the network
+* [Gnosis Safe network support](https://docs.gnosis-safe.io/contracts/gnosis-safe-on-other-evm-based-networks)
+* [Tenderly network support](https://docs.tenderly.co/supported-networks-and-languages)
 
