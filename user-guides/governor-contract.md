@@ -14,17 +14,17 @@ Proposals can do anything that's on chain: send funds from a treasury, update th
 
 ### How does Governor work?
 
-A Governor contract needs on a **token contract**. The token contract provides the Governor the voting power of different addresses. Tally supports Governors that work with both fungible (ERC20) and non-fungible (ERC721) token contracts.
+A Governor contract manages proposals and their lifecycle. For example, Compound’s proposals go through this lifecycle:
+
+### <img src="https://lh4.googleusercontent.com/JrpIZE6-b5SrEwvFFx0ROL9leIvA4lAKUD8zGEWfa33Qe4DD6WVLjreV5wAqq47Y6LAGjw8KY4jR2KDKr3izH8_m-ROPV2Kd2WfRRM0U5d02h7CJxGJz1ovHxAqTjTV8FZ0l8260-Sl5j8RGqxkFVqs" alt="" data-size="original">
+
+A Governor contract needs a **token contract**. The token contract provides the Governor the voting power of different addresses. Tally supports Governors that work with both fungible (ERC20) and non-fungible (ERC721) token contracts.
 
 **Implementation detail**
 
 {% hint style="info" %}
 _The token contract needs to implement a_ [_voting interface_](https://docs.openzeppelin.com/contracts/4.x/api/token/erc20#ERC20Votes) _so that a Governor can get the voting power of voters’ addresses. If your token doesn’t already have that interface, you can_ [_deploy a wrapper contract_](https://blog.tally.xyz/how-to-add-dao-governance-to-existing-token-contracts-397855f081ac) _that does._
 {% endhint %}
-
-The Governor manages proposals and their lifecycle. For example, Compound’s proposals go through this lifecycle:
-
-### ![](https://lh4.googleusercontent.com/JrpIZE6-b5SrEwvFFx0ROL9leIvA4lAKUD8zGEWfa33Qe4DD6WVLjreV5wAqq47Y6LAGjw8KY4jR2KDKr3izH8\_m-ROPV2Kd2WfRRM0U5d02h7CJxGJz1ovHxAqTjTV8FZ0l8260-Sl5j8RGqxkFVqs)
 
 ### Why do DAOs use Governor?
 
