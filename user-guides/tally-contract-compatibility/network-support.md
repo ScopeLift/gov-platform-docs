@@ -4,7 +4,7 @@ description: Networks supported on the Tally interface.
 
 # Network Support
 
-**Tally currently supports the following networks:**
+Tally currently supports the following networks:
 
 **Ethereum**
 
