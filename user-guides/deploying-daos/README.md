@@ -1,3 +1,7 @@
+---
+description: How to configure and deploy Governor DAOs
+---
+
 # 🏗 Deploying Governor DAOs
 
 {% content-ref url="deploy-a-dao-with-token-voting.md" %}
