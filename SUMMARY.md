@@ -6,7 +6,7 @@
 
 * [🏛 What is a Governor Contract?](user-guides/governor-contract.md)
 * [🏗 Deploying Governor DAOs](user-guides/deploying-daos/README.md)
-  * [Deploy a Governor DAO](user-guides/deploying-daos/deploy-a-dao-with-token-voting.md)
+  * [Deploy a Governor](user-guides/deploying-governor-daos/deploy-a-governor.md)
   * [Deploy an NFT Governor](user-guides/deploying-daos/deploy-an-nft-dao.md)
   * [Add a Governor to an existing token](user-guides/deploying-daos/add-a-dao-to-an-existing-token.md)
   * [Pick good Governor parameters](user-guides/deploying-daos/how-to-pick-governor-parameters.md)
