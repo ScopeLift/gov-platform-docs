@@ -1,7 +1,7 @@
 # 🏗 Deploying Governor DAOs
 
-{% content-ref url="../deploying-governor-daos/deploy-a-governor.md" %}
-[deploy-a-governor.md](../deploying-governor-daos/deploy-a-governor.md)
+{% content-ref url="deploy-a-dao-with-token-voting.md" %}
+[deploy-a-dao-with-token-voting.md](deploy-a-dao-with-token-voting.md)
 {% endcontent-ref %}
 
 {% content-ref url="deploy-an-nft-dao.md" %}

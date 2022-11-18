@@ -19,11 +19,9 @@ You can write your own module or choose one from [OpenZeppelin contracts](https:
 
 These parameters must be set for the Governor contract:
 
-**votingDelay**: how long after a proposal is created that voting power is fixed (a larger delay gives users time to unstake tokens)
-
-**votingPeriod**: how long a proposal remains open to vote
-
-A **proposal threshold** can also be set, which restricts proposal creation to accounts with enough voting power.
+* **votingDelay**: how long after a proposal is created that voting power is fixed (a larger delay gives users time to unstake tokens)
+* **votingPeriod**: how long a proposal remains open to vote
+* a **proposal threshold** can also be set, which restricts proposal creation to accounts with enough voting power.
 
 {% hint style="info" %}
 The latest published release of the OpenZeppelin Contracts library can be downloaded by running:
