@@ -24,8 +24,8 @@
 
 ## Resources
 
+* [Tally Knowledge Base](https://help.tally.xyz)
 * [Tally Platform](https://www.tally.xyz)
-* [Knowledge Base](https://help.tally.xyz)
 * [Discord (Support & Community)](https://discord.com/invite/ckn25zazRa)
 * [Blog](https://blog.tally.xyz)
 * [Podcast](https://www.youtube.com/channel/UC0J5KuukgFn8KCMuuhkBZQw)
