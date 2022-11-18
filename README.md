@@ -36,7 +36,7 @@ If you have any other questions that aren't covered here, feel free to [get in t
 [tally-api.md](user-guides/tally-api.md)
 {% endcontent-ref %}
 
-## Links and Resources&#x20;
+## Resources&#x20;
 
 {% embed url="https://help.tally.xyz" %}
 
