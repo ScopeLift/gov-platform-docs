@@ -6,7 +6,13 @@ description: How to deploy a Governor contract to use with Tally
 
 To be compatible with the Tally app we recommend you use OpenZeppelin's [Governor contract](https://docs.openzeppelin.com/contracts/4.x/api/governance). OpenZeppelin offers a modular system of Governor contracts which accommodates different requirements using [Solidity inheritance](https://docs.openzeppelin.com/learn/developing-smart-contracts#about\_inheritance). The design of OpenZeppelin Governor requires minimal use of storage and results in more gas efficient operation.
 
-### Configuring your Governor
+[#configuring-your-governor](deploy-a-dao-with-token-voting.md#configuring-your-governor "mention")
+
+[#compatibility-with-tally](deploy-a-dao-with-token-voting.md#compatibility-with-tally "mention")
+
+[#helpful-links-from-openzeppelin](deploy-a-dao-with-token-voting.md#helpful-links-from-openzeppelin "mention")
+
+## Configuring your Governor
 
 Core logic is determined by the Governor contract. When deploying a Governor, you need to chose:
 
