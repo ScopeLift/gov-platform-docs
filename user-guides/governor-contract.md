@@ -6,9 +6,9 @@ description: What is a Governor Contract, and why do DAOs use them?
 
 ### What is Governor?
 
-The Governor Contract pattern is a commonly used open-source smart contract that allows token holders to control a DAO with fully on-chain voting.&#x20;
+The Governor contract pattern is a commonly used open-source smart contract that allows token holders to control a DAO with fully on-chain voting.&#x20;
 
-The Governor Contract is responsible for managing DAO proposals. It keeps track of the status of proposals, and it counts the votes to see if they pass. If a proposal passes, the Governor executes the proposal on-chain.&#x20;
+The Governor contract is responsible for managing DAO proposals. It keeps track of the status of proposals, and it counts the votes to see if they pass. If a proposal passes, the Governor executes the proposal on-chain.&#x20;
 
 Proposals can do anything that's on chain: send funds from a treasury, update the parameters of a DeFi protocol, change permissions of sub DAOs, mint NFTs, or modify the rules of the Governor itself.
 
@@ -42,9 +42,9 @@ Governor was later standardized by OpenZeppelin. They maintain [the most widely 
 
 Yes! Tally’s app expects a certain interface, but there’s lots of flexibility within that interface. OpenZeppelin’s version has several different modules, and the code is fully customizable with their [deployment wizard](https://wizard.openzeppelin.com/). If you make changes to the contract, you can test them on Tally by deploying to a testnet.
 
-If you want to know what changes will and won't work with Tally, check out our [Smart Contract Compatibility docs](smart-contract-compatibility/).
+To learn more about how to deploy a Governor, head over to [deploying-daos](deploying-daos/ "mention")
 
-To learn more about **how to deploy a Governor**, check out [OpenZeppelin's guide here](https://docs.openzeppelin.com/contracts/4.x/governance).
+If you want to know what changes will and won't work with Tally, check out [smart-contract-compatibility](smart-contract-compatibility/ "mention").
 
 ### Add your Governor contract to Tally
 
