@@ -34,6 +34,14 @@ The [OpenZeppelin Contracts documentation](https://docs.openzeppelin.com/contrac
 
 You may also find the [OpenZeppelin wizard](https://wizard.openzeppelin.com/) useful for configuring a smart contract.
 
+## Compatibility with Tally
+
+Check out our guide to ensure your OpenZeppelin Governor is compatible with the Tally platform:
+
+{% content-ref url="../smart-contract-compatibility/openzeppelin-governor.md" %}
+[openzeppelin-governor.md](../smart-contract-compatibility/openzeppelin-governor.md)
+{% endcontent-ref %}
+
 #### _Helpful Links from OpenZeppelin_
 
 * [Developing smart contracts](https://docs.openzeppelin.com/learn/developing-smart-contracts)
