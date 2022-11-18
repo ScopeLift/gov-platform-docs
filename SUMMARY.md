@@ -1,6 +1,6 @@
 # Table of contents
 
-* [👋 Get started](README.md)
+* [👋 Tally Developer Docs](README.md)
 
 ## Technical Documentation <a href="#user-guides" id="user-guides"></a>
 
@@ -26,7 +26,7 @@
 
 * [Tally Platform](https://www.tally.xyz)
 * [Knowledge Base](https://help.tally.xyz)
-* [Discord (support & community)](https://discord.com/invite/ckn25zazRa)
+* [Discord (Support & Community)](https://discord.com/invite/ckn25zazRa)
 * [Blog](https://blog.tally.xyz)
 * [Podcast](https://www.youtube.com/channel/UC0J5KuukgFn8KCMuuhkBZQw)
 * [Newsletter](https://newsletter.tally.xyz)

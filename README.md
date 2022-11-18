@@ -6,15 +6,15 @@ cover: .gitbook/assets/tallycover.jpeg
 coverY: 0
 ---
 
-# 👋 Get started
+# 👋 Tally Developer Docs
 
 Welcome! These developer docs explain how to deploy a DAO that is compatible with Tally.&#x20;
 
-If you have any other questions that aren't covered here, feel free to [get in touch in our Discord](https://discord.com/invite/sCGnpWH3m4)!
-
-## Knowledge Base
-
+{% hint style="info" %}
 If you're looking for information about how to use the Tally app, visit the [Tally Knowledge Base](https://help.tally.xyz).&#x20;
+{% endhint %}
+
+If you have any other questions that aren't covered here, feel free to [get in touch in our Discord](https://discord.com/invite/sCGnpWH3m4)!
 
 ## Technical Documentation
 
