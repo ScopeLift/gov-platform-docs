@@ -103,17 +103,20 @@ function queue(
 
 #### Quorum
 
-Tally needs to know the Quorum to calculate if a proposal has passed.
-
-Tally expects either a `quorum()` function or both the `quorumNumerator()` and `quorumDenominator()` functions with these signatures:
+Tally needs the quorum to calculate if a proposal has passed. That means that Tally requires the Governor to have a `quorum()` function:
 
 ```
 function quorum(uint256 blockNumber) public view virtual returns (uint256);
+```
+
+**Optionally**, Tally also supports the `quorumNumerator()` and `quorumDenominator()` functions. Governors with quorums that are a function of token supply should implement these functions:
+
+```
 function quorumNumerator() public view virtual returns (uint256);
 function quorumDenominator() public view virtual returns (uint256);
 ```
 
-If the Governor is missing either `quorumNumerator()` or `quorumDenominator()`, Tally falls back to the `quorum()` function.&#x20;
+If the Governor is missing either `quorumNumerator()` or `quorumDenominator()`, Tally falls back to the `quorum()` function and assumes that the quorum is fixed.&#x20;
 
 #### Voting Delay
 
