@@ -16,7 +16,7 @@ Tally currently supports these EVM-compatible networks:
 
 **Binance Smart Chain**&#x20;
 
-* BSC Mainnet and BSC Testnet
+* BSC Mainnet
 
 **Arbitrum**
 
@@ -28,7 +28,11 @@ Tally currently supports these EVM-compatible networks:
 
 **Avalanche**
 
-* Avalanche C-Chain and Fuji Testnet
+* Avalanche C-Chain and Fuji Test
+
+**Gnosis Chain**
+
+* Gnosis Chain mainnet
 
 ### Adding chains to Tally
 
