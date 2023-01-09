@@ -1,10 +1,14 @@
 ---
 description: >-
-  Compatibility considerations for an ERC20 or ERC721 token contract that will
-  work with on-chain governance.
+  How to make an ERC20 or ERC721 token contract that will work with on-chain
+  governance.
 ---
 
 # Tokens: ERC20 and NFTs
+
+Tally expects tokens to implement the [ERC-20 standard](https://eips.ethereum.org/EIPS/eip-20) and NFTs to implement [EIP-721 standard](https://eips.ethereum.org/EIPS/eip-721). In addition, Tally needs any token or NFT contract to implement the [EIP-5805 standard](https://eips.ethereum.org/EIPS/eip-5805) for voting power checkpointing and delegation.&#x20;
+
+If the token contract deviates from these standards, Tally still needs the following methods to index the token voting power and help users  delegate their voting power.
 
 ### Event signatures
 
