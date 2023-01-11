@@ -1,6 +1,6 @@
 # Table of contents
 
-* [👋 Tally Developer Docs](README.md)
+* [👋 Tally Docs](README.md)
 
 ## Technical Documentation <a href="#user-guides" id="user-guides"></a>
 
