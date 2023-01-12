@@ -20,7 +20,10 @@
   * [Supported use cases FAQ](user-guides/smart-contract-compatibility/supported-use-cases-faq.md)
 * [📝 Governor Proposal Standards](user-guides/governor-proposals/README.md)
   * [What’s the standard for Governor proposal descriptions?](user-guides/governor-proposals/whats-the-standard-for-governor-proposal-descriptions.md)
-* [👩💻 Tally API](user-guides/tally-api.md)
+
+## Tally API
+
+* [👩💻 Welcome to the Tally API \[Coming Soon!\]](tally-api/welcome.md)
 
 ## Resources
 

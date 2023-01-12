@@ -6,7 +6,7 @@ cover: .gitbook/assets/tallycover.jpeg
 coverY: 0
 ---
 
-# 👋 Tally Developer Docs
+# 👋 Tally Docs
 
 Welcome! These developer docs explain how to deploy a DAO that is compatible with Tally.&#x20;
 
@@ -32,8 +32,8 @@ If you have any other questions that aren't covered here, feel free to [get in t
 
 ## Coming Soon!
 
-{% content-ref url="user-guides/tally-api.md" %}
-[tally-api.md](user-guides/tally-api.md)
+{% content-ref url="tally-api/welcome.md" %}
+[welcome.md](tally-api/welcome.md)
 {% endcontent-ref %}
 
 ## Resources&#x20;
