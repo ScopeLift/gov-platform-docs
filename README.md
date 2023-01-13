@@ -8,19 +8,33 @@ coverY: 0
 
 # 👋 Tally Docs
 
-Welcome! These developer docs explain how to deploy a DAO that is compatible with Tally.&#x20;
+## Knowledge Base
 
-{% hint style="info" %}
-If you're looking for information about how to use the Tally app, visit the [Tally Knowledge Base](https://help.tally.xyz).&#x20;
-{% endhint %}
+_Learn DAO concepts and how to use the Tally platform._
 
-If you have any other questions that aren't covered here, feel free to [get in touch in our Discord](https://discord.com/invite/sCGnpWH3m4)!
+{% content-ref url="knowledge-base/understanding-daos/" %}
+[understanding-daos](knowledge-base/understanding-daos/)
+{% endcontent-ref %}
+
+{% content-ref url="knowledge-base/navigating-the-tally-platform/" %}
+[navigating-the-tally-platform](knowledge-base/navigating-the-tally-platform/)
+{% endcontent-ref %}
+
+{% content-ref url="knowledge-base/managing-a-dao/" %}
+[managing-a-dao](knowledge-base/managing-a-dao/)
+{% endcontent-ref %}
+
+{% content-ref url="knowledge-base/proposals/" %}
+[proposals](knowledge-base/proposals/)
+{% endcontent-ref %}
+
+{% content-ref url="knowledge-base/managing-a-group/" %}
+[managing-a-group](knowledge-base/managing-a-group/)
+{% endcontent-ref %}
 
 ## Technical Documentation
 
-{% content-ref url="user-guides/governor-contract.md" %}
-[governor-contract.md](user-guides/governor-contract.md)
-{% endcontent-ref %}
+_Learn about deploying a Governor contract and how to customize it for compatibility with the Tally interface._
 
 {% content-ref url="user-guides/deploying-daos/" %}
 [deploying-daos](user-guides/deploying-daos/)
@@ -30,32 +44,12 @@ If you have any other questions that aren't covered here, feel free to [get in t
 [smart-contract-compatibility](user-guides/smart-contract-compatibility/)
 {% endcontent-ref %}
 
+{% content-ref url="user-guides/governor-proposals/" %}
+[governor-proposals](user-guides/governor-proposals/)
+{% endcontent-ref %}
+
 ## Coming Soon!
 
 {% content-ref url="tally-api/welcome.md" %}
 [welcome.md](tally-api/welcome.md)
-{% endcontent-ref %}
-
-## Resources&#x20;
-
-{% embed url="https://help.tally.xyz" %}
-
-{% content-ref url="broken-reference" %}
-[Broken link](broken-reference)
-{% endcontent-ref %}
-
-{% content-ref url="broken-reference" %}
-[Broken link](broken-reference)
-{% endcontent-ref %}
-
-{% content-ref url="broken-reference" %}
-[Broken link](broken-reference)
-{% endcontent-ref %}
-
-{% content-ref url="broken-reference" %}
-[Broken link](broken-reference)
-{% endcontent-ref %}
-
-{% content-ref url="broken-reference" %}
-[Broken link](broken-reference)
 {% endcontent-ref %}

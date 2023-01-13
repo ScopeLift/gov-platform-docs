@@ -1,0 +1,45 @@
+# 💡 Create a Proposal
+
+_Get stuff done for your DAO by creating an on-chain proposal on Tally!_
+
+To submit an on-chain proposal, you must have at least enough voting power to meet the DAO's **Proposal threshold**. You can find this number on each [DAO Page](https://help.tally.xyz/article/22-dao-page) by expanding the _Contract Parameters_ section near the top of the page.
+
+![](https://p434.p1.n0.cdn.getcloudapp.com/items/Wnu7L511/62adb73a-14cf-43fc-a2ec-f18d81da37fd.jpg?v=41fa4940cdd4058e9c1c5300247c9fab)
+
+###
+
+### Create a Proposal
+
+Visit the [DAO Page](https://help.tally.xyz/article/22-dao-page) of the DAO you'd like to create a proposal for, then click the **Create new proposal** button at the top of the page.
+
+![](https://p434.p1.n0.cdn.getcloudapp.com/items/QwunPyl6/e697afc8-e8ab-4dec-9f45-bbc144cecd99.jpg?v=b579d8623233d7b814860afbda6c3b66)
+
+Select the **On-chain** button to create an on-chain proposal.
+
+![](https://p434.p1.n0.cdn.getcloudapp.com/items/P8uQnKN6/8f8a7281-f86e-46db-8aaa-0836a3d10fb7.jpg?v=d15f2d2bacf987f04bfd8b7aea930903)
+
+If you haven't yet connected your wallet, Tally will prompt you to do so. Most governance frameworks require a proposal threshold—a minimum amount of voting power—to create a proposal. Make sure you connected with a wallet with enough voting power. Then click **Continue**.
+
+![](https://p434.p1.n0.cdn.getcloudapp.com/items/X6uRgGj2/bc81b614-618f-4326-a7b9-23c5cf49ec82.jpg?v=7aaf60e7686ab39166e3773b184fa759)
+
+Enter a _Title_ for your proposal, then add a _Description_. Explain the intent behind the proposal and include any helpful context for the voters. If you want, you can also add a _Preview image_. When you're ready, click **Continue**.
+
+![](https://p434.p1.n0.cdn.getcloudapp.com/items/JruodQY2/5c6be690-b392-4fd3-a839-a30c2f8fcc62.jpg?v=ec1b49dc2ba42b813e887326755b9ca3)
+
+Add actions to be executed if the proposal passes. You can select Tally's **Transfer tokens** recipe for a proposal that calls for the transfer of tokens, or select the **Custom action** button.
+
+_Note:_ _Governor Alpha/Bravo has a limit of 10 actions. There is no limit for OpenZeppelin Governor._
+
+If you choose the Transfer tokens recipe, enter the _Target wallet address_, select the _Token_ you would like to transfer, and enter the _Value_ of the token you would like to transfer. Enter a _Memo_ to describe the purpose of the transfer, and optionally, upload a _Media image_ such as an invoice. Tally will populate an infographic as a preview of the recipe.
+
+For a Custom action, enter the _Target contract address_ or upload your ABI file if the contract is not on Etherscan. Select the desired _Contract method_, and enter the call data for that method.
+
+**Actionless Proposals**: If you choose to skip this step, and create a proposal with no actions, a transfer of **0 ETH** to you (the proposer) will be added, as Governor requires one executable action for the proposal to be submitted on-chain.
+
+Once you've added all actions, click the **Continue** button.
+
+![](https://p434.p1.n0.cdn.getcloudapp.com/items/E0uyDNkB/3fe88f14-0cc6-4f3a-bd0d-d5275e08b67a.jpg?v=a5d3619aec9617ac43e45aaa299fde8a)
+
+Almost done! Preview your proposal, then select **Save draft** or **Submit on-chain**. If you're ready to submit the proposal on-chain, you'll also need to sign the transaction to the chain using your wallet. Draft proposals are created off-chain and can later be submitted on-chain at any time. Draft proposals can be created and submitted by different users.
+
+![](https://p434.p1.n0.cdn.getcloudapp.com/items/7Ku67loK/d0f2c558-ce64-4819-ac36-289db749ec8c.jpg?v=de8d75da20b24e1840795364bacd20d3)
