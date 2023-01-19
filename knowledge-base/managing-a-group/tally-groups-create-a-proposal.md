@@ -1,4 +1,4 @@
-# Create a Proposal
+# \[Tally Groups] Create a Proposal
 
 _Tally Groups are entirely off-chain. If your DAO is a Governor DAO, check out our articles on creating proposals and creating off-chain polls._
 

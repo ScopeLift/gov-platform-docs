@@ -1,4 +1,4 @@
-# Vote on an Active Proposal
+# ☑ Vote on an Active Proposal
 
 _In order to vote on a proposal, first make sure that you've_ [_connected your wallet_](https://help.tally.xyz/article/7-connect-your-wallet) _and_ [_delegated voting power to yourself_](https://help.tally.xyz/article/27-delegate-votes#yourself)_!_
 

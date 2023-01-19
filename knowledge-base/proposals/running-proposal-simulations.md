@@ -1,4 +1,4 @@
-# Running Proposal Simulations
+# 💾 Running Proposal Simulations
 
 _Having successful validations will give proposers, voters, and executors confidence that the proposal is valid. The Proposal Simulations feature is currently in beta and runs via the Tenderly Simulator API. Tally simulates the execution of the proposal assuming it is successful and queued on a fork of your DAO's network. From there, Tally runs each executable payload, impersonating the treasury (usually the timelock)._
 

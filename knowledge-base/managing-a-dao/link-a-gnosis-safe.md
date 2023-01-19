@@ -1,4 +1,4 @@
-# Link a Gnosis Safe
+# 💸 Link a Gnosis Safe
 
 _In order to link a Gnosis Safe, you must be an admin of that DAO._\
 \

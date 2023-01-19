@@ -4,9 +4,9 @@ description: Find your way around Tally!
 
 # 🗺 Navigating the Tally Platform
 
-> _Tally is a portal to DAOs like Uniswap, ENS, Gitcoin, NounsDAO and many more._
->
-> _Our app helps DAO members start DAOs, delegate their votes, and set up their profile. It also helps manage the proposal lifecycle: creating them, voting on them, and executing them if they pass._
+_Tally is a portal to DAOs like Uniswap, ENS, Gitcoin, NounsDAO and many more._
+
+_Our app helps DAO members start DAOs, delegate their votes, and set up their profile. It also helps manage the proposal lifecycle: creating them, voting on them, and executing them if they pass._
 
 ![](https://p63.tr2.n0.cdn.getcloudapp.com/items/X6uRp6oQ/612083c2-7387-4ecd-8fc0-8d9d52b9f4e7.jpg?v=938af0bcbe325ce9acc2f91267e5c632)
 

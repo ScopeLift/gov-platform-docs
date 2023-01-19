@@ -1,10 +1,6 @@
----
-description: Connect your wallet to Tally.
----
-
 # Connect Your Wallet
 
-> _Connecting your wallet allows you to delegate your voting power or vote on active proposals through the Tally site._
+_Connecting your wallet allows you to delegate your voting power or vote on active proposals through the Tally site._
 
 From any page of the Tally site, select the **Connect wallet** button in the top right corner.
 
