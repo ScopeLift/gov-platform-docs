@@ -1,4 +1,4 @@
-# 💸 Create a Gnosis Safe
+# Create a Gnosis Safe
 
 _In order to create a Gnosis Safe, you must be an admin of that DAO._\
 \
