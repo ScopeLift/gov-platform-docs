@@ -1,8 +1,12 @@
+---
+description: Share your DAO deets via your Tally profile.
+---
+
 # Profile Page
 
-_The Profile Page shows on-chain details about an individual address's governance participation and token holdings. It also includes information added to your Tally profile via_ [_Profile Settings_](https://help.tally.xyz/article/41-profile-settings)_._
+> _The Profile Page shows on-chain details about an individual address's governance participation and token holdings. It also includes information added to your Tally profile via_ [profile-settings.md](profile-settings.md "mention")_._
 
-At the top, you'll see a voter's display name, linked Twitter account, and personal description, which can all be updated from [Profile Settings](https://help.tally.xyz/article/41-profile-settings). Below, the numbers of delegations, proposals voted on, proposals created, and DAOs a user is a member of are listed. You'll also see a **Delegate** button, which allows you to [delegate your voting power](https://help.tally.xyz/article/27-delegate-votes) to that address.
+At the top, you'll see a voter's display name, linked Twitter account, and personal description, which can all be updated from [profile-settings.md](profile-settings.md "mention"). Below, the numbers of delegations, proposals voted on, proposals created, and DAOs a user is a member of are listed. You'll also see a **Delegate** button, which allows you to [delegate-your-voting-power.md](../proposals/delegate-your-voting-power.md "mention") to that address.
 
 ![](https://p434.p1.n0.cdn.getcloudapp.com/items/4gur6l2A/8ee8a23e-5893-49b4-962a-3cddc2395e34.jpg?v=4b662d083826acf9ddd3ea2492903764)
 
@@ -22,7 +26,9 @@ In the _Created proposals_ section, when no DAO button is selected, you can view
 
 ![](https://p434.p1.n0.cdn.getcloudapp.com/items/v1uOJjKr/2a2af714-ea44-40d1-b6ea-a60acfb8f6fb.jpg?v=fff2fe1133144d6f87e961bacb770ed2)
 
-_Each item in the Recent votes and Created proposals sections is a clickable link, directing you to the relevant_ [_Proposal Page_](https://help.tally.xyz/article/23-proposal-page) _!_
+{% hint style="info" %}
+_Each item in the Recent votes and Created proposals sections is a clickable link, directing you to the relevant_ [proposal-page.md](proposal-page.md "mention")_!_
+{% endhint %}
 
 Finally, the _POAPs_ section displays POAPs held by the address.
 

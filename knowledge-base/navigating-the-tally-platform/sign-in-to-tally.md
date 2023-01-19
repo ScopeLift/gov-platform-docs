@@ -4,7 +4,7 @@ description: Sign in to your Tally profile.
 
 # Sign In to Tally
 
-_Tally uses_ [_Sign-In with Ethereum_](https://login.xyz/)_! You'll need to_ [_connect your wallet_](connect-your-wallet.md) _before signing in._
+> _Tally uses_ [_Sign-In with Ethereum_](https://login.xyz/)_! You'll need to_ [_connect your wallet_](connect-your-wallet.md) _before signing in._
 
 Once you've connected your wallet, you'll see a **Sign in** button at the top right corner of the Tally site.
 
