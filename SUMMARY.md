@@ -36,7 +36,7 @@
   * [Manage a Proposal](knowledge-base/proposals/manage-a-proposal.md)
   * [Create a Poll](knowledge-base/proposals/create-a-poll.md)
 * [🌐 Managing a Group on Tally](knowledge-base/managing-a-group/README.md)
-  * [Create a Proposal](knowledge-base/managing-a-group/create-a-proposal.md)
+  * [Create a Proposal](knowledge-base/managing-a-group/tally-groups-create-a-proposal.md)
 
 ## Technical Documentation <a href="#user-guides" id="user-guides"></a>
 
