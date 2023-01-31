@@ -21,6 +21,7 @@
   * [Profile Settings](knowledge-base/navigating-the-tally-platform/profile-settings.md)
   * [DAO Page](knowledge-base/navigating-the-tally-platform/dao-page.md)
   * [Proposal Page](knowledge-base/navigating-the-tally-platform/proposal-page.md)
+  * [Delegates Page](knowledge-base/navigating-the-tally-platform/delegates-page.md)
   * [Disconnect Your Wallet](knowledge-base/navigating-the-tally-platform/disconnect-your-wallet.md)
   * [Feature Requests](knowledge-base/navigating-the-tally-platform/feature-requests.md)
 * [⚒ Managing a DAO on Tally](knowledge-base/managing-a-dao/README.md)

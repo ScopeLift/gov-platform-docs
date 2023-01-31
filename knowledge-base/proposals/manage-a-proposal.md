@@ -1,4 +1,4 @@
-# 📜 Manage a Proposal
+# Manage a Proposal
 
 _Besides creating a proposal and voting on it, there are several other actions that can be taken: queuing, executing, and canceling. Check out these Help Docs for the ins and outs of proposal actions and what they mean:_
 

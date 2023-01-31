@@ -1,4 +1,4 @@
-# 💡 Create a Proposal
+# Create a Proposal
 
 _Get stuff done for your DAO by creating an on-chain proposal on Tally!_
 

@@ -1,4 +1,4 @@
-# ❔ Why Aren't My Votes Showing Up?
+# Why Aren't My Votes Showing Up?
 
 _Having trouble voting? There are a few common culprits to rule out..._
 
