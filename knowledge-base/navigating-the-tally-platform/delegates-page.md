@@ -12,7 +12,7 @@ To navigate to the Delegates page, first scroll down to the _Trending Delegates_
 
 <figure><img src="../../.gitbook/assets/CleanShot 2023-01-31 at 13.06.34@2x.png" alt=""><figcaption></figcaption></figure>
 
-The header displays information on all delegates. You can search by ENS name or wallet address. Click the _All_ dropdown and select **Bio** to view only those delegates who have provided a bio. Click the _Overview_ dropdown to filter between different views.
+The header displays information on all delegates. You can search by ENS name or wallet address. Click the _Overview_ dropdown to filter between different views.
 
 <figure><img src="../../.gitbook/assets/CleanShot 2023-01-31 at 13.08.08@2x.png" alt=""><figcaption></figcaption></figure>
 
