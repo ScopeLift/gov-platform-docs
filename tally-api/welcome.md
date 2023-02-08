@@ -4,6 +4,10 @@ description: The Tally API is in closed beta!
 
 # 👩💻 Tally API
 
+The Tally API makes it easy to query on-chain data about Governor DAOs. List Governors, on-chain proposals, and accounts with delegations.
+
+Use the API to build notifications, dig into voter data or build governance right into your game or app.
+
 ### Request on API key
 
 To get started, you'll need an API key. To request one, fill out [this form](https://notionforms.io/forms/tally-api)! &#x20;
