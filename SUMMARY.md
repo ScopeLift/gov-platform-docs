@@ -59,7 +59,7 @@
 
 ## Tally API
 
-* [👩💻 Welcome to the Tally API \[Coming Soon!\]](tally-api/welcome.md)
+* [👩💻 Tally API](tally-api/welcome.md)
 
 ## Resources
 

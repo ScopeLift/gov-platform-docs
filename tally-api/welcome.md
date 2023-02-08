@@ -1,9 +1,27 @@
 ---
-description: Coming soon!
+description: The Tally API is in closed beta!
 ---
 
-# 👩💻 Welcome to the Tally API \[Coming Soon!]
+# 👩💻 Tally API
 
-The Tally team is hard at work on a public API. If you'd like to be notified when it's available, fill out [this form](https://notionforms.io/forms/tally-api)!&#x20;
+### Request on API key
 
-The API will be available in February 2023.
+To get started, you'll need an API key. To request one, fill out [this form](https://notionforms.io/forms/tally-api)!  You'll need to include the API key as an HTTP header with every request.
+
+### Quickstart example
+
+To get started quickly, check out the [Tally API quickstart example](https://github.com/withtally/tally-api-quickstart). This simple React app uses Tally's API to list DAOs and their proposals.
+
+### API docs
+
+The public API is documented on [this site](https://apidocs.tally.xyz/). The API is a graphql API lets you request exactly the data you need.
+
+### Graphql playground
+
+One big advantage of graphql is that it's self-documenting. Check out the [Graphql API Playground](https://api.tally.xyz/playground). You'll need to add your API key in the "Request Headers" section, like this: `{"Api-key": "YOUR_KEY_HERE"}`&#x20;
+
+Note that the playground also includes undocumented endpoints. Using them is not recommended for production apps, because they are subject to change without notice.
+
+### Rate limits
+
+Free Tally API keys are rate-limited. If you'd like to increase your rate limit, reach out to support@tally.xyz.\
