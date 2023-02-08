@@ -6,7 +6,9 @@ description: The Tally API is in closed beta!
 
 ### Request on API key
 
-To get started, you'll need an API key. To request one, fill out [this form](https://notionforms.io/forms/tally-api)!  You'll need to include the API key as an HTTP header with every request.
+To get started, you'll need an API key. To request one, fill out [this form](https://notionforms.io/forms/tally-api)! &#x20;
+
+You'll need to include that API key as an HTTP header with every request, i.e. `{"Api-key": "YOUR_KEY_HERE"}`&#x20;
 
 ### Quickstart example
 
