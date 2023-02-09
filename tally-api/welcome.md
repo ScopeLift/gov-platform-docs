@@ -30,4 +30,4 @@ Note that the playground also includes undocumented endpoints. Using them is not
 
 ### Rate limits
 
-Free Tally API keys are rate-limited. If you'd like to increase your rate limit, reach out to support@tally.xyz.\
+Free Tally API keys are rate-limited. If you'd like to increase your rate limit, reach out in the [#tally-api channel on Discord](https://discord.com/invite/sCGnpWH3m4).\
