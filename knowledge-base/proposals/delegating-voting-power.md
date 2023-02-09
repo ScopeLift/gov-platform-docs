@@ -1,14 +1,10 @@
-# 🧑🤝🧑 Delegate Your Voting Power
+# 🎟 Delegating Voting Power
 
 _For DAOs that use the_ [_Governor contract_](https://docs.tally.xyz/user-guides/what-is-a-governor-contract)_, only delegated tokens can participate in voting. What does this mean for you, a token holder?_
 
 _**You must set up delegation if you want to participate in governance votes.**_
 
 _If you wish to vote on proposals directly, delegate your voting power to your own address. Or, you can delegate your voting power to another community member and let them vote on your behalf._
-
-* [Delegate to Yourself](https://secure.helpscout.net/docs/62bb8964360964399e46bc39/article/62d1b775eabe9a7235b3e41d/#yourself)
-* [Delegate to Another Address](https://secure.helpscout.net/docs/62bb8964360964399e46bc39/article/62d1b775eabe9a7235b3e41d/#another)
-* [Confirm Your Delegation Status](https://secure.helpscout.net/docs/62bb8964360964399e46bc39/article/62d1b775eabe9a7235b3e41d/#status)
 
 ### Delegate To Yourself <a href="#yourself" id="yourself"></a>
 

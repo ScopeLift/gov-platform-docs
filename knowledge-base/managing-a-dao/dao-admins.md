@@ -1,4 +1,4 @@
-# 👩💻 DAO Admins
+# ☕ DAO Admins
 
 _New_ [_Governor DAOs_](https://help.tally.xyz/article/4-add-a-dao-to-tally) _and_ [_Groups_](https://help.tally.xyz/article/46-create-a-group) _on Tally will automatically list the person who creates them as the Admin. If you have an older Governor DAO, it may not have an Admin—fill out the form at the bottom of this page to start the process of adding one!_
 

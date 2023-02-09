@@ -10,10 +10,10 @@ coverY: 0
 
 ## Knowledge Base
 
-_Learn DAO concepts and how to use the Tally platform._
+_Learn how to navigate and use the Tally platform._
 
-{% content-ref url="knowledge-base/understanding-daos/" %}
-[understanding-daos](knowledge-base/understanding-daos/)
+{% content-ref url="knowledge-base/understanding-tally/" %}
+[understanding-tally](knowledge-base/understanding-tally/)
 {% endcontent-ref %}
 
 {% content-ref url="knowledge-base/navigating-the-tally-platform/" %}
@@ -26,10 +26,6 @@ _Learn DAO concepts and how to use the Tally platform._
 
 {% content-ref url="knowledge-base/proposals/" %}
 [proposals](knowledge-base/proposals/)
-{% endcontent-ref %}
-
-{% content-ref url="knowledge-base/managing-a-group/" %}
-[managing-a-group](knowledge-base/managing-a-group/)
 {% endcontent-ref %}
 
 ## Technical Documentation
@@ -47,8 +43,6 @@ _Learn about deploying a Governor contract and how to customize it for compatibi
 {% content-ref url="user-guides/governor-proposals/" %}
 [governor-proposals](user-guides/governor-proposals/)
 {% endcontent-ref %}
-
-## Coming Soon!
 
 {% content-ref url="tally-api/welcome.md" %}
 [welcome.md](tally-api/welcome.md)

@@ -1,4 +1,4 @@
-# Proposal Page
+# 💭 Proposal Page
 
 _The Proposal Page shows details of a particular active or past proposal. You can navigate back from a Proposal Page to the linked_ [_DAO Page_](https://help.tally.xyz/article/22-dao-page) _by clicking its name at the top left._
 

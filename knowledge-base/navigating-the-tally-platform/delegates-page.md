@@ -2,7 +2,7 @@
 description: Explore delegates on Tally.
 ---
 
-# Delegates Page
+# ☑ Delegates Page
 
 It's now possible to explore delegates for any DAO directly on Tally!
 
@@ -24,4 +24,4 @@ The _Delegate Statement_ view displays delegates who have included a delegate st
 
 <figure><img src="../../.gitbook/assets/CleanShot 2023-01-31 at 13.19.42@2x.png" alt=""><figcaption></figcaption></figure>
 
-From any view, click the **Delegate** button to easily [delegate-your-voting-power.md](../proposals/delegate-your-voting-power.md "mention") to that DAO member, or click on their profile name to learn more about their participation in the DAO.
+From any view, click the **Delegate** button to easily [delegating-voting-power.md](../proposals/delegating-voting-power.md "mention") to that DAO member, or click on their profile name to learn more about their participation in the DAO.

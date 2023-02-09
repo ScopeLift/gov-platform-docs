@@ -1,4 +1,4 @@
-# Vote on an Active Proposal
+# ✅ Voting on Proposals
 
 _In order to vote on a proposal, first make sure that you've_ [_connected your wallet_](https://help.tally.xyz/article/7-connect-your-wallet) _and_ [_delegated voting power to yourself_](https://help.tally.xyz/article/27-delegate-votes#yourself)_!_
 
@@ -38,3 +38,19 @@ Navigate to your [Profile Page](https://help.tally.xyz/article/24-profile-page) 
 The _Recent votes_ section displays your voting participation in proposals across all of your DAOs. You can also **select a DAO button** under _Your DAOs_ to filter votes by a specific DAO.
 
 ![](https://p434.p1.n0.cdn.getcloudapp.com/items/L1uX0v5L/b3df3505-75d0-4c67-9e2a-6da1b0169e9a.jpg?v=8a9a4a6e5d90a3418aacdd491c6f4839)
+
+_Having trouble voting? There are a few common culprits to rule out..._
+
+#### Are your votes delegated?
+
+For DAOs that use the [Governor contract](https://docs.tally.xyz/user-guides/what-is-a-governor-contract), only delegated tokens can participate in voting. If you want to vote on proposals directly, you need to delegate your voting power to your own address. Check out our [Delegate Your Voting Power](https://help.tally.xyz/article/27-delegate-votes) doc for a step-by-step guide!
+
+#### Is the vote for an off-chain poll?
+
+For [off-chain polls](https://help.tally.xyz/article/53-create-a-poll) created in a Governor DAO, we use a snapshot to determine token weighted voting power. If you receive tokens _after_ the proposal was created, you won't be able to vote.
+
+#### Have you waited for Tally to index the on-chain event?
+
+Tally may still be indexing the vote—check back in a bit!
+
+It's easy to [confirm your vote status](https://help.tally.xyz/article/26-vote-on-an-active-proposal#confirm) on Tally! Still not seeing what you'd expect? Give us a shout at **help@tally.xyz**.
