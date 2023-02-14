@@ -8,9 +8,9 @@ The Tally API makes it easy to query on-chain data about Governor DAOs. List Gov
 
 Use the API to build notifications, dig into voter data or build governance right into your game or app.
 
-### Request an API key
+### Get an API key
 
-To get started, you'll need an API key. To request one, fill out [this form](https://notionforms.io/forms/tally-api)! &#x20;
+To get started, you'll need an API key. Sign in to Tally. On your [User Settings Page](https://www.tally.xyz/user/settings), see the "Tally API" section. Generate an API key, and keep it somewhere safe.
 
 You'll need to include that API key as an HTTP header with every request, i.e. `{"Api-key": "YOUR_KEY_HERE"}`&#x20;
 
