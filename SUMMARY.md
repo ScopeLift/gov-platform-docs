@@ -15,6 +15,7 @@
   * [🌟 Feature Requests](knowledge-base/navigating-the-tally-platform/feature-requests.md)
 * [⚒ Adding a DAO to Tally](knowledge-base/managing-a-dao/README.md)
   * [☕ DAO Admins](knowledge-base/managing-a-dao/dao-admins.md)
+  * [💰 Linking a Gnosis Safe](knowledge-base/managing-a-dao/gnosis-safe.md)
 * [🗳 Proposals on Tally](knowledge-base/proposals/README.md)
   * [🎟 Delegating Voting Power](knowledge-base/proposals/delegating-voting-power.md)
   * [💡 Creating Proposals](knowledge-base/proposals/creating-proposals.md)
