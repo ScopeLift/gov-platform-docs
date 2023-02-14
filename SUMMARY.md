@@ -4,8 +4,8 @@
 
 ## Knowledge Base
 
-* [⚡ Understanding Tally](knowledge-base/understanding-tally/README.md)
-  * [❓ Tally FAQs](knowledge-base/understanding-tally/tally-faqs.md)
+* [⚡ Understanding Tally](knowledge-base/tally/README.md)
+  * [❓ Tally FAQs](knowledge-base/tally/tally-faqs.md)
 * [🗺 Navigating the Tally Platform](knowledge-base/navigating-the-tally-platform/README.md)
   * [🎇 Getting Started](knowledge-base/navigating-the-tally-platform/getting-started.md)
   * [😀 Tally Profiles](knowledge-base/navigating-the-tally-platform/tally-profiles.md)

@@ -12,8 +12,8 @@ coverY: 0
 
 _Learn how to navigate and use the Tally platform._
 
-{% content-ref url="knowledge-base/understanding-tally/" %}
-[understanding-tally](knowledge-base/understanding-tally/)
+{% content-ref url="knowledge-base/tally/" %}
+[tally](knowledge-base/tally/)
 {% endcontent-ref %}
 
 {% content-ref url="knowledge-base/navigating-the-tally-platform/" %}
