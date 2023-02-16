@@ -18,7 +18,7 @@ DAOs operate via decentralized governance. Members engage in open, democratic pr
 
 ### Operators
 
-**\[**_**People building and operating DAOs.**_**]**
+**\[**_**People building and launching DAOs.**_**]**
 
 Tally provides a home page for your DAO. We take care of the hard stuff, so you can take care of running your DAO. Use Tally to:
 
