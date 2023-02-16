@@ -1,5 +1,5 @@
 ---
-description: Why Governor?
+description: Tally supports the Governor framework.
 ---
 
 # ⚖ Governor Framework
