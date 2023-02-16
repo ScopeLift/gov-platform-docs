@@ -1,8 +1,8 @@
 ---
-description: Frequently Asked Questions about the Tally platform.
+description: Why should DAOs be on-chain?
 ---
 
-# ❓ Tally FAQs
+# ⛓ On-Chain vs Off-Chain
 
 ## How is Tally different than Snapshot?
 

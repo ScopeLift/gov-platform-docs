@@ -52,8 +52,8 @@ Use Tally to campaign for voting power and gain influence in your DAO by:
 [governor-framework.md](governor-framework.md)
 {% endcontent-ref %}
 
-{% content-ref url="tally-faqs.md" %}
-[tally-faqs.md](tally-faqs.md)
+{% content-ref url="on-chain-vs-off-chain.md" %}
+[on-chain-vs-off-chain.md](on-chain-vs-off-chain.md)
 {% endcontent-ref %}
 
 {% content-ref url="../navigating-the-tally-platform/" %}
