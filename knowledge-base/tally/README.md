@@ -1,45 +1,61 @@
 ---
-description: What is Tally and how is it used for on-chain DAO coordination?
+description: What is Tally?
 ---
 
 # ⚡ Understanding Tally
 
 > **Tally is a platform for on-chain decentralized organizations.**
 >
-> Tally provides a user-friendly interface that makes it accessible for anyone to start, join, and grow DAOs. DAO members use Tally to manage governance, as well as to create, pass, and execute governance proposals.
+> Tally gives users real power in their DAOs. On-chain votes happen on the blockchain and are executed by smart contracts trustlessly. DAOs on Tally do not rely on trusted intermediaries to relay the outcome of decisions to the blockchain.
 
-## What is a DAO?
+## About DAOs
 
-A DAO is a **Decentralized Autonomous Organization**.&#x20;
+DAO stands for _Decentralized Autonomous Organization_. **DAOs are decentralized communities of people who come together to build things on the blockchain.**
 
 DAOs operate via decentralized governance. Members engage in open, democratic processes to make decisions, manage their funds, maintain and improve their products, and invest in growth. For on-chain DAOs, decisions made via decentralized governance are executed _trustlessly_ using smart contracts.
 
-## What is Governor?
+## Tally is For...
 
-DAOs typically use [DAO governance frameworks](https://blog.tally.xyz/a-pocket-guide-to-dao-frameworks-8d7ad5af3a1b) to enable decentralized governance. Tally supports [OpenZeppelin Governor](../../user-guides/smart-contract-compatibility/openzeppelin-governor.md), which is the most popular DAO governance framework.&#x20;
+### Operators
 
-The Governor contract pattern is a commonly used open-source smart contract that allows token holders to control a DAO with fully on-chain voting.&#x20;
+**\[**_**People building and operating DAOs.**_**]**
 
-The Governor contract is responsible for managing DAO proposals. It keeps track of the status of proposals, and it counts the votes to see if they pass. If a proposal passes, the Governor executes the proposal on-chain.&#x20;
+Tally provides a home page for your DAO. We take care of the hard stuff, so you can take care of running your DAO. Use Tally to:
 
-Proposals can do anything that's on chain: send funds from a treasury, update the parameters of a DeFi protocol, change permissions of sub DAOs, mint NFTs, or modify the rules of the Governor itself.
+* build a [home page](../navigating-the-tally-platform/dao-page.md) for your DAO, so members have a central place to find information and participate in DAO governance.
+* [create](../proposals/creating-proposals.md) and [manage](../proposals/managing-proposals.md) proposals.
 
-## What is a token contract?
+### Voters
 
-A Governor contract needs a token contract. The token contract provides the Governor the voting power of different addresses. Tally supports Governors that work with both fungible (ERC20) and non-fungible (ERC721) token contracts.
+**\[**_**DAO members participating in votes.**_**]**
 
-## Why do DAOs use Governor?
+Tally offers a central place to understand and vote on proposals. On Tally you can:
 
-The main benefit of the Governor pattern is that the DAO's decision-making happens completely on-chain. Token voters don’t need to trust a third party to count their votes or to execute their transactions, because the smart contract does it entirely on-chain.
+* create and share a [profile](../navigating-the-tally-platform/tally-profiles.md).
+* [understand governance](../navigating-the-tally-platform/dao-page.md) for your DAOs.
+* [delegate](../proposals/delegating-voting-power.md) your voting power.
+* [vote](../proposals/voting-on-proposals.md) on proposals.
 
-## Is Governor customizable?
+### Delegates
 
-Yes! Tally’s app expects a certain interface, but there’s lots of flexibility within that interface. OpenZeppelin’s version has several different modules, and the code is fully customizable with their [deployment wizard](https://wizard.openzeppelin.com/). If you make changes to the contract, you can test them on Tally by deploying to a testnet.
+**\[**_**DAO members who want to take a greater role in DAO governance.**_**]**
 
-To learn more about how to deploy a Governor, head over to [deploying-daos](../../user-guides/deploying-daos/ "mention").
+Use Tally to campaign for voting power and gain influence in your DAO by:
 
-If you want to know what changes will and won't work with Tally, check out [smart-contract-compatibility](../../user-guides/smart-contract-compatibility/ "mention").
+* building a [profile](../navigating-the-tally-platform/tally-profiles.md) to showcase your DAO participation.
+* sharing your [delegate statement](../navigating-the-tally-platform/delegates-page.md).
+* [creating](../proposals/creating-proposals.md) and [voting](../proposals/voting-on-proposals.md) on DAO proposals.
+
+## Learn More
+
+{% content-ref url="governor-framework.md" %}
+[governor-framework.md](governor-framework.md)
+{% endcontent-ref %}
 
 {% content-ref url="tally-faqs.md" %}
 [tally-faqs.md](tally-faqs.md)
+{% endcontent-ref %}
+
+{% content-ref url="../navigating-the-tally-platform/" %}
+[navigating-the-tally-platform](../navigating-the-tally-platform/)
 {% endcontent-ref %}

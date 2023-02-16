@@ -5,6 +5,7 @@
 ## Knowledge Base
 
 * [⚡ Understanding Tally](knowledge-base/tally/README.md)
+  * [⚖ Governor Framework](knowledge-base/tally/governor-framework.md)
   * [❓ Tally FAQs](knowledge-base/tally/tally-faqs.md)
 * [🗺 Navigating the Tally Platform](knowledge-base/navigating-the-tally-platform/README.md)
   * [🎇 Getting Started](knowledge-base/navigating-the-tally-platform/getting-started.md)
