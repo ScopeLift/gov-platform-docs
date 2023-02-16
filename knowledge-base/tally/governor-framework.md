@@ -4,6 +4,8 @@ description: Why Governor?
 
 # ⚖ Governor Framework
 
+> Governor is the DAO standard. The Governor contract is battle-tested, audited and trusted by DAOs like ENS, Uniswap and Compound. Supported by OpenZeppelin, it’s modular, composable and extensible.
+
 ## What is Governor?
 
 DAOs typically use [DAO governance frameworks](https://blog.tally.xyz/a-pocket-guide-to-dao-frameworks-8d7ad5af3a1b) to enable decentralized governance. Tally supports [OpenZeppelin Governor](../../user-guides/smart-contract-compatibility/openzeppelin-governor.md), which is the most popular DAO governance framework.&#x20;
