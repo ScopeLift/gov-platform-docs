@@ -6,7 +6,21 @@ description: Why should DAOs be on-chain?
 
 > With on-chain DAOs, voters don’t need to trust the core team to honor the results of a vote. Smart contracts automatically implement successful proposals.
 
-## How is Tally different than Snapshot?
+## Why On-Chain?
+
+**On-chain votes execute proposals trustlessly. Off-chain votes don't.**
+
+Smart contracts can be designed to execute proposals automatically based on the outcome of on-chain votes, removing the need for a trusted third party or core team to enact vote results. Examples of on-chain voting systems include MakerDAO, Aave, and protocols built on Compound's governance framework.
+
+### **Benefits of On-Chain Voting:**
+
+* More secure than off-chain voting
+* No trusted third party required to count or enact votes
+* Passed proposals can be executed automatically
+* Works well for approving protocol changes or other high risk votes\
+
+
+## How Is Tally Different Than Snapshot?
 
 The big difference between Tally and off-chain voting tools like [Snapshot](https://snapshot.org/) and others is that Tally supports fully on-chain DAOs.
 
