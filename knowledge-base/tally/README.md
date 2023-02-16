@@ -1,5 +1,7 @@
 ---
 description: What is Tally?
+cover: https://pbs.twimg.com/profile_banners/1313499304926023684/1674757184/1500x500
+coverY: 0
 ---
 
 # ⚡ Understanding Tally
