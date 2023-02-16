@@ -1,7 +1,5 @@
 ---
-description: >-
-  Tally is a DAO operations platform that helps people start, join, and grow
-  decentralized organizations.
+description: Tally is a platform for on-chain decentralized organizations.
 cover: .gitbook/assets/tallycover.jpeg
 coverY: 0
 ---
