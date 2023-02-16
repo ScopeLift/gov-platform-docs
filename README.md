@@ -1,6 +1,6 @@
 ---
 description: Tally is a platform for on-chain decentralized organizations.
-cover: .gitbook/assets/tallycover.jpeg
+cover: https://pbs.twimg.com/profile_banners/1313499304926023684/1674757184/1500x500
 coverY: 0
 ---
 
