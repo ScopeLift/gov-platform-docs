@@ -12,7 +12,7 @@ No, unfortunately we don't. The Tally API doesn't have a cost-effective way to c
 
 ### Does Tally support DAOs with multiple governor contracts?
 
-Yes, with a workaround. Each Governor gets its own page. Tribe DAO, for example, has three Governors: [Fei](https://www.tally.xyz/governance/eip155:1:0x0BEF27FEB58e857046d630B2c03dFb7bae567494), [Rari Capital](https://www.tally.xyz/governance/eip155:1:0x637deEED4e4deb1D222650bD4B64192abf002c00), and [TribeNope DAO](https://www.tally.xyz/governance/eip155:1:0x6C7aF43Ce97686e0C8AcbBc03b2E4f313c0394C7). Other DAOs have&#x20;
+Yes, with a workaround. Each Governor gets its own page. Tribe DAO, for example, has three Governors: [Fei](https://www.tally.xyz/governance/eip155:1:0x0BEF27FEB58e857046d630B2c03dFb7bae567494), [Rari Capital](https://www.tally.xyz/governance/eip155:1:0x637deEED4e4deb1D222650bD4B64192abf002c00), and [TribeNope DAO](https://www.tally.xyz/governance/eip155:1:0x6C7aF43Ce97686e0C8AcbBc03b2E4f313c0394C7). Other DAOs have upgraded their Governor and left the old one on Tally for posterity.
 
 ### I have an existing token. How can I make a DAO that uses the token for on-chain voting?
 
