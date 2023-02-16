@@ -18,3 +18,6 @@ Yes, with a workaround. Each Governor gets its own page. Tribe DAO, for example,
 
 You can enable DAO governance for your existing token by adding an OpenZeppelin Governor Contract. Learn how in [this article on Tally's blog](https://blog.tally.xyz/how-to-add-dao-governance-to-existing-token-contracts-397855f081ac).&#x20;
 
+### How can I make on-chain votes private?
+
+You can implement private voting top of a Governor with Flexible Voting. Implement the [Flexible Voting Extension](../tally-contract-compatibility/flexible-voting-extension.md) in the Governor, then you can deploy a shielded pool that uses zero-knowledge proofs or MPC to keep votes private. Voters can move their votes into the pool. Then, pool can send its vote totals back to the Governor without revealing the votes.
