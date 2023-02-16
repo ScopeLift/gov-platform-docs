@@ -1,5 +1,5 @@
 ---
-description: The Tally API is in closed beta!
+description: The Tally API is in open beta!
 ---
 
 # 👩💻 Tally API
