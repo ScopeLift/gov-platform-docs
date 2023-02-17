@@ -9,7 +9,7 @@
   * [⛓ On-Chain vs Off-Chain](knowledge-base/tally/on-chain-vs-off-chain.md)
 * [🗺 Navigating the Tally Platform](knowledge-base/navigating-the-tally-platform/README.md)
   * [🎇 Getting Started](knowledge-base/navigating-the-tally-platform/getting-started.md)
-  * [😀 Tally Profiles](knowledge-base/navigating-the-tally-platform/tally-profiles.md)
+  * [😀 Tally Profile](knowledge-base/navigating-the-tally-platform/tally-profile.md)
   * [📰 DAO Page](knowledge-base/navigating-the-tally-platform/dao-page.md)
   * [💭 Proposal Page](knowledge-base/navigating-the-tally-platform/proposal-page.md)
   * [☑ Delegates Page](knowledge-base/navigating-the-tally-platform/delegates-page.md)

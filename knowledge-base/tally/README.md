@@ -27,7 +27,7 @@ Tally provides a home page for your DAO. We take care of the hard stuff, so you 
 
 Tally offers a central place to understand and vote on proposals. On Tally you can:
 
-* create and share a [profile](../navigating-the-tally-platform/tally-profiles.md).
+* create and share a [profile](../navigating-the-tally-platform/tally-profile.md).
 * [understand governance](../navigating-the-tally-platform/dao-page.md) for your DAOs.
 * [delegate](../proposals/delegating-voting-power.md) your voting power.
 * [vote](../proposals/voting-on-proposals.md) on proposals.
@@ -38,7 +38,7 @@ Tally offers a central place to understand and vote on proposals. On Tally you c
 
 Use Tally to campaign for voting power and gain influence in your DAO by:
 
-* building a [profile](../navigating-the-tally-platform/tally-profiles.md) to showcase your DAO participation.
+* building a [profile](../navigating-the-tally-platform/tally-profile.md) to showcase your DAO participation.
 * sharing your [delegate statement](../navigating-the-tally-platform/delegates-page.md).
 * [creating](../proposals/creating-proposals.md) and [voting](../proposals/voting-on-proposals.md) on DAO proposals.
 

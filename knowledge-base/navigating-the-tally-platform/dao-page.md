@@ -1,35 +1,47 @@
+---
+description: Your DAO's home page.
+---
+
 # 📰 DAO Page
 
-_The DAO page shows details about a specific DAO, including current and past proposals and voters._
+> _The DAO page shows details about a specific DAO, including current and past proposals, assets, and delegates._
 
-At the top of the DAO page, a highlights section shows key information. You'll also see buttons to [**Create new proposal**](https://help.tally.xyz/article/5-create-a-proposal) and [**Delegate vote**](https://help.tally.xyz/article/27-delegate-votes).![](https://p434.p1.n0.cdn.getcloudapp.com/items/wbuXnwkx/11ad33fa-5996-4a3e-8f51-faf1814ee501.jpg?v=b715a5e9f3d0f6af8e2f47d90e66519e)
+<figure><img src="../../.gitbook/assets/CleanShot 2023-02-17 at 09.45.39@2x.png" alt=""><figcaption></figcaption></figure>
 
-* **Voters:** total number of addresses with voting power delegated to them
-* **Holders:** total number of addresses holding the governance token
+At the top of the DAO page, a highlights section shows key information. You'll also see buttons to [**Create new proposal**](../proposals/creating-proposals.md) and [**Delegate vote**](../proposals/delegating-voting-power.md). Click the drop-down arrow to view _Contract Parameters._
+
+<figure><img src="../../.gitbook/assets/CleanShot 2023-02-17 at 09.45.52@2x.png" alt=""><figcaption></figcaption></figure>
+
+The next section contains key metrics about your DAO:
+
 * **Proposals:** number of proposals submitted
-
-Directly below, click the drop-down arrow to view _Contract Parameters._
-
-![](https://p434.p1.n0.cdn.getcloudapp.com/items/rRuO4GoP/39f490bc-f5fe-44e2-9303-4a3808350a14.jpg?v=38020c1bf5d5e249f4de32c841ef5d5e)
+* **Holders:** total number of addresses holding the governance token
+* **Voters:** total number of addresses with voting power delegated to them
 
 The _Voting Power_ chart shows the current top 5 delegates' voting power over time, and _Top Voters_ ranks those delegates by voting power.
 
-![](https://p434.p1.n0.cdn.getcloudapp.com/items/9Zuo5xQy/694e6896-e1e7-4519-892e-503d34863efd.jpg?v=5e4dae41f50a92164b831ffe8f8c8a76)
+<figure><img src="../../.gitbook/assets/CleanShot 2023-02-17 at 09.46.03@2x.png" alt=""><figcaption></figcaption></figure>
 
-The _Manage Proposals_ drop-down lists proposals that are ready to be queued into the timelock, or that need to be cancelled because of a drop below the support threshold.
+The _Proposals_ section shows a list of proposals associated with the DAO. Any active proposals will be shown at the top, with a chronological list of past proposals below. Click **View all** to see more.
 
-_My Drafts_ lists any proposal drafts you have created.
+{% hint style="info" %}
+_Clicking on a proposal will take you to the relevant_ [proposal-page.md](proposal-page.md "mention")!
+{% endhint %}
 
-The  _Proposals_ section shows a list of proposals associated with the DAO. Any active proposals will be shown at the top, with a chronological list of past proposals below.
+<figure><img src="../../.gitbook/assets/CleanShot 2023-02-17 at 09.46.28@2x.png" alt=""><figcaption></figcaption></figure>
 
-_Clicking on a proposal will take you to the relevant_ [_Proposal Page_](https://help.tally.xyz/article/23-proposal-page)_!_
+The _Trending Delegates_ section offers an overview of some of the DAO's top delegates. Click the **Delegate** button to [delegate your own voting power](../proposals/delegating-voting-power.md) to them, or select **Explore all delegates** to access the full [Delegates Page](delegates-page.md).
 
-![](https://p434.p1.n0.cdn.getcloudapp.com/items/ApuXZY0y/12733f9a-b96d-4820-9722-f2d68dced506.jpg?v=2f849418a67e16da146076e99e57ded8)
+{% hint style="info" %}
+_Clicking on a delegate's name will take you to the relevant_ [tally-profile.md](tally-profile.md "mention")_!_
+{% endhint %}
 
-The _Top Voters_ table at the bottom of the DAO Page shows an extended list of top addresses by votes delegated to them.&#x20;
+<figure><img src="../../.gitbook/assets/CleanShot 2023-02-17 at 09.46.39@2x.png" alt=""><figcaption></figcaption></figure>
 
-_Clicking on a voter will take you to the relevant_ [_Profile Page_](https://help.tally.xyz/article/24-voter-page)_!_
+The _Governor Assets_ or _Timelock Assets_ section (if the DAO has a Timelock) displays information on the DAO's top assets. Click **View all** for an extended list.
 
-![](https://p434.p1.n0.cdn.getcloudapp.com/items/ApuXZz8P/dd9d8d57-612d-49b0-b457-b1b7a6bd157e.jpg?v=49f42dd5fcf67b86987f2ffd6360a5fa)
+Below, the _Gnosis Safes_ section displays information on any [linked Gnosis Safes](../managing-a-dao/gnosis-safe.md).
 
-Clicking the **View all** link at the bottom opens a _Voters_ page with all voters listed by voting power.
+<figure><img src="../../.gitbook/assets/CleanShot 2023-02-17 at 09.46.56@2x.png" alt=""><figcaption></figcaption></figure>
+
+Finally, the bottom of the DAO page shows the [DAO Admins](../managing-a-dao/dao-admins.md)—users who are able to update settings on the Tally DAO Page.

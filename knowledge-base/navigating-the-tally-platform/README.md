@@ -16,8 +16,8 @@ Tally's home page has a ton of useful information—you can check out our latest
 [getting-started.md](getting-started.md)
 {% endcontent-ref %}
 
-{% content-ref url="tally-profiles.md" %}
-[tally-profiles.md](tally-profiles.md)
+{% content-ref url="tally-profile.md" %}
+[tally-profile.md](tally-profile.md)
 {% endcontent-ref %}
 
 {% content-ref url="dao-page.md" %}
