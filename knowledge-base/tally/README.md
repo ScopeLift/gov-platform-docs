@@ -6,7 +6,7 @@ coverY: 0
 
 # ⚡ What is Tally?
 
-Tally gives users real power in their decentralized organizations. See what's happening. Then, create or pass proposals to spend DAO funds, manage a protocol or upgrade a smart contract. All on-chain.
+Tally gives users real power in their decentralized organizations. See what's happening. Then, delegate voting power and create or pass proposals to spend DAO funds, manage a protocol or upgrade a smart contract. All on-chain.
 
 ## Tally is For...
 
