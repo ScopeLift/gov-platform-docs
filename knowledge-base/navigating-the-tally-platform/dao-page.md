@@ -44,4 +44,4 @@ Below, the _Gnosis Safes_ section displays information on any [linked Gnosis Saf
 
 <figure><img src="../../.gitbook/assets/CleanShot 2023-02-17 at 09.46.56@2x.png" alt=""><figcaption></figcaption></figure>
 
-Finally, the bottom of the DAO page shows the [DAO Admins](../managing-a-dao/dao-admins.md)—users who are able to update settings on the Tally DAO Page.
+Finally, the _Admins_ section at the bottom of the DAO page shows the [DAO Admins](../managing-a-dao/dao-admins.md)—users who are able to update settings on the Tally DAO Page.
