@@ -33,7 +33,7 @@ _Clicking on a proposal will take you to the relevant_ [proposal-page.md](propos
 The _Trending Delegates_ section offers an overview of some of the DAO's top delegates. Click the **Delegate** button to [delegate your own voting power](../proposals/delegating-voting-power.md) to them, or select **Explore all delegates** to access the full [Delegates Page](delegates-page.md).
 
 {% hint style="info" %}
-_Clicking on a delegate's name will take you to the relevant_ [tally-profile.md](tally-profile.md "mention")_!_
+_Clicking on a delegate's name will take you to the relevant_ [tally-profile.md](tally-profile.md "mention")!
 {% endhint %}
 
 <figure><img src="../../.gitbook/assets/CleanShot 2023-02-17 at 09.46.39@2x.png" alt=""><figcaption></figcaption></figure>
