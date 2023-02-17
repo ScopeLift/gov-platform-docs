@@ -1,5 +1,5 @@
 ---
-description: Tally supports the Governor framework.
+description: Tally is a front-end for the Governor framework.
 ---
 
 # ⚖ Governor Framework
@@ -8,17 +8,15 @@ description: Tally supports the Governor framework.
 
 ## What is Governor?
 
-DAOs typically use [DAO governance frameworks](https://blog.tally.xyz/a-pocket-guide-to-dao-frameworks-8d7ad5af3a1b) to enable decentralized governance. Tally supports [OpenZeppelin Governor](../../user-guides/smart-contract-compatibility/openzeppelin-governor.md), which is the most popular DAO governance framework.&#x20;
+DAOs typically use [DAO governance frameworks](https://blog.tally.xyz/a-pocket-guide-to-dao-frameworks-8d7ad5af3a1b) to give token or NFT holders direct control over treasuries, protocols or smart contracts. Tally supports [OpenZeppelin Governor](../../user-guides/smart-contract-compatibility/openzeppelin-governor.md), the most popular DAO governance framework.&#x20;
 
-The Governor contract pattern is a commonly used open-source smart contract that allows token holders to control a DAO with fully on-chain voting.&#x20;
-
-The Governor contract is responsible for managing DAO proposals. It keeps track of the status of proposals, and it counts the votes to see if they pass. If a proposal passes, the Governor executes the proposal on-chain.&#x20;
+The Governor contract pattern is a commonly used open-source smart contract that allows token holders to control a DAO with fully on-chain voting. Token holders use Governor to make, pass and execute proposals.
 
 Proposals can do anything that's on chain: send funds from a treasury, update the parameters of a DeFi protocol, change permissions of sub DAOs, mint NFTs, or modify the rules of the Governor itself.
 
 ## What is a token contract?
 
-A Governor contract needs a token contract. The token contract provides the Governor the voting power of different addresses. Tally supports Governors that work with both fungible (ERC20) and non-fungible (ERC721) token contracts.
+A Governor contract needs a token contract. The token contract provides the Governor the voting power of different addresses. Tally supports Governors that work with both token (ERC20) and NFT (ERC721)  contracts.
 
 ## Why do DAOs use Governor?
 
