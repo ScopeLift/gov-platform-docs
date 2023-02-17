@@ -4,7 +4,7 @@
 
 ## Knowledge Base
 
-* [⚡ Understanding Tally](knowledge-base/tally/README.md)
+* [⚡ What is Tally?](knowledge-base/tally/README.md)
   * [⚖ Governor Framework](knowledge-base/tally/governor-framework.md)
   * [⛓ On-Chain vs Off-Chain](knowledge-base/tally/on-chain-vs-off-chain.md)
 * [🗺 Navigating the Tally Platform](knowledge-base/navigating-the-tally-platform/README.md)
