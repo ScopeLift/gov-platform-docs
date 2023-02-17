@@ -4,7 +4,7 @@ description: Why should DAOs be on-chain?
 
 # ⛓ On-Chain vs Off-Chain
 
-> With on-chain DAOs, voters don’t need to trust the core team to honor the results of a vote. Smart contracts automatically implement successful proposals.
+> With on-chain DAOs, voters don’t need to trust that admins will honor the results of a vote. Smart contracts automatically implement successful proposals.
 
 ## Why On-Chain?
 
