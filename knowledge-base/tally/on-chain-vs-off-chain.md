@@ -16,10 +16,10 @@ Smart contracts can be designed to execute proposals automatically based on the 
 
 ### **Benefits of On-Chain Voting:**
 
-* More secure than off-chain voting
 * No trusted third party required to count or enact votes
-* Passed proposals can be executed automatically
-* Works well for approving protocol changes or other high risk votes\
+* Passed proposals execute automatically and trustlessly
+
+Works well for approving protocol changes or other high-stakes votes.\
 
 
 ## How Is Tally Different Than Snapshot?
