@@ -4,9 +4,9 @@ cover: https://pbs.twimg.com/profile_banners/1313499304926023684/1674757184/1500
 coverY: 0
 ---
 
-# ⚡ Understanding Tally
+# ⚡ What is Tally?
 
-Tally gives users real power in their decentralized organizations. See what's happening, then create or pass proposals to spend DAO funds, manage a protocol or upgrade a smart contract. All on-chain.
+Tally gives users real power in their decentralized organizations. See what's happening. Then, create or pass proposals to spend DAO funds, manage a protocol or upgrade a smart contract. All on-chain.
 
 ## Tally is For...
 
