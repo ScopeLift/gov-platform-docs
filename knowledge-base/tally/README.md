@@ -1,10 +1,11 @@
 ---
-description: Tally is a front-end for on-chain DAOs.
 cover: https://pbs.twimg.com/profile_banners/1313499304926023684/1674757184/1500x500
 coverY: 0
 ---
 
 # ⚡ What is Tally?
+
+### Tally is a front-end for on-chain DAOs.
 
 Tally gives users real power in their decentralized organizations. See what's happening. Then, delegate voting power and create or pass proposals to spend DAO funds, manage a protocol or upgrade a smart contract. All on-chain.
 
