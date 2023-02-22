@@ -1,19 +1,16 @@
 # ✅ Voting on Proposals
 
-_In order to vote on a proposal, first make sure that you've_ [_connected your wallet_](https://help.tally.xyz/article/7-connect-your-wallet) _and_ [_delegated voting power to yourself_](https://help.tally.xyz/article/27-delegate-votes#yourself)_!_
+_In order to vote on a proposal, first make sure that you've_ [_connected your wallet_ ](../navigating-the-tally-platform/getting-started.md)_and_ [_delegated voting power to yourself_](delegating-voting-power.md)_!_
 
 _Note that tokens you own are not active for voting until you delegate. **You must delegate to yourself if you wish to vote on proposals directly with your own tokens.**_
 
-* [How to Vote](https://secure.helpscout.net/docs/62bb8964360964399e46bc39/article/62d1b68a03382e4311cf4ff2/#vote)
-* [Confirm Your Vote Status](https://secure.helpscout.net/docs/62bb8964360964399e46bc39/article/62d1b68a03382e4311cf4ff2/#confirm)
-
 ### How to Vote <a href="#vote" id="vote"></a>
 
-Navigate to the [DAO Page](https://help.tally.xyz/article/22-dao-page) and scroll down to the _Proposals_ section.
+Navigate to the [DAO Page](../navigating-the-tally-platform/dao-page.md) and scroll down to the _Proposals_ section.
 
 ![](https://p434.p1.n0.cdn.getcloudapp.com/items/eDuXNrml/39eb80d6-3707-4a21-ad6e-83a635fd04ce.jpg?v=626e152c043c70adc78b181ae0718aef)
 
-Select the active proposal that you'd like to vote on to navigate to its [Proposal Page](https://help.tally.xyz/article/23-proposal-page).
+Select the active proposal that you'd like to vote on to navigate to its [Proposal Page](../navigating-the-tally-platform/proposal-page.md).
 
 ![](https://p434.p1.n0.cdn.getcloudapp.com/items/4gur6Xw7/45a0443e-04da-434a-8fc8-e297630433a2.jpg?v=60977ed22c3a184f48ff6944a25f19eb)
 
@@ -33,7 +30,7 @@ In the _Voting_ pop up, choose your vote— **For**, **Against**, or **Abstain**
 
 ### Confirm Your Vote Status <a href="#confirm" id="confirm"></a>
 
-Navigate to your [Profile Page](https://help.tally.xyz/article/24-profile-page) by clicking your profile name at the top right and selecting  **Profile** from the drop-down.
+Navigate to your [Profile Page](../navigating-the-tally-platform/tally-profile.md) by clicking your profile name at the top right and selecting  **Profile** from the drop-down.
 
 The _Recent votes_ section displays your voting participation in proposals across all of your DAOs. You can also **select a DAO button** under _Your DAOs_ to filter votes by a specific DAO.
 
@@ -43,14 +40,14 @@ _Having trouble voting? There are a few common culprits to rule out..._
 
 #### Are your votes delegated?
 
-For DAOs that use the [Governor contract](https://docs.tally.xyz/user-guides/what-is-a-governor-contract), only delegated tokens can participate in voting. If you want to vote on proposals directly, you need to delegate your voting power to your own address. Check out our [Delegate Your Voting Power](https://help.tally.xyz/article/27-delegate-votes) doc for a step-by-step guide!
+For DAOs that use the [Governor contract](https://docs.tally.xyz/user-guides/what-is-a-governor-contract), only delegated tokens can participate in voting. If you want to vote on proposals directly, you need to delegate your voting power to your own address. Check out our [Delegate Your Voting Power](delegating-voting-power.md) doc for a step-by-step guide!
 
 #### Is the vote for an off-chain poll?
 
-For [off-chain polls](https://help.tally.xyz/article/53-create-a-poll) created in a Governor DAO, we use a snapshot to determine token weighted voting power. If you receive tokens _after_ the proposal was created, you won't be able to vote.
+For off-chain polls created in a Governor DAO, we use a snapshot to determine token weighted voting power. If you receive tokens _after_ the proposal was created, you won't be able to vote.
 
 #### Have you waited for Tally to index the on-chain event?
 
 Tally may still be indexing the vote—check back in a bit!
 
-It's easy to [confirm your vote status](https://help.tally.xyz/article/26-vote-on-an-active-proposal#confirm) on Tally! Still not seeing what you'd expect? Give us a shout at **help@tally.xyz**.
+Still not seeing what you'd expect? Give us a shout at **help@tally.xyz**.

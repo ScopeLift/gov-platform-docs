@@ -38,7 +38,7 @@ Delegates can be viewed, added and removed via the [Safe transaction service](ht
 
 ### Gnosis Safes on Tally <a href="#tally" id="tally"></a>
 
-To empower DAOs that use Gnosis Safes, Tally allows users to create or [link](https://help.tally.xyz/article/43-link-a-gnosis-safe) their Safes to a Tally organization.
+To empower DAOs that use Gnosis Safes, Tally allows users to create or link their Safes to a Tally organization.
 
 Creating a Gnosis Safe on Tally creates the exact same instance of Gnosis’s smart contract that Gnosis’s own app does, with the added benefit of managing from the same Tally organization that you may be using for Governor and Tokenless DAOs. Having your Gnosis Safe linked on Tally will also allow users to one day take advantage of Tally features such as the Create Proposal tool and Recipes.
 
