@@ -45,9 +45,9 @@ Use Tally to campaign for voting power and gain influence in your DAO by:
 
 DAO stands for _Decentralized Autonomous Organization_. **DAOs are decentralized communities of people who come together to build things on a blockchain.**
 
-DAOs operate via decentralized governance. Members engage in open, democratic processes to make decisions, manage their funds, maintain and improve their products, and invest in growth.&#x20;
+On-chain votes happen on the blockchain and are executed by smart contracts trustlessly. That means that they do not need trusted intermediaries to relay the outcome of decisions to the blockchain.
 
-For on-chain DAOs, votes happen on the blockchain and are executed _trustlessly_ using smart contracts. That means that they do not need trusted intermediaries to relay the outcome of decisions to the blockchain.
+DAOs operate via decentralized governance. Members engage in open, democratic processes to make decisions, manage their funds, maintain and improve their products, and invest in growth. For on-chain DAOs, decisions made via decentralized governance are executed _trustlessly_ using smart contracts.
 
 ## Learn More
 

@@ -2,7 +2,7 @@
 description: Share your DAO deets via your Tally profile.
 ---
 
-# 😀 Tally Profile
+# 😀 Tally Profiles
 
 ## Your DAOs
 
@@ -30,7 +30,7 @@ Finally, the _POAPs_ section displays POAPs held by the address.
 
 ## Profile Settings
 
-Once you've [signed in to Tally](getting-started.md), you can access _Settings_ by:
+Once you've [signed in to Tally](https://help.tally.xyz/article/10-sign-in), you can access _Settings_ by:
 
 Selecting **Settings** from the drop-down at the top-right corner of Tally...\
 
@@ -42,7 +42,7 @@ Selecting **Settings** from the drop-down at the top-right corner of Tally...\
 ### Profile Information <a href="#profile" id="profile"></a>
 
 {% hint style="info" %}
-The information you enter in Settings is public to everyone by default. The data on the Profile Page is a mix of on-chain data and off-chain data. Editing your Profile Page adds off-chain data to the on-chain data for your address. In some cases, it overrides the on-chain data (e.g. your Tally name and avatar override your address’s ENS name and avatar, if any).
+The information you enter in Settings is public to everyone by default. The data on the [Profile Page](https://help.tally.xyz/article/24-profile-page) is a mix of on-chain data and off-chain data. Editing your Profile Page adds off-chain data to the on-chain data for your address. In some cases, it overrides the on-chain data (e.g. your Tally name and avatar override your address’s ENS name and avatar, if any).
 {% endhint %}
 
 ![](https://p63.tr2.n0.cdn.getcloudapp.com/items/9Zuo76n0/6ba92c90-099c-4735-b2b0-8094713ca694.jpg?v=753f35ef5c1cfd5c8f810308cfcf5f85)

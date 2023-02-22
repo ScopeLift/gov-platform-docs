@@ -2,7 +2,7 @@
 
 _Get stuff done for your DAO by creating an on-chain proposal on Tally!_
 
-To submit an on-chain proposal, you must have at least enough voting power to meet the DAO's **Proposal threshold**. You can find this number on each [DAO Page](../navigating-the-tally-platform/dao-page.md) by expanding the _Contract Parameters_ section near the top of the page.
+To submit an on-chain proposal, you must have at least enough voting power to meet the DAO's **Proposal threshold**. You can find this number on each [DAO Page](https://help.tally.xyz/article/22-dao-page) by expanding the _Contract Parameters_ section near the top of the page.
 
 ![](https://p434.p1.n0.cdn.getcloudapp.com/items/Wnu7L511/62adb73a-14cf-43fc-a2ec-f18d81da37fd.jpg?v=41fa4940cdd4058e9c1c5300247c9fab)
 
@@ -10,7 +10,7 @@ To submit an on-chain proposal, you must have at least enough voting power to me
 
 ### Create a Proposal
 
-Visit the [DAO Page](../navigating-the-tally-platform/dao-page.md) of the DAO you'd like to create a proposal for, then click the **Create new proposal** button at the top of the page.
+Visit the [DAO Page](https://help.tally.xyz/article/22-dao-page) of the DAO you'd like to create a proposal for, then click the **Create new proposal** button at the top of the page.
 
 ![](https://p434.p1.n0.cdn.getcloudapp.com/items/QwunPyl6/e697afc8-e8ab-4dec-9f45-bbc144cecd99.jpg?v=b579d8623233d7b814860afbda6c3b66)
 
