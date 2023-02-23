@@ -30,19 +30,27 @@ The _Voting Power_ chart shows the current top 5 delegates' voting power over ti
 
 The _Proposals_ section shows a list of proposals associated with the DAO. Any active proposals will be shown at the top, with a chronological list of past proposals below. Click **View all** to see more.
 
-{% hint style="info" %}
-Clicking on a proposal will take you to the relevant [proposal-page.md](proposal-page.md "mention")!
-{% endhint %}
+#### **Click on a proposal to go to the relevant Proposal Page:**
+
+{% content-ref url="proposal-page.md" %}
+[proposal-page.md](proposal-page.md)
+{% endcontent-ref %}
 
 ## Trending Delegates
 
 <figure><img src="../../.gitbook/assets/CleanShot 2023-02-17 at 09.46.28@2x.png" alt=""><figcaption><p>Trending Delegates section.</p></figcaption></figure>
 
-The _Trending Delegates_ section offers an overview of some of the DAO's top delegates. Click the **Delegate** button to [delegate your own voting power](../proposals/delegating-voting-power.md) to them, or select **Explore all delegates** to access the full [Delegates Page](delegates-page.md).
+The _Trending Delegates_ section offers an overview of some of the DAO's top delegates. You can click the **Delegate** button to [delegate your own voting power](../proposals/delegating-voting-power.md) to them.
 
 {% hint style="info" %}
 Clicking on a delegate's name will take you to the relevant [tally-profile.md](tally-profile.md "mention")!
 {% endhint %}
+
+#### **Select 'Explore all delegates' to access the full Delegates Page:**
+
+{% content-ref url="delegates-page.md" %}
+[delegates-page.md](delegates-page.md)
+{% endcontent-ref %}
 
 ## Assets and Gnosis Safes
 
@@ -51,6 +59,12 @@ Clicking on a delegate's name will take you to the relevant [tally-profile.md](t
 The _Governor Assets_ or _Timelock Assets_ section (if the DAO has a Timelock) displays information on the DAO's top assets. Click **View all** for an extended list.
 
 Below, the _Gnosis Safes_ section displays information on any [linked Gnosis Safes](../managing-a-dao/gnosis-safe.md).
+
+#### **Click on a Safe to access its Gnosis Safe Page:**
+
+{% content-ref url="gnosis-safe-page.md" %}
+[gnosis-safe-page.md](gnosis-safe-page.md)
+{% endcontent-ref %}
 
 ## Admins
 

@@ -13,6 +13,7 @@
   * [📰 DAO Page](knowledge-base/navigating-the-tally-platform/dao-page.md)
   * [💭 Proposal Page](knowledge-base/navigating-the-tally-platform/proposal-page.md)
   * [☑ Delegates Page](knowledge-base/navigating-the-tally-platform/delegates-page.md)
+  * [💸 Gnosis Safe Page](knowledge-base/navigating-the-tally-platform/gnosis-safe-page.md)
   * [🌟 Feature Requests](knowledge-base/navigating-the-tally-platform/feature-requests.md)
 * [⚒ Adding a DAO to Tally](knowledge-base/managing-a-dao/README.md)
   * [☕ DAO Admins](knowledge-base/managing-a-dao/dao-admins.md)
