@@ -20,9 +20,9 @@ description: Share your DAO deets via your Tally profile.
 
 > _The Your DAOs page shows all the DAOs you're a member of._
 
-Your DAOs shows a list of all of the DAOs you're a member of, split into two sections: _Admin_ (DAOs where you have the Superadmin or Admin role), and _Governor DAOs_.
-
 ![Your DAOs page.](https://p434.p1.n0.cdn.getcloudapp.com/items/Z4uD0EwB/3a31e399-49f7-4c18-a264-f7a7333080aa.png?source=client\&v=3d8ce303db6a12ed6dbacf32826b4a80)
+
+Your DAOs shows a list of all of the DAOs you're a member of, split into two sections: _Admin_ (DAOs where you have the Superadmin or Admin role), and _Governor DAOs_.
 
 {% hint style="info" %}
 Click on any DAO to navigate to its [dao-page.md](dao-page.md "mention")!
@@ -47,7 +47,7 @@ Finally, the _POAPs_ section displays POAPs held by the address.
 <figure><img src="../../.gitbook/assets/CleanShot 2023-02-22 at 15.59.57@2x.png" alt=""><figcaption><p>Click the <strong>Edit</strong> button to make changes.</p></figcaption></figure>
 
 {% hint style="info" %}
-The information you enter in Settings is public to everyone by default. The data in your [Tally Profile](tally-profile.md#profile) is a mix of on-chain data and off-chain data. Editing your Tally Profile adds off-chain data to the on-chain data for your address. In some cases, it overrides the on-chain data (e.g. your Tally name and avatar override your address’s ENS name and avatar, if any).
+The information you enter in Settings is public to everyone. The data in your [Tally Profile](tally-profile.md#profile) is a mix of on-chain data and off-chain data. Editing your Tally Profile adds off-chain data to the on-chain data for your address. In some cases, it overrides the on-chain data (e.g. your Tally name and avatar override your address’s ENS name and avatar, if any).
 {% endhint %}
 
 <figure><img src="../../.gitbook/assets/CleanShot 2023-02-22 at 16.01.53@2x.png" alt=""><figcaption><p>Edit your Profile Settings.</p></figcaption></figure>
