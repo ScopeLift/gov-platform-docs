@@ -1,25 +1,77 @@
+---
+description: Get things done with your DAO on Tally.
+---
+
 # 💭 Proposal Page
 
-_The Proposal Page shows details of a particular active or past proposal. You can navigate back from a Proposal Page to the linked_ [_DAO Page_](dao-page.md) _by clicking its name at the top left._
+> _The Proposal Page shows details of a particular active or past proposal. You can access the Proposal Page from the_ [_Proposals_](https://docs.tally.xyz/knowledge-base/navigating-the-tally-platform/dao-page#proposals) _section of the relevant_ [dao-page.md](dao-page.md "mention"). C_lick the DAO name in the breadcrumb at the top left to return to the main DAO Page._
 
-The top of the page shows the proposal title, its current status, the block when the voting period ends, and the estimated end time. It also shows the addresses that submitted and created the proposal. The **Vote** button is only available while a proposal is still active.
+## Proposal Info
 
-<figure><img src="https://p434.p1.n0.cdn.getcloudapp.com/items/BluGnKR4/5ca3ef5f-3e13-4006-b1eb-e4a018dc4f96.jpg?v=340b5b36ac4ce6002350dff90343283f" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/CleanShot 2023-02-22 at 17.31.54@2x.png" alt=""><figcaption><p>Proposal info.</p></figcaption></figure>
 
-The _Voting_ chart below the proposal title shows participating addresses, with bubble sizes proportional to voting power. The _Votes_ table to the right lists participating addresses, while the _Status history_ section shows the proposal's current and past statuses. Below, you'll also see the _Participation rate_ and _Voting timeline_ chart, which shows voter participation over time.
+The top of the page shows the proposal title and its current status. It also shows the [tally-profile.md](tally-profile.md "mention") that created the proposal and when it was proposed.
 
-![](https://p434.p1.n0.cdn.getcloudapp.com/items/nOuXqP0z/6a40a14d-870e-4ec4-825d-bafa3cdf1004.jpg?v=8013954eb537508d1bf9dab2f5895768)
+## Voting on Tally
 
-<figure><img src="https://p434.p1.n0.cdn.getcloudapp.com/items/QwunOAg6/32d7508f-9508-4ef7-852e-99839b97e279.jpg?v=36e91669e38a5b27ee1884b5ebf62a40" alt=""><figcaption></figcaption></figure>
+Voting is one of the most important actions you can take on the Tally website! When a proposal is active, you will see the **Vote on-chain** button directly on the proposal page.
 
-The _Votes_ table only shows addresses voting **For** a proposal by default. Select the **Against** or **Abstain** button to see those opposing the proposal or abstaining from voting, or the **View all** button at the bottom to open a page with all addresses in a single ranked list.
+If the proposal is no longer active, you'll see its status there instead.
 
-<figure><img src="https://p434.p1.n0.cdn.getcloudapp.com/items/jkuX9PzB/9d9954cc-30d9-4673-b3fa-63b5d44ee991.jpg?v=e5c18a6f502e2d63d1f4e11680bcdeca" alt=""><figcaption></figcaption></figure>
+To learn more about interacting with the proposal lifecycle on Tally, visit:
 
-The _Details_ section at the bottom of the Proposal Page shows the proposal's _Description_. If you used a recipe to create the proposal, you'll see an infographic there. There's also a **Media attachment** button to view any media associated with the proposal.&#x20;
+{% content-ref url="../proposals/" %}
+[proposals](../proposals/)
+{% endcontent-ref %}
 
-Select the **Executable code** button to review the proposal's on-chain effects. One of the advantages of on-chain DAOs is that anyone can see the exact smart contract calls that a proposal will make if it passes.
+## Overview Chart
 
-<figure><img src="https://p434.p1.n0.cdn.getcloudapp.com/items/YEuk7OlP/2f54322e-b634-473a-a51a-af92f960f2b3.jpg?v=5d62a300a419df1f0b35d6ff58980c19" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/CleanShot 2023-02-22 at 18.01.13@2x.png" alt=""><figcaption><p>Overview chart.</p></figcaption></figure>
 
-_All addresses shown on the proposal page are clickable links that direct you to that address's associated_ [_Profile Page_](tally-profile.md)_!_
+The _Overview_ chart below the [proposal info](proposal-page.md#proposal-info) shows participating addresses, with bubble sizes proportional to voting power. Below, you'll see the _Participation rate_ for the proposal.
+
+## Voting Timeline Chart
+
+<figure><img src="../../.gitbook/assets/CleanShot 2023-02-22 at 18.11.10@2x.png" alt=""><figcaption><p>Voting timeline chart.</p></figcaption></figure>
+
+The _Voting timeline_ chart shows voter participation over the life of the proposal. Mouse over the timeline to see details about a specific voter.
+
+## Votes Table
+
+<figure><img src="../../.gitbook/assets/CleanShot 2023-02-22 at 18.07.43@2x.png" alt=""><figcaption><p>Votes table.</p></figcaption></figure>
+
+In the right-hand panel, the _Votes_ table lists addresses that have participated in the vote, ranked by voting power.
+
+The _Votes_ table only shows addresses voting **For** a proposal by default. Select the **Against** or **Abstain** tab to see those opposing the proposal or abstaining from voting, or the **View all** button at the bottom to open a page with all addresses in a single ranked list.
+
+## Status Timeline
+
+<figure><img src="../../.gitbook/assets/CleanShot 2023-02-22 at 18.13.09@2x.png" alt=""><figcaption><p>Status timeline.</p></figcaption></figure>
+
+The _Status_ timeline shows details about the proposal's lifecycle, including timestamps. Click the three-dot menu icon to copy the block number at which the action took place.
+
+## Details
+
+### Description
+
+<figure><img src="../../.gitbook/assets/CleanShot 2023-02-22 at 18.18.06@2x.png" alt=""><figcaption><p>Proposal description.</p></figcaption></figure>
+
+The _Details_ section at the bottom of the Proposal Page shows the proposal's _Description_. If you used a Tally recipe to create the proposal, you'll also see an infographic with helpful information there:
+
+<figure><img src="../../.gitbook/assets/CleanShot 2023-02-22 at 18.21.54@2x.png" alt=""><figcaption><p>Recipe infographic.</p></figcaption></figure>
+
+### Executable code
+
+<figure><img src="../../.gitbook/assets/CleanShot 2023-02-22 at 18.23.47@2x.png" alt=""><figcaption><p>Executable code.</p></figcaption></figure>
+
+Select the **Executable code** tab to review the proposal's on-chain effects. One of the advantages of on-chain DAOs is that anyone can see the exact smart contract calls that a proposal will make if it passes.
+
+### Comments
+
+<figure><img src="../../.gitbook/assets/CleanShot 2023-02-22 at 18.25.01@2x.png" alt=""><figcaption><p>Proposal comments.</p></figcaption></figure>
+
+Select the **Comments** tab to view comments made by voters explaining why they chose to vote as they did.
+
+{% hint style="info" %}
+All addresses and profile names shown on the proposal page are clickable links that direct you to that address's associated [Profile](tally-profile.md)!
+{% endhint %}
