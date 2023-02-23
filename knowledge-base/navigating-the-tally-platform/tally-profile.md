@@ -4,7 +4,15 @@ description: Share your DAO deets via your Tally profile.
 
 # 😀 Tally Profile
 
-Once you've [signed in](getting-started.md) to Tally, you can click your profile name at the top right to access the drop-down menu with four options: [#your-daos](tally-profile.md#your-daos "mention"), [#profile](tally-profile.md#profile "mention"), [#settings](tally-profile.md#settings "mention"), and [#log-out](tally-profile.md#log-out "mention").
+> _Once you've_ [_signed in_](getting-started.md) _to Tally, you can click your profile name at the top right to access the profile drop-down menu:_
+>
+> [#your-daos](tally-profile.md#your-daos "mention")
+>
+> [#profile](tally-profile.md#profile "mention")
+>
+> [#settings](tally-profile.md#settings "mention")
+>
+> [#log-out](tally-profile.md#log-out "mention")
 
 <figure><img src="../../.gitbook/assets/CleanShot 2023-02-22 at 15.45.34@2x.png" alt=""><figcaption><p>Profile drop-down menu.</p></figcaption></figure>
 
