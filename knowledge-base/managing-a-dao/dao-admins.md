@@ -1,5 +1,5 @@
 ---
-description: Keep your DAO's details on Tally up-to-date.
+description: Manage your DAO.
 ---
 
 # ☕ DAO Admins

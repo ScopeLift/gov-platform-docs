@@ -1,10 +1,12 @@
 ---
-description: What is a Gnosis Safe and how can you link one on Tally?
+description: Gnosis Safes on Tally.
 ---
 
-# 💰 Linking a Gnosis Safe
+# 💰 Gnosis Safes
 
-### What is a Gnosis Safe? <a href="#what" id="what"></a>
+> _It's easy to create or link a Gnosis Safe on Tally from_ [dao-settings.md](dao-settings.md "mention")_. Learn more about Gnosis Safes below, or skip right to the_ [_step-by-step instructions_](gnosis-safe.md#tally)_._
+
+## Understanding Gnosis Safes <a href="#what" id="what"></a>
 
 Gnosis Safe is a smart contract multi-sig wallet running on Ethereum that requires a minimum number of people to approve a transaction before it can occur. This added layer of security helps to protect against the loss or theft of funds.
 
@@ -36,10 +38,26 @@ Delegates are non-owners that are authorized to initiate transactions for a spec
 
 Delegates can be viewed, added and removed via the [Safe transaction service](https://safe-docs.dev.gnosisdev.com/safe/docs/services\_transactions).
 
-### Gnosis Safes on Tally <a href="#tally" id="tally"></a>
+## Gnosis Safes on Tally <a href="#tally" id="tally"></a>
 
-To empower DAOs that use Gnosis Safes, Tally allows users to create or link their Safes to a Tally organization.
+To empower DAOs that use Gnosis Safes, Tally allows users to create or link their Safes to your DAO.
 
-Creating a Gnosis Safe on Tally creates the exact same instance of Gnosis’s smart contract that Gnosis’s own app does, with the added benefit of managing from the same Tally organization that you may be using for Governor and Tokenless DAOs. Having your Gnosis Safe linked on Tally will also allow users to one day take advantage of Tally features such as the Create Proposal tool and Recipes.
+Creating a Gnosis Safe on Tally creates the exact same instance of Gnosis’s smart contract that Gnosis’s own app does, with the added benefit of managing it from the same Tally DAO that you may be using for Governor and Tokenless DAOs. Having your Gnosis Safe linked on Tally will also allow users to take advantage of Tally features such as the Create Proposal tool and Recipes.
 
-\
+<figure><img src="../../.gitbook/assets/CleanShot 2023-02-22 at 20.33.18@2x.png" alt=""><figcaption><p>Gnosis Safes tab in <a data-mention href="dao-settings.md">dao-settings.md</a>.</p></figcaption></figure>
+
+### Create a Gnosis Safe
+
+To create a new Gnosis Safe, simply select the **Create Safe** button from the Safes tab of the [dao-settings.md](dao-settings.md "mention") page.
+
+<figure><img src="../../.gitbook/assets/CleanShot 2023-02-22 at 20.40.12@2x.png" alt=""><figcaption><p>Create a Gnosis Safe.</p></figcaption></figure>
+
+Select the Safe's network, give it a name, add [Safe owners](gnosis-safe.md#owner) and set its [threshold](gnosis-safe.md#threshold). Then click the **Create Safe** button!
+
+### Link a Gnosis Safe
+
+To link an existing Gnosis Safe, select the **Link Safe** button from the Safes tab of the [dao-settings.md](dao-settings.md "mention") page.
+
+<figure><img src="../../.gitbook/assets/CleanShot 2023-02-22 at 20.35.55@2x.png" alt=""><figcaption><p>Link a Gnosis Safe.</p></figcaption></figure>
+
+Select the Safe's network, give it a name, and enter its address. Then simply click **Link Safe**!
