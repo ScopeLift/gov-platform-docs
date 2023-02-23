@@ -4,7 +4,7 @@ description: Tally is a front-end for Governor contracts.
 
 # ⚖ Governor Framework
 
-> Governor is the DAO standard. The Governor contract is battle-tested, audited and trusted by DAOs like ENS, Uniswap and Compound. Supported by OpenZeppelin, it’s modular, composable and extensible.
+> _Governor is the DAO standard. The Governor contract is battle-tested, audited and trusted by DAOs like ENS, Uniswap and Compound. Supported by OpenZeppelin, it’s modular, composable and extensible._
 
 ## What is Governor?
 
@@ -16,7 +16,7 @@ Proposals can do anything that's on chain: send funds from a treasury, update th
 
 ## What is a token contract?
 
-A Governor contract needs a token contract. The token contract provides the Governor the voting power of different addresses. Tally supports Governors that work with both token (ERC20) and NFT (ERC721)  contracts.
+A Governor contract needs a token contract. The token contract provides the Governor the voting power of different addresses. Tally supports Governors that work with both token (ERC20) and NFT (ERC721) contracts.
 
 ## Why do DAOs use Governor?
 
