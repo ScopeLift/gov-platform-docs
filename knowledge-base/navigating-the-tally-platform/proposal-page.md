@@ -1,5 +1,5 @@
 ---
-description: Get things done with your DAO on Tally.
+description: Navigate DAO governance.
 ---
 
 # 💭 Proposal Page
