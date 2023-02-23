@@ -4,17 +4,15 @@ description: Explore delegates on Tally.
 
 # ☑ Delegates Page
 
-> It's now possible to explore delegates for any DAO directly on Tally!
+> _Explore delegates for any DAO directly on Tally and decide how to delegate your vote!_
 
-<figure><img src="../../.gitbook/assets/CleanShot 2023-01-31 at 13.03.02@2x.png" alt=""><figcaption><p>Delegates Page</p></figcaption></figure>
+To navigate to the Delegates page, first scroll down to the [_Trending Delegates_](https://docs.tally.xyz/knowledge-base/navigating-the-tally-platform/dao-page#trending-delegates) section of the [dao-page.md](dao-page.md "mention"), then click **Explore all delegates**.
 
-<figure><img src="../../.gitbook/assets/CleanShot 2023-02-17 at 10.14.24@2x (1).png" alt=""><figcaption></figcaption></figure>
-
-To navigate to the Delegates page, first scroll down to the _Trending Delegates_ section of the [dao-page.md](dao-page.md "mention"), then click **Explore all delegates**.
-
-<figure><img src="../../.gitbook/assets/CleanShot 2023-02-17 at 10.16.35@2x.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/CleanShot 2023-02-17 at 10.14.24@2x (1).png" alt=""><figcaption><p>Select <strong>Explore all delegates</strong>.</p></figcaption></figure>
 
 The header displays information on all delegates. You can search by ENS name or wallet address. Click the _Overview_ dropdown to filter between different views.
+
+<figure><img src="../../.gitbook/assets/CleanShot 2023-01-31 at 13.03.02@2x.png" alt=""><figcaption><p>Delegates Page</p></figcaption></figure>
 
 <figure><img src="../../.gitbook/assets/CleanShot 2023-02-17 at 10.17.43@2x.png" alt=""><figcaption><p>The <em>Leaderboard</em> view shows DAO delegates ranked by number of delegated votes.</p></figcaption></figure>
 
