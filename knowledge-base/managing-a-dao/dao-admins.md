@@ -1,14 +1,27 @@
+---
+description: Keep your DAO's details on Tally up-to-date.
+---
+
 # ☕ DAO Admins
 
-_New DAOs on Tally will automatically list the person who creates them as the Admin. If you have an older Governor DAO, it may not have an Admin—fill out the form at the bottom of this page to start the process of adding one!_
+> _The user who adds a DAO to Tally will automatically be granted Admin privileges. If you have an older Governor DAO, it may not have an Admin—reach out to us to start the process of adding one!_
 
-### If your Governor DAO or Group has a Tally Admin, that information is visible at the bottom of the [DAO Page](../navigating-the-tally-platform/dao-page.md):
+## Admins Section
 
-### Admin Abilities
+Admins for a given DAO are displayed at the bottom of the [dao-page.md](../navigating-the-tally-platform/dao-page.md "mention"):
+
+<figure><img src="../../.gitbook/assets/image (3).png" alt=""><figcaption><p>Admins section of the <a href="../navigating-the-tally-platform/dao-page.md">DAO Page</a>.</p></figcaption></figure>
+
+## Admin Abilities
 
 * Adjust DAO settings, including logo, description, and links.
 * [Link Gnosis Safes](gnosis-safe.md).
 
-### Add an Admin
+## Superadmin Abilities
 
-No Admin in your DAO? Submit this form to kick off the process of adding one:
+* All [Admin abilities](dao-admins.md#admin-abilities).
+* Appoint additional Admins and Superadmins.
+
+## Add an Admin
+
+No Admin in your DAO? Reach out via chat support on the [Tally website](https://www.tally.xyz/) or the #support channel in the [Tally Discord](https://discord.gg/3wgMrqaCCk).
