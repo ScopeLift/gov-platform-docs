@@ -4,7 +4,11 @@ description: How to deploy a Governor contract to use with Tally
 
 # Deploy a Governor
 
-To be compatible with the Tally app we recommend you use OpenZeppelin's [Governor contract](https://docs.openzeppelin.com/contracts/4.x/api/governance). OpenZeppelin offers a modular system of Governor contracts which accommodates different requirements using [Solidity inheritance](https://docs.openzeppelin.com/learn/developing-smart-contracts#about\_inheritance). The design of OpenZeppelin Governor requires minimal use of storage and results in more gas efficient operation.
+To be compatible with the Tally app, we recommend you use OpenZeppelin's [Governor contract](https://docs.openzeppelin.com/contracts/4.x/api/governance). This modular, battle-tested system of DAO smart contracts givens tokenholders control of a DAO on-chain.
+
+A typical Governor DAO uses three contracts: a token contract, a Governor contract, and a timelock contract.
+
+![Diagram of Governor contract setup that inclides a token contract, a Governor contract, and a timelock Contract](<../../.gitbook/assets/Governor setup diagram.jpeg>)
 
 [#configuring-your-governor](deploy-a-dao-with-token-voting.md#configuring-your-governor "mention")
 
