@@ -8,7 +8,7 @@ To be compatible with the Tally app, we recommend you use OpenZeppelin's [Govern
 
 A typical Governor DAO uses three contracts: a token contract, a Governor contract, and a timelock contract.
 
-![Diagram of Governor contract setup that inclides a token contract, a Governor contract, and a timelock Contract](<../../.gitbook/assets/Governor setup diagram.jpeg>)
+<figure><img src="../../.gitbook/assets/Governor setup diagram.jpeg" alt=""><figcaption></figcaption></figure>
 
 [#configuring-your-governor](deploy-a-dao-with-token-voting.md#configuring-your-governor "mention")
 
