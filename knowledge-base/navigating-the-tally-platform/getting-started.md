@@ -20,6 +20,15 @@ Follow the prompts to complete the wallet connection process. You will then see 
 
 <figure><img src="../../.gitbook/assets/CleanShot 2023-02-22 at 15.22.43@2x.png" alt=""><figcaption><p>Wallet successfully connected!</p></figcaption></figure>
 
+> Currently, it's not possible to create or update a Tally profile using your Gnosis Safe (which means you won't be able to sign in!).&#x20;
+
+{% hint style="info" %}
+**Trying to connect with your Gnosis Safe in order to vote on or create proposals?** We recommend using WalletConnect from the Safe mobile app for the smoothest experience.
+
+* [Mobile instructions](https://help.safe.global/en/articles/5307197-connect-to-dapps-with-walletconnect-on-mobile) (_recommended_)
+* [Desktop instructions](https://help.safe.global/en/articles/4356253-walletconnect-safe-app)
+{% endhint %}
+
 ## Sign In
 
 > _Tally uses_ [_Sign-In with Ethereum_](https://login.xyz/)_! You'll need to_ [_connect your wallet_](getting-started.md#connect-your-wallet) _before signing in._
@@ -31,6 +40,10 @@ Once you've connected your wallet, you'll see a **Sign in** button at the top ri
 Follow the prompts in the pop up window to sign in using your connected wallet.
 
 The top right section of the page will now show a profile image and dropdown menu. Visit [tally-profile.md](tally-profile.md "mention") to learn more!
+
+{% hint style="info" %}
+**Sign in with Gnosis Safe is **_**not**_** currently supported.** That means it isn't possible to create or update a profile with your multisig. Support coming soon!
+{% endhint %}
 
 ## Disconnect Your Wallet
 
