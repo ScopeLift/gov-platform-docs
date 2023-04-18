@@ -20,6 +20,8 @@ Follow the prompts to complete the wallet connection process. You will then see 
 
 <figure><img src="../../.gitbook/assets/CleanShot 2023-02-22 at 15.22.43@2x.png" alt=""><figcaption><p>Wallet successfully connected!</p></figcaption></figure>
 
+### Connect with a Safe
+
 > Currently, it's not possible to create or update a Tally profile using your Gnosis Safe (which means you won't be able to sign in!).&#x20;
 
 {% hint style="info" %}
