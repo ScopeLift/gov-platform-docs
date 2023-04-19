@@ -20,8 +20,8 @@ If you do need to change something, check the dependencies here in the docs to m
 [openzeppelin-governor.md](openzeppelin-governor.md)
 {% endcontent-ref %}
 
-{% content-ref url="compound-bravo-style.md" %}
-[compound-bravo-style.md](compound-bravo-style.md)
+{% content-ref url="../tally-contract-compatibility/compound-governor-bravo.md" %}
+[compound-governor-bravo.md](../tally-contract-compatibility/compound-governor-bravo.md)
 {% endcontent-ref %}
 
 {% content-ref url="tokens-erc20-and-nfts.md" %}

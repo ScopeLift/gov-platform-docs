@@ -1,10 +1,10 @@
 ---
-description: Compatibility considerations when implementing Compound Governor Bravo
+description: How to deploy a Governor Bravo that's compatible with Tally
 ---
 
-# Compound Bravo Style
+# Compound Governor Bravo
 
-Tally supports [Compound Governor Bravo](https://github.com/compound-finance/compound-protocol/blob/master/contracts/Governance/GovernorBravoDelegate.sol). However, if you are deploying a new Governor, we recommend [OpenZeppelin's Governor.](openzeppelin-governor.md) OZ Governor is more actively maintained.
+Tally supports [Compound Governor Bravo](https://github.com/compound-finance/compound-protocol/blob/master/contracts/Governance/GovernorBravoDelegate.sol), but we consider it deprecated. If you are deploying a new Governor, we recommend [OpenZeppelin's Governor.](../smart-contract-compatibility/openzeppelin-governor.md) OZ Governor is more actively maintained and has all of Bravo's features.
 
 &#x20;If you're already using a direct fork of Governor Bravo, then your DAO should work with Tally out of the box. If you insist on making changes to the base contract, then you can use this guide to make sure that your changes are compatible with Tally's API and web interface.
 
@@ -96,7 +96,7 @@ Tally expects a `quorum` constant:
 uint public constant quorumVotes;
 ```
 
-_Note that the_ [_OpenZeppelin interface_](openzeppelin-governor.md) _uses a function instead of a constant for quorum._
+_Note that the_ [_OpenZeppelin interface_](../smart-contract-compatibility/openzeppelin-governor.md) _uses a function instead of a constant for quorum._
 
 #### Voting Delay
 
@@ -106,7 +106,7 @@ For Governor Bravo, Tally uses the voting delay to know when voting starts. Gove
 uint public votingDelay;
 ```
 
-_Note that the_ [_OpenZeppelin interface_](openzeppelin-governor.md) _uses a function instead of a constant for voting delay._
+_Note that the_ [_OpenZeppelin interface_](../smart-contract-compatibility/openzeppelin-governor.md) _uses a function instead of a constant for voting delay._
 
 #### Voting Period
 
@@ -116,7 +116,7 @@ Tally uses the voting period to correctly show the end of voting. A `votingPerio
 uint public votingPeriod;
 ```
 
-_Note that the_ [_OpenZeppelin interface_](openzeppelin-governor.md) _uses a function instead of a constant for voting period._
+_Note that the_ [_OpenZeppelin interface_](../smart-contract-compatibility/openzeppelin-governor.md) _uses a function instead of a constant for voting period._
 
 ### Proposal state lifecycle
 

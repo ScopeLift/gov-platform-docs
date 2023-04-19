@@ -37,7 +37,7 @@
 * [⚙ Tally Contract Compatibility](user-guides/smart-contract-compatibility/README.md)
   * [Network Support](user-guides/tally-contract-compatibility/network-support.md)
   * [OpenZeppelin Governor](user-guides/smart-contract-compatibility/openzeppelin-governor.md)
-  * [Compound Bravo Style](user-guides/smart-contract-compatibility/compound-bravo-style.md)
+  * [Compound Governor Bravo](user-guides/tally-contract-compatibility/compound-governor-bravo.md)
   * [Tokens: ERC20 and NFTs](user-guides/smart-contract-compatibility/tokens-erc20-and-nfts.md)
   * [Flexible Voting Extension](user-guides/tally-contract-compatibility/flexible-voting-extension.md)
   * [Supported use cases FAQ](user-guides/smart-contract-compatibility/supported-use-cases-faq.md)
