@@ -1,6 +1,6 @@
 ---
 description: Tally is a front-end for on-chain decentralized organizations.
-cover: https://pbs.twimg.com/profile_banners/1313499304926023684/1674757184/1500x500
+cover: .gitbook/assets/DOCS BANNER.png
 coverY: 0
 ---
 
