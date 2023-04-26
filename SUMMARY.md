@@ -25,6 +25,7 @@
   * [✅ Voting on Proposals](knowledge-base/proposals/voting-on-proposals.md)
   * [🎬 Managing Proposals](knowledge-base/proposals/managing-proposals.md)
 * [0⃣ Tally Zero](knowledge-base/tally-zero.md)
+* [🗓 Delegation Week](knowledge-base/delegation-week.md)
 
 ## Technical Documentation <a href="#user-guides" id="user-guides"></a>
 
