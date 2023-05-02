@@ -20,15 +20,17 @@ Follow the prompts to complete the wallet connection process. You will then see 
 
 <figure><img src="../../.gitbook/assets/CleanShot 2023-02-22 at 15.22.43@2x.png" alt=""><figcaption><p>Wallet successfully connected!</p></figcaption></figure>
 
-### Connect with a Safe
+### Connect With A Safe
 
-> Currently, it's not possible to create or update a Tally profile using your Gnosis Safe (which means you won't be able to sign in!).&#x20;
+> _In order to use your Safe to vote on or create proposals, you must first connect your Safe wallet._
 
-{% hint style="info" %}
-**Trying to connect with your Gnosis Safe in order to vote on or create proposals?** We recommend using WalletConnect from the Safe mobile app for the smoothest experience.
+We recommend using WalletConnect from the Safe mobile app for the smoothest experience.
 
 * [Mobile instructions](https://help.safe.global/en/articles/5307197-connect-to-dapps-with-walletconnect-on-mobile) (_recommended_)
 * [Desktop instructions](https://help.safe.global/en/articles/4356253-walletconnect-safe-app)
+
+{% hint style="info" %}
+Looking to **update your Safe profile** on Tally? You'll first need to connect your personal wallet that is an _**owner**_ of the Safe (rather than the Safe wallet itself). Then follow the steps to [#sign-in-as-safe](getting-started.md#sign-in-as-safe "mention")!
 {% endhint %}
 
 ## Sign In
@@ -43,8 +45,30 @@ Follow the prompts in the pop up window to sign in using your connected wallet.
 
 The top right section of the page will now show a profile image and dropdown menu. Visit [tally-profile.md](tally-profile.md "mention") to learn more!
 
+### Sign In As Safe
+
+> _Looking to update your multisig Safe's profile on Tally? It's now supported!_
+
+In order to sign in with your Safe, you must _first_ sign in with your personal wallet that is an _**owner**_ of the Safe. Then, from the profile drop-down menu, select **Sign in as Safe**:
+
+![](<../../.gitbook/assets/CleanShot 2023-05-02 at 12.35.27@2x.png>)
+
+Next, select the Safe you want to sign in as from the menu:
+
+![](<../../.gitbook/assets/CleanShot 2023-05-02 at 12.35.46@2x.png>)
+
+Now you can update your Safe's profile!
+
+To switch back to your personal profile, simply select **Switch to...** from the profile drop-down menu.
+
+![](<../../.gitbook/assets/CleanShot 2023-05-02 at 14.57.44@2x.png>)
+
 {% hint style="info" %}
-**Sign in with Gnosis Safe is **_**not**_** currently supported.** That means it isn't possible to create or update a profile with your multisig. Support coming soon!
+**Sign In As Safe** is currently designed to allow you to update your Safe's profile on Tally. Please note that when you're signed in as your Safe, it's your _personal owner wallet_ that is connected. That means any on-chain actions taken (such as voting or creating a proposal) are signed with your _personal owner wallet_.
+
+In order to **take on-chain actions** with your Safe as the signer, you must first _Log out_ completely, then follow the directions to [#connect-with-a-safe](getting-started.md#connect-with-a-safe "mention").
+
+This is just our first iteration, so stay tuned for a smoother workflow!
 {% endhint %}
 
 ## Disconnect Your Wallet
