@@ -24,6 +24,8 @@
   * [💡 Creating Proposals](knowledge-base/proposals/creating-proposals.md)
   * [✅ Voting on Proposals](knowledge-base/proposals/voting-on-proposals.md)
   * [🎬 Managing Proposals](knowledge-base/proposals/managing-proposals.md)
+* [🎉 DAO Best Practices](knowledge-base/dao-best-practices/README.md)
+  * [Running an On-Chain DAO Using OpenZeppelin Governor](knowledge-base/dao-best-practices/running-an-on-chain-dao-using-openzeppelin-governor.md)
 * [0⃣ Tally Zero](knowledge-base/tally-zero.md)
 * [🗓 Delegation Week](knowledge-base/delegation-week/README.md)
   * [Free Delegation](knowledge-base/delegation-week/free-delegation.md)
