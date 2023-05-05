@@ -2,7 +2,7 @@
 description: Best practices to ensure efficiency, security, and transparency.
 ---
 
-# Running an OnChain DAO Using OpenZeppelin Governor
+# Running an Onchain DAO Using OpenZeppelin Governor
 
 > _Decentralized Autonomous Organizations (DAOs) have emerged as a powerful way to manage and govern decentralized projects. OpenZeppelin Governor is a popular smart contract framework that provides a robust and secure foundation for building onchain DAOs on Ethereum. These best practices will help ensure your DAO's efficiency, security, and transparency._
 
