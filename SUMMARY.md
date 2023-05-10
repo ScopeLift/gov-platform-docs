@@ -53,6 +53,10 @@
 
 * [👩💻 Tally API](tally-api/welcome.md)
 
+## Ecosystem Resources
+
+* [Bridge providers](ecosystem-resources/bridge-providers.md)
+
 ## Resources
 
 * [Tally Platform](https://www.tally.xyz)
