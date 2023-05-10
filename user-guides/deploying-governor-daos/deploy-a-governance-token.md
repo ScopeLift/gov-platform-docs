@@ -1,5 +1,5 @@
 ---
-description: How and why to future-proof a token for on-chain governance
+description: Include ERC20Votes future-proof a token for on-chain governance
 ---
 
 # Deploy a governance token
