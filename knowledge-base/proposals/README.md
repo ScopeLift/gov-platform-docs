@@ -4,8 +4,8 @@ description: Everything you need to know about managing the proposal lifecycle o
 
 # 🗳 Proposals on Tally
 
-{% content-ref url="delegating-voting-power.md" %}
-[delegating-voting-power.md](delegating-voting-power.md)
+{% content-ref url="../delegations-on-tally/delegating-voting-power.md" %}
+[delegating-voting-power.md](../delegations-on-tally/delegating-voting-power.md)
 {% endcontent-ref %}
 
 {% content-ref url="creating-proposals.md" %}

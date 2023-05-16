@@ -1,6 +1,6 @@
 # ✅ Voting on Proposals
 
-_In order to vote on a proposal, first make sure that you've_ [_connected your wallet_ ](../navigating-the-tally-platform/getting-started.md)_and_ [_delegated voting power to yourself_](delegating-voting-power.md)_!_
+_In order to vote on a proposal, first make sure that you've_ [_connected your wallet_ ](../navigating-the-tally-platform/getting-started.md)_and_ [_delegated voting power to yourself_](../delegations-on-tally/delegating-voting-power.md)_!_
 
 _Note that tokens you own are not active for voting until you delegate. **You must delegate to yourself if you wish to vote on proposals directly with your own tokens.**_
 
@@ -40,7 +40,7 @@ _Having trouble voting? There are a few common culprits to rule out..._
 
 #### Are your votes delegated?
 
-For DAOs that use the [Governor contract](https://docs.tally.xyz/user-guides/what-is-a-governor-contract), only delegated tokens can participate in voting. If you want to vote on proposals directly, you need to delegate your voting power to your own address. Check out our [Delegate Your Voting Power](delegating-voting-power.md) doc for a step-by-step guide!
+For DAOs that use the [Governor contract](https://docs.tally.xyz/user-guides/what-is-a-governor-contract), only delegated tokens can participate in voting. If you want to vote on proposals directly, you need to delegate your voting power to your own address. Check out our [Delegate Your Voting Power](../delegations-on-tally/delegating-voting-power.md) doc for a step-by-step guide!
 
 #### Is the vote for an off-chain poll?
 

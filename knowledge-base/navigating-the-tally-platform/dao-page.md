@@ -10,7 +10,7 @@ description: Your DAO's home page.
 
 <figure><img src="../../.gitbook/assets/CleanShot 2023-02-17 at 09.45.39@2x.png" alt=""><figcaption><p>Highlights section.</p></figcaption></figure>
 
-At the top of the DAO page, a highlights section shows key information. You'll also see buttons to [**Create new proposal**](../proposals/creating-proposals.md) and [**Delegate vote**](../proposals/delegating-voting-power.md). Click the drop-down arrow to view _Contract Parameters._
+At the top of the DAO page, a highlights section shows key information. You'll also see buttons to [**Create new proposal**](../proposals/creating-proposals.md) and [**Delegate vote**](../delegations-on-tally/delegating-voting-power.md). Click the drop-down arrow to view _Contract Parameters._
 
 ## Metrics and Charts
 
@@ -40,7 +40,7 @@ The _Proposals_ section shows a list of proposals associated with the DAO. Any a
 
 <figure><img src="../../.gitbook/assets/CleanShot 2023-02-17 at 09.46.28@2x.png" alt=""><figcaption><p>Trending Delegates section.</p></figcaption></figure>
 
-The _Trending Delegates_ section offers an overview of some of the DAO's top delegates. You can click the **Delegate** button to [delegate your own voting power](../proposals/delegating-voting-power.md) to them.
+The _Trending Delegates_ section offers an overview of some of the DAO's top delegates. You can click the **Delegate** button to [delegate your own voting power](../delegations-on-tally/delegating-voting-power.md) to them.
 
 {% hint style="info" %}
 Clicking on a delegate's name will take you to the relevant [tally-profile.md](tally-profile.md "mention")!
