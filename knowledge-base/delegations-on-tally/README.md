@@ -13,3 +13,7 @@ description: >-
 {% content-ref url="creating-a-delegate-statement.md" %}
 [creating-a-delegate-statement.md](creating-a-delegate-statement.md)
 {% endcontent-ref %}
+
+{% content-ref url="../delegation-week/" %}
+[delegation-week](../delegation-week/)
+{% endcontent-ref %}
