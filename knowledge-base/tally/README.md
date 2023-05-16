@@ -28,7 +28,7 @@ Tally offers a central place to understand and vote on proposals. On Tally you c
 
 * create and share a [profile](../navigating-the-tally-platform/tally-profile.md).
 * [understand governance](../navigating-the-tally-platform/dao-page.md) for your DAOs.
-* [delegate](../delegations-on-tally/delegating-voting-power.md) your voting power.
+* [delegate](../proposals/delegating-voting-power.md) your voting power.
 * [vote](../proposals/voting-on-proposals.md) on proposals.
 
 ### Delegates

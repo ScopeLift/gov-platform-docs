@@ -18,4 +18,4 @@ The header displays information on all delegates. You can search by ENS name or 
 
 <figure><img src="../../.gitbook/assets/CleanShot 2023-02-17 at 10.18.37@2x.png" alt=""><figcaption><p>The <em>Delegate Statement</em> view displays delegates who have included a delegate statement.</p></figcaption></figure>
 
-From any view, click the **Delegate** button to easily [delegate your voting power](../delegations-on-tally/delegating-voting-power.md) to that DAO member, or click on their [profile](tally-profile.md) name to learn more about their participation in the DAO.
+From any view, click the **Delegate** button to easily [delegate your voting power](../proposals/delegating-voting-power.md) to that DAO member, or click on their [profile](tally-profile.md) name to learn more about their participation in the DAO.

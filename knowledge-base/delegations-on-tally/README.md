@@ -6,6 +6,10 @@ description: >-
 
 # 🤝 Delegations on Tally
 
-{% content-ref url="delegating-voting-power.md" %}
-[delegating-voting-power.md](delegating-voting-power.md)
+{% content-ref url="../proposals/delegating-voting-power.md" %}
+[delegating-voting-power.md](../proposals/delegating-voting-power.md)
+{% endcontent-ref %}
+
+{% content-ref url="creating-a-delegate-statement.md" %}
+[creating-a-delegate-statement.md](creating-a-delegate-statement.md)
 {% endcontent-ref %}

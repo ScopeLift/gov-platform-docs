@@ -20,7 +20,7 @@
   * [⚙ DAO Settings](knowledge-base/managing-a-dao/dao-settings.md)
   * [💰 Gnosis Safes](knowledge-base/managing-a-dao/gnosis-safe.md)
 * [🤝 Delegations on Tally](knowledge-base/delegations-on-tally/README.md)
-  * [🎟 Delegating Voting Power](knowledge-base/delegations-on-tally/delegating-voting-power.md)
+  * [🎟 Delegating Voting Power](knowledge-base/proposals/delegating-voting-power.md)
   * [✌ Creating a Delegate Statement](knowledge-base/delegations-on-tally/creating-a-delegate-statement.md)
 * [🗳 Proposals on Tally](knowledge-base/proposals/README.md)
   * [💡 Creating Proposals](knowledge-base/proposals/creating-proposals.md)
