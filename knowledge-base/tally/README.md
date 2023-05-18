@@ -38,7 +38,7 @@ Tally offers a central place to understand and vote on proposals. On Tally you c
 Use Tally to campaign for voting power and gain influence in your DAO by:
 
 * building a [profile](../navigating-the-tally-platform/tally-profile.md) to showcase your DAO participation.
-* sharing your [delegate statement](../navigating-the-tally-platform/delegates-page.md).
+* sharing your [delegate statement](../delegations-on-tally/creating-a-delegate-statement.md).
 * [creating](../proposals/creating-proposals.md) and [voting](../proposals/voting-on-proposals.md) on DAO proposals.
 
 ## About DAOs
