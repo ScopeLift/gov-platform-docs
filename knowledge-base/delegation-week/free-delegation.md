@@ -12,12 +12,12 @@ Gas costs are a significant barrier to governance participation. Token holders w
 
 #### How does free delegation work?
 
-Your DAO can pay Tally to relay delegation transactions during Delegation Week. Eligible token holders can come to Tally and delegate their voting power to themselves or someone else. Tally will relay the signed EIP-2771 transaction and cover the gas.
+Several DAOs – Arbitrum, Uniswap, ENS, Gitcoin and PoolTogether – have set up free delegation on Tally during Delegation Week. Eligible token holders can come to Tally and delegate their voting power to themselves or someone else. Tally will relay the signed EIP-2771 transaction and cover the gas.
 
 To prevent spam, we’ll put in place some restrictions:&#x20;
 
-1. Tally will only relay transactions for token holders who held the governance token prior to Delegation Week
-2. Tally will only relay for token holders who hold at least 10 governance tokens
+1. Tally will only relay transactions for token holders who held the governance token prior to Delegation Week, on May 1, 2023
+2. Tally will only relay for token holders who hold at least a minimum number governance tokens. The minimums vary per DAO: 10 ENS, 10 UNI, 30 GTC, 40 ARB, or 50 POOL
 3. Tally will only relay a delegation transaction once per wallet per DAO&#x20;
 
 Token holders who aren’t eligible can still delegate normally by paying their own gas.&#x20;
