@@ -1,12 +1,4 @@
----
-description: Controlling Multisig Safes with Governor
----
-
-# 🧑🚀 Governor + MultiSig
-
-## Zodiac Governor Module Technical Documentation for SubDAOs and Grants Programs
-
-
+# Zodiac Governor Module for SubDAOs and grants programs
 
 About Gnosis Zodiac
 
@@ -47,13 +39,19 @@ Instead of directly transferring funds to the Gnosis safe, the DAO gives the Gno
 
 ### How to Create a SubDAO
 
-Creating a SubDAO for grants oversight or multisig management is straightforward:
+Creating a SubDAO for grants oversight or multisig management is straightforward.&#x20;
 
-1. Use the Zodiac governor no-code tool to initiate the creation of a Grants Oversight DAO.
-2. Select the existing DAO Token during the creation flow.
-3. Create a new Governor with your desired parameters for oversight. You can use the same parameters as the Parent DAO or opt for different ones to match your specific needs.
+Use the [Zodiac Governor Module no-code tool](https://zodiac.wiki/index.php/Governor\_Module:\_Operator\_Tutorial) to initiate the creation of a Grants Oversight DAO, and follow the steps below:
 
-The Safe App will automatically create and add your SubDAO to the multisig. Copy the address of the Governor and add it directly to Tally as a SubDAO. You can then add the Safe address to your Parent DAO, effectively linking all your operations together.
+1. Select your existing parent DAO token during the creation flow.
+2. Create a new Governor for the SubDAO with your desired parameters for oversight. You can use the same parameters as the parent DAO or opt for different ones to match your specific needs.
+
+The Safe App will automatically create your Governor SubDAO, create a multisig, and add your Governor SubDAO to the multisig.
+
+Finally, a couple of steps are needed to get your new SubDAO fully represented on Tally.
+
+1. Copy the contract address of the Governor that was created by the Zodiac Governor Module no-code tool and [add it directly to Tally](../../knowledge-base/managing-a-dao/).&#x20;
+2. [Link the contract address](../../knowledge-base/managing-a-dao/gnosis-safe.md) of the multisig that was created via the Zodiac Governor Module to your Parent DAO, making it easily visible from the parent DAO on Tally.
 
 ### Conclusion
 

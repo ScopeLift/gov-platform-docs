@@ -31,7 +31,6 @@
 * [0⃣ Tally Zero](knowledge-base/tally-zero.md)
 * [🗓 Delegation Week](knowledge-base/delegation-week/README.md)
   * [Free Delegation](knowledge-base/delegation-week/free-delegation.md)
-* [🧑🚀 Governor + MultiSig](knowledge-base/governor-+-multisig.md)
 
 ## Technical Documentation <a href="#user-guides" id="user-guides"></a>
 
@@ -51,6 +50,8 @@
   * [Supported use cases FAQ](user-guides/smart-contract-compatibility/supported-use-cases-faq.md)
 * [📝 Governor Proposal Standards](user-guides/governor-proposals/README.md)
   * [What’s the standard for Governor proposal descriptions?](user-guides/governor-proposals/whats-the-standard-for-governor-proposal-descriptions.md)
+* [🧑🚀 Using Governor with Gnosis Safe](user-guides/using-governor-with-gnosis-safe/README.md)
+  * [Zodiac Governor Module for SubDAOs and grants programs](user-guides/using-governor-with-gnosis-safe/zodiac-governor-module-for-subdaos-and-grants-programs.md)
 
 ## Tally API
 
