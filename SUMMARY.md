@@ -31,6 +31,7 @@
 * [0⃣ Tally Zero](knowledge-base/tally-zero.md)
 * [🗓 Delegation Week](knowledge-base/delegation-week/README.md)
   * [Free Delegation](knowledge-base/delegation-week/free-delegation.md)
+* [🧑🚀 Governor + MultiSig](knowledge-base/governor-+-multisig.md)
 
 ## Technical Documentation <a href="#user-guides" id="user-guides"></a>
 
