@@ -6,9 +6,16 @@ description: Controlling Multisig Safes with Governor
 
 ## Zodiac Governor Module Technical Documentation for SubDAOs and Grants Programs
 
+
+
+About Gnosis Zodiac
+
+Zodiac is a collection of tools built according to an open standard by the team behind Gnosis Safe. The Zodiac open standard enables DAOs to act more like constellations, connecting protocols, platforms, and chains, no longer confined to monolithic designs. To learn more about the ideas behind Zodiac, visit the [Gnosis Guild blog](http://gnosisguild.mirror.xyz/) or read the [Introduction: Zodiac Standard](https://zodiac.wiki/index.php/Introduction:\_Zodiac\_Standard).\
+
+
 ### Introduction
 
-The Zodiac Governor module facilitates the management and control of Gnosis Safes by a decentralized autonomous organization (DAO). With the Zodiac Governor module, a DAO can become a privileged member of the Safe, allowing it to manage signers and execute transactions. This document will guide you through the use case of creating SubDAOs and managing Grants Programs using the Zodiac Governor module.
+The [Zodiac Governor module](https://zodiac.wiki/index.php/Category:Governor\_Module) facilitates the management and control of Gnosis Safes by a decentralized autonomous organization (DAO). With the Zodiac Governor module, a DAO can become a privileged member of the Safe, allowing it to manage signers and execute transactions. This document will guide you through the use case of creating SubDAOs and managing Grants Programs using the Zodiac Governor module.
 
 ### Features
 
