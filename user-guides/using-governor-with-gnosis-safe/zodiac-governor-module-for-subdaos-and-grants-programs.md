@@ -46,7 +46,7 @@ Use the [Zodiac Governor Module no-code tool](https://zodiac.wiki/index.php/Gove
 1. Select your existing parent DAO token during the creation flow.
 2. Create a new Governor for the SubDAO with your desired parameters for oversight. You can use the same parameters as the parent DAO or opt for different ones to match your specific needs.
 
-The Safe App will automatically create your Governor SubDAO, create a multisig, and add your Governor SubDAO to the multisig.
+The Safe App will automatically create your Governor SubDAO and add it to your multisig.
 
 Finally, a couple of steps are needed to get your new SubDAO fully represented on Tally.
 
