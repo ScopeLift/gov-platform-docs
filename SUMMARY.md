@@ -24,6 +24,7 @@
   * [✌ Creating a Delegate Statement](knowledge-base/delegations-on-tally/creating-a-delegate-statement.md)
 * [🗳 Proposals on Tally](knowledge-base/proposals/README.md)
   * [💡 Creating Proposals](knowledge-base/proposals/creating-proposals.md)
+  * [🔀 Swaps](knowledge-base/proposals/swaps.md)
   * [✅ Voting on Proposals](knowledge-base/proposals/voting-on-proposals.md)
   * [🎬 Managing Proposals](knowledge-base/proposals/managing-proposals.md)
 * [🎉 DAO Best Practices](knowledge-base/dao-best-practices/README.md)
