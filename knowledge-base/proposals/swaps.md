@@ -91,7 +91,7 @@ Until the swap order is filled, a quote will be used to give a rough estimate of
 
 #### How do I cancel an order?
 
-To cancel an order, the Governor must call `cancel` on Milkman via an onchain proposal. Only the governor has authority to cancel an order. Here is an example of a cancel order proposal. Once the order is canceled, the assets that were for sale will be returned to the treasury.
+To cancel an order, the Governor must call `cancel` on Milkman via an onchain proposal. Only the governor has authority to cancel an order. Once the order is canceled, the assets that were for sale will be returned to the treasury.
 
 #### Why is an order stuck in _Pending execution_?
 
