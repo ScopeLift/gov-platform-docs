@@ -52,6 +52,7 @@
 * [📝 Governor Proposal Standards](user-guides/governor-proposals/README.md)
   * [What’s the standard for Governor proposal descriptions?](user-guides/governor-proposals/whats-the-standard-for-governor-proposal-descriptions.md)
 * [🧑🚀 Using Governor with Gnosis Safe](user-guides/using-governor-with-gnosis-safe/README.md)
+  * [Arbitrum Gnosis Safes](user-guides/using-governor-with-gnosis-safe/arbitrum-gnosis-safes.md)
   * [Zodiac Governor Module for SubDAOs and grants programs](user-guides/using-governor-with-gnosis-safe/zodiac-governor-module-for-subdaos-and-grants-programs.md)
 
 ## Tally API
