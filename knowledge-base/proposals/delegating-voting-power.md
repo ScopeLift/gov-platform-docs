@@ -42,7 +42,7 @@ In the pop up window, select **Delegate**.
 
 _You can also delegate your voting power to a specific address directly on their_ [_Profile Page_](../navigating-the-tally-platform/tally-profile.md)_!_
 
-***
+
 
 ### Confirm Your Delegation Status <a href="#status" id="status"></a>
 
