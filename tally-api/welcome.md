@@ -12,7 +12,7 @@ Use the API to build notifications, dig into voter data or build governance righ
 
 To get started, you'll need an API key. Sign in to Tally. On your [User Settings Page](https://www.tally.xyz/user/settings), see the "Tally API" section. Generate an API key, and keep it somewhere safe.
 
-You'll need to include that API key as an HTTP header with every request, i.e. `{"Api-key": "YOUR_KEY_HERE"}`&#x20;
+You'll need to include that API key as an HTTP header with every request, i.e. `{"Api-Key": "YOUR_KEY_HERE"}`&#x20;
 
 ### Quickstart example
 
