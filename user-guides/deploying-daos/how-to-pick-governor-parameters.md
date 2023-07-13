@@ -1,6 +1,6 @@
 ---
 description: >-
-  How to set Proposal Threshold, Quorum, Voting Period,  Voting Delay, and
+  How to set Proposal Threshold, Quorum, Voting Period, Voting Delay, and
   Timelock Delay.
 ---
 

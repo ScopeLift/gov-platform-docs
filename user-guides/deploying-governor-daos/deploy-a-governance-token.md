@@ -1,5 +1,5 @@
 ---
-description: Include ERC20Votes to future-proof a token for on-chain governance
+description: Include ERC20Votes to future-proof a token for onchain governance
 ---
 
 # Deploy a governance token
@@ -8,7 +8,7 @@ If you are deploying a token that might govern a DAO in the future, include voti
 
 ### How to deploy a compatible token
 
-Deploy your token with [EIP-5805 compatibility](https://eips.ethereum.org/EIPS/eip-5805). That means providing voting methods,  `getVotes` and `getPastVotes`. Governors can call those voting methods when counting votes on proposals.
+Deploy your token with [EIP-5805 compatibility](https://eips.ethereum.org/EIPS/eip-5805). That means providing voting methods, `getVotes` and `getPastVotes`. Governors can call those voting methods when counting votes on proposals.
 
 [OpenZeppelin's ERC20Votes extension](https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/token/ERC20/extensions/ERC20Votes.sol) is a canonical implementation of EIP-5805.  [OpenZeppelin Governor](https://blog.openzeppelin.com/governor-smart-contract/) – or a custom Governor contract – uses the extension to calculate voting power.
 
