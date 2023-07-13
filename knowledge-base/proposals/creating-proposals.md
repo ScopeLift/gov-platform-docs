@@ -1,8 +1,8 @@
 # 💡 Creating Proposals
 
-_Get stuff done for your DAO by creating an on-chain proposal on Tally!_
+_Get stuff done for your DAO by creating an onchain proposal on Tally!_
 
-To submit an on-chain proposal, you must have at least enough voting power to meet the DAO's **Proposal threshold**. You can find this number on each [DAO Page](../navigating-the-tally-platform/dao-page.md) by expanding the _Contract Parameters_ section near the top of the page.
+To submit an onchain proposal, you must have at least enough voting power to meet the DAO's **Proposal threshold**. You can find this number on each [DAO Page](../navigating-the-tally-platform/dao-page.md) by expanding the _Contract Parameters_ section near the top of the page.
 
 ![](https://p434.p1.n0.cdn.getcloudapp.com/items/Wnu7L511/62adb73a-14cf-43fc-a2ec-f18d81da37fd.jpg?v=41fa4940cdd4058e9c1c5300247c9fab)
 
@@ -14,7 +14,7 @@ Visit the [DAO Page](../navigating-the-tally-platform/dao-page.md) of the DAO yo
 
 ![](https://p434.p1.n0.cdn.getcloudapp.com/items/QwunPyl6/e697afc8-e8ab-4dec-9f45-bbc144cecd99.jpg?v=b579d8623233d7b814860afbda6c3b66)
 
-Select the **On-chain** button to create an on-chain proposal.
+Select the **Onchain** button to create an onchain proposal.
 
 ![](https://p434.p1.n0.cdn.getcloudapp.com/items/P8uQnKN6/8f8a7281-f86e-46db-8aaa-0836a3d10fb7.jpg?v=d15f2d2bacf987f04bfd8b7aea930903)
 
@@ -34,13 +34,13 @@ If you choose the Transfer tokens recipe, enter the _Target wallet address_, sel
 
 For a Custom action, enter the _Target contract address_ or upload your ABI file if the contract is not on Etherscan. Select the desired _Contract method_, and enter the call data for that method.
 
-**Actionless Proposals**: If you choose to skip this step, and create a proposal with no actions, a transfer of **0 ETH** to you (the proposer) will be added, as Governor requires one executable action for the proposal to be submitted on-chain.
+**Actionless Proposals**: If you choose to skip this step, and create a proposal with no actions, a transfer of **0 ETH** to you (the proposer) will be added, as Governor requires one executable action for the proposal to be submitted onchain.
 
 Once you've added all actions, click the **Continue** button.
 
 ![](https://p434.p1.n0.cdn.getcloudapp.com/items/E0uyDNkB/3fe88f14-0cc6-4f3a-bd0d-d5275e08b67a.jpg?v=a5d3619aec9617ac43e45aaa299fde8a)
 
-Almost done! Preview your proposal, then select **Save draft** or **Submit on-chain**. If you're ready to submit the proposal on-chain, you'll also need to sign the transaction to the chain using your wallet. Draft proposals are created off-chain and can later be submitted on-chain at any time. Draft proposals can be created and submitted by different users.
+Almost done! Preview your proposal, then select **Save draft** or **Submit onchain**. If you're ready to submit the proposal onchain, you'll also need to sign the transaction to the chain using your wallet. Draft proposals are created off-chain and can later be submitted onchain at any time. Draft proposals can be created and submitted by different users.
 
 ![](https://p434.p1.n0.cdn.getcloudapp.com/items/7Ku67loK/d0f2c558-ce64-4819-ac36-289db749ec8c.jpg?v=de8d75da20b24e1840795364bacd20d3)
 

@@ -17,9 +17,9 @@ Here's a guide to picking these parameters to set a DAO up for success by pickin
 * Picking a good [Timelock Delay](how-to-pick-governor-parameters.md#how-to-pick-the-timelock-delay)
 
 {% hint style="info" %}
-#### Governors can generally update their parameters with an on-chain proposal.&#x20;
+#### Governors can generally update their parameters with an onchain proposal.&#x20;
 
-Be careful at the start, though. If the parameters are set too high, it will be hard to make the on-chain proposal that updates the parameters!
+Be careful at the start, though. If the parameters are set too high, it will be hard to make the onchain proposal that updates the parameters!
 {% endhint %}
 
 ### **How to pick the Proposal Threshold**

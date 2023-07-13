@@ -55,8 +55,8 @@ For onchain DAOs, votes happen on the blockchain and are executed _trustlessly_ 
 [governor-framework.md](governor-framework.md)
 {% endcontent-ref %}
 
-{% content-ref url="onchain-vs-offchain.md" %}
-[onchain-vs-offchain.md](onchain-vs-offchain.md)
+{% content-ref url="on-chain-vs-off-chain.md" %}
+[on-chain-vs-off-chain.md](on-chain-vs-off-chain.md)
 {% endcontent-ref %}
 
 {% content-ref url="../navigating-the-tally-platform/" %}

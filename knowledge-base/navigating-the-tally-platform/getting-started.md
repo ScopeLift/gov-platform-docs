@@ -64,9 +64,9 @@ To switch back to your personal profile, simply select **Switch to...** from the
 ![](<../../.gitbook/assets/CleanShot 2023-05-02 at 14.57.44@2x.png>)
 
 {% hint style="info" %}
-**Sign In As Safe** is currently designed to allow you to update your Safe's profile on Tally. Please note that when you're signed in as your Safe, it's your _personal owner wallet_ that is connected. That means any on-chain actions taken (such as voting or creating a proposal) are signed with your _personal owner wallet_.
+**Sign In As Safe** is currently designed to allow you to update your Safe's profile on Tally. Please note that when you're signed in as your Safe, it's your _personal owner wallet_ that is connected. That means any onchain actions taken (such as voting or creating a proposal) are signed with your _personal owner wallet_.
 
-In order to **take on-chain actions** with your Safe as the signer, you must first _Log out_ completely, then follow the directions to [#connect-with-a-safe](getting-started.md#connect-with-a-safe "mention").
+In order to **take onchain actions** with your Safe as the signer, you must first _Log out_ completely, then follow the directions to [#connect-with-a-safe](getting-started.md#connect-with-a-safe "mention").
 
 This is just our first iteration, so stay tuned for a smoother workflow!
 {% endhint %}

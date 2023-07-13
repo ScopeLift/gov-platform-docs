@@ -14,7 +14,7 @@ The top of the page shows the proposal title and its current status. It also sho
 
 ## Voting on Tally
 
-Voting is one of the most important actions you can take on the Tally website! When a proposal is active, you will see the **Vote on-chain** button directly on the proposal page.
+Voting is one of the most important actions you can take on the Tally website! When a proposal is active, you will see the **Vote onchain** button directly on the proposal page.
 
 If the proposal is no longer active, you'll see its status there instead.
 
@@ -64,7 +64,7 @@ The _Details_ section at the bottom of the Proposal Page shows the proposal's _D
 
 <figure><img src="../../.gitbook/assets/CleanShot 2023-02-22 at 18.23.47@2x.png" alt=""><figcaption><p>Executable code.</p></figcaption></figure>
 
-Select the **Executable code** tab to review the proposal's on-chain effects. One of the advantages of on-chain DAOs is that anyone can see the exact smart contract calls that a proposal will make if it passes.
+Select the **Executable code** tab to review the proposal's onchain effects. One of the advantages of onchain DAOs is that anyone can see the exact smart contract calls that a proposal will make if it passes.
 
 ### Comments
 

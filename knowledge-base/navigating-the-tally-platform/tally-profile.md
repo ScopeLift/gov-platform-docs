@@ -47,7 +47,7 @@ Finally, the _POAPs_ section displays POAPs held by the address.
 <figure><img src="../../.gitbook/assets/CleanShot 2023-02-22 at 15.59.57@2x.png" alt=""><figcaption><p>Click the <strong>Edit</strong> button to make changes.</p></figcaption></figure>
 
 {% hint style="info" %}
-The information you enter in Settings is public to everyone. The data in your [Tally Profile](tally-profile.md#profile) is a mix of on-chain data and off-chain data. Editing your Tally Profile adds off-chain data to the on-chain data for your address. In some cases, it overrides the on-chain data (e.g. your Tally name and avatar override your address’s ENS name and avatar, if any).
+The information you enter in Settings is public to everyone. The data in your [Tally Profile](tally-profile.md#profile) is a mix of onchain data and off-chain data. Editing your Tally Profile adds off-chain data to the onchain data for your address. In some cases, it overrides the onchain data (e.g. your Tally name and avatar override your address’s ENS name and avatar, if any).
 {% endhint %}
 
 <figure><img src="../../.gitbook/assets/CleanShot 2023-02-22 at 16.01.53@2x.png" alt=""><figcaption><p>Edit your Profile Settings.</p></figcaption></figure>

@@ -1,6 +1,6 @@
 ---
 description: >-
-  How to make an ERC20 or ERC721 token contract that will work with on-chain
+  How to make an ERC20 or ERC721 token contract that will work with onchain
   governance.
 ---
 
