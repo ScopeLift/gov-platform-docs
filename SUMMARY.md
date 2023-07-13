@@ -61,13 +61,13 @@
 
 ## Ecosystem Resources
 
-* [Bridge providers](ecosystem-resources/bridge-providers.md)
+* [Bridge Providers](ecosystem-resources/bridge-providers.md)
 
 ## Resources
 
 * [Tally Platform](https://www.tally.xyz)
 * [Discord (Support & Community)](https://discord.com/invite/ckn25zazRa)
 * [Blog](https://blog.tally.xyz)
-* [Podcast](https://www.youtube.com/channel/UC0J5KuukgFn8KCMuuhkBZQw)
+* [DAO Talk Podcast](https://www.youtube.com/channel/UC0J5KuukgFn8KCMuuhkBZQw)
 * [Newsletter](https://newsletter.tally.xyz)
 * [Governance Wiki](https://wiki.tally.xyz/docs)

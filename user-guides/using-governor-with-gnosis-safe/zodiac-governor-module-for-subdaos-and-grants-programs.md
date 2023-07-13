@@ -1,6 +1,6 @@
 # Zodiac Governor Module for SubDAOs and grants programs
 
-About Gnosis Zodiac
+### About Gnosis Zodiac
 
 Zodiac is a collection of tools built according to an open standard by the team behind Gnosis Safe. The Zodiac open standard enables DAOs to act more like constellations, connecting protocols, platforms, and chains, no longer confined to monolithic designs. To learn more about the ideas behind Zodiac, visit the [Gnosis Guild blog](http://gnosisguild.mirror.xyz/) or read the [Introduction: Zodiac Standard](https://zodiac.wiki/index.php/Introduction:\_Zodiac\_Standard).\
 
@@ -29,7 +29,7 @@ This design opens up several unique opportunities for DAO management:
 
 * It allows for the creation of **SubDAOs**, where a committee of experts act as signers on the multisig. Even while they operate independently, the parent DAO retains ultimate authority.
 * It is an ideal mechanism for delegating funds to **Grants programs**. The DAO maintains authority over both the funds and the Grants program administrators, ensuring a chain of responsibility.
-* The mechanism helps in avoiding **centralization dangers**, where Grants program administrators could potentially misuse funds without any on-chain recourse.
+* The mechanism helps in avoiding **centralization dangers**, where Grants program administrators could potentially misuse funds without any onchain recourse.
 * It offers a solution to **political disagreements** among signers, preventing funds loss due to indecision or conflict.
 * It serves as a vital component in the operation of **decentralized Grants programs**.
 
