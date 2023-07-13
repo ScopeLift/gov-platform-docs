@@ -5,11 +5,11 @@ coverY: 0
 
 # ⚡ What is Tally?
 
-### Tally is a front-end for on-chain DAOs.
+### Tally is a front-end for onchain DAOs.
 
-Tally gives users real power in their decentralized organizations. See what's happening. Then, delegate voting power and create or pass proposals to spend DAO funds, manage a protocol or upgrade a smart contract. All on-chain.
+Tally gives users real power in their decentralized organizations. See what's happening. Then, delegate voting power and create or pass proposals to spend DAO funds, manage a protocol or upgrade a smart contract. All onchain.
 
-## Tally is For...
+## Tally is for...
 
 ### Operators
 
@@ -47,7 +47,7 @@ DAO stands for _Decentralized Autonomous Organization_. **DAOs are decentralized
 
 DAOs operate via decentralized governance. Members engage in open, democratic processes to make decisions, manage their funds, maintain and improve their products, and invest in growth.&#x20;
 
-For on-chain DAOs, votes happen on the blockchain and are executed _trustlessly_ using smart contracts. That means that they do not need trusted intermediaries to relay the outcome of decisions to the blockchain.
+For onchain DAOs, votes happen on the blockchain and are executed _trustlessly_ using smart contracts. That means that they do not need trusted intermediaries to relay the outcome of decisions to the blockchain.
 
 ## Learn More
 
@@ -55,8 +55,8 @@ For on-chain DAOs, votes happen on the blockchain and are executed _trustlessly_
 [governor-framework.md](governor-framework.md)
 {% endcontent-ref %}
 
-{% content-ref url="on-chain-vs-off-chain.md" %}
-[on-chain-vs-off-chain.md](on-chain-vs-off-chain.md)
+{% content-ref url="onchain-vs-offchain.md" %}
+[onchain-vs-offchain.md](onchain-vs-offchain.md)
 {% endcontent-ref %}
 
 {% content-ref url="../navigating-the-tally-platform/" %}
