@@ -26,7 +26,7 @@ In the _Voting_ pop up, choose your vote— **For**, **Against**, or **Abstain**
 
 ![](https://p434.p1.n0.cdn.getcloudapp.com/items/KoujgEON/d4a08bb0-3b05-4a65-9321-55596f82110a.jpg?v=af06f1bc9157739fd76deaee7cbe4a4c)
 
-
+***
 
 ### Confirm Your Vote Status <a href="#confirm" id="confirm"></a>
 
@@ -50,4 +50,4 @@ For off-chain polls created in a Governor DAO, we use a snapshot to determine to
 
 Tally may still be indexing the vote—check back in a bit!
 
-Still not seeing what you'd expect? Give us a shout at **help@tally.xyz**.
+Still not seeing what you'd expect? Join our [Discord](https://discord.gg/BveYbyRPSj) and open a ticket in #support.
