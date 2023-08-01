@@ -35,6 +35,7 @@
 
 ## Technical Documentation <a href="#user-guides" id="user-guides"></a>
 
+* [Page](user-guides/page.md)
 * [🏗 Deploying Governor DAOs](user-guides/deploying-daos/README.md)
   * [Deploy a Governor](user-guides/deploying-daos/deploy-a-dao-with-token-voting.md)
   * [Deploy an NFT Governor](user-guides/deploying-daos/deploy-an-nft-dao.md)
@@ -54,6 +55,7 @@
 * [🧑🚀 Using Governor with Gnosis Safe](user-guides/using-governor-with-gnosis-safe/README.md)
   * [Arbitrum Gnosis Safes](user-guides/using-governor-with-gnosis-safe/arbitrum-gnosis-safes.md)
   * [Zodiac Governor Module for SubDAOs and grants programs](user-guides/using-governor-with-gnosis-safe/zodiac-governor-module-for-subdaos-and-grants-programs.md)
+* [⚠️     Security](user-guides/security.md)
 
 ## Tally API
 
