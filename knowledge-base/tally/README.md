@@ -5,7 +5,7 @@ coverY: 0
 
 # ⚡ What is Tally?
 
-### Tally is a front-end for onchain DAOs.
+### Tally is a front-end for onchain decentralized organizations.
 
 Tally gives users real power in their decentralized organizations. See what's happening. Then, delegate voting power and create or pass proposals to spend DAO funds, manage a protocol or upgrade a smart contract. All onchain.
 
@@ -13,16 +13,12 @@ Tally gives users real power in their decentralized organizations. See what's ha
 
 ### Operators
 
-**\[**_**People building and launching DAOs.**_**]**
-
 Tally provides a home page for your DAO. We take care of the hard stuff, so you can take care of running your DAO. Use Tally to:
 
 * build a [home page](../navigating-the-tally-platform/dao-page.md) for your DAO, so members have a central place to find information and participate in DAO governance.
 * [create](../proposals/creating-proposals.md) and [manage](../proposals/managing-proposals.md) proposals.
 
 ### Voters
-
-**\[**_**DAO members participating in votes.**_**]**
 
 Tally offers a central place to understand and vote on proposals. On Tally you can:
 
@@ -32,8 +28,6 @@ Tally offers a central place to understand and vote on proposals. On Tally you c
 * [vote](../proposals/voting-on-proposals.md) on proposals.
 
 ### Delegates
-
-**\[**_**DAO members who want to take a greater role in DAO governance.**_**]**
 
 Use Tally to campaign for voting power and gain influence in your DAO by:
 
