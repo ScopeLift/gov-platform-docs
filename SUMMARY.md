@@ -48,7 +48,7 @@
   * [Flexible Voting Extension](user-guides/tally-contract-compatibility/flexible-voting-extension.md)
   * [Supported Use Cases FAQ](user-guides/smart-contract-compatibility/supported-use-cases-faq.md)
 * [📝 Governor Proposal Standards](user-guides/governor-proposals/README.md)
-  * [Governor Proposal Descriptions Standards](user-guides/governor-proposal-standards/governor-proposal-descriptions-standards.md)
+  * [Governor Proposal Descriptions Standards](user-guides/governor-proposals/whats-the-standard-for-governor-proposal-descriptions.md)
 * [🧑🚀 Using Governor with Gnosis Safe](user-guides/using-governor-with-gnosis-safe/README.md)
   * [Arbitrum Gnosis Safes](user-guides/using-governor-with-gnosis-safe/arbitrum-gnosis-safes.md)
   * [Zodiac Governor Module for SubDAOs and grants programs](user-guides/using-governor-with-gnosis-safe/zodiac-governor-module-for-subdaos-and-grants-programs.md)

@@ -1,4 +1,4 @@
-# What’s the standard for Governor proposal descriptions?
+# Governor Proposal Descriptions Standards
 
 Ever since [Compound Governor Alpha](https://docs.compound.finance/v2/governance/#governance), Governor proposals have had an onchain, human-readable \`description\` field. Governor front-ends like Tally, Compound and others follow this de-facto standard:
 
