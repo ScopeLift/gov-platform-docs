@@ -11,8 +11,6 @@ Tally gives users real power in their decentralized organizations. On Tally, use
 
 Onchain governance is important, no matter the chain. Tally supports DAOs on Ethereum, Polygon, Arbitrum, Optimism, Avalanche, BNB Chain, Gnosis, Base, Moonbeam, and Scroll.
 
-CUSTOMISATION PART
-
 ## Tally is for...
 
 ### Operators
