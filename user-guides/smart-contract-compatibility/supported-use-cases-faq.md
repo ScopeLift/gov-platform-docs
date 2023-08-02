@@ -1,14 +1,12 @@
 ---
-description: >-
-  These are the most common questions we had received regarding the use cases of
-  the different governor contracts we support.
+description: Use cases of the different governor contracts we support.
 ---
 
-# Supported use cases FAQ
+# Supported Use Cases FAQ
 
-### Does Tally support Governors that use two token contracts?
+### Does Tally support Governors that use two-token contracts?
 
-No, unfortunately we don't. The Tally API doesn't have a cost-effective way to calculating voting power for something more complicated than one token, one vote.&#x20;
+No. The Tally API doesn't have a cost-effective way of calculating voting power for something more complicated than one token, one vote.&#x20;
 
 ### Does Tally support DAOs with multiple governor contracts?
 

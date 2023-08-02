@@ -10,11 +10,11 @@ A Governor contract has several important parameters that affect the lifecycles 
 
 Here's a guide to picking these parameters to set a DAO up for success by picking the right parameters:
 
-* [Proposal Threshold](choose-governor-parameters.md#how-to-pick-the-proposal-threshold)
-* [Quorum](choose-governor-parameters.md#how-to-pick-the-quorum)
-* [Voting Period](choose-governor-parameters.md#how-to-pick-the-voting-period)
-* [Voting Delay](choose-governor-parameters.md#how-to-pick-the-voting-delay)
-* [Timelock Delay](choose-governor-parameters.md#how-to-pick-the-timelock-delay)
+* [Proposal Threshold](how-to-pick-governor-parameters.md#how-to-pick-the-proposal-threshold)
+* [Quorum](how-to-pick-governor-parameters.md#how-to-pick-the-quorum)
+* [Voting Period](how-to-pick-governor-parameters.md#how-to-pick-the-voting-period)
+* [Voting Delay](how-to-pick-governor-parameters.md#how-to-pick-the-voting-delay)
+* [Timelock Delay](how-to-pick-governor-parameters.md#how-to-pick-the-timelock-delay)
 
 {% hint style="info" %}
 #### Governors can generally update their parameters with an onchain proposal.&#x20;

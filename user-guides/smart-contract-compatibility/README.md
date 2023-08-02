@@ -24,8 +24,8 @@ If you do need to change something, check the dependencies here in the docs to m
 [compound-governor-bravo.md](../tally-contract-compatibility/compound-governor-bravo.md)
 {% endcontent-ref %}
 
-{% content-ref url="tokens-erc20-and-nfts.md" %}
-[tokens-erc20-and-nfts.md](tokens-erc20-and-nfts.md)
+{% content-ref url="../tally-contract-compatibility/tokens-erc-20-and-nfts.md" %}
+[tokens-erc-20-and-nfts.md](../tally-contract-compatibility/tokens-erc-20-and-nfts.md)
 {% endcontent-ref %}
 
 {% content-ref url="supported-use-cases-faq.md" %}

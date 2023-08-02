@@ -16,8 +16,8 @@ description: How to configure and deploy Governor DAOs
 [add-a-dao-to-an-existing-token.md](add-a-dao-to-an-existing-token.md)
 {% endcontent-ref %}
 
-{% content-ref url="../deploying-governor-daos/choose-governor-parameters.md" %}
-[choose-governor-parameters.md](../deploying-governor-daos/choose-governor-parameters.md)
+{% content-ref url="how-to-pick-governor-parameters.md" %}
+[how-to-pick-governor-parameters.md](how-to-pick-governor-parameters.md)
 {% endcontent-ref %}
 
 {% content-ref url="how-to-upgrade-a-gnosis-safe-to-a-governor-with-zodiac.md" %}
