@@ -33,7 +33,6 @@
 
 ## Technical Documentation <a href="#user-guides" id="user-guides"></a>
 
-* [Page](user-guides/page.md)
 * [🏗 Deploying Governor DAOs](user-guides/deploying-daos/README.md)
   * [Deploy a Governor](user-guides/deploying-daos/deploy-a-dao-with-token-voting.md)
   * [Deploy an NFT Governor](user-guides/deploying-daos/deploy-an-nft-dao.md)
