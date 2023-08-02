@@ -29,7 +29,7 @@ This design opens up several unique opportunities for DAO management:
 
 * It allows for the creation of **SubDAOs**, where a committee of experts act as signers on the multisig. Even while they operate independently, the parent DAO retains ultimate authority.
 * It is an ideal mechanism for delegating funds to **Grants programs**. The DAO maintains authority over both the funds and the Grants program administrators, ensuring a chain of responsibility.
-* The mechanism helps in avoiding **centralization dangers**, where Grants program administrators could potentially misuse funds without any onchain recourse.
+* It helps in avoiding **centralization dangers**, where Grants program administrators could potentially misuse funds without any onchain recourse.
 * It offers a solution to **political disagreements** among signers, preventing funds loss due to indecision or conflict.
 * It serves as a vital component in the operation of **decentralized Grants programs**.
 
@@ -55,4 +55,4 @@ Finally, a couple of steps are needed to get your new SubDAO fully represented o
 
 ### Conclusion
 
-The Zodiac Governor module provides an efficient, secure, and decentralized way to manage SubDAOs and Grants Programs. Its unique features and benefits make it an ideal tool for any DAO aiming to retain control while fostering growth and collaboration.
+The Zodiac Governor module provides an efficient, secure, and decentralized way to manage subDAOs and Grants Programs. Its unique features and benefits make it an ideal tool for any DAO aiming to retain control while fostering growth and collaboration.

@@ -5,7 +5,7 @@ description: Temporary work around for known WalletConnect V2 issue
 # Arbitrum Gnosis Safes
 
 {% hint style="info" %}
-This should be considered only a temporary solution as a work around to this [known public issue](https://github.com/wagmi-dev/references/issues/385) on WalletConnect V2 and Gnosis Safe,
+This should be considered only a temporary solution as a work-around to this [known public issue](https://github.com/wagmi-dev/references/issues/385) on WalletConnect V2 and Gnosis Safe,
 
 As soon as the issue is resolved the documentation will be updated.&#x20;
 {% endhint %}
