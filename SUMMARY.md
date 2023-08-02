@@ -44,7 +44,7 @@
   * [Network Support](user-guides/tally-contract-compatibility/network-support.md)
   * [OpenZeppelin Governor](user-guides/smart-contract-compatibility/openzeppelin-governor.md)
   * [Compound Governor Bravo](user-guides/tally-contract-compatibility/compound-governor-bravo.md)
-  * [Tokens: ERC-20 and NFTs](user-guides/tally-contract-compatibility/tokens-erc-20-and-nfts.md)
+  * [Tokens: ERC-20 and NFTs](user-guides/smart-contract-compatibility/tokens-erc20-and-nfts.md)
   * [Flexible Voting Extension](user-guides/tally-contract-compatibility/flexible-voting-extension.md)
   * [Supported Use Cases FAQ](user-guides/smart-contract-compatibility/supported-use-cases-faq.md)
 * [📝 Governor Proposal Standards](user-guides/governor-proposals/README.md)

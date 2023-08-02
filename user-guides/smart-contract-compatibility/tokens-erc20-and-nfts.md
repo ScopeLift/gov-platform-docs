@@ -4,7 +4,7 @@ description: >-
   governance.
 ---
 
-# Tokens: ERC20 and NFTs
+# Tokens: ERC-20 and NFTs
 
 Tally expects tokens to implement the relevant standard, like [ERC-20](https://eips.ethereum.org/EIPS/eip-20) or  [ERC-721](https://eips.ethereum.org/EIPS/eip-721). Also, Tally needs the token contract to implement the [EIP-5805 standard](https://eips.ethereum.org/EIPS/eip-5805) for delegation and voting power checkpointing.&#x20;
 
