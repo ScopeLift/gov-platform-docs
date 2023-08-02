@@ -6,13 +6,7 @@ description: >-
 
 # 🤝 Delegations on Tally
 
-> _Hoping to understand delegation better, or looking to campaign for voting power in your DAO? Don't miss Delegation Week, May 22-25!_
-
-{% content-ref url="broken-reference" %}
-[Broken link](broken-reference)
-{% endcontent-ref %}
-
-### Tally is the best place to explore DAO delegates.
+Tally is the best place to explore DAO delegates.
 
 Need to delegate your own voting power? It's easier than ever:
 
@@ -28,7 +22,7 @@ Not sure who to delegate to? Check out your DAO's Delegates Page to understand w
 
 ### Tally is the best place to be a delegate.
 
-Use Tally to campaign for voting power and gain influence in your DAO. Ready to take a greater role in DAO governance? Start by building your Tally profile:
+You can use Tally to campaign for voting power and gain influence in your DAO. Ready to take a greater role in DAO governance? Start by building your Tally profile:
 
 {% content-ref url="../navigating-the-tally-platform/tally-profile.md" %}
 [tally-profile.md](../navigating-the-tally-platform/tally-profile.md)

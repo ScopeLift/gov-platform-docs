@@ -12,7 +12,7 @@ From any page on Tally, select the **Connect wallet** button in the top right co
 
 <figure><img src="../../.gitbook/assets/CleanShot 2023-02-22 at 15.18.59@2x.png" alt=""><figcaption><p>Select <strong>Connect wallet</strong>.</p></figcaption></figure>
 
-In the pop up window, select your preferred wallet service. We support MetaMask, WalletConnect, and Coinbase Wallet. Hardware wallet users can also connect their device through MetaMask.
+In the pop-up window, select your preferred wallet service. We support MetaMask, WalletConnect, and Coinbase Wallet. Hardware wallet users can also connect their device through MetaMask.
 
 <figure><img src="../../.gitbook/assets/CleanShot 2023-02-22 at 15.20.30@2x.png" alt=""><figcaption><p>Choose your wallet service.</p></figcaption></figure>
 
@@ -35,13 +35,13 @@ Looking to **update your Safe profile** on Tally? You'll first need to connect y
 
 ## Sign In
 
-> _Tally uses_ [_Sign-In with Ethereum_](https://login.xyz/)_! You'll need to_ [_connect your wallet_](getting-started.md#connect-your-wallet) _before signing in._
+> _Tally uses_ [_Sign-In with Ethereum_](https://login.xyz/)_. You'll need to_ [_connect your wallet_](getting-started.md#connect-your-wallet) _before signing in._
 
 Once you've connected your wallet, you'll see a **Sign in** button at the top right corner of the Tally site.
 
 <figure><img src="../../.gitbook/assets/CleanShot 2023-02-22 at 15.34.51@2x.png" alt=""><figcaption><p><strong>Sign in</strong>.</p></figcaption></figure>
 
-Follow the prompts in the pop up window to sign in using your connected wallet.
+Follow the prompts in the pop-up window to sign in using your connected wallet.
 
 The top right section of the page will now show a profile image and dropdown menu. Visit [tally-profile.md](tally-profile.md "mention") to learn more!
 
@@ -64,7 +64,7 @@ To switch back to your personal profile, simply select **Switch to...** from the
 ![](<../../.gitbook/assets/CleanShot 2023-05-02 at 14.57.44@2x.png>)
 
 {% hint style="info" %}
-**Sign In As Safe** is currently designed to allow you to update your Safe's profile on Tally. Please note that when you're signed in as your Safe, it's your _personal owner wallet_ that is connected. That means any onchain actions taken (such as voting or creating a proposal) are signed with your _personal owner wallet_.
+**Sign In As Safe** allows you to update your Safe's profile on Tally. Please note that when you're signed in as Safe, it's your _personal owner wallet_ that is connected. That means any onchain actions taken (such as voting or creating a proposal) are signed with your _personal owner wallet_.
 
 In order to **take onchain actions** with your Safe as the signer, you must first _Log out_ completely, then follow the directions to [#connect-with-a-safe](getting-started.md#connect-with-a-safe "mention").
 

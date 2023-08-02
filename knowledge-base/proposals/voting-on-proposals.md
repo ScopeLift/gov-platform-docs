@@ -42,9 +42,9 @@ _Having trouble voting? There are a few common culprits to rule out..._
 
 For DAOs that use the [Governor contract](https://docs.tally.xyz/user-guides/what-is-a-governor-contract), only delegated tokens can participate in voting. If you want to vote on proposals directly, you need to delegate your voting power to your own address. Check out our [Delegate Your Voting Power](delegating-voting-power.md) doc for a step-by-step guide!
 
-#### Is the vote for an off-chain poll?
+#### Is the vote for an offchain poll?
 
-For off-chain polls created in a Governor DAO, we use a snapshot to determine token weighted voting power. If you receive tokens _after_ the proposal was created, you won't be able to vote.
+For offchain polls created in a Governor DAO, we use a snapshot to determine token weighted voting power. If you receive tokens _after_ the proposal was created, you won't be able to vote.
 
 #### Have you waited for Tally to index the on-chain event?
 

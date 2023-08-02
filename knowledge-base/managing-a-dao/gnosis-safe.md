@@ -14,7 +14,7 @@ Gnosis Safes are commonly used to manage pooled DAO funds. DAOs often require a 
 
 ### How does a Gnosis Safe work? <a href="#how" id="how"></a>
 
-A multi-sig Gnosis Safe works by requiring multiple signatures, or "keys," in order to execute a transaction. When the safe is created, the user specifies the number of keys that are required to sign a transaction. For example, if the user specifies that three keys are required, then at least three of the keys associated with the safe must be used to sign a transaction before it can be executed.
+A multi-sig Gnosis Safe works by requiring multiple signatures, or "keys," in order to execute a transaction. When the safe is created, the user specifies the number of keys that are required to sign a transaction before it is executed.
 
 ### What is the process for submitting a transaction with a Gnosis Safe? <a href="#transaction" id="transaction"></a>
 

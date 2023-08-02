@@ -38,7 +38,7 @@
   * [Deploy an NFT Governor](user-guides/deploying-daos/deploy-an-nft-dao.md)
   * [Deploy a governance token](user-guides/deploying-governor-daos/deploy-a-governance-token.md)
   * [Add a Governor to an existing token](user-guides/deploying-daos/add-a-dao-to-an-existing-token.md)
-  * [Pick good Governor parameters](user-guides/deploying-daos/how-to-pick-governor-parameters.md)
+  * [Choose Governor parameters](user-guides/deploying-governor-daos/choose-governor-parameters.md)
   * [Upgrade Gnosis Safe to Governor with Zodiac](user-guides/deploying-daos/how-to-upgrade-a-gnosis-safe-to-a-governor-with-zodiac.md)
 * [⚙ Tally Contract Compatibility](user-guides/smart-contract-compatibility/README.md)
   * [Network Support](user-guides/tally-contract-compatibility/network-support.md)

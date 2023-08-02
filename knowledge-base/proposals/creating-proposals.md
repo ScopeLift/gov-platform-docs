@@ -1,12 +1,10 @@
 # 💡 Creating Proposals
 
-_Get stuff done for your DAO by creating an onchain proposal on Tally!_
+_Take action in your DAO by initiating an onchani proposal on Tally._
 
-To submit an onchain proposal, you must have at least enough voting power to meet the DAO's **Proposal threshold**. You can find this number on each [DAO Page](../navigating-the-tally-platform/dao-page.md) by expanding the _Contract Parameters_ section near the top of the page.
+To submit an onchain proposal, you must have sufficient voting power to meet the DAO's **Proposal threshold**. This figure can be found on each [DAO Page](../navigating-the-tally-platform/dao-page.md) by expanding the _Contract Parameters_ section near the top of the page.
 
 ![](https://p434.p1.n0.cdn.getcloudapp.com/items/Wnu7L511/62adb73a-14cf-43fc-a2ec-f18d81da37fd.jpg?v=41fa4940cdd4058e9c1c5300247c9fab)
-
-###
 
 ### Create a Proposal
 
@@ -18,7 +16,7 @@ Select the **Onchain** button to create an onchain proposal.
 
 ![](https://p434.p1.n0.cdn.getcloudapp.com/items/P8uQnKN6/8f8a7281-f86e-46db-8aaa-0836a3d10fb7.jpg?v=d15f2d2bacf987f04bfd8b7aea930903)
 
-If you haven't yet connected your wallet, Tally will prompt you to do so. Most governance frameworks require a proposal threshold—a minimum amount of voting power—to create a proposal. Make sure you connected with a wallet with enough voting power. Then click **Continue**.
+If you haven't yet connected your wallet, Tally will prompt you to do so. Most governance frameworks require a proposal threshold—a minimum amount of voting power—to create a proposal. Make sure you connected with the tokens required to create a proposal in it. Then click **Continue**.
 
 ![](https://p434.p1.n0.cdn.getcloudapp.com/items/X6uRgGj2/bc81b614-618f-4326-a7b9-23c5cf49ec82.jpg?v=7aaf60e7686ab39166e3773b184fa759)
 

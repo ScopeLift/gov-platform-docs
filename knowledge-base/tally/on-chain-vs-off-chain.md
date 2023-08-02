@@ -4,7 +4,7 @@ description: Why should DAOs be onchain?
 
 # ⛓ Onchain vs Offchain
 
-> _With onchain DAOs, voters don’t need to trust that admins will honor the results of a vote. Smart contracts automatically implement successful proposals._
+> _With onchain DAOs, voters don't need to trust that admins will honor the results of the vote. Instead, smart contracts will automatically implement successful proposals. This eliminates the need for a trusted third party to enact vote results._
 
 ## Why onchain?
 
@@ -12,20 +12,20 @@ description: Why should DAOs be onchain?
 
 <figure><img src="../../.gitbook/assets/on-chain vs off-chain (1).jpg" alt=""><figcaption><p>Off-chain voting requires social trust.</p></figcaption></figure>
 
-Smart contracts can be designed to execute proposals automatically based on the outcome of onchain votes, removing the need for a trusted third party or core team to enact vote results. Examples of onchain voting systems include MakerDAO, Aave, and protocols built on Compound's governance framework.
+Smart contracts can be designed to execute proposals automatically based on the outcome of onchain votes, removing the need for a third party or core team to enact vote results. Onchain voting systems, such as those used by MakerDAO, Aave, and protocols built on Compound's governance framework, are examples of this.
 
 ### **Benefits of Onchain Voting:**
 
-* No trusted third party required to count or enact votes
-* Passed proposals execute automatically and trustlessly
-* Works well for approving protocol changes or other high-stakes votes
+* Eliminates the need for a trusted third party to count or enact votes
+* Passed proposals are executed automatically and trustlessly
+* Ideal for approving protocol changes or other high-stakes votes
 
 ## How Is Tally different than Snapshot?
 
-The big difference between Tally and off-chain voting tools like [Snapshot](https://snapshot.org/) and others is that Tally supports fully onchain DAOs.
+Tally is an onchain voting protocol; Snapshot is offchain voting protocol.
 
 **Onchain DAOs use smart contracts to propose, vote on and execute proposals. That makes DAO operations automated, trustless, and more decentralized.**
 
-The [Governor smart contract](governor-framework.md) is responsible for managing proposals, counting votes and executing passed proposals onchain with no human intervention. The benefit of a Governor DAO is that the token holders or NFT membership holders have direct control over the protocol and/or treasury through voting. Holders don’t have to trust their multi-sig signers to execute a proposal vote, and they don’t have to worry about rogue multi-sig signers creating a transaction that wasn’t approved by the voters. The tradeoff is that creating onchain proposals and voting isn't free: it costs gas.
+The [Governor smart contract](governor-framework.md) manages proposals, counts votes, and executes passed proposals onchain without human intervention. This gives token holders or NFT membership holders direct control over the protocol and/or treasury through voting. They don't have to trust multi-sig signers to execute a proposal vote, nor worry about rogue multi-sig signers creating an unapproved transaction. However, the tradeoff is that creating onchain proposals and voting incurs gas costs.
 
 For more information about deploying or upgrading to an onchain DAO, see [deploying-daos](../../user-guides/deploying-daos/ "mention").

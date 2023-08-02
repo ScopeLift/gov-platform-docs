@@ -4,7 +4,7 @@ description: How to upgrade a multi-sig to a fully onchain DAO
 
 # Upgrade Gnosis Safe to Governor with Zodiac
 
-[Dennison](https://twitter.com/dennisonbertram) from Tally and [Auryn Macmillan](https://twitter.com/auryn\_macmillan) from Zodiac put together this video walkthrough about how to upgrade a Gnosis Safe to an onchain Governor on Tally:
+[Dennison Bertram](https://twitter.com/dennisonbertram) from Tally and [Auryn Macmillan](https://twitter.com/auryn\_macmillan) from Zodiac put together this video walkthrough about how to upgrade a Gnosis Safe to an onchain Governor on Tally:
 
 [https://drive.google.com/file/d/1gIgjdmQx-Rf9-Xb8fe\_U6TLez6M\_H-PR/view](https://drive.google.com/file/d/1gIgjdmQx-Rf9-Xb8fe\_U6TLez6M\_H-PR/view)
 

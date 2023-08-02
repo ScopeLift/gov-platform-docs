@@ -4,9 +4,9 @@ description: How to make your Token and Governor contract compatible with Tally
 
 # ⚙ Tally Contract Compatibility
 
-Tally supports DAOs on Ethereum, Polygon, Optimism, Arbitrum, Avalanche, and various testnets .
+Tally supports DAOs on Ethereum, Polygon, Optimism, Arbitrum, Avalanche, Base, Moonbeam, Scroll, BNB Chain, Gnosis, and various testnets.
 
-Tally connects with the on-chain contracts for your DAO in two places. Tally’s servers index the on-chain data, and Tally’s web3 site helps users make calls directly to the contracts running on the blockchain.
+Tally connects with the on-chain contracts for your DAO in two places. Tally’s servers index the onchain data, and Tally’s web3 site helps users make calls directly to the contracts running on the blockchain.
 
 Here, we describe the interface that your contracts need to follow to be compatible with Tally. The easiest way to be compatible is to fork [Open Zeppelin Governor](https://wizard.openzeppelin.com/) without changing anything.&#x20;
 
