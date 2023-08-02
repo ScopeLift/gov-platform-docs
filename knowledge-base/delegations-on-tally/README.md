@@ -8,8 +8,8 @@ description: >-
 
 > _Hoping to understand delegation better, or looking to campaign for voting power in your DAO? Don't miss Delegation Week, May 22-25!_
 
-{% content-ref url="../delegation-week/" %}
-[delegation-week](../delegation-week/)
+{% content-ref url="broken-reference" %}
+[Broken link](broken-reference)
 {% endcontent-ref %}
 
 ### Tally is the best place to explore DAO delegates.

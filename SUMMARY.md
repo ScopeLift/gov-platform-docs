@@ -30,8 +30,6 @@
 * [🎉 DAO Best Practices](knowledge-base/dao-best-practices/README.md)
   * [Running an Onchain DAO Using OpenZeppelin Governor](knowledge-base/dao-best-practices/running-an-onchain-dao-using-openzeppelin-governor.md)
 * [0⃣ Tally Zero](knowledge-base/tally-zero.md)
-* [🗓 Delegation Week](knowledge-base/delegation-week/README.md)
-  * [Free Delegation](knowledge-base/delegation-week/free-delegation.md)
 
 ## Technical Documentation <a href="#user-guides" id="user-guides"></a>
 
