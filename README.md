@@ -1,5 +1,5 @@
 ---
-description: Tally is a front-end for onchain decentralized organizations.
+description: Tally is a frontend for onchain decentralized organizations.
 cover: .gitbook/assets/DOCS BANNER.png
 coverY: 0
 ---

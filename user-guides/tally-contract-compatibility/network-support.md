@@ -36,8 +36,6 @@ Tally currently supports these EVM-compatible networks:
 
 ### Adding chains to Tally
 
-Is there a chain you'd like us to add support for? Add it (or upvote it!) on our [Feature Requests board](https://feedback.tally.xyz/b/feature-requests).&#x20;
-
 To support a chain, Tally has several must-have dependencies:
 
 * Network is EVM-compatible
