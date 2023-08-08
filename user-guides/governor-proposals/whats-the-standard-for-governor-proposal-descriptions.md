@@ -2,9 +2,9 @@
 
 Ever since [Compound Governor Alpha](https://docs.compound.finance/v2/governance/#governance), Governor proposals have had an onchain, human-readable \`description\` field. Governor frontends like Tally, Compound and others follow this de-facto standard:
 
-1. Proposal descriptions should be markdown text
-2. The first line of the description, regardless of format, is the title
-3. Everything after the first newline is the body of the proposal. Frontends should renderer it as markdown
+1. Proposal descriptions should be markdown text.
+2. The first line of the description, regardless of format, is the title.
+3. Everything after the first newline is the body of the proposal. Frontends should render it as markdown.
 
 If a proposal description doesn’t follow this standard, Tally’s frontend will make a best-effort to render it, but it might not appear as intended.
 
