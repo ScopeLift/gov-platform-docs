@@ -1,6 +1,6 @@
 # Governor Proposal Descriptions Standards
 
-Ever since [Compound Governor Alpha](https://docs.compound.finance/v2/governance/#governance), Governor proposals have had an onchain, human-readable \`description\` field. Governor front-ends like Tally, Compound and others follow this de-facto standard:
+Ever since [Compound Governor Alpha](https://docs.compound.finance/v2/governance/#governance), Governor proposals have had an onchain, human-readable \`description\` field. Governor frontends like Tally, Compound and others follow this de-facto standard:
 
 1. Proposal descriptions should be markdown text
 2. The first line of the description, regardless of format, is the title
