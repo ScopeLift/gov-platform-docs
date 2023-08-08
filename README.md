@@ -42,6 +42,6 @@ _Learn about deploying a Governor contract and how to customize it for compatibi
 [governor-proposals](user-guides/governor-proposals/)
 {% endcontent-ref %}
 
-{% content-ref url="tally-api/welcome.md" %}
-[welcome.md](tally-api/welcome.md)
+{% content-ref url="user-guides/welcome.md" %}
+[welcome.md](user-guides/welcome.md)
 {% endcontent-ref %}

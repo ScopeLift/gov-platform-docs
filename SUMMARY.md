@@ -13,7 +13,6 @@
   * [📰 DAO Page](knowledge-base/navigating-the-tally-platform/dao-page.md)
   * [💭 Proposal Page](knowledge-base/navigating-the-tally-platform/proposal-page.md)
   * [☑ Delegates Page](knowledge-base/navigating-the-tally-platform/delegates-page.md)
-  * [💸 Gnosis Safe Page](knowledge-base/navigating-the-tally-platform/gnosis-safe-page.md)
   * [🌟 Feature Requests](knowledge-base/navigating-the-tally-platform/feature-requests.md)
 * [⚒ Adding a DAO to Tally](knowledge-base/managing-a-dao/README.md)
   * [☕ DAO Admins](knowledge-base/managing-a-dao/dao-admins.md)
@@ -53,10 +52,7 @@
   * [Arbitrum Gnosis Safes](user-guides/using-governor-with-gnosis-safe/arbitrum-gnosis-safes.md)
   * [Zodiac Governor Module for SubDAOs and grants programs](user-guides/using-governor-with-gnosis-safe/zodiac-governor-module-for-subdaos-and-grants-programs.md)
 * [⚠️     Security](user-guides/security.md)
-
-## Tally API
-
-* [👩💻 Tally API](tally-api/welcome.md)
+* [👩💻 Tally API](user-guides/welcome.md)
 
 ## Ecosystem Resources
 

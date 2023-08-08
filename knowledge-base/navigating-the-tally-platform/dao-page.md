@@ -62,8 +62,8 @@ Below, the _Gnosis Safes_ section displays information on any [linked Gnosis Saf
 
 #### **Click on a Safe to access its Gnosis Safe Page:**
 
-{% content-ref url="gnosis-safe-page.md" %}
-[gnosis-safe-page.md](gnosis-safe-page.md)
+{% content-ref url="broken-reference" %}
+[Broken link](broken-reference)
 {% endcontent-ref %}
 
 ## Admins
