@@ -26,8 +26,8 @@ Follow the prompts to complete the wallet connection process. You will then see 
 
 We recommend using WalletConnect from the Safe mobile app for the smoothest experience.
 
-* [Mobile instructions](https://help.safe.global/en/articles/5307197-connect-to-dapps-with-walletconnect-on-mobile) (_recommended_)
-* [Desktop instructions](https://help.safe.global/en/articles/4356253-walletconnect-safe-app)
+* [Mobile instructions](https://help.safe.global/en/articles/40810-connect-to-dapps-with-walletconnect-on-mobile) (_recommended_)
+* [Desktop instructions](https://help.safe.global/en/articles/40849-walletconnect-safe-app)
 
 {% hint style="info" %}
 Looking to **update your Safe profile** on Tally? You'll first need to connect your personal wallet that is an _**owner**_ of the Safe (rather than the Safe wallet itself). Then follow the steps to [#sign-in-as-safe](getting-started.md#sign-in-as-safe "mention")!
