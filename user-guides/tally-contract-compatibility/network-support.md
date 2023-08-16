@@ -46,6 +46,6 @@ To support a chain, Tally has several must-have dependencies:
 In addition, these nice-to-have dependencies will unlock all the features and improve the UX:
 
 * Support from major wallets for the network
-* [Gnosis Safe network support](https://docs.gnosis-safe.io/contracts/gnosis-safe-on-other-evm-based-networks)
+* [Gnosis Safe Available Services](https://docs.safe.global/safe-core-api/available-services#safe-transaction-service)
 * [Tenderly network support](https://docs.tenderly.co/supported-networks-and-languages)
 
