@@ -1,4 +1,4 @@
-# ✌ Creating a Delegate Statement
+# Creating a Delegate Statement
 
 > _Ready to become a DAO delegate? Campaign for delegations on Tally by creating a delegation statement._&#x20;
 

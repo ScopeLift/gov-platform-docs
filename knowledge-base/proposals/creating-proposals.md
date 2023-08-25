@@ -1,4 +1,4 @@
-# 💡 Creating Proposals
+# Creating Proposals
 
 _Take action in your DAO by initiating an onchain proposal on Tally._
 

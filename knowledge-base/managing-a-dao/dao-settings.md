@@ -2,7 +2,7 @@
 description: Keep your DAO's details on Tally up-to-date.
 ---
 
-# ⚙ DAO Settings
+# DAO Settings
 
 > _If you have the_ [_Admin or Superadmin_](dao-admins.md) _role for your DAO, you can update the settings of your_ [dao-page.md](../navigating-the-tally-platform/dao-page.md "mention") _on Tally._
 

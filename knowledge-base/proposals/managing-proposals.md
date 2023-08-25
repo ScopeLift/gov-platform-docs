@@ -2,7 +2,7 @@
 description: How to queue, execute, and cancel proposals.
 ---
 
-# 🎬 Managing Proposals
+# Managing Proposals
 
 > Besides creating a proposal and voting on it, there are several other actions that can be taken: queuing, executing, and canceling.
 >

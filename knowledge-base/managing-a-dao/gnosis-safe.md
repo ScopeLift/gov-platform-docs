@@ -2,7 +2,7 @@
 description: Gnosis Safes on Tally.
 ---
 
-# 💰 Gnosis Safes
+# Gnosis Safes
 
 > _It's easy to create or link a Gnosis Safe on Tally from_ [dao-settings.md](dao-settings.md "mention")_. Learn more about Gnosis Safes below, or skip right to the_ [_step-by-step instructions_](gnosis-safe.md#tally)_._
 

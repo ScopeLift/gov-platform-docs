@@ -1,4 +1,4 @@
-# ✅ Voting on Proposals
+# Voting on Proposals
 
 _In order to vote on a proposal, first make sure that you've_ [_connected your wallet_ ](../navigating-the-tally-platform/getting-started.md)_and_ [_delegated voting power to yourself_](delegating-voting-power.md)_!_
 

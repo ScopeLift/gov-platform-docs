@@ -2,7 +2,7 @@
 description: Share your DAO deets via your Tally profile.
 ---
 
-# 😀 Tally Profile
+# Tally Profile
 
 > _Once you've_ [_signed in_](getting-started.md) _to Tally, you can click your profile name at the top right to access the profile drop-down menu:_
 >

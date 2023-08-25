@@ -2,7 +2,7 @@
 description: Connect your wallet and sign in to Tally.
 ---
 
-# 🎇 Getting Started
+# Getting Started
 
 Connect Your Wallet
 

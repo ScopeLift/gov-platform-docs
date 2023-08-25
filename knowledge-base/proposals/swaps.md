@@ -2,7 +2,7 @@
 description: How to create a DAO swap proposal on Tally
 ---
 
-# 🔀 Swaps
+# Swaps
 
 Empower your DAO by creating an onchain proposal on Tally using the Swaps recipe! This tool allows DAOs to exchange tokens directly from their treasuries, facilitating treasury diversification. These DAO Swaps are powered by [CoW Swap](https://cow.fi).
 

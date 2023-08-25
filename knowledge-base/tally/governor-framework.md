@@ -2,7 +2,7 @@
 description: Tally is a frontend for Governor contracts.
 ---
 
-# ⚖ Governor Framework
+# Governor Framework
 
 > _Governor is the DAO standard. The Governor contract is battle-tested, audited and trusted by DAOs like ENS, Uniswap and Compound. Supported by OpenZeppelin, it’s modular, composable and extensible._
 

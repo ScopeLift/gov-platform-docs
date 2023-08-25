@@ -2,7 +2,7 @@
 description: Navigate DAO governance.
 ---
 
-# 💭 Proposal Page
+# Proposal Page
 
 > _The Proposal Page shows details of a particular active or past proposal. You can access the Proposal Page from the_ [_Proposals_](https://docs.tally.xyz/knowledge-base/navigating-the-tally-platform/dao-page#proposals) _section of the relevant_ [dao-page.md](dao-page.md "mention"). C_lick the DAO name in the breadcrumb at the top left to return to the main DAO Page._
 

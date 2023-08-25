@@ -2,7 +2,7 @@
 description: Your DAO's home page.
 ---
 
-# 📰 DAO Page
+# DAO Page
 
 > _The DAO page shows details about a specific DAO, including current and past proposals, assets, and delegates._
 
