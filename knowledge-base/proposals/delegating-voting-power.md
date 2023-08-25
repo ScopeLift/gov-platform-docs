@@ -1,6 +1,6 @@
 # 🎟 Delegating Voting Power
 
-_For DAOs that use the_ [_Governor contract_](https://docs.tally.xyz/user-guides/what-is-a-governor-contract)_, only delegated tokens can participate in voting. What does this mean for you, a token holder?_
+_For DAOs that use the_ [_Governor contract_](https://docs.tally.xyz/user-guides/deploying-governor-daos/deploy-a-governor)_, only delegated tokens can participate in voting. What does this mean for you, a token holder?_
 
 _**You must set up delegation if you want to participate in governance votes. This includes delegating to others or voting yourself.**_
 
