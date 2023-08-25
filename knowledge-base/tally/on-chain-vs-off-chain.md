@@ -8,9 +8,9 @@ description: Why should DAOs be onchain?
 
 ## Why onchain?
 
-**Onchain votes execute proposals trustlessly. Off-chain votes don't.**
+**Onchain votes execute proposals trustlessly. Offchain votes don't.**
 
-<figure><img src="../../.gitbook/assets/on-chain vs off-chain (1).jpg" alt=""><figcaption><p>Offchain voting requires social trust.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (123).png" alt=""><figcaption><p>Offchain voting requires social trust.</p></figcaption></figure>
 
 Smart contracts can be designed to execute proposals automatically based on the outcome of onchain votes, removing the need for a third party or core team to enact vote results. Onchain voting systems, such as those used by MakerDAO, Aave, and protocols built on Compound's governance framework, are examples of this.
 
