@@ -20,9 +20,9 @@ description: Share your DAO deets via your Tally profile.
 
 > _The Your DAOs page shows all the DAOs you're a member of._
 
-![Your DAOs page.](<../../.gitbook/assets/Screenshot 2023-08-25 at 1.04.12 pm.png>)
+![Your DAOs page.](<../../.gitbook/assets/Screenshot 2023-08-25 at 1.06.50 pm.png>)
 
-Your DAOs shows a list of all of the DAOs you're a member of, split into two sections: _Admin_ (DAOs where you have the Superadmin or Admin role), and _Governor DAOs_.
+Your DAOs shows a list of all of the DAOs you're a member of, split into two sections: _DAOs you manage_ (DAOs where you have the Superadmin or Admin role), and _DAO memberships_.
 
 {% hint style="info" %}
 Click on any DAO to navigate to its [dao-page.md](dao-page.md "mention")!
