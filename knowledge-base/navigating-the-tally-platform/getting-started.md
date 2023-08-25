@@ -4,21 +4,25 @@ description: Connect your wallet and sign in to Tally.
 
 # 🎇 Getting Started
 
-## Connect Your Wallet
+Connect Your Wallet
 
 > _Connecting your wallet allows you to delegate your voting power or vote on active proposals through Tally._
 
-From any page on Tally, select the **Connect wallet** button in the top right corner.
+From any page on Tally, select the **Dashboard** button in the top right corner.
 
-<figure><img src="../../.gitbook/assets/CleanShot 2023-02-22 at 15.18.59@2x.png" alt=""><figcaption><p>Select <strong>Connect wallet</strong>.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot 2023-08-23 at 8.49.16 pm.png" alt=""><figcaption><p>Select <strong>Dashboard.</strong></p></figcaption></figure>
 
-In the pop-up window, select your preferred wallet service. We support MetaMask, WalletConnect, and Coinbase Wallet. Hardware wallet users can also connect their device through MetaMask.
+If you have not yet signed into your wallet, you will see the **Connect wallet** button in the top right corner.
 
-<figure><img src="../../.gitbook/assets/CleanShot 2023-02-22 at 15.20.30@2x.png" alt=""><figcaption><p>Choose your wallet service.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (121).png" alt=""><figcaption><p>Select <strong>Connect wallet.</strong></p></figcaption></figure>
+
+In the pop-up window, select your preferred wallet service. We support MetaMask, WalletConnect, Coinbase Wallet, and Safe. Hardware wallet users can also connect their device through MetaMask.
+
+<figure><img src="../../.gitbook/assets/Screenshot 2023-08-23 at 8.54.39 pm.png" alt=""><figcaption><p>Choose your wallet service.</p></figcaption></figure>
 
 Follow the prompts to complete the wallet connection process. You will then see your connected wallet in the top right corner of the site.
 
-<figure><img src="../../.gitbook/assets/CleanShot 2023-02-22 at 15.22.43@2x.png" alt=""><figcaption><p>Wallet successfully connected!</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot 2023-08-23 at 8.56.38 pm.png" alt=""><figcaption><p>Wallet successfully connected!</p></figcaption></figure>
 
 ### Connect With A Safe
 
@@ -39,7 +43,7 @@ Looking to **update your Safe profile** on Tally? You'll first need to connect y
 
 Once you've connected your wallet, you'll see a **Sign in** button at the top right corner of the Tally site.
 
-<figure><img src="../../.gitbook/assets/CleanShot 2023-02-22 at 15.34.51@2x.png" alt=""><figcaption><p><strong>Sign in</strong>.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot 2023-08-25 at 12.50.53 pm.png" alt=""><figcaption><p>Sign in.</p></figcaption></figure>
 
 Follow the prompts in the pop-up window to sign in using your connected wallet.
 

@@ -14,13 +14,13 @@ description: Share your DAO deets via your Tally profile.
 >
 > [#log-out](tally-profile.md#log-out "mention")
 
-<figure><img src="../../.gitbook/assets/CleanShot 2023-02-22 at 15.45.34@2x.png" alt=""><figcaption><p>Profile drop-down menu.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot 2023-08-25 at 12.59.21 pm.png" alt=""><figcaption><p>Profile drop-down menu.</p></figcaption></figure>
 
 ## Your DAOs
 
 > _The Your DAOs page shows all the DAOs you're a member of._
 
-![Your DAOs page.](https://p434.p1.n0.cdn.getcloudapp.com/items/Z4uD0EwB/3a31e399-49f7-4c18-a264-f7a7333080aa.png?source=client\&v=3d8ce303db6a12ed6dbacf32826b4a80)
+![Your DAOs page.](<../../.gitbook/assets/Screenshot 2023-08-25 at 1.04.12 pm.png>)
 
 Your DAOs shows a list of all of the DAOs you're a member of, split into two sections: _Admin_ (DAOs where you have the Superadmin or Admin role), and _Governor DAOs_.
 
