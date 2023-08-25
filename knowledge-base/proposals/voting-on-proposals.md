@@ -14,7 +14,7 @@ Click on the **Vote** button in the upper right corner of the page.
 
 ![](https://p434.p1.n0.cdn.getcloudapp.com/items/kpu8Xl9W/eb6ddf96-bc81-40c8-bc10-7ac1484e7783.jpg?v=228f55ddc9a5b20180004ec39d985a8b)
 
-In the _Voting_ pop up, choose your vote— **For**, **Against**, or **Abstain**. ( _Note that Abstain isn't an option in all DAOs, depending on their contract setup._) If you'd like, **add a comment** to explain the reason for your vote to the rest of your DAO. Once you're done, click **Submit**.
+In the _Voting_ pop up, choose your vote— **For**, **Against**, or **Abstain**. (_Note that Abstain isn't an option in all DAOs, depending on their contract setup._) If you'd like, **add a comment** to explain the reason for your vote to the rest of your DAO. Once you're done, click **Submit**.
 
 ![](https://p434.p1.n0.cdn.getcloudapp.com/items/2NumGpYz/148e2076-75e1-49f2-a5ea-6aaad473ab4e.jpg?v=765a3a5b16000fa159f498feb927450c)
 
