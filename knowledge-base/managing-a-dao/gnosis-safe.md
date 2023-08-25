@@ -36,7 +36,7 @@ The threshold is the number of signers required to confirm a transaction. Once t
 
 Delegates are non-owners that are authorized to initiate transactions for a specific Safe which then would show up on the official Gnosis Safe interfaces. Delegates need to be authorized by an owner of a Safe.
 
-Delegates can be viewed, added and removed via the [Safe transaction service](https://safe-docs.dev.gnosisdev.com/safe/docs/services\_transactions).
+Delegates can be viewed, added and removed via the [Safe transaction service](https://safe-transaction-mainnet.safe.global/).
 
 ## Gnosis Safes on Tally <a href="#tally" id="tally"></a>
 
