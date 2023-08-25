@@ -48,6 +48,6 @@ _You can also delegate your voting power to a specific address directly on their
 
 Navigate to your [Profile Page](../navigating-the-tally-platform/tally-profile.md) by clicking your profile name at the top right and selecting **Profile** from the drop-down.
 
-Select the **DAO button** for the delegation you wish to confirm. You'll see your delegation status at the far right of the _Activity_ section.
+Select the DAO for the delegation you wish to confirm. You'll see whom you are delegating to directly next to your username.
 
-![](https://p434.p1.n0.cdn.getcloudapp.com/items/Wnu7Qmnj/fcd97021-0044-42c0-9c76-62151bab6524.jpg?v=8fb627111c3290cfe3a12b633f7fa79e)
+![](<../../.gitbook/assets/Screenshot 2023-08-25 at 1.58.23 pm.png>)
