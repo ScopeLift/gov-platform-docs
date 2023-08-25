@@ -57,3 +57,9 @@ Check out our guide to ensure your OpenZeppelin Governor is compatible with the 
 * [Developing smart contracts](https://docs.openzeppelin.com/learn/developing-smart-contracts)
 * [Deploying and interacting with smart contracts](https://docs.openzeppelin.com/learn/deploying-and-interacting)
 
+### Using Governor
+
+Tally offers an all-in-one guide explaining how to use Governor in the PDF below.
+
+{% file src="../../.gitbook/assets/Using Governor.pdf" %}
+
