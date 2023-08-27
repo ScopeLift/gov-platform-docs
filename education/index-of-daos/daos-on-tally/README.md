@@ -27,3 +27,7 @@
 {% content-ref url="ampleforth-forth.md" %}
 [ampleforth-forth.md](ampleforth-forth.md)
 {% endcontent-ref %}
+
+{% content-ref url="aave-aave.md" %}
+[aave-aave.md](aave-aave.md)
+{% endcontent-ref %}
