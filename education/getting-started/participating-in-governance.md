@@ -19,6 +19,6 @@ As you find projects and communities that interest you, the next step towards va
 * Read the protocol documentation and blog
 * Try using the system yourself
 * Visit the community's forum to see current discussions and proposals
-* Ask questions in the community chat
+* Ask questions in the community chat, usually on Discord
 
 Once you have a good understanding of how things work, you'll be able to follow each community's particular norms and procedures for contributing and making governance changes.
