@@ -37,6 +37,8 @@ Several protocols are experimenting with using both offchain and onchain votes i
 
 Aragon and Snapshot are also implementing "optimistic voting," which allows for offchain poll results to be executed onchain and uses Aragon Court as a security mechanism. More information is available in the [Snapshot Voting Design page](https://docs.tally.xyz/education/governance-frameworks/snapshot-polls).
 
+***
+
 ## **Resources**
 
 * [Snapshot Labs Github](https://github.com/balancer-labs/snapshot)
