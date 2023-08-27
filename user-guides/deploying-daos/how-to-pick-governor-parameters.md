@@ -6,7 +6,7 @@ description: >-
 
 # Choose Governor parameters
 
-A Governor contract has several important parameters that affect the lifecycles of its proposals . Think about these parameters as a balancing act between ease of passing proposals and security against malicious proposals. That’s an important – and tough – tradeoff to get right!&#x20;
+A Governor contract has several important parameters that affect the lifecycles of its proposals. Think about these parameters as a balancing act between ease of passing proposals and security against malicious proposals. That’s an important – and tough – tradeoff to get right!&#x20;
 
 Here's a guide to picking these parameters to set a DAO up for success by picking the right parameters:
 
@@ -58,15 +58,11 @@ The voting period is how voting lasts on each proposal. At the end of the voting
 
 Less than 3 days, and someone can try to sneak through a proposal on a weekend or during a period of low activity. Something closer to 7 days gives everyone time to review a proposal.
 
-
-
 ### **How to pick the Voting Delay**
 
 The voting delay is the amount of time between when a proposal is submitted and when it goes up for voting. Most Governors have a voting delay of 0. The Governors that do have one usually pick a period of one day or less.
 
 The delay gives token holders time to delegate their voting power before the vote starts or buy more votes. Governor takes a snapshot of all the voting power at the start of voting. Delegation and balance changes after that don’t affect voting power. That said, most DAOs decide that this extra time for managing votes isn’t worth slowing down the proposal.
-
-
 
 ### **How to pick the Timelock Delay**
 
