@@ -46,8 +46,8 @@ For onchain DAOs, voting procedures occur directly on the blockchain and are exe
 [governor-framework.md](governor-framework.md)
 {% endcontent-ref %}
 
-{% content-ref url="on-chain-vs-off-chain.md" %}
-[on-chain-vs-off-chain.md](on-chain-vs-off-chain.md)
+{% content-ref url="onchain-governance/" %}
+[onchain-governance](onchain-governance/)
 {% endcontent-ref %}
 
 {% content-ref url="../navigating-the-tally-platform/" %}

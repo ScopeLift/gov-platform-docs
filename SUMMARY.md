@@ -6,7 +6,8 @@
 
 * [⚡ What is Tally?](knowledge-base/tally/README.md)
   * [Governor Framework](knowledge-base/tally/governor-framework.md)
-  * [Onchain vs Offchain](knowledge-base/tally/on-chain-vs-off-chain.md)
+  * [Onchain Governance](knowledge-base/tally/onchain-governance/README.md)
+    * [The Onchain Thesis](knowledge-base/tally/onchain-governance/the-onchain-thesis.md)
 * [🗺 Navigating the Tally Platform](knowledge-base/navigating-the-tally-platform/README.md)
   * [Getting Started](knowledge-base/navigating-the-tally-platform/getting-started.md)
   * [Tally Profile](knowledge-base/navigating-the-tally-platform/tally-profile.md)

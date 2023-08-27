@@ -8,8 +8,8 @@ description: Learn about what decentralized governance is and why it matters.
 [decentralized-governance-overview.md](decentralized-governance-overview.md)
 {% endcontent-ref %}
 
-{% content-ref url="../../knowledge-base/tally/on-chain-vs-off-chain.md" %}
-[on-chain-vs-off-chain.md](../../knowledge-base/tally/on-chain-vs-off-chain.md)
+{% content-ref url="../../knowledge-base/tally/onchain-governance/" %}
+[onchain-governance](../../knowledge-base/tally/onchain-governance/)
 {% endcontent-ref %}
 
 {% content-ref url="application-layer-vs-base-layer-governance.md" %}
