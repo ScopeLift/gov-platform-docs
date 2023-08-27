@@ -1,5 +1,5 @@
 ---
-description: How to queue, execute, and cancel proposals.
+description: How to queue, execute, and cancel proposals
 ---
 
 # Managing Proposals
@@ -36,7 +36,7 @@ This depends on the Timelock Delay of the Timelock contract. You can check that 
 
 ### _What does it mean to “execute” a proposal?_
 
-**Executing** a proposal runs its function calls on-chain. Each proposal is associated with one or more function calls, which are visible in the `Executable Code` section of the [Proposal page](../navigating-the-tally-platform/proposal-page.md). These calls can do things like transfer assets from the treasury, update parameters of the Governor itself, change or upgrade a DeFi protocol, or call another smart contract.
+**Executing** a proposal runs its function calls onchain. Each proposal is associated with one or more function calls, which are visible in the `Executable Code` section of the [Proposal page](../navigating-the-tally-platform/proposal-page.md). These calls can do things like transfer assets from the treasury, update parameters of the Governor itself, change or upgrade a DeFi protocol, or call another smart contract.
 
 ### _Who can execute a proposal?_
 
