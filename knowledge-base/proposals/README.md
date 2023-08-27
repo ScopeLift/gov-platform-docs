@@ -6,10 +6,6 @@ description: >-
 
 # 🗳 Proposals on Tally
 
-{% content-ref url="delegating-voting-power.md" %}
-[delegating-voting-power.md](delegating-voting-power.md)
-{% endcontent-ref %}
-
 {% content-ref url="creating-proposals/" %}
 [creating-proposals](creating-proposals/)
 {% endcontent-ref %}
