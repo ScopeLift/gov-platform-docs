@@ -43,7 +43,7 @@ DAO stands for _Decentralized Autonomous Organization_. **DAOs are decentralized
 
 DAOs operate through decentralized governance, where members participate in transparent, democratic processes to make decisions, manage their funds, enhance their offerings, and foster growth.
 
-For onchain DAOs, voting procedures occur directly on the blockchain and are executed via smart contracts. This ensures a _trustless_ environment, eliminating the need for trusted intermediaries to convey the results of decisions to the blockchain."
+For onchain DAOs, voting procedures occur directly on the blockchain and are executed via smart contracts. This ensures a _trustless_ environment, eliminating the need for trusted intermediaries to convey the results of decisions to the blockchain.
 
 ## Learn More
 

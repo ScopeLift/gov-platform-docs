@@ -1,8 +1,7 @@
 ---
 description: >-
-  Tally's accessible resource for learning about decentralized governance,
-  covering a range of topics including overviews of key concepts, individual
-  protocols, and voting system frameworks
+  Learn about decentralized governance from overviews of key concepts,
+  individual protocols, and voting system frameworks.
 ---
 
 # 🤔 Getting Started
