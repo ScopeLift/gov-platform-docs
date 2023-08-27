@@ -66,15 +66,6 @@
 
 * [Bridge Providers](ecosystem-resources/bridge-providers.md)
 
-## Resources
-
-* [Tally Platform](https://www.tally.xyz)
-* [Discord (Support & Community)](https://discord.com/invite/ckn25zazRa)
-* [Blog](https://blog.tally.xyz)
-* [DAO Talk Podcast](https://www.youtube.com/channel/UC0J5KuukgFn8KCMuuhkBZQw)
-* [Newsletter](https://newsletter.tally.xyz)
-* [Governance Wiki](https://wiki.tally.xyz/docs)
-
 ## Education
 
 * [🤔 Getting Started](education/getting-started/README.md)
@@ -87,5 +78,34 @@
   * [Governance Execution Methods](education/governance-concepts/governance-execution-methods.md)
   * [Procedural ("Soft") Governance](education/governance-concepts/procedural-soft-governance.md)
   * [Vote Delegation](education/governance-concepts/vote-delegation.md)
-* [🏛 Governance Frameworks](education/governance-frameworks.md)
-* [🫂 DAOs](education/daos.md)
+* [🏛 Governance Frameworks](education/governance-frameworks/README.md)
+  * [Compound Governor](education/governance-frameworks/compound-governor.md)
+  * [OpenZeppelin Goveror](education/governance-frameworks/openzeppelin-goveror.md)
+  * [Curve Voting Escrow](education/governance-frameworks/curve-voting-escrow.md)
+  * [Multi-sigs](education/governance-frameworks/multi-sigs.md)
+  * [Snapshot Polls](education/governance-frameworks/snapshot-polls.md)
+* [🫂 Index of DAOs](education/index-of-daos/README.md)
+  * [DAOs on Tally](education/index-of-daos/daos-on-tally/README.md)
+    * [Compound (COMP)](education/index-of-daos/daos-on-tally/compound-comp.md)
+    * [Uniswap (UNI)](education/index-of-daos/daos-on-tally/uniswap-uni.md)
+    * [PoolTogether (POOL)](education/index-of-daos/daos-on-tally/pooltogether-pool.md)
+    * [Idle Finance (IDLE)](education/index-of-daos/daos-on-tally/idle-finance-idle.md)
+    * [Inverse Finance (INV)](education/index-of-daos/daos-on-tally/inverse-finance-inv.md)
+    * [Gitcoin (GTC)](education/index-of-daos/daos-on-tally/gitcoin-gtc.md)
+    * [Ampleforth (FORTH)](education/index-of-daos/daos-on-tally/ampleforth-forth.md)
+  * [DAOs Not on Tally](education/index-of-daos/daos-not-on-tally/README.md)
+    * [Balancer (BAL)](education/index-of-daos/daos-not-on-tally/balancer-bal.md)
+    * [Curve (CRV)](education/index-of-daos/daos-not-on-tally/curve-crv.md)
+    * [Index Coop (INDEX)](education/index-of-daos/daos-not-on-tally/index-coop-index.md)
+    * [KyberDAO (KNC)](education/index-of-daos/daos-not-on-tally/kyberdao-knc.md)
+    * [MakerDAO (MKR)](education/index-of-daos/daos-not-on-tally/makerdao-mkr.md)
+    * [Sushiswap (SUSHI)](education/index-of-daos/daos-not-on-tally/sushiswap-sushi.md)
+
+## Resources
+
+* [Tally Platform](https://www.tally.xyz)
+* [Discord (Support & Community)](https://discord.com/invite/ckn25zazRa)
+* [Blog](https://blog.tally.xyz)
+* [DAO Talk Podcast](https://www.youtube.com/channel/UC0J5KuukgFn8KCMuuhkBZQw)
+* [Newsletter](https://newsletter.tally.xyz)
+* [Governance Wiki](https://wiki.tally.xyz/docs)
