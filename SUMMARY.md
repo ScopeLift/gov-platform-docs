@@ -28,7 +28,6 @@
   * [Managing Proposals](knowledge-base/proposals/managing-proposals.md)
 * [🎉 DAO Best Practices](knowledge-base/dao-best-practices/README.md)
   * [Running an Onchain DAO Using OpenZeppelin Governor](knowledge-base/dao-best-practices/running-an-onchain-dao-using-openzeppelin-governor.md)
-  * [Running an Onchain DAO Using OpenZeppelin Governor](knowledge-base/dao-best-practices/running-an-onchain-dao-using-openzeppelin-governor-1.md)
 * [0⃣ Tally Zero](knowledge-base/tally-zero.md)
 
 ## Premium Services

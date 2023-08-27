@@ -8,7 +8,7 @@ description: The best practices to ensure efficiency, security, and transparency
 
 ### 1. Use the latest version of OpenZeppelin Contracts
 
-OpenZeppelin Contracts is a library of secure and community-vetted smart contracts that provides building blocks for implementing your DAO. Always use the latest version of the library to ensure you have the most up-to-date security patches and features.&#x20;
+[OpenZeppelin Contracts](https://www.openzeppelin.com/contracts) is a library of secure and community-vetted smart contracts that provides building blocks for implementing your DAO. Always use the latest version of the library to ensure you have the most up-to-date security patches and features.&#x20;
 
 ### 2. Customize the OpenZeppelin Contract
 
