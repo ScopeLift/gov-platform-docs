@@ -6,7 +6,7 @@ description: >-
 
 # Decentralized Governance Overview
 
-## **What is decentralized governance?:**
+## **What is decentralized governance?**
 
 Decentralized governance refers to frameworks for managing collective action and common resources outside of the existing legal system.
 
