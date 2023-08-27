@@ -2,9 +2,9 @@
 description: Onchain voting is trustless; offchain voting is not.
 ---
 
-# Onchain versus Offchain Voting
+# Why govern onchain?
 
-## **What is Onchain Voting?**
+## **What is onchain voting?**
 
 Onchain voting refers to governance systems where individual votes are submitted as transactions, and recorded directly on the blockchain. Submitting onchain requires users to pay a transaction fee for each vote.
 
@@ -17,7 +17,7 @@ Smart contracts can be designed to execute proposals automatically based on the 
 * Passed proposals can be executed automatically
 * Works well for approving protocol changes or other high-risk votes
 
-## **What is Offchain Voting?**
+## **What is offchain voting?**
 
 Offchain voting refers to governance systems where individual votes are not submitted as blockchain transactions. No transaction fees are necessary for offchain votes.
 
