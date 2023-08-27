@@ -30,6 +30,12 @@
   * [Running an Onchain DAO Using OpenZeppelin Governor](knowledge-base/dao-best-practices/running-an-onchain-dao-using-openzeppelin-governor-1.md)
 * [0⃣ Tally Zero](knowledge-base/tally-zero.md)
 
+## Premium Services
+
+* [DAO Launcher](premium-services/dao-launcher.md)
+* [Security Council Elections](premium-services/security-council-elections.md)
+* [Vote Relayer](premium-services/vote-relayer.md)
+
 ## Technical Documentation <a href="#user-guides" id="user-guides"></a>
 
 * [🏗 Deploying Governor DAOs](user-guides/deploying-daos/README.md)
