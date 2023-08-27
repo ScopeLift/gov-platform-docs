@@ -32,9 +32,12 @@
 
 ## Premium Services
 
-* [DAO Launcher](premium-services/dao-launcher.md)
-* [Security Council Elections](premium-services/security-council-elections.md)
-* [Vote Relayer](premium-services/vote-relayer.md)
+* [🚀 DAO Launcher](premium-services/dao-launcher.md)
+* [⚖ Security Council Elections](premium-services/security-council-elections.md)
+* [⛽ Vote Relayer](premium-services/vote-relayer.md)
+* [🔄 Swaps](premium-services/swaps.md)
+* [👩💻 Tally API](premium-services/welcome.md)
+* [✍ Create Proposal](premium-services/create-proposal.md)
 
 ## Technical Documentation <a href="#user-guides" id="user-guides"></a>
 
@@ -58,7 +61,6 @@
   * [Arbitrum Gnosis Safes](user-guides/using-governor-with-gnosis-safe/arbitrum-gnosis-safes.md)
   * [Zodiac Governor Module for SubDAOs and grants programs](user-guides/using-governor-with-gnosis-safe/zodiac-governor-module-for-subdaos-and-grants-programs.md)
 * [⚠️     Security](user-guides/security.md)
-* [👩💻 Tally API](tally-api/welcome.md)
 
 ## Ecosystem Resources
 
