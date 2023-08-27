@@ -1,15 +1,19 @@
 # DAOs on Tally
 
+{% content-ref url="aave-aave.md" %}
+[aave-aave.md](aave-aave.md)
+{% endcontent-ref %}
+
+{% content-ref url="ampleforth-forth.md" %}
+[ampleforth-forth.md](ampleforth-forth.md)
+{% endcontent-ref %}
+
 {% content-ref url="compound-comp.md" %}
 [compound-comp.md](compound-comp.md)
 {% endcontent-ref %}
 
-{% content-ref url="uniswap-uni.md" %}
-[uniswap-uni.md](uniswap-uni.md)
-{% endcontent-ref %}
-
-{% content-ref url="pooltogether-pool.md" %}
-[pooltogether-pool.md](pooltogether-pool.md)
+{% content-ref url="gitcoin-gtc.md" %}
+[gitcoin-gtc.md](gitcoin-gtc.md)
 {% endcontent-ref %}
 
 {% content-ref url="idle-finance-idle.md" %}
@@ -20,14 +24,10 @@
 [inverse-finance-inv.md](inverse-finance-inv.md)
 {% endcontent-ref %}
 
-{% content-ref url="gitcoin-gtc.md" %}
-[gitcoin-gtc.md](gitcoin-gtc.md)
+{% content-ref url="pooltogether-pool.md" %}
+[pooltogether-pool.md](pooltogether-pool.md)
 {% endcontent-ref %}
 
-{% content-ref url="ampleforth-forth.md" %}
-[ampleforth-forth.md](ampleforth-forth.md)
-{% endcontent-ref %}
-
-{% content-ref url="aave-aave.md" %}
-[aave-aave.md](aave-aave.md)
+{% content-ref url="uniswap-uni.md" %}
+[uniswap-uni.md](uniswap-uni.md)
 {% endcontent-ref %}
