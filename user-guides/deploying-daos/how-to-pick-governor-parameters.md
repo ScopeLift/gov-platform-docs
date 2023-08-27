@@ -1,7 +1,7 @@
 ---
 description: >-
   How to set Proposal Threshold, Quorum, Voting Period, Voting Delay, and
-  Timelock Delay.
+  Timelock Delay
 ---
 
 # Choose Governor parameters

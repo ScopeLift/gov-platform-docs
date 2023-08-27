@@ -74,3 +74,18 @@
 * [DAO Talk Podcast](https://www.youtube.com/channel/UC0J5KuukgFn8KCMuuhkBZQw)
 * [Newsletter](https://newsletter.tally.xyz)
 * [Governance Wiki](https://wiki.tally.xyz/docs)
+
+## Education
+
+* [🤔 Getting Started](education/getting-started/README.md)
+  * [General Ecosystem Info](education/getting-started/general-ecosystem-info.md)
+  * [Participating in Governance](education/getting-started/participating-in-governance.md)
+* [📜 Governance Concepts](education/governance-concepts/README.md)
+  * [Decentralized Governance Overview](education/governance-concepts/decentralized-governance-overview.md)
+  * [Onchain versus Offchain Voting](education/governance-concepts/onchain-versus-offchain-voting.md)
+  * [Application Layer vs Base Layer Governance](education/governance-concepts/application-layer-vs-base-layer-governance.md)
+  * [Governance Execution Methods](education/governance-concepts/governance-execution-methods.md)
+  * [Procedural ("Soft") Governance](education/governance-concepts/procedural-soft-governance.md)
+  * [Vote Delegation](education/governance-concepts/vote-delegation.md)
+* [🏛 Governance Frameworks](education/governance-frameworks.md)
+* [🫂 DAOs](education/daos.md)
