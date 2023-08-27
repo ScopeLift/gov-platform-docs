@@ -10,8 +10,8 @@ description: >-
 [delegating-voting-power.md](delegating-voting-power.md)
 {% endcontent-ref %}
 
-{% content-ref url="creating-proposals.md" %}
-[creating-proposals.md](creating-proposals.md)
+{% content-ref url="creating-proposals/" %}
+[creating-proposals](creating-proposals/)
 {% endcontent-ref %}
 
 {% content-ref url="voting-on-proposals.md" %}

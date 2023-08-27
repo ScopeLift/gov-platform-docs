@@ -6,7 +6,7 @@ description: How to create a DAO swap proposal on Tally
 
 Empower your DAO by creating an onchain proposal on Tally using the Swaps recipe! This tool allows DAOs to exchange tokens directly from their treasuries, facilitating treasury diversification. These DAO Swaps are powered by [CoW Swap](https://cow.fi).
 
-#### A Swap proposal in five steps
+### A Swap proposal in five steps
 
 1. A DAO member formulates a swap proposal, specifying the assets to trade and the amount to sell. The UI provides an [estimated quote](swaps.md#where-do-the-quotes-come-from) for the trade.
 2. After running validations, the recipe prepares [executable](swaps.md#what-is-in-the-swap-recipe-executable) code – including a call to [Milkman](swaps.md#what-is-milkman) – for execution upon proposal execution.
@@ -14,7 +14,7 @@ Empower your DAO by creating an onchain proposal on Tally using the Swaps recipe
 4. An offchain [Milkman bot](https://github.com/charlesndalton/milkman-bot) listens for the swap request and forwards it to the CoW protocol.
 5. CoW solvers compete to fill the order at the best price.
 
-#### Where do the quotes come from?
+### Where do the quotes come from?
 
 The quotes come from[ CoW's price estimator API](https://docs.cow.fi/off-chain-services/api/price-estimation), which estimates current prices from onchain sources. As the order executes in the future, prices may vary.
 
@@ -22,21 +22,21 @@ The quotes come from[ CoW's price estimator API](https://docs.cow.fi/off-chain-s
 
 Upon proposal creation, you will receive a quote from CoW based on current market conditions. However, market conditions may change by the time of proposal execution, and a new quote from CoW will be used to create your order.
 
-#### What is Milkman?
+### What is Milkman?
 
 [Milkman](https://github.com/charlesndalton/milkman) enables smart contracts, like Governor, to place CoW Swap market orders onchain. Milkman's _price checker_ ensures that orders only fill at prices close to the market price.
 
-#### What is a price checker?
+### What is a price checker?
 
 [A Milkman price checker](https://github.com/charlesndalton/milkman#price-checkers) ensures that your order only executes if the market price is close, using a price oracle and a slippage parameter.&#x20;
 
 The default price checker on Tally uses Uniswap v3 as a price oracle and sets a max slippage. Custom price checkers can implement any logic they want.
 
-#### What happens if the price checker doesn't see a good price?
+### What happens if the price checker doesn't see a good price?
 
 If the price checker rejects fills with unfavorable prices, the assets to sell remain in the Milkman order contract. To return those funds to the DAO's treasury, the Milkman order needs to be canceled with another onchain proposal. See [How do I cancel an order?](swaps.md#how-do-i-cancel-an-order).
 
-#### How does the Uniswap price checker work?
+### How does the Uniswap price checker work?
 
 Tally's default price checker uses the Uniswap V3 oracle to get market prices.
 
@@ -66,11 +66,11 @@ Here's an example of how the Uniswap (default) price checker works. Note that st
 
 If no solver comes up with a price greater than 90% of the oracle’s market price, then the order will sit unfilled until someone does. This order can also be canceled by whoever has the cancel role. In the context of a Governor proposal, that’s the DAO, as it is the entity that request the swap.
 
-#### Using the Custom price checker
+### Using the Custom price checker
 
 You will need to find the contract address of a price checker and encode the data it can use to determine if the order gets a good price, usually slippage and a swap path. Custom price checkers can do anything, though.
 
-#### What is in the Swap Recipe executable?
+### What is in the Swap Recipe executable?
 
 A Swap Recipe usually includes two executable calls.
 
@@ -83,7 +83,7 @@ If the trade sells ETH, the funds must first be deposited for [WETH](https://coi
 2. `approve` Milkman to spend WETH
 3. `requestSwapExactTokensForTokens` on Milkman
 
-#### How do I read a Swap Receipt?
+### How do I read a Swap Receipt?
 
 When casting a vote for a swap, you should check the receipt for accuracy.
 
@@ -91,14 +91,14 @@ The quoted price provides a rough estimate of current market conditions before a
 
 After a swap is executed successfully, the Swap Receipt will link to the CoW order and to the order contract.
 
-#### How do I cancel an order?
+### How do I cancel an order?
 
 To cancel an order, the Governor must call `cancel` on Milkman via an onchain proposal. Only the governor has authority to cancel an order. Canceling the order returns the assets that were for sale to the treasury.
 
-#### Why is an order stuck in _Pending execution_?
+### Why is an order stuck in _Pending execution_?
 
 This means that the order isn’t placed yet. The governor proposal has not yet been executed. Once the proposal has been executed, it will create an order on CoW via Milkman.
 
-#### Why is there so much slippage in small orders?
+### Why is there so much slippage in small orders?
 
 Solvers pay gas to take an order. If the gas costs are large compared to the size of the trade, you’ll need high slippage to ensure that the solvers can make a profit after gas costs.

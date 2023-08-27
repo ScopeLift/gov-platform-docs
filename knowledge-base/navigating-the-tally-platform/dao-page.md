@@ -10,7 +10,7 @@ description: Explore your DAO's homepage.
 
 <figure><img src="../../.gitbook/assets/CleanShot 2023-02-17 at 09.45.39@2x.png" alt=""><figcaption><p>Highlights section.</p></figcaption></figure>
 
-At the top of the DAO page, a highlights section shows key information. You'll also see buttons to [**Create new proposal**](../proposals/creating-proposals.md) and [**Delegate vote**](../proposals/delegating-voting-power.md). Click the drop-down arrow to view _Contract Parameters._
+At the top of the DAO page, a highlights section shows key information. You'll also see buttons to [**Create new proposal**](../proposals/creating-proposals/) and [**Delegate vote**](../proposals/delegating-voting-power.md). Click the drop-down arrow to view _Contract Parameters._
 
 ## Metrics and Charts
 
