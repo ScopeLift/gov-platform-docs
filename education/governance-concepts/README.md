@@ -12,16 +12,16 @@ description: Learn about what decentralized governance is and why it matters.
 [on-chain-vs-off-chain.md](../../knowledge-base/tally/on-chain-vs-off-chain.md)
 {% endcontent-ref %}
 
-{% content-ref url="application-layer-vs.-base-layer-governance.md" %}
-[application-layer-vs.-base-layer-governance.md](application-layer-vs.-base-layer-governance.md)
+{% content-ref url="application-layer-vs-base-layer-governance.md" %}
+[application-layer-vs-base-layer-governance.md](application-layer-vs-base-layer-governance.md)
 {% endcontent-ref %}
 
 {% content-ref url="governance-execution-methods.md" %}
 [governance-execution-methods.md](governance-execution-methods.md)
 {% endcontent-ref %}
 
-{% content-ref url="procedural-soft-governance.md" %}
-[procedural-soft-governance.md](procedural-soft-governance.md)
+{% content-ref url="procedural-governance.md" %}
+[procedural-governance.md](procedural-governance.md)
 {% endcontent-ref %}
 
 {% content-ref url="vote-delegation.md" %}
