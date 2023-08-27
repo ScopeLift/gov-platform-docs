@@ -12,7 +12,7 @@ Smart contracts can be designed to execute proposals automatically based on the 
 
 <figure><img src="../../../.gitbook/assets/image (123).png" alt=""><figcaption><p>Offchain voting requires social trust.</p></figcaption></figure>
 
-### **Benefits of Onchain Voting:**
+### **Benefits of Onchain Voting**
 
 * Eliminates the need for a trusted third party to count or enact votes
 * Passed proposals are executed automatically and trustlessly
