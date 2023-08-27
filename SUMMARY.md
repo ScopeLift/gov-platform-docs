@@ -36,7 +36,7 @@
 * [⚖ Security Council Elections](premium-services/security-council-elections.md)
 * [⛽ Vote Relayer](premium-services/vote-relayer.md)
 * [🔄 Swaps](premium-services/swaps.md)
-* [👩💻 Tally API](premium-services/welcome.md)
+* [👩💻 Tally API](tally-api/welcome.md)
 * [✍ Create Proposal](premium-services/create-proposal.md)
 
 ## Technical Documentation <a href="#user-guides" id="user-guides"></a>
