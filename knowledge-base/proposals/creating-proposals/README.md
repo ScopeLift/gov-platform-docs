@@ -1,6 +1,8 @@
-# Creating Proposals
+---
+description: Take action in your DAO by initiating an onchain proposal on Tally.
+---
 
-_Take action in your DAO by initiating an onchain proposal on Tally._
+# Creating Proposals
 
 To submit an onchain proposal, you must have sufficient voting power to meet the DAO's **Proposal threshold**. This figure can be found on each [DAO Page](../../navigating-the-tally-platform/dao-page.md) by expanding the _Contract Parameters_ section near the top of the page.
 
