@@ -1,10 +1,10 @@
 ---
-description: In decentralized organizations, users can directly participate in governance
+description: In decentralized organizations, users can directly participate in governance.
 ---
 
 # Participating in Governance
 
-## **Why Participate in Governance?**
+## **Why participate in governance?**
 
 User participation in governance helps create deeper alignment between protocol stakeholders. Some governance systems offer financial incentives for contributions such as voting, writing forum posts, or submitting proposals. Finally, decentralized governance offers the opportunity to pursue personal interests while having an outsize impact in a vibrant and growing ecosystem.
 

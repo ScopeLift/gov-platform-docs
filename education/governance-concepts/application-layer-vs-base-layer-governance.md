@@ -1,7 +1,7 @@
 ---
 description: >-
   Both the base layer and application layer governance are crucial for the
-  proper functioning and evolution of a blockchain network
+  proper functioning and evolution of a blockchain network.
 ---
 
 # Application Layer vs. Base Layer Governance

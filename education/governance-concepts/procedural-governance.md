@@ -27,7 +27,7 @@ Uniswap published a suggested process for making governance proposals, from init
 
 ***
 
-## **Resources**
+### **Resources**
 
 * [MakerDAO MIP Process Overview](https://forum.makerdao.com/t/mip0-the-maker-improvement-proposal-framework/1902)
 * [MakerDAO Weekly Governance Cycle](https://forum.makerdao.com/t/mip16-the-weekly-governance-cycle/3008)

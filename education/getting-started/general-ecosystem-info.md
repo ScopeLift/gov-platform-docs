@@ -1,5 +1,5 @@
 ---
-description: First, let's get down the basics
+description: First, let's get down the basics.
 ---
 
 # General Ecosystem Info

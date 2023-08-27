@@ -18,7 +18,7 @@ Delegation also allows smaller token holders to aggregate their stakes to gain a
 
 ***
 
-## **Resources**
+### **Resources**
 
 * [Compound Governance Announcement](https://medium.com/compound-finance/compound-governance-5531f524cf68)
 * [KyberDAO Voting Overview](https://blog.kyber.network/kyberdao-staking-and-voting-overview-70be71ee58f0)

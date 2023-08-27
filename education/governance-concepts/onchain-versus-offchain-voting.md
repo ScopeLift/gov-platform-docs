@@ -39,6 +39,6 @@ Aragon and Snapshot are also implementing "optimistic voting," which allows for 
 
 ***
 
-## **Resources**
+### **Resources**
 
 * [Snapshot Labs Github](https://github.com/balancer-labs/snapshot)

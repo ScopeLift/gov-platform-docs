@@ -1,16 +1,10 @@
-# OpenZeppelin Goveror
+# OpenZeppelin Governor
 
-**Key Facts:**
+## **Background**
 
-* [On chain voting](https://tally.document360.io/docs/en/on-chain-vs-off-chain-voting)
-* [Vote delegation](https://tally.document360.io/docs/en/vote-delegation) is supported
-* Optional compatibility with [Compound Governor](https://wiki.withtally.com/docs/compound-governor) components
+The OpenZeppelin Governor is a contract for onchain governance, designed to be compatible with existing systems based on Compound's GovernorAlpha and GovernorBravo. It is a modular system that allows different requirements to be accommodated by writing small modules using Solidity inheritance. The OpenZeppelin Governor system includes compatibility with existing systems, ERC20Votes & ERC20VotesComp, Governor & GovernorCompatibilityBravo, and GovernorTimelockControl & GovernorTimelockCompound. It also provides a guide on setting up a token, governor, timelock, proposal lifecycle, and timestamp-based governance.
 
-**Background:**
-
-Compound Governor has become one of the most widely used governance frameworks. OpenZeppelin's new Governor framework shares many similarities in design, with some architectural changes and improved standardization that may bring benefits to supported protocols.
-
-**Governance Process:**
+## **Governance Process**
 
 Voting power is determined based on the number of tokens delegated to each address. This means users _must_ submit a delegation transaction before their tokens will be included in governance votes. Users may either delegate to a third party, or self-delegate if they would like to participate in voting directly.
 
@@ -24,23 +18,19 @@ If the **quorum threshold** has been met and the vote gains majority support, th
 
 If the proposer's voting power drops below the **proposal submission threshold** at any time from submission until the voting or time-lock period ends, the proposal can be cancelled. Finally, once the entire process has finished, the proposal can be executed and relevant code or parameter changes are implemented in the protocol. The image below shows the general process flow for proposals (note that the specific timelines shown for each phase correspond with Compound governance, but other protocols can choose different time periods).
 
-![image.png](https://cdn.document360.io/5b297d02-8aa1-4075-baa1-d431b2292be1/Images/Documentation/image\(18\).png)
+![Governance process using OpenZeppelin Governor](https://cdn.document360.io/5b297d02-8aa1-4075-baa1-d431b2292be1/Images/Documentation/image\(18\).png)
 
-**Autonomous Proposals:**
+## **Governor Alpha and Bravo**
 
-While submitting proposals directly requires a large share of voting power, participants can submit an **autonomous proposal** with a lower vote requirement. The proposal contract address can then accept vote delegations from users, and will be submitted for a full vote once total delegations have surpassed the **proposal submission** threshold.
+The original version of Compound Governor, Governor Alpha, was set up as an immutable contract. This means any changes to governance parameters (eg. quorum, voting period, etc) require deploying a new governance contract and transferring ownership of the governance timelock. This can create difficulty for integrated user interfaces or other services that need to point to a new governance contract address.
 
-**Key Changes Versus Compound Governor**
+Governor Bravo is an upgraded version of the contract allowing for upgrades and changes to the governance parameters without migrating. Compound and a few other protocols have elected to use Bravo for greater convenience, and because any changes still need to pass a governance vote and timelock delay there are no additional security or governance risks compared with using the Alpha version.
 
-* Modular design and architecture to minimize protocols' need to fork components
-* Ability to meet protocol specific requirements with addition of small modules using solidity inheritence
-* Minimized use of storage improves gas efficiency
-* Two versions of many components: one optimized for efficiency, with another designed for optional compatibility with Compound Governor contracts
-* Use of a timelock contract is recommended in most cases, but no longer required (as it is with the Compound Governor framework)
+***
 
-**Resources:**
+### **Resources**
 
-* Announcement post: [https://blog.openzeppelin.com/governor-smart-contract/](https://blog.openzeppelin.com/governor-smart-contract/)
-* Open Zeppelin Forum: [https://forum.openzeppelin.com/](https://forum.openzeppelin.com/)
-* Open Zeppelin Governor Github: [https://github.com/OpenZeppelin/openzeppelin-contracts/tree/master/contracts/governance](https://github.com/OpenZeppelin/openzeppelin-contracts/tree/master/contracts/governance)
-* OpenZeppelin Governor docs: [https://docs.openzeppelin.com/contracts/4.x/api/governance](https://docs.openzeppelin.com/contracts/4.x/api/governance)
+* [Announcement Post](https://blog.openzeppelin.com/governor-smart-contract/)
+* [Open Zeppelin Forum](https://forum.openzeppelin.com/)
+* [Open Zeppelin Governor Github](https://github.com/OpenZeppelin/openzeppelin-contracts/tree/master/contracts/governance)
+* [OpenZeppelin Governor Docs](https://docs.openzeppelin.com/contracts/4.x/api/governance)
