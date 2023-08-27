@@ -24,8 +24,6 @@ In the pop up window, select **Delegate to self**.
 
 ![](https://p434.p1.n0.cdn.getcloudapp.com/items/z8umyGdm/86298abb-1f38-4146-83ab-d1e129b6b2bb.jpg?v=1e8f26a710efda0cbd44d3abc5fdbf23)
 
-###
-
 ### Delegate To Another Address <a href="#another" id="another"></a>
 
 From the DAO Page, select the **Delegate vote** button.
