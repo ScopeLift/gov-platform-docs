@@ -1,4 +1,4 @@
-# 🫂 Index of DAOs
+# 💻 Index of DAOs
 
 {% content-ref url="daos-on-tally/" %}
 [daos-on-tally](daos-on-tally/)
