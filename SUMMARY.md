@@ -74,7 +74,7 @@
 * [📜 Governance Concepts](education/governance-concepts/README.md)
   * [Decentralized Governance Overview](education/governance-concepts/decentralized-governance-overview.md)
   * [Onchain versus Offchain Voting](education/governance-concepts/onchain-versus-offchain-voting.md)
-  * [Application Layer vs Base Layer Governance](education/governance-concepts/application-layer-vs-base-layer-governance.md)
+  * [Application Layer vs. Base Layer Governance](education/governance-concepts/application-layer-vs.-base-layer-governance.md)
   * [Governance Execution Methods](education/governance-concepts/governance-execution-methods.md)
   * [Procedural ("Soft") Governance](education/governance-concepts/procedural-soft-governance.md)
   * [Vote Delegation](education/governance-concepts/vote-delegation.md)

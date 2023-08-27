@@ -1,3 +1,7 @@
+---
+description: Onchain voting is trustless; offchain voting is not.
+---
+
 # Onchain versus Offchain Voting
 
 ## **What is Onchain Voting?**
@@ -31,7 +35,7 @@ Some protocols also occasionally use non token weighted polls, which give each u
 
 Several protocols are experimenting with using both offchain and onchain votes in different parts of the governance process. For example, CurveDAO uses Snapshot offchain voting for initial sentiment polls of token holders, and only proposals that successfully pass the polling stage are put up for an onchain vote. Hybrid approaches like this can help reduce transaction fee expenses while still leaving token holders in full control of system functions.
 
-Aragon and Snapshot are also implementing "optimistic voting", which allows for offchain poll results to be executed onchain and uses Aragon Court as a security mechanism. More information is available in the [Snapshot Voting Design wiki page](https://tally.document360.io/docs/en/snapshot-voting-design).
+Aragon and Snapshot are also implementing "optimistic voting," which allows for offchain poll results to be executed onchain and uses Aragon Court as a security mechanism. More information is available in the [Snapshot Voting Design page](https://docs.tally.xyz/education/governance-frameworks/snapshot-polls).
 
 ## **Resources**
 
