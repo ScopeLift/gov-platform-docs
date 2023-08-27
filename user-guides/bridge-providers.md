@@ -1,8 +1,8 @@
 ---
-description: Ensuring Cross-Chain Governance with ERC20Votes Extension
+description: Ensure cross-chain governance with ERC20Votes Extension.
 ---
 
-# Bridge providers
+# 🌉 Bridge Providers
 
 ### Problem Statement
 

@@ -1,5 +1,5 @@
 ---
-description: Find your way around Tally!
+description: Find your way around Tally.
 ---
 
 # 🗺 Navigating the Tally Platform

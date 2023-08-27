@@ -1,5 +1,5 @@
 ---
-description: Gnosis Safes on Tally.
+description: Understand Gnosis Safes on Tally.
 ---
 
 # Gnosis Safes

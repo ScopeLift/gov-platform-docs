@@ -1,5 +1,7 @@
 ---
-description: Everything you need to know about managing the proposal lifecycle on Tally.
+description: >-
+  Learn everything you need to know about managing the proposal lifecycle on
+  Tally.
 ---
 
 # 🗳 Proposals on Tally

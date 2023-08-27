@@ -4,7 +4,7 @@ description: Connect your wallet and sign in to Tally.
 
 # Getting Started
 
-Connect Your Wallet
+### Connect Your Wallet
 
 > _Connecting your wallet allows you to delegate your voting power or vote on active proposals through Tally._
 

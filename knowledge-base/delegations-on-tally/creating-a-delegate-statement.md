@@ -1,6 +1,10 @@
+---
+description: Campaign for delegations on Tally by creating a delegation statement.
+---
+
 # Creating a Delegate Statement
 
-> _Ready to become a DAO delegate? Campaign for delegations on Tally by creating a delegation statement._&#x20;
+> _Ready to become a DAO delegate? Tell DAO members what you stand for by creating a delegation statement._&#x20;
 
 To get started, from your [tally-profile.md](../navigating-the-tally-platform/tally-profile.md "mention"), click on the DAO you want to create a statement for:
 

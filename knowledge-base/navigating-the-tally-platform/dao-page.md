@@ -1,5 +1,5 @@
 ---
-description: Your DAO's home page.
+description: Explore your DAO's homepage.
 ---
 
 # DAO Page

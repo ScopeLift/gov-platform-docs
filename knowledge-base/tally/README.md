@@ -1,11 +1,6 @@
----
-cover: ../../.gitbook/assets/DOCS BANNER.png
-coverY: 0
----
-
 # ⚡ What is Tally?
 
-### Tally is a frontend for onchain decentralized organizations.
+## Tally is a frontend for onchain decentralized organizations.
 
 Tally gives users real power in their decentralized organizations. On Tally, users can delegate voting power, create or pass proposals to spend DAO funds, manage a protocol, and upgrade smart contracts—all onchain.
 

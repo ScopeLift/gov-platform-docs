@@ -39,33 +39,6 @@
 * [👩💻 Tally API](tally-api/welcome.md)
 * [✍ Create Proposal](premium-services/create-proposal.md)
 
-## Technical Documentation <a href="#user-guides" id="user-guides"></a>
-
-* [🏗 Deploying Governor DAOs](user-guides/deploying-daos/README.md)
-  * [Deploy a Governor](user-guides/deploying-daos/deploy-a-dao-with-token-voting.md)
-  * [Deploy an NFT Governor](user-guides/deploying-daos/deploy-an-nft-dao.md)
-  * [Deploy a governance token](user-guides/deploying-governor-daos/deploy-a-governance-token.md)
-  * [Add a Governor to an existing token](user-guides/deploying-daos/add-a-dao-to-an-existing-token.md)
-  * [Choose Governor parameters](user-guides/deploying-daos/how-to-pick-governor-parameters.md)
-  * [Upgrade Gnosis Safe to Governor with Zodiac](user-guides/deploying-daos/how-to-upgrade-a-gnosis-safe-to-a-governor-with-zodiac.md)
-* [⚙ Tally Contract Compatibility](user-guides/smart-contract-compatibility/README.md)
-  * [Network Support](user-guides/tally-contract-compatibility/network-support.md)
-  * [OpenZeppelin Governor](user-guides/smart-contract-compatibility/openzeppelin-governor.md)
-  * [Compound Governor Bravo](user-guides/tally-contract-compatibility/compound-governor-bravo.md)
-  * [Tokens: ERC-20 and NFTs](user-guides/smart-contract-compatibility/tokens-erc20-and-nfts.md)
-  * [Flexible Voting Extension](user-guides/tally-contract-compatibility/flexible-voting-extension.md)
-  * [Supported Use Cases FAQ](user-guides/smart-contract-compatibility/supported-use-cases-faq.md)
-* [📝 Governor Proposal Standards](user-guides/governor-proposals/README.md)
-  * [Governor Proposal Descriptions Standards](user-guides/governor-proposals/whats-the-standard-for-governor-proposal-descriptions.md)
-* [🧑🚀 Using Governor with Gnosis Safe](user-guides/using-governor-with-gnosis-safe/README.md)
-  * [Arbitrum Gnosis Safes](user-guides/using-governor-with-gnosis-safe/arbitrum-gnosis-safes.md)
-  * [Zodiac Governor Module for SubDAOs and grants programs](user-guides/using-governor-with-gnosis-safe/zodiac-governor-module-for-subdaos-and-grants-programs.md)
-* [⚠️     Security](user-guides/security.md)
-
-## Ecosystem Resources
-
-* [Bridge Providers](ecosystem-resources/bridge-providers.md)
-
 ## Education
 
 * [🤔 Getting Started](education/getting-started/README.md)
@@ -100,6 +73,30 @@
     * [KyberDAO (KNC)](education/index-of-daos/daos-not-on-tally/kyberdao-knc.md)
     * [MakerDAO (MKR)](education/index-of-daos/daos-not-on-tally/makerdao-mkr.md)
     * [Sushi (SUSHI)](education/index-of-daos/daos-not-on-tally/sushi-sushi.md)
+
+## Technical Documentation <a href="#user-guides" id="user-guides"></a>
+
+* [🏗 Deploying Governor DAOs](user-guides/deploying-daos/README.md)
+  * [Deploy a Governor](user-guides/deploying-daos/deploy-a-dao-with-token-voting.md)
+  * [Deploy an NFT Governor](user-guides/deploying-daos/deploy-an-nft-dao.md)
+  * [Deploy a governance token](user-guides/deploying-governor-daos/deploy-a-governance-token.md)
+  * [Add a Governor to an existing token](user-guides/deploying-daos/add-a-dao-to-an-existing-token.md)
+  * [Choose Governor parameters](user-guides/deploying-daos/how-to-pick-governor-parameters.md)
+  * [Upgrade Gnosis Safe to Governor with Zodiac](user-guides/deploying-daos/how-to-upgrade-a-gnosis-safe-to-a-governor-with-zodiac.md)
+* [⚙ Tally Contract Compatibility](user-guides/smart-contract-compatibility/README.md)
+  * [Network Support](user-guides/tally-contract-compatibility/network-support.md)
+  * [OpenZeppelin Governor](user-guides/smart-contract-compatibility/openzeppelin-governor.md)
+  * [Compound Governor Bravo](user-guides/tally-contract-compatibility/compound-governor-bravo.md)
+  * [Tokens: ERC-20 and NFTs](user-guides/smart-contract-compatibility/tokens-erc20-and-nfts.md)
+  * [Flexible Voting Extension](user-guides/tally-contract-compatibility/flexible-voting-extension.md)
+  * [Supported Use Cases FAQ](user-guides/smart-contract-compatibility/supported-use-cases-faq.md)
+* [📝 Governor Proposal Standards](user-guides/governor-proposals/README.md)
+  * [Governor Proposal Descriptions Standards](user-guides/governor-proposals/whats-the-standard-for-governor-proposal-descriptions.md)
+* [🧑🚀 Using Governor with Gnosis Safe](user-guides/using-governor-with-gnosis-safe/README.md)
+  * [Arbitrum Gnosis Safes](user-guides/using-governor-with-gnosis-safe/arbitrum-gnosis-safes.md)
+  * [Zodiac Governor Module for SubDAOs and grants programs](user-guides/using-governor-with-gnosis-safe/zodiac-governor-module-for-subdaos-and-grants-programs.md)
+* [⚠️     Security](user-guides/security.md)
+* [🌉 Bridge Providers](user-guides/bridge-providers.md)
 
 ## Resources
 

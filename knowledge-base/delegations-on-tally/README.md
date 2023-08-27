@@ -1,12 +1,12 @@
 ---
 description: >-
-  Everything you need to know about delegating your voting power—or becoming a
-  delegate yourself.
+  Learn everything you need to know about delegating your voting power—or
+  becoming a delegate yourself.
 ---
 
 # 🤝 Delegations on Tally
 
-Tally is the best place to explore DAO delegates.
+### Tally is the best place to explore DAO delegates.
 
 Need to delegate your own voting power? It's easier than ever:
 
