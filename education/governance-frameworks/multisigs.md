@@ -32,7 +32,7 @@ Multisigs have a small number of identifiable signers, which makes them a clear 
 
 ## Which DAOs use multisig governance?
 
-Synthetix, Yearn Finance, and Sushiswap all use multisig governance.
+Synthetix, Yearn Finance, and [Sushiswap](https://docs.tally.xyz/education/index-of-daos/daos-not-on-tally/sushiswap-sushi) all use multisig governance.
 
 Gnosis Safe is the most prominent Ethereum multisig, and Synthetix, Yearn, and Sushiswap all use the Snapshot voting tool to let token holders make key decisions and delegate authority. After a proposal is considered in the community's discussion venue, a signal vote is held to assess support. The vote itself doesn't trigger execution of the proposal's effects; instead, it serves as instructions for the multisig signers to execute the proposal using their admin privileges.
 

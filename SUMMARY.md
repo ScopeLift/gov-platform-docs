@@ -92,6 +92,7 @@
     * [Inverse Finance (INV)](education/index-of-daos/daos-on-tally/inverse-finance-inv.md)
     * [Gitcoin (GTC)](education/index-of-daos/daos-on-tally/gitcoin-gtc.md)
     * [Ampleforth (FORTH)](education/index-of-daos/daos-on-tally/ampleforth-forth.md)
+    * [Aave (AAVE)](education/index-of-daos/daos-on-tally/aave-aave.md)
   * [DAOs Not on Tally](education/index-of-daos/daos-not-on-tally/README.md)
     * [Balancer (BAL)](education/index-of-daos/daos-not-on-tally/balancer-bal.md)
     * [Curve (CRV)](education/index-of-daos/daos-not-on-tally/curve-crv.md)
