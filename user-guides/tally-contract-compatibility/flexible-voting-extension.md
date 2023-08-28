@@ -13,4 +13,4 @@ The Scopelift team built a Flexible Voting extention with support from Uniswap G
 > * Shielded voting (i.e. secret/private voting)
 > * Cheaper subsidized signature based voting
 
-Tally would love to add support for this extension, and we're looking for a early integration partners. If you're considering deploying a Governor with flexible voting, reach out to us on Discord, Twitter, or email.
+Tally is looking for partners to integrate support for this extension. If you're considering deploying a Governor with flexible voting, reach out to us on Discord, Twitter, or email.

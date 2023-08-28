@@ -1,5 +1,7 @@
 ---
-description: Use cases of the different governor contracts we support.
+description: >-
+  Common questions on the use cases for different governor contracts Tally
+  supports
 ---
 
 # Supported Use Cases FAQ

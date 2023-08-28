@@ -8,6 +8,6 @@ description: How to upgrade a multi-sig to a fully onchain DAO
 
 [https://drive.google.com/file/d/1gIgjdmQx-Rf9-Xb8fe\_U6TLez6M\_H-PR/view](https://drive.google.com/file/d/1gIgjdmQx-Rf9-Xb8fe\_U6TLez6M\_H-PR/view)
 
-This upgrade path is particularly useful for progressively decentralizing a DAO. Often, a multi-sig makes sense for a newer DAO with a smaller treasury. As the stakeholder set expands, organization might find that it needs the security and decentralization of onchain proposals.
+This upgrade path is particularly useful for progressively decentralizing a DAO. Often, a multisig makes sense for a newer DAO with a smaller treasury. As the stakeholder set expands, organization might find that it needs the security and decentralization of onchain proposals.
 
 This Zodiac upgrade path makes it easy to progressively convert the Safe into a Governor without moving all assets and permissions between contracts.

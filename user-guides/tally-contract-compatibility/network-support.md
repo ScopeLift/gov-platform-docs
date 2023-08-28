@@ -6,13 +6,15 @@ description: Networks supported on the Tally interface.
 
 Tally currently supports these EVM-compatible networks:
 
-**Ethereum**
+### **Ethereum**
 
-* Ethereum Mainnet and Goerli Testnet
+* Ethereum Mainnet
+* Goerli Testnet
 
 **Polygon**
 
-* Polygon Mainnet and Mumbai Testnet
+* Polygon Mainnet
+* Mumbai Testnet
 
 **Binance Smart Chain**&#x20;
 
@@ -20,25 +22,43 @@ Tally currently supports these EVM-compatible networks:
 
 **Arbitrum**
 
-* Arbitrum One and Arbitrum Goerli
+* Arbitrum One
+* Arbitrum Goerli
+* Arbitrum Nova
 
 **Optimism**
 
-* Optimism and Optimism Goerli Testnet
+* Optimism&#x20;
+* Optimism Goerli Testnet
 
 **Avalanche**
 
-* Avalanche C-Chain and Fuji Test
+* Avalanche C-Chain
+* Fuji Test
 
 **Gnosis Chain**
 
 * Gnosis Chain mainnet
 
+#### Base
+
+* Base Chain mainnet
+
+#### Moonbeam
+
+* TBD
+
+**Linea**
+
+* TBD
+
+
+
 ### Adding chains to Tally
 
 To support a chain, Tally has several must-have dependencies:
 
-* Network is EVM-compatible
+* EVM-compatible Network
 * A full node for user web3 calls
 * An archive node with a high rate limit for indexing
 * A block explorer with an Etherscan-compatible API
@@ -48,4 +68,3 @@ In addition, these nice-to-have dependencies will unlock all the features and im
 * Support from major wallets for the network
 * [Gnosis Safe Available Services](https://docs.safe.global/safe-core-api/available-services#safe-transaction-service)
 * [Tenderly network support](https://docs.tenderly.co/supported-networks-and-languages)
-

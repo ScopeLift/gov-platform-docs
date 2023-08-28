@@ -1,5 +1,5 @@
 ---
-description: How to deploy an NFT DAO with on-chain voting
+description: How to deploy an NFT DAO with onchain voting
 ---
 
 # Deploy an NFT Governor
