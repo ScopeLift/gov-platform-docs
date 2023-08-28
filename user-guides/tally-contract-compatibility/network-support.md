@@ -9,21 +9,23 @@ Tally currently supports these EVM-compatible networks:
 ### **Ethereum**
 
 * Ethereum Mainnet
-* Goerli Testnet
+* Ethereum Goerli Testnet
+* Ethereum Sepolia Testnet
 
 **Polygon**
 
 * Polygon Mainnet
-* Mumbai Testnet
+* Polygon Mumbai Testnet
 
 **Binance Smart Chain**&#x20;
 
-* BSC Mainnet
+* Binance Smart Chain Mainnet
+* Binance Smart Chain Testnet
 
 **Arbitrum**
 
 * Arbitrum One
-* Arbitrum Goerli
+* Arbitrum Goerli Rollup Testnet
 * Arbitrum Nova
 
 **Optimism**
@@ -34,25 +36,32 @@ Tally currently supports these EVM-compatible networks:
 **Avalanche**
 
 * Avalanche C-Chain
-* Fuji Test
+* Avalanche Fuji Testnet
 
 **Gnosis Chain**
 
-* Gnosis Chain mainnet
+* Gnosis Chain Mainnet
 
 #### Base
 
-* Base Chain mainnet
+* Base Mainnet
+* Base Goerli Testnet
+
+#### **Scroll**
+
+* Scroll Alpha Testnet
 
 #### Moonbeam
 
-* TBD
+* Moonbeam Mainnet
 
 **Linea**
 
-* TBD
+* Linea Testnet (coming soon)
 
+**Mantle**
 
+* Mantle Testnet (coming soon)
 
 ### Adding chains to Tally
 

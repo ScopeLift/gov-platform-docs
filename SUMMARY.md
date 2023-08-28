@@ -28,7 +28,7 @@
     * [Token Transfer Proposals in Arbitrum DAO](knowledge-base/proposals/creating-proposals/token-transfer-proposals-in-arbitrum-dao.md)
     * [Draft Proposals](knowledge-base/proposals/creating-proposals/draft-proposals.md)
   * [Voting on Proposals](knowledge-base/proposals/voting-on-proposals.md)
-  * [Managing Proposals](knowledge-base/proposals/managing-proposals/README.md)
+  * [Managing Proposals](knowledge-base/proposals/managing-proposals.md)
     * [Advanced Execution](knowledge-base/proposals/managing-proposals/advanced-execution.md)
 * [🎉 DAO Best Practices](knowledge-base/dao-best-practices/README.md)
   * [Running an Onchain DAO Using OpenZeppelin Governor](knowledge-base/dao-best-practices/running-an-onchain-dao-using-openzeppelin-governor.md)
@@ -45,9 +45,9 @@
 
 ## Education
 
-* [🤔 Getting Started](education/getting-started/README.md)
-  * [General Ecosystem Info](education/getting-started/general-ecosystem-info.md)
-  * [Participating in Governance](education/getting-started/participating-in-governance.md)
+* [🤔 Intro to Governance](education/intro-to-governance/README.md)
+  * [General Ecosystem Info](education/intro-to-governance/general-ecosystem-info.md)
+  * [Participating in Governance](education/intro-to-governance/participating-in-governance.md)
 * [📜 Governance Concepts](education/governance-concepts/README.md)
   * [Decentralized Governance Overview](education/governance-concepts/decentralized-governance-overview.md)
   * [Onchain vs. Offchain Voting](education/governance-concepts/onchain-vs.-offchain-voting.md)
