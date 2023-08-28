@@ -4,11 +4,11 @@ description: Learn how delegate your voting power.
 
 # Delegating Voting Power
 
-_For DAOs that use the_ [_Governor contract_](https://docs.tally.xyz/user-guides/deploying-governor-daos/deploy-a-governor)_, only delegated tokens can participate in voting. What does this mean for you, a token holder?_
+For DAOs that use the [Governor contract](https://docs.tally.xyz/user-guides/deploying-governor-daos/deploy-a-governor), only delegated tokens can participate in voting. What does this mean for you, a token holder?
 
-_**You must set up delegation if you want to participate in governance votes. This includes delegating to others or voting yourself.**_
+**You must set up delegation if you want to participate in governance votes. This includes delegating to others or voting yourself.**
 
-_If you wish to vote on proposals directly, delegate your voting power to your own address. Or, you can delegate your voting power to another community member and let them vote on your behalf._
+If you wish to vote on proposals directly, delegate your voting power to your own address. Or, you can delegate your voting power to another community member and let them vote on your behalf.
 
 ### Delegate To Yourself <a href="#yourself" id="yourself"></a>
 
@@ -42,7 +42,7 @@ In the pop up window, select **Delegate**.
 
 ![](https://p434.p1.n0.cdn.getcloudapp.com/items/z8umyGdm/86298abb-1f38-4146-83ab-d1e129b6b2bb.jpg?v=1e8f26a710efda0cbd44d3abc5fdbf23)
 
-_You can also delegate your voting power to a specific address directly on their_ [_Profile Page_](../navigating-the-tally-platform/tally-profile.md)_!_
+_You can also delegate your voting power to a specific address directly on their_ [_Profile Page_](../navigating-the-tally-platform/tally-profile.md)_._
 
 ***
 
@@ -53,3 +53,11 @@ Navigate to your [Profile Page](../navigating-the-tally-platform/tally-profile.m
 Select the DAO for the delegation you wish to confirm. You'll see whom you are delegating to directly next to your username.
 
 ![](<../../.gitbook/assets/Screenshot 2023-08-25 at 1.58.23 pm.png>)
+
+***
+
+### Re-delegating and Undelegating
+
+At any point, you have the complete freedom to re-delegate your tokens to a different address by following the same steps you initially used to delegate your tokens. This flexibility ensures that you can adapt to changing circumstances and align your delegation with your current preferences or strategies.
+
+Additionally, you also have the option to undelegate your tokens, thereby reclaiming your voting power to participate directly in the decision-making process. This may be important if a vote you feel particularly strongly about comes up; you can take a more active role in the governance of the DAO whenever you feel it is necessary or appropriate.

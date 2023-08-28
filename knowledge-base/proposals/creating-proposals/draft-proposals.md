@@ -1,5 +1,5 @@
 ---
-description: Diminishing friction from the governance process
+description: Mitigating friction in the governance process
 ---
 
 # Draft Proposals
