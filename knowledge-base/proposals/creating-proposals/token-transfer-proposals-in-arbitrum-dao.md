@@ -8,7 +8,7 @@ description: >-
 
 Because of the way Arbitrum DAO's timelocks are set up, the preset 'Transfer' action on Tally is unable to issue ARB from the treasury. The proposer must instead use the 'Custom Action' flow to call transfer().
 
-For more information on how to create proposals in the Arbitrum DAO, please review the [Arbitrum DAO Governance Docs](https://docs.arbitrum.foundation/how-tos/create-submit-dao-proposal). This post expands on step 2.6 of the process for creating a proposal in the Arbitrum DAO: “Add proposal actions to be executed if passed.”
+For more information on how to create proposals in the Arbitrum DAO, please review the [Arbitrum DAO Governance Docs](https://docs.arbitrum.foundation/how-tos/create-submit-dao-proposal). This section expands on step 2.6 of the process for creating a proposal in the Arbitrum DAO: “Add proposal actions to be executed if passed.”
 
 ### How to add proposal actions on Tally for Arbitrum DAO
 

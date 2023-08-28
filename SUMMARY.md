@@ -26,6 +26,7 @@
     * [Swaps](knowledge-base/proposals/creating-proposals/swaps/README.md)
       * [Swaps: FAQs](knowledge-base/proposals/creating-proposals/swaps/swaps-faqs.md)
     * [Token Transfer Proposals in Arbitrum DAO](knowledge-base/proposals/creating-proposals/token-transfer-proposals-in-arbitrum-dao.md)
+    * [Draft Proposals](knowledge-base/proposals/creating-proposals/draft-proposals.md)
   * [Voting on Proposals](knowledge-base/proposals/voting-on-proposals.md)
   * [Managing Proposals](knowledge-base/proposals/managing-proposals.md)
 * [🎉 DAO Best Practices](knowledge-base/dao-best-practices/README.md)
