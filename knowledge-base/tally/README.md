@@ -13,7 +13,7 @@ Onchain governance is important, no matter the chain. Tally supports DAOs on Eth
 Tally serves as a comprehensive platform for your DAO, handling the complexities so you can focus on running your organization. With Tally, you can:
 
 * build a [home page](../navigating-the-tally-platform/dao-page.md) for your DAO, so contributors have a one-stop shop to find information and participate in DAO governance.
-* seamlessly [create](../proposals/creating-proposals/) and [manage](../proposals/managing-proposals.md) proposals, streamlining the decision-making process.
+* seamlessly [create](../proposals/creating-proposals/) and [manage](../proposals/managing-proposals/) proposals, streamlining the decision-making process.
 
 ### Voters
 
@@ -48,8 +48,4 @@ For onchain DAOs, voting procedures occur directly on the blockchain and are exe
 
 {% content-ref url="onchain-governance/" %}
 [onchain-governance](onchain-governance/)
-{% endcontent-ref %}
-
-{% content-ref url="../navigating-the-tally-platform/" %}
-[navigating-the-tally-platform](../navigating-the-tally-platform/)
 {% endcontent-ref %}

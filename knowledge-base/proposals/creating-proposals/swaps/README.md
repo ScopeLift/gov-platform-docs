@@ -14,4 +14,4 @@ Empower your DAO by creating an onchain proposal on Tally using the Swaps recipe
 4. An offchain [Milkman bot](https://github.com/charlesndalton/milkman-bot) listens for the swap request and forwards it to the CoW protocol.
 5. CoW solvers compete to fill the order at the best price.
 
-### _For FAQs, see._
+### _More questions? See_ [swaps-faqs.md](swaps-faqs.md "mention")_._

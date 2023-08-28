@@ -6,12 +6,12 @@ description: How to queue, execute, and cancel proposals
 
 > Besides creating a proposal and voting on it, there are several other actions that can be taken: queuing, executing, and canceling.
 >
-> **Queuing, executing, and canceling proposals can all be accomplished directly from the** [proposal-page.md](../navigating-the-tally-platform/proposal-page.md "mention")**.**
+> **Queuing, executing, and canceling proposals can all be accomplished directly from the** [proposal-page.md](../../navigating-the-tally-platform/proposal-page.md "mention")**.**
 
 ## Queuing and Executing Proposals
 
 {% hint style="warning" %}
-_Once voting ends, a proposal is not done! If a proposal passed, there are still more steps to take before it’s executed. A successful Governor proposal still needs to be **queued**—if the DAO uses a Timelock—and then **executed**._
+_Once voting ends, a proposal is not done. If a proposal passed, there are still more steps to take before it’s executed. A successful Governor proposal still needs to be **queued**—if the DAO uses a Timelock—and then **executed**._
 {% endhint %}
 
 Once a proposal passes, you can queue and execute it from the same place you voted:
@@ -32,11 +32,11 @@ Generally, anyone can queue a proposal that has passed! The only exception is th
 
 ### _How long will the proposal be queued?_
 
-This depends on the Timelock Delay of the Timelock contract. You can check that delay on Etherscan until Tally adds it to the [dao-page.md](../navigating-the-tally-platform/dao-page.md "mention").
+This depends on the Timelock Delay of the Timelock contract. You can check that delay on Etherscan until Tally adds it to the [dao-page.md](../../navigating-the-tally-platform/dao-page.md "mention").
 
 ### _What does it mean to “execute” a proposal?_
 
-**Executing** a proposal runs its function calls onchain. Each proposal is associated with one or more function calls, which are visible in the `Executable Code` section of the [Proposal page](../navigating-the-tally-platform/proposal-page.md). These calls can do things like transfer assets from the treasury, update parameters of the Governor itself, change or upgrade a DeFi protocol, or call another smart contract.
+**Executing** a proposal runs its function calls onchain. Each proposal is associated with one or more function calls, which are visible in the `Executable Code` section of the [Proposal page](../../navigating-the-tally-platform/proposal-page.md). These calls can do things like transfer assets from the treasury, update parameters of the Governor itself, change or upgrade a DeFi protocol, or call another smart contract.
 
 ### _Who can execute a proposal?_
 
@@ -45,7 +45,7 @@ Generally, anyone can execute a proposal that has passed! The only exception is 
 {% hint style="info" %}
 #### _Sending ETH when executing a proposal_
 
-In some situations it is important to send ETH at the same time as executing a proposal (for example, when paying the Toll for sending a cross chain message to a bridge). In this case, it may be necessary to send ETH as part of the execution of the proposal.
+In some situations it is important to send ETH at the same time as executing a proposal (for example, when paying the Toll for sending a crosschain message to a bridge). In this case, it may be necessary to send ETH as part of the execution of the proposal.
 {% endhint %}
 
 ## Canceling Proposals

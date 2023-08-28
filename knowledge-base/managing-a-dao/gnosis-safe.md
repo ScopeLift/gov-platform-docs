@@ -1,5 +1,5 @@
 ---
-description: Understand Gnosis Safes on Tally.
+description: Understand what Gnosis Safes are and how they work on Tally.
 ---
 
 # Gnosis Safes

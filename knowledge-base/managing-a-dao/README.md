@@ -8,7 +8,7 @@ _Ready to add your DAO's governance to Tally? All you need is a deployed_ [_Gove
 
 <figure><img src="../../.gitbook/assets/Screenshot 2023-08-23 at 8.11.23 pm.png" alt=""><figcaption><p> </p></figcaption></figure>
 
-Select the **Add a DAO** button on the Tally homepage (or [click here](https://www.tally.xyz/add-a-dao)!), then select **Get Started**.
+Select the **Add a DAO** button on the Tally homepage (or [click here](https://www.tally.xyz/add-a-dao)), then select **Get Started**.
 
 <figure><img src="../../.gitbook/assets/Screenshot 2023-08-23 at 8.20.00 pm.png" alt=""><figcaption></figcaption></figure>
 
@@ -18,6 +18,10 @@ Enter your DAO's info: its name, description, and Governor Contract details. The
 
 {% content-ref url="dao-admins.md" %}
 [dao-admins.md](dao-admins.md)
+{% endcontent-ref %}
+
+{% content-ref url="dao-settings.md" %}
+[dao-settings.md](dao-settings.md)
 {% endcontent-ref %}
 
 {% content-ref url="gnosis-safe.md" %}

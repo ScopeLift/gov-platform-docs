@@ -14,6 +14,6 @@ description: >-
 [voting-on-proposals.md](voting-on-proposals.md)
 {% endcontent-ref %}
 
-{% content-ref url="managing-proposals.md" %}
-[managing-proposals.md](managing-proposals.md)
+{% content-ref url="managing-proposals/" %}
+[managing-proposals](managing-proposals/)
 {% endcontent-ref %}
