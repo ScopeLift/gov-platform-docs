@@ -56,7 +56,7 @@ The information you enter in Settings is public to everyone. The data in your [T
 2. Choose a PFP from your wallet or upload an image.
 3. Update your Bio to tell us a bit about you!
 4. Link your Twitter account.
-5. Generate a Tally API key. _Visit our_ [_API Portal_](../../tally-api/welcome.md) _to learn more!_
+5. Generate a Tally API key. _Visit our_ [_API Portal_](broken-reference) _to learn more!_
 
 ## Log out
 

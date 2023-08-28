@@ -34,15 +34,6 @@
   * [Running an Onchain DAO Using OpenZeppelin Governor](knowledge-base/dao-best-practices/running-an-onchain-dao-using-openzeppelin-governor.md)
 * [0⃣ Tally Zero](knowledge-base/tally-zero.md)
 
-## Premium Services
-
-* [🚀 DAO Launcher](premium-services/dao-launcher.md)
-* [⚖ Security Council Elections](premium-services/security-council-elections.md)
-* [⛽ Vote Relayer](premium-services/vote-relayer.md)
-* [🔄 Swaps](premium-services/swaps.md)
-* [👩💻 Tally API](tally-api/welcome.md)
-* [✍ Create Proposal](premium-services/create-proposal.md)
-
 ## Education
 
 * [🤔 Intro to Governance](education/intro-to-governance/README.md)
