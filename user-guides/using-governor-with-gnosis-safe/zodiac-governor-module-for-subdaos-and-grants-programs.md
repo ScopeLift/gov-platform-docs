@@ -1,8 +1,8 @@
 ---
-description: Create SubDAOs and manageGrants Programs using the Zodiac Governor module.
+description: Create SubDAOs and manage Grants Programs using the Zodiac Governor module.
 ---
 
-# Zodiac Governor Module for SubDAOs and grants programs
+# Zodiac Governor Module for SubDAOs and Grants Programs
 
 ### About Gnosis Zodiac
 

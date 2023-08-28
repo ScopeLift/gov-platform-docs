@@ -25,6 +25,7 @@
   * [Creating Proposals](knowledge-base/proposals/creating-proposals/README.md)
     * [Swaps](knowledge-base/proposals/creating-proposals/swaps/README.md)
       * [Swaps: FAQs](knowledge-base/proposals/creating-proposals/swaps/swaps-faqs.md)
+    * [Token Transfer Proposals in Arbitrum DAO](knowledge-base/proposals/creating-proposals/token-transfer-proposals-in-arbitrum-dao.md)
   * [Voting on Proposals](knowledge-base/proposals/voting-on-proposals.md)
   * [Managing Proposals](knowledge-base/proposals/managing-proposals.md)
 * [🎉 DAO Best Practices](knowledge-base/dao-best-practices/README.md)
@@ -95,7 +96,7 @@
   * [Governor Proposal Descriptions Standards](user-guides/governor-proposals/whats-the-standard-for-governor-proposal-descriptions.md)
 * [🧑🚀 Using Governor with Gnosis Safe](user-guides/using-governor-with-gnosis-safe/README.md)
   * [Arbitrum Gnosis Safes](user-guides/using-governor-with-gnosis-safe/arbitrum-gnosis-safes.md)
-  * [Zodiac Governor Module for SubDAOs and grants programs](user-guides/using-governor-with-gnosis-safe/zodiac-governor-module-for-subdaos-and-grants-programs.md)
+  * [Zodiac Governor Module for SubDAOs and Grants Programs](user-guides/using-governor-with-gnosis-safe/zodiac-governor-module-for-subdaos-and-grants-programs.md)
 * [⚠️     Security](user-guides/security.md)
 * [🌉 Bridge Providers](user-guides/bridge-providers.md)
 
