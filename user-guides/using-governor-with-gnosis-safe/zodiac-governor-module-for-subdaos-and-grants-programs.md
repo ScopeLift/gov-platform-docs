@@ -1,3 +1,7 @@
+---
+description: Create SubDAOs and manageGrants Programs using the Zodiac Governor module.
+---
+
 # Zodiac Governor Module for SubDAOs and grants programs
 
 ### About Gnosis Zodiac
@@ -7,7 +11,7 @@ Zodiac is a collection of tools built according to an open standard by the team 
 
 ### Introduction
 
-The [Zodiac Governor module](https://zodiac.wiki/index.php/Category:Governor\_Module) facilitates the management and control of Gnosis Safes by a decentralized autonomous organization (DAO). With the Zodiac Governor module, a DAO can become a privileged member of the Safe, allowing it to manage signers and execute transactions. This document will guide you through the use case of creating SubDAOs and managing Grants Programs using the Zodiac Governor module.
+The [Zodiac Governor module](https://zodiac.wiki/index.php/Category:Governor\_Module) facilitates the management and control of Gnosis Safes by a DAO. With the Zodiac Governor module, a DAO can become a privileged member of the Safe, allowing it to manage signers and execute transactions. This page will guide you through the use case of creating SubDAOs and managing Grants Programs using the Zodiac Governor module.
 
 ### Features
 
@@ -52,7 +56,3 @@ Finally, a couple of steps are needed to get your new SubDAO fully represented o
 
 1. Copy the contract address of the Governor that was created by the Zodiac Governor Module no-code tool and [add it directly to Tally](../../knowledge-base/managing-a-dao/).&#x20;
 2. [Link the contract address](../../knowledge-base/managing-a-dao/gnosis-safe.md) of the multisig that was created via the Zodiac Governor Module to your Parent DAO, making it easily visible from the parent DAO on Tally.
-
-### Conclusion
-
-The Zodiac Governor module provides an efficient, secure, and decentralized way to manage subDAOs and Grants Programs. Its unique features and benefits make it an ideal tool for any DAO aiming to retain control while fostering growth and collaboration.
