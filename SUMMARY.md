@@ -34,6 +34,10 @@
   * [Running an Onchain DAO Using OpenZeppelin Governor](knowledge-base/dao-best-practices/running-an-onchain-dao-using-openzeppelin-governor.md)
 * [0⃣ Tally Zero](knowledge-base/tally-zero.md)
 
+## Tally API
+
+* [👩💻 Tally API](tally-api/welcome.md)
+
 ## Education
 
 * [🤔 Intro to Governance](education/intro-to-governance/README.md)
@@ -92,7 +96,6 @@
   * [Zodiac Governor Module for SubDAOs and Grants Programs](user-guides/using-governor-with-gnosis-safe/zodiac-governor-module-for-subdaos-and-grants-programs.md)
 * [⚠️     Security](user-guides/security.md)
 * [🌉 Bridge Providers](user-guides/bridge-providers.md)
-* [👩💻 Tally API](user-guides/welcome.md)
 
 ## Resources
 
