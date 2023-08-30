@@ -92,6 +92,7 @@
   * [Zodiac Governor Module for SubDAOs and Grants Programs](user-guides/using-governor-with-gnosis-safe/zodiac-governor-module-for-subdaos-and-grants-programs.md)
 * [⚠️     Security](user-guides/security.md)
 * [🌉 Bridge Providers](user-guides/bridge-providers.md)
+* [👩💻 Tally API](user-guides/tally-api.md)
 
 ## Resources
 
