@@ -30,8 +30,6 @@
   * [Voting on Proposals](knowledge-base/proposals/voting-on-proposals.md)
   * [Managing Proposals](knowledge-base/proposals/managing-proposals.md)
     * [Advanced Execution](knowledge-base/proposals/managing-proposals/advanced-execution.md)
-* [🎉 DAO Best Practices](knowledge-base/dao-best-practices/README.md)
-  * [Running an Onchain DAO Using OpenZeppelin Governor](knowledge-base/dao-best-practices/running-an-onchain-dao-using-openzeppelin-governor.md)
 * [0⃣ Tally Zero](knowledge-base/tally-zero.md)
 
 ## Tally API
@@ -55,6 +53,8 @@
   * [Curve Voting Escrow](education/governance-frameworks/curve-voting-escrow.md)
   * [Multisigs](education/governance-frameworks/multisigs.md)
   * [Snapshot Polls](education/governance-frameworks/snapshot-polls.md)
+* [🎉 DAO Best Practices](education/dao-best-practices/README.md)
+  * [Running an Onchain DAO Using OpenZeppelin Governor](education/dao-best-practices/running-an-onchain-dao-using-openzeppelin-governor.md)
 * [💻 Index of DAOs](education/index-of-daos/README.md)
   * [DAOs on Tally](education/index-of-daos/daos-on-tally/README.md)
     * [Aave (AAVE)](education/index-of-daos/daos-on-tally/aave-aave.md)
