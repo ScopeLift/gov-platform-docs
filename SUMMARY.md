@@ -36,6 +36,11 @@
 
 * [👩💻 Tally API](tally-api/welcome.md)
 
+## Premium Features
+
+* [🔐 Security Council Elections](premium-features/security-council-elections/README.md)
+  * [Arbitrum DAO Security Council Elections Guide](premium-features/security-council-elections/arbitrum-dao-security-council-elections-guide.md)
+
 ## Education
 
 * [🤔 Intro to Governance](education/intro-to-governance/README.md)
