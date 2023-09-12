@@ -39,6 +39,12 @@ The Security Council Election consists of two rounds with a Compliance Verificat
 * Voters can vote for their preferred candidates to qualify candidates for Round 2.
 * The coundown timer indicates the amount of time remaining time in Round 1.
 
+#### Compliance Check
+
+The Arbitrum Foundation has 14 days to vet prospective nominees. If it finds that a candidate does not pass the compliance check, it may exclude the candidate from progressing to Round 2.
+
+Note that grounds for exclusion can include greater than 3 members of an organization being represented in the nominee set (as described in Section 4 of the Constitution).
+
 #### Round 2
 
 * This round displays the list of qualified nominees who meet the compliance check in Round 1 with associated vote counts.
