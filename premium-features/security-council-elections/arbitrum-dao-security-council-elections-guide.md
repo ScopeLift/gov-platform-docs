@@ -1,7 +1,7 @@
 ---
 description: >-
   This guide will walk you through the democratic process of electing members to
-  Arbitrum DAO Security Council.
+  the Arbitrum DAO Security Council.
 ---
 
 # Arbitrum DAO Security Council Elections Guide
@@ -16,6 +16,8 @@ Elections are conducted every 6 months to appoint members to these groups. Each 
 
 On this page, you can learn about:
 
+[#election-rounds](arbitrum-dao-security-council-elections-guide.md#election-rounds "mention")
+
 [#navigating-the-election](arbitrum-dao-security-council-elections-guide.md#navigating-the-election "mention")
 
 [#becoming-a-candidate](arbitrum-dao-security-council-elections-guide.md#becoming-a-candidate "mention")
@@ -24,7 +26,25 @@ On this page, you can learn about:
 
 [#voting-for-nominees](arbitrum-dao-security-council-elections-guide.md#voting-for-nominees "mention")
 
-[#election-rounds](arbitrum-dao-security-council-elections-guide.md#election-rounds "mention")
+### Election Rounds
+
+The Security Council Election consists of two rounds with a Compliance Verification inbetween.
+
+<figure><img src="https://lh5.googleusercontent.com/8abGmsTJsqCoKUu-9lefdR-xtedCtR98NNuAGKHM0Zeijh5cP8c90qgjSyFViwLig2mumr799D9RCJimarAbm_LbQ0ESWOhRVDh7vlO3o0qVInYqDxhgVjq6ij7LETgbuF7eGgVfzkQoZMKDbimLH6U" alt=""><figcaption></figcaption></figure>
+
+#### Round 1
+
+* Registration occurs during, not before, Round 1.
+* This round displays the list of candidates with associated vote counts.
+* Voters can vote for their preferred candidates to qualify candidates for Round 2.
+* The coundown timer indicates the amount of time remaining time in Round 1.
+
+#### Round 2
+
+* This round displays the list of qualified nominees who meet the compliance check in Round 1 with associated vote counts.
+* Voters can vote for their preferred candidates.
+* The coundown timer indicates the amount of time remaining time in Round 2.
+* The 6 candidates who receive the most votes will be elected to the Security Council.
 
 ### Navigating the Election
 
@@ -78,22 +98,3 @@ Voting power will decay if you do not cast your vote within the first 7 days:
 * 7 - 21 days: Votes cast will have their weight linearly decreased based on the amount of time that has passed since the 7-day point. By the 21st day, each token will carry a weight of 0.
 
 You can vote multiple times for different candidates.
-
-### Election Rounds
-
-The Security Council Election consists of two rounds.
-
-<figure><img src="https://lh5.googleusercontent.com/8abGmsTJsqCoKUu-9lefdR-xtedCtR98NNuAGKHM0Zeijh5cP8c90qgjSyFViwLig2mumr799D9RCJimarAbm_LbQ0ESWOhRVDh7vlO3o0qVInYqDxhgVjq6ij7LETgbuF7eGgVfzkQoZMKDbimLH6U" alt=""><figcaption></figcaption></figure>
-
-#### Round 1
-
-* Display list of candidates with associated vote counts.
-* Voters can vote for their preferred candidates to qualify candidates for Round 2.
-* The coundown timer indicates the amount of time remaining time in Round 1.
-
-#### Round 2
-
-* Displays list of qualified nominees who meet the compliance check in Round 1 with associated vote counts.
-* Voters can vote for their preferred candidates.
-* The coundown timer indicates the amount of time remaining time in Round 2.
-* The 6 candidates who receive the most votes will be elected to the Security Council.
