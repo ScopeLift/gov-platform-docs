@@ -6,6 +6,8 @@ description: >-
 
 # Arbitrum DAO Security Council Elections Guide
 
+> _For more details on the first Security Council election on September 15th, please visit the_ [_Security Council Election 101 page_](https://forum.arbitrum.foundation/t/security-council-elections-101/16314) _in the Arbitrum DAO forum._
+
 ### What is the Arbitrum DAO Security Council Election?
 
 The Arbitrum DAO Security Council is structured into two distinct groups, each comprising six dedicated members tasked with overseeing and mitigating risks within the Arbitrum ecosystem.
