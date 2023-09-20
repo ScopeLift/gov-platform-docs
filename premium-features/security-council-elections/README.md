@@ -1,8 +1,12 @@
+---
+description: Decentralize multi-sig control of your DAO.
+---
+
 # 🔐 Security Council Elections
 
+> [⚠️](https://emojipedia.org/warning) This page is a work-in-progress!
+
 Security Council Elections are...
-
-
 
 ### What is a Security Council?
 
