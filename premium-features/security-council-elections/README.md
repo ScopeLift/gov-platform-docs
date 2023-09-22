@@ -29,7 +29,7 @@ A Security Council is comprised of a certain number of members who are entrusted
 
 #### Election Process
 
-To ensure accountability and infusion of fresh perspectives, the members of the Security Council are elected democratically on a semi-annual basis. The election process is structured as follows:
+To ensure accountability and infusion of fresh perspectives, the members of the Security Council are elected democratically on a semi-annual basis. Tally can customize all aspects of the election process. Typically, it is structured as follows:
 
 * **Nomination**: Initially, contenders register to become nominees, requiring a certain percentage of votes.
 * **Compliance Period**: A period for the foundation to vet the nominees.
