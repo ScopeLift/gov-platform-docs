@@ -4,8 +4,6 @@ description: Decentralize multi-sig control of your DAO.
 
 # 🔐 Security Council Elections
 
-> [⚠️](https://emojipedia.org/warning) This page is a work-in-progress!
-
 Security Council elections are a pivotal aspect of decentralized governance, ensuring that the guardianship of a DAO remains in the hands of its community. Elections serve as a testament to the democratic ethos of DAOs, allowing stakeholders to have a say in selecting the individuals who will be at the forefront of safeguarding their interests.&#x20;
 
 Through a transparent and structured process, they aim to identify and empower those with the expertise, vision, and commitment to navigate the challenges that may arise, all while upholding the principles and objectives of the DAO. It's not just about choosing leaders; it's about reinforcing trust, fostering accountability, and ensuring that the DAO's security apparatus remains robust and responsive.
