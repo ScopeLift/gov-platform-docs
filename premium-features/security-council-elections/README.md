@@ -20,6 +20,8 @@ With Tally's custom-built Security Council elections, elevate your DAO's Securit
 
 In the rapidly evolving world of DAOs, the concept of a Security Council stands as a beacon of stability and security. A Security Council is a group comprised of a certain number of members who are vested with the authority to make urgent alterations to the protocol during emergencies. This council doesn't just govern; it acts as a protective shield against unforeseen threats, ensuring that the DAO remains secure, adaptable, and prepared for whatever comes next.
 
+<figure><img src="../../.gitbook/assets/image (124).png" alt=""><figcaption><p>Cohort 1 of Arbitrum DAO's Security Council is made up of 6 members.</p></figcaption></figure>
+
 #### Roles and Responsibilities
 
 A Security Council is comprised of a certain number of members who are entrusted with the responsibility of making urgent modifications to the protocol during emergencies. Their roles are usually outlined as follows:
@@ -35,6 +37,8 @@ To ensure accountability and infusion of fresh perspectives, the members of the 
 * **Compliance Period**: A period for the foundation to vet the nominees.
 * **Election Period**: A period where delegates vote for the nominees, with the voting weight decreasing linearly over the last two weeks.
 * **Results and Implementation**: Following the election, the top nominees become the new members of the Security Council, with the results undergoing various time locks before the new members are integrated into the council.
+
+<figure><img src="../../.gitbook/assets/image (125).png" alt=""><figcaption><p>In this example, the vote threshold to qualify for Round 2 is 4.7M. Matt Fiebach has met the vote threshold and will move on to Round 2, while Matt StableLab will not pass Round 1.</p></figcaption></figure>
 
 #### Security Measures
 
@@ -52,3 +56,7 @@ As a stakeholder in a DAO, the establishment of a Security Council—and an effi
 * **Adaptability**: It ensures that the DAO remains versatile and capable of adapting to changing circumstances without compromising its foundational principles.
 * **Democratic Governance**: Elections at regular intervals foster a democratic environment, allowing for the inclusion of new skills and perspectives, and preventing the entrenchment of power.
 * **Resilience**: In the face of emergencies, a council's swift actions help maintain the stability and functionality of the DAO, thereby preserving users' trust and investments.
+
+<figure><img src="../../.gitbook/assets/image (126).png" alt=""><figcaption><p>The homepage of Arbitrum DAO's Security Council Elections</p></figcaption></figure>
+
+<figure><img src="../../.gitbook/assets/image (127).png" alt=""><figcaption><p>The voting slate for Arbitrum DAO's first Security Council Election</p></figcaption></figure>
