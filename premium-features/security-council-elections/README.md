@@ -20,7 +20,7 @@ With Tally's custom-built Security Council elections, elevate your DAO's Securit
 
 In the rapidly evolving world of DAOs, the concept of a Security Council stands as a beacon of stability and security. A Security Council is a group comprised of a certain number of members who are vested with the authority to make urgent alterations to the protocol during emergencies. This council doesn't just govern; it acts as a protective shield against unforeseen threats, ensuring that the DAO remains secure, adaptable, and prepared for whatever comes next.
 
-<figure><img src="../../.gitbook/assets/image (124).png" alt=""><figcaption><p>Cohort 1 of Arbitrum DAO's Security Council is made up of 6 members.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (124).png" alt=""><figcaption><p>Cohort 1 of Arbitrum DAO's Security Council is made up of 12 members; subsequent cohorts will have 6 members.</p></figcaption></figure>
 
 #### Roles and Responsibilities
 
