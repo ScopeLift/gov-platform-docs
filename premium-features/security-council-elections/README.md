@@ -8,7 +8,7 @@ Security Council elections are a pivotal aspect of decentralized governance, ens
 
 Through a transparent and structured process, they aim to identify and empower those with the expertise, vision, and commitment to navigate the challenges that may arise, all while upholding the principles and objectives of the DAO. It's not just about choosing leaders; it's about reinforcing trust, fostering accountability, and ensuring that the DAO's security apparatus remains robust and responsive.
 
-With Tally's custom-built Security Council elections, elevate your DAO's Security Council elections to unparalleled standards of excellence and integrity.
+With Tally's custom-built Security Council elections, elevate your DAO's Security Council elections to the highest standards of excellence and integrity.
 
 [#what-is-a-security-council](./#what-is-a-security-council "mention")
 
@@ -18,7 +18,7 @@ With Tally's custom-built Security Council elections, elevate your DAO's Securit
 
 ### What is a Security Council?
 
-In the rapidly evolving world of DAOs, the concept of a Security Council stands as a beacon of stability and security. A Security Council is a group comprised of a certain number of members who are vested with the authority to make urgent alterations to the protocol during emergencies. This council doesn't just govern; it acts as a protective shield against unforeseen threats, ensuring that the DAO remains secure, adaptable, and prepared for whatever comes next.
+In the rapidly evolving world of DAOs, a Security Council serves as a mechanism for stability and security. It consists of designated members with the authority to make necessary changes to the protocol during emergencies. The council's role is not only to govern but also to address potential threats, ensuring the DAO's security and adaptability.
 
 <figure><img src="../../.gitbook/assets/image (124).png" alt=""><figcaption><p>Cohort 1 of Arbitrum DAO's Security Council is made up of 12 members; subsequent cohorts will have 6 members.</p></figcaption></figure>
 
