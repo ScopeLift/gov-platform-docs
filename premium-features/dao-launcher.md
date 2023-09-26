@@ -14,12 +14,7 @@ DAO Launcher is a cutting-edge platform designed to empower individuals and orga
 
 ### How does DAO Launcher work?
 
-DAO Launcher streamlines the DAO creation process through an intuitive interface and a set of pre-configured templates. Users can:
-
-1. **Choose a Template**: Select from a range of DAO structures that best fit their needs.
-2. **Customize**: Adjust parameters such as voting thresholds, membership criteria, and governance rules.
-3. **Deploy**: With a single click, launch the DAO on the blockchain, ensuring transparency, security, and immutability.
-4. **Manage & Monitor**: Once launched, DAO Launcher provides tools for ongoing management, monitoring, and interaction with the DAO, making governance activities straightforward.
+DAO Launcher streamlines the DAO creation process xxx
 
 ### Why should I care?
 
