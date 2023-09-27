@@ -6,7 +6,7 @@ description: Networks supported on the Tally interface.
 
 Tally currently supports these EVM-compatible networks:
 
-### **Ethereum**
+**Ethereum**
 
 * Ethereum Mainnet
 * Ethereum Goerli Testnet
@@ -15,6 +15,8 @@ Tally currently supports these EVM-compatible networks:
 **Polygon**
 
 * Polygon Mainnet
+* Polygon zkEVM
+* Polygon zkEVM Testnet
 * Polygon Mumbai Testnet
 
 **Binance Smart Chain**&#x20;
@@ -30,7 +32,7 @@ Tally currently supports these EVM-compatible networks:
 
 **Optimism**
 
-* Optimism&#x20;
+* Optimism Mainnet
 * Optimism Goerli Testnet
 
 **Avalanche**
@@ -50,6 +52,7 @@ Tally currently supports these EVM-compatible networks:
 #### **Scroll**
 
 * Scroll Alpha Testnet
+* Scroll Sepolia Testnet
 
 #### Moonbeam
 
@@ -60,13 +63,26 @@ Tally currently supports these EVM-compatible networks:
 * zkSync Era Goerli Testnet
 * zkSync Era Mainnet
 
+**Celo**
+
+* Celo Mainnet
+
 **Linea**
 
-* Linea Testnet (coming soon)
+* Linea Testnet
+* Linea Mainnet
 
 **Mantle**
 
-* Mantle Testnet (coming soon)
+* Mantle Mainnet
+* Mantle Testnet
+
+**Kroma**
+
+* Kroma Mainnet
+* Kroma Testnet Sepolia
+
+
 
 ### Adding chains to Tally
 
