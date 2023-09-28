@@ -38,8 +38,8 @@
 
 ## Premium Features
 
-* [🔐 Security Council Elections](premium-features/security-council-elections/README.md)
-  * [Arbitrum DAO Security Council Elections Guide](premium-features/security-council-elections/arbitrum-dao-security-council-elections-guide.md)
+* [🔐 Council Elections](premium-features/council-elections/README.md)
+  * [Arbitrum DAO Security Council Elections Guide](premium-features/council-elections/arbitrum-dao-security-council-elections-guide.md)
 * [🚀 DAO Launcher](premium-features/dao-launcher.md)
 
 ## Education

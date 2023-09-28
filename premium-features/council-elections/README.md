@@ -2,13 +2,13 @@
 description: Decentralize multi-sig control of your DAO.
 ---
 
-# 🔐 Security Council Elections
+# 🔐 Council Elections
 
-Security Council elections are a pivotal aspect of decentralized governance, ensuring that the guardianship of a DAO remains in the hands of its community. Elections serve as a testament to the democratic ethos of DAOs, allowing stakeholders to have a say in selecting the individuals who will be at the forefront of safeguarding their interests.&#x20;
+Council elections are a pivotal aspect of decentralized governance, ensuring that the guardianship of a DAO remains in the hands of its community. Elections serve as a testament to the democratic ethos of DAOs, allowing stakeholders to have a say in selecting the individuals who will be at the forefront of safeguarding their interests.&#x20;
 
 Through a transparent and structured process, they aim to identify and empower those with the expertise, vision, and commitment to navigate the challenges that may arise, all while upholding the principles and objectives of the DAO. It's not just about choosing leaders; it's about reinforcing trust, fostering accountability, and ensuring that the DAO's security apparatus remains robust and responsive.
 
-With Tally's custom-built Security Council elections, elevate your DAO's Security Council elections to the highest standards of excellence and integrity.
+With Tally's custom-built Council elections, elevate your DAO's Council elections to the highest standards of excellence and integrity.
 
 [#what-is-a-security-council](./#what-is-a-security-council "mention")
 
@@ -16,15 +16,15 @@ With Tally's custom-built Security Council elections, elevate your DAO's Securit
 
 ***
 
-### What is a Security Council?
+### What is a council?
 
-In the rapidly evolving world of DAOs, a Security Council serves as a mechanism for stability and security. It consists of designated members with the authority to make necessary changes to the protocol during emergencies. The council's role is not only to govern but also to address potential threats, ensuring the DAO's security and adaptability.
+In the rapidly evolving world of DAOs, a council serves as a mechanism for stability and security. It consists of designated members with the authority to make necessary changes to the protocol during emergencies. The council's role is not only to govern but also to address potential threats, ensuring the DAO's security and adaptability.
 
 <figure><img src="../../.gitbook/assets/image (124).png" alt=""><figcaption><p>Cohort 1 of Arbitrum DAO's Security Council is made up of 12 members; subsequent cohorts will have 6 members.</p></figcaption></figure>
 
 #### Roles and Responsibilities
 
-A Security Council is comprised of a certain number of members who are entrusted with the responsibility of making urgent modifications to the protocol during emergencies. Their roles are usually outlined as follows:
+A council is comprised of a certain number of members who are entrusted with the responsibility of making urgent modifications to the protocol during emergencies. Their roles are usually outlined as follows:
 
 * **Emergency Actions**: Addressing critical situations that demand immediate attention, such as potential risks to users' funds. To execute emergency actions, a consensus of a certain number of members is required.
 * **Routine Operations**: Apart from emergencies, the council also supervises routine software updates, maintenance, and parameter adjustments, which are considered as "Non-Emergency Actions".
