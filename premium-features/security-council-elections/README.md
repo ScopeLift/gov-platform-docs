@@ -8,9 +8,9 @@ Council elections are a pivotal aspect of decentralized governance, ensuring tha
 
 Through a transparent and structured process, they aim to identify and empower those with the expertise, vision, and commitment to navigate the challenges that may arise, all while upholding the principles and objectives of the DAO. It's not just about choosing leaders; it's about reinforcing trust, fostering accountability, and ensuring that the DAO's security apparatus remains robust and responsive.
 
-With Tally's custom-built Council elections, elevate your DAO's Council elections to the highest standards of excellence and integrity.
+With Tally's custom-built council elections, elevate your DAO's council elections to the highest standards of excellence and integrity.
 
-[#what-is-a-security-council](./#what-is-a-security-council "mention")
+[#what-is-a-council](./#what-is-a-council "mention")
 
 [#why-should-i-care](./#why-should-i-care "mention")
 

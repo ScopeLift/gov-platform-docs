@@ -10,7 +10,7 @@ description: Manage your DAO.
 
 Admins for a given DAO are displayed at the bottom of the [dao-page.md](../navigating-the-tally-platform/dao-page.md "mention"):
 
-<figure><img src="../../.gitbook/assets/image (3).png" alt=""><figcaption><p>Admins section of the <a href="../navigating-the-tally-platform/dao-page.md">DAO Page</a>.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3) (2).png" alt=""><figcaption><p>Admins section of the <a href="../navigating-the-tally-platform/dao-page.md">DAO Page</a>.</p></figcaption></figure>
 
 ## Admin Abilities
 
