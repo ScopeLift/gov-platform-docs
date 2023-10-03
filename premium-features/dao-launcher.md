@@ -39,6 +39,8 @@ Our Airdrop Claim Page is designed to facilitate DAOs in distributing their toke
 * **High Delegation Rate:** Drive a significant rate of delegation among eligible users.
 * **Diverse Delegation:** Promote a varied distribution of delegation, ensuring a mix of both large and small delegates.
 
+<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption><p>Example of an Airdrop Claim Page for ACME DAO</p></figcaption></figure>
+
 ### 2. Whitelabel Version of Tally
 
 With our Whitelabel solution, get a fully functional DAO page deployed on a URL of your choice, ensuring your DAO has a unique identity and stands out.
