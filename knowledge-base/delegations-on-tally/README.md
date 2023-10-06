@@ -10,8 +10,8 @@ description: >-
 
 Need to delegate your own voting power? It's easier than ever:
 
-{% content-ref url="../proposals/delegating-voting-power.md" %}
-[delegating-voting-power.md](../proposals/delegating-voting-power.md)
+{% content-ref url="delegating-voting-power/" %}
+[delegating-voting-power](delegating-voting-power/)
 {% endcontent-ref %}
 
 Not sure who to delegate to? Check out your DAO's Delegates Page to understand where delegates stand on important DAO issues:

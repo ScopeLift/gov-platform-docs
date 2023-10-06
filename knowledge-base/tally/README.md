@@ -21,7 +21,7 @@ Tally provides a unified platform for understanding and participating in proposa
 
 * create and share your unique [profile](../navigating-the-tally-platform/tally-profile.md).
 * [understand governance](../navigating-the-tally-platform/dao-page.md) for your DAOs.
-* [delegate](../proposals/delegating-voting-power.md) your voting power.
+* [delegate](../delegations-on-tally/delegating-voting-power/) your voting power.
 * [vote](../proposals/voting-on-proposals.md) on proposals.
 
 ### Delegates

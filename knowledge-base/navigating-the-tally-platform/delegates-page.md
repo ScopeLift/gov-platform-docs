@@ -14,4 +14,4 @@ The header displays information on all delegates. You can search by ENS name or 
 
 <figure><img src="../../.gitbook/assets/Screenshot 2023-08-25 at 3.18.03 pm.png" alt=""><figcaption><p>Delegates Page</p></figcaption></figure>
 
-Click the **Delegate** button to easily [delegate your voting power](../proposals/delegating-voting-power.md) to that DAO member, or click on their [profile](tally-profile.md) name to learn more about their participation in the DAO.
+Click the **Delegate** button to easily [delegate your voting power](../delegations-on-tally/delegating-voting-power/) to that DAO member, or click on their [profile](tally-profile.md) name to learn more about their participation in the DAO.

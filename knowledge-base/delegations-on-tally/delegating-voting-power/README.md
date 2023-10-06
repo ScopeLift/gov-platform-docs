@@ -42,17 +42,17 @@ In the pop up window, select **Delegate**.
 
 ![](https://p434.p1.n0.cdn.getcloudapp.com/items/z8umyGdm/86298abb-1f38-4146-83ab-d1e129b6b2bb.jpg?v=1e8f26a710efda0cbd44d3abc5fdbf23)
 
-_You can also delegate your voting power to a specific address directly on their_ [_Profile Page_](../navigating-the-tally-platform/tally-profile.md)_._
+_You can also delegate your voting power to a specific address directly on their_ [_Profile Page_](../../navigating-the-tally-platform/tally-profile.md)_._
 
 ***
 
 ### Confirm Your Delegation Status <a href="#status" id="status"></a>
 
-Navigate to your [Profile Page](../navigating-the-tally-platform/tally-profile.md) by clicking your profile name at the top right and selecting **Profile** from the drop-down.
+Navigate to your [Profile Page](../../navigating-the-tally-platform/tally-profile.md) by clicking your profile name at the top right and selecting **Profile** from the drop-down.
 
 Select the DAO for the delegation you wish to confirm. You'll see whom you are delegating to directly next to your username.
 
-![](<../../.gitbook/assets/Screenshot 2023-08-25 at 1.58.23 pm.png>)
+![](<../../../.gitbook/assets/Screenshot 2023-08-25 at 1.58.23 pm.png>)
 
 ***
 
