@@ -15,7 +15,7 @@ However, there are some restrictions in place, such as meeting the minimum token
 
 ### Currently, the following DAOs sponsor free delegation:
 
-* Uniswap
-* ENS
-* Gitcoin
-* PoolTogether
+* [Uniswap](https://www.tally.xyz/gov/uniswap)
+* [ENS](https://www.tally.xyz/gov/ens)
+* [Gitcoin](https://www.tally.xyz/gov/gitcoin)
+* [PoolTogether](https://www.tally.xyz/gov/pooltogether)
