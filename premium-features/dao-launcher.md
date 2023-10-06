@@ -10,6 +10,8 @@ With features like the **Airdrop Claim Page** and a **Whitelabel Version of Tall
 
 DAO Launcher provides a structured approach to the launch process, helping ensure that the foundational elements are in place so you get it right the first time.
 
+> **Interested in learning more? Email** [**biz@tally.xyz**](mailto:biz@tally.xyz) **to set up a chat with our team!**
+
 [#what-is-dao-launcher](dao-launcher.md#what-is-dao-launcher "mention")
 
 [#why-should-i-care](dao-launcher.md#why-should-i-care "mention")
@@ -47,7 +49,7 @@ With our Whitelabel solution, get a fully functional DAO page deployed on a URL 
 
 #### Features:
 
-* **Custom URL:** Have your DAO page on a personalized URL, like dao.yourdomain.xyz.
+* **Custom URL:** Have your DAO page on a personalized URL, like dao.yourdomain.xyz. The same DAO can also be accessed on the Tally site.
 * **Unique Interface Elements:** From headers to breadcrumbs, customize elements to align with your DAO's branding.
 * **Tailored User Navigation:** Simplify navigation for your users by hiding non-relevant options like "Your DAOs" and "Search/Explore DAOs."
 * **Integrated Profiles:** Clicking on "View full profile" from a delegate profile on your subdomain will redirect users to the full profile on the main platform.

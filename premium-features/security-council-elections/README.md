@@ -10,6 +10,8 @@ Through a transparent and structured process, they aim to identify and empower t
 
 With Tally's custom-built council elections, elevate your DAO's council elections to the highest standards of excellence and integrity.
 
+> **Interested in learning more? Email** [**biz@tally.xyz**](mailto:biz@tally.xyz) **to set up a chat with our team!**
+
 [#what-is-a-council](./#what-is-a-council "mention")
 
 [#why-should-i-care](./#why-should-i-care "mention")

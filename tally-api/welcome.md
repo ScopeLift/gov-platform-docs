@@ -8,6 +8,8 @@ The [Tally API](https://apidocs.tally.xyz/) makes it easy to query onchain data 
 
 Whether you're a developer, a data enthusiast, or an organization aiming to integrate governance into your platform, the Tally API is designed with you in mind.
 
+> **Interested in learning more? Email** [**biz@tally.xyz**](mailto:biz@tally.xyz) **to set up a chat with our team!**
+
 ### Why choose the Tally API?
 
 * **Comprehensive Data Access:** Dive deep into the world of Governor DAOs. From listing Governors to exploring on-chain proposals and accounts with delegations, we've got you covered.&#x20;
