@@ -10,8 +10,8 @@ description: >-
 [creating-proposals](creating-proposals/)
 {% endcontent-ref %}
 
-{% content-ref url="voting-on-proposals/" %}
-[voting-on-proposals](voting-on-proposals/)
+{% content-ref url="voting-on-proposals.md" %}
+[voting-on-proposals.md](voting-on-proposals.md)
 {% endcontent-ref %}
 
 {% content-ref url="managing-proposals.md" %}

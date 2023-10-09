@@ -24,7 +24,7 @@ Follow the prompts to complete the wallet connection process. You will then see 
 
 <figure><img src="../../.gitbook/assets/Screenshot 2023-08-23 at 8.56.38 pm.png" alt=""><figcaption><p>Wallet successfully connected!</p></figcaption></figure>
 
-### Connect With A Safe
+### Connect With a Safe
 
 > _In order to use your Safe to vote on or create proposals, you must first connect your Safe wallet._
 
@@ -61,7 +61,7 @@ Next, select the Safe you want to sign in as from the menu:
 
 ![](<../../.gitbook/assets/CleanShot 2023-05-02 at 12.35.46@2x.png>)
 
-Now you can update your Safe's profile and make onchain transactions. To learn more about making onchain transactions using your Safe, see [voting-on-proposals](../proposals/voting-on-proposals/ "mention").
+Now you can update your Safe's profile and make onchain transactions. To learn more about making onchain transactions using your Safe, see [making-onchain-transactions-as-safe.md](../proposals/voting-on-proposals/making-onchain-transactions-as-safe.md "mention").
 
 To switch back to your personal profile, simply select **Switch to...** from the profile drop-down menu.
 
