@@ -22,7 +22,7 @@ Tally provides a unified platform for understanding and participating in proposa
 * create and share your unique [profile](../navigating-the-tally-platform/tally-profile.md).
 * [understand governance](../navigating-the-tally-platform/dao-page.md) for your DAOs.
 * [delegate](../delegations-on-tally/delegating-voting-power/) your voting power.
-* [vote](../proposals/voting-on-proposals.md) on proposals.
+* [vote](../proposals/voting-on-proposals/) on proposals.
 
 ### Delegates
 
@@ -30,7 +30,7 @@ Leverage Tally to amplify your influence within your DAO by:
 
 * building a [profile](../navigating-the-tally-platform/tally-profile.md) that highlights your active participation in DAOs.
 * broadcasting your [delegate statement](../delegations-on-tally/creating-a-delegate-statement.md) to garner support.
-* [creating](../proposals/creating-proposals/) and [voting](../proposals/voting-on-proposals.md) on DAO proposals.
+* [creating](../proposals/creating-proposals/) and [voting](../proposals/voting-on-proposals/) on DAO proposals.
 
 ## About DAOs
 

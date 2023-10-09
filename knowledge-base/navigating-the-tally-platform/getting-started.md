@@ -61,7 +61,7 @@ Next, select the Safe you want to sign in as from the menu:
 
 ![](<../../.gitbook/assets/CleanShot 2023-05-02 at 12.35.46@2x.png>)
 
-Now you can update your Safe's profile and make onchain transactions. To learn more about making onchain transactions using your Safe, see [voting-on-proposals.md](../proposals/voting-on-proposals.md "mention").
+Now you can update your Safe's profile and make onchain transactions. To learn more about making onchain transactions using your Safe, see [voting-on-proposals](../proposals/voting-on-proposals/ "mention").
 
 To switch back to your personal profile, simply select **Switch to...** from the profile drop-down menu.
 
