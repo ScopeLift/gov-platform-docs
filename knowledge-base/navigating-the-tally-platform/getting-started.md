@@ -51,7 +51,7 @@ The top right section of the page will now show a profile image and dropdown men
 
 ### Sign In As Safe
 
-> _Looking to update your multisig Safe's profile on Tally? It's now supported!_
+> _Tally allows users to perform onchain transactions while signed in as Safe. You can also update your multisig Safe's profile on Tally._
 
 In order to sign in with your Safe, you must _first_ sign in with your personal wallet that is an _**owner**_ of the Safe. Then, from the profile drop-down menu, select **Sign in as Safe**:
 
@@ -61,19 +61,11 @@ Next, select the Safe you want to sign in as from the menu:
 
 ![](<../../.gitbook/assets/CleanShot 2023-05-02 at 12.35.46@2x.png>)
 
-Now you can update your Safe's profile!
+Now you can update your Safe's profile and make onchain transactions. To learn more about making onchain transactions using your Safe, see [voting-on-proposals.md](../proposals/voting-on-proposals.md "mention").
 
 To switch back to your personal profile, simply select **Switch to...** from the profile drop-down menu.
 
 ![](<../../.gitbook/assets/CleanShot 2023-05-02 at 14.57.44@2x.png>)
-
-{% hint style="info" %}
-**Sign In As Safe** allows you to update your Safe's profile on Tally. Please note that when you're signed in as Safe, it's your _personal owner wallet_ that is connected. That means any onchain actions taken (such as voting or creating a proposal) are signed with your _personal owner wallet_.
-
-In order to **take onchain actions** with your Safe as the signer, you must first _Log out_ completely, then follow the directions to [#connect-with-a-safe](getting-started.md#connect-with-a-safe "mention").
-
-This is just our first iteration, so stay tuned for a smoother workflow!
-{% endhint %}
 
 ## Disconnect Your Wallet
 
