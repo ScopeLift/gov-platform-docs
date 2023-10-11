@@ -28,6 +28,7 @@
       * [Swaps: FAQs](knowledge-base/proposals/creating-proposals/swaps/swaps-faqs.md)
     * [Token Transfer Proposals in Arbitrum DAO](knowledge-base/proposals/creating-proposals/token-transfer-proposals-in-arbitrum-dao.md)
     * [Draft Proposals](knowledge-base/proposals/creating-proposals/draft-proposals.md)
+    * [Streaming Payments with Sablier](knowledge-base/proposals/creating-proposals/streaming-payments-with-sablier.md)
   * [Voting on Proposals](knowledge-base/proposals/voting-on-proposals.md)
     * [Making Onchain Transactions as Safe](knowledge-base/proposals/voting-on-proposals/making-onchain-transactions-as-safe.md)
   * [Managing Proposals](knowledge-base/proposals/managing-proposals.md)
