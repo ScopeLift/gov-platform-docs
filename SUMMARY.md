@@ -43,6 +43,8 @@
 * [🔐 Council Elections](premium-features/security-council-elections/README.md)
   * [Arbitrum DAO Security Council Elections Guide](premium-features/security-council-elections/arbitrum-dao-security-council-elections-guide.md)
 * [🚀 DAO Launcher](premium-features/dao-launcher.md)
+* [⛽ Relay](premium-features/relay/README.md)
+  * [Free Delegation](premium-features/relay/free-delegation.md)
 
 ## Education
 
