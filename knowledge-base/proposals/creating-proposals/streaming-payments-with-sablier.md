@@ -10,6 +10,14 @@ Streaming refers to the continuous transfer of tokens over time from one account
 
 Streaming can be used for vesting, airdrops, grants, payroll, etc. You can read more about the benefits of streaming for organizations [here](https://sablier.com/organizations/) and [here](https://blog.sablier.com/why-your-treasury-manager-will-love-sablier-and-you-too/).
 
+### How to call Sablier's contract
+
+To call Sablier's contract, there are three steps:
+
+1. Find the [address of Sablier contract](https://docs.sablier.com/contracts/v2/deployments) on your DAO's network.
+2. Enter that address into Tally's Custom action. **\[ADD SCREENSHOT - ADRIAN PLS HELP!!!]**
+3. Pick the method that you want to call. **\[ADD SCREENSHOT - ADRIAN PLS HELP!!!]**
+
 ## How to make a proposal to stream ERC-20 tokens
 
 ### Spending Approval
@@ -31,7 +39,9 @@ Value: 0
 
 In the example above, the `Signature` field highlights the function to be called. In the `Calldata` field, the `address` field is the contract address of the Sablier contract you are looking to interact with, and `uint256` is the amount of tokens you are looking to spend, decimals included.
 
-This is important. If the token you are looking to spend has 18 decimals, as is the case with DAI, you will need to add eighteen 0s to the amount you are looking to spend. If you want to stream 542 DAI, that means that the actual amount you will need to put in will be `542000000000000000000`.
+This is important. Different tokens have different amounts of decimals. For example, USDC has 6 decimals and DAI has 18 decimals.
+
+If the token you are looking to spend has 18 decimals, as is the case with DAI, you will need to add eighteen 0s to the amount you are looking to spend. If you want to stream 542 DAI, that means that the actual amount you will need to put in will be `542000000000000000000`.
 
 Finally, the `Target` value is the contract address of the token you are looking to stream, with the `Value` field having no relevance here given we won’t spend any ETH in this transaction; we are merely approving the spending of a certain ERC-20 token.
 
@@ -53,7 +63,7 @@ There are two ways to create a stream in LockupLinear:
 * **CreateWithDurations:** allows you to create a stream that will start as soon as the stream creation transaction is included in the blockchain, which will run for a specific duration.
 * **CreateWithRange:** allows you to create a stream that will start on a specific date and will end on a specific date.
 
-Both ways support cliffs, and differ only slightly in the way you call them programmatically in our contracts.
+Both ways support cliffs, and differ only slightly in the way you call them programmatically in Sablier's contracts.
 
 Here is an example of what a function call with `CreateWithRange` looks like:
 
@@ -107,7 +117,7 @@ Let’s go over them one by one:
 
 Regarding cancelation, all streams in Sablier V2 have a cancelation setting.
 
-If it’s set to `true`, that means that the stream can be canceled at any time by the stream creator. Canceling the stream will stop it and return the funds which haven’t yet been streamed over to the stream creator.
+If it’s set to `true`, that means that the stream can be canceled at any time by the stream creator. The stream creator is the DAO. Canceling the stream will stop it and return the funds which haven’t yet been streamed over to the stream creator. If the DAO wants to cancel a cancellable stream, generally that will require another proposal.
 
 If it’s set to `false`, the stream is non-cancelable, which means that it cannot be stopped. The recipient is then guaranteed to receive the funds in the stream, no matter what happens. Setting the stream as non-cancelable is an irreversible action, there’s no way to make it cancelable afterwards.
 
