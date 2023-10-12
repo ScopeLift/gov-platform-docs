@@ -15,8 +15,13 @@ Streaming can be used for vesting, airdrops, grants, payroll, etc. You can read 
 To call Sablier's contract, there are three steps:
 
 1. Find the [address of Sablier contract](https://docs.sablier.com/contracts/v2/deployments) on your DAO's network.
-2. Enter that address into Tally's Custom action. **\[ADD SCREENSHOT - ADRIAN PLS HELP!!!]**
-3. Pick the method that you want to call. **\[ADD SCREENSHOT - ADRIAN PLS HELP!!!]**
+2. Enter that address into Tally's Custom action.&#x20;
+
+<figure><img src="../../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+
+3. Pick the method that you want to call.&#x20;
+
+<figure><img src="../../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
 ## How to make a proposal to stream ERC-20 tokens
 
