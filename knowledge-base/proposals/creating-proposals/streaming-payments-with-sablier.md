@@ -48,6 +48,8 @@ This is important. Different tokens have different amounts of decimals. For exam
 
 If the token you are looking to spend has 18 decimals, as is the case with DAI, you will need to add eighteen 0s to the amount you are looking to spend. If you want to stream 542 DAI, that means that the actual amount you will need to put in will be `542000000000000000000`.
 
+_Note:_ If the amount you are trying to send already has decimals (for example, 124.5 DAI), you will need to subtract the amount of decimals in the amount from the amount of 0s that you need to add. To make this clearer, if you are looking to stream 124.5 DAI, meaning an amount with 1 decimal, you will only need to add seventeen 0s as opposed to eighteen, as there is already a decimal included in the amount. In this case, the deposit amount will look like this: 124500000000000000000."
+
 Finally, the `Target` value is the contract address of the token you are looking to stream, with the `Value` field having no relevance here given we won’t spend any ETH in this transaction; we are merely approving the spending of a certain ERC-20 token.
 
 On every chain Sablier is deployed on, there are two contracts you can interact with to create streams:
@@ -111,10 +113,10 @@ Let’s go over them one by one:
 
 * **sender address:** this is the address you are funding the stream with, which will also have the ability to cancel the stream.
 * **recipient address:** the address you are looking to stream the funds to. They will be able to subsequently withdraw funds from the stream.
-* **amount (decimals included):** the amount of tokens you are looking to stream, with decimals included, as previously explained.
+* **amount (decimals included):** the amount of tokens you are looking to stream, with decimals included, as previously explained. Numbers have to be sent between quotation marks, meaning if a parameter's value is 100.0, it should be written as "100.0".
 * **token contract address:** the contract address of the ERC-20 token you are looking to stream.
 * **cancelable (true/false):** whether or not the stream should be cancelable. We will go over this more in a minute.
-* **start date (unix timestamp):** the start date of the stream, as a UNIX timestamp.
+* **start date (unix timestamp):** the start date of the stream, as a UNIX timestamp. The Unix Timestamp is in seconds, not to be confused with milliseconds.
 * **cliff date (unix timestamp):** the cliff date of the stream, as a UNIX timestamp. We will go over this more in a minute.
 * **end date (unix timestamp):** the end date of the stream.
 * **broker address:** the broker address. If you don’t know what this is, you don't need it. Simply set it to `0x0000000000000000000000000000000000000000` as laid out in the example.
