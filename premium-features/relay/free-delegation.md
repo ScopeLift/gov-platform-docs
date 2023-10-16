@@ -10,12 +10,18 @@ However, there are some restrictions in place, such as meeting the minimum token
 
 **The restrictions for free delegation are as follows:**
 
-1. 1.Tally will only relay for token holders who hold at least a minimum number of governance tokens. The minimums vary per DAO: 10 ENS, 10 UNI, 30 GTC, 40 ARB, or 50 POOL.
-2. 2.Tally will only relay a delegation transaction once per wallet per DAO.
+1. Tally will only relay for token holders who hold at least a minimum number of governance tokens. The minimums vary per DAO: 10 ENS, 10 UNI, 30 GTC, 40 ARB, or 50 POOL.
+2. Tally will only relay a delegation transaction once per wallet per DAO.
 
 #### Currently, the following DAOs sponsor free delegation: <a href="#currently-the-following-daos-sponsor-free-delegation" id="currently-the-following-daos-sponsor-free-delegation"></a>
 
 * ​[Uniswap](https://www.tally.xyz/gov/uniswap)​
 * ​[ENS](https://www.tally.xyz/gov/ens)​
 * ​[Gitcoin](https://www.tally.xyz/gov/gitcoin)​
-* ​[PoolTogether](https://www.tally.xyz/gov/pooltogether)​
+* ​[PoolTogether](https://www.tally.xyz/gov/pooltogether)
+
+
+
+I think we should clarify that the DAOs are funding a budget for Tally to relay the transactions for free (as opposed to Tally funding it).
+
+I think we should include a screenshot or two of the user experience​
