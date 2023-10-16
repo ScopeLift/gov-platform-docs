@@ -1,12 +1,12 @@
 ---
-description: Tally enables free delegation for eligible token holders of certain DAOs.
+description: Relay enables free delegation for eligible token holders.
 ---
 
 # Free Delegation
 
-Token holders can delegate their voting power to themselves or someone else, and Tally will cover the gas fees for the delegation transactions.
+Token holders can delegate their voting power, whether to themselves or a trusted delegate, with Relay generously covering the associated gas fees for these delegation transactions. The mechanism operates seamlessly as DAOs allocate a dedicated budget to Tally for the facilitation of these transactions.
 
-However, there are some restrictions in place, such as meeting the minimum token requirements for each DAO. Token holders who are not eligible can still delegate normally by paying their own gas fees.
+However, certain restrictions are in place to ensure fair participation. To utilize this gasless delegation service, token holders must meet specific criteria, including holding the minimum token requirements stipulated by each DAO. For token holders who do not meet these eligibility criteria, conventional delegation remains an option, with the responsibility of covering gas fees falling on the individual.
 
 **The restrictions for free delegation are as follows:**
 
@@ -19,9 +19,3 @@ However, there are some restrictions in place, such as meeting the minimum token
 * ​[ENS](https://www.tally.xyz/gov/ens)​
 * ​[Gitcoin](https://www.tally.xyz/gov/gitcoin)​
 * ​[PoolTogether](https://www.tally.xyz/gov/pooltogether)
-
-
-
-I think we should clarify that the DAOs are funding a budget for Tally to relay the transactions for free (as opposed to Tally funding it).
-
-I think we should include a screenshot or two of the user experience​
