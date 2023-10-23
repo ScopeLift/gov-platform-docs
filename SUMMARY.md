@@ -46,6 +46,7 @@
 * [🚀 DAO Launcher](premium-features/dao-launcher.md)
 * [⛽ Relay](premium-features/relay/README.md)
   * [Free Delegation](premium-features/relay/free-delegation.md)
+* [🏷 Whitelabel](premium-features/whitelabel.md)
 
 ## Education
 
