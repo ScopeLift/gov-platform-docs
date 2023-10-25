@@ -42,6 +42,6 @@ _Learn about deploying a Governor contract and how to customize it for compatibi
 [governor-proposals](user-guides/governor-proposals/)
 {% endcontent-ref %}
 
-{% content-ref url="broken-reference" %}
-[Broken link](broken-reference)
+{% content-ref url="user-guides/using-governor-with-gnosis-safe/" %}
+[using-governor-with-gnosis-safe](user-guides/using-governor-with-gnosis-safe/)
 {% endcontent-ref %}
