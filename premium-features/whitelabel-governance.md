@@ -26,7 +26,7 @@ Whitelabel Governance is a bespoke governance solution. This service facilitates
 * **Proposal Creation:** Enable a smooth proposal creation process that allows members to voice their ideas and garner support for collective action.
 * **Delegation:** Simplify the delegation process with a clear, intuitive system that ensures accurate representation of community interests.
 
-**How Does It Work?**&#x20;
+**How does It work?**&#x20;
 
 Whitelabel Governance is seamlessly integrated into your existing DAO setup. Once onboard, you can customize the governance processes to reflect your brand’s identity and operational ethos. The Tally team works closely with you to ensure that the integration is seamless and the system operates flawlessly, allowing you to focus on building and nurturing your community.
 
