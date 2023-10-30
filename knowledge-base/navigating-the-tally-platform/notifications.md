@@ -17,7 +17,7 @@ Subscribe to Tally Notifications to get emails when there's a new proposal in a 
 #### Access your Notifications Center
 
 \
-Click on your profile picture located at the top of the page. This will take you to the [Notifications Center](https://www.notifications.tally.xyz).
+Click on your profile picture located at the top of the page. This will take you to the [Notifications Center](https://notify.tally.xyz).
 
 #### Enter your email address.
 
