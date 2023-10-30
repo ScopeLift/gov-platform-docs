@@ -14,6 +14,7 @@
   * [DAO Page](knowledge-base/navigating-the-tally-platform/dao-page.md)
   * [Proposal Page](knowledge-base/navigating-the-tally-platform/proposal-page.md)
   * [Delegates Page](knowledge-base/navigating-the-tally-platform/delegates-page.md)
+  * [Notifications](knowledge-base/navigating-the-tally-platform/notifications.md)
 * [⚒ Adding a DAO to Tally](knowledge-base/managing-a-dao/README.md)
   * [DAO Admins](knowledge-base/managing-a-dao/dao-admins.md)
   * [DAO Settings](knowledge-base/managing-a-dao/dao-settings.md)

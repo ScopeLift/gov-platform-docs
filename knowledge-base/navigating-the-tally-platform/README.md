@@ -24,6 +24,6 @@ description: Find your way around Tally.
 [delegates-page.md](delegates-page.md)
 {% endcontent-ref %}
 
-{% content-ref url="broken-reference" %}
-[Broken link](broken-reference)
+{% content-ref url="notifications.md" %}
+[notifications.md](notifications.md)
 {% endcontent-ref %}
