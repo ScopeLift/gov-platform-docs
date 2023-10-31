@@ -20,7 +20,7 @@ If you haven't yet connected your wallet, Tally will prompt you to do so. Most g
 
 Enter a _Title_ for your proposal, then add a _Description_. Explain the intent behind the proposal and include any helpful context for the voters. If you want, you can also add a _Preview image_. When you're ready, click **Continue**.
 
-<figure><img src="../../../.gitbook/assets/Screenshot 2023-10-31 at 12.48.30 pm.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Screenshot 2023-10-31 at 12.48.30 pm.png" alt=""><figcaption><p>You can even paste images into the description box!</p></figcaption></figure>
 
 Add actions to be executed if the proposal passes. You can select Tally's **Transfer tokens** recipe for a proposal that calls for the transfer of tokens, or select the **Custom action** button.
 
