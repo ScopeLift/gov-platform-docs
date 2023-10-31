@@ -10,7 +10,7 @@ The first step of launching Uniswap V3 on a fresh EVM chain is to deploy the sma
 
 Simply set up and fund a deployment account to cover the gas charges (estimating 40-50M gas). Then, execute a single command within the CLI. This will sequentially deploy each contract, marking checkpoints that can be rolled back if complications arise.
 
-### Deploy Uniswap V3 Script
+### How to deploy Uniswap V3 Script
 
 
 
