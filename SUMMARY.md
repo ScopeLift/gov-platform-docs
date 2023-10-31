@@ -25,7 +25,7 @@
   * [Creating a Delegate Statement](knowledge-base/delegations-on-tally/creating-a-delegate-statement.md)
 * [🗳 Proposals on Tally](knowledge-base/proposals/README.md)
   * [Creating Proposals](knowledge-base/proposals/creating-proposals/README.md)
-    * [Token vesting with Hedgey](knowledge-base/proposals/creating-proposals/token-vesting-with-hedgey.md)
+    * [Token Vesting with Hedgey](knowledge-base/proposals/creating-proposals/token-vesting-with-hedgey.md)
     * [Swaps](knowledge-base/proposals/creating-proposals/swaps/README.md)
       * [Swaps: FAQs](knowledge-base/proposals/creating-proposals/swaps/swaps-faqs.md)
     * [Token Transfer Proposals in Arbitrum DAO](knowledge-base/proposals/creating-proposals/token-transfer-proposals-in-arbitrum-dao.md)
