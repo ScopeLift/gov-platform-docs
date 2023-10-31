@@ -25,6 +25,7 @@
   * [Creating a Delegate Statement](knowledge-base/delegations-on-tally/creating-a-delegate-statement.md)
 * [🗳 Proposals on Tally](knowledge-base/proposals/README.md)
   * [Creating Proposals](knowledge-base/proposals/creating-proposals/README.md)
+    * [Chain Deployment in Uniswap](knowledge-base/proposals/creating-proposals/chain-deployment-in-uniswap.md)
     * [Swaps](knowledge-base/proposals/creating-proposals/swaps/README.md)
       * [Swaps: FAQs](knowledge-base/proposals/creating-proposals/swaps/swaps-faqs.md)
     * [Token Transfer Proposals in Arbitrum DAO](knowledge-base/proposals/creating-proposals/token-transfer-proposals-in-arbitrum-dao.md)
