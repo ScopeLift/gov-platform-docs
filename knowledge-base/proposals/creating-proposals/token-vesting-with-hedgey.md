@@ -42,7 +42,7 @@ _For streaming:_ The vesting term spans 63,072,000 seconds, as there are 31,536,
 
 _For monthly payments:_ Over a 2-year vesting term, there are 24 discrete periods (months). The calculation for the rate of token distribution per month would be: (100,000 / 24) \* (10^18) = 4,167 \* (10^18). This implies that 4,167 tokens will vest each month. However, in the last month, only 4,159 tokens will vest to complete the total distribution of 100,000 tokens.
 
-### Creating multiple plans in the same transaction
+### Creating Multiple Plans in the Same Transaction
 
 You can batch together and create multiple plans in the same transaction using an intermediary batching contract.&#x20;
 
