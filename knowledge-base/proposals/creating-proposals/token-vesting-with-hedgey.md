@@ -10,28 +10,40 @@ Key features include linear/periodic unlock strategies, onchain governance votin
 
 ## How to call Hedgey’s Contract
 
-You can create vesting plans one at a time or multiple in the same transaction. There are two steps.
+You can create vesting plans one at a time or multiple in the same transaction. You need to add 2 custom actions to a proposal.
 
 ### Creating Vesting Plans
 
-1. Create a proposal on Tally with the following:
-   * **Target contract address:** 0x3466EB008EDD8d5052446293D1a7D212cb65C646
-   * **Contract method:** batchVestingPlans
+1.  The first custom action is to approve the allowance for the Hedgey contract to spend the tokens to create vesting plans.
 
-<figure><img src="../../../.gitbook/assets/Screenshot 2023-11-05 at 4.00.12 pm.png" alt=""><figcaption></figcaption></figure>
+    * **Target contract address:** the address of your DAO governance token, or whatever token you are planning to use for vesting
+    * **Contract method:** approve
+    * **Calldatas:**
+      * **spender:** 0x3466EB008EDD8d5052446293D1a7D212cb65C646 (the Hedgey Batch Planner contract address)
+      * **amount:** the total amount that you will deploy in the vesting batch
 
-2.  Then, input the parameters as follows:
+    <figure><img src="https://lh7-us.googleusercontent.com/iMXSi_WU6FwGdzBUyktACIhr4wmZFqHdCpNeOy08L2_6_xFvy-HToiit8cx6A_6SQDh49-Y3_fDzmncQmfAwkyR_vr1qEnHlzqHGBX-bdg4idp-PnWTMMrzgVTqhJgm2gcGUQcxO3ANVzcDpL6cDr94" alt=""><figcaption></figcaption></figure>
+2.  Create a second custom action with the following.
 
-    * **Locker:** 0x2CDE9919e81b20B4B33DD562a48a84b54C48F00C (address of the vesting plans contract)
-    * T**oken:** address of your DAO token
-    * **totalAmount:** the total amount of tokens to be distributed to vesting recipients
-    * **Plans:** this is an array (tuple) of vesting plans that look like the following: \[\["0x0C4FAb8d9DBE774708EeC313bf0295278E307bcD", "100000000000000000000000", 1696161600, 1696161600, "1585489599188230"],\["0x0C4FAb8d9DBE774708EeC313bf0295278E307bcD", "100000000000000000000000", 1696161600, 1696161600, "1585489599188230"]], which coincides with \[“recipientAddress1”,”amountOfTokensForVestingPlan1”,”startDateForPlan1”,”cliffDateForPlan1”,”rateForPlan1”]
-    * **Period:** the seconds in the period for vesting, so for instance use a 1 for a streaming style period.
-    * **vestingAdmin:** the admin of the vesting plans who can revoke plans
-    * **adminTransferOBO:** this allows the vestingAdmin to transfer plans on the recipients behalf in the case of emergency
-    * m**intType:** 4; this is a specific number for the Hedgey dApp to display things properly.&#x20;
+    * **Target contract address:** 0x3466EB008EDD8d5052446293D1a7D212cb65C646
+    * **Contract method:** batchVestingPlans
 
-    _Note all of the plans batched need to have the same period and vesting admin._
+    <figure><img src="../../../.gitbook/assets/Screenshot 2023-11-06 at 3.51.46 pm.png" alt=""><figcaption></figcaption></figure>
+
+Then, input the parameters as follows:
+
+* **Locker:** 0x2CDE9919e81b20B4B33DD562a48a84b54C48F00C (address of the vesting plans contract)
+* T**oken:** address of your DAO token
+* **totalAmount:** the total amount of tokens to be distributed to vesting recipients
+* **Plans:** this is an array (tuple) of vesting plans that look like the following: \[\["0x0C4FAb8d9DBE774708EeC313bf0295278E307bcD", "100000000000000000000000", 1696161600, 1696161600, "1585489599188230"],\["0x0C4FAb8d9DBE774708EeC313bf0295278E307bcD", "100000000000000000000000", 1696161600, 1696161600, "1585489599188230"]], which coincides with \[“recipientAddress1”,”amountOfTokensForVestingPlan1”,”startDateForPlan1”,”cliffDateForPlan1”,”rateForPlan1”]
+* **Period:** the seconds in the period for vesting, so for instance use a 1 for a streaming style period.
+* **vestingAdmin:** the admin of the vesting plans who can revoke plans
+* **adminTransferOBO:** this allows the vestingAdmin to transfer plans on the recipients behalf in the case of emergency
+* m**intType:** 4; this is a specific number for the Hedgey dApp to display things properly.&#x20;
+
+_Note all of the plans batched need to have the same period and vesting admin._
+
+<figure><img src="https://lh7-us.googleusercontent.com/PvJB3beMHsQXIMdTG7vjEMLJ11tR3zGldv0Gsx8kwYV42XHMjhhEqE0D4PXJ560DHuZ_KZjg0Ri6-5jNCB5eBS5W9tzJGyRn45mPAE4sufxeqVmUbx96_Qm5Q5fBa4JX-J_ty7IA5k0fVaLAenpsilw" alt=""><figcaption><p>These calldatas are just examples; you will need to choose your own according to your DAO's plans.</p></figcaption></figure>
 
 #### Help with Rates
 
