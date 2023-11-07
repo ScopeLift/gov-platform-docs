@@ -32,14 +32,14 @@ You can create vesting plans one at a time or multiple in the same transaction. 
 
 Then, input the parameters as follows:
 
-* **Locker:** 0x2CDE9919e81b20B4B33DD562a48a84b54C48F00C (address of the vesting plans contract)
+* **Locker:** 0x1bb64AF7FE05fc69c740609267d2AbE3e119Ef82 (address of the vesting plans contract)
 * T**oken:** address of your DAO token
 * **totalAmount:** the total amount of tokens to be distributed to vesting recipients
 * **Plans:** this is an array (tuple) of vesting plans that look like the following: \[\["0x0C4FAb8d9DBE774708EeC313bf0295278E307bcD", "100000000000000000000000", 1696161600, 1696161600, "1585489599188230"],\["0x0C4FAb8d9DBE774708EeC313bf0295278E307bcD", "100000000000000000000000", 1696161600, 1696161600, "1585489599188230"]], which coincides with \[“recipientAddress1”,”amountOfTokensForVestingPlan1”,”startDateForPlan1”,”cliffDateForPlan1”,”rateForPlan1”]
 * **Period:** the seconds in the period for vesting, so for instance use a 1 for a streaming style period.
 * **vestingAdmin:** the admin of the vesting plans who can revoke plans
 * **adminTransferOBO:** this allows the vestingAdmin to transfer plans on the recipients behalf in the case of emergency
-* m**intType:** 4; this is a specific number for the Hedgey dApp to display things properly.&#x20;
+* m**intType: 7**; this is a specific number for the Hedgey dApp to display things properly.&#x20;
 
 _Note all of the plans batched need to have the same period and vesting admin._
 
