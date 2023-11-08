@@ -25,18 +25,21 @@
   * [Creating a Delegate Statement](knowledge-base/delegations-on-tally/creating-a-delegate-statement.md)
 * [🗳 Proposals on Tally](knowledge-base/proposals/README.md)
   * [Creating Proposals](knowledge-base/proposals/creating-proposals/README.md)
-    * [Chain Deployment in Uniswap](knowledge-base/proposals/creating-proposals/chain-deployment-in-uniswap.md)
     * [Swaps](knowledge-base/proposals/creating-proposals/swaps/README.md)
       * [Swaps: FAQs](knowledge-base/proposals/creating-proposals/swaps/swaps-faqs.md)
-    * [Token Transfer Proposals in Arbitrum DAO](knowledge-base/proposals/creating-proposals/token-transfer-proposals-in-arbitrum-dao.md)
     * [Draft Proposals](knowledge-base/proposals/creating-proposals/draft-proposals.md)
-    * [Streaming Payments with Sablier](knowledge-base/proposals/creating-proposals/streaming-payments-with-sablier.md)
-    * [Token Vesting with Hedgey](knowledge-base/proposals/creating-proposals/token-vesting-with-hedgey.md)
   * [Voting on Proposals](knowledge-base/proposals/voting-on-proposals.md)
     * [Making Onchain Transactions as Safe](knowledge-base/proposals/voting-on-proposals/making-onchain-transactions-as-safe.md)
   * [Managing Proposals](knowledge-base/proposals/managing-proposals.md)
     * [Advanced Execution](knowledge-base/proposals/managing-proposals/advanced-execution.md)
 * [0⃣ Tally Zero](knowledge-base/tally-zero.md)
+
+## Custom Proposal Actions
+
+* [Chain Deployment on Uniswap](custom-proposal-actions/chain-deployment-on-uniswap.md)
+* [Token Vesting with Hedgey](custom-proposal-actions/token-vesting-with-hedgey.md)
+* [Streaming Payments with Sablier](custom-proposal-actions/streaming-payments-with-sablier.md)
+* [Token Transfer Proposals in Arbitrum DAO](custom-proposal-actions/token-transfer-proposals-in-arbitrum-dao.md)
 
 ## Tally API
 
@@ -119,4 +122,4 @@
 * [Blog](https://blog.tally.xyz)
 * [DAO Talk Podcast](https://www.youtube.com/channel/UC0J5KuukgFn8KCMuuhkBZQw)
 * [Newsletter](https://newsletter.tally.xyz)
-* [Governance Wiki](https://wiki.tally.xyz/docs)
+* [Twitter](https://www.twitter.com/tallyxyz)
