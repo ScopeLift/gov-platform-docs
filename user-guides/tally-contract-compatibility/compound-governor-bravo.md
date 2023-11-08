@@ -1,10 +1,10 @@
 ---
-description: How to deploy a Governor Bravo that's compatible with Tally
+description: How to deploy a Governor Bravo or Alpha that's compatible with Tally
 ---
 
 # Compound Governor Bravo
 
-Tally supports [Compound Governor Bravo](https://github.com/compound-finance/compound-protocol/blob/master/contracts/Governance/GovernorBravoDelegate.sol), but we consider it deprecated. If you are deploying a new Governor, we recommend [OpenZeppelin's Governor.](../smart-contract-compatibility/openzeppelin-governor.md) OZ Governor is more actively maintained and has all of Bravo's features.
+Tally supports [Compound Governor Bravo](https://github.com/compound-finance/compound-protocol/blob/master/contracts/Governance/GovernorBravoDelegate.sol) and Alpha, but we consider it deprecated. If you are deploying a new Governor, we recommend [OpenZeppelin's Governor.](../smart-contract-compatibility/openzeppelin-governor.md) OZ Governor is more actively maintained and has all of Bravo's features.
 
 &#x20;If you're already using a direct fork of Governor Bravo, then your DAO should work with Tally out of the box. If you insist on making changes to the base contract, then you can use this guide to make sure that your changes are compatible with Tally's API and web interface.
 
