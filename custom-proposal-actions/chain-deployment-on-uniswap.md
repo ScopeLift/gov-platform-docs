@@ -4,7 +4,7 @@ description: Learn how to propose deploying Uniswap v3 on a fresh EVM chain usin
 
 # Chain Deployment on Uniswap
 
-You can make a proposal on Tally to [deploy Uniswap v3](https://github.com/Uniswap/deploy-v3) on a fresh EVM chain.
+You can make a proposal on Tally to deploy Uniswap v3 on a fresh EVM chain.
 
 The first step of launching Uniswap V3 on a fresh EVM chain is to deploy the smart contracts that comprise the protocol. To simplify this process, Uniswap Labs has devised deployment scripts and management CLI, ensuring a smooth rollout of the required contracts onto a new EVM chain.&#x20;
 
@@ -23,4 +23,9 @@ Make a proposal on Tally using Custom Actions.
 
 <figure><img src="../.gitbook/assets/telegram-cloud-photo-size-1-5048850042496068615-y (1).jpg" alt=""><figcaption><p>You will need to fill in the three calldatas according to which chain you are deploying Uniswap v3 on.</p></figcaption></figure>
 
-You can also use [this example](https://github.com/uniswapfoundation/governance-seatbelt/blob/main/sims/change-celo-text-record.sim.ts) of Uniswap v3 deployment on Celo.
+Resources
+
+* [This example](https://github.com/uniswapfoundation/governance-seatbelt/blob/main/sims/change-celo-text-record.sim.ts) of Uniswap v3 deployment on Celo
+* [Uniswap Crosschain Deployment Guide](https://gov.uniswap.org/t/cross-chain-deployment-guide/19988)
+* [Uniswap v3 New Chain Deployments](https://github.com/Uniswap/v3-new-chain-deployments)[\
+  ](https://github.com/Uniswap/v3-new-chain-deploymentshttps://gov.uniswap.org/t/cross-chain-deployment-guide/19988)
