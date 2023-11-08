@@ -53,6 +53,7 @@ Tally currently supports these EVM-compatible networks:
 
 * Scroll Alpha Testnet
 * Scroll Sepolia Testnet
+* Scroll Mainnet
 
 #### Moonbeam
 
@@ -81,6 +82,10 @@ Tally currently supports these EVM-compatible networks:
 
 * Kroma Mainnet
 * Kroma Testnet Sepolia
+
+**Iota**
+
+* ShimmerEVM Testnet
 
 
 
