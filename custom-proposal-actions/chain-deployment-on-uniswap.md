@@ -2,7 +2,7 @@
 description: Learn how to propose deploying Uniswap v3 on a fresh EVM chain using Tally.
 ---
 
-# Chain Deployment in Uniswap
+# Chain Deployment on Uniswap
 
 You can make a proposal on Tally to [deploy Uniswap v3](https://github.com/Uniswap/deploy-v3) on a fresh EVM chain.
 
@@ -10,11 +10,17 @@ The first step of launching Uniswap V3 on a fresh EVM chain is to deploy the sma
 
 Simply set up and fund a deployment account to cover the gas charges (estimating 40-50M gas). Then, execute a single command within the CLI. This will sequentially deploy each contract, marking checkpoints that can be rolled back if complications arise.
 
-### How to deploy Uniswap V3 Script
-
-
-
 ## How to make a proposal to deploy Uniswap v3 on a fresh chain
 
-\[This page is work-in-progress.]
+Make a proposal on Tally using Custom Actions.
 
+* **Target contract address:** 0x4976fb03C32e5B8cfe2b6cCB31c09Ba78EBaBa41 (the public ENS resolver address)
+* **Contract method:** setText
+* **Calldatas:**
+  * **node:** hash of the subname you're writing to
+  * **key:** network key of chain you're deploying to&#x20;
+  * **value:**address of v3 factory on that network
+
+<figure><img src="../.gitbook/assets/telegram-cloud-photo-size-1-5048850042496068615-y (1).jpg" alt=""><figcaption><p>You will need to fill in the three calldatas according to which chain you are deploying Uniswap v3 on.</p></figcaption></figure>
+
+You can also use [this example](https://github.com/uniswapfoundation/governance-seatbelt/blob/main/sims/change-celo-text-record.sim.ts) of Uniswap v3 deployment on Celo.
