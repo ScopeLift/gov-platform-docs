@@ -27,5 +27,5 @@ Resources
 
 * [This example](https://github.com/uniswapfoundation/governance-seatbelt/blob/main/sims/change-celo-text-record.sim.ts) of Uniswap v3 deployment on Celo
 * [Uniswap Crosschain Deployment Guide](https://gov.uniswap.org/t/cross-chain-deployment-guide/19988)
-* [Uniswap v3 New Chain Deployments](https://github.com/Uniswap/v3-new-chain-deployments)[\
-  ](https://github.com/Uniswap/v3-new-chain-deploymentshttps://gov.uniswap.org/t/cross-chain-deployment-guide/19988)
+* [Uniswap v3 New Chain Deployments](https://github.com/Uniswap/v3-new-chain-deployments)
+* [Chainlist](https://chainlist.org/) for ChainIDs
