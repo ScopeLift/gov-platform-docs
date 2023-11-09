@@ -17,14 +17,15 @@ Make a proposal on Tally using Custom Actions.
 * **Target contract address:** 0x4976fb03C32e5B8cfe2b6cCB31c09Ba78EBaBa41 (the public ENS resolver address)
 * **Contract method:** setText
 * **Calldatas:**
-  * **node:** hash of the subname you're writing to
+  * **node:** 0x0b9638d2c5bd4528d603562a1fa1e734fe1b88e680f448d779531e9bc2b55f12 (the hash of v3deployments.uniswap.eth)
   * **key:** network key of chain you're deploying to&#x20;
-  * **value:**address of v3 factory on that network
+  * **value:** address of v3 factory on that network
 
 <figure><img src="../.gitbook/assets/telegram-cloud-photo-size-1-5048850042496068615-y (1).jpg" alt=""><figcaption><p>You will need to fill in the three calldatas according to which chain you are deploying Uniswap v3 on.</p></figcaption></figure>
 
 Resources
 
+* [Uniswap v3 Deployment Script](https://github.com/Uniswap/deploy-v3)
 * [This example](https://github.com/uniswapfoundation/governance-seatbelt/blob/main/sims/change-celo-text-record.sim.ts) of Uniswap v3 deployment on Celo
 * [Uniswap Crosschain Deployment Guide](https://gov.uniswap.org/t/cross-chain-deployment-guide/19988)
 * [Uniswap v3 New Chain Deployments](https://github.com/Uniswap/v3-new-chain-deployments)
