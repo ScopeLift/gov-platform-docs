@@ -35,7 +35,12 @@ Then, input the parameters as follows:
 * **Locker:** 0x1bb64AF7FE05fc69c740609267d2AbE3e119Ef82 (address of the vesting plans contract)
 * T**oken:** address of your DAO token
 * **totalAmount:** the total amount of tokens to be distributed to vesting recipients
-* **Plans:** this is an array (tuple) of vesting plans that look like the following: \[\["0x0C4FAb8d9DBE774708EeC313bf0295278E307bcD", "100000000000000000000000", 1696161600, 1696161600, "1585489599188230"],\["0x0C4FAb8d9DBE774708EeC313bf0295278E307bcD", "100000000000000000000000", 1696161600, 1696161600, "1585489599188230"]], which coincides with \[“recipientAddress1”,”amountOfTokensForVestingPlan1”,”startDateForPlan1”,”cliffDateForPlan1”,”rateForPlan1”]
+* **Plans:** this is an array (tuple) of each grants plan, which you can paste in the details of each recipient individually
+  * Recipient: address of grant recipient&#x20;
+  * Amount: total amount of tokens they will granted (include decimals)&#x20;
+  * Start: Unix time stamp of when the unlocking will start&#x20;
+  * Cliff: Unix time stamp of an optional cliff, if no cliff you can input 0 or the start date&#x20;
+  * Rate: The amount of tokens that unlock each period - use the spreadsheet helper
 * **Period:** the seconds in the period for vesting, so for instance use a 1 for a streaming style period.
 * **vestingAdmin:** the admin of the vesting plans who can revoke plans
 * **adminTransferOBO:** this allows the vestingAdmin to transfer plans on the recipients behalf in the case of emergency
