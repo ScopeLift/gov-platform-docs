@@ -38,6 +38,7 @@
 
 * [Chain Deployment of Uniswap v3](custom-proposal-actions/chain-deployment-of-uniswap-v3.md)
 * [Token Vesting with Hedgey](custom-proposal-actions/token-vesting-with-hedgey.md)
+* [Token Grants with Hedgey](custom-proposal-actions/token-grants-with-hedgey.md)
 * [Streaming Payments with Sablier](custom-proposal-actions/streaming-payments-with-sablier.md)
 * [Token Transfer Proposals in Arbitrum DAO](custom-proposal-actions/token-transfer-proposals-in-arbitrum-dao.md)
 
