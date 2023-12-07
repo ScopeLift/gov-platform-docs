@@ -6,7 +6,7 @@ description: >-
 
 # Token Transfer Proposals in Arbitrum DAO
 
-How to add proposal actions on Tally for Arbitrum DAO
+### How to add proposal actions on Tally for Arbitrum DAO
 
 _For this guide, we will use the example of a proposal that transfers ARB from the DAO treasury._
 
