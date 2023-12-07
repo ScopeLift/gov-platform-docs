@@ -1,7 +1,7 @@
 ---
 description: >-
-  Arbitrum DAO uses the "Transfer Token" feature for token token transfer
-  proposals.
+  Arbitrum DAO uses the "Transfer Token" feature for simple & easy token
+  transfer proposals.
 ---
 
 # Token Transfer Proposals in Arbitrum DAO
