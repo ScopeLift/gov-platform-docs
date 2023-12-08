@@ -18,13 +18,15 @@ If you haven't yet connected your wallet, Tally will prompt you to do so. Most g
 
 ![](https://p434.p1.n0.cdn.getcloudapp.com/items/X6uRgGj2/bc81b614-618f-4326-a7b9-23c5cf49ec82.jpg?v=7aaf60e7686ab39166e3773b184fa759)
 
-Enter a _Title_ for your proposal, then add a _Description_. Explain the intent behind the proposal and include any helpful context for the voters. If you want, you can also add a _Preview image_. When you're ready, click **Continue**.
+Enter a _Title_ for your proposal, then add a _Description_. Explain the intent behind the proposal and include any helpful context for the voters.&#x20;
 
-<figure><img src="../../../.gitbook/assets/Screenshot 2023-10-31 at 12.48.30 pm.png" alt=""><figcaption><p>You can even paste images into the description box!</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Screenshot 2023-12-08 at 7.11.35 pm.png" alt=""><figcaption><p>You can also paste images into the description box!</p></figcaption></figure>
 
 Add actions to be executed if the proposal passes. You can select Tally's **Transfer tokens** recipe for a proposal that calls for the transfer of tokens, or select the **Custom action** button.
 
 _Note:_ _Governor Alpha/Bravo has a limit of 10 actions. There is no limit for OpenZeppelin Governor._
+
+<figure><img src="../../../.gitbook/assets/Screenshot 2023-12-08 at 7.15.10 pm.png" alt=""><figcaption></figcaption></figure>
 
 If you choose the Transfer tokens recipe, enter the _Target wallet address_, select the _Token_ you would like to transfer, and enter the _Value_ of the token you would like to transfer. Enter a _Memo_ to describe the purpose of the transfer, and optionally, upload a _Media image_ such as an invoice. Tally will populate an infographic as a preview of the recipe.
 
@@ -32,13 +34,9 @@ For a Custom action, enter the _Target contract address_ or upload your ABI file
 
 **Actionless Proposals**: If you choose to skip this step, and create a proposal with no actions, a transfer of **0 ETH** to you (the proposer) will be added, as Governor requires one executable action for the proposal to be submitted onchain.
 
-Once you've added all actions, click the **Continue** button.
+Almost done! Preview your proposal, then select **Save draft** or **Publish**. If you're ready to submit the proposal onchain, you'll also need to sign the transaction to the chain using your wallet. Draft proposals are created offchain and can later be submitted onchain at any time. Draft proposals can be created and submitted by different users.
 
-![](https://p434.p1.n0.cdn.getcloudapp.com/items/E0uyDNkB/3fe88f14-0cc6-4f3a-bd0d-d5275e08b67a.jpg?v=a5d3619aec9617ac43e45aaa299fde8a)
-
-Almost done! Preview your proposal, then select **Save draft** or **Submit onchain**. If you're ready to submit the proposal onchain, you'll also need to sign the transaction to the chain using your wallet. Draft proposals are created off-chain and can later be submitted onchain at any time. Draft proposals can be created and submitted by different users.
-
-![](https://p434.p1.n0.cdn.getcloudapp.com/items/7Ku67loK/d0f2c558-ce64-4819-ac36-289db749ec8c.jpg?v=de8d75da20b24e1840795364bacd20d3)
+<figure><img src="../../../.gitbook/assets/Screenshot 2023-12-08 at 7.17.22 pm.png" alt=""><figcaption></figcaption></figure>
 
 ## Running Proposal Simulations
 
