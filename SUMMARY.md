@@ -25,6 +25,8 @@
   * [Creating a Delegate Statement](knowledge-base/delegations-on-tally/creating-a-delegate-statement.md)
 * [🗳 Proposals on Tally](knowledge-base/proposals/README.md)
   * [Creating Proposals](knowledge-base/proposals/creating-proposals/README.md)
+    * [Custom Actions](knowledge-base/proposals/creating-proposals/custom-actions/README.md)
+      * [Tuple Support](knowledge-base/proposals/creating-proposals/custom-actions/tuple-support.md)
     * [Swaps](knowledge-base/proposals/creating-proposals/swaps/README.md)
       * [Swaps: FAQs](knowledge-base/proposals/creating-proposals/swaps/swaps-faqs.md)
     * [Draft Proposals](knowledge-base/proposals/creating-proposals/draft-proposals.md)
