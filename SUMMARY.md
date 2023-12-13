@@ -56,6 +56,7 @@
 * [⛽ Relay](premium-features/relay/README.md)
   * [Free Delegation](premium-features/relay/free-delegation.md)
 * [🏷 Whitelabel Governance](premium-features/whitelabel-governance.md)
+* [🎭 Optimistic Governance](premium-features/optimistic-governance.md)
 
 ## Education
 
