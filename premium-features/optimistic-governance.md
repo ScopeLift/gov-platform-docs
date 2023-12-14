@@ -23,7 +23,7 @@ To implement Optimistic Governance, combine battle-tested governance contracts:
 
 **Modifications from standard OZ Governor setup**
 
-* Both Governors implement **"Super Quorum."** Once a majority votes in favor, the voting ends. The Governor can send the proposal or veto to the timelock immediately
+* Both Governors implement **"**[**Super Quorum**](https://github.com/withtally/Governor-Super-Quorum)**."** Once a majority votes in favor, the voting ends. The Governor can send the proposal or veto to the timelock immediately
 * The Optimistic Governor has `PROPOSER_ROLE` role on the Timelock
 * The Veto Governor has`CANCELLER_ROLE` role on the Timelock. The veto Governor's voting period must be shorter than the timelock delay, so that it can cancel proposals in time
 * Tally's frontend will need to connect the Veto Governor to the Optimistic Governor, so let us know at [**biz@tally.xyz**](mailto:biz@tally.xyz) if you are interested in an Optimistic setup.
