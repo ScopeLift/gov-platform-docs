@@ -49,13 +49,13 @@
 
 ## Premium Features
 
-* [🔐 Council Elections](premium-features/security-council-elections/README.md)
-  * [Arbitrum DAO Security Council Elections Guide](premium-features/security-council-elections/arbitrum-dao-security-council-elections-guide.md)
 * [🚀 DAO Launcher](premium-features/dao-launcher.md)
-* [⛽ Relay](premium-features/relay/README.md)
-  * [Free Delegation](premium-features/relay/free-delegation.md)
 * [🏷 Whitelabel Governance](premium-features/whitelabel-governance.md)
 * [🎭 Optimistic Governance](premium-features/optimistic-governance.md)
+* [⛽ Relay](premium-features/relay/README.md)
+  * [Free Delegation](premium-features/relay/free-delegation.md)
+* [🔐 Council Elections](premium-features/security-council-elections/README.md)
+  * [Arbitrum DAO Security Council Elections Guide](premium-features/security-council-elections/arbitrum-dao-security-council-elections-guide.md)
 
 ## Education
 
