@@ -161,3 +161,11 @@ Governors can change their own parameters, like proposal times and the amount of
  event ProposalThresholdSet(uint256 oldProposalThreshold, uint256 newProposalThreshold);
  event QuorumNumeratorUpdated(uint256 oldQuorumNumerator, uint256 newQuorumNumerator);
 ```
+
+### Quorum Extension
+
+Tally handles the `ProposalExtended` event, which is emitted by governors that implement the `PreventLateQuorum` extension:
+
+```
+event ProposalExtended(uint256 indexed proposalId, uint64 extendedDeadline);
+```
