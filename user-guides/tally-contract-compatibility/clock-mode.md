@@ -1,7 +1,7 @@
 ---
 description: >-
-  Say goodbye to inconsistent and unpredictable block-denominated time durations
-  and hello to human readable timestamps!
+  Clock mode offers human-readable timestamps instead of block-denominated time
+  durations.
 ---
 
 # Clock Mode
