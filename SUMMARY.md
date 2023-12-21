@@ -109,7 +109,6 @@
   * [Compound Governor Bravo](user-guides/tally-contract-compatibility/compound-governor-bravo.md)
   * [Tokens: ERC-20 and NFTs](user-guides/smart-contract-compatibility/tokens-erc20-and-nfts.md)
   * [Flexible Voting Extension](user-guides/tally-contract-compatibility/flexible-voting-extension.md)
-  * [Clock Mode](user-guides/tally-contract-compatibility/clock-mode.md)
   * [Supported Use Cases FAQ](user-guides/smart-contract-compatibility/supported-use-cases-faq.md)
 * [📝 Governor Proposal Standards](user-guides/governor-proposals/README.md)
   * [Governor Proposal Descriptions Standards](user-guides/governor-proposals/whats-the-standard-for-governor-proposal-descriptions.md)
