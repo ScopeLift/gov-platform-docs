@@ -169,3 +169,11 @@ Tally handles the `ProposalExtended` event, which is emitted by governors that i
 ```
 event ProposalExtended(uint256 indexed proposalId, uint64 extendedDeadline);
 ```
+
+### Clock Mode
+
+Since Governor v4.9, all voting contracts (including [`ERC20Votes`](https://docs.openzeppelin.com/contracts/4.x/api/token/ERC20#ERC20Votes) and [`ERC721Votes`](https://docs.openzeppelin.com/contracts/4.x/api/token/ERC721#ERC721Votes)) rely on [IERC6372](https://docs.openzeppelin.com/contracts/4.x/api/interfaces#IERC6372) for clock management. The Governor will automatically detect the clock mode used by the token and adapt to it. There is no need to override anything in the Governor contract. You can learn more about compatibility of your token and Governor contract with clock mode [here](https://docs.openzeppelin.com/contracts/4.x/governance#disclaimer).&#x20;
+
+Tally checks the contract lock using the [IERC-6372](https://eips.ethereum.org/EIPS/eip-6372) standard. We accept `blocknumber` and `timestamp` clock modes.Specifically, Tally expects Governor and token contracts to implement a `CLOCK_MODE()` function that returns either `mode=blocknumber&from=default` or `mode=blocknumber&from=<CAIP-2-ID>` . If the call to the governor's `CLOCK_MODE()` method returns `mode=timestamp` then proposal start and end times will be interpreted as unix timestamps otherwise they will be interpreted as block numbers.
+
+If you're interested in support for another contract clock, Tally would need to do some custom work. Get in touch with [biz@tally.xyz](mailto:biz@tally.xyz).
