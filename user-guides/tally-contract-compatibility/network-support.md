@@ -11,6 +11,7 @@ Tally currently supports these EVM-compatible networks:
 * Ethereum Mainnet
 * Ethereum Goerli Testnet
 * Ethereum Sepolia Testnet
+* Ethereum Holesky Testnet
 
 **Polygon**
 
