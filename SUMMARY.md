@@ -108,8 +108,8 @@
 * [🧑🚀 Using Governor with Gnosis Safe](user-guides/using-governor-with-gnosis-safe/README.md)
   * [Arbitrum Gnosis Safes](user-guides/using-governor-with-gnosis-safe/arbitrum-gnosis-safes.md)
   * [Zodiac Governor Module for SubDAOs and Grants Programs](user-guides/using-governor-with-gnosis-safe/zodiac-governor-module-for-subdaos-and-grants-programs.md)
-* [👩💻 Tally API](user-guides/welcome.md)
-* [⚠️     Security](user-guides/security.md)
+* [👩💻 Tally API](tally-api/welcome.md)
+* [⚠ Security](user-guides/security.md)
 * [🌉 Bridge Providers](user-guides/bridge-providers.md)
 
 ## Resources
