@@ -2,7 +2,7 @@
 description: Learn how to propose deploying Uniswap v3 on a fresh EVM chain using Tally.
 ---
 
-# Chain Deployment on Uniswap
+# Chain Deployment of Uniswap v3
 
 You can make a proposal on Tally to deploy Uniswap v3 on a fresh EVM chain.
 
@@ -21,7 +21,7 @@ Make a proposal on Tally using Custom Actions.
   * **key:** network key of chain you're deploying to&#x20;
   * **value:** address of v3 factory on that network
 
-<figure><img src="../.gitbook/assets/telegram-cloud-photo-size-1-5048850042496068615-y (1).jpg" alt=""><figcaption><p>You will need to fill in the three calldatas according to which chain you are deploying Uniswap v3 on.</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/telegram-cloud-photo-size-1-5048850042496068615-y (1).jpg" alt=""><figcaption><p>You will need to fill in the three calldatas according to which chain you are deploying Uniswap v3 on.</p></figcaption></figure>
 
 Resources
 

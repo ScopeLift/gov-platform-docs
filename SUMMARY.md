@@ -26,6 +26,10 @@
 * [🗳 Proposals on Tally](knowledge-base/proposals/README.md)
   * [Creating Proposals](knowledge-base/proposals/creating-proposals/README.md)
     * [Custom Actions](knowledge-base/proposals/creating-proposals/custom-actions/README.md)
+      * [Chain Deployment of Uniswap v3](knowledge-base/proposals/creating-proposals/custom-actions/chain-deployment-of-uniswap-v3.md)
+      * [Token Vesting with Hedgey](knowledge-base/proposals/creating-proposals/custom-actions/token-vesting-with-hedgey.md)
+      * [Token Grants with Hedgey](knowledge-base/proposals/creating-proposals/custom-actions/token-grants-with-hedgey.md)
+      * [Streaming Payments with Sablier](knowledge-base/proposals/creating-proposals/custom-actions/streaming-payments-with-sablier.md)
       * [Tuple Support](knowledge-base/proposals/creating-proposals/custom-actions/tuple-support.md)
     * [Swaps](knowledge-base/proposals/creating-proposals/swaps/README.md)
       * [Swaps: FAQs](knowledge-base/proposals/creating-proposals/swaps/swaps-faqs.md)
@@ -35,13 +39,6 @@
   * [Managing Proposals](knowledge-base/proposals/managing-proposals.md)
     * [Advanced Execution](knowledge-base/proposals/managing-proposals/advanced-execution.md)
 * [0⃣ Tally Zero](knowledge-base/tally-zero.md)
-
-## Custom Proposal Actions
-
-* [Chain Deployment of Uniswap v3](custom-proposal-actions/chain-deployment-of-uniswap-v3.md)
-* [Token Vesting with Hedgey](custom-proposal-actions/token-vesting-with-hedgey.md)
-* [Token Grants with Hedgey](custom-proposal-actions/token-grants-with-hedgey.md)
-* [Streaming Payments with Sablier](custom-proposal-actions/streaming-payments-with-sablier.md)
 
 ## Tally API
 

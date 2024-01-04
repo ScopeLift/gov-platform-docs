@@ -28,7 +28,7 @@ You can create vesting plans one at a time or multiple in the same transaction. 
     * **Target contract address:** 0x3466EB008EDD8d5052446293D1a7D212cb65C646
     * **Contract method:** batchVestingPlans
 
-    <figure><img src="../.gitbook/assets/Screenshot 2023-11-06 at 3.51.46 pm.png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../../../.gitbook/assets/Screenshot 2023-11-06 at 3.51.46 pm.png" alt=""><figcaption></figcaption></figure>
 
 Then, input the parameters as follows:
 
@@ -48,7 +48,7 @@ Then, input the parameters as follows:
 
 _Note all of the plans batched need to have the same period and vesting admin._
 
-<figure><img src="../.gitbook/assets/telegram-cloud-photo-size-1-5136552046319742074-y.jpg" alt=""><figcaption><p>These calldatas are just examples; you will need to choose your own according to your DAO's plans.</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/telegram-cloud-photo-size-1-5136552046319742074-y.jpg" alt=""><figcaption><p>These calldatas are just examples; you will need to choose your own according to your DAO's plans.</p></figcaption></figure>
 
 #### Help with Rates
 
