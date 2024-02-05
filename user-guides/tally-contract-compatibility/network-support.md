@@ -88,6 +88,10 @@ Tally currently supports these EVM-compatible networks:
 
 * ShimmerEVM Testnet
 
+**PulseChain**
+
+* PulseChain Mainnet
+
 
 
 ### Adding chains to Tally
