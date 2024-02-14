@@ -64,6 +64,7 @@ Tally currently supports these EVM-compatible networks:
 
 * zkSync Era Goerli Testnet
 * zkSync Era Mainnet
+* zkSync Sepolia Testnet
 
 **Celo**
 
@@ -92,7 +93,15 @@ Tally currently supports these EVM-compatible networks:
 
 * PulseChain Mainnet
 
+**ImmutableX**
 
+* Immutable zkEVM
+
+**Blast**
+
+* Blast Sepolia Testnet
+
+***
 
 ### Adding chains to Tally
 
