@@ -48,7 +48,8 @@ Tally currently supports these EVM-compatible networks:
 #### Base
 
 * Base Mainnet
-* Base Goerli Testnet
+* Base Goerli Testnet (deprecated)
+* Base Sepolia Testnet
 
 #### **Scroll**
 
