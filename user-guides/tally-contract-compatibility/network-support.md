@@ -93,7 +93,7 @@ Tally currently supports these EVM-compatible networks:
 
 * PulseChain Mainnet
 
-**ImmutableX**
+**Immutable**
 
 * Immutable zkEVM
 
