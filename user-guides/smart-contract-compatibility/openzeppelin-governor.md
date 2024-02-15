@@ -36,12 +36,6 @@ event VoteCast(
 );
 ```
 
-If your OpenZeppelin governor contract uses a Timelock, it will also need this event:
-
-```
-event TimelockChange(address oldTimelock, address newTimelock);
-```
-
 ### Function signatures
 
 Tally's frontend app helps users make web3 calls to your Governor contract. The app lets users create Proposals as well as vote on, queue and execute them.  In addition, the app reads state from the contract with function calls.&#x20;
@@ -166,6 +160,12 @@ Governors can change their own parameters, like proposal times and the amount of
  event VotingPeriodSet(uint256 oldVotingPeriod, uint256 newVotingPeriod);
  event ProposalThresholdSet(uint256 oldProposalThreshold, uint256 newProposalThreshold);
  event QuorumNumeratorUpdated(uint256 oldQuorumNumerator, uint256 newQuorumNumerator);
+```
+
+If your OpenZeppelin governor contract uses a Timelock, it will also need this event:
+
+```
+event TimelockChange(address oldTimelock, address newTimelock);
 ```
 
 ### Quorum Extension
