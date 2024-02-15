@@ -23,8 +23,8 @@ event ProposalCreated(
     string description
 );
 
+event ProposalQueued(uint256 proposalId, uint256 etaSeconds);
 event ProposalCanceled(uint256 proposalId);
-
 event ProposalExecuted(uint256 proposalId);
 
 event VoteCast(
@@ -34,6 +34,12 @@ event VoteCast(
     uint256 weight, 
     string reason
 );
+```
+
+If your OpenZeppelin governor contract uses a Timelock, it will also need this event:
+
+```
+event TimelockChange(address oldTimelock, address newTimelock);
 ```
 
 ### Function signatures
