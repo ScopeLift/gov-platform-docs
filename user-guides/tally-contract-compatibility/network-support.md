@@ -102,6 +102,10 @@ Tally currently supports these EVM-compatible networks:
 
 * Blast Sepolia Testnet
 
+**OKX**
+
+* X1 Testnet
+
 ***
 
 ### Adding chains to Tally
