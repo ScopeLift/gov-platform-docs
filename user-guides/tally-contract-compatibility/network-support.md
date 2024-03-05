@@ -100,6 +100,7 @@ Tally currently supports these EVM-compatible networks:
 
 **Blast**
 
+* Blast Mainnet
 * Blast Sepolia Testnet
 
 **OKX**
