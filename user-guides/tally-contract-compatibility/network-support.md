@@ -107,6 +107,10 @@ Tally currently supports these EVM-compatible networks:
 
 * X1 Testnet
 
+**LUKSO**
+
+* LUKSO Mainnet
+
 ***
 
 ### Adding chains to Tally
