@@ -45,7 +45,7 @@ To be compatible with Tally, your Governor will need these function signatures:
 ```
 function votingDelay() public view virtual returns (uint256);
 function votingPeriod() public view virtual returns (uint256);
-function quorum(uint256 blockNumber) public view virtual returns (uint256);
+function quorum(uint256 timepoint) public view virtual returns (uint256);
 function proposalThreshold() public view virtual returns (uint256);
 function state(uint256 proposalId) public view virtual override returns (
     ProposalState
@@ -53,7 +53,7 @@ function state(uint256 proposalId) public view virtual override returns (
 
 function getVotes(
     address account, 
-    uint256 blockNumber
+    uint256 timepoint
 ) public view virtual returns (uint256);
 
 function propose(
@@ -106,7 +106,7 @@ function queue(
 Tally needs the quorum to calculate if a proposal has passed. That means that Tally requires the Governor to have a `quorum()` function:
 
 ```
-function quorum(uint256 blockNumber) public view virtual returns (uint256);
+function quorum(uint256 timepoint) public view virtual returns (uint256);
 ```
 
 **Optionally**, Tally also supports the `quorumNumerator()` and `quorumDenominator()` functions. Governors with quorums that are a function of token supply should implement these functions:
