@@ -18,7 +18,8 @@ Tally currently supports these EVM-compatible networks:
 * Polygon Mainnet
 * Polygon zkEVM
 * Polygon zkEVM Testnet
-* Polygon Mumbai Testnet
+* Polygon Mumbai Testnet (deprecated)
+* Polygon Amoy Testnet
 
 **Binance Smart Chain**&#x20;
 
@@ -79,7 +80,8 @@ Tally currently supports these EVM-compatible networks:
 **Mantle**
 
 * Mantle Mainnet
-* Mantle Testnet
+* Mantle Testnet (deprecated)
+* Mantle Sepolia Testnet
 
 **Kroma**
 
@@ -114,6 +116,14 @@ Tally currently supports these EVM-compatible networks:
 **Lisk**
 
 * Lisk Sepolia Testnet
+
+**Darwinia**
+
+* Darwinia Mainnet
+
+**Crab**
+
+* Crab Mainnet
 
 ***
 
