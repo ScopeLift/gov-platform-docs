@@ -125,6 +125,10 @@ Tally currently supports these EVM-compatible networks:
 
 * Crab Mainnet
 
+Mode Network
+
+* Mode Mainnet
+
 ***
 
 ### Adding chains to Tally
