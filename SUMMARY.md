@@ -47,6 +47,7 @@
 * [🎭 Optimistic Governance](premium-features/optimistic-governance.md)
 * [⛽ Relay](premium-features/relay/README.md)
   * [Free Delegation](premium-features/relay/free-delegation.md)
+  * [Gasless Voting](premium-features/relay/gasless-voting.md)
 * [🔐 Council Elections](premium-features/security-council-elections/README.md)
   * [Arbitrum DAO Security Council Elections Guide](premium-features/security-council-elections/arbitrum-dao-security-council-elections-guide.md)
 
