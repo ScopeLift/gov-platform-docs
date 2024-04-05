@@ -25,6 +25,8 @@ Benefits of Multichain:
 
 Multichain DAOs use a hub-and-spoke model. This model combines well-understood building blocks – governor, token bridges, and message-passing.
 
+![](https://lh7-us.googleusercontent.com/XUvEMXnhV67yJSQttG063gyrfpueZvPPophVo5c1Oa2JNy8F9Qg7eWLDQ30WoGgUrPtH\_XTIuxIT2hD7izbtq-rrrOGNrjpxNwSn77C5uHCt\_CDmIWIVIKDtoeeKAoZrW6-nFAoWqUeeAkI0rDA\_Ku4m=nw)
+
 On the "hub" chain, the DAO has a standard [ERC20Votes token](https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/token/ERC20/extensions/ERC20Votes.sol) and [OpenZeppelin Governor](https://github.com/OpenZeppelin/openzeppelin-contracts/tree/master/contracts/governance) with the [Flexible Voting extension](https://flexiblevoting.com/). The hub can be any supported EVM chain. Tokenholders can choose bridge their hub governance tokens to spoke chains.
 
 On each "spokes" of a multichain DAO, there's a bridged gov token and a spoke Governor. The bridged gov token keeps track of voting power on that chain. When there is a proposal, the voters on that spoke chain vote on a spoke Governor. Votes on each spoke Governor can be aggregated and bridged back to the hub chain.
