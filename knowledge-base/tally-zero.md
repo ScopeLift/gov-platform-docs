@@ -2,13 +2,13 @@
 description: A decentralized voting application
 ---
 
-# 0⃣ Tally Zero
+# 0️⃣ Tally Zero
 
 > _Tally Zero is a completely decentralized voting application that uses React and IPFS via thirdweb. This app allows you to connect to any governor address and vote on a proposal in a completely decentralized way._
 
 ### What is Tally Zero?
 
-[Tally Zero](https://ipfs.thirdwebcdn.com/ipfs/QmZEunNyyBWbRRBSweQccSedEuzt3aFScVQGRqc73nkq1t/) is a completely decentralized voting application designed to facilitate onchain voting via the InterPlanetary File System (IPFS) through thirdweb. It serves as a fundamental tool to ensure that people can always vote onchain, even if all the more complex front ends, such as Tally and Boardroom, are down.&#x20;
+[Tally Zero](https://tally-zero-preview.vercel.app/explore) is a completely decentralized voting application designed to facilitate onchain voting via the InterPlanetary File System (IPFS) through thirdweb. It serves as a fundamental tool to ensure that people can always vote onchain, even if all the more complex front ends, such as Tally and Boardroom, are down.&#x20;
 
 ### Features&#x20;
 
