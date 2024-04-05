@@ -2,7 +2,7 @@
 description: Governing protocols on multiple chains
 ---
 
-# Multichain Governance
+# ⛓️ Multichain Governance
 
 Tally has partnered with [Wormhole](https://wormhole.com/) to power Multichain governance for DAOs. &#x20;
 
