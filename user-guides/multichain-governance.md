@@ -23,7 +23,14 @@ Benefits of Multichain:&#x20;
 * Meet community where they are&#x20;
 * Decoupling the protocol & governance&#x20;
 
-To learn more about how DAOs can go multichain, watch Rafael Solari’s ETH Denver 2024 talk on Multichain DAOs [here.](https://twitter.com/tallyxyz/status/1762609578863198698)
+To learn more about how DAOs can go multichain, watch Rafael Solari’s ETH Denver 2024 talk on Multichain DAOs [here.](https://twitter.com/tallyxyz/status/1762609578863198698)\
+\
+**The Wormhole DAO**
+
+The Wormhole DAO, powered by $W token holders, is set to operate under this pioneering multichain governance system. By enabling token holders on any supported chain to engage in the governance process, Wormhole is ensuring that its community can steer the protocol in a direction that reflects the diverse interests & needs of its members. This approach to governance will significantly enhance the user experience (UX) making community contributions  easier & more accessible.Wormhole contributors hope this will mark the beginning of a fully decentralized & community-led decision-making process across all Wormhole supported chains.
+
+\
+
 
 \
 
