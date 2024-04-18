@@ -4,6 +4,8 @@ description: Take your DAO from 0 to 1 at our one-stop shop for DAO creation.
 
 # 🚀 DAO Launcher
 
+<figure><img src="../.gitbook/assets/DAO Launcher page 1 FINAL.png" alt=""><figcaption></figcaption></figure>
+
 Launching a DAO can be a complicated process involving several steps: setting up the technical infrastructure, fostering a sense of community, and ensuring operational transparency. DAO Launcher aims to streamline these aspects, providing tools tailored to the specific needs of DAOs.
 
 With features like the **Airdrop Claim Page** and a **Whitelabel Version of Tally**, DAO Launcher provides the technical infrastructure necessary for a seamless launch. But it's not just about the tech; it's about ensuring that DAOs can foster community engagement, maintain transparency, and drive participation from the get-go.
