@@ -2,19 +2,27 @@
 description: Governing protocols on multiple chains
 ---
 
-# ⛓️ Multichain Governance
+# ⛓️ MultiGov
 
-Tally has partnered with [Wormhole](https://wormhole.com/) to power Multichain governance for DAOs. &#x20;
+Tally has partnered with [Wormhole](https://wormhole.com/) on MultiGov, which powers multichain governance for DAOs. &#x20;
 
 **What is Multichain Governance?**
 
-Your DAO, everywhere. Multichain governance lets DAOs meet token holders where they are. DAO members can govern an on-chain DAO from any chain. Tally is building support for multichain DAOs across Solana, Ethereum and EVM-compatible L2s. Multichain DAOs will lower barriers to participation and reach users everywhere.
+Your DAO, everywhere. MultiGov lets DAOs meet token holders where they are. DAO members can govern an on-chain DAO from any chain. MultiGov supports DAOs on Solana, Ethereum and EVM-compatible L2s. Multichain DAOs will lower barriers to participation and reach users everywhere.
 
-**Single-chain vs Multichain**
+**Single-chain vs MultiGov**
 
-Until now, DAOs operate their governance on a single chain. Many of the oldest and largest DAOs have their token, Governor and treasury all on Ethereum mainnet. Rising L1 gas costs make them increasingly expensive. Newer protocol DAOs might launch on one network, then want to expand to other ones.
+Until now, DAOs operated their governance on a single chain.
 
-Benefits of Multichain:
+_On L1_
+
+Many of the oldest and largest DAOs have their token, Governor and treasury all on Ethereum mainnet. Rising L1 gas costs make that setup increasingly expensive. MultiGov gives voters a way to lower gas costs.
+
+_On a single L2_
+
+Newer protocol DAOs might launch on one network. Once they find product-market fit there, they often want to expand to other ones. MultiGov gives protocols a way to meet users where they are.
+
+_Benefits of MultiGov:_
 
 * Save on gas costs
 * Govern protocol across chains
