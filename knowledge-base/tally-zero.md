@@ -16,7 +16,7 @@ description: A decentralized voting application
 
 Tally Zero is built using React and IPFS via ThirdWeb, which ensures that the application is completely decentralized. This means that it does not rely on any central authority or single point of failure, making it resilient and secure.
 
-Onchain Voting The application allows users to connect to any governor address and vote on a proposal in a completely decentralized manner. This ensures that the voting process is transparent, secure, and tamper-proof.
+Onchain Voting on the application allows users to connect to any governor address and vote on a proposal in a completely decentralized manner. This ensures that the voting process is transparent, secure, and tamper-proof.
 
 #### Zero Dependency&#x20;
 
