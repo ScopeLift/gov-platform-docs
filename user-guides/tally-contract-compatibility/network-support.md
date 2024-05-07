@@ -98,7 +98,8 @@ Tally currently supports these EVM-compatible networks:
 
 **Immutable**
 
-* Immutable zkEVM
+* Immutable zkEVM Mainnet
+* Immutable zkEVM Testnet
 
 **Blast**
 
@@ -107,7 +108,8 @@ Tally currently supports these EVM-compatible networks:
 
 **OKX**
 
-* X1 Testnet
+* X Layer Mainnet
+* X Layer Testnet
 
 **LUKSO**
 
