@@ -8,7 +8,7 @@ description: A decentralized voting application
 
 ### What is Tally Zero?
 
-[Tally Zero](https://tally-zero-preview.vercel.app/explore) is a completely decentralized voting application designed to facilitate onchain voting via the InterPlanetary File System (IPFS) through thirdweb. It serves as a fundamental tool to ensure that people can always vote onchain, even if all the more complex front ends, such as Tally and Boardroom, are down.&#x20;
+[Tally Zero](https://zero.tally.xyz) is a completely decentralized voting application designed to facilitate onchain voting via the InterPlanetary File System (IPFS) through thirdweb. It serves as a fundamental tool to ensure that people can always vote onchain, even if all the more complex front ends, such as Tally and Boardroom, are down.&#x20;
 
 ### Features&#x20;
 
