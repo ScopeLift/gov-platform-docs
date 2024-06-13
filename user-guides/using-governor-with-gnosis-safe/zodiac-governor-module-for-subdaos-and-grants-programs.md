@@ -6,12 +6,12 @@ description: Create SubDAOs and manage Grants Programs using the Zodiac Governor
 
 ### About Gnosis Zodiac
 
-Zodiac is a collection of tools built according to an open standard by the team behind Gnosis Safe. The Zodiac open standard enables DAOs to act more like constellations, connecting protocols, platforms, and chains, no longer confined to monolithic designs. To learn more about the ideas behind Zodiac, visit the [Gnosis Guild blog](http://gnosisguild.mirror.xyz/) or read the [Introduction: Zodiac Standard](https://zodiac.wiki/index.php/Introduction:\_Zodiac\_Standard).\
+Zodiac is a collection of tools built according to an open standard by the team behind Gnosis Safe. The Zodiac open standard enables DAOs to act more like constellations, connecting protocols, platforms, and chains, no longer confined to monolithic designs. To learn more about the ideas behind Zodiac, visit the [Gnosis Guild blog](http://gnosisguild.mirror.xyz/) or read the [Introduction: Zodiac Standard](https://zodiac.wiki/index.php%3Ftitle=Introduction:\_Zodiac\_Standard.html).\
 
 
 ### Introduction
 
-The [Zodiac Governor module](https://zodiac.wiki/index.php/Category:Governor\_Module) facilitates the management and control of Gnosis Safes by a DAO. With the Zodiac Governor module, a DAO can become a privileged member of the Safe, allowing it to manage signers and execute transactions. This page will guide you through the use case of creating SubDAOs and managing Grants Programs using the Zodiac Governor module.
+The [Zodiac Governor module](https://zodiac.wiki/index.php%3Ftitle=Category:Governor\_Module.html) facilitates the management and control of Gnosis Safes by a DAO. With the Zodiac Governor module, a DAO can become a privileged member of the Safe, allowing it to manage signers and execute transactions. This page will guide you through the use case of creating SubDAOs and managing Grants Programs using the Zodiac Governor module.
 
 ### Features
 
@@ -45,7 +45,7 @@ Instead of directly transferring funds to the Gnosis safe, the DAO gives the Gno
 
 Creating a SubDAO for grants oversight or multisig management is straightforward.&#x20;
 
-Use the [Zodiac Governor Module no-code tool](https://zodiac.wiki/index.php/Governor\_Module:\_Operator\_Tutorial) to initiate the creation of a Grants Oversight DAO, and follow the steps below:
+Use the [Zodiac Governor Module no-code tool](https://zodiac.wiki/index.php%3Ftitle=Governor\_Module:\_Operator\_Tutorial.html) to initiate the creation of a Grants Oversight DAO, and follow the steps below:
 
 1. Select your existing parent DAO token during the creation flow.
 2. Create a new Governor for the SubDAO with your desired parameters for oversight. You can use the same parameters as the parent DAO or opt for different ones to match your specific needs.
