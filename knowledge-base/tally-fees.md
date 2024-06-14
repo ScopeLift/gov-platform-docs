@@ -6,7 +6,7 @@ description: >-
 
 # ↪️ Tally Fees
 
-Why does Tally charge a fee?&#x20;
+### Why does Tally charge a fee?&#x20;
 
 Tally offers a wide range of product features for DAOs to power protocols, manage treasuries, distribute public goods, and more:
 
@@ -21,7 +21,7 @@ _DAOs that have existing agreements with Tally are excluded_
 
 
 
-#### How does the fee work?&#x20;
+### How does the fee work?&#x20;
 
 Once a proposal is passed & executed onchain by the DAO, the 2% fee is automatically applied to the final transfer amount & sent to a Safe deployed on he respective chain . The fee amount is denominated in the transfer's natice token amount as well as $USD. \
 
