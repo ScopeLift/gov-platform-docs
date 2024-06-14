@@ -17,7 +17,7 @@ Tally offers a wide range of product features for DAOs to power protocols, manag
 
 The 2% fee on proposal transfers creates revenue to enable Tally to continue to innovate & support the DAO ecosystem in the future. Fee revenue supports operational costs, maintenance, & product development as Tally maintains its commitment to the decentralized organizations.\
 \
-_DAOs that have existing agreements with Tally are excluded_
+_DAOs that have existing agreements with Tally are excluded._
 
 
 
