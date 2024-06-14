@@ -39,6 +39,7 @@
   * [Managing Proposals](knowledge-base/proposals/managing-proposals.md)
     * [Advanced Execution](knowledge-base/proposals/managing-proposals/advanced-execution.md)
 * [0️⃣ Tally Zero](knowledge-base/tally-zero.md)
+* [↪️ Tally Fees](knowledge-base/tally-fees.md)
 
 ## Premium Features
 
