@@ -111,10 +111,6 @@ Tally currently supports these EVM-compatible networks:
 * X Layer Mainnet
 * X Layer Testnet
 
-**LUKSO**
-
-* LUKSO Mainnet
-
 **Lisk**
 
 * Lisk Sepolia Testnet
@@ -127,9 +123,13 @@ Tally currently supports these EVM-compatible networks:
 
 * Crab Mainnet
 
-Mode Network
+**Mode Network**
 
 * Mode Mainnet
+
+**Gravity**
+
+* Gravity Alpha Mainnet
 
 ***
 
