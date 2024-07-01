@@ -1,6 +1,6 @@
 ---
 description: >-
-  Tally activated a 2% fee for all executed transfer proposals on June 13th,
+  Tally activated a 0.25% fee for all executed transfer proposals as of July 1,
   2024.
 ---
 
@@ -11,7 +11,7 @@ description: >-
 Tally offers a wide range of product features for DAOs to power protocols, manage treasuries, distribute public goods, and more:
 
 * Create, vote, & execute proposals&#x20;
-* Manage & diversify treasuries with trustless, MEV protected tokenswaps
+* Manage & diversify treasuries with trustless, MEV-protected tokenswaps
 * Elect onchain security councils to manage multisigs & grants programs
 * Launch a DAO seamlessly with custom token claim flows, delegation discovery, & community building tools&#x20;
 
@@ -23,7 +23,7 @@ _DAOs that have existing agreements with Tally are excluded._
 
 ### How does the fee work?&#x20;
 
-Once a proposal is passed & executed onchain by the DAO, the 2% fee is automatically applied to the final transfer amount & sent to a Safe deployed on he respective chain . The fee amount is denominated in the transfer's natice token amount as well as $USD. \
+Once a proposal is passed & executed onchain by the DAO, the 0.25% fee is automatically applied to the final transfer amount & sent to a Safe deployed on the respective chain . The fee amount is denominated in the transfer's native token amount as well as $USD. \
 
 
 <figure><img src="../.gitbook/assets/1_Test_Governance-Page.png" alt=""><figcaption></figcaption></figure>
