@@ -23,7 +23,7 @@ _DAOs that have existing agreements with Tally are excluded._
 
 ### How does the fee work?&#x20;
 
-Once a proposal is passed & executed onchain by the DAO, the 0.25% fee is automatically applied to the final transfer amount & sent to a Safe deployed on the respective chain . The fee amount is denominated in the transfer's native token amount as well as $USD. \
+Once a proposal is passed & executed onchain by the DAO, the 0.25% fee is automatically applied to the final transfer amount & sent to a Safe deployed on the respective chain . The fee amount is denominated in the transfer's native token amount. The USD value is also shown for convenience. \
 
 
 <figure><img src="../.gitbook/assets/1_Test_Governance-Page.png" alt=""><figcaption></figcaption></figure>
