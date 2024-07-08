@@ -23,10 +23,6 @@ Once integrated, the Governor DAO becomes a privileged member of the Safe. This 
 
 The Governor DAO maintains control over the Safe's funds. It can spend money and execute transactions, allowing the parent DAO to maintain executive authority over its subsidiary structures.
 
-#### 3. Safety Measures
-
-The Zodiac Governor module includes Delay modules which can require a waiting period for the multi-sig signers. This delay provides the DAO with a veto period to block funding requests that may be contrary to the DAO's goals or may pose legitimacy concerns.
-
 ### Benefits
 
 This design opens up several unique opportunities for DAO management:
