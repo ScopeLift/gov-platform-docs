@@ -10,11 +10,11 @@ description: Connect your wallet and sign in to Tally.
 
 From any page on Tally, select the **Dashboard** button in the top right corner.
 
-<figure><img src="../../.gitbook/assets/Screenshot 2023-08-23 at 8.49.16 pm.png" alt=""><figcaption><p>Select <strong>Dashboard.</strong></p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Picture1.png" alt=""><figcaption><p>Select <strong>Dashboard</strong>.</p></figcaption></figure>
 
 If you have not yet signed into your wallet, you will see the **Connect wallet** button in the top right corner.
 
-<figure><img src="../../.gitbook/assets/image (121).png" alt=""><figcaption><p>Select <strong>Connect wallet.</strong></p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Picture2.png" alt=""><figcaption><p>Select <strong>Connect wallet</strong>.</p></figcaption></figure>
 
 In the pop-up window, select your preferred wallet service. We support MetaMask, WalletConnect, Coinbase Wallet, and Safe. Hardware wallet users can also connect their device through MetaMask.
 
@@ -22,17 +22,13 @@ In the pop-up window, select your preferred wallet service. We support MetaMask,
 
 Follow the prompts to complete the wallet connection process. You will then see your connected wallet in the top right corner of the site.
 
-<figure><img src="../../.gitbook/assets/Screenshot 2023-08-23 at 8.56.38 pm.png" alt=""><figcaption><p>Wallet successfully connected!</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Picture3.png" alt=""><figcaption><p>Wallet successfully connected!</p></figcaption></figure>
 
 ### Sign In
 
 > _Tally uses_ [_Sign-In with Ethereum_](https://login.xyz/)_. You'll need to_ [_connect your wallet_](getting-started.md#connect-your-wallet) _before signing in._
 
-Once you've connected your wallet, you'll see a **Sign in** button at the top right corner of the Tally site.
-
-<figure><img src="../../.gitbook/assets/Screenshot 2023-08-25 at 12.50.53 pm.png" alt=""><figcaption><p>Sign in.</p></figcaption></figure>
-
-Follow the prompts in the pop-up window to sign in using your connected wallet.
+Once you've connected your wallet, follow the prompts in the pop-up window to sign in using your connected wallet.
 
 The top right section of the page will now show a profile image and dropdown menu. Visit [tally-profile.md](tally-profile.md "mention") to learn more!
 
