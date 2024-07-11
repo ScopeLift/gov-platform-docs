@@ -14,7 +14,7 @@ description: Share your DAO deets via your Tally profile.
 >
 > [#log-out](tally-profile.md#log-out "mention")
 
-<figure><img src="../../.gitbook/assets/Screenshot 2023-08-25 at 12.59.21 pm.png" alt=""><figcaption><p>Profile drop-down menu.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot 2024-07-11 at 2.40.39 PM.png" alt=""><figcaption><p>Profile drop-down menu.</p></figcaption></figure>
 
 ## Your DAOs
 
