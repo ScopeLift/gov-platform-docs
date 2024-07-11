@@ -6,29 +6,17 @@ description: Explore your DAO's homepage.
 
 > _The DAO page shows details about a specific DAO, including current and past proposals, assets, and delegates._
 
-## DAO Info
+## DAO Home Page
 
-<figure><img src="../../.gitbook/assets/CleanShot 2023-02-17 at 09.45.39@2x.png" alt=""><figcaption><p>Highlights section.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption><p>DAO Home page.</p></figcaption></figure>
 
-At the top of the DAO page, a highlights section shows key information. You'll also see buttons to [**Create new proposal**](../proposals/creating-proposals/) and [**Delegate vote**](../delegations-on-tally/delegating-voting-power/). Click the drop-down arrow to view _Contract Parameters._
+On the DAO Home page, key information & metrics are shown. You'll also see a button to [**Delegate vote**](../delegations-on-tally/delegating-voting-power/) on the right hand side along with your voting power information.
 
-## Metrics and Charts
+## Proposals Page
 
-<figure><img src="../../.gitbook/assets/CleanShot 2023-02-17 at 09.45.52@2x.png" alt=""><figcaption><p>Key metrics and charts.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot 2024-07-11 at 2.54.08 PM.png" alt=""><figcaption><p>Proposals page.</p></figcaption></figure>
 
-The next section contains key metrics about your DAO:
-
-* **Proposals:** number of proposals submitted
-* **Holders:** total number of addresses holding the governance token
-* **Voters:** total number of addresses with voting power delegated to them
-
-The _Voting Power_ chart shows the current top 5 delegates' voting power over time, and _Top Voters_ ranks those delegates by voting power.
-
-## Proposals
-
-<figure><img src="../../.gitbook/assets/CleanShot 2023-02-17 at 09.46.03@2x.png" alt=""><figcaption><p>Proposals section.</p></figcaption></figure>
-
-The _Proposals_ section shows a list of proposals associated with the DAO. Any active proposals will be shown at the top, with a chronological list of past proposals below. Click **View all** to see more.
+The _Proposals_ page shows a list of proposals associated with the DAO. Any active proposals will be shown at the top, with a chronological list of past proposals below. Click **Load more** to see more.
 
 #### **Click on a proposal to go to the relevant Proposal Page:**
 
@@ -36,35 +24,29 @@ The _Proposals_ section shows a list of proposals associated with the DAO. Any a
 [proposal-page.md](proposal-page.md)
 {% endcontent-ref %}
 
-## Trending Delegates
+## Community Page
 
-<figure><img src="../../.gitbook/assets/CleanShot 2023-02-17 at 09.46.28@2x.png" alt=""><figcaption><p>Trending Delegates section.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot 2024-07-11 at 2.56.00 PM.png" alt=""><figcaption><p>Community page.</p></figcaption></figure>
 
-The _Trending Delegates_ section offers an overview of some of the DAO's top delegates. You can click the **Delegate** button to [delegate your own voting power](../delegations-on-tally/delegating-voting-power/) to them.
+The _Community_ page offers an overview of the DAO's delegates. The _Top Delegates_ chart shows the current top 5 delegates' voting power over time,
 
 {% hint style="info" %}
 Clicking on a delegate's name will take you to the relevant [tally-profile.md](tally-profile.md "mention")!
 {% endhint %}
 
-#### **Select 'Explore all delegates' to access the full Delegates Page:**
+## Treasury
 
-{% content-ref url="delegates-page.md" %}
-[delegates-page.md](delegates-page.md)
-{% endcontent-ref %}
+<figure><img src="../../.gitbook/assets/Screenshot 2024-07-11 at 2.58.43 PM.png" alt=""><figcaption><p>Assets and Gnosis Safes.</p></figcaption></figure>
 
-## Assets and Gnosis Safes
+The _Treasury_ page displays information on the DAO's top assets.&#x20;
 
-<figure><img src="../../.gitbook/assets/CleanShot 2023-02-17 at 09.46.39@2x.png" alt=""><figcaption><p>Assets and Gnosis Safes.</p></figcaption></figure>
+Below, the _Gnosis Safes_ section displays information on any [linked Gnosis Safes](../managing-a-dao/gnosis-safe.md). **Click on a Safe to access its Gnosis Safe Page.**
 
-The _Governor Assets_ or _Timelock Assets_ section (if the DAO has a Timelock) displays information on the DAO's top assets. Click **View all** for an extended list.
+## More
 
-Below, the _Gnosis Safes_ section displays information on any [linked Gnosis Safes](../managing-a-dao/gnosis-safe.md).
+You can access _Contract Parameters_ from the More section.
 
-#### **Click on a Safe to access its Gnosis Safe Page:**
-
-{% content-ref url="broken-reference" %}
-[Broken link](broken-reference)
-{% endcontent-ref %}
+<figure><img src="../../.gitbook/assets/Screenshot 2024-07-11 at 3.00.57 PM.png" alt=""><figcaption><p>Contracts and parameters.</p></figcaption></figure>
 
 ## Admins
 

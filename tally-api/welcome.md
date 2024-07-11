@@ -2,7 +2,7 @@
 description: The Tally API is in open beta!
 ---
 
-# 👩💻 Tally API
+# 👩‍💻 Tally API
 
 The [Tally API](https://apidocs.tally.xyz/) makes it easy to query onchain data about Governor DAOs. List Governors, onchain proposals, and accounts with delegations. Use the API to build notifications, dig into voter data or build governance right into your game or app.
 
@@ -27,7 +27,7 @@ To get started, you'll need an API key. Sign in to Tally. On your [User Settings
 
 You'll need to **include that API key as an HTTP header with every request**, i.e. `{"Api-Key": "YOUR_KEY_HERE"}`&#x20;
 
-<figure><img src="../.gitbook/assets/image (1) (1).png" alt=""><figcaption><p>User Settings Page</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption><p>User Settings Page</p></figcaption></figure>
 
 ### Quickstart example
 
@@ -43,7 +43,7 @@ One big advantage of graphql is that it's self-documenting. Check out the [Graph
 
 Note that the playground also includes undocumented endpoints. Using them is not recommended for production apps, because they are subject to change without notice.
 
-<figure><img src="../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption><p>Graphql Playground</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1) (1) (1).png" alt=""><figcaption><p>Graphql Playground</p></figcaption></figure>
 
 ### Rate limits
 
