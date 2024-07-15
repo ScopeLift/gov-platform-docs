@@ -40,6 +40,7 @@
     * [Advanced Execution](knowledge-base/proposals/managing-proposals/advanced-execution.md)
 * [0️⃣ Tally Zero](knowledge-base/tally-zero.md)
 * [↪️ Tally Fees](knowledge-base/tally-fees.md)
+* [🤔 Diff Checker](knowledge-base/diff-checker.md)
 
 ## Premium Features
 
