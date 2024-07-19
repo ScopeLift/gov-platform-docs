@@ -14,7 +14,7 @@ Whether you're looking to distribute tokens or give your DAO a unique online pre
 
 ### What is Governance Launcher?
 
-Governance Launcher is a comprehensive way to streamline and simplify the process of launching and managing a DAO. Governance Launcher includes 6 features.
+Governance Launcher is a comprehensive way to streamline and simplify the process of launching and managing a DAO. Governance Launcher includes 6 features:
 
 With a focus on user experience and seamless integration, Governance Launcher offers tailored solutions that cater to the unique needs of DAOs, ensuring they can operate efficiently and effectively right from inception.&#x20;
 
