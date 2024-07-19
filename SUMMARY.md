@@ -46,7 +46,6 @@
 
 * [🚀 Governance Launcher](premium-features/governance-launcher.md)
 * [⛓️ MultiGov](premium-features/multichain-governance.md)
-* [🏷️ Whitelabel Governance](premium-features/whitelabel-governance.md)
 * [🎭 Optimistic Governance](premium-features/optimistic-governance.md)
 * [⛽ Relay](premium-features/relay/README.md)
   * [Free Delegation](premium-features/relay/free-delegation.md)
