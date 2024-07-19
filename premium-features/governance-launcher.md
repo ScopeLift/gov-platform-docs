@@ -8,10 +8,6 @@ Get it right the first time. In the complicated process of launching a sustainab
 
 Whether you're looking to distribute tokens or give your DAO a unique online presence, Governance Launcher is here to make the process smooth, efficient, and tailored to your needs.&#x20;
 
-Launching a DAO can be a complicated process involving several steps: setting up the technical infrastructure, fostering a sense of community, and ensuring operational transparency. Governance Launcher aims to streamline these aspects, providing tools tailored to the specific needs of DAOs.
-
-Governance Launcher provides a structured approach to the launch process, helping ensure that the foundational elements are in place so you get it right the first time.
-
 > **Interested in learning more? Email** [**biz@tally.xyz**](mailto:biz@tally.xyz) **to set up a chat with our team!**
 
 ***
