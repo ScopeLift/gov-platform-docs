@@ -2,29 +2,29 @@
 description: Take your DAO from 0 to 1 at our one-stop shop for DAO creation.
 ---
 
-# 🚀 DAO Launcher
+# 🚀 Governance Launcher
 
-<figure><img src="../.gitbook/assets/DAO Launcher page 1 FINAL.png" alt=""><figcaption></figcaption></figure>
 
-Launching a DAO can be a complicated process involving several steps: setting up the technical infrastructure, fostering a sense of community, and ensuring operational transparency. DAO Launcher aims to streamline these aspects, providing tools tailored to the specific needs of DAOs.
 
-With features like the **Airdrop Claim Page** and a **Whitelabel Version of Tally**, DAO Launcher provides the technical infrastructure necessary for a seamless launch. But it's not just about the tech; it's about ensuring that DAOs can foster community engagement, maintain transparency, and drive participation from the get-go.
+Launching a DAO can be a complicated process involving several steps: setting up the technical infrastructure, fostering a sense of community, and ensuring operational transparency. Governance Launcher aims to streamline these aspects, providing tools tailored to the specific needs of DAOs.
 
-DAO Launcher provides a structured approach to the launch process, helping ensure that the foundational elements are in place so you get it right the first time.
+With features like the **Airdrop Claim Page** and a **Whitelabel Version of Tally**, Governance Launcher provides the technical infrastructure necessary for a seamless launch. But it's not just about the tech; it's about ensuring that DAOs can foster community engagement, maintain transparency, and drive participation from the get-go.
+
+Governance Launcher provides a structured approach to the launch process, helping ensure that the foundational elements are in place so you get it right the first time.
 
 > **Interested in learning more? Email** [**biz@tally.xyz**](mailto:biz@tally.xyz) **to set up a chat with our team!**
 
-[#what-is-dao-launcher](dao-launcher.md#what-is-dao-launcher "mention")
+[#what-is-dao-launcher](governance-launcher.md#what-is-dao-launcher "mention")
 
-[#why-should-i-care](dao-launcher.md#why-should-i-care "mention")
+[#why-should-i-care](governance-launcher.md#why-should-i-care "mention")
 
 ***
 
-### What is DAO Launcher?
+### What is Governance Launcher?
 
-DAO Launcher is a comprehensive way to streamline and simplify the process of launching and managing a DAO. DAO Launcher includes 2 features: [#1.-airdrop-claim-page](dao-launcher.md#1.-airdrop-claim-page "mention") and [#2.-whitelabel-version-of-tally](dao-launcher.md#2.-whitelabel-version-of-tally "mention").&#x20;
+Governance Launcher is a comprehensive way to streamline and simplify the process of launching and managing a DAO. Governance Launcher includes 2 features: [#1.-airdrop-claim-page](governance-launcher.md#1.-airdrop-claim-page "mention") and [#2.-whitelabel-version-of-tally](governance-launcher.md#2.-whitelabel-version-of-tally "mention").&#x20;
 
-With a focus on user experience and seamless integration, DAO Launcher offers tailored solutions that cater to the unique needs of DAOs, ensuring they can operate efficiently and effectively right from inception.&#x20;
+With a focus on user experience and seamless integration, Governance Launcher offers tailored solutions that cater to the unique needs of DAOs, ensuring they can operate efficiently and effectively right from inception.&#x20;
 
 ### 1. Airdrop Claim Page
 

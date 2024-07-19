@@ -44,7 +44,7 @@
 
 ## Premium Features
 
-* [🚀 DAO Launcher](premium-features/dao-launcher.md)
+* [🚀 Governance Launcher](premium-features/governance-launcher.md)
 * [⛓️ MultiGov](premium-features/multichain-governance.md)
 * [🏷️ Whitelabel Governance](premium-features/whitelabel-governance.md)
 * [🎭 Optimistic Governance](premium-features/optimistic-governance.md)
