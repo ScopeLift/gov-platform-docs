@@ -14,10 +14,6 @@ Governance Launcher provides a structured approach to the launch process, helpin
 
 > **Interested in learning more? Email** [**biz@tally.xyz**](mailto:biz@tally.xyz) **to set up a chat with our team!**
 
-[#what-is-dao-launcher](governance-launcher.md#what-is-dao-launcher "mention")
-
-[#why-should-i-care](governance-launcher.md#why-should-i-care "mention")
-
 ***
 
 ### What is Governance Launcher?
