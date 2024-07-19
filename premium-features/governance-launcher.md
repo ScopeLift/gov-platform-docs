@@ -20,8 +20,6 @@ Governance Launcher provides a structured approach to the launch process, helpin
 
 Governance Launcher is a comprehensive way to streamline and simplify the process of launching and managing a DAO. Governance Launcher includes 6 features.
 
-
-
 With a focus on user experience and seamless integration, Governance Launcher offers tailored solutions that cater to the unique needs of DAOs, ensuring they can operate efficiently and effectively right from inception.&#x20;
 
 1.  **End-to-end Governance Application**
@@ -61,15 +59,14 @@ With a focus on user experience and seamless integration, Governance Launcher of
     * **Governance Launch Announcement:** Tally will launch a targeted campaign \~1 week prior to the launch, with a dedicated launch page (e.g.,https://www.tally.xyz/gov/DAOname) to build awareness.
     * **Delegate Sign-up Process:** Tally will implement an intuitive sign-up flow for users interested in becoming delegates.
     * **Newsletter Announcements:** Tally will feature the DAO's call for delegates in [The Tally Newsletter](https://newsletter.tally.xyz/), reaching an audience of over 1500 governance enthusiasts and potential delegates.
-5.  **Delegation Experience**  ([Demo](https://drive.google.com/file/d/1l6JYr\_pRMIktr44Jf9\_RgfrhqO15AfbY/view?usp=sharing))
+5. **Claim and Delegation Experience**  ([Demo](https://drive.google.com/file/d/1ryLl\_-H9gNOZPCsz6Umdp330IIiVJFke/view?usp=drive\_link))\
+   _We consistently see that when delegation is not part of the initial claim process, the likelihood of subsequent delegation diminishes significantly. Inactive tokens sitting in wallets hinders active governance participation and that’s why we really recommend delegation go hand in hand with airdrop claim flow._\
+   _To ensure a smooth and convenient transition from token claim to active governance participation, Tally provides a post-claim delegation experience. This is crucial to enhancing user engagement by simplifying the delegation process._\
 
-    _Tally makes it easy for users to delegate their tokens. Tally will create a customized delegation experience to ensure a smooth and convenient transition to DAO genesis with active governance participation. Inactive tokens sitting in wallets hinders active governance participation, as the Governor framework requires users to delegate to themselves or others to participate in governance._
-
-    _We are eager to work together to drive delegation for the DAO—from a smart contract, UI, and go-to-market perspective. When delegation does not happen, we see situations with low “voters” (people who have delegated to themselves or others), making it impossible for the DAO to reach quorum required to pass proposals._ [_Blur DAO_](https://www.tally.xyz/gov/blur) _is an example of this._
-
-    * **Seamless Delegate Discovery and Selection:** Tally will develop a user-friendly interface that guides token holders through the process of discovering and selecting delegates.
-    * **Delegate Profile Pre-population:** Tally will automatically populate delegate profiles with information gathered during the Delegate Registration phase, streamlining the selection process for token holders.
-    * **Transparent Voting Power Display:** Tally will provide users with clear insights into their voting power alongside detailed information on incoming and outgoing delegations.
+   * Custom Token Claim Interface: Tally will create a custom UI for users to claim the governance token and immediately delegate their tokens to ensure governance participation from the onset.
+   * Seamless Delegate Discovery and Selection: Tally will develop a user-friendly interface that guides token holders through the process of discovering and selecting delegates, immediately following the token claim experience.
+   * Delegate Profile Pre-population: Tally will automatically populate delegate profiles with information gathered during the call for delegates phase, streamlining the selection process for token holders.
+   * Transparent Voting Power Display: Tally will provide users with clear insights into their voting power alongside detailed information on incoming and outgoing delegations.
 6.  **Governance Launch Communication and Strategy**
 
     _Tally has the largest media presence in the DAO governance space, with DAO Talk podcast, The Tally Newsletter, our Twitter, and the Tally blog. We are excited to leverage these platforms share spread the word about the DAO's launch, vision and strategy, and needs for delegation._
