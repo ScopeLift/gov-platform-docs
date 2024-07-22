@@ -52,6 +52,7 @@
   * [Gasless Voting](premium-features/relay/gasless-voting.md)
 * [🔐 Council Elections](premium-features/security-council-elections/README.md)
   * [Arbitrum DAO Security Council Elections Guide](premium-features/security-council-elections/arbitrum-dao-security-council-elections-guide.md)
+* [🤖 Forum bot](premium-features/forum-bot.md)
 
 ## Education
 
