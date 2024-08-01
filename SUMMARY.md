@@ -123,4 +123,4 @@
 * [Blog](https://blog.tally.xyz)
 * [DAO Talk Podcast](https://www.youtube.com/channel/UC0J5KuukgFn8KCMuuhkBZQw)
 * [Newsletter](https://newsletter.tally.xyz)
-* [Twitter](https://www.twitter.com/tallyxyz)
+* [Twitter / X](https://x.com/tallyxyz)
