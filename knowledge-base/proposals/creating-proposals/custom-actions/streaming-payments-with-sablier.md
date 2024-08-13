@@ -78,7 +78,7 @@ Here is an example of what a function call with `CreateWithRange` looks like:
 Signature: createWithRange(tuple)
 
 Calldata:
-tuple: [0xB57Ab8767CAe33bE61fF15167134861865F7D22C, 0xC09c8905cd3112deE53BbFBdeBC1e9C9963BD325, 3141000000000000000000, 0x6B175474E89094C44Da98b954EedeAC495271d0F, true, [1689811200, 1689811200, 1721433600], [0x0000000000000000000000000000000000000000, 0]]
+tuple: [0xB57Ab8767CAe33bE61fF15167134861865F7D22C, 0xC09c8905cd3112deE53BbFBdeBC1e9C9963BD325, 3141000000000000000000, 0x6B175474E89094C44Da98b954EedeAC495271d0F, true, true, [1689811200, 1689811200, 1721433600], [0x0000000000000000000000000000000000000000, 0]]
 
 Target: 0xB10daee1FCF62243aE27776D7a92D39dC8740f95
 Value: 0
@@ -97,6 +97,7 @@ tuple: [
   amount (decimals included),
   token contract address,
   cancelable (true/false),
+  transferable (true/false),
   [
     start date (unix timesteamp),
     cliff date (unix timesteamp),
@@ -116,6 +117,7 @@ Let’s go over them one by one:
 * **amount (decimals included):** the amount of tokens you are looking to stream, with decimals included, as previously explained. Numbers have to be sent between quotation marks, meaning if a parameter's value is 100.0, it should be written as "100.0".
 * **token contract address:** the contract address of the ERC-20 token you are looking to stream.
 * **cancelable (true/false):** whether or not the stream should be cancelable. We will go over this more in a minute.
+* transferable (true/false): whether or not the stream is transferable to someone else. We will go over this more in a minute.
 * **start date (unix timestamp):** the start date of the stream, as a UNIX timestamp. The Unix Timestamp is in seconds, not to be confused with milliseconds.
 * **cliff date (unix timestamp):** the cliff date of the stream, as a UNIX timestamp. We will go over this more in a minute.
 * **end date (unix timestamp):** the end date of the stream.
@@ -127,6 +129,12 @@ Regarding cancelation, all streams in Sablier V2 have a cancelation setting.
 If it’s set to `true`, that means that the stream can be canceled at any time by the stream creator. The stream creator is the DAO. Canceling the stream will stop it and return the funds which haven’t yet been streamed over to the stream creator. If the DAO wants to cancel a cancellable stream, generally that will require another proposal.
 
 If it’s set to `false`, the stream is non-cancelable, which means that it cannot be stopped. The recipient is then guaranteed to receive the funds in the stream, no matter what happens. Setting the stream as non-cancelable is an irreversible action, there’s no way to make it cancelable afterwards.
+
+Regarding transferability, all streams in Sablier V2 are represented by an NFT owned by the stream recipient. Whoever owns the NFT is the recipient of the stream.
+
+If transferability is set to true, the NFT (and by extension the stream) is transferable to someone else. This means the recipient could send the stream over to another address they own, or they could send it over to someone else. It also means the stream could be sold on OpenSea by the recipient without the vesting period being over. Or they could theoretically borrow against it in an NFT lending protocol by using it as collateral.
+
+If transferability is set to false, the NFT cannot be transferred to someone else. The recipient will not be able to sell it to someone else on a marketplace like OpenSea, and they won’t be able to borrow against it in an NFT lending protocol.
 
 Regarding the cliff date, it’s a cut-off point for releasing assets. Prior to the cliff, the recipient cannot withdraw, though assets continue to accrue in the stream. If you don’t want a cliff, you simply set the same date there as the start date.
 
@@ -141,6 +149,7 @@ tuple: [
   amount (decimals included),
   token contract address,
   cancelable (true/false),
+  transferable (true/false),
   [
     cliff duration (seconds),
     total (seconds)
