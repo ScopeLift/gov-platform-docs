@@ -8,7 +8,7 @@ description: Explore your DAO's homepage.
 
 ## DAO Home Page
 
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption><p>DAO Home page.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (7).png" alt=""><figcaption><p>DAO Home page.</p></figcaption></figure>
 
 On the DAO Home page, key information & metrics are shown. You'll also see a button to [**Delegate vote**](../delegations-on-tally/delegating-voting-power/) on the right hand side along with your voting power information.
 

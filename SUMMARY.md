@@ -23,6 +23,7 @@
   * [Delegating Voting Power](knowledge-base/delegations-on-tally/delegating-voting-power/README.md)
     * [Free Delegation](knowledge-base/delegations-on-tally/delegating-voting-power/free-delegation.md)
   * [Creating a Delegate Statement](knowledge-base/delegations-on-tally/creating-a-delegate-statement.md)
+* [🏦 Staking on Tally](knowledge-base/staking-on-tally.md)
 * [🗳️ Proposals on Tally](knowledge-base/proposals/README.md)
   * [Creating Proposals](knowledge-base/proposals/creating-proposals/README.md)
     * [Custom Actions](knowledge-base/proposals/creating-proposals/custom-actions/README.md)
