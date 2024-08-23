@@ -1,29 +1,29 @@
+---
+description: Tally support for Governance Staking
+---
+
 # 🏦 Staking on Tally
 
-**Staker**\
-The base layer of the Tally protocol is Staker, based on Uniswap's audited [UniStaker](https://github.com/uniswapfoundation/UniStaker). Staker works much like Uniswap's [Franchiser](https://github.com/NoahZinsmeister/franchiser) in that each pool of staked tokens are held in their own special purpose smart contract which can only delegate their voting power. The Staking contract is simple, permissionless, audited and has no special authorities. Optionally it can be deployed to be immutable, or upgradable directly by the DAO.
+The base layer of the Tally protocol is GovStaker. GovStaker rewards a DAO's tokenholders for participating in governance. The rewards can come from anywhere. The DAO's protocol fees or token issuance are common sources.
 
-This means that the base layer staking is very safe. Each user owns their own staking vault, and is free to use staker regardless of whether or not they use the Tally Protocol. This allows for maximum flexibility for the DAO and lets others also build yield generating infrastructure for the DAO's Token.
+In GovStaker, tokenholders may – and often must – use their staked tokens in governance. Staking supports – or even requires – that stakers delegate their staked tokens' voting power.
 
-<details>
+**Here's how it works:**
 
-<summary>Staker Explained </summary>
+* The DAO decides on eligibility criteria for GovStaker's rewards. For example, stakers might need to activate their voting power to be eligible.
+* Tokenholders stake tokens to be eligible for staking rewards. Staking and unstaking is instant.
+* The DAO sends rewards into its GovStaker. For example, the DAO might route protocol fees to staker.
+* GovStaker distributes those rewards among stakers over time. Each staker's reward is proportional to their staked balance over time.
+* Stakers set a beneficiary, such as themselves. The beneficiary can claim their accrued rewards at any time.
 
+**Implementation details:**
 
-
-<img src="../.gitbook/assets/a8cdc9eb3525f82b6e3132a8909599cf8386221d_2_1380x682.png" alt="" data-size="original">
-
-This means that the base layer staking is very safe. Each user owns their own staking vault, and is free to use staker regardless of whether or not they use the Tally Protocol. This allows for maximum flexibility for the DAO and lets others also build yield generating infrastructure for the DAO's Token.
-
-<img src="../.gitbook/assets/image.png" alt="" data-size="original">
-
-The Tally Protocol works by administering its own vault, not any other vault. The Tally protocol has no special powers over the staking contract, and has no access to users tokens other than the tokens it manages itself.
-
-<img src="../.gitbook/assets/image (2).png" alt="" data-size="original">
-
-This is important because it allows other teams, like [@OpenDollar](https://forum.arbitrum.foundation/u/opendollar) to build their own applications on top of staker and pass on revenue to their users. OpenDollar already has sponsored [Delegate Vaults](https://build.opendollar.com/Delegate-Vaults-d11732aa9dd04ce6a240fcda575844a5) which allows OpenDollar protocol controlled DAO tokens to participate in governance. This would allow their protocol to also stake and pass revenue to OpenDollar. We think this is an effective model to help protocols build businesses.
-
-</details>
+* GovStaker is an immutable contract with minimal governance. It does have two admin functions:
+  * Adding new sources of reward
+  * Changing the eligibility criteria
+* GovStaker is out-of-the-box compatible with existing \`ERC20Votes\` governance tokens. It supports \`ERC20Votes\` delegation with the "surrogate factory" pattern. GovStaker creates a surrogate contract for each delegate. It delegates voting power in each surrogate to the delegate.
+* Whenever GovStaker receives rewards, it distributes them over a period of time. Distributing over time gives unstaked tokenholders a chance to stake. A smooth schedule also minimizes discontinuities from flash staking.
+* The GovStaker contract builds on [UniStaker](https://github.com/uniswapfoundation/UniStaker). Unistaker is based on Syntheix's [StakingRewards](https://github.com/Synthetixio/synthetix/blob/develop/contracts/StakingRewards.sol).
 
 <details>
 
