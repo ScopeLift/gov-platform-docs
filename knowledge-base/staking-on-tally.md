@@ -8,7 +8,7 @@ The base layer of the Tally protocol is GovStaker. GovStaker rewards a DAO's tok
 
 <details>
 
-<summary>GovStaker</summary>
+<summary>GovStaker - rewarding governance participation</summary>
 
 
 
@@ -39,70 +39,49 @@ The second layer is a convenient liquid token wrapper on top of GovStaker. A gov
 
 <details>
 
-<summary>stTOKEN</summary>
+<summary>stTOKEN - liquid staked governance token</summary>
 
-**Tally Protocol**
+stTOKEN is the easiest way to get rewards from GovStaker.
 
-The protocol is a software convenience layer on top of staking designed to make the process of doing the work of selecting delegates (and holding them accountable!) easier for staker.\
+The system design starts from one key insight. Holders shouldn't have to choose between participating in governance and rewards! If they do, most of them will choose yield.
 
+If most tokens aren't active in governance, that undermines the DAO. Low participation ends in one of two failure modes. Either the DAO freezes because it has too few votes to pass proposals, or someone launches a 51% governance attack.
 
-<img src="../.gitbook/assets/image (3).png" alt="" data-size="original">
+stTOKEN solves this problem by having a default strategy for activating governance tokens. If the stTOKEN owner doesn't activate their voting power, the default strategy will.
 
-Again, the Tally Protocol only manages it’s own staked token vault, no one elses.
+**Here's how it works:**
 
-<img src="../.gitbook/assets/image (4).png" alt="" data-size="original">
+* A holder can stake their \`TOKEN\` balance to receive that many \`stTOKEN\`.
+* Optionally, the holder can delegate their voting power
+* The \`stTOKEN\` contract deposits \`TOKEN\` in GovStaker. \`stTOKEN\` assigns the voting power to the holder's chosen delegate, if any. Otherwise, it assigns the voting power using the delegation strategy
+* The delegation strategy is configured by \`TOKEN\` governance. This keeps the default voting power aligned with the DAO and mitigates capture risk.
+* The \`stTOKEN\` contract claims GovStaker's rewards daily.
+* The rewards are auctioned off for more \`TOKEN\`, which is added to each user's staked position. e.g. a balance of \`100 stTOKEN\` might become \`100.5 stTOKEN\`.
+* Holders can redeem their \`stTOKEN\` 1:1 for the underlying \`TOKEN\` at any time.
 
-What the Tally Protocol does that is special, is that it creates a _receipt token_ for the \[token] which is staked through it, called st\[token], and it returns it to the user.
+**FAQ**:
 
-<img src="../.gitbook/assets/image (5).png" alt="" data-size="original">
+**Who approves the default delegation strategy(s)?**
 
-The underlying tokens that the Tally Protocol have staked on the users behalf are _always_ available to redeem, 1:1 plus rewards, at any time, with no delay or lockup.
+The underlying goverance does. e.g. Arbitrum governance would pick the delegation strategy for \`stARB\`. If Arbiturm governance does not approve one, Tally Protocol's governance picks a default.
 
-<img src="../.gitbook/assets/image (6).png" alt="" data-size="original">
+**Is there liquidity risk?**
 
-This is a very important point. The st\[token] receipt is functionally equivalent to the underlying token, it can be exchanged at any time. Because of this, there is no risk of a depeg event for the st\[token]:\[token] exchange rate. Any deviation from a 1:1 exchange rate would be instantly arbitraged by 3rd parties staking or unstaking st\[token]:\[token] to capture any deviation in the exchange rate.
+Liquidity risk is minimal, because unstaking is instant. If there is a price difference between TOKEN and stTOKEN, arbitrageurs can arb it away.
 
-</details>
+**Can stTOKEN be used in restaking and DeFi?**
 
-**Of course this means we need to be **_**very**_** sure that you can always redeem 1:1. To be sure of this we’re doing several things:**
+Yes, that's one of the primary motivations. stTOKEN holders can have it all. They can participate in governance, earn rewards for doing so, and use their position as collateral. stTOKEN is a rebasing token, but a wrapped non-rebasing token will also be available.
 
-<details>
+**Is there risk of delegation strategies capturing governance?**
 
-<summary>Simplicity </summary>
-
-
-
-One of the most powerful tools in security is simplicity. The Tally Protocol itself is very simple, and the contract which manages the token is essentially just a wrapper contract that deposits the DAO \[token] into staker and mints st\[token], or takes in st\[token], and returns \[token].
-
-The contract is easy to reason about, easy to test, and intentionally designed to be very simple.
-
-To address some of your specific questions:
-
-1. **Misalignment Risk: The ratio of unlocked tokens to quorum requirements may become imbalanced, potentially making governance decisions either too easy (if quorum is too low relative to supply) or too difficult (if quorum is too high).**
-
-There is no danger of misalignment risk in the protocol as there are no locked tokens.
-
-Holders of st\[token] have all the same governance rights as \[token] holders and the two tokens are effectively identical (except the fact that st\[token]'s also earn auto-compounding yield). As there is no lockup period, users are free to move between the two tokens at any time, meaning there is effectively no change in _how_ the tokens interact with governance.
-
-What we do hope happens however is that more token holders participate in governance. If that happens it might be worthwhile revisiting quorum requirements, but keep in mind this is a _feature_ not a bug. There is no leveraged voting power being created here, users are electing themselves to be more active in governance. The delegation strategies the DAO might elect to use in the Tally Protocol are no different than users choosing to delegate their tokens themselves.
-
-Additionally, delegation strategies have no special powers that might present a danger. Token holders are free to change delegation strategies at any time. Poorly implemented delegation strategies do not pose a feedback loop danger, and in the absolute worst case scenario users simply withdraw their tokens, or delegate to themselves.
-
-In essence, the Tally Protocol does not introduce any new variables to the game theory of how DAO governance currently operates. All the expectations we hold to be true in vanilla DAO governance and hold true with the Tally Protocol as a governance participant as well.
-
-2. **Participation Gap: Even with increased staking, the growth in active participants may lag behind the growth in token supply, making it progressively harder to reach quorum over time.**
-
-This is not a concern with either staker or Tally Protocol. All tokens in staking and Tally protocol must be delegated (this is not optional and is core to why staking works: users _must_ do effort to be rewarded such that they are rewarded specifically for their own efforts). This means that increase of tokens staking whether directly, or via the Tally protocol strictly results in an increase of delegated voting power.
-
-In the implementation we are proposing for DAOs there are economic incentives to be sure the delegated voter is active as well.
-
-This is actually _safer_ for DAOs and ensures that participation in the DAO is always high and grows as more token holders elect to use the staker or the protocol.
-
-3. **Governance Efficacy: This potential misalignment could affect the DAO’s ability to make timely and representative decisions, especially if a significant portion of the growing token supply remains passive in governance.**
-
-There are no passive tokens in the Tally Protocol or in staking as 100% of staked tokens, whether through the Tally protocol or directly via staker are at a minimum delegated. This means that the efficacy of the DAO is unchanged from today's status quo: either delegates vote or they don’t. The Tally protocol and staking don’t influence the commitment of our delegates to participate.
-
-In the implementation we are specifically suggesting for DAOs there are also requirements that rewards be linked to _participation_, meaning there is a strong economic incentive to actively participate in governance for both the token holders and their delegate. Staking and the Tally Protocol will substantially work to significantly reduce passive holders and reward actives in the DAO.
+Delegation strategies have no special powers that might present a danger. Token holders are free to change delegation strategies at any time. Poorly implemented delegation strategies do not pose a feedback loop danger. In the worst case, users withdraw their tokens or delegate them by hand.
 
 </details>
+
+Together, these two building blocks close the loop on governance incentives:
+
+* Holders are economically aligned with the protocol
+* Holders are incentivized to participate in governance by the eligibilty criteria
+* Holders don't have to choose between yield and participation. That opens up even more design space for building token-aligned services on top, without compromising governance.
 
