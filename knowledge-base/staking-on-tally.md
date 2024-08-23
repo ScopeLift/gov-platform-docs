@@ -4,7 +4,15 @@ description: Tally support for Governance Staking
 
 # 🏦 Staking on Tally
 
-The base layer of the Tally protocol is GovStaker. GovStaker rewards a DAO's tokenholders for participating in governance. The rewards can come from anywhere. The DAO's protocol fees or token issuance are common sources.
+The base layer of the Tally protocol is GovStaker. GovStaker rewards a DAO's tokenholders for participating in governance. The rewards can come from anywhere, such as the DAO's protocol fees or token issuance.
+
+<details>
+
+<summary>GovStaker</summary>
+
+
+
+The base layer of the Tally protocol is GovStaker. GovStaker rewards a DAO's tokenholders for participating in governance. The rewards can come from anywhere, such as the DAO's protocol fees or token issuance.
 
 In GovStaker, tokenholders may – and often must – use their staked tokens in governance. Staking supports – or even requires – that stakers delegate their staked tokens' voting power.
 
@@ -24,6 +32,10 @@ In GovStaker, tokenholders may – and often must – use their staked tokens in
 * GovStaker is out-of-the-box compatible with existing \`ERC20Votes\` governance tokens. It supports \`ERC20Votes\` delegation with the "surrogate factory" pattern. GovStaker creates a surrogate contract for each delegate. It delegates voting power in each surrogate to the delegate.
 * Whenever GovStaker receives rewards, it distributes them over a period of time. Distributing over time gives unstaked tokenholders a chance to stake. A smooth schedule also minimizes discontinuities from flash staking.
 * The GovStaker contract builds on [UniStaker](https://github.com/uniswapfoundation/UniStaker). Unistaker is based on Syntheix's [StakingRewards](https://github.com/Synthetixio/synthetix/blob/develop/contracts/StakingRewards.sol).
+
+</details>
+
+The second layer is a convenient liquid token wrapper on top of GovStaker. A governance token with ticker `GOV` would get `stGOV`. `stGOV` automates claiming rewards and delegating governance power. It's like what `stETH` does for ETH staking.
 
 <details>
 
@@ -91,14 +103,6 @@ This is actually _safer_ for DAOs and ensures that participation in the DAO is a
 There are no passive tokens in the Tally Protocol or in staking as 100% of staked tokens, whether through the Tally protocol or directly via staker are at a minimum delegated. This means that the efficacy of the DAO is unchanged from today's status quo: either delegates vote or they don’t. The Tally protocol and staking don’t influence the commitment of our delegates to participate.
 
 In the implementation we are specifically suggesting for DAOs there are also requirements that rewards be linked to _participation_, meaning there is a strong economic incentive to actively participate in governance for both the token holders and their delegate. Staking and the Tally Protocol will substantially work to significantly reduce passive holders and reward actives in the DAO.
-
-</details>
-
-<details>
-
-<summary>Auditing</summary>
-
-We will be doing many audits over the course of the lifetime of the Tally Protocol to ensure it’s safe. I myself (Dennison) was an early team member of OpenZeppelin and know how important security is. It’s a top priority.
 
 </details>
 
