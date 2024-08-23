@@ -1,5 +1,5 @@
 ---
-description: Tally support for Governance Staking
+description: Tally protocol for Governance Staking
 ---
 
 # 🏦 Staking on Tally
@@ -39,7 +39,7 @@ The second layer is a convenient liquid token wrapper on top of GovStaker. A gov
 
 <details>
 
-<summary>The Tally Protocol</summary>
+<summary>stTOKEN</summary>
 
 **Tally Protocol**
 
