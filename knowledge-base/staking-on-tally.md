@@ -59,11 +59,11 @@ The Governance LST solves this problem by having a default strategy for activati
 
 **Who approves the default delegation strategy(s)?**
 
-The underlying governance does. e.g. Arbitrum governance would pick the delegation strategy for \`stARB\`. If Arbiturm governance does not approve one, Tally Protocol's governance picks a default.
+The underlying governance does. e.g. Arbitrum governance would pick the delegation strategy for \`stARB\`. If Arbitrum governance does not approve one, Tally Protocol's governance picks a default.
 
 **Is there liquidity risk?**
 
-Liquidity risk is minimal, because unstaking is instant. If there is a price difference between TOKEN and stTOKEN, arbitrageurs can arb it away.
+Liquidity risk is minimal, because unstaking is instant. If there is a price difference between TOKEN and stTOKEN, arbitrageurs can arbitrage it away.
 
 **Can Governance LSTs be used in restaking and DeFi?**
 
