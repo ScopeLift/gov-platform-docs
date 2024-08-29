@@ -111,6 +111,7 @@
 * [📝 Governor Proposal Standards](user-guides/governor-proposals/README.md)
   * [Governor Proposal Descriptions Standards](user-guides/governor-proposals/whats-the-standard-for-governor-proposal-descriptions.md)
 * [🧑‍🚀 Using Governor with Gnosis Safe](user-guides/using-governor-with-gnosis-safe/README.md)
+  * [Voting with a Gnosis Safe](user-guides/using-governor-with-gnosis-safe/voting-with-a-gnosis-safe.md)
   * [Arbitrum Gnosis Safes](user-guides/using-governor-with-gnosis-safe/arbitrum-gnosis-safes.md)
   * [Zodiac Governor Module for SubDAOs and Grants Programs](user-guides/using-governor-with-gnosis-safe/zodiac-governor-module-for-subdaos-and-grants-programs.md)
 * [👩‍💻 Tally API](tally-api/welcome.md)
