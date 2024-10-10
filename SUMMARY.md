@@ -45,10 +45,10 @@
 
 ## Premium Features
 
-* [🔌 Chain Integration](premium-features/chain-integration.md)
 * [🚀 Governance Launcher](premium-features/governance-launcher.md)
 * [⛓️ MultiGov](premium-features/multichain-governance.md)
 * [🎭 Optimistic Governance](premium-features/optimistic-governance.md)
+* [🔌 Chain Integration](premium-features/chain-integration.md)
 * [⛽ Relay](premium-features/relay/README.md)
   * [Free Delegation](premium-features/relay/free-delegation.md)
   * [Gasless Voting](premium-features/relay/gasless-voting.md)
