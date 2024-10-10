@@ -118,6 +118,7 @@
 * [👩‍💻 Tally API](tally-api/welcome.md)
 * [⚠️ Security](user-guides/security.md)
 * [🌉 Bridge Providers](user-guides/bridge-providers.md)
+* [🏦 Payment Addresses](user-guides/payment-addresses.md)
 
 ## Resources
 
