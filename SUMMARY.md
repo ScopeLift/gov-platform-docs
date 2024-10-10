@@ -45,6 +45,7 @@
 
 ## Premium Features
 
+* [🔌 Chain Integration](premium-features/chain-integration.md)
 * [🚀 Governance Launcher](premium-features/governance-launcher.md)
 * [⛓️ MultiGov](premium-features/multichain-governance.md)
 * [🎭 Optimistic Governance](premium-features/optimistic-governance.md)
