@@ -115,6 +115,10 @@ Tally currently supports these EVM-compatible networks:
 
 * Lisk Sepolia Testnet
 
+**Zircuit**
+
+* Zircuit Mainnet
+
 **Darwinia**
 
 * Darwinia Mainnet
@@ -130,6 +134,36 @@ Tally currently supports these EVM-compatible networks:
 **Gravity**
 
 * Gravity Alpha Mainnet
+
+**Morph**
+
+* Morph Holesky
+
+**Berachain**
+
+* Berachain bArtio Testnet
+
+**Cyber**
+
+* Cyber Mainnet
+
+**Kinto**
+
+* Kinto Mainnet
+
+**RARI**
+
+* RARI Chain Mainnet
+
+**Vana**
+
+* Vana Moksha Testnet
+
+**ZetaChain**
+
+* ZetaChain Athens 3 Testnet
+
+
 
 ***
 
