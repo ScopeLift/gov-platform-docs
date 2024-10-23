@@ -29,6 +29,16 @@ In Governance Staking, tokenholders may – and often must – use their staked 
 * Whenever Governance Staking receives rewards, it distributes them over a period of time. Distributing over time gives unstaked tokenholders a chance to stake. A smooth schedule also minimizes discontinuities from flash staking.
 * The Governance Staking contract builds on [UniStaker](https://github.com/uniswapfoundation/UniStaker). Unistaker is based on Syntheix's [StakingRewards](https://github.com/Synthetixio/synthetix/blob/develop/contracts/StakingRewards.sol).
 
+**FAQ**
+
+**Where do rewards come from?**
+
+Rewards can come from anywhere. The most common sources are 1) protocol revenue and 2) issuance of the protocol's native token from treasury and/or inflation.
+
+**What are rewards denominated in?**
+
+Rewards can be in any ERC20 token or tokens. Each token has to be whitelisted by the DAO to prevent spam and griefing.
+
 </details>
 
 A Governance LST is the second layer of the protocol. It's a convenient liquid token wrapper on top of Governance Staking. A Governance LST automates claiming rewards and delegating governance power. It's like what `stETH` does for ETH staking.
@@ -57,17 +67,21 @@ The Governance LST solves this problem by having a default strategy for activati
 
 **FAQ**:
 
-**Who approves the default delegation strategy(s)?**
+**Can the LST participate in governance?**
 
-The underlying governance does. e.g. Arbitrum governance would pick the delegation strategy for \`stARB\`. If Arbitrum governance does not approve one, Tally Protocol's governance picks a default.
+Yes! The LST can delegate its voting power directly, like a normal governance token. If the holder doesn't delegate the votes, the LST uses the delegation strategy instead. That way, LST voting power is always active in governance.&#x20;
 
-**Is there liquidity risk?**
+**Is there liquidity risk of LST vs the underlying token?**
 
 Liquidity risk is minimal, because unstaking is instant. If there is a price difference between TOKEN and stTOKEN, arbitrageurs can arbitrage it away.
 
 **Can Governance LSTs be used in restaking and DeFi?**
 
 Yes, that's one of the primary motivations. LST holders can have it all. They can participate in governance, earn rewards for doing so, and use their position as collateral. The LST is a rebasing token, but it's easy to wrap it into a non-rebasing LST.
+
+**Who approves the default delegation strategy(s)?**
+
+The underlying governance does. e.g. Arbitrum governance would pick the delegation strategy for \`stARB\`. If Arbitrum governance does not approve one, Tally Protocol's governance picks a default.
 
 **Is there risk of delegation strategies capturing governance?**
 
