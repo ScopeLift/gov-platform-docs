@@ -29,6 +29,8 @@ In Governance Staking, tokenholders may – and often must – use their staked 
 * Whenever Governance Staking receives rewards, it distributes them over a period of time. Distributing over time gives unstaked tokenholders a chance to stake. A smooth schedule also minimizes discontinuities from flash staking.
 * The Governance Staking contract builds on [UniStaker](https://github.com/uniswapfoundation/UniStaker). Unistaker is based on Syntheix's [StakingRewards](https://github.com/Synthetixio/synthetix/blob/develop/contracts/StakingRewards.sol).
 
+![](<../.gitbook/assets/governance-staking (1).png>)
+
 **FAQ**
 
 **Where do rewards come from?**
