@@ -1,4 +1,8 @@
-# 🏛 Governance Frameworks
+---
+icon: pencil
+---
+
+# Governance Frameworks
 
 {% content-ref url="../../user-guides/smart-contract-compatibility/openzeppelin-governor.md" %}
 [openzeppelin-governor.md](../../user-guides/smart-contract-compatibility/openzeppelin-governor.md)

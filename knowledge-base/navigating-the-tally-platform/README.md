@@ -1,8 +1,9 @@
 ---
 description: Find your way around Tally.
+icon: magnifying-glass
 ---
 
-# 🗺 Navigating the Tally Platform
+# Navigating the Tally Platform
 
 {% content-ref url="getting-started.md" %}
 [getting-started.md](getting-started.md)

@@ -1,8 +1,9 @@
 ---
 description: The Tally API is in open beta!
+icon: computer
 ---
 
-# 👩‍💻 Tally API
+# Tally API
 
 The [Tally API](https://apidocs.tally.xyz/) makes it easy to query onchain data about Governor DAOs. List Governors, onchain proposals, and accounts with delegations. Use the API to build notifications, dig into voter data or build governance right into your game or app.
 

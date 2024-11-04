@@ -1,8 +1,9 @@
 ---
 description: Remove barriers to DAO governance participation with gasless transactions.
+icon: gas-pump
 ---
 
-# ⛽ Relay
+# Relay
 
 In DAOs, every transaction counts—every vote, every delegation, and every proposal created means something for the future of the organization.Yet, the cost of gas fees has long acted as a barrier to meaningful governance participation. Tally recognizes this challenge and introduces Relay, a revolutionary premium feature aimed at democratizing governance for all.
 

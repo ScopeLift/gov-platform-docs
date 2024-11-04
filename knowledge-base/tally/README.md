@@ -1,4 +1,8 @@
-# ⚡ What is Tally?
+---
+icon: face-smile
+---
+
+# What is Tally?
 
 ## Tally is a frontend for onchain decentralized organizations.
 

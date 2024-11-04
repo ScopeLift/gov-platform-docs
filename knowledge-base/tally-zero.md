@@ -1,8 +1,9 @@
 ---
 description: A decentralized voting application
+icon: '0'
 ---
 
-# 0️⃣ Tally Zero
+# Tally Zero
 
 > _Tally Zero is a completely decentralized voting application that uses React and IPFS via thirdweb. This app allows you to connect to any governor address and vote on a proposal in a completely decentralized way._
 

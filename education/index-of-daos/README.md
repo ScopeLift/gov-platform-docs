@@ -1,4 +1,8 @@
-# 💻 Index of DAOs
+---
+icon: folder-open
+---
+
+# Index of DAOs
 
 {% content-ref url="daos-on-tally/" %}
 [daos-on-tally](daos-on-tally/)

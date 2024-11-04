@@ -1,8 +1,9 @@
 ---
 description: Decentralize multi-sig control of your DAO.
+icon: people-group
 ---
 
-# 🔐 Council Elections
+# Council Elections
 
 Council elections are a pivotal aspect of decentralized governance, ensuring that the guardianship of a DAO remains in the hands of its community. Elections serve as a testament to the democratic ethos of DAOs, allowing stakeholders to have a say in selecting the individuals who will be at the forefront of safeguarding their interests.&#x20;
 

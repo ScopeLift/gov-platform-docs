@@ -1,8 +1,9 @@
 ---
 description: Governing protocols on multiple chains
+icon: link
 ---
 
-# ⛓️ MultiGov
+# MultiGov
 
 Tally has partnered with [Wormhole](https://wormhole.com/) on MultiGov, which powers multichain governance for DAOs. &#x20;
 

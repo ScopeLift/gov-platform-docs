@@ -1,4 +1,8 @@
-# 🔌 Chain Integration
+---
+icon: plus
+---
+
+# Chain Integration
 
 To support DAOs on a new network, we need to integrate that network into our system. This integration enables all DAOs on the new network to utilize our platform's features and services.
 

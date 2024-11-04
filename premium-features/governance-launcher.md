@@ -1,8 +1,9 @@
 ---
 description: Take your DAO from 0 to 1 at our one-stop shop for DAO creation.
+icon: rocket-launch
 ---
 
-# 🚀 Governance Launcher
+# Governance Launcher
 
 Get it right the first time. In the complicated process of launching a sustainable DAO, having the right tools can make all the difference. Governance Launcher not only provides the technical infrastructure but also ensures that DAOs can foster community engagement, maintain transparency, and drive participation.
 
@@ -15,6 +16,8 @@ Whether you're looking to distribute tokens or give your DAO a unique online pre
 ### What is Governance Launcher?
 
 Governance Launcher is a comprehensive way to streamline and simplify the process of launching and managing a DAO. Governance Launcher includes 6 features:
+
+
 
 With a focus on user experience and seamless integration, Governance Launcher offers tailored solutions that cater to the unique needs of DAOs, ensuring they can operate efficiently and effectively right from inception.&#x20;
 

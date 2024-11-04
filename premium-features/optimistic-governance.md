@@ -1,8 +1,9 @@
 ---
 description: Streamline DAO operations with an Optimistic Governance setup
+icon: message-smile
 ---
 
-# 🎭 Optimistic Governance
+# Optimistic Governance
 
 Optimistic Governance is a DAO setup designed to move quickly. Optimistic Governance lets a small group of decision-makers propose changes, subject to a veto from the larger DAO.
 

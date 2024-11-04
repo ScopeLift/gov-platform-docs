@@ -1,8 +1,9 @@
 ---
 description: Learn about what decentralized governance is and why it matters.
+icon: newspaper
 ---
 
-# 📜 Governance Concepts
+# Governance Concepts
 
 {% content-ref url="decentralized-governance-overview.md" %}
 [decentralized-governance-overview.md](decentralized-governance-overview.md)

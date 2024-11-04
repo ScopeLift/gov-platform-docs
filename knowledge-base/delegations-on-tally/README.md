@@ -2,9 +2,10 @@
 description: >-
   Learn everything you need to know about delegating your voting power—or
   becoming a delegate yourself.
+icon: people-arrows
 ---
 
-# 🤝 Delegations on Tally
+# Delegations on Tally
 
 ### Tally is the best place to explore DAO delegates.
 

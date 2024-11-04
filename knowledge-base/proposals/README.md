@@ -2,9 +2,10 @@
 description: >-
   Learn everything you need to know about managing the proposal lifecycle on
   Tally.
+icon: ballot-check
 ---
 
-# 🗳 Proposals on Tally
+# Proposals on Tally
 
 {% content-ref url="creating-proposals/" %}
 [creating-proposals](creating-proposals/)

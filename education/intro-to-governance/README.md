@@ -2,9 +2,10 @@
 description: >-
   Learn about decentralized governance from overviews of key concepts,
   individual protocols, and voting system frameworks.
+icon: brain
 ---
 
-# 🤔 Getting Started
+# Intro to Governance
 
 {% content-ref url="general-ecosystem-info.md" %}
 [general-ecosystem-info.md](general-ecosystem-info.md)

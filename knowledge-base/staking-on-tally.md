@@ -1,8 +1,9 @@
 ---
 description: Tally protocol for Governance Staking
+icon: money-bill-transfer
 ---
 
-# 🏦 Staking on Tally
+# Staking on Tally
 
 The base layer of the Tally protocol is Governance Staking. Governance Staking rewards a DAO's tokenholders for participating in governance. The rewards can come from anywhere, such as the DAO's protocol fees or token issuance.
 

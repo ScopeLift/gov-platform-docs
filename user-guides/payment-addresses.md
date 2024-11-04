@@ -1,4 +1,8 @@
-# 🏦 Payment Addresses
+---
+icon: cart-shopping
+---
+
+# Payment Addresses
 
 Tally accepts payments on multiple blockchain networks. Please use the appropriate address for the network you wish to send on, and double-check the address before sending any funds.
 
