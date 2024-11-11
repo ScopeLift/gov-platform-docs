@@ -46,12 +46,10 @@ Tally currently supports these EVM-compatible networks:
 **Base**
 
 * Base Mainnet
-* Base Goerli Testnet (deprecated)
 * Base Sepolia Testnet
 
 **Scroll**
 
-* Scroll Alpha Testnet
 * Scroll Sepolia Testnet
 * Scroll Mainnet
 
@@ -61,7 +59,6 @@ Tally currently supports these EVM-compatible networks:
 
 **zkSync**
 
-* zkSync Era Goerli Testnet
 * zkSync Era Mainnet
 * zkSync Sepolia Testnet
 
@@ -77,7 +74,6 @@ Tally currently supports these EVM-compatible networks:
 **Mantle**
 
 * Mantle Mainnet
-* Mantle Testnet (deprecated)
 * Mantle Sepolia Testnet
 
 **Kroma**
@@ -88,10 +84,6 @@ Tally currently supports these EVM-compatible networks:
 **Iota**
 
 * ShimmerEVM Testnet
-
-**PulseChain**
-
-* PulseChain Mainnet
 
 **Immutable**
 
