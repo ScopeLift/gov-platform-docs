@@ -9,7 +9,6 @@ Tally currently supports these EVM-compatible networks:
 **Ethereum**
 
 * Ethereum Mainnet
-* Ethereum Goerli Testnet
 * Ethereum Sepolia Testnet
 * Ethereum Holesky Testnet
 
@@ -18,10 +17,9 @@ Tally currently supports these EVM-compatible networks:
 * Polygon Mainnet
 * Polygon zkEVM
 * Polygon zkEVM Testnet
-* Polygon Mumbai Testnet (deprecated)
 * Polygon Amoy Testnet
 
-**Binance Smart Chain**&#x20;
+**Binance Smart Chain**
 
 * Binance Smart Chain Mainnet
 * Binance Smart Chain Testnet
@@ -29,13 +27,12 @@ Tally currently supports these EVM-compatible networks:
 **Arbitrum**
 
 * Arbitrum One
-* Arbitrum Goerli Rollup Testnet
 * Arbitrum Nova
+* Arbitrum Sepolia Testnet
 
 **Optimism**
 
 * Optimism Mainnet
-* Optimism Goerli Testnet
 
 **Avalanche**
 
@@ -46,19 +43,19 @@ Tally currently supports these EVM-compatible networks:
 
 * Gnosis Chain Mainnet
 
-#### Base
+**Base**
 
 * Base Mainnet
 * Base Goerli Testnet (deprecated)
 * Base Sepolia Testnet
 
-#### **Scroll**
+**Scroll**
 
 * Scroll Alpha Testnet
 * Scroll Sepolia Testnet
 * Scroll Mainnet
 
-#### Moonbeam
+**Moonbeam**
 
 * Moonbeam Mainnet
 
