@@ -152,7 +152,10 @@ Tally currently supports these EVM-compatible networks:
 
 * ZetaChain Athens 3 Testnet
 
+**Rootstock**
 
+* Rootstock Mainnet
+* Rootstock Testnet
 
 ***
 
