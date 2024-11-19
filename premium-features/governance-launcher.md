@@ -1,6 +1,6 @@
 ---
-description: Take your DAO from 0 to 1 at our one-stop shop for DAO creation.
 icon: rocket-launch
+description: Take your DAO from 0 to 1 at our one-stop shop for DAO creation.
 ---
 
 # Governance Launcher
@@ -25,7 +25,7 @@ With a focus on user experience and seamless integration, Governance Launcher of
 
     _Tally will provide a comprehensive governance solution, including all of the features mentioned in “About Tally” above. These features are complete and ready to be used by the DAO:_
 
-    * **Whitelabel Governance Platform:** A whitelabel version of our governance platform that can be hosted at a custom domain.
+    * **Custom Domain:** A version of our governance platform that can be hosted at a custom domain.
     * **Voting:** Secure, transparent, and efficient voting mechanisms to ensure that all governance decisions reflect the will of the community.
     * **Proposal Execution:** Automated execution of approved proposals.
     * **Proposal Drafting and Collaboration:** Collaborative proposal creation through tools designed to enable multiple contributors to work together seamlessly.
