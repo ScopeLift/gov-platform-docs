@@ -1,11 +1,11 @@
 ---
-description: Remove barriers to DAO governance participation with gasless transactions.
 icon: gas-pump
+description: Remove barriers to DAO governance participation with gasless transactions.
 ---
 
 # Relay
 
-In DAOs, every transaction counts—every vote, every delegation, and every proposal created means something for the future of the organization.Yet, the cost of gas fees has long acted as a barrier to meaningful governance participation. Tally recognizes this challenge and introduces Relay, a revolutionary premium feature aimed at democratizing governance for all.
+In DAOs, every transaction counts—every vote, every delegation, and every proposal created means something for the future of the organization. Yet, the cost of gas fees has long acted as a barrier to meaningful governance participation. Tally recognizes this challenge and introduces Relay, a revolutionary premium feature aimed at democratizing governance for all.
 
 Using Relay, DAOs can sponsor a transaction budget for their members, covering gas fees for specific or all transactions made in the DAO.
 
@@ -21,7 +21,7 @@ Relay by Tally is a game-changer for DAOs and their members. It empowers DAOs to
 
 ### **What is Relay?**
 
-Relay is Tally's answer to the growing need for gasless transactions in DAOs. In essence, it allows users to relay any transaction—delegating, voting, or creating proposals—without incurring the often prohibitive gas fees associated with such actions.&#x20;
+Relay is Tally's answer to the growing need for gasless transactions in DAOs. In essence, it allows users to relay delegation and voting transactions without incurring the often prohibitive gas fees associated with such actions.&#x20;
 
 DAOs can fund a budget dedicated to Relay transactions through Tally. Tally will then relay transactions for the DAO, making governance participation free for members. Tally sustains itself by taking a small fee on each transaction, ensuring the continued operation of the Relay service.
 
