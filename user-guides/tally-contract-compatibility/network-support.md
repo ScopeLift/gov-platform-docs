@@ -146,6 +146,7 @@ Tally currently supports these EVM-compatible networks:
 
 **Vana**
 
+* Vana Mainnet
 * Vana Moksha Testnet
 
 **ZetaChain**
