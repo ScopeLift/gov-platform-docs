@@ -68,8 +68,8 @@ Tally currently supports these EVM-compatible networks:
 
 **Linea**
 
-* Linea Testnet
 * Linea Mainnet
+* Linea Testnet
 
 **Mantle**
 
