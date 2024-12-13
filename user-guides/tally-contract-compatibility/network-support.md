@@ -158,6 +158,11 @@ Tally currently supports these EVM-compatible networks:
 * Rootstock Mainnet
 * Rootstock Testnet
 
+**Corn**
+
+* Corn Maizenet
+* Corn Testnet
+
 ***
 
 ### Adding chains to Tally
