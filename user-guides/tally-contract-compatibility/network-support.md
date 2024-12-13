@@ -57,10 +57,10 @@ Tally currently supports these EVM-compatible networks:
 
 * Moonbeam Mainnet
 
-**zkSync**
+**ZKsync**
 
-* zkSync Era Mainnet
-* zkSync Sepolia Testnet
+* ZKsync Era Mainnet
+* ZKsync Sepolia Testnet
 
 **Celo**
 
