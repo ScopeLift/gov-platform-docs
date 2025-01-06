@@ -1,8 +1,8 @@
 ---
+icon: square-dollar
 description: >-
   Tally activated a 0.25% fee for all executed transfer proposals as of July 1,
   2024.
-icon: square-dollar
 ---
 
 # Tally Fees
@@ -18,7 +18,7 @@ Tally offers a wide range of product features for DAOs to power protocols, manag
 
 The 0.25% fee on proposal transfers creates revenue to enable Tally to continue to innovate & support the DAO ecosystem in the future. Fee revenue supports operational costs, maintenance, & product development as Tally maintains its commitment to the decentralized organizations.\
 \
-_DAOs that have existing agreements with Tally are excluded._
+&#xNAN;_&#x44;AOs that have existing agreements with Tally are excluded._
 
 
 

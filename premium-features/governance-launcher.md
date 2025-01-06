@@ -54,7 +54,7 @@ _Tally has established a network across the governance ecosystem, serving as a b
 * **Personalized Introductions:** Tally will provide direct connections to professional delegates, service providers, and other individuals within our network, tailored to match the DAO's governance wants and needs. We are also happy to have a Tally team member serve as a delegate.
 * **Co-marketing Efforts:** Tally will **s**upport in amplifying the DAO's calls for delegates through retweets.
 
-4. ## **Delegate Registration** ([Demo](https://drive.google.com/file/d/1ryLl\_-H9gNOZPCsz6Umdp330IIiVJFke/view?usp=drive\_link))
+4. ## **Delegate Registration** ([Demo](https://drive.google.com/file/d/1ryLl_-H9gNOZPCsz6Umdp330IIiVJFke/view?usp=drive_link))
 
 _Knowing well the importance of a structured and accessible delegate registration process, Tally provides a comprehensive Delegate Registration flow, designed to streamline delegate acquisition._
 
@@ -62,12 +62,12 @@ _Knowing well the importance of a structured and accessible delegate registratio
 * **Delegate Sign-up Process:** Tally will implement an intuitive sign-up flow for users interested in becoming delegates.
 * **Newsletter Announcements:** Tally will feature the DAO's call for delegates in [The Tally Newsletter](https://newsletter.tally.xyz/), reaching an audience of over 1500 governance enthusiasts and potential delegates.
 
-5. ## **Claim and Delegation Experience**  ([Demo](https://drive.google.com/file/d/1ryLl\_-H9gNOZPCsz6Umdp330IIiVJFke/view?usp=drive\_link))
+5. ## **Claim and Delegation Experience**  ([Demo](https://drive.google.com/file/d/1ryLl_-H9gNOZPCsz6Umdp330IIiVJFke/view?usp=drive_link))
 
 _We consistently see that when delegation is not part of the initial claim process, the likelihood of subsequent delegation diminishes significantly. Inactive tokens sitting in wallets hinders active governance participation and that’s why we really recommend delegation go hand in hand with airdrop claim flow._
 
 \
-_To ensure a smooth and convenient transition from token claim to active governance participation, Tally provides a post-claim delegation experience. This is crucial to enhancing user engagement by simplifying the delegation process._
+&#xNAN;_&#x54;o ensure a smooth and convenient transition from token claim to active governance participation, Tally provides a post-claim delegation experience. This is crucial to enhancing user engagement by simplifying the delegation process._
 
 * **Custom Token Claim Interface:** Tally will create a custom UI for users to claim the governance token and immediately delegate their tokens to ensure governance participation from the onset.
 * **Seamless Delegate Discovery and Selection:** Tally will develop a user-friendly interface that guides token holders through the process of discovering and selecting delegates, immediately following the token claim experience.

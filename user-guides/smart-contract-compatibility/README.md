@@ -1,6 +1,6 @@
 ---
-description: How to make your Token and Governor contract compatible with Tally
 icon: gear
+description: How to make your Token and Governor contract compatible with Tally
 ---
 
 # Tally Contract Compatibility
@@ -13,8 +13,8 @@ Here, we describe the interface that your contracts need to follow to be compati
 
 If you do need to change something, check the dependencies here in the docs to make sure that your changes are compatible with Tally’s data indexing and web3 calls.
 
-{% content-ref url="../tally-contract-compatibility/network-support.md" %}
-[network-support.md](../tally-contract-compatibility/network-support.md)
+{% content-ref url="broken-reference" %}
+[Broken link](broken-reference)
 {% endcontent-ref %}
 
 {% content-ref url="openzeppelin-governor.md" %}

@@ -4,20 +4,26 @@ description: Tally offers simplified tuple arrays in Custom Actions.
 
 # Tuple Support
 
-We have integrated tuple arrays into our create proposal platform. Tuple arrays, sophisticated yet straightforward data structures, revolutionize how we handle proposal data by allowing a diverse range of information types to be neatly packaged and processed. This guide will explore what tuple arrays are, how they function, and why they are a game-changer in streamlining governance proposals.
+Tally's Custom Action builder supports the `tuple[]` type, called tuple arrays.
 
 ### What are tuple arrays?
 
-Tuple arrays are groups of tuples, data structures  that contains a fixed number of elements, each of which can be of a different type. For instance, a tuple can contain an integer, a string, and a boolean value all together. Tuple arrays allow for more efficient handling of complex and structured data.
+The `tuple`type in Soldity is a data structure that contains a fixed number of elements, each of which can be of a different type. For instance, a tuple can contain an integer, a string, and a boolean value all together. The `tuple[]`type, called a "tuple array", contains a list of tuples.
 
-To use tuple arrays, add Custom Actions to your proposal. Then, use the imported ABI. The contract method you choose will include tuple arrays.
+### Building a tuple array
+
+To create a proposal with a tuple array, add Custom Actions to your proposal. Then, use the imported ABI. Tally will infer the type from the ABI and help build the tuple array.
 
 <figure><img src="../../../../.gitbook/assets/image (129).png" alt=""><figcaption></figcaption></figure>
 
-### Why are tuple arrays helpful?
+### Nested tuples
 
-Instead of handling complex governance proposals through cumbersome and error-prone single data entries, with tuple arrays, you can now seamlessly bundle multiple proposal attributes into a single, organized structure. This integration allows for richer, more detailed proposals, enabling the DAO to process intricate governance decisions with greater accuracy and efficiency.
+If a tuple or tuple array is nested in _another_ tuple, enter the nested tuple(s) in plaintext with brackets. This tuple builder contains two nested tuple arrays, `contactDetails`and `chains` , and one nested tuple `bountyTerms` :
 
-You can learn more about the simplified input method for Tuple arrays in the video below.
+<div data-full-width="true"><figure><img src="../../../../.gitbook/assets/Screenshot 2025-01-06 at 11.22.41 AM.png" alt=""><figcaption><p>tuple builder with empty nested tuples</p></figcaption></figure></div>
+
+To add tuple arrays and tuples, enter them in plaintext:
+
+<figure><img src="../../../../.gitbook/assets/Screenshot 2025-01-06 at 11.38.58 AM (4).png" alt=""><figcaption><p>tuple builder with filled-in nested tuples</p></figcaption></figure>
 
 {% embed url="https://drive.google.com/file/d/1VuNXBZ6PagsREaFsaNWWZbCRA9HF5JG3/view?usp=sharing" %}
