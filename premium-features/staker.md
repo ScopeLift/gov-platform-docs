@@ -1,6 +1,6 @@
 ---
-description: Staker is the crypto-native way to align protocols with token holders
 icon: money-bill-transfer
+description: Staker is the crypto-native way to align protocols with token holders
 ---
 
 # Staker
@@ -49,6 +49,10 @@ Staker is an immutable contract with minimal admin powers. It does have two admi
 The admin of a Staker is usually the protocol's governance.
 
 #### **Implementation details**
+
+Here's an architecture diagram of the smart contracts:
+
+<figure><img src="../.gitbook/assets/governance-staking.png" alt=""><figcaption></figcaption></figure>
 
 * Governance Staking is out-of-the-box compatible with existing \`ERC20Votes\` governance tokens. It supports \`ERC20Votes\` delegation with the "surrogate factory" pattern. Governance Staking creates a surrogate contract for each delegate. It delegates voting power in each surrogate to the delegate.
 * Whenever Governance Staking receives rewards, it distributes them over a period of time. Distributing over time gives unstaked tokenholders a chance to stake. A smooth schedule also minimizes discontinuities from flash staking.
