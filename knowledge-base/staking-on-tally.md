@@ -1,5 +1,5 @@
 ---
-icon: money-bill-transfer
+icon: square-up
 description: Stake governance tokens on Tally
 ---
 
