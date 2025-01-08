@@ -47,7 +47,7 @@
 
 * [Governance Launcher](premium-features/governance-launcher.md)
 * [Staker](premium-features/staker/README.md)
-  * [stGOV](premium-features/staker/stgov.md)
+  * [stGOV LST](premium-features/staker/stgov-lst.md)
 * [MultiGov](premium-features/multichain-governance.md)
 * [Optimistic Governance](premium-features/optimistic-governance.md)
 * [Chain Integration](premium-features/chain-integration.md)

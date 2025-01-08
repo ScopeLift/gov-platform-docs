@@ -63,7 +63,7 @@ Here's an architecture diagram of the smart contracts:
 
 Tally has also built an aligned liquid staking token for Staker. This LST automates claiming rewards and delegating governance power. It's like what stETH does for ETH staking.
 
-Read more about the LST here.
+Read more about the [stGOV LST](stgov-lst.md) here.
 
 ### Deploy Staker
 
