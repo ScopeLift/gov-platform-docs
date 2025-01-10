@@ -13,10 +13,6 @@ Here, we describe the interface that your contracts need to follow to be compati
 
 If you do need to change something, check the dependencies here in the docs to make sure that your changes are compatible with Tally’s data indexing and web3 calls.
 
-{% content-ref url="./" %}
-[.](./)
-{% endcontent-ref %}
-
 {% content-ref url="openzeppelin-governor.md" %}
 [openzeppelin-governor.md](openzeppelin-governor.md)
 {% endcontent-ref %}
