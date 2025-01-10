@@ -16,8 +16,8 @@ Tally is a decentralized governance frontend that takes the complexity out of go
 With Tally, users can:&#x20;
 ----------------------------
 
-* [Create & Pass Proposals](broken-reference)
-* [Delegate Voting Power](../delegations-on-tally/delegating-voting-power/)
+* [Create & Pass Proposals](../../how-to-use-tally/proposals/creating-proposals/)
+* [Delegate Voting Power](../../how-to-use-tally/delegate-on-tally/)
 * Create Security Councils&#x20;
 * Upgrade Smart Contracts
-* [Return Value with Governance Staking ](../staking-on-tally.md)
+* [Return Value with Governance Staking ](../enterprise-features/staker/)
