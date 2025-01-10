@@ -1,5 +1,6 @@
 ---
 description: Add a DAO to an existing ERC20 token or NFT
+hidden: true
 ---
 
 # Add a Governor to an existing token

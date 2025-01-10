@@ -1,5 +1,6 @@
 ---
 description: Make voting more capital efficient, cheaper or more private
+icon: shuffle
 ---
 
 # Flexible Voting Extension

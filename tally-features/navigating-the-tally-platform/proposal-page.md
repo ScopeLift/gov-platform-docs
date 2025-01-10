@@ -20,8 +20,8 @@ If the proposal is no longer active, you'll see its status there instead.
 
 To learn more about interacting with the proposal lifecycle on Tally, visit:
 
-{% content-ref url="../proposals/" %}
-[proposals](../proposals/)
+{% content-ref url="../../how-to-use-tally/proposals/" %}
+[proposals](../../how-to-use-tally/proposals/)
 {% endcontent-ref %}
 
 ## Overview Chart

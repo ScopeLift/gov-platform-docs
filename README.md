@@ -1,6 +1,6 @@
 ---
-description: Tally is a frontend for onchain decentralized organizations.
 icon: file-lines
+description: Tally is a frontend for onchain decentralized organizations.
 cover: .gitbook/assets/Frame 1 (7).png
 coverY: 0
 layout:
@@ -25,20 +25,20 @@ layout:
 
 _Learn how to navigate and use the Tally platform._
 
-{% content-ref url="knowledge-base/tally/" %}
-[tally](knowledge-base/tally/)
+{% content-ref url="tally-features/tally/" %}
+[tally](tally-features/tally/)
 {% endcontent-ref %}
 
-{% content-ref url="knowledge-base/navigating-the-tally-platform/" %}
-[navigating-the-tally-platform](knowledge-base/navigating-the-tally-platform/)
+{% content-ref url="tally-features/navigating-the-tally-platform/" %}
+[navigating-the-tally-platform](tally-features/navigating-the-tally-platform/)
 {% endcontent-ref %}
 
-{% content-ref url="knowledge-base/managing-a-dao/" %}
-[managing-a-dao](knowledge-base/managing-a-dao/)
+{% content-ref url="tally-features/managing-a-dao/" %}
+[managing-a-dao](tally-features/managing-a-dao/)
 {% endcontent-ref %}
 
-{% content-ref url="knowledge-base/proposals/" %}
-[proposals](knowledge-base/proposals/)
+{% content-ref url="how-to-use-tally/proposals/" %}
+[proposals](how-to-use-tally/proposals/)
 {% endcontent-ref %}
 
 ## Technical Documentation

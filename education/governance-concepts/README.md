@@ -1,6 +1,6 @@
 ---
-description: Learn about what decentralized governance is and why it matters.
 icon: newspaper
+description: Learn about what decentralized governance is and why it matters.
 ---
 
 # Governance Concepts
@@ -9,8 +9,8 @@ icon: newspaper
 [decentralized-governance-overview.md](decentralized-governance-overview.md)
 {% endcontent-ref %}
 
-{% content-ref url="../../knowledge-base/tally/onchain-governance/" %}
-[onchain-governance](../../knowledge-base/tally/onchain-governance/)
+{% content-ref url="../../tally-features/tally/onchain-governance/" %}
+[onchain-governance](../../tally-features/tally/onchain-governance/)
 {% endcontent-ref %}
 
 {% content-ref url="application-layer-vs-base-layer-governance.md" %}

@@ -54,7 +54,7 @@ Next, select the Safe you want to sign in as from the menu:
 
 <figure><img src="../../.gitbook/assets/CleanShot 2023-05-02 at 12.35.46@2x.png" alt=""><figcaption></figcaption></figure>
 
-Now you can update your Safe's profile and make onchain transactions. To learn more about making onchain transactions using your Safe, see [making-onchain-transactions-as-safe.md](../proposals/voting-on-proposals/making-onchain-transactions-as-safe.md "mention").
+Now you can update your Safe's profile and make onchain transactions. To learn more about making onchain transactions using your Safe, see [making-onchain-transactions-as-safe.md](../../how-to-use-tally/proposals/voting-on-proposals/making-onchain-transactions-as-safe.md "mention").
 
 To switch back to your personal profile, simply select **Switch to...** from the profile drop-down menu.
 

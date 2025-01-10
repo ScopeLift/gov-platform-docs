@@ -1,8 +1,8 @@
 ---
+icon: ballot-check
 description: >-
   Learn everything you need to know about managing the proposal lifecycle on
   Tally.
-icon: ballot-check
 ---
 
 # Proposals on Tally
@@ -11,10 +11,10 @@ icon: ballot-check
 [creating-proposals](creating-proposals/)
 {% endcontent-ref %}
 
-{% content-ref url="voting-on-proposals.md" %}
-[voting-on-proposals.md](voting-on-proposals.md)
+{% content-ref url="voting-on-proposals/" %}
+[voting-on-proposals](voting-on-proposals/)
 {% endcontent-ref %}
 
-{% content-ref url="managing-proposals.md" %}
-[managing-proposals.md](managing-proposals.md)
+{% content-ref url="managing-proposals/" %}
+[managing-proposals](managing-proposals/)
 {% endcontent-ref %}

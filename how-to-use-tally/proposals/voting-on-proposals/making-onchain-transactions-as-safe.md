@@ -6,7 +6,7 @@ description: >-
 
 # Making Onchain Transactions as Safe
 
-_Before making onchain transactions as Safe, you must be signed in as Safe. You can learn how to do that in_ [#sign-in-as-safe](../../navigating-the-tally-platform/getting-started.md#sign-in-as-safe "mention").
+_Before making onchain transactions as Safe, you must be signed in as Safe. You can learn how to do that in_ [#sign-in-as-safe](../../../tally-features/navigating-the-tally-platform/getting-started.md#sign-in-as-safe "mention").
 
 All onchain transactions as Safe are supported and sent via the Safe transaction service instead of the connected EOA. Currently, the following transactions are supported:&#x20;
 

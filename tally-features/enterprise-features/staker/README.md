@@ -52,7 +52,7 @@ The admin of a Staker is usually the protocol's governance.
 
 Here's an architecture diagram of the smart contracts:
 
-<figure><img src="../../.gitbook/assets/governance-staking.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/governance-staking.png" alt=""><figcaption></figcaption></figure>
 
 * Governance Staking is out-of-the-box compatible with existing \`ERC20Votes\` governance tokens. It supports \`ERC20Votes\` delegation with the "surrogate factory" pattern. Governance Staking creates a surrogate contract for each delegate. It delegates voting power in each surrogate to the delegate.
 * Whenever Governance Staking receives rewards, it distributes them over a period of time. Distributing over time gives unstaked tokenholders a chance to stake. A smooth schedule also minimizes discontinuities from flash staking.

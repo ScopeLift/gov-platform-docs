@@ -1,5 +1,6 @@
 ---
 description: Tally is a frontend for Governor contracts.
+hidden: true
 ---
 
 # Governor Framework

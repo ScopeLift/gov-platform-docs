@@ -1,5 +1,6 @@
 ---
 description: Onchain votes execute proposals trustlessly. Offchain votes don't.
+hidden: true
 ---
 
 # Onchain Governance
