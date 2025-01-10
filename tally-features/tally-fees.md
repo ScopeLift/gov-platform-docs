@@ -3,6 +3,7 @@ icon: square-dollar
 description: >-
   Tally activated a 0.25% fee for all executed transfer proposals as of July 1,
   2024.
+hidden: true
 ---
 
 # Tally Fees

@@ -1,6 +1,7 @@
 ---
-description: Find your way around Tally.
 icon: magnifying-glass
+description: Find your way around Tally.
+hidden: true
 ---
 
 # Navigating the Tally Platform
@@ -25,6 +26,6 @@ icon: magnifying-glass
 [delegates-page.md](delegates-page.md)
 {% endcontent-ref %}
 
-{% content-ref url="notifications.md" %}
-[notifications.md](notifications.md)
+{% content-ref url="../enterprise-features/notifications.md" %}
+[notifications.md](../enterprise-features/notifications.md)
 {% endcontent-ref %}

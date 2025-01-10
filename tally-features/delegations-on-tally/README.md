@@ -1,8 +1,9 @@
 ---
+icon: people-arrows
 description: >-
   Learn everything you need to know about delegating your voting power—or
   becoming a delegate yourself.
-icon: people-arrows
+hidden: true
 ---
 
 # Delegations on Tally

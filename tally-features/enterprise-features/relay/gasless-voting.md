@@ -12,7 +12,7 @@ To learn more about how relay works & why it's important read the [Relay section
 
 Currently [ENS](https://www.tally.xyz/gov/ens) DAO sponsors gasless voting on Tally will be live as of April 4, 2024.
 
-The parameters for gasless voting in the ENS DAO:&#x20;
+## The parameters for gasless voting in the ENS DAO:&#x20;
 
 * Wallet must have ENS name registered as the wallet’s primary name
 * Wallet must have at least 100 ENS in delegated voting power

@@ -2,6 +2,7 @@
 description: >-
   This guide will walk you through the democratic process of electing members to
   the Arbitrum DAO Security Council.
+hidden: true
 ---
 
 # Arbitrum DAO Security Council Elections Guide

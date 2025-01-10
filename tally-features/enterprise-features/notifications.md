@@ -1,5 +1,6 @@
 ---
 description: Get email notifications about DAO proposals
+icon: lightbulb-on
 ---
 
 # Notifications

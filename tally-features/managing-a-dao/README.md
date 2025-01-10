@@ -1,6 +1,7 @@
 ---
-description: Add a new or existing DAO to Tally's interface.
 icon: folder-plus
+description: Add a new or existing DAO to Tally's interface.
+hidden: true
 ---
 
 # Adding a DAO to Tally
