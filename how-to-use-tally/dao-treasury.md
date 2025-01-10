@@ -1,5 +1,6 @@
 ---
 icon: sack-dollar
+hidden: true
 ---
 
 # DAO Treasury

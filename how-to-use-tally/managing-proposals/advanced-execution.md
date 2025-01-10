@@ -26,7 +26,7 @@ In the example above, the smart contract code for the proposal could be written 
 
 ### How to use Advanced Execution
 
-When a proposal is created, then you can enter some ETH value to send in the Custom Action’s recipe
+When a proposal is created, then you can enter some ETH value to send in the Custom Action’s recipe.
 
 To use advanced execution, you need to include the necessary logic and actions in the smart contract code underlying the proposal.
 

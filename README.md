@@ -37,8 +37,8 @@ _Learn how to navigate and use the Tally platform._
 [managing-a-dao](tally-features/managing-a-dao/)
 {% endcontent-ref %}
 
-{% content-ref url="how-to-use-tally/proposals/" %}
-[proposals](how-to-use-tally/proposals/)
+{% content-ref url="broken-reference" %}
+[Broken link](broken-reference)
 {% endcontent-ref %}
 
 ## Technical Documentation

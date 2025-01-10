@@ -1,6 +1,5 @@
 ---
-description: How to upgrade a multi-sig to a fully onchain DAO
-hidden: true
+description: How to upgrade a multi-sig to a fully onchain DAO.
 ---
 
 # Upgrade Gnosis Safe to Governor with Zodiac

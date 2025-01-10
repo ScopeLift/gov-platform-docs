@@ -26,6 +26,6 @@ hidden: true
 [delegates-page.md](delegates-page.md)
 {% endcontent-ref %}
 
-{% content-ref url="../enterprise-features/notifications.md" %}
-[notifications.md](../enterprise-features/notifications.md)
+{% content-ref url="../../how-to-use-tally/notifications.md" %}
+[notifications.md](../../how-to-use-tally/notifications.md)
 {% endcontent-ref %}

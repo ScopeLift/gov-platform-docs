@@ -1,6 +1,7 @@
 ---
-description: Controlling multisig Safes with Governor
 icon: shield
+description: Controlling multisig Safes with Governor
+hidden: true
 ---
 
 # Using Governor with Gnosis Safe
