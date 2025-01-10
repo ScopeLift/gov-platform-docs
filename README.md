@@ -21,7 +21,7 @@ layout:
 
 # Tally Docs
 
-## Knowledge Base
+## Get Started
 
 _Learn how to navigate and use the Tally platform._
 
@@ -29,16 +29,28 @@ _Learn how to navigate and use the Tally platform._
 [tally](tally-features/tally/)
 {% endcontent-ref %}
 
-{% content-ref url="tally-features/navigating-the-tally-platform/" %}
-[navigating-the-tally-platform](tally-features/navigating-the-tally-platform/)
+{% content-ref url="tally-features/standard-features.md" %}
+[standard-features.md](tally-features/standard-features.md)
+{% endcontent-ref %}
+
+{% content-ref url="tally-features/enterprise-features/" %}
+[enterprise-features](tally-features/enterprise-features/)
 {% endcontent-ref %}
 
 {% content-ref url="tally-features/managing-a-dao/" %}
 [managing-a-dao](tally-features/managing-a-dao/)
 {% endcontent-ref %}
 
-{% content-ref url="broken-reference" %}
-[Broken link](broken-reference)
+{% content-ref url="how-to-use-tally/proposals/creating-proposals/" %}
+[creating-proposals](how-to-use-tally/proposals/creating-proposals/)
+{% endcontent-ref %}
+
+{% content-ref url="how-to-use-tally/delegate-on-tally/" %}
+[delegate-on-tally](how-to-use-tally/delegate-on-tally/)
+{% endcontent-ref %}
+
+{% content-ref url="how-to-use-tally/stake-on-tally.md" %}
+[stake-on-tally.md](how-to-use-tally/stake-on-tally.md)
 {% endcontent-ref %}
 
 ## Technical Documentation
@@ -49,14 +61,14 @@ _Learn about deploying a Governor contract and how to customize it for compatibi
 [deploying-daos](user-guides/deploying-daos/)
 {% endcontent-ref %}
 
+{% content-ref url="how-to-use-tally/proposals/voting-on-proposals/making-onchain-transactions-as-safe.md" %}
+[making-onchain-transactions-as-safe.md](how-to-use-tally/proposals/voting-on-proposals/making-onchain-transactions-as-safe.md)
+{% endcontent-ref %}
+
 {% content-ref url="user-guides/smart-contract-compatibility/" %}
 [smart-contract-compatibility](user-guides/smart-contract-compatibility/)
 {% endcontent-ref %}
 
 {% content-ref url="user-guides/governor-proposals/" %}
 [governor-proposals](user-guides/governor-proposals/)
-{% endcontent-ref %}
-
-{% content-ref url="user-guides/using-governor-with-gnosis-safe/" %}
-[using-governor-with-gnosis-safe](user-guides/using-governor-with-gnosis-safe/)
 {% endcontent-ref %}

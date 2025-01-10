@@ -7,7 +7,7 @@ icon: computer-mouse
 
 Besides creating and voting on proposals, users can also: queue, execute, and cancel.
 
-Queuing, executing, and canceling proposals can all be accomplished directly from the [proposal-page.md](../../tally-features/navigating-the-tally-platform/proposal-page.md "mention").
+Queuing, executing, and canceling proposals can all be accomplished directly from the [proposal-page.md](../../../tally-features/navigating-the-tally-platform/proposal-page.md "mention").
 
 ## Queuing and Executing Proposals
 
@@ -33,11 +33,11 @@ Generally, anyone can queue a proposal that has passed! The only exception is th
 
 ### _How long will the proposal be queued?_
 
-This depends on the Timelock Delay of the Timelock contract. You can check that delay on Etherscan until Tally adds it to the [dao-page.md](../../tally-features/navigating-the-tally-platform/dao-page.md "mention").
+This depends on the Timelock Delay of the Timelock contract. You can check that delay on Etherscan until Tally adds it to the [dao-page.md](../../../tally-features/navigating-the-tally-platform/dao-page.md "mention").
 
 ### _What does it mean to “execute” a proposal?_
 
-**Executing** a proposal runs its function calls onchain. Each proposal is associated with one or more function calls, which are visible in the `Executable Code` section of the [Proposal page](../../tally-features/navigating-the-tally-platform/proposal-page.md). These calls can do things like transfer assets from the treasury, update parameters of the Governor itself, change or upgrade a DeFi protocol, or call another smart contract.
+**Executing** a proposal runs its function calls onchain. Each proposal is associated with one or more function calls, which are visible in the `Executable Code` section of the [Proposal page](../../../tally-features/navigating-the-tally-platform/proposal-page.md). These calls can do things like transfer assets from the treasury, update parameters of the Governor itself, change or upgrade a DeFi protocol, or call another smart contract.
 
 ### _Who can execute a proposal?_
 

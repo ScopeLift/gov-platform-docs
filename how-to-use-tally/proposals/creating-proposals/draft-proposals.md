@@ -24,7 +24,7 @@ Draft proposals provide a more efficient and flexible way to get things done in 
 
 If you've created a draft that you are no longer interested in using, you can delete it from the Preview screen: just open the overflow menu in the top right and select "Delete draft".
 
-<figure><img src="../../.gitbook/assets/delete.gif" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/delete.gif" alt=""><figcaption></figcaption></figure>
 
 
 

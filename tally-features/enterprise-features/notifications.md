@@ -3,7 +3,7 @@ description: Get email notifications about DAO proposals
 icon: lightbulb-on
 ---
 
-# Notifications
+# Get Notifications on Tally
 
 Subscribe to Tally Notifications to get emails when there's a new proposal in a DAO you follow. Tally supports the following types of notifications: 
 

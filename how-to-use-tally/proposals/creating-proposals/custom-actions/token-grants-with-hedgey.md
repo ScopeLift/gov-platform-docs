@@ -48,7 +48,7 @@ Before creating the grants proposal, you should prepare the data that will be pa
    4. Cliff date (in unix time)
    5. Rate: the amount of tokens that vest in each period
 
-You can use [this link](https://docs.google.com/spreadsheets/d/1uPW2cqSK\_aXuOR873b\_Q\_Zajx0P4Czq7P9Riqy\_Nm5s/edit?usp=sharing) and make a copy to help you create the plans, input the items in orange, and then you’ll have your finished Tuple of Plans in cell B6 to copy into Tally.&#x20;
+You can use [this link](https://docs.google.com/spreadsheets/d/1uPW2cqSK_aXuOR873b_Q_Zajx0P4Czq7P9Riqy_Nm5s/edit?usp=sharing) and make a copy to help you create the plans, input the items in orange, and then you’ll have your finished Tuple of Plans in cell B6 to copy into Tally.&#x20;
 
 ## How to Create the Grants Distributions
 
