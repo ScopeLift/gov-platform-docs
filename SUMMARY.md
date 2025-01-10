@@ -21,6 +21,7 @@
   * [MultiGov](tally-features/enterprise-features/multichain-governance.md)
   * [Advanced Voting](tally-features/enterprise-features/advanced-voting/README.md)
     * [Flexible Voting Extension](tally-features/enterprise-features/advanced-voting/flexible-voting-extension.md)
+    * [Signal Voting](tally-features/enterprise-features/advanced-voting/signal-voting.md)
     * [Private Voting](tally-features/enterprise-features/advanced-voting/private-voting.md)
   * [Integrations](tally-features/enterprise-features/integrations/README.md)
     * [Snapshot](tally-features/enterprise-features/integrations/diff-checker.md)
