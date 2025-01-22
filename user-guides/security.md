@@ -111,7 +111,7 @@ Rewards are based on severity and quality of report:
 
 * Please allow us 90 days before public disclosure
 * Coordinate disclosure timing with our security team
-* We encourage responsible disclosure through our bug bounty platform
+* We encourage responsible disclosure through our bug bounty email address
 * Credit will be given to researchers who follow these guidelines
 
 ### Safe Harbor
