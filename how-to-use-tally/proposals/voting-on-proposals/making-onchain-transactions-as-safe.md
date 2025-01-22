@@ -1,13 +1,13 @@
 ---
+icon: shield-plus
 description: >-
   Tally enables onchain transactions via Safe, including submitting proposals,
   voting, and delegating.
-icon: shield-plus
 ---
 
 # Use Tally with a Gnosis Safe
 
-_Before making onchain transactions as Safe, you must be signed in as Safe._&#x20;
+_Before making onchain transactions as Safe, you must be_ [_signed in as Safe_](../../making-onchain-transactions-as-safe/vote-with-a-gnosis-safe.md)_._&#x20;
 
 All onchain transactions as Safe are supported and sent via the Safe transaction service instead of the connected EOA. Currently, the following transactions are supported:&#x20;
 
