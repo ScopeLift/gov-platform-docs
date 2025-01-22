@@ -84,7 +84,7 @@ Rewards are based on severity and quality of report:
 * Direct loss of user funds
 * Smart contract vulnerabilities leading to theft
 * Remote code execution
-* Access to private keys or sensitive credentials
+* Access to private keys or sensitive credentials\*
 
 **High**:
 
@@ -106,6 +106,8 @@ Rewards are based on severity and quality of report:
 * Minor information disclosure
 * Weak password policies
 * Non-sensitive data exposure
+
+_\*Note that public environment variables such as RPC endpoints are not considered sensitive._
 
 ### Public Disclosure
 
