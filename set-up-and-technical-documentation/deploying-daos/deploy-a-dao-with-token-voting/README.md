@@ -1,11 +1,11 @@
 ---
-description: How to deploy a Governor contract to use with Tally
 icon: arrow-up-right
+description: How to deploy a Governor contract to use with Tally
 ---
 
 # Deploy a Governor
 
-To be compatible with the Tally app, we recommend you use OpenZeppelin's [Governor contract](https://docs.openzeppelin.com/contracts/4.x/api/governance). This modular, battle-tested system of DAO smart contracts givens token holders control of a DAO onchain.
+To be compatible with the Tally app, we recommend you use OpenZeppelin's [Governor contract](https://docs.openzeppelin.com/contracts/4.x/api/governance). This modular, battle-tested system of DAO smart contracts gives token holders control of their DAO onchain.
 
 A typical Governor DAO uses three contracts: a token contract, a Governor contract, and a timelock contract.
 

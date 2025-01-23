@@ -1,8 +1,9 @@
 ---
+icon: check-to-slot
 description: >-
   Follow the step by step video below to start voting with a Gnosis Safe on
   Tally ☻
-icon: check-to-slot
+hidden: true
 ---
 
 # Vote with a Gnosis Safe

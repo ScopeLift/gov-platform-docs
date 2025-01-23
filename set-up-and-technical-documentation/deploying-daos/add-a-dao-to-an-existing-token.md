@@ -1,6 +1,6 @@
 ---
-description: Add a DAO to an existing ERC20 token or NFT
 icon: plus
+description: Add a DAO to an existing ERC20 token or NFT
 ---
 
 # Add a Governor to an existing token
@@ -17,7 +17,7 @@ icon: plus
 
 A Governor contract expects a particular interface from its token contract.  [An OpenZeppelin Governor](https://docs.openzeppelin.com/contracts/4.x/api/governance) requires a token contract that implements the [ERC20Votes interface](https://docs.openzeppelin.com/contracts/4.x/api/token/erc20#ERC20Votes) or the [ERC721Votes interface](https://docs.openzeppelin.com/contracts/4.x/api/token/erc721#ERC721Votes).&#x20;
 
-If a token may someday be useful for running an onchain DAO, deploy it with a voting interface for future Governor compatibility! If the token is already deployed and it cannot be upgraded, the best workaround is to deploy a wrapper token contract that adds the voting interface to an existing token.
+If a token may someday be useful for running an onchain DAO, deploy it with a voting interface for future Governor compatibility. If the token is already deployed and it cannot be upgraded, the best workaround is to deploy a wrapper token contract that adds the voting interface to an existing token.
 
 ## **How to deploy a wrapper**
 
