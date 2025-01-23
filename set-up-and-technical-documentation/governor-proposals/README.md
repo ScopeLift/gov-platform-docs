@@ -1,6 +1,7 @@
 ---
-description: Standards for interacting with onchain Governor Proposals
 icon: pen-to-square
+description: Standards for interacting with onchain Governor Proposals
+hidden: true
 ---
 
 # Governor Proposal Standards

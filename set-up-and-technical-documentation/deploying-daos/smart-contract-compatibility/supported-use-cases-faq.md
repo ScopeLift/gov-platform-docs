@@ -21,4 +21,4 @@ You can enable DAO governance for your existing token by adding an OpenZeppelin 
 
 ### How can I make onchain votes private?
 
-You can implement private voting top of a Governor with Flexible Voting. Implement the [Flexible Voting Extension](../../tally-features/enterprise-features/advanced-voting/flexible-voting-extension.md) in the Governor, then you can deploy a shielded pool that uses zero-knowledge proofs or MPC to keep votes private. Voters can move their votes into the pool. Then, pool can send its vote totals back to the Governor without revealing the votes.
+You can implement private voting top of a Governor with Flexible Voting. Implement the [Flexible Voting Extension](../../../tally-features/enterprise-features/advanced-voting/flexible-voting-extension.md) in the Governor, then you can deploy a shielded pool that uses zero-knowledge proofs or MPC to keep votes private. Voters can move their votes into the pool. Then, pool can send its vote totals back to the Governor without revealing the votes.

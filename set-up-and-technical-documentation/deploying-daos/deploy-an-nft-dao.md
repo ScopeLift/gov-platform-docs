@@ -1,5 +1,6 @@
 ---
 description: How to deploy an NFT DAO with onchain voting
+hidden: true
 ---
 
 # Deploy an NFT Governor

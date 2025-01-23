@@ -27,4 +27,4 @@ Tally is an onchain voting protocol; Snapshot is offchain voting protocol.
 
 The [Governor smart contract](../governor-framework.md) manages proposals, counts votes, and executes passed proposals onchain without human intervention. This gives token holders or NFT membership holders direct control over the protocol and/or treasury through voting. They don't have to trust multi-sig signers to execute a proposal vote, nor worry about rogue multi-sig signers creating an unapproved transaction. However, the tradeoff is that creating onchain proposals and voting incurs gas costs.
 
-For more information about deploying or upgrading to an onchain DAO, see [deploying-daos](../../../user-guides/deploying-daos/ "mention").
+For more information about deploying or upgrading to an onchain DAO, see [deploying-daos](../../../set-up-and-technical-documentation/deploying-daos/ "mention").

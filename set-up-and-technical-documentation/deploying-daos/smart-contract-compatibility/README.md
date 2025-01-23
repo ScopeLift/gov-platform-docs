@@ -1,9 +1,9 @@
 ---
-icon: gear
+icon: check
 description: How to make your Token and Governor contract compatible with Tally
 ---
 
-# Tally Contract Compatibility
+# Check for Token Contract Compatibility
 
 Tally supports DAOs on Ethereum, Polygon, Optimism, Arbitrum, Avalanche, Base, Moonbeam, Scroll, BNB Chain, Gnosis, and various testnets.
 
@@ -17,8 +17,8 @@ If you do need to change something, check the dependencies here in the docs to m
 [openzeppelin-governor.md](openzeppelin-governor.md)
 {% endcontent-ref %}
 
-{% content-ref url="../tally-contract-compatibility/compound-governor-bravo.md" %}
-[compound-governor-bravo.md](../tally-contract-compatibility/compound-governor-bravo.md)
+{% content-ref url="compound-governor-bravo.md" %}
+[compound-governor-bravo.md](compound-governor-bravo.md)
 {% endcontent-ref %}
 
 {% content-ref url="tokens-erc20-and-nfts.md" %}

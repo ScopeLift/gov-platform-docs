@@ -1,10 +1,11 @@
 ---
 description: Understand what Gnosis Safes are and how they work on Tally.
+icon: shield-check
 ---
 
-# Gnosis Safes
+# Gnosis Safe Overview
 
-> _It's easy to create or link a Gnosis Safe on Tally from_ [dao-settings.md](dao-settings.md "mention")_. Learn more about Gnosis Safes below, or skip right to the_ [_step-by-step instructions_](gnosis-safe.md#tally)_._
+> _It's easy to create or link a Gnosis Safe on Tally from_ [dao-settings.md](../managing-a-dao/dao-settings.md "mention")_. Learn more about Gnosis Safes below, or skip right to the_ [_step-by-step instructions_](gnosis-safe.md#tally)_._
 
 ## Understanding Gnosis Safes <a href="#what" id="what"></a>
 
@@ -44,11 +45,11 @@ To empower DAOs that use Gnosis Safes, Tally allows users to create or link thei
 
 Creating a Gnosis Safe on Tally creates the exact same instance of Gnosis’s smart contract that Gnosis’s own app does, with the added benefit of managing it from the same Tally DAO that you may be using for Governor and Tokenless DAOs. Having your Gnosis Safe linked on Tally will also allow users to take advantage of Tally features such as the Create Proposal tool and Recipes.
 
-<figure><img src="../../.gitbook/assets/CleanShot 2023-02-22 at 20.33.18@2x.png" alt=""><figcaption><p>Gnosis Safes tab in <a data-mention href="dao-settings.md">dao-settings.md</a>.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/CleanShot 2023-02-22 at 20.33.18@2x.png" alt=""><figcaption><p>Gnosis Safes tab in <a data-mention href="../managing-a-dao/dao-settings.md">dao-settings.md</a>.</p></figcaption></figure>
 
 ### Create a Gnosis Safe
 
-To create a new Gnosis Safe, simply select the **Create Safe** button from the Safes tab of the [dao-settings.md](dao-settings.md "mention") page.
+To create a new Gnosis Safe, simply select the **Create Safe** button from the Safes tab of the [dao-settings.md](../managing-a-dao/dao-settings.md "mention") page.
 
 <figure><img src="../../.gitbook/assets/CleanShot 2023-02-22 at 20.40.12@2x.png" alt=""><figcaption><p>Create a Gnosis Safe.</p></figcaption></figure>
 
@@ -56,7 +57,7 @@ Select the Safe's network, give it a name, add [Safe owners](gnosis-safe.md#owne
 
 ### Link a Gnosis Safe
 
-To link an existing Gnosis Safe, select the **Link Safe** button from the Safes tab of the [dao-settings.md](dao-settings.md "mention") page.
+To link an existing Gnosis Safe, select the **Link Safe** button from the Safes tab of the [dao-settings.md](../managing-a-dao/dao-settings.md "mention") page.
 
 <figure><img src="../../.gitbook/assets/CleanShot 2023-02-22 at 20.35.55@2x.png" alt=""><figcaption><p>Link a Gnosis Safe.</p></figcaption></figure>
 

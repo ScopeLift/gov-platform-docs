@@ -37,8 +37,8 @@ _Learn how to navigate and use the Tally platform._
 [enterprise-features](tally-features/enterprise-features/)
 {% endcontent-ref %}
 
-{% content-ref url="tally-features/managing-a-dao/" %}
-[managing-a-dao](tally-features/managing-a-dao/)
+{% content-ref url="set-up-and-technical-documentation/managing-a-dao/" %}
+[managing-a-dao](set-up-and-technical-documentation/managing-a-dao/)
 {% endcontent-ref %}
 
 {% content-ref url="how-to-use-tally/proposals/creating-proposals/" %}
@@ -57,18 +57,18 @@ _Learn how to navigate and use the Tally platform._
 
 _Learn about deploying a Governor contract and how to customize it for compatibility with the Tally interface._
 
-{% content-ref url="user-guides/deploying-daos/" %}
-[deploying-daos](user-guides/deploying-daos/)
+{% content-ref url="set-up-and-technical-documentation/deploying-daos/" %}
+[deploying-daos](set-up-and-technical-documentation/deploying-daos/)
 {% endcontent-ref %}
 
 {% content-ref url="how-to-use-tally/proposals/voting-on-proposals/making-onchain-transactions-as-safe.md" %}
 [making-onchain-transactions-as-safe.md](how-to-use-tally/proposals/voting-on-proposals/making-onchain-transactions-as-safe.md)
 {% endcontent-ref %}
 
-{% content-ref url="user-guides/smart-contract-compatibility/" %}
-[smart-contract-compatibility](user-guides/smart-contract-compatibility/)
+{% content-ref url="set-up-and-technical-documentation/deploying-daos/smart-contract-compatibility/" %}
+[smart-contract-compatibility](set-up-and-technical-documentation/deploying-daos/smart-contract-compatibility/)
 {% endcontent-ref %}
 
-{% content-ref url="user-guides/governor-proposals/" %}
-[governor-proposals](user-guides/governor-proposals/)
+{% content-ref url="set-up-and-technical-documentation/governor-proposals/" %}
+[governor-proposals](set-up-and-technical-documentation/governor-proposals/)
 {% endcontent-ref %}

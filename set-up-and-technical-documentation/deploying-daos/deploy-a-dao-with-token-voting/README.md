@@ -1,5 +1,6 @@
 ---
 description: How to deploy a Governor contract to use with Tally
+icon: arrow-up-right
 ---
 
 # Deploy a Governor
@@ -8,24 +9,24 @@ To be compatible with the Tally app, we recommend you use OpenZeppelin's [Govern
 
 A typical Governor DAO uses three contracts: a token contract, a Governor contract, and a timelock contract.
 
-<figure><img src="../../.gitbook/assets/image (122).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (122).png" alt=""><figcaption></figcaption></figure>
 
 You can use Tally's open-source [Governor deployer](https://github.com/withtally/gov-deployer) to get started.&#x20;
 
-[#configuring-your-governor](deploy-a-dao-with-token-voting.md#configuring-your-governor "mention")
+[#configuring-your-governor](./#configuring-your-governor "mention")
 
-[#compatibility-with-tally](deploy-a-dao-with-token-voting.md#compatibility-with-tally "mention")
+[#compatibility-with-tally](./#compatibility-with-tally "mention")
 
-[#helpful-links-from-openzeppelin](deploy-a-dao-with-token-voting.md#helpful-links-from-openzeppelin "mention")
+[#helpful-links-from-openzeppelin](./#helpful-links-from-openzeppelin "mention")
 
 ## Configuring your Governor
 
 Core logic is determined by the Governor contract. When deploying a Governor, you need to chose:
 
-1. how voting power is determined
-2. how many votes are needed for quorum
-3. what options people have when casting a vote and how those votes are counted
-4. what type of token should be used to vote
+1. How voting power is determined
+2. How many votes are needed for quorum
+3. What options people have when casting a vote and how those votes are counted
+4. What type of token should be used to vote
 
 You can write your own module or choose one from [OpenZeppelin contracts](https://docs.openzeppelin.com/contracts/4.x/).
 
@@ -63,4 +64,4 @@ Check out our guide to ensure your OpenZeppelin Governor is compatible with the 
 
 Tally offers an all-in-one guide explaining how to use Governor in the PDF below.
 
-{% file src="../../.gitbook/assets/Using Governor.pdf" %}
+{% file src="../../../.gitbook/assets/Using Governor.pdf" %}

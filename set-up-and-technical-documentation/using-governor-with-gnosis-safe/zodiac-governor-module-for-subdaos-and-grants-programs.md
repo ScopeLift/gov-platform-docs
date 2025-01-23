@@ -1,5 +1,6 @@
 ---
 description: Create SubDAOs and manage Grants Programs using the Zodiac Governor module.
+icon: diagram-cells
 ---
 
 # Zodiac Governor Module for SubDAOs and Grants Programs
@@ -50,5 +51,5 @@ The Safe App will automatically create your Governor SubDAO and add it to your m
 
 Finally, a couple of steps are needed to get your new SubDAO fully represented on Tally.
 
-1. Copy the contract address of the Governor that was created by the Zodiac Governor Module no-code tool and [add it directly to Tally](../../tally-features/managing-a-dao/).&#x20;
-2. [Link the contract address](../../tally-features/managing-a-dao/gnosis-safe.md) of the multisig that was created via the Zodiac Governor Module to your Parent DAO, making it easily visible from the parent DAO on Tally.
+1. Copy the contract address of the Governor that was created by the Zodiac Governor Module no-code tool and [add it directly to Tally](../managing-a-dao/).&#x20;
+2. [Link the contract address](gnosis-safe.md) of the multisig that was created via the Zodiac Governor Module to your Parent DAO, making it easily visible from the parent DAO on Tally.

@@ -40,7 +40,7 @@ Clicking on a delegate's name will take you to the relevant [tally-profile.md](t
 
 The _Treasury_ page displays information on the DAO's top assets.&#x20;
 
-Below, the _Gnosis Safes_ section displays information on any [linked Gnosis Safes](../managing-a-dao/gnosis-safe.md). **Click on a Safe to access its Gnosis Safe Page.**
+Below, the _Gnosis Safes_ section displays information on any [linked Gnosis Safes](../../set-up-and-technical-documentation/using-governor-with-gnosis-safe/gnosis-safe.md). **Click on a Safe to access its Gnosis Safe Page.**
 
 ## More
 
@@ -52,4 +52,4 @@ You can access _Contract Parameters_ from the More section.
 
 <figure><img src="../../.gitbook/assets/CleanShot 2023-02-17 at 09.46.56@2x.png" alt=""><figcaption><p>Admins section.</p></figcaption></figure>
 
-Finally, the _Admins_ section at the bottom shows the [DAO Admins](../managing-a-dao/dao-admins.md)—users who are able to update settings on the Tally DAO Page.
+Finally, the _Admins_ section at the bottom shows the [DAO Admins](../../set-up-and-technical-documentation/managing-a-dao/dao-admins.md)—users who are able to update settings on the Tally DAO Page.

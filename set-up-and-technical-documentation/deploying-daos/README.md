@@ -1,12 +1,12 @@
 ---
-description: How to configure and deploy Governor DAOs
 icon: person-circle-plus
+description: How to configure and deploy Governor DAOs
 ---
 
-# Deploying Governor DAOs
+# Deploy a Governor DAO
 
-{% content-ref url="deploy-a-dao-with-token-voting.md" %}
-[deploy-a-dao-with-token-voting.md](deploy-a-dao-with-token-voting.md)
+{% content-ref url="deploy-a-dao-with-token-voting/" %}
+[deploy-a-dao-with-token-voting](deploy-a-dao-with-token-voting/)
 {% endcontent-ref %}
 
 {% content-ref url="deploy-an-nft-dao.md" %}
@@ -21,6 +21,6 @@ icon: person-circle-plus
 [how-to-pick-governor-parameters.md](how-to-pick-governor-parameters.md)
 {% endcontent-ref %}
 
-{% content-ref url="how-to-upgrade-a-gnosis-safe-to-a-governor-with-zodiac.md" %}
-[how-to-upgrade-a-gnosis-safe-to-a-governor-with-zodiac.md](how-to-upgrade-a-gnosis-safe-to-a-governor-with-zodiac.md)
+{% content-ref url="../using-governor-with-gnosis-safe/how-to-upgrade-a-gnosis-safe-to-a-governor-with-zodiac.md" %}
+[how-to-upgrade-a-gnosis-safe-to-a-governor-with-zodiac.md](../using-governor-with-gnosis-safe/how-to-upgrade-a-gnosis-safe-to-a-governor-with-zodiac.md)
 {% endcontent-ref %}

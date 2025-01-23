@@ -1,6 +1,7 @@
 ---
-description: Ensure cross-chain governance with ERC20Votes Extension.
 icon: bridge
+description: Ensure cross-chain governance with ERC20Votes Extension.
+hidden: true
 ---
 
 # Bridge Providers

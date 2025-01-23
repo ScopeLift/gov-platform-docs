@@ -1,12 +1,11 @@
 ---
 icon: folder-plus
 description: Add a new or existing DAO to Tally's interface.
-hidden: true
 ---
 
-# Adding a DAO to Tally
+# Add a DAO to Tally
 
-_Ready to add your DAO's governance to Tally? All you need is a deployed_ [_Governor contract_](../tally/governor-framework.md) _and a few minutes to get started._
+_Ready to add your DAO's governance to Tally? All you need is a deployed_ [_Governor contract_](../../tally-features/tally/governor-framework.md) _and a few minutes to get started._
 
 <figure><img src="../../.gitbook/assets/image (131).png" alt=""><figcaption></figcaption></figure>
 
@@ -26,18 +25,18 @@ Enter your DAO's info: its name, description, and Governor Contract details. The
 [dao-settings.md](dao-settings.md)
 {% endcontent-ref %}
 
-{% content-ref url="gnosis-safe.md" %}
-[gnosis-safe.md](gnosis-safe.md)
+{% content-ref url="../using-governor-with-gnosis-safe/gnosis-safe.md" %}
+[gnosis-safe.md](../using-governor-with-gnosis-safe/gnosis-safe.md)
 {% endcontent-ref %}
 
 ## Governor Contracts
 
 Need help with your Governor contract? Here's where to start:
 
-{% content-ref url="../tally/governor-framework.md" %}
-[governor-framework.md](../tally/governor-framework.md)
+{% content-ref url="../../tally-features/tally/governor-framework.md" %}
+[governor-framework.md](../../tally-features/tally/governor-framework.md)
 {% endcontent-ref %}
 
-{% content-ref url="../../user-guides/deploying-daos/" %}
-[deploying-daos](../../user-guides/deploying-daos/)
+{% content-ref url="../deploying-daos/" %}
+[deploying-daos](../deploying-daos/)
 {% endcontent-ref %}

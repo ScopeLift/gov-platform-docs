@@ -4,8 +4,8 @@ icon: pencil
 
 # Governance Frameworks
 
-{% content-ref url="../../user-guides/smart-contract-compatibility/openzeppelin-governor.md" %}
-[openzeppelin-governor.md](../../user-guides/smart-contract-compatibility/openzeppelin-governor.md)
+{% content-ref url="../../set-up-and-technical-documentation/deploying-daos/smart-contract-compatibility/openzeppelin-governor.md" %}
+[openzeppelin-governor.md](../../set-up-and-technical-documentation/deploying-daos/smart-contract-compatibility/openzeppelin-governor.md)
 {% endcontent-ref %}
 
 {% content-ref url="curve-voting-escrow.md" %}

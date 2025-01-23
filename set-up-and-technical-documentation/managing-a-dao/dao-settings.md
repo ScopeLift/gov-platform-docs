@@ -4,11 +4,11 @@ description: Keep your DAO's details on Tally up-to-date.
 
 # DAO Settings
 
-> _If you have the_ [_Admin or Superadmin_](dao-admins.md) _role for your DAO, you can update the settings of your_ [dao-page.md](../navigating-the-tally-platform/dao-page.md "mention") _on Tally._
+> _If you have the_ [_Admin or Superadmin_](dao-admins.md) _role for your DAO, you can update the settings of your_ [dao-page.md](../../tally-features/navigating-the-tally-platform/dao-page.md "mention") _on Tally._
 
-<figure><img src="../../.gitbook/assets/CleanShot 2023-02-22 at 20.11.49@2x.png" alt=""><figcaption><p>Click <strong>Settings</strong> on your <a href="../navigating-the-tally-platform/dao-page.md">DAO Page</a>.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/CleanShot 2023-02-22 at 20.11.49@2x.png" alt=""><figcaption><p>Click <strong>Settings</strong> on your <a href="../../tally-features/navigating-the-tally-platform/dao-page.md">DAO Page</a>.</p></figcaption></figure>
 
-To access the DAO Settings page, click the **Settings** button in the header of your [dao-page.md](../navigating-the-tally-platform/dao-page.md "mention").
+To access the DAO Settings page, click the **Settings** button in the header of your [dao-page.md](../../tally-features/navigating-the-tally-platform/dao-page.md "mention").
 
 ## Basics
 
@@ -28,6 +28,6 @@ From the **Admins** tab, view your DAO's [Admins and Superadmins](dao-admins.md)
 
 From the **Safes** tab, you can create or link a Gnosis Safe:&#x20;
 
-{% content-ref url="gnosis-safe.md" %}
-[gnosis-safe.md](gnosis-safe.md)
+{% content-ref url="../using-governor-with-gnosis-safe/gnosis-safe.md" %}
+[gnosis-safe.md](../using-governor-with-gnosis-safe/gnosis-safe.md)
 {% endcontent-ref %}

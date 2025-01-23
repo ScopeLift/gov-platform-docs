@@ -8,14 +8,14 @@ description: Manage your DAO.
 
 ## Admins Section
 
-Admins for a given DAO are displayed at the bottom of the [dao-page.md](../navigating-the-tally-platform/dao-page.md "mention"):
+Admins for a given DAO are displayed at the bottom of the [dao-page.md](../../tally-features/navigating-the-tally-platform/dao-page.md "mention"):
 
-<figure><img src="../../.gitbook/assets/image (3) (2).png" alt=""><figcaption><p>Admins section of the <a href="../navigating-the-tally-platform/dao-page.md">DAO Page</a>.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3) (2).png" alt=""><figcaption><p>Admins section of the <a href="../../tally-features/navigating-the-tally-platform/dao-page.md">DAO Page</a>.</p></figcaption></figure>
 
 ## Admin Abilities
 
 * Adjust DAO settings, including logo, description, and links.
-* [Link Gnosis Safes](gnosis-safe.md).
+* [Link Gnosis Safes](../using-governor-with-gnosis-safe/gnosis-safe.md).
 
 ## Superadmin Abilities
 
