@@ -138,6 +138,7 @@
     * [Inverse Finance (INV)](user-guides/index-of-daos/daos-on-tally/inverse-finance-inv.md)
     * [PoolTogether (POOL)](user-guides/index-of-daos/daos-on-tally/pooltogether-pool.md)
     * [Uniswap (UNI)](user-guides/index-of-daos/daos-on-tally/uniswap-uni.md)
+    * [Arbitrum](user-guides/index-of-daos/daos-on-tally/arbitrum.md)
   * [DAOs Not on Tally](user-guides/index-of-daos/daos-not-on-tally/README.md)
     * [Balancer (BAL)](user-guides/index-of-daos/daos-not-on-tally/balancer-bal.md)
     * [Curve (CRV)](user-guides/index-of-daos/daos-not-on-tally/curve-crv.md)
