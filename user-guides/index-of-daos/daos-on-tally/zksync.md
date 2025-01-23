@@ -1,4 +1,4 @@
-# ZKSync
+# ZKsync
 
 ## Basic Info
 
