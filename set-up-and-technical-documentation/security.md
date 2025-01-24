@@ -90,20 +90,21 @@ Rewards are based on severity and quality of report:
 
 * Authentication bypass
 * Significant disclosure of private information
-* Smart contract vulnerabilities affecting liveness
+* Injecting malicious transactions for users to sign
 * Stored cross-site scripting
+* Session hijacking
 
 **Medium**:
 
 * Reflected cross-site scripting
 * Cross-site request forgery
+* Smart contract vulnerabilities affecting liveness
 
 **Low**:
 
 * Missing security headers
-* Minor information disclosure
 * Non-sensitive user data exposure
-* Race conditions without direct impact
+* Race conditions without direct security impact
 
 _\*Note that public environment variables such as RPC endpoints are not considered sensitive._
 
