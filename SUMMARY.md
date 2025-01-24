@@ -132,7 +132,7 @@
   * [DAOs on Tally](user-guides/index-of-daos/daos-on-tally/README.md)
     * [Aave (AAVE)](user-guides/index-of-daos/daos-on-tally/aave-aave.md)
     * [Ampleforth (FORTH)](user-guides/index-of-daos/daos-on-tally/ampleforth-forth.md)
-    * [Arbitrum](user-guides/index-of-daos/daos-on-tally/arbitrum.md)
+    * [Arbitrum (ARB)](user-guides/index-of-daos/daos-on-tally/arbitrum-arb.md)
     * [Compound (COMP)](user-guides/index-of-daos/daos-on-tally/compound-comp.md)
     * [Gitcoin (GTC)](user-guides/index-of-daos/daos-on-tally/gitcoin-gtc.md)
     * [GMX](user-guides/index-of-daos/daos-on-tally/gmx.md)

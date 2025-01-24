@@ -2,7 +2,7 @@
 
 ## Basic Info
 
-* Token: $GMX
+* Token: GMX
 * Sector: DeFi
 * [Tally Governance Page](https://www.tally.xyz/gov/gmx)
 

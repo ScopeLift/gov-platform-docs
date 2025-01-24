@@ -1,8 +1,8 @@
-# Arbitrum
+# Arbitrum (ARB)
 
 ## Basic Info
 
-* Token: $ARB
+* Token: ARB
 * Sector: Layer 2
 * [Tally Governance Page](https://www.tally.xyz/gov/arbitrum)
 

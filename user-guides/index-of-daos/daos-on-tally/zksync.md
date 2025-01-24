@@ -2,7 +2,7 @@
 
 ## Basic Info
 
-* Token: $ZK
+* Token: ZK
 * Sector: Zero Knowledge Rollup
 * [Tally Governance Page](https://www.tally.xyz/gov/zksync)
 
