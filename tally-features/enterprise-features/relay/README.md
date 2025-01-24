@@ -28,7 +28,7 @@ When DAOs sponsor transactions through Relay, they're making a powerful statemen
 3. **Governance Efficiency:** With reduced friction in the voting and proposal processes, DAOs can achieve quicker decision-making cycles while maintaining high participation rates.
 4. **Long-term Sustainability:** By investing in their members' ability to participate, DAOs strengthen their governance mechanisms and ensure continued operational vitality.
 
-For DAOs interested in implementing gasless voting and delegation with Relay, Tally's team can be reached at hello@tally.xyz to discuss specific needs and implementation details.
+For DAOs interested in implementing gasless voting and delegation with Relay, Tally's team can be reached at [**hello@tally.xyz**](mailto:hello@tally.xyz) to discuss specific needs and implementation details.
 
 \
 

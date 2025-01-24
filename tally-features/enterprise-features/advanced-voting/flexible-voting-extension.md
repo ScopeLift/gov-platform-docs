@@ -1,6 +1,6 @@
 ---
-description: Make voting more capital efficient, cheaper or more private
 icon: shuffle
+description: Make voting more capital efficient, cheaper or more private
 ---
 
 # Flexible Voting Extension
@@ -14,4 +14,4 @@ The Scopelift team built a Flexible Voting extention with support from Uniswap G
 > * Shielded voting (i.e. secret/private voting)
 > * Cheaper subsidized signature based voting
 
-Tally is looking for partners to integrate support for this extension. If you're considering deploying a Governor with flexible voting, reach out to us on Discord, Twitter, or email.
+Tally is looking for partners to integrate support for this extension. If you're considering deploying a Governor with flexible voting, reach out to us at [hello@tally.xyz.](mailto:hello@tally.xyz)

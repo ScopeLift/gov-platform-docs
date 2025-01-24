@@ -67,6 +67,6 @@ Read more about the [stGOV LST](stgov-lst.md) here.
 
 ### Deploy Staker
 
-Tally is working to make Staker easier to deploy. To work with us to deploy Staker for your protocol and get a staking user interface set up on Tally, reach out to [biz@tally.xyz](mailto:biz@tally.xyz).
+Tally is working to make Staker easier to deploy. To work with us to deploy Staker for your protocol and get a staking user interface set up on Tally, reach out to [hello@tally.xyz.](mailto:hello@tally.xyz)&#x20;
 
 If you'd like to deploy it or test it yourself, check out [the Staker repo here](https://github.com/withtally/staker).

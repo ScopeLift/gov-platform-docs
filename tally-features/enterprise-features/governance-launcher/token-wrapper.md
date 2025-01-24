@@ -16,4 +16,4 @@ One thing to note is that setting up voting already requires setup: token holder
 
 
 
-Interested in adding governor to an existing token? Reach out to hello@tally.xyz.
+Interested in adding governor to an existing token? Reach out to [hello@tally.xyz.](mailto:hello@tally.xyz)

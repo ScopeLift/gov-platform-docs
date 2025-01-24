@@ -152,7 +152,6 @@
 ## Resources
 
 * [Tally Platform](https://www.tally.xyz)
-* [Discord (Support & Community)](https://discord.com/invite/ckn25zazRa)
 * [Blog](https://blog.tally.xyz)
 * [DAO Talk Podcast](https://www.youtube.com/channel/UC0J5KuukgFn8KCMuuhkBZQw)
 * [Newsletter](https://newsletter.tally.xyz)
