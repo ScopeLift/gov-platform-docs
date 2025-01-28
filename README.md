@@ -33,8 +33,8 @@ _Learn how to navigate and use the Tally platform._
 [standard-features.md](tally-features/standard-features.md)
 {% endcontent-ref %}
 
-{% content-ref url="tally-features/enterprise-features/" %}
-[enterprise-features](tally-features/enterprise-features/)
+{% content-ref url="tally-features/advanced-features/" %}
+[advanced-features](tally-features/advanced-features/)
 {% endcontent-ref %}
 
 {% content-ref url="set-up-and-technical-documentation/managing-a-dao/" %}

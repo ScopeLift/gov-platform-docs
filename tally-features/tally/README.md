@@ -20,4 +20,4 @@ With Tally, users can:&#x20;
 * [Delegate Voting Power](../../how-to-use-tally/delegate-on-tally/)
 * Create Security Councils&#x20;
 * Upgrade Smart Contracts
-* [Return Value with Governance Staking ](../enterprise-features/staker/)
+* [Return Value with Governance Staking ](../advanced-features/staker/)
