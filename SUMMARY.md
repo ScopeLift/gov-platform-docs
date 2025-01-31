@@ -82,6 +82,7 @@
 
 ## Set up & Technical Documentation
 
+* [Tally Architecture](set-up-and-technical-documentation/tally-architecture.md)
 * [Deploy a Governor DAO](set-up-and-technical-documentation/deploying-daos/README.md)
   * [Deploy a Governor](set-up-and-technical-documentation/deploying-daos/deploy-a-dao-with-token-voting/README.md)
     * [Deploy a Governor with a new token](set-up-and-technical-documentation/deploying-daos/deploy-a-dao-with-token-voting/deploy-a-governance-token.md)
