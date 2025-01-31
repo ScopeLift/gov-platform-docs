@@ -106,6 +106,7 @@
   * [Upgrade Gnosis Safe to Governor with Zodiac](set-up-and-technical-documentation/using-governor-with-gnosis-safe/how-to-upgrade-a-gnosis-safe-to-a-governor-with-zodiac.md)
 * [Security](set-up-and-technical-documentation/security.md)
 * [Tally API](set-up-and-technical-documentation/welcome.md)
+* [Chain Compatibility](set-up-and-technical-documentation/chain-compatibility.md)
 * [Governor Proposal Standards](set-up-and-technical-documentation/governor-proposals/README.md)
   * [Governor Proposal Descriptions Standards](set-up-and-technical-documentation/governor-proposals/whats-the-standard-for-governor-proposal-descriptions.md)
 * [Bridge Providers](set-up-and-technical-documentation/bridge-providers.md)
