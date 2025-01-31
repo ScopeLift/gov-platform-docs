@@ -40,7 +40,7 @@ Detailed analytics and insights into DAO activities, member engagement, proposal
 
 
 
-_Currently, there is no cost for adding a DAO yourself on Tally however, a 0.25% fee will apply when proposals are executed._&#x20;
+_Currently, there is no cost for adding a DAO yourself on Tally however, a 0.25% fee will apply when proposals are executed. This fee does not apply for customers who partner with Tally for custom governance._&#x20;
 
 Support For any questions or assistance during the integration process, please don't hesitate to reach out to our dedicated support team via email at support@tally.xyz.
 
