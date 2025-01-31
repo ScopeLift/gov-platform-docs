@@ -8,7 +8,7 @@ icon: face-smile
 
 Tally is the industry standard for driving long-term protocol success. Foundations, delegates,  and token holders use Tally to manage $31+ billion in value for onchain protocols.
 
-Blockchain protocols should operate through decentralized governance to allow members to participate in transparent, democratic processes. onchain governance enables users to make transparent decisions, manage protocol funds, and catalyze sustainable long-term growth.&#x20;
+Blockchain protocols should operate through decentralized governance to allow members to participate in transparent, democratic processes. Onchain governance enables users to make transparent decisions, manage protocol funds, and catalyze sustainable long-term growth.&#x20;
 
 Tally is a decentralized governance frontend that takes the complexity out of governance and allows users to focus on driving value.
 
