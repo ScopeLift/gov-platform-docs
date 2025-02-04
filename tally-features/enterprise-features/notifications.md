@@ -1,6 +1,6 @@
 ---
-description: Get email notifications about DAO proposals
 icon: lightbulb-on
+description: Get email notifications about DAO proposals
 ---
 
 # Get Notifications on Tally
@@ -16,6 +16,10 @@ Subscribe to Tally Notifications to get emails when there's a new proposal in a 
 ### How to enter and verify your email address
 
 #### Access your Notifications Center
+
+
+
+<figure><img src="../../.gitbook/assets/notify_1 (1).gif" alt=""><figcaption></figcaption></figure>
 
 \
 Click on your profile picture located at the top of the page. This will take you to the [Notifications Center](https://notify.tally.xyz).
@@ -37,6 +41,8 @@ Return to the Notifications Center and input the code you received.
 Click confirm to complete the email verification process.
 
 ### &#x20; Subscribe to email notifications from a DAO
+
+<figure><img src="../../.gitbook/assets/notify_2.gif" alt=""><figcaption></figcaption></figure>
 
 1. Navigate to the home page.
 2. Search for the DAO you want to receive email notifications from.
