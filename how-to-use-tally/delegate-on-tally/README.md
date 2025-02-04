@@ -1,9 +1,13 @@
 ---
-description: Tally is the best place to explore DAO delegates.
 icon: users
+description: Tally is the best place to explore DAO delegates.
 ---
 
 # Delegate on Tally
+
+
+
+{% embed url="https://www.youtube.com/watch?v=n8UcBsj7ThY" %}
 
 Tally is the home for DAO delegation, on Tally you can:&#x20;
 

@@ -8,6 +8,10 @@ _In order to vote on a proposal, first make sure that you've_ [_connected your w
 
 _Note that tokens you own are not active for voting until you delegate. **You must delegate to yourself if you wish to vote on proposals directly with your own tokens.**_
 
+
+
+{% embed url="https://www.youtube.com/watch?v=bPEXF2V-BKg" %}
+
 ### How to Vote <a href="#vote" id="vote"></a>
 
 Select the active proposal that you'd like to vote on to navigate to its [Proposal Page](../../../tally-features/navigating-the-tally-platform/proposal-page.md).
