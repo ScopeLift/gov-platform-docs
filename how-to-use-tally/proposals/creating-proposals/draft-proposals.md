@@ -4,6 +4,10 @@ description: Mitigating friction in the governance process
 
 # Draft Proposals
 
+###
+
+{% embed url="https://youtu.be/EjRlfnPkZ2Q" %}
+
 ### What are draft proposals?
 
 Want some feedback on your proposal before it goes live? Keen to write it and have someone else submit it?

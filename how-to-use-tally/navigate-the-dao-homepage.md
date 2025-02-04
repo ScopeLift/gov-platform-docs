@@ -1,9 +1,11 @@
 ---
-description: Explore your DAO's homepage.
 icon: compass
+description: Explore your DAO's homepage.
 ---
 
 # Navigate the DAO Homepage
+
+{% embed url="https://youtu.be/n8UcBsj7ThY" %}
 
 The DAO page shows details about a specific DAO, including current and past proposals, assets, and delegates.
 

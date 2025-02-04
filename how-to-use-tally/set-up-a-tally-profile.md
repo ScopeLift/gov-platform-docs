@@ -4,6 +4,10 @@ icon: paintbrush
 
 # Set up a Tally Profile
 
+
+
+{% embed url="https://youtu.be/2wtFU1TsarQ" %}
+
 Once you've signed in to Tally, you can click your profile name at the top right to access the profile drop-down menu.
 
 ## Tally Profile
