@@ -9,6 +9,13 @@ Tally supports [Staker](https://github.com/withtally/staker), an industry-standa
 
 Uniswap, Arbitrum, Rari and other protocols plan to use Staker to distribute rewards. The rewards can optionally depend on eligibility criteria. e.g. requiring that staked tokens be active in governance.
 
+### ARB Staker Closed Beta
+
+The ARB Staker Closed Beta is the first opportunity for $ARB Tokenholders to experience staking via Staker. The Closed Beta provides eligible participants with test tokens to open test positions & provide valuable feedback for the future of staking in Arbitrum. \
+
+
+_Note: The ARB Staker Closed Beta begins Thursday, February 13th. Test tokens & rewards earned via staking hold no monetary value. If you're interested in participating, fill out the_ [_ARB Test Token request form._](https://form.typeform.com/to/oBqpKWVS)
+
 ### Why staking?
 
 Staking rewards align holders with the protocol.
