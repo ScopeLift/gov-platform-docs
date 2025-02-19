@@ -10,15 +10,10 @@ icon: plus
 
 ### Steps
 
-1. Node Integration: Tally integrates the network's (and testnet's) archive node RPC endpoints with our indexers.
-2. Self-Serve DAO Addition: Tally adds support for the new network in our self-serve flow, allowing new DAOs on this network to be easily added to our platform.
-3. Block Explorer Integration: Tally integrates the network's block explorer into our system for seamless transaction and address lookups.
-4.  API Support: Tally provides API access to the network's data for all DAOs added to the platform. Requirements To proceed with the integration, Tally needs the following information from the network:&#x20;
-
-    1. Link to an archive node (for both Testnet & Mainnet)&#x20;
-    2. Link to the network's block explorer&#x20;
-
-
+1. Node integration: Tally integrates the network's (and testnet's) archive node RPC endpoints with our indexers.
+2. Self-serve DAO addition: Tally adds support for the new network in our self-serve flow, allowing new DAOs on this network to be easily added to our platform.
+3. Block explorer integration: Tally integrates the network's block explorer into our system for seamless transaction and address lookups.
+4. API support: Tally provides API access to the network's data for all DAOs added to the platform.&#x20;
 
 ### Getting Started&#x20;
 
