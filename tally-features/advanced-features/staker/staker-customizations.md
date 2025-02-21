@@ -1,6 +1,6 @@
 ---
-description: Staker's EarningPowerCalculator acts as a programable incentive system
 icon: arrow-down-up-across-line
+description: Staker's EarningPowerCalculator acts as a programable incentive system
 ---
 
 # Staker customizations
@@ -19,6 +19,10 @@ Earning power can also depend on arbitrary criteria. Here's how the [BinaryEligi
 * The calculator turns earning power on and off based on whether an address's score exceeds a configurable threshold
 * Staker uses the earning power over time to distribute rewards.
 
-This calculator has built-in failsafes in case the oracle misbehaves or goes offline. If the oracle misbehaves by posting incorrect scores, a \`PauseGuardian\` can pause the system, reverting it to flat earning power. If the oracle goes offline, the calculator also automatically reverts to using flat earning power.
+_Oracle Safety_
 
-The oracle can be replaced by Staker's admin.
+The oracle-based calculator has failsafes in case the oracle misbehaves or goes offline:
+
+* If the oracle misbehaves by posting incorrect scores, a \`PauseGuardian\` can pause the system, reverting it to flat earning power.&#x20;
+* If the oracle goes offline, the calculator also automatically reverts to using flat earning power.
+* The oracle can be replaced by Staker's admin.
