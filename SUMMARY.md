@@ -12,6 +12,7 @@
 * [Advanced Features](tally-features/advanced-features/README.md)
   * [Chain Integration](tally-features/advanced-features/chain-integration.md)
   * [Staker](tally-features/advanced-features/staker/README.md)
+    * [Staker customizations](tally-features/advanced-features/staker/staker-customizations.md)
     * [stGOV LST](tally-features/advanced-features/staker/stgov-lst.md)
   * [Launch Governance](tally-features/advanced-features/governance-launcher/README.md)
     * [Claim](tally-features/advanced-features/governance-launcher/claim.md)
