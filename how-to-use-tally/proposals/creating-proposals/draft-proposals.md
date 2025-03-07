@@ -22,7 +22,7 @@ Draft proposals provide a more efficient and flexible way to get things done in 
 
 ### How to Submit a Draft Proposal
 
-{% embed url="https://youtu.be/Oc3b4gB13lY" %}
+<figure><img src="../../../.gitbook/assets/Area.gif" alt=""><figcaption></figcaption></figure>
 
 ### How to Delete a Draft
 
