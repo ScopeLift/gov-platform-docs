@@ -20,7 +20,7 @@ Draft proposals provide a more efficient and flexible way to get things done in 
 2. **Retain Context**: All draft proposal metadata is recorded and included in the onchain proposal when submitted.
 3. **Flexibility in Submission**: Draft proposals are created offchain and can later be submitted onchain at any time. This makes it possible for different stakeholders to create the proposal and ultimately submit it.
 
-### How to Submit a Draft Proposal
+### How to Save a Draft Proposal
 
 <figure><img src="../../../.gitbook/assets/Area.gif" alt=""><figcaption></figcaption></figure>
 
