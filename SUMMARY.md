@@ -80,6 +80,7 @@
   * [Zodiac Governor Module for SubDAOs and Grants Programs](how-to-use-tally/making-onchain-transactions-as-safe/zodiac-governor-module-for-subdaos-and-grants-programs.md)
   * [Upgrade Gnosis Safe to Governor with Zodiac](how-to-use-tally/making-onchain-transactions-as-safe/upgrade-gnosis-safe-to-governor-with-zodiac.md)
 * [DAO Treasury](tally-features/enterprise-features/dao-treasury.md)
+* [Participate in Security Council Elections](how-to-use-tally/participate-in-security-council-elections.md)
 
 ## Set up & Technical Documentation
 
