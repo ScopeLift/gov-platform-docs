@@ -1,6 +1,6 @@
 ---
-icon: rocket-launch
 description: Launch once, build forever.
+icon: rocket-launch
 ---
 
 # Launch Governance
@@ -36,6 +36,10 @@ _Tally provides a comprehensive governance solution. These features are complete
 **Wallet Support:** Native support for a wide range of wallets, ensuring accessibility and convenience for all community members.&#x20;
 
 **Public API:** Tally's comprehensive public API can power custom governance applications and integrate with other tools and platforms within the Ethereum ecosystem.
+
+
+
+{% embed url="https://youtu.be/n0ro2PhfCQ8" %}
 
 ### Governance Smart Contract Development
 
