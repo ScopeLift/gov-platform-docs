@@ -1,6 +1,6 @@
 ---
-icon: money-bill-transfer
 description: Staker is the crypto-native way to align protocols with token holders
+icon: money-bill-transfer
 ---
 
 # Staker
@@ -12,7 +12,7 @@ Tally supports [Staker](https://github.com/withtally/staker), an industry-standa
 The ARB Staking Closed Beta is the first opportunity for $ARB Tokenholders to experience staking via Staker. The Closed Beta provides eligible participants with test tokens to open test positions & provide valuable feedback for the future of governance staking.\
 
 
-_Note: The ARB Staker Closed Beta begins Friday, February 21st. Test tokens & rewards earned via staking hold no monetary value. If you're interested in participating, fill out the_ [_ARB Test Token request form._](https://form.typeform.com/to/oBqpKWVS)
+_Note: The ARB Staker Closed Beta is complete. Staking contracts are currently in audit review._
 
 ### Why staking?
 
