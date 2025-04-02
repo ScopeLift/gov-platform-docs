@@ -61,7 +61,7 @@ Here's an architecture diagram of the smart contracts:
 
 * Governance Staking is out-of-the-box compatible with existing \`ERC20Votes\` governance tokens. It supports \`ERC20Votes\` delegation with the "surrogate factory" pattern. Governance Staking creates a surrogate contract for each delegate. It delegates voting power in each surrogate to the delegate.
 * Whenever Governance Staking receives rewards, it distributes them over a period of time. Distributing over time gives unstaked tokenholders a chance to stake. A smooth schedule also minimizes discontinuities from flash staking.
-* The Governance Staking contract builds on [UniStaker](https://github.com/uniswapfoundation/UniStaker). Unistaker is based on Syntheix's [StakingRewards](https://github.com/Synthetixio/synthetix/blob/develop/contracts/StakingRewards.sol).
+* The Governance Staking contract builds on [UniStaker](https://github.com/uniswapfoundation/UniStaker). Unistaker is based on Synthetix's [StakingRewards](https://github.com/Synthetixio/synthetix/blob/develop/contracts/StakingRewards.sol).
 * UniStaker and Staker were audited several times. The audit reports are [available here](https://github.com/withtally/staker/tree/main/audits/unistaker).
 
 ### Liquid token wrapper
