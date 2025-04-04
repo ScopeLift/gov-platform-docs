@@ -1,6 +1,6 @@
 ---
-icon: people-group
 description: Decentralize multi-sig control of your DAO.
+icon: people-group
 ---
 
 # Security Council Elections
@@ -23,7 +23,7 @@ With Tally's custom-built council elections, elevate your DAO's council election
 
 In the rapidly evolving world of DAOs, a council serves as a mechanism for stability and security. It consists of designated members with the authority to make necessary changes to the protocol during emergencies. The council's role is not only to govern but also to address potential threats, ensuring the DAO's security and adaptability.
 
-<figure><img src="../../../.gitbook/assets/image (124).png" alt=""><figcaption><p>Cohort 1 of Arbitrum DAO's Security Council is made up of 12 members; subsequent cohorts will have 6 members.</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (124).png" alt=""><figcaption><p>Cohort 1 of Arbitrum DAO's Security Council is made up of 12 members; subsequent cohorts will have 6 members.</p></figcaption></figure>
 
 #### Roles and Responsibilities
 
@@ -41,7 +41,7 @@ To ensure accountability and infusion of fresh perspectives, the members of the 
 * **Election Period**: A period where delegates vote for the nominees, with the voting weight decreasing linearly over the last two weeks.
 * **Results and Implementation**: Following the election, the top nominees become the new members of the Security Council, with the results undergoing various time locks before the new members are integrated into the council.
 
-<figure><img src="../../../.gitbook/assets/image (125).png" alt=""><figcaption><p>In this example, the vote threshold to qualify for Round 2 is 4.7M. Matt Fiebach has met the vote threshold and will move on to Round 2, while Matt StableLab will not pass Round 1.</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (125).png" alt=""><figcaption><p>In this example, the vote threshold to qualify for Round 2 is 4.7M. Matt Fiebach has met the vote threshold and will move on to Round 2, while Matt StableLab will not pass Round 1.</p></figcaption></figure>
 
 #### Security Measures
 
@@ -60,6 +60,6 @@ As a stakeholder in a DAO, the establishment of a Security Council—and an effi
 * **Democratic Governance**: Elections at regular intervals foster a democratic environment, allowing for the inclusion of new skills and perspectives, and preventing the entrenchment of power.
 * **Resilience**: In the face of emergencies, a council's swift actions help maintain the stability and functionality of the DAO, thereby preserving users' trust and investments.
 
-<figure><img src="../../../.gitbook/assets/image (126).png" alt=""><figcaption><p>The homepage of Arbitrum DAO's Security Council Elections</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (126).png" alt=""><figcaption><p>The homepage of Arbitrum DAO's Security Council Elections</p></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/image (127).png" alt=""><figcaption><p>The voting slate for Arbitrum DAO's first Security Council Election</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (127).png" alt=""><figcaption><p>The voting slate for Arbitrum DAO's first Security Council Election</p></figcaption></figure>

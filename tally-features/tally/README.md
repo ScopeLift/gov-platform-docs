@@ -18,6 +18,6 @@ With Tally, users can:&#x20;
 
 * [Create & Pass Proposals](../../how-to-use-tally/proposals/creating-proposals/)
 * [Delegate Voting Power](../../how-to-use-tally/delegate-on-tally/)
-* Create Security Councils&#x20;
+* [Create Security Councils ](../governance/advanced-features/security-council-elections/)
 * Upgrade Smart Contracts
-* [Return Value with Governance Staking ](../advanced-features/staker/)
+* [Return Value with Governance Staking ](../staking/)

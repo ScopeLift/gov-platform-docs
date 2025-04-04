@@ -29,12 +29,12 @@ _Learn how to navigate and use the Tally platform._
 [tally](tally-features/tally/)
 {% endcontent-ref %}
 
-{% content-ref url="tally-features/standard-features.md" %}
-[standard-features.md](tally-features/standard-features.md)
+{% content-ref url="tally-features/governance/" %}
+[governance](tally-features/governance/)
 {% endcontent-ref %}
 
-{% content-ref url="tally-features/advanced-features/" %}
-[advanced-features](tally-features/advanced-features/)
+{% content-ref url="tally-features/token-launch.md" %}
+[token-launch.md](tally-features/token-launch.md)
 {% endcontent-ref %}
 
 {% content-ref url="set-up-and-technical-documentation/managing-a-dao/" %}

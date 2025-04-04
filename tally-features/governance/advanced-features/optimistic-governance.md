@@ -21,7 +21,7 @@ To implement Optimistic Governance, combine battle-tested governance contracts:
 * Two Governor contracts, the **Optimistic Governor** and the **Veto Governor.**
 * One **Timelock** contract that holds the DAO assets and/or protocol.
 
-<figure><img src="../../.gitbook/assets/optimistic dao.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/optimistic dao.png" alt=""><figcaption></figcaption></figure>
 
 ## **Modifications from standard OZ Governor setup**
 

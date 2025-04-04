@@ -1,6 +1,0 @@
----
-icon: building
----
-
-# Enterprise Features
-
