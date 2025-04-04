@@ -1,9 +1,11 @@
 ---
+description: >-
+  Tally supports Staker, an industry-standard, extensible staking contract.
+  Staker's EarningPowerCalculator acts as a programable incentive system
 icon: arrow-down-up-across-line
-description: Staker's EarningPowerCalculator acts as a programable incentive system
 ---
 
-# Staker customizations
+# Staking customizations
 
 Staker uses a concept called "Earning Power" to distribute rewards. Every depositor gets Earning Power. Their share of the reward is their earning power divided by the total earning power in Staker, over time.&#x20;
 

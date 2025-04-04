@@ -5,7 +5,7 @@ icon: mountain
 
 # Stake on Tally
 
-_To learn more about staking, visit_ [_Staker_](../tally-features/staking/)_._&#x20;
+_To learn more about staking, visit_ [_Staking_](../tally-features/staking/)_._&#x20;
 
 Governance tokens like Uniswap's UNI and Wormhole's W can be staked for potential future rewards.
 
