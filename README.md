@@ -33,8 +33,8 @@ _Learn how to navigate and use the Tally platform._
 [governance](tally-features/governance/)
 {% endcontent-ref %}
 
-{% content-ref url="tally-features/token-launch.md" %}
-[token-launch.md](tally-features/token-launch.md)
+{% content-ref url="tally-features/staking/" %}
+[staking](tally-features/staking/)
 {% endcontent-ref %}
 
 {% content-ref url="set-up-and-technical-documentation/managing-a-dao/" %}
@@ -49,8 +49,8 @@ _Learn how to navigate and use the Tally platform._
 [delegate-on-tally](how-to-use-tally/delegate-on-tally/)
 {% endcontent-ref %}
 
-{% content-ref url="how-to-use-tally/stake-on-tally.md" %}
-[stake-on-tally.md](how-to-use-tally/stake-on-tally.md)
+{% content-ref url="how-to-use-tally/proposals/voting-on-proposals/" %}
+[voting-on-proposals](how-to-use-tally/proposals/voting-on-proposals/)
 {% endcontent-ref %}
 
 ## Technical Documentation
