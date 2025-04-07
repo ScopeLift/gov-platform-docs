@@ -38,6 +38,7 @@
 * [Staking](tally-features/staking/README.md)
   * [Features & Use Cases](tally-features/staking/staking-customizations.md)
   * [Getting Started with Staking](tally-features/staking/stgov-lst.md)
+  * [Troubleshooting & FAQ](tally-features/staking/troubleshooting-and-faq.md)
 * [Tally API](tally-features/welcome.md)
 * [Tally Zero](tally-features/tally-zero.md)
 * [Token Launch](tally-features/token-launch.md)
