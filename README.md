@@ -1,5 +1,7 @@
 ---
-description: Tally is a frontend for onchain decentralized organizations.
+description: >-
+  Tally is the software layer for tokenized organizations. Winning teams use
+  Tally to launch tokens, govern protocols, and grow with staking
 icon: file-lines
 cover: .gitbook/assets/Git banner 2 (1).png
 coverY: 0
@@ -29,12 +31,16 @@ _Learn how to navigate and use the Tally platform._
 [tally](tally-features/tally/)
 {% endcontent-ref %}
 
-{% content-ref url="tally-features/governance/" %}
-[governance](tally-features/governance/)
-{% endcontent-ref %}
-
 {% content-ref url="tally-features/staking/" %}
 [staking](tally-features/staking/)
+{% endcontent-ref %}
+
+{% content-ref url="tally-features/token-launch.md" %}
+[token-launch.md](tally-features/token-launch.md)
+{% endcontent-ref %}
+
+{% content-ref url="tally-features/governance/" %}
+[governance](tally-features/governance/)
 {% endcontent-ref %}
 
 {% content-ref url="set-up-and-technical-documentation/managing-a-dao/" %}

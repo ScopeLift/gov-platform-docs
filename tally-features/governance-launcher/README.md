@@ -3,13 +3,47 @@ description: Launch once, build forever.
 icon: rocket-launch
 ---
 
-# Launch Governance
+# Token Launch
 
-Tally's platform is built on years of helping the industry's largest protocols successfully launch governance. Tally provides a streamlined launch process to anticipate and solve common governance challenges before they arise to ensure the protocol governance structure is robust, scalable, and built for long-term success.&#x20;
+Tally provides the infrastructure and guidance to launch and operate tokens at any stage. Whether you’re shipping tokens with governance on day one or rolling out in phases, Tally's platform is built on years of helping the industry's largest protocols successfully launch tokens . We’ve supported launches like **Hyperlane,** [**Obol**](https://tally.mirror.xyz/6e3I6e4K2FL_dcv5cnDTnJdQ0NSpqFnENZBAs7zre4s), Arbitrum, ZKsync, and more.&#x20;
 
-For expert guidance in launching governance, contact our team at hello@tally.xyz.
+## Token Launch Features
 
-## 5 Features of Launching Governance with Tally
+### Modular Architecture&#x20;
+
+Tally's system is designed with flexibility in mind. You can launch just the token, pair it with staking and governance from day one, or progressively enable those components later. This modularity ensures technical teams aren’t locked into premature decisions while still laying a foundation for future expansion.
+
+### Full Lifecycle Support
+
+From contract deployment to governance activation, Tally supports your team across every phase of launch:
+
+* ERC20 token contract deployment (mint/burn, cap, upgradeable, etc.)
+* Optional components: transfer restrictions, vesting, lockups
+* Multichain support (bridged or canonical setups)
+* Progressive rollout flows: e.g. claim site + staking before transferability
+* Optional governance setup and delegation frameworks
+
+### Production Ready Contracts
+
+Tally's contracts are widely used and actively maintained. They're deployed across Ethereum mainnet and major L2s and used in production by protocols like Hyperlane, ZKsync, Wormhole, and more. Security and regular audits are first principles in Tally's deployment process.
+
+### Custom Launch Infrastructure and Custom UI&#x20;
+
+Tally offers branded, custom-built claim and staking frontends tailored to your protocol. UI and UX are developed in close collaboration with your team to ensure brand alignment and user clarity.
+
+### Community Support and Integrations
+
+Tally helps your team prepare for a clean launch:
+
+* Pre-launch links and interfaces
+* Educational and onboarding materials
+* Page scaffolding
+
+Additionally, Tally can integrate with tooling like [**Hedgey**](https://hedgey.finance/), [**Sablier**,](https://app.gitbook.com/u/8z9T9afYU7MkV2BBZhy8mul6Imn2) or other vesting and lockup providers depending on your needs. Some components may require coordination across teams.
+
+## Launch Tokens with Governance
+
+Tally offers protocols the ability to launch tokens with governance from day 1. Launching with governance includes everything in the traditional token launch package. Teams can also add governance at a future date.&#x20;
 
 ### End-to-end Governance Application&#x20;
 
