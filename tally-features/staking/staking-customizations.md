@@ -1,30 +1,72 @@
 ---
 description: >-
-  Tally supports Staker, an industry-standard, extensible staking contract.
-  Staker's EarningPowerCalculator acts as a programable incentive system
+  Tally's value accrual product offers several key features that help protocols
+  create sustainable tokenomics. Each feature addresses specific protocol needs
+  and can be customized to fit your goals.
 icon: arrow-down-up-across-line
 ---
 
-# Staking customizations
+# Features & Use Cases
 
-Staker uses a concept called "Earning Power" to distribute rewards. Every depositor gets Earning Power. Their share of the reward is their earning power divided by the total earning power in Staker, over time.&#x20;
+### Returning Fees
 
-**Flat Earning Power**
+Tally's staking system allows protocols to return a portion of protocol fees to token stakers. This creates direct economic alignment between protocol usage and token holder rewards.
 
-The simplest setup is to give every depositor earning power equal to their deposited stake. The [IdentityEarningPowerCalculator](https://github.com/withtally/staker/blob/main/src/calculators/IdentityEarningPowerCalculator.sol) implements this kind of earning power.
+How it works:
 
-**Oracle-based Earning Power**
+* Protocol governance decides what percentage of fees to distribute to stakers
+* Fee distribution can be automated through smart contracts
+* Rewards can be paid in native tokens, stablecoins, or other assets
 
-Earning power can also depend on arbitrary criteria. Here's how the [BinaryEligibilityOracleEarningPowerCalculator](https://github.com/withtally/staker/blob/main/src/calculators/BinaryEligibilityOracleEarningPowerCalculator.sol) works:
+Customer example: Uniswap is planning to implement fee sharing with stakers, allowing token holders to benefit directly from protocol growth and usage.
 
-* An oracle puts scores onchain
-* The calculator turns earning power on and off based on whether an address's score exceeds a configurable threshold
-* Staker uses the earning power over time to distribute rewards.
+### Governance Integration
 
-_Oracle Safety_
+Unlike traditional staking systems that force users to choose between earning yield and participating in governance, Tally's solution enables both simultaneously.
 
-The oracle-based calculator has failsafes in case the oracle misbehaves or goes offline:
+How it works:
 
-* If the oracle misbehaves by posting incorrect scores, a \`PauseGuardian\` can pause the system, reverting it to flat earning power.&#x20;
-* If the oracle goes offline, the calculator also automatically reverts to using flat earning power.
-* The oracle can be replaced by Staker's admin.
+* Staked tokens retain their ability to delegate voting power
+* Tokens can be used in governance without unstaking
+* Optional rewards can be tied to active governance participation
+
+Customer example: Obol implemented staking with governance integration, ensuring their stakers can earn rewards while still contributing to protocol governance decisions.
+
+Other protocols like Rarible and Arbitrum are exploring making staking rewards conditional on delegating to an active delegate, further incentivizing governance participation.
+
+### Network/Protocol Validation
+
+Tally's staking system is compatible with staking and restaking protocols that provide validated services.
+
+How it works:
+
+* Native tokens can be used to secure actively validated services
+* Compatible with protocols like EigenLayer and Symbiotic
+* Aligns token holder incentives with network security
+
+### Stake Streaks
+
+Stake streaks reward long-term holders, creating incentives for extended token holding periods and reducing market volatility.
+
+How it works:
+
+* Stakers' earning power increases over time
+* Rewards scale based on continuous staking duration
+* Encourages long-term protocol alignment and reduced token velocity
+
+### Benefits
+
+#### For Token Holders
+
+* Direct economic alignment with protocol success
+* Passive income through staking rewards
+* Governance participation without sacrificing yield
+* Increasing rewards for long-term commitment
+
+#### For Protocols
+
+* Enhanced token utility beyond speculation
+* Reduced token velocity through long-term staking incentives
+* Stronger governance with more active participation
+* Flexible incentive design to encourage specific behaviors
+* Sustainable tokenomics model that scales with protocol usage

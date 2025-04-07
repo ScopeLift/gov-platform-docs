@@ -36,7 +36,7 @@
       * [Safe](tally-features/governance/advanced-features/integrations/safe.md)
   * [Standard Features](tally-features/governance/standard-features.md)
 * [Staking](tally-features/staking/README.md)
-  * [Staking customizations](tally-features/staking/staking-customizations.md)
+  * [Features & Use Cases](tally-features/staking/staking-customizations.md)
   * [stGOV LST](tally-features/staking/stgov-lst.md)
 * [Tally API](tally-features/welcome.md)
 * [Tally Zero](tally-features/tally-zero.md)
