@@ -1,46 +1,96 @@
 ---
-description: Liquid Staking Governance tokens for Staker.
+description: >-
+  This section helps you prepare for implementing Tally's staking system. It
+  covers prerequisites, reward sources, and considerations for successful
+  deployment.
 icon: coin-blank
 ---
 
-# stGOV
+# Getting Started with Staking
 
-A Governance LST is the easiest way to get rewards from Staker, and it plays nice with the underlying DAO.
+### Prerequisites
 
-Staker starts with one key insight: holders shouldn't have to choose between participating in governance and rewards! If they do, most of them will choose yield.
+#### Token Requirements
 
-If most tokens aren't active in governance, that undermines the DAO. Low participation ends in one of two failure modes. Either the DAO freezes because it has too few votes to pass proposals, or someone launches a 51% governance attack.
+Tally's staking system works with standard ERC20 tokens:
 
-The Governance LST solves this problem by having a default strategy for activating governance tokens. If the Governance LST holder doesn't activate their voting power, the default strategy will.
+* Staking token: The token that users stake in the system
+* Reward token(s): One or more tokens distributed as rewards
 
-**Here's how a Governance LST works:**
+#### Compatible tokens:
 
-* A holder can stake their \`GOV\` balance to receive \`stGOV\`.
-* Optionally, the holder can delegate their voting power
-* The \`stGOV\` contract deposits \`GOV\` in Staker. \`stGOV\` assigns the voting power to the holder's chosen delegate, if any. Otherwise, it assigns the voting power using the delegation strategy
-* The delegation strategy is configured by \`GOV\` governance. This keeps the default voting power aligned with the DAO and mitigates capture risk.
-* The \`stGOV\` contract claims Staker rewards daily.
-* If the rewards aren't denominated in the native GOV token, they are auctioned off for more \`GOV\`. That GOV which is added to each user's staked position. e.g. a balance of \`100 stGOV\` might be be now be back by \`102 GOV \`.
-* Holders can redeem their \`stGOV\` for their share of the underlying \`GOV\` at any time.
+* Standard ERC20 tokens
+* Wrapped gas tokens (like WETH)
 
-**FAQ**:
+#### Incompatible tokens:
 
-**Can the LST participate in governance?**
+* Rebasing tokens
+* Certain ["weird" ERC20 implementations](https://github.com/d-xo/weird-erc20) with non-standard behavior
 
-Yes! The LST can delegate its voting power directly, like a normal governance token. If the holder doesn't delegate the votes, the LST uses the delegation strategy instead. That way, LST voting power is always active in governance.&#x20;
+Before using a non-standard token, check the[ audit reports](https://github.com/withtally/staker/tree/main/audits) to verify compatibility.
 
-**Is there liquidity risk of LST vs the underlying token?**
+### Reward Source Options
 
-Liquidity risk is minimal, because unstaking is instant. If there is a price difference between TOKEN and stTOKEN, arbitrageurs can arbitrage it away.
+Tally's system distributes rewards through a stream mechanism:
 
-**Can stGOV be used in restaking and DeFi?**
+1. Rewards periodically enter the staking system as lump sums
+2. Those rewards stream to stakers over time
+3. Stakers earn proportional to their staked amount
 
-Yes, that's one of the primary motivations. LST holders can have it all. They can participate in governance, earn rewards for doing so, and use their position as collateral. The LST is a rebasing token, but it's easy to wrap it into a non-rebasing LST.
+This approach gives stakers time to respond to changes in rewards.
 
-**Who approves the default delegation strategy(s)?**
+#### Reward Notifiers
 
-The underlying governance does. e.g. Arbitrum governance would pick the delegation strategy for \`stARB\`. If Arbitrum governance does not approve one, Tally Protocol's governance picks a default.
+Reward notifiers connect different token sources to the staking system. Tally provides three standard notifiers:
 
-**Is there risk of delegation strategies capturing governance?**
+1. ERC20 transfer() Direct token transfers from a treasury or revenue source
+2. ERC20 transferFrom() Approved transfers from a separate contract or wallet
+3. ERC20 mint() -[ ](https://github.com/withtally/staker/blob/main/src/notifiers/MintRewardNotifier.sol)Newly minted tokens from an inflationary schedule
 
-Delegation strategies have no special powers that might present a danger. Token holders are free to change delegation strategies at any time. Poorly implemented delegation strategies do not pose a feedback loop danger. In the worst case, users withdraw their tokens or delegate them by hand.
+Each notifier handles capturing rewards from your chosen source and adding them to the staking reward pool.
+
+### Token Launch Considerations
+
+Many protocols implement staking along with their token launch. Combining the two launches offers several benefits:
+
+* Immediate utility for new tokens
+* Higher staking conversion rates
+* Reduced initial selling pressure
+* Clear value proposition for tokenholders
+
+#### Combining Token Launch with Staking
+
+Tally helps protocols launch tokens with integrated staking capabilities. Our token launch flow allows tokenholders to stake immediately after receiving tokens.
+
+This integrated approach:
+
+1. Improves conversion rates
+2. Increases the amount staked
+3. Establishes sustainable tokenomics from day one
+
+Learn more about how Tally helped Obol combine token launch with staking launch [here](https://tally.mirror.xyz/6e3I6e4K2FL_dcv5cnDTnJdQ0NSpqFnENZBAs7zre4s).
+
+### Choosing the Right Implementation Approach
+
+Your implementation approach depends on your protocol's stage and needs:
+
+#### For New Protocols:
+
+* Implement staking alongside your token launch
+* Design tokenomics with value accrual in mind from day one
+* Create a complete economic loop between usage, fees, and rewards
+
+#### For Established Protocols:
+
+* Add staking to create utility for existing tokens
+* Connect protocol revenue streams to reward stakers
+* Consider a phased approach to test and adjust parameters
+
+### Next Steps
+
+Once you've considered these prerequisites and options:
+
+1. Review the [technical implementation details](https://docs.google.com/document/d/17OiiaTC6jeu0E7uEb2HtedChwh1q5sakBo-bbkakYes/edit?tab=t.dljpt5d2kpap) in the next section
+2. Decide on your reward source and notifier approach
+3. Define your staking parameters
+4. Contact Tally for support with your implementation
