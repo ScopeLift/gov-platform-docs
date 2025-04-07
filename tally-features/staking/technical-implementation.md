@@ -1,0 +1,351 @@
+---
+description: >-
+  This section provides detailed technical information about Tally staking.
+  We'll cover how to implement staking for your protocol, from quick start
+  guides to in-depth technical details.
+icon: computer
+---
+
+# Technical Implementation
+
+### Quick Start Guide
+
+### Prerequisites
+
+Before implementing Tally's staking system, ensure you have:
+
+1.  **Compatible tokens**:
+
+    1. A standard ERC20 token to use as the staking token
+    2. One or more ERC20 tokens to distribute as rewards
+
+    Note: Rebasing tokens or non-standard ERC20 implementations are not supported
+2. **Reward source**:
+   1. Protocol revenue, treasury funds, or token minting capabilities
+   2. Authority to manage the reward distribution
+
+### Deployment Options
+
+**Deploy with Tally's assistance**
+
+For the fastest and most reliable implementation:
+
+1. Contact Tally's team at[ tally.xyz/contact](https://www.tally.xyz/contact)
+2. Provide information about your staking and reward tokens
+3. Tally will guide you through the deployment process
+4. Get a fully-configured staking user interface on Tally
+
+#### Deploy self-serve
+
+See the [Usage section of the Staker README.](https://github.com/withtally/staker?tab=readme-ov-file#usage)
+
+### &#x20;System Architecture
+
+The staking contracts are built with several modules and extensions. That way, protocols can assemble a staking system from existing audited contracts.
+
+
+
+Here's an architecture diagram of the staking smart contracts:
+
+<figure><img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXdEeZ22as7vFBVcreItQ3FzdzF__ZDU-TQm_cD3_qiP0Ytn247IcsOmlkG1JnJHQBbfTPn6RvBUJSho3KwOf8kssxnDO23D59UIEbw1BUX2T2egQOlMGJVNIsmNiNar-YZhFOyjaQ?key=-A0yyh0GoubDpQhSpbBdwPkR" alt=""><figcaption></figcaption></figure>
+
+* Staking is out-of-the-box compatible with existing \`ERC20Votes\` governance tokens. It supports \`ERC20Votes\` delegation with the "surrogate factory" pattern. Staking creates a surrogate contract for each delegate. It delegates voting power in each surrogate to the delegate.
+* When Staker receives rewards, it distributes them over a period of time. We recommend \~one month. Distributing over time gives unstaked tokenholders a chance to stake. A smooth schedule also minimizes discontinuities from flash staking.
+* Staker builds on[ UniStaker](https://github.com/uniswapfoundation/UniStaker). Unistaker is based on Synthetix's[ StakingRewards](https://github.com/Synthetixio/synthetix/blob/develop/contracts/StakingRewards.sol).
+* UniStaker and Staker have been audited several times. The audit reports are[ available here](https://github.com/withtally/staker/tree/main/audits/unistaker).
+
+#### Core Components
+
+Any instance of Staker needs these pieces to work.
+
+1. **Staker Contract**: The main contract that handles staking, reward distribution, and voting power delegation
+2. **Earning Power Calculator**: Determines how rewards are distributed to stakers
+3. **Delegation Surrogate**: Manages governance voting power for staked tokens
+4. **Reward Notifier(s)**: Connect reward sources to the staking system
+
+#### Extensions
+
+Instances of Staker can add these extensions for extra features.
+
+1. **StakerPermitAndStake**: Adds EIP-2612 permit functionality for better UX
+2. **StakerOnBehalf**: Enables signature-based execution of staking actions
+3. **StakerCapDeposits**: Enforces a cap on the total stake amount
+
+#### Liquid Staking Token (LST)
+
+The LST, also called stGOV, is the easiest way to get rewards from staking.&#x20;
+
+1. The LST is, of course, **liquid**. Staking positions can be transferred without unstaking.
+2. The LST **auto-compounds rewards**. Holders will automatically accrue the rewards without having to call claim()&#x20;
+3. The LST **keeps governance power active**. When the LST is in DeFi, cold storage, or a centralized exchange, the LST provides a backup plan for governance power.&#x20;
+   1. The backup is a configurable strategy for keeping voting power active in governance. For example, see the [OverwhelmingSupportAutoDelegate](https://github.com/withtally/stGOV/blob/main/src/auto-delegates/OverwhelmingSupportAutoDelegate.sol), which only votes on proposals that have lots of consensus.
+
+### In-Depth Technical Walkthrough
+
+#### Staker Contract
+
+The `Staker` contract is the core of the system. It manages:
+
+* Staking deposits and withdrawals
+* Reward distribution over time
+* Delegation of voting power
+* Earning power calculation
+
+Staker uses a streaming reward mechanism, where rewards are added as lump sums, then distributed evenly over time. This gives stakers time to respond to changes in reward rates.
+
+`// Sample code to create a basic Staker implementation`
+
+`contract MyStaker is`
+
+&#x20; `Staker,`
+
+&#x20; `StakerDelegateSurrogateVotes,`
+
+&#x20; `StakerPermitAndStake`
+
+`{`
+
+&#x20; `constructor(`
+
+&#x20;   `IERC20 _rewardsToken,`
+
+&#x20;   `IERC20Staking _stakeToken,`
+
+&#x20;   `IEarningPowerCalculator _earningPowerCalculator,`
+
+&#x20;   `uint256 _maxBumpTip,`
+
+&#x20;   `address _admin`
+
+&#x20; `)`
+
+`Staker(_rewardsToken, _stakeToken, _earningPowerCalculator, _maxBumpTip, _admin)`
+
+&#x20;   `StakerPermitAndStake(_stakeToken)`
+
+&#x20;   `StakerDelegateSurrogateVotes(_stakeToken)`
+
+&#x20; `{}`
+
+`}`
+
+#### Earning Power Calculation
+
+Staker uses a concept called "Earning Power" to distribute rewards. Every depositor gets Earning Power. Their share of the reward is their earning power divided by the total earning power in Staker, over time. The earning power calculator determines which depositors are eligible for rewards and how much they earn
+
+**Flat Earning Power**
+
+[IdentityEarningPowerCalculator](https://github.com/withtally/staker/blob/main/src/calculators/IdentityEarningPowerCalculator.sol): Simple 1:1 mapping where earning power equals staked amount.
+
+**Oracle-based Earning Power**
+
+[BinaryEligibilityOracleEarningPowerCalculator](https://github.com/withtally/staker/blob/main/src/calculators/BinaryEligibilityOracleEarningPowerCalculator.sol): More advanced calculator where earning power depends on the delegate's activity score. Here’s how it works:
+
+
+
+* An oracle puts scores onchain
+* The calculator turns earning power on and off based on whether an address's score exceeds a configurable threshold
+* Staker uses the earning power over time to distribute rewards.
+
+**. Tally provides two implementations:**
+
+`// Deploy a simple earning power calculator`
+
+`IdentityEarningPowerCalculator calculator = new IdentityEarningPowerCalculator();`
+
+`// Or deploy an oracle-based calculator`
+
+`BinaryEligibilityOracleEarningPowerCalculator oracleCalculator =`&#x20;
+
+&#x20; `new BinaryEligibilityOracleEarningPowerCalculator(`
+
+&#x20;   `owner,`
+
+&#x20;   `scoreOracle,`
+
+&#x20;   `staleOracleWindow,`
+
+&#x20;   `oraclePauseGuardian,`
+
+&#x20;   `delegateeScoreEligibilityThreshold,`
+
+&#x20;   `updateEligibilityDelay`
+
+&#x20; `);`
+
+#### Reward Notifiers
+
+Reward notifiers are responsible for informing the staking contract about new rewards:
+
+1. [TransferRewardNotifier.sol ](https://github.com/withtally/staker/blob/main/src/notifiers/TransferRewardNotifier.sol)holds rewards directly and distributes them by calling `transfer()`
+2. [TransferFromRewardNotifier.sol](https://github.com/withtally/staker/blob/main/src/notifiers/TransferFromRewardNotifier.sol) relies on an `approve()`, so that it can call `transferFrom()` on the reward source\
+
+3. [MintRewardNotifier.sol ](https://github.com/withtally/staker/blob/main/src/notifiers/MintRewardNotifier.sol)calls `mint()` on a token contract.\
+
+
+`// Deploy a transfer reward notifier`
+
+`TransferRewardNotifier transferNotifier = new TransferRewardNotifier(`
+
+&#x20; `stakerContract,    // The staking contract to notify`
+
+&#x20; `initialRewardAmount,   // Amount to distribute per period`
+
+&#x20; `initialRewardInterval,  // Time between distributions`
+
+&#x20; `owner              // Admin of the notifier`
+
+`);`
+
+`// Transfer reward tokens to the notifier`
+
+`rewardToken.transfer(address(transferNotifier), totalRewards);`
+
+`// Call notify to distribute rewards`
+
+`transferNotifier.notify();`
+
+#### Delegation Surrogates
+
+Staker uses the “surrogate pattern” to make staking compatible with governance tokens. That way, tokenholders don’t have to choose between earning rewards and doing governance.
+
+1. Staker creates a surrogate contract for each delegate (address receiving voting power)
+2. Surrogate deposits and withdrawals are fully controlled by the staking system. Staker does all the accounting.
+3. The surrogate contract holds staked tokens and delegates all its voting power to the chosen delegatee. That way, staking is compatible with the underlying governance token.
+   1. Note that these surrogate contracts allow tokenholders to split up their voting power. i.e. partial delegation
+   2.
+
+`// The staking contract creates a surrogate for each delegatee`
+
+`function _fetchOrDeploySurrogate(address _delegatee) internal returns (DelegationSurrogate _surrogate) {`
+
+&#x20; `_surrogate = new DelegationSurrogateVotes(stakeToken, _delegatee);`
+
+&#x20; `return _surrogate;`
+
+`}`
+
+### Configuring Earning Power
+
+#### Custom Earning Power Rules
+
+Create custom earning power calculators to incentivize specific behaviors:
+
+1. **Activity-based rewards**: Require governance participation to earn full rewards.&#x20;
+2. **Time-weighted staking**: Increase rewards for long-term stakers
+3. **Protocol usage rewards**: Tie rewards to protocol usage
+
+\
+
+
+`// Example of a custom earning power calculator`
+
+`contract CustomEarningPowerCalculator is IEarningPowerCalculator {`
+
+&#x20; `function getEarningPower(uint256 _amountStaked, address _staker, address _delegatee)`
+
+&#x20;   `external`
+
+&#x20;   `view`
+
+&#x20;   `returns (uint256)`
+
+&#x20; `{`
+
+&#x20;   `// Custom logic to determine earning power`
+
+&#x20;   `return _calculateCustomEarningPower(_amountStaked, _staker, _delegatee);`
+
+&#x20; `}`
+
+
+
+&#x20;`function getNewEarningPower(`
+
+&#x20;   `uint256 _amountStaked,`
+
+&#x20;   `address _staker,`
+
+&#x20;   `address _delegatee,`
+
+&#x20;   `uint256 _oldEarningPower`
+
+&#x20; `) external view returns (uint256, bool) {`
+
+&#x20;   `uint256 newPower = _calculateCustomEarningPower(_amountStaked, _staker, _delegatee);`
+
+&#x20;   `bool qualifiedForBump = _isQualifiedForBump(newPower, _oldEarningPower);`
+
+&#x20;   `return (newPower, qualifiedForBump);`
+
+&#x20; `}`
+
+&#x20;&#x20;
+
+&#x20;`// Your custom calculation logic`
+
+&#x20; `function _calculateCustomEarningPower(uint256 _amountStaked, address _staker, address _delegatee)`
+
+&#x20;   `internal`
+
+&#x20;   `view`
+
+&#x20;   `returns (uint256)`
+
+&#x20; `{`
+
+&#x20;   `// Implementation details`
+
+&#x20; `}`
+
+`}`
+
+#### Roles
+
+1. **Admin controls**:&#x20;
+
+The admin of the staking contracts can’t touch staked assets. They do control some system parameters:
+
+* Add and remove reward sources, by enabling and disabling reward notifiers
+* Set the eligibility criteria for rewards, by changing the earning power calculator
+* Change the emergency pause guardian.
+* Override eligibility for a particular address.
+* Set claim fee parameters
+
+
+
+2. **Upgrade strategy**:&#x20;
+
+These contracts could be deployed immutable or with the upgradeable proxy pattern
+
+* **To migrate an immutable Staker**:&#x20;
+  * Deploy a new staking contract
+  * Send rewards there
+  * Have tokenholders migrate to the new one
+* **To upgrade-in-place a proxy contract**:&#x20;
+  * Use initializers instead of constructors for key params at deployment
+  * Check the storage slots carefully to avoid corrupting state
+
+3. **Emergency measures**:
+
+The oracle-based calculator has failsafes in case the oracle misbehaves or goes offline:
+
+* If the oracle misbehaves by posting incorrect scores, a \`PauseGuardian\` can pause the system, reverting it to flat earning power.&#x20;
+* If the oracle goes offline, the calculator also automatically reverts to using flat earning power.
+* The oracle can be replaced by Staker's admin.
+
+### Resource Usage and Gas Optimization
+
+* **Deposit**: \~100,000-150,000 gas
+* **Claiming rewards**: \~60,000-100,000 gas
+* **Withdrawal**: \~80,000-120,000 gas
+
+**For optimal performance**:
+
+* Distribute rewards at reasonable intervals, e.g., weekly or monthly
+* The earning power calculator should wait between updates, e.g. daily
+* The earning power calculator shouldn’t make lots of small updates, especially networks with high gas costs
+* Anyone can update earning power as it changes, but someone needs to do it. Staker provides “tips” as incentive for bots to do updates. If MEV bots do not know about the incentive, consider running the staker bots script directly.&#x20;
+* These incentives don’t work testnets or for tokens with no market value.
+
+\

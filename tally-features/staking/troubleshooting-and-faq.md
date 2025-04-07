@@ -1,3 +1,7 @@
+---
+icon: comment-question
+---
+
 # Troubleshooting & FAQ
 
 ### Common Issues
@@ -23,8 +27,6 @@ The REWARD\_INTERVAL is configurable when deploying a new reward source. When th
 #### Does the system support partial delegation?&#x20;
 
 Yes, stakers can create multiple staking positions. Each staking position can have its own delegate.
-
-
 
 #### Does the Tally interface support multiple staking positions, and is it live?
 

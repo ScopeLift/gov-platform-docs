@@ -43,18 +43,20 @@ Launch a new token with built-in utility. Enhance your existing tokenomics. Eith
 
 ### How does it work?
 
-**1. Tokenholders stake protocol tokens**
-
-Tokenholders can stake in a single token. Then, they earn a share of the rewards proportional to their share of all staked tokens over time. They can stake, claim rewards, and unstake at any time.
-
-Tally’s staking contracts support any ERC20 token, including governance tokens. Tokenholders can use their staked tokens in governance. That way, tokenholders don't have to choose between governance and receiving rewards.
-
-**2. Staking Contracts distribute rewards over time**
+**1. Staking Contracts distribute rewards over time**
 
 Rewards can come from anywhere. The most common sources are 1) protocol revenue and 2) issuance of the protocol's native token. The rewards can be in any ERC20 token or even in more than one token.
 
 Tally's staking contracts distribute rewards among eligible staking users over time. Each staking user's reward is proportional to their staked balance over time.
 
 The eligibility criteria can stipulate particular actions from tokenholders to get rewards. For example, it could require that staked tokens be active in governance to earn rewards. There's a large design space for incentivizing token-aligned services.
+
+**2. Tokenholders stake protocol tokens**
+
+Tokenholders stake their protocol tokens. Then, they earn a share of the rewards proportional to their share of all staked tokens over time. They can stake, claim rewards, and unstake at any time.
+
+Tally’s staking contracts support any ERC20 token, including governance tokens. Tokenholders can use their staked tokens in governance. That way, tokenholders don't have to choose between governance and receiving rewards.
+
+
 
 \

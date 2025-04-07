@@ -30,7 +30,7 @@ How it works:
 * Tokens can be used in governance without unstaking
 * Optional rewards can be tied to active governance participation
 
-Customer example: Obol implemented staking with governance integration, ensuring their stakers can earn rewards while still contributing to protocol governance decisions.
+Customer example: Obol implemented staking with governance integration, ensuring their stakers can earn rewards while still contributing to protocol governance decisions. Read the OBOL case study [here](https://tally.mirror.xyz/6e3I6e4K2FL_dcv5cnDTnJdQ0NSpqFnENZBAs7zre4s).
 
 Other protocols like Rarible and Arbitrum are exploring making staking rewards conditional on delegating to an active delegate, further incentivizing governance participation.
 
