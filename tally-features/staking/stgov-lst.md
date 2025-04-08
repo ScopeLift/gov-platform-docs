@@ -8,6 +8,11 @@ icon: coin-blank
 
 # Getting Started with Staking
 
+#### Get started with Staking by accessing Tally's open source contracts:
+
+* [Staker Repo ](https://github.com/withtally/staker)
+* [LST Repo ](https://github.com/withtally/stGOV)
+
 ### Prerequisites
 
 #### Token Requirements

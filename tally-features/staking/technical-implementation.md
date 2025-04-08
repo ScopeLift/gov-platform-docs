@@ -10,11 +10,6 @@ icon: computer
 
 ### Quick Start Guide
 
-#### All of Tally's Staking contracts are open source:
-
-* [Staker Repo ](https://github.com/withtally/staker)
-* [LST Repo ](https://github.com/withtally/stGOV)
-
 ### Prerequisites
 
 Before implementing Tally's staking system, ensure you have:
