@@ -5,6 +5,11 @@ icon: money-bill-transfer
 
 # Staking
 
+#### All of Tally's Staking contracts are open source:
+
+* [Staker Repo ](https://github.com/withtally/staker)
+* [LST Repo ](https://github.com/withtally/stGOV)
+
 ## Value Accrual with Staking
 
 Staking is the crypto-native way to align protocols with token holders

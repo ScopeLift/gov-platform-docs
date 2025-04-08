@@ -10,6 +10,11 @@ icon: computer
 
 ### Quick Start Guide
 
+#### All of Tally's Staking contracts are open source:
+
+* [Staker Repo ](https://github.com/withtally/staker)
+* [LST Repo ](https://github.com/withtally/stGOV)
+
 ### Prerequisites
 
 Before implementing Tally's staking system, ensure you have:
@@ -79,6 +84,8 @@ The LST, also called stGOV, is the easiest way to get rewards from staking.&#x20
 2. The LST **auto-compounds rewards**. Holders will automatically accrue the rewards without having to call claim()&#x20;
 3. The LST **keeps governance power active**. When the LST is in DeFi, cold storage, or a centralized exchange, the LST provides a backup plan for governance power.&#x20;
    1. The backup is a configurable strategy for keeping voting power active in governance. For example, see the [OverwhelmingSupportAutoDelegate](https://github.com/withtally/stGOV/blob/main/src/auto-delegates/OverwhelmingSupportAutoDelegate.sol), which only votes on proposals that have lots of consensus.
+
+Access the open-source [stGOV repo](https://github.com/withtally/stGOV).&#x20;
 
 ### In-Depth Technical Walkthrough
 
