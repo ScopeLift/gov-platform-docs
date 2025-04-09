@@ -7,8 +7,6 @@ icon: computer
 
 # Technical Implementation
 
-### Get started with Staking
-
 ### Prerequisites
 
 To implement Tally's staking system, you'll need the following:
