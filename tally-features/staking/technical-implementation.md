@@ -1,28 +1,29 @@
 ---
 description: >-
-  This section provides detailed technical information about Tally staking.
-  We'll cover how to implement staking for your protocol, from quick start
-  guides to in-depth technical details.
+  How to implement staking for your protocol, from quick start guides to
+  in-depth technical details.
 icon: computer
 ---
 
 # Technical Implementation
 
-### Quick Start Guide
+### Get started with Staking
 
 ### Prerequisites
 
-Before implementing Tally's staking system, ensure you have:
+To implement Tally's staking system, you'll need the following:
 
 1.  **Compatible tokens**:
 
-    1. A standard ERC20 token to use as the staking token
-    2. One or more ERC20 tokens to distribute as rewards
+    1. **A standard ERC20 token to use as the staking token**. Typically, the staking token is the native token of the protocol, like UNI.
+    2. **One or more ERC20 tokens to distribute as rewards**. e.g. WETH or the native token of the protocol for inflationary rewards.
 
-    Note: Rebasing tokens or non-standard ERC20 implementations are not supported
-2. **Reward source**:
-   1. Protocol revenue, treasury funds, or token minting capabilities
-   2. Authority to manage the reward distribution
+    Note: _Rebasing tokens or non-standard ERC20 tokens won't work._
+2.  **Reward source**:
+
+    Rewards come from protocol revenue, treasury funds, or minting new tokens.&#x20;
+
+
 
 ### Deployment Options
 
@@ -31,27 +32,24 @@ Before implementing Tally's staking system, ensure you have:
 For the fastest and most reliable implementation:
 
 1. Contact Tally's team at[ tally.xyz/contact](https://www.tally.xyz/contact)
-2. Provide information about your staking and reward tokens
+2. Tell Tally about your staking and reward tokens
 3. Tally will guide you through the deployment process
 4. Get a fully-configured staking user interface on Tally
 
 #### Deploy self-serve
 
-See the [Usage section of the Staker README.](https://github.com/withtally/staker?tab=readme-ov-file#usage)
+See the ['Usage' section of the Staker README doc.](https://github.com/withtally/staker?tab=readme-ov-file#usage)
 
 ### &#x20;System Architecture
-
-The staking contracts are built with several modules and extensions. That way, protocols can assemble a staking system from existing audited contracts.
-
-
 
 Here's an architecture diagram of the staking smart contracts:
 
 <figure><img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXdEeZ22as7vFBVcreItQ3FzdzF__ZDU-TQm_cD3_qiP0Ytn247IcsOmlkG1JnJHQBbfTPn6RvBUJSho3KwOf8kssxnDO23D59UIEbw1BUX2T2egQOlMGJVNIsmNiNar-YZhFOyjaQ?key=-A0yyh0GoubDpQhSpbBdwPkR" alt=""><figcaption></figcaption></figure>
 
+* The staking contracts have modules for [calculating earning power](https://github.com/withtally/staker/tree/main/src/calculators), hooking up [sources of rewards](https://github.com/withtally/staker/tree/main/src/notifiers), and [extensions](https://github.com/withtally/staker/tree/main/src/extensions). Protocol teams can assemble a staking system from these audited pieces.
 * Staking is out-of-the-box compatible with existing \`ERC20Votes\` governance tokens. It supports \`ERC20Votes\` delegation with the "surrogate factory" pattern. Staking creates a surrogate contract for each delegate. It delegates voting power in each surrogate to the delegate.
-* When Staker receives rewards, it distributes them over a period of time. We recommend \~one month. Distributing over time gives unstaked tokenholders a chance to stake. A smooth schedule also minimizes discontinuities from flash staking.
-* Staker builds on[ UniStaker](https://github.com/uniswapfoundation/UniStaker). Unistaker is based on Synthetix's[ StakingRewards](https://github.com/Synthetixio/synthetix/blob/develop/contracts/StakingRewards.sol).
+* When Staker receives rewards, it distributes them over a period of time, e.g. 30 days. Distributing over time gives unstaked tokenholders a chance to stake. A smooth schedule also minimizes discontinuities from flash staking.
+* Staker is built on[ UniStaker](https://github.com/uniswapfoundation/UniStaker). Unistaker is based on Synthetix's[ StakingRewards](https://github.com/Synthetixio/synthetix/blob/develop/contracts/StakingRewards.sol).
 * UniStaker and Staker have been audited several times. The audit reports are[ available here](https://github.com/withtally/staker/tree/main/audits/unistaker).
 
 #### Core Components
