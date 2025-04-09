@@ -149,29 +149,21 @@ Staker uses a concept called "Earning Power" to distribute rewards. Every deposi
 
 **. Tally provides two implementations:**
 
-`// Deploy a simple earning power calculator`
+```
+// Deploy a simple earning power calculator
+IdentityEarningPowerCalculator calculator = new IdentityEarningPowerCalculator();
 
-`IdentityEarningPowerCalculator calculator = new IdentityEarningPowerCalculator();`
-
-`// Or deploy an oracle-based calculator`
-
-`BinaryEligibilityOracleEarningPowerCalculator oracleCalculator =`&#x20;
-
-&#x20; `new BinaryEligibilityOracleEarningPowerCalculator(`
-
-&#x20;   `owner,`
-
-&#x20;   `scoreOracle,`
-
-&#x20;   `staleOracleWindow,`
-
-&#x20;   `oraclePauseGuardian,`
-
-&#x20;   `delegateeScoreEligibilityThreshold,`
-
-&#x20;   `updateEligibilityDelay`
-
-&#x20; `);`
+// Or deploy an oracle-based calculator
+BinaryEligibilityOracleEarningPowerCalculator oracleCalculator = 
+  new BinaryEligibilityOracleEarningPowerCalculator(
+    owner,
+    scoreOracle,
+    staleOracleWindow,
+    oraclePauseGuardian,
+    delegateeScoreEligibilityThreshold,
+    updateEligibilityDelay
+  );
+```
 
 #### Reward Notifiers
 
@@ -180,30 +172,23 @@ Reward notifiers are responsible for informing the staking contract about new re
 1. [TransferRewardNotifier.sol ](https://github.com/withtally/staker/blob/main/src/notifiers/TransferRewardNotifier.sol)holds rewards directly and distributes them by calling `transfer()`
 2. [TransferFromRewardNotifier.sol](https://github.com/withtally/staker/blob/main/src/notifiers/TransferFromRewardNotifier.sol) relies on an `approve()`, so that it can call `transferFrom()` on the reward source\
 
-3. [MintRewardNotifier.sol ](https://github.com/withtally/staker/blob/main/src/notifiers/MintRewardNotifier.sol)calls `mint()` on a token contract.\
+3. [MintRewardNotifier.sol ](https://github.com/withtally/staker/blob/main/src/notifiers/MintRewardNotifier.sol)calls `mint()` on a token contract.
 
+```
+// Example: deploy a transfer reward notifier
+TransferRewardNotifier transferNotifier = new TransferRewardNotifier(
+  stakerContract,         // The staking contract to notify
+  initialRewardAmount,    // Amount to distribute per period
+  initialRewardInterval,  // Time between distributions
+  owner                   // Admin of the notifier
+);
 
-`// Deploy a transfer reward notifier`
+// Transfer reward tokens to the notifier
+rewardToken.transfer(address(transferNotifier), totalRewards);
 
-`TransferRewardNotifier transferNotifier = new TransferRewardNotifier(`
-
-&#x20; `stakerContract,    // The staking contract to notify`
-
-&#x20; `initialRewardAmount,   // Amount to distribute per period`
-
-&#x20; `initialRewardInterval,  // Time between distributions`
-
-&#x20; `owner              // Admin of the notifier`
-
-`);`
-
-`// Transfer reward tokens to the notifier`
-
-`rewardToken.transfer(address(transferNotifier), totalRewards);`
-
-`// Call notify to distribute rewards`
-
-`transferNotifier.notify();`
+// Call notify to distribute rewards
+transferNotifier.notify();
+```
 
 #### Delegation Surrogates
 
@@ -213,17 +198,14 @@ Staker uses the “surrogate pattern” to make staking compatible with governan
 2. Surrogate deposits and withdrawals are fully controlled by the staking system. Staker does all the accounting.
 3. The surrogate contract holds staked tokens and delegates all its voting power to the chosen delegatee. That way, staking is compatible with the underlying governance token.
    1. Note that these surrogate contracts allow tokenholders to split up their voting power. i.e. partial delegation
-   2.
 
-`// The staking contract creates a surrogate for each delegatee`
-
-`function _fetchOrDeploySurrogate(address _delegatee) internal returns (DelegationSurrogate _surrogate) {`
-
-&#x20; `_surrogate = new DelegationSurrogateVotes(stakeToken, _delegatee);`
-
-&#x20; `return _surrogate;`
-
-`}`
+```
+// The staking contract creates a surrogate for each delegatee
+function _fetchOrDeploySurrogate(address _delegatee) internal returns (DelegationSurrogate _surrogate) {
+  _surrogate = new DelegationSurrogateVotes(stakeToken, _delegatee);
+  return _surrogate;
+}
+```
 
 ### Configuring Earning Power
 
@@ -235,70 +217,39 @@ Create custom earning power calculators to incentivize specific behaviors:
 2. **Time-weighted staking**: Increase rewards for long-term stakers
 3. **Protocol usage rewards**: Tie rewards to protocol usage
 
-\
+```
+// Example of a custom earning power calculator
+contract CustomEarningPowerCalculator is IEarningPowerCalculator {
+  function getEarningPower(uint256 _amountStaked, address _staker, address _delegatee)
+    external
+    view
+    returns (uint256)
+  {
+    // Custom logic to determine earning power
+    return _calculateCustomEarningPower(_amountStaked, _staker, _delegatee);
+  }
 
-
-`// Example of a custom earning power calculator`
-
-`contract CustomEarningPowerCalculator is IEarningPowerCalculator {`
-
-&#x20; `function getEarningPower(uint256 _amountStaked, address _staker, address _delegatee)`
-
-&#x20;   `external`
-
-&#x20;   `view`
-
-&#x20;   `returns (uint256)`
-
-&#x20; `{`
-
-&#x20;   `// Custom logic to determine earning power`
-
-&#x20;   `return _calculateCustomEarningPower(_amountStaked, _staker, _delegatee);`
-
-&#x20; `}`
-
-
-
-&#x20;`function getNewEarningPower(`
-
-&#x20;   `uint256 _amountStaked,`
-
-&#x20;   `address _staker,`
-
-&#x20;   `address _delegatee,`
-
-&#x20;   `uint256 _oldEarningPower`
-
-&#x20; `) external view returns (uint256, bool) {`
-
-&#x20;   `uint256 newPower = _calculateCustomEarningPower(_amountStaked, _staker, _delegatee);`
-
-&#x20;   `bool qualifiedForBump = _isQualifiedForBump(newPower, _oldEarningPower);`
-
-&#x20;   `return (newPower, qualifiedForBump);`
-
-&#x20; `}`
-
-&#x20;&#x20;
-
-&#x20;`// Your custom calculation logic`
-
-&#x20; `function _calculateCustomEarningPower(uint256 _amountStaked, address _staker, address _delegatee)`
-
-&#x20;   `internal`
-
-&#x20;   `view`
-
-&#x20;   `returns (uint256)`
-
-&#x20; `{`
-
-&#x20;   `// Implementation details`
-
-&#x20; `}`
-
-`}`
+  function getNewEarningPower(
+    uint256 _amountStaked,
+    address _staker,
+    address _delegatee,
+    uint256 _oldEarningPower
+  ) external view returns (uint256, bool) {
+    uint256 newPower = _calculateCustomEarningPower(_amountStaked, _staker, _delegatee);
+    bool qualifiedForBump = _isQualifiedForBump(newPower, _oldEarningPower);
+    return (newPower, qualifiedForBump);
+  }
+  
+  // Your custom calculation logic
+  function _calculateCustomEarningPower(uint256 _amountStaked, address _staker, address _delegatee)
+    internal
+    view
+    returns (uint256)
+  {
+    // Implementation details
+  }
+}
+```
 
 #### Roles
 
