@@ -11,10 +11,10 @@ Blockchain networks and protocols need sustainable token economics to succeed. V
 
 Value accrual offers several key benefits:
 
-* Stakeholder alignment: Creates shared economic incentives between token holders and protocol success
-* Enhanced retention: Encourages long-term participation in the ecosystem
-* Sustainable tokenomics: Establishes a foundation for ongoing value creation
-* Protocol resilience: Builds economic security through active participation
+* **Stakeholder alignment**: Creates shared economic incentives between token holders and protocol success
+* **Enhanced retention**: Encourages long-term participation in the ecosystem
+* **Sustainable tokenomics**: Establishes a foundation for ongoing value creation
+* **Protocol resilience**: Builds economic security through active participation
 
 Protocols must move beyond initial hype cycles. Value accrual mechanisms help achieve this goal. These systems distribute value directly to participants who secure and govern the network.
 
@@ -26,11 +26,11 @@ Optionally, the rewards can be incentives for particular actions. Rewards can de
 
 Tally staking offers:
 
-1. Flexible staking infrastructure: Implement staking for your protocol’s specific needs.
-2. Multiple reward sources: Distribute rewards from protocol revenue, treasury assets, token emissions, or all of the above!
-3. Governance integration: Staking is compatible with governance, so that holders don’t have to choose between rewards and governance. Optionally, rewards can be conditional on activating tokens in governance.
-4. Validator support: Pay operators and stakers to validate protocol security.
-5. Engagement mechanics: Build long-term participation with features like stake streaks.\
+1. **Flexible staking infrastructure**: Implement staking for your protocol’s specific needs.
+2. **Multiple reward sources**: Distribute rewards from protocol revenue, treasury assets, token emissions, or all of the above!
+3. **Governance integration**: Staking is compatible with governance, so that holders don’t have to choose between rewards and governance. Optionally, rewards can be conditional on activating tokens in governance.
+4. **Validator support**: Pay operators and stakers to validate protocol security.
+5. **Engagement mechanics**: Build long-term participation with features like stake streaks.\
 
 
 Tally's solution works for protocols at any stage. It supports new token launches and established projects. This guide covers both strategic direction and technical details.&#x20;

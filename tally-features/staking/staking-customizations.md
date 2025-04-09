@@ -52,7 +52,7 @@ How it works:
 
 * Stakers' earning power increases over time
 * Rewards scale based on continuous staking duration
-* Encourages long-term protocol alignment and reduced token velocity
+* Encourages long-term protocol alignment, and reduces token velocity
 
 ### Benefits
 
