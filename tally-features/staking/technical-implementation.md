@@ -93,41 +93,28 @@ The `Staker` contract is the core of the system. It manages:
 
 Staker uses a streaming reward mechanism, where rewards are added as lump sums, then distributed evenly over time. This gives stakers time to respond to changes in reward rates.
 
-`// Sample code to create a basic Staker implementation`
+```
+// Sample code to create a basic Staker implementation
+contract MyStaker is
+  Staker,
+  StakerDelegateSurrogateVotes,
+  StakerPermitAndStake
+{
+  constructor(
+    IERC20 _rewardsToken,
+    IERC20Staking _stakeToken,
+    IEarningPowerCalculator _earningPowerCalculator,
+    uint256 _maxBumpTip,
+    address _admin
+  )
+Staker(_rewardsToken, _stakeToken, _earningPowerCalculator, _maxBumpTip, _admin)
+    StakerPermitAndStake(_stakeToken)
+    StakerDelegateSurrogateVotes(_stakeToken)
+  {}
+}
+```
 
-`contract MyStaker is`
 
-&#x20; `Staker,`
-
-&#x20; `StakerDelegateSurrogateVotes,`
-
-&#x20; `StakerPermitAndStake`
-
-`{`
-
-&#x20; `constructor(`
-
-&#x20;   `IERC20 _rewardsToken,`
-
-&#x20;   `IERC20Staking _stakeToken,`
-
-&#x20;   `IEarningPowerCalculator _earningPowerCalculator,`
-
-&#x20;   `uint256 _maxBumpTip,`
-
-&#x20;   `address _admin`
-
-&#x20; `)`
-
-`Staker(_rewardsToken, _stakeToken, _earningPowerCalculator, _maxBumpTip, _admin)`
-
-&#x20;   `StakerPermitAndStake(_stakeToken)`
-
-&#x20;   `StakerDelegateSurrogateVotes(_stakeToken)`
-
-&#x20; `{}`
-
-`}`
 
 #### Earning Power Calculation
 
