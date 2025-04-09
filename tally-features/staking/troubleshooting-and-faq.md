@@ -32,6 +32,12 @@ Yes, stakers can create multiple staking positions. Each staking position can ha
 
 Yes, see – for example – [Uniswap staking](https://www.tally.xyz/gov/uniswap/stake)
 
+#### Is staking compatible with onchain governance, like ERC20Votes tokens and Governor contracts?
+
+Yes! Staking is compatible with standard governance tokens and Governor contracts out-of-the-box.&#x20;
+
+The staking system delegates the voting power of staked governance tokens. It uses the same methods that regular tokenholders do, so no changes to the underlying system are needed.
+
 #### &#x20;How does the system handle vote checkpoints/snapshots?&#x20;
 
 The underlying governance token handles snapshotting. Staker puts the governance tokens for each delegate into a separate account, called a “surrogate”. Then, it calls delegate() on the underlying governance token to distribute voting power. This way, the underlying governance system does not have to change.
