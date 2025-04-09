@@ -13,7 +13,7 @@
   * [Governance Smart Contracts](tally-features/governance-launcher/governance-smart-contracts.md)
   * [Token Wrapper](tally-features/governance-launcher/token-wrapper.md)
   * [Delegate Registration & Claim-and-Delegate](tally-features/governance-launcher/delegate-registration-and-claim-and-delegate.md)
-* [Staking](tally-features/staking/README.md)
+* [Value Accrual with Staking](tally-features/staking/README.md)
   * [Features & Use Cases](tally-features/staking/staking-customizations.md)
   * [Getting Started with Staking](tally-features/staking/stgov-lst.md)
   * [Technical Implementation](tally-features/staking/technical-implementation.md)

@@ -3,16 +3,7 @@ description: Staking is the crypto-native way to align protocols with token hold
 icon: money-bill-transfer
 ---
 
-# Staking
-
-#### All of Tally's Staking contracts are open source:
-
-* [Staker Repo ](https://github.com/withtally/staker)
-* [LST Repo ](https://github.com/withtally/stGOV)
-
-## Value Accrual with Staking
-
-Staking is the crypto-native way to align protocols with token holders
+# Value Accrual with Staking
 
 ### Why Value Accrual?
 
@@ -56,12 +47,13 @@ Tally's staking contracts distribute rewards among eligible staking users over t
 
 The eligibility criteria can stipulate particular actions from tokenholders to get rewards. For example, it could require that staked tokens be active in governance to earn rewards. There's a large design space for incentivizing token-aligned services.
 
-**2. Tokenholders stake protocol tokens**
+**2. Tokenholders stake protocol tokens for a share of the rewards**
 
 Tokenholders stake their protocol tokens. Then, they earn a share of the rewards proportional to their share of all staked tokens over time. They can stake, claim rewards, and unstake at any time.
 
 Tally’s staking contracts support any ERC20 token, including governance tokens. Tokenholders can use their staked tokens in governance. That way, tokenholders don't have to choose between governance and receiving rewards.
 
+#### All of Tally's Staking contracts are open source:
 
-
-\
+* [Staker ](https://github.com/withtally/staker)
+* [LST ](https://github.com/withtally/stGOV)\
