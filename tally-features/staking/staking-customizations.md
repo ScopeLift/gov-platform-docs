@@ -10,25 +10,24 @@ icon: arrow-down-up-across-line
 
 ### Returning Fees
 
-Tally's staking system allows protocols to return a portion of protocol fees to token stakers. This creates direct economic alignment between protocol usage and token holder rewards.
+Tally's staking system allows protocols to return protocol fees to token stakers. This creates direct economic alignment between protocol usage and token holder rewards.
 
-How it works:
+**How it works:**
 
 * Protocol governance decides what percentage of fees to distribute to stakers
 * Fee distribution can be automated through smart contracts
-* Rewards can be paid in native tokens, stablecoins, or other assets
+* Rewards can be paid in native tokens, ETH, stablecoins, or other assets
 
-Customer example: Uniswap is planning to implement fee sharing with stakers, allowing token holders to benefit directly from protocol growth and usage.
+Customer example: [Uniswap DAO plans to implement fee sharing with stakers](https://gov.uniswap.org/t/temperature-check-activate-uniswap-protocol-governance/22936), allowing token holders to benefit directly from protocol growth and usage.
 
 ### Governance Integration
 
-Unlike traditional staking systems that force users to choose between earning yield and participating in governance, Tally's solution enables both simultaneously.
+Unlike other staking systems that force users to choose between earning yield and participating in governance, Tally's solution supports both.
 
-How it works:
+**How it works:**
 
-* Staked tokens retain their ability to delegate voting power
-* Tokens can be used in governance without unstaking
-* Optional rewards can be tied to active governance participation
+* Staked tokens can delegate their voting power
+* Optionally, rewards depend on the tokens being active in governance
 
 Customer example: Obol implemented staking with governance integration, ensuring their stakers can earn rewards while still contributing to protocol governance decisions. Read the OBOL case study [here](https://tally.mirror.xyz/6e3I6e4K2FL_dcv5cnDTnJdQ0NSpqFnENZBAs7zre4s).
 
@@ -38,7 +37,7 @@ Other protocols like Rarible and Arbitrum are exploring making staking rewards c
 
 Tally's staking system is compatible with staking and restaking protocols that provide validated services.
 
-How it works:
+**How it works:**
 
 * Native tokens can be used to secure actively validated services
 * Compatible with protocols like EigenLayer and Symbiotic
