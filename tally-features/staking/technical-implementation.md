@@ -80,6 +80,11 @@ Access the open-source [stGOV repo](https://github.com/withtally/stGOV).&#x20;
 
 ### In-Depth Technical Walkthrough
 
+#### Tally's Staking contracts are open source:
+
+* [Staker ](https://github.com/withtally/staker)
+* [LST ](https://github.com/withtally/stGOV)
+
 #### Staker Contract
 
 The `Staker` contract is the core of the system. It manages:

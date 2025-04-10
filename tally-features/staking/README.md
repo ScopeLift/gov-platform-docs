@@ -11,10 +11,10 @@ Blockchain protocols need sustainable token economics and aligned holders to suc
 
 Value accrual offers several key benefits:
 
-* **Stakeholder alignment**: Creates shared economic incentives between token holders and protocol success
-* **Enhanced retention**: Encourages long-term participation in the ecosystem
-* **Sustainable tokenomics**: Establishes a foundation for ongoing value creation
-* **Protocol resilience**: Builds economic security through active participation
+* **Stakeholder alignment**: Align tokenholders with protocol success
+* **Sustainable tokenomics**: Establish a foundation for ongoing value creation
+* **Enhanced retention**: Encourage long-term participation in the ecosystem
+* **Protocol resilience**: Secure the protocol with economic assets
 
 Protocols must move beyond initial hype cycles. Value accrual mechanisms help by distributing value directly to participants who secure and govern the network.
 
@@ -29,10 +29,10 @@ Optionally, the rewards can be incentives for particular actions. Rewards can de
 Tally staking offers:
 
 1. **Flexible staking infrastructure**: Implement staking for your protocol’s specific needs.
-2. **Multiple reward sources**: Distribute rewards from protocol revenue, treasury assets, token emissions, or all of the above!
-3. **Governance integration**: Staking is compatible with governance, so that holders don’t have to choose between rewards and governance. Optionally, rewards can be conditional on activating tokens in governance.
-4. **Validator support**: Pay stakers and operators to validate protocol security.
-5. **Engagement mechanics**: Build long-term participation with features like stake streaks.\
+2. [**Multiple reward sources**](https://docs.tally.xyz/tally-features/staking/staking-customizations#returning-fees): Distribute rewards from protocol revenue, treasury assets, token emissions, or all of the above!
+3. [**Governance integration**](https://docs.tally.xyz/tally-features/staking/staking-customizations#governance-integration): Staking is compatible with governance, so that holders don’t have to choose between rewards and governance. Optionally, rewards can be conditional on active participation in governance.
+4. [**Validator support**](https://docs.tally.xyz/tally-features/staking/staking-customizations#network-protocol-validation): Pay stakers and operators to validate protocol security.
+5. [**Engagement mechanics**](https://docs.tally.xyz/tally-features/staking/staking-customizations#stake-streaks): Increase rewards for long-term alignment with stake streaks.\
 
 
 Tally's solution works for protocols at any stage. It supports new token launches and established projects. This guide covers both strategic direction and technical details.&#x20;
@@ -53,9 +53,4 @@ Tokenholders stake the staking token: the protocol's native token. Then, they ea
 
 Staking supports governance. If the staking token is also a governance token, holders can use their staked tokens in governance. That way, tokenholders don't have to choose between governance and receiving rewards.
 
-Optionally, the staking system can have eligibility criteria stipulate particular actions from tokenholders to get rewards. For example, it could require that staked tokens be active in governance to earn rewards. There's a large design space for incentivizing token-aligned services.
-
-#### Tally's Staking contracts are open source:
-
-* [Staker ](https://github.com/withtally/staker)
-* [LST ](https://github.com/withtally/stGOV)\
+Optionally, the staking system can have eligibility criteria stipulate particular actions from tokenholders to get rewards. For example, it could require that staked tokens be active in governance to earn rewards. There's a large design space for incentivizing token-aligned services.\

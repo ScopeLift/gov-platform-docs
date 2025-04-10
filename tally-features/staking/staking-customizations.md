@@ -52,20 +52,3 @@ How it works:
 * Stakers' earning power increases over time
 * Rewards scale based on continuous staking duration
 * Encourages long-term protocol alignment, and reduces token velocity
-
-### Benefits
-
-#### For Token Holders
-
-* Direct economic alignment with protocol success
-* Passive income through staking rewards
-* Governance participation without sacrificing yield
-* Increasing rewards for long-term commitment
-
-#### For Protocols
-
-* Enhanced token utility beyond speculation
-* Reduced token velocity through long-term staking incentives
-* Stronger governance with more active participation
-* Flexible incentive design to encourage specific behaviors
-* Sustainable tokenomics model that scales with protocol usage
