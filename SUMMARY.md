@@ -113,6 +113,7 @@
 * [Staking Contracts](set-up-and-technical-documentation/staking-contracts/README.md)
   * [Get Started](set-up-and-technical-documentation/staking-contracts/stgov-lst.md)
   * [How Staking Works](set-up-and-technical-documentation/staking-contracts/how-staking-works.md)
+  * [DeFi Integration Guide](set-up-and-technical-documentation/staking-contracts/defi-integration-guide.md)
   * [Troubleshooting](set-up-and-technical-documentation/staking-contracts/troubleshooting.md)
 * [Security](set-up-and-technical-documentation/security.md)
 * [Chain Compatibility](set-up-and-technical-documentation/chain-compatibility.md)
