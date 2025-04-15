@@ -1,14 +1,13 @@
 ---
 description: >-
-  This section helps you prepare for implementing Tally's staking system. It
-  covers prerequisites, reward sources, and considerations for successful
-  deployment.
-icon: coin-blank
+  How to set up Tally's staking system: prerequisites, reward sources, and
+  considerations for successful deployment.
+icon: circle-arrow-up-right
 ---
 
-# Getting Started with Staking
+# Getting Started
 
-### Prerequisites
+## Prerequisites
 
 #### Token Requirements
 
@@ -29,7 +28,7 @@ Tally's staking system works with standard ERC20 tokens:
 
 Before using a non-standard token, check the[ audit reports](https://github.com/withtally/staker/tree/main/audits) to verify compatibility.
 
-### Reward Source Options
+## Reward Source Options
 
 Tally's system distributes rewards through a stream mechanism:
 
@@ -49,7 +48,7 @@ Reward notifiers connect different token sources to the staking system. Tally pr
 
 Each notifier handles capturing rewards from your chosen source and adding them to the staking reward pool.
 
-### Token Launch Considerations
+## Token Launch Considerations
 
 Many protocols implement staking along with their token launch. Combining the two launches offers several benefits:
 
@@ -70,7 +69,7 @@ This integrated approach:
 
 Learn more about how Tally helped Obol combine token launch with staking launch [here](https://tally.mirror.xyz/6e3I6e4K2FL_dcv5cnDTnJdQ0NSpqFnENZBAs7zre4s).
 
-### Choosing the Right Implementation Approach
+## Choosing the Right Implementation Approach
 
 Your implementation approach depends on your protocol's stage and needs:
 
@@ -86,7 +85,7 @@ Your implementation approach depends on your protocol's stage and needs:
 * Connect protocol revenue streams to reward stakers
 * Consider a phased approach to test and adjust parameters
 
-### Next Steps
+## Next Steps
 
 Once you've considered these prerequisites and options:
 

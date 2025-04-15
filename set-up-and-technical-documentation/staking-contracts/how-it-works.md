@@ -1,11 +1,9 @@
 ---
-description: >-
-  How to implement staking for your protocol, from quick start guides to
-  in-depth technical details.
-icon: computer
+description: Understand how Tally's staking contracts work under the hood
+icon: gears
 ---
 
-# Technical Implementation
+# How it works
 
 ### Prerequisites
 

@@ -53,4 +53,22 @@ Tokenholders stake the staking token: the protocol's native token. Then, they ea
 
 Staking supports governance. If the staking token is also a governance token, holders can use their staked tokens in governance. That way, tokenholders don't have to choose between governance and receiving rewards.
 
-Optionally, the staking system can have eligibility criteria stipulate particular actions from tokenholders to get rewards. For example, it could require that staked tokens be active in governance to earn rewards. There's a large design space for incentivizing token-aligned services.\
+Optionally, the staking system can have eligibility criteria stipulate particular actions from tokenholders to get rewards. For example, it could require that staked tokens be active in governance to earn rewards. There's a large design space for incentivizing token-aligned services.
+
+### Learn more
+
+{% content-ref url="staking-customizations.md" %}
+[staking-customizations.md](staking-customizations.md)
+{% endcontent-ref %}
+
+{% content-ref url="faq.md" %}
+[faq.md](faq.md)
+{% endcontent-ref %}
+
+{% content-ref url="../../set-up-and-technical-documentation/staking-contracts/" %}
+[staking-contracts](../../set-up-and-technical-documentation/staking-contracts/)
+{% endcontent-ref %}
+
+{% content-ref url="glossary.md" %}
+[glossary.md](glossary.md)
+{% endcontent-ref %}
