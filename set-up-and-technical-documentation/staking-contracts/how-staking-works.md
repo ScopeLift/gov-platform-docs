@@ -3,7 +3,7 @@ description: Understand how Tally's staking contracts work under the hood
 icon: gears
 ---
 
-# How it works
+# How Staking Works
 
 ### Prerequisites
 
@@ -155,11 +155,30 @@ BinaryEligibilityOracleEarningPowerCalculator oracleCalculator =
 
 #### Reward Notifiers
 
+#### Reward Source Options
+
+Tally's system distributes rewards through a stream mechanism:
+
+1. Rewards periodically enter the staking system as lump sums
+2. Those rewards stream to stakers over time
+3. Stakers earn proportional to their staked amount
+
+This approach gives stakers time to respond to changes in rewards.
+
+#### Reward Notifiers
+
+Reward notifiers connect different token sources to the staking system. Tally provides three standard notifiers:
+
+1. ERC20 transfer() Direct token transfers from a treasury or revenue source
+2. ERC20 transferFrom() Approved transfers from a separate contract or wallet
+3. ERC20 mint() -[ ](https://github.com/withtally/staker/blob/main/src/notifiers/MintRewardNotifier.sol)Newly minted tokens from an inflationary schedule
+
+Each notifier handles capturing rewards from your chosen source and adding them to the staking reward pool.
+
 Reward notifiers are responsible for informing the staking contract about new rewards:
 
 1. [TransferRewardNotifier.sol ](https://github.com/withtally/staker/blob/main/src/notifiers/TransferRewardNotifier.sol)holds rewards directly and distributes them by calling `transfer()`
-2. [TransferFromRewardNotifier.sol](https://github.com/withtally/staker/blob/main/src/notifiers/TransferFromRewardNotifier.sol) relies on an `approve()`, so that it can call `transferFrom()` on the reward source\
-
+2. [TransferFromRewardNotifier.sol](https://github.com/withtally/staker/blob/main/src/notifiers/TransferFromRewardNotifier.sol) relies on an `approve()`, so that it can call `transferFrom()` on the reward source
 3. [MintRewardNotifier.sol ](https://github.com/withtally/staker/blob/main/src/notifiers/MintRewardNotifier.sol)calls `mint()` on a token contract.
 
 ```

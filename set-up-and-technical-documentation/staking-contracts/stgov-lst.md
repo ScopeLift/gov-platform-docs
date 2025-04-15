@@ -1,52 +1,30 @@
 ---
 description: >-
-  How to set up Tally's staking system: prerequisites, reward sources, and
+  Set up Tally's staking system: prerequisites, reward sources, and
   considerations for successful deployment.
 icon: circle-arrow-up-right
 ---
 
-# Getting Started
+# Get Started
 
 ## Prerequisites
 
-#### Token Requirements
+The simplest version of staking requires just two things, a staking token and a reward source.
 
-Tally's staking system works with standard ERC20 tokens:
+* Holders stake the **staking token** for rewards.
+* The admin of staking distributes **rewards** to stakers.
 
-* Staking token: The token that users stake in the system
-* Reward token(s): One or more tokens distributed as rewards
+The staking token and the reward source must be ERC20 tokens. The reward token can be the same as the staking token.
 
-#### Compatible tokens:
+### Additional Options
 
-* Standard ERC20 tokens
-* Wrapped gas tokens (like WETH)
+#### Staking is compatible with governance
 
-#### Incompatible tokens:
+If the staking token is also a governance token - i.e. it implements `ERC20Votes -`then it works with the staking system. Staking passes through voting power to the underlying governance token. No changes needed on the governance system.
 
-* Rebasing tokens
-* Certain ["weird" ERC20 implementations](https://github.com/d-xo/weird-erc20) with non-standard behavior
+#### Incentives
 
-Before using a non-standard token, check the[ audit reports](https://github.com/withtally/staker/tree/main/audits) to verify compatibility.
-
-## Reward Source Options
-
-Tally's system distributes rewards through a stream mechanism:
-
-1. Rewards periodically enter the staking system as lump sums
-2. Those rewards stream to stakers over time
-3. Stakers earn proportional to their staked amount
-
-This approach gives stakers time to respond to changes in rewards.
-
-#### Reward Notifiers
-
-Reward notifiers connect different token sources to the staking system. Tally provides three standard notifiers:
-
-1. ERC20 transfer() Direct token transfers from a treasury or revenue source
-2. ERC20 transferFrom() Approved transfers from a separate contract or wallet
-3. ERC20 mint() -[ ](https://github.com/withtally/staker/blob/main/src/notifiers/MintRewardNotifier.sol)Newly minted tokens from an inflationary schedule
-
-Each notifier handles capturing rewards from your chosen source and adding them to the staking reward pool.
+Optionally, staking rewards can depend on an EarningPowerCalculator.  Calculators can increase or decreases rewards based on any criteria. Even offchain criteria can be used, with an oracle.
 
 ## Token Launch Considerations
 

@@ -9,8 +9,8 @@ icon: right-from-line
 [stgov-lst.md](stgov-lst.md)
 {% endcontent-ref %}
 
-{% content-ref url="how-it-works.md" %}
-[how-it-works.md](how-it-works.md)
+{% content-ref url="how-staking-works.md" %}
+[how-staking-works.md](how-staking-works.md)
 {% endcontent-ref %}
 
 {% content-ref url="troubleshooting.md" %}
