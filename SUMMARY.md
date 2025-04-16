@@ -112,7 +112,7 @@
   * [Upgrade Gnosis Safe to Governor with Zodiac](set-up-and-technical-documentation/using-governor-with-gnosis-safe/how-to-upgrade-a-gnosis-safe-to-a-governor-with-zodiac.md)
 * [Staking Contracts](set-up-and-technical-documentation/staking-contracts/README.md)
   * [Get Started](set-up-and-technical-documentation/staking-contracts/stgov-lst.md)
-  * [How Staking Works](set-up-and-technical-documentation/staking-contracts/how-staking-works/README.md)
+  * [How Staking Works](set-up-and-technical-documentation/staking-contracts/how-staking-works.md)
     * [Liquid Staking Tokens](set-up-and-technical-documentation/staking-contracts/how-staking-works/liquid-staking-tokens/README.md)
       * [LST Auto delegates](set-up-and-technical-documentation/staking-contracts/how-staking-works/liquid-staking-tokens/lst-auto-delegates.md)
   * [DeFi Integration Guide](set-up-and-technical-documentation/staking-contracts/defi-integration-guide.md)

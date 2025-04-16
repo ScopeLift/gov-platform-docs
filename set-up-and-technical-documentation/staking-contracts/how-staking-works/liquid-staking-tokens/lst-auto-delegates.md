@@ -59,7 +59,7 @@ This option, implemented in [`OverwhelmingSupportAutoDelegate.sol`](https://gith
 * Protocols wanting to avoid governance deadlock on broadly supported proposals
 * Communities with lower active participation rates
 
-#### Custom Auto-Delegate (Build Your Own)
+#### Build a Custom Auto-Delegate
 
 Protocols can create custom auto-delegates tailored to their specific governance needs and philosophy.
 
@@ -67,3 +67,5 @@ Protocols can create custom auto-delegates tailored to their specific governance
 
 * **Delegate Council Auto-Delegate**: Follows voting decisions made by a trusted council or experts
 * **Meta-Governance Auto-Delegate**: Votes based on a meta-governance system
+
+If you'd like help building a custom delegate, [get in touch with Tally](https://www.tally.xyz/contact). We'd love to help.

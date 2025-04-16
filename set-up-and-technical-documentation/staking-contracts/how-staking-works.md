@@ -19,8 +19,6 @@ To implement Tally's staking system, you'll need the following:
 
     Rewards come from protocol revenue, treasury funds, or minting new tokens.&#x20;
 
-
-
 ### Deployment Options
 
 **Deploy with Tally's assistance**
