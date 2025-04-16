@@ -5,15 +5,26 @@ icon: envelope-open-dollar
 
 # DeFi Integration Guide
 
-With staking, tokenholders can have it all. They can earn rewards, participate in governance, and use their assets in DeFi.
+Tally staking lets holders earn rewards, participate in governance, and use their assets in DeFi. This guide outlines considerations for add the LST to a lending market, AMM, or restaking system.&#x20;
 
-Here's how a DeFi protocols can integrate the [fixedGovLST](https://github.com/withtally/stGOV/blob/main/src/FixedGovLst.sol) from the [stGOV contracts](https://github.com/withtally/stgov).&#x20;
+See below for details about how a DeFi protocol can integrate the [fixedGovLST](https://github.com/withtally/stGOV/blob/main/src/FixedGovLst.sol) from the [stGOV contracts](https://github.com/withtally/stgov).
 
 #### Integrate the ERC20 Token
 
 The LST is a stanrdard ERC20 token with no "weird" features like rebasing. The integration will be similar to other ERC20 tokens.
 
 _Note: FixedGovLST uses a rebasing LST internally. Integrating against the underlying rebasing LST is not recommended!_
+
+#### Smart contract audits
+
+The LST contracts has been audited twice, in both a private audit and a public contest.&#x20;
+
+* [The LST audit reports are available here in the git repo.](https://github.com/withtally/stGOV/tree/main/audits)
+
+The underlying direct staking system , Staker, has also been audited twice, with both a private audit and a public contest.
+
+* [The Staker audit reports are available in the Staker repo](https://github.com/withtally/staker/tree/main/audits)
+* Staker is built on UniStaker. [Unistaker's three audit reports are available here.](https://github.com/withtally/staker/tree/main/audits/unistaker)
 
 **Price oracle integration**
 

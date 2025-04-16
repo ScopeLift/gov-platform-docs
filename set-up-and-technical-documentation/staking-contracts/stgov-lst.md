@@ -20,15 +20,15 @@ The staking token and the reward source must be ERC20 tokens. The reward token c
 
 #### Staking is compatible with governance
 
-If the staking token is also a governance token - i.e. it implements `ERC20Votes -`then it works with the staking system. Staking passes through voting power to the underlying governance token. No changes needed on the governance system.
+If the staking token is also a governance token - i.e. it implements `ERC20Votes -`then governance works with the staking system. Staking passes through voting power to the underlying governance token. No changes are needed on the governance system.
 
 #### Incentives
 
-Optionally, staking rewards can depend on an EarningPowerCalculator.  Calculators can increase or decreases rewards based on any criteria. Even offchain criteria can be used, with an oracle.
+Optionally, staking rewards can depend on an [EarningPowerCalculator](https://github.com/withtally/staker/tree/main/src/calculators).  Calculators can increase or decreases rewards based on any criteria. Even offchain criteria can be used, with an oracle.
 
 ## Token Launch Considerations
 
-Many protocols implement staking along with their token launch. Combining the two launches offers several benefits:
+Many protocols launch staking with their token launch. Combining the two offers several benefits:
 
 * Immediate utility for new tokens
 * Higher staking conversion rates
@@ -51,13 +51,13 @@ Learn more about how Tally helped Obol combine token launch with staking launch 
 
 Your implementation approach depends on your protocol's stage and needs:
 
-#### For New Protocols:
+#### For new protocols:
 
 * Implement staking alongside your token launch
 * Design tokenomics with value accrual in mind from day one
 * Create a complete economic loop between usage, fees, and rewards
 
-#### For Established Protocols:
+#### For established protocols:
 
 * Add staking to create utility for existing tokens
 * Connect protocol revenue streams to reward stakers
@@ -70,4 +70,4 @@ Once you've considered these prerequisites and options:
 1. Review the [technical implementation details](https://docs.google.com/document/d/17OiiaTC6jeu0E7uEb2HtedChwh1q5sakBo-bbkakYes/edit?tab=t.dljpt5d2kpap) in the next section
 2. Decide on your reward source and notifier approach
 3. Define your staking parameters
-4. Contact Tally for support with your implementation
+4. [Contact Tally](https://www.tally.xyz/contact) for support with your implementation
