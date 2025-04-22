@@ -3,7 +3,7 @@ description: >-
   Tally is the software layer for tokenized organizations. Winning teams use
   Tally to launch tokens, govern protocols, and grow with staking
 icon: file-lines
-cover: .gitbook/assets/Git banner 2 (1).png
+cover: .gitbook/assets/Git banner 2 (2).png
 coverY: 0
 layout:
   cover:
