@@ -12,7 +12,7 @@ Small organizations and communities that are just getting started with governanc
 
 Advanced features are available for organizations looking for more complex governance solutions. Advanced features include:&#x20;
 
-* [Governance Launch ](../governance-launcher/)
+* [Governance Launch ](../tokenlaunch/)
 * [MultiGov](advanced-features/multichain-governance.md)
 * [Advanced Voting ](advanced-features/advanced-voting/)
 * [Partial Delegation](advanced-features/partial-delegation.md)&#x20;
