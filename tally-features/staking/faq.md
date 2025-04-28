@@ -7,7 +7,9 @@ icon: comment-question
 
 #### Is staking ready and live?
 
-Yes. The [native staking](https://github.com/withtally/staker) and [LST](https://github.com/withtally/stgov) contracts are code-complete, auditied and open source. Tally's app includes a frontend for staking. See, for example, [Uniswap staking](https://www.tally.xyz/gov/uniswap/stake).
+Yes. The [native staking](https://github.com/withtally/staker) and [LST](https://github.com/withtally/stgov) contracts are code-complete, auditied and open source. Tally's app includes a frontend for staking.&#x20;
+
+See, for example, [Uniswap staking](https://www.tally.xyz/gov/uniswap/stake), which is live and awaiting the Uniswap DAO to turn on rewards.
 
 #### **Why is 1 staked token not worth 1 underlying token?**
 
