@@ -1,56 +1,66 @@
 ---
+description: Answers to common questions about staking
 icon: comment-question
 ---
 
 # FAQ
 
-### FAQ
+#### Is staking ready and live?
 
-#### How often do rewards get distributed, and how is earning power recalculated?&#x20;
+Yes. The [native staking](https://github.com/withtally/staker) and [LST](https://github.com/withtally/stgov) contracts are code-complete, auditied and open source. Tally's app includes a frontend for staking. See, for example, [Uniswap staking](https://www.tally.xyz/gov/uniswap/stake).
 
-The REWARD\_INTERVAL is configurable when deploying a new reward source. When there’s a new reward, the staking system updates everyone’s reward schedules based on earning power. The rewards are distributed over a period of time, the REWARD\_DURATION.\
+#### **What's the difference between liquid staking and native staking?**
 
+Native staking is more configurable. The LST is easier to use. Staking on Tally supports both, so protocols can let users choose the best option for them.
 
-#### Does the system support partial delegation?&#x20;
+Native staking allows users to have multiple positions.&#x20;
 
-Yes, stakers can create multiple staking positions. Each staking position can have its own delegate.
+| Liquid staking              | Native staking                  |
+| --------------------------- | ------------------------------- |
+| Liquid ERC20 tokens         | Non-fungible positions          |
+| One staking position        | Multiple positions              |
+| Rewards claim automatically | Claim rewards manually          |
+| Rewards auto-compound       | Rewards must be manually staked |
 
-#### Does the Tally interface support multiple staking positions, and is it live?
+#### **Where do rewards come from?**
 
-Yes, see – for example – [Uniswap staking](https://www.tally.xyz/gov/uniswap/stake)
+Protocols provide staking rewards, either from protocol fees or inflation of the native token.
 
-#### Is staking compatible with onchain governance, like ERC20Votes tokens and Governor contracts?
+#### **Is there a fee?**
 
-Yes! Staking is compatible with standard governance tokens and Governor contracts out-of-the-box.&#x20;
+The native staking system does not have a fee, aside from the gas costs of staking and distributing rewrdas. The LST does have a fee switch, to cover the cost of automating
 
-The staking system delegates the voting power of staked governance tokens. It uses the same methods that regular tokenholders do, so no changes to the underlying system are needed.
+#### **Can staking be used in restaking and DeFi?**
 
-#### &#x20;How does the system handle vote checkpoints/snapshots?&#x20;
+Yes, that's one of the primary motivations.  LST holders can earn rewards and use their position as collateral in DeFi.
 
-The underlying governance token handles snapshotting. Staker puts the governance tokens for each delegate into a separate account, called a “surrogate”. Then, it calls delegate() on the underlying governance token to distribute voting power. This way, the underlying governance system does not have to change.
+\
+**How does unstaking work, and is there a time delay?**
 
-#### &#x20;How does unstaking work, and is there a time delay?
-
-The current version of Staker lets tokenholders withdraw instantly. Withdrawal delays create an incentive for dangerous LSTs, which can blow up if there’s a duration mismatch.
-
-#### Can the LST participate in governance?
-
-Yes! The LST can delegate its voting power directly, like a normal governance token. If the holder doesn't delegate the votes, the LST uses the delegation strategy instead. That way, LST voting power is always active in governance.
+The current version of native staking lets tokenholders withdraw instantly. Withdrawal delays create an incentive for duration-mismatched LSTs, which can blow up.
 
 #### Is there liquidity risk of LST vs the underlying token?
 
 Liquidity risk is minimal, because unstaking is instant. If there is a price difference between TOKEN and stTOKEN, arbitrageurs can arbitrage it away.
 
-#### Can stGOV be used in restaking and DeFi?
+**Is staking compatible with onchain governance, like ERC20Votes tokens and Governor contracts?**
 
-Yes, that's one of the primary motivations. LST holders can have it all. They can participate in governance, earn rewards for doing so, and use their position as collateral. The LST is a rebasing token, but it's easy to wrap it into a non-rebasing LST.
+Yes! Staking is compatible with standard governance tokens and Governor contracts out-of-the-box.&#x20;
 
-#### Who approves the default delegation strategy(s)?
+No changes are needed for a standard ERC20 token + Governor contract are needed to support staking.
 
-The underlying governance does. e.g. Arbitrum governance would pick the delegation strategy for \`stARB\`. If Arbitrum governance does not approve one, Tally Protocol's governance picks a default.
+#### Does the system support partial delegation of voting power?&#x20;
 
-#### Is there risk of delegation strategies capturing governance?
+Yes, stakers can create multiple staking positions. Each staking position can have its own delegate.
 
-Delegation strategies have no special powers that might present a danger. Token holders are free to change delegation strategies at any time. Poorly implemented delegation strategies do not pose a feedback loop danger. In the worst case, users withdraw their tokens or delegate them by hand.
+**Can LST holders participate in governance?**
 
-\
+Yes! The LST can delegate its voting power directly, like a normal governance token. If the holder doesn't delegate the votes, the LST uses the delegation strategy instead. That way, LST voting power is always active in governance.
+
+#### Who approves the auto delegate?
+
+The underlying governance does. e.g. Arbitrum governance would pick the auto delegate for \`stARB\`.
+
+#### Is there risk of the auto delegate capturing governance?
+
+The auto delegate has no special powers that might present a danger. Token holders are free to change delegation strategies at any time. Poorly implemented auto delegates do not pose a feedback loop danger, because using the auto-delegate is not better than delegating directly. In the worst case, users withdraw their tokens or delegate them by hand.

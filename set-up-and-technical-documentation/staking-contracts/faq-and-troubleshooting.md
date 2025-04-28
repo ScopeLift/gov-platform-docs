@@ -3,7 +3,7 @@ description: Tips for deploying and debugging the Staker system.
 icon: magnifying-glass-plus
 ---
 
-# Troubleshooting
+# FAQ & Troubleshooting
 
 ### Common Issues
 
@@ -17,3 +17,12 @@ icon: magnifying-glass-plus
    1. Earning power doesn’t automatically update.&#x20;
    2. Anyone can run a bot to update earning power. There’s an economic incentive for MEV searchers to do updates, but they might not know about the incentive.
    3. We recommend running the scripts in the [staker-bots](https://github.com/withtally/staker-bots) repo as a backup, in case the MEV searchers don’t.
+
+**How often do rewards get distributed, and how is earning power recalculated?**&#x20;
+
+The REWARD\_INTERVAL is configurable when deploying a new reward source. When there’s a new reward, the staking system updates everyone’s reward schedules based on earning power. The rewards are distributed over a period of time, the REWARD\_DURATION.
+
+\
+**How does the system handle vote checkpoints/snapshots?**&#x20;
+
+The underlying governance token handles snapshotting. Staker puts the governance tokens for each delegate into a separate account, called a “surrogate”. Then, it calls delegate() on the underlying governance token to distribute voting power. This way, the underlying governance system does not have to change.\

@@ -13,6 +13,6 @@ icon: right-from-line
 [how-staking-works.md](how-staking-works.md)
 {% endcontent-ref %}
 
-{% content-ref url="troubleshooting.md" %}
-[troubleshooting.md](troubleshooting.md)
+{% content-ref url="faq-and-troubleshooting.md" %}
+[faq-and-troubleshooting.md](faq-and-troubleshooting.md)
 {% endcontent-ref %}

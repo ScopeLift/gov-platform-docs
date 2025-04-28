@@ -116,7 +116,7 @@
     * [Liquid Staking Tokens](set-up-and-technical-documentation/staking-contracts/how-staking-works/liquid-staking-tokens/README.md)
       * [LST Auto delegates](set-up-and-technical-documentation/staking-contracts/how-staking-works/liquid-staking-tokens/lst-auto-delegates.md)
   * [DeFi Integration Guide](set-up-and-technical-documentation/staking-contracts/defi-integration-guide.md)
-  * [Troubleshooting](set-up-and-technical-documentation/staking-contracts/troubleshooting.md)
+  * [FAQ & Troubleshooting](set-up-and-technical-documentation/staking-contracts/faq-and-troubleshooting.md)
 * [Security](set-up-and-technical-documentation/security.md)
 * [Chain Compatibility](set-up-and-technical-documentation/chain-compatibility.md)
 * [Governor Proposal Standards](set-up-and-technical-documentation/governor-proposals/README.md)
