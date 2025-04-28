@@ -9,6 +9,10 @@ icon: comment-question
 
 Yes. The [native staking](https://github.com/withtally/staker) and [LST](https://github.com/withtally/stgov) contracts are code-complete, auditied and open source. Tally's app includes a frontend for staking. See, for example, [Uniswap staking](https://www.tally.xyz/gov/uniswap/stake).
 
+**Why is 1 staked token not worth 1 underlying token?**
+
+ERC20 tokens generally have a fixed balance. As the LST accrues rewards, a single LST token is worth more underlying tokens.
+
 #### **What's the difference between liquid staking and native staking?**
 
 Native staking is more configurable. The LST is easier to use. Staking on Tally supports both, so protocols can let users choose the best option for them.
@@ -28,7 +32,9 @@ Protocols provide staking rewards, either from protocol fees or inflation of the
 
 #### **Is there a fee?**
 
-The native staking system does not have a fee, aside from the gas costs of staking and distributing rewrdas. The LST does have a fee switch, to cover the cost of automating
+The native staking system does not have a fee, aside from the gas costs of staking and distributing rewards.&#x20;
+
+The liquid staking fee switch applies to staking rewards only. The fee is NOT taken from the staked amount.
 
 #### **Can staking be used in restaking and DeFi?**
 
