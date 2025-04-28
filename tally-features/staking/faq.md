@@ -5,6 +5,10 @@ icon: comment-question
 
 # FAQ
 
+#### What's staking for?
+
+Staking is the crypto-native way to align a protocol with its token. It lets protocols both reward aligned behavior and return value to tokenholders.
+
 #### Is staking ready and live?
 
 Yes. The [native staking](https://github.com/withtally/staker) and [LST](https://github.com/withtally/stgov) contracts are code-complete, auditied and open source. Tally's app includes a frontend for staking.&#x20;
