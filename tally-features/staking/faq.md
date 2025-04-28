@@ -15,6 +15,10 @@ Yes. The [native staking](https://github.com/withtally/staker) and [LST](https:/
 
 See, for example, [Uniswap staking](https://www.tally.xyz/gov/uniswap/stake), which is live and awaiting the Uniswap DAO to turn on rewards.
 
+#### **Where do rewards come from?**
+
+Protocols provide staking rewards, either from protocol fees or inflation of the native token.
+
 #### **Why is 1 staked token not worth 1 underlying token?**
 
 ERC20 tokens generally have a fixed balance. As the LST accrues rewards, a single LST token is worth more underlying tokens.
@@ -29,10 +33,6 @@ Native staking is more configurable. The LST is easier to use. Tally staking sup
 | One staking position        | Multiple positions              |
 | Rewards claim automatically | Claim rewards manually          |
 | Rewards auto-compound       | Rewards must be manually staked |
-
-#### **Where do rewards come from?**
-
-Protocols provide staking rewards, either from protocol fees or inflation of the native token.
 
 #### **Is there a fee?**
 
