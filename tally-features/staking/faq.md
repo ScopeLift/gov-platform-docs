@@ -9,15 +9,13 @@ icon: comment-question
 
 Yes. The [native staking](https://github.com/withtally/staker) and [LST](https://github.com/withtally/stgov) contracts are code-complete, auditied and open source. Tally's app includes a frontend for staking. See, for example, [Uniswap staking](https://www.tally.xyz/gov/uniswap/stake).
 
-**Why is 1 staked token not worth 1 underlying token?**
+#### **Why is 1 staked token not worth 1 underlying token?**
 
 ERC20 tokens generally have a fixed balance. As the LST accrues rewards, a single LST token is worth more underlying tokens.
 
 #### **What's the difference between liquid staking and native staking?**
 
-Native staking is more configurable. The LST is easier to use. Staking on Tally supports both, so protocols can let users choose the best option for them.
-
-Native staking allows users to have multiple positions.&#x20;
+Native staking is more configurable. The LST is easier to use. Tally staking supports both at the same time, so users can choose the best option for them.
 
 | Liquid staking              | Native staking                  |
 | --------------------------- | ------------------------------- |
@@ -40,8 +38,7 @@ The liquid staking fee switch applies to staking rewards only. The fee is NOT ta
 
 Yes, that's one of the primary motivations.  LST holders can earn rewards and use their position as collateral in DeFi.
 
-\
-**How does unstaking work, and is there a time delay?**
+#### **How does unstaking work, and is there a time delay?**
 
 The current version of native staking lets tokenholders withdraw instantly. Withdrawal delays create an incentive for duration-mismatched LSTs, which can blow up.
 
@@ -49,7 +46,7 @@ The current version of native staking lets tokenholders withdraw instantly. With
 
 Liquidity risk is minimal, because unstaking is instant. If there is a price difference between TOKEN and stTOKEN, arbitrageurs can arbitrage it away.
 
-**Is staking compatible with onchain governance, like ERC20Votes tokens and Governor contracts?**
+#### **Is staking compatible with onchain governance, like ERC20Votes tokens and Governor contracts?**
 
 Yes! Staking is compatible with standard governance tokens and Governor contracts out-of-the-box.&#x20;
 
@@ -59,7 +56,7 @@ No changes are needed for a standard ERC20 token + Governor contract are needed 
 
 Yes, stakers can create multiple staking positions. Each staking position can have its own delegate.
 
-**Can LST holders participate in governance?**
+#### **Can LST holders participate in governance?**
 
 Yes! The LST can delegate its voting power directly, like a normal governance token. If the holder doesn't delegate the votes, the LST uses the delegation strategy instead. That way, LST voting power is always active in governance.
 
