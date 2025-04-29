@@ -7,7 +7,7 @@ description: >-
 # Delegates Page
 
 \
-To navigate to the Delegates page, click Community in the [DAO Homepage](../navigate-the-dao-homepage.md).
+To navigate to the Delegates page, click Community in the [DAO Homepage](../navigate-the-tally-homepage.md).
 
 
 
