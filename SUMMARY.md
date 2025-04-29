@@ -48,6 +48,7 @@
   * [DAO Page](tally-features/navigating-the-tally-platform/dao-page.md)
   * [Proposal Page](tally-features/navigating-the-tally-platform/proposal-page.md)
   * [Delegates Page](tally-features/navigating-the-tally-platform/delegates-page.md)
+* [Staking on Tally](tally-features/staking-on-tally.md)
 * [Delegations on Tally](tally-features/delegations-on-tally/README.md)
   * [Delegating Voting Power](tally-features/delegations-on-tally/delegating-voting-power/README.md)
     * [Free Delegation](tally-features/delegations-on-tally/delegating-voting-power/free-delegation.md)
