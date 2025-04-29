@@ -1,5 +1,6 @@
 ---
 description: Stake governance tokens on Tally
+hidden: true
 icon: square-up
 ---
 
