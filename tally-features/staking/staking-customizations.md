@@ -43,6 +43,15 @@ Tally's staking system is compatible with staking and restaking protocols that p
 * Compatible with protocols like EigenLayer and Symbiotic
 * Aligns token holder incentives with network security
 
+### Insurance Fund
+
+Staked tokens can serve as insurance against reorgs or losses
+
+**How it works:**
+
+* Native tokens are staked in a pool and accrue rewards
+* If something goes wrong, like a reorg or shortfall crash, staked tokens are slashed to cover the losses
+
 ### Stake Streaks
 
 Stake streaks reward long-term holders, creating incentives for extended token holding periods and reducing market volatility.
