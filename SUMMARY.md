@@ -85,6 +85,7 @@
   * [Upgrade Gnosis Safe to Governor with Zodiac](how-to-use-tally/making-onchain-transactions-as-safe/upgrade-gnosis-safe-to-governor-with-zodiac.md)
 * [DAO Treasury](tally-features/enterprise-features/dao-treasury.md)
 * [Participate in Security Council Elections](how-to-use-tally/participate-in-security-council-elections.md)
+* [Using Ledger with Solana](how-to-use-tally/using-ledger-with-solana.md)
 
 ## Set up & Technical Documentation
 
