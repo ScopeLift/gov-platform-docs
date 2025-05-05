@@ -67,7 +67,7 @@ Your implementation approach depends on your protocol's stage and needs:
 
 Once you've considered these prerequisites and options:
 
-1. Review the [technical implementation details](https://docs.google.com/document/d/17OiiaTC6jeu0E7uEb2HtedChwh1q5sakBo-bbkakYes/edit?tab=t.dljpt5d2kpap) in the next section
+1. Review [How Staking Works](how-staking-works.md) in the next section
 2. Decide on your reward source and notifier approach
 3. Define your staking parameters
 4. [Contact Tally](https://www.tally.xyz/contact) for support with your implementation
