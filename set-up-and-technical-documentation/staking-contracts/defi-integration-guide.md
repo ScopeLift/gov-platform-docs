@@ -11,7 +11,7 @@ See below for details about how a DeFi protocol can integrate the [fixedGovLST](
 
 #### Integrate the ERC20 Token
 
-The LST is a stanrdard ERC20 token with no "weird" features like rebasing. The integration will be similar to other ERC20 tokens.
+The LST is a standard ERC20 token with no "weird" features like rebasing. The integration will be similar to other ERC20 tokens.
 
 _Note: FixedGovLST uses a rebasing LST internally. Integrating against the underlying rebasing LST is not recommended!_
 
