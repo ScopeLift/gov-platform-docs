@@ -13,11 +13,13 @@ Staking is the crypto-native way to align a protocol with its token. It lets pro
 
 Yes. The [native staking](https://github.com/withtally/staker) and [LST](https://github.com/withtally/stgov) contracts are code-complete, auditied and open source. Tally's app includes a frontend for staking.&#x20;
 
-See, for example, [Uniswap staking](https://www.tally.xyz/gov/uniswap/stake), which is live and awaiting the Uniswap DAO to turn on rewards.
+See, for example, [Obol staking](https://www.tally.xyz/gov/obol/stake).
 
-#### Are the Staking contracts audited?&#x20;
+#### Are the staking contracts audited?&#x20;
 
-Yes. Both Tally's contracts and Unistaker have completed multiple audits. Access all audit reports [here](https://github.com/withtally/staker/tree/main/audits).
+Yes, they've been audited multiple times.&#x20;
+
+Auditors from Sherlock and Offbeat Security audited the contracts. Additionally, Sherlock and Cantina ran public audit contests. Learn more about the audits in the [Security Section](https://docs.tally.xyz/set-up-and-technical-documentation/staking-contracts/defi-integration-guide#smart-contract-audits) of the technical docs.
 
 #### **Where do rewards come from?**
 
