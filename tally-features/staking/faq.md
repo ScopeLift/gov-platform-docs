@@ -15,6 +15,10 @@ Yes. The [native staking](https://github.com/withtally/staker) and [LST](https:/
 
 See, for example, [Uniswap staking](https://www.tally.xyz/gov/uniswap/stake), which is live and awaiting the Uniswap DAO to turn on rewards.
 
+#### Are the Staking contracts audited?&#x20;
+
+Yes. Both Tally's contracts and Unistaker have completed multiple audits. Access all audit reports [here](https://github.com/withtally/staker/tree/main/audits).
+
 #### **Where do rewards come from?**
 
 Protocols provide staking rewards, either from protocol fees or inflation of the native token.
