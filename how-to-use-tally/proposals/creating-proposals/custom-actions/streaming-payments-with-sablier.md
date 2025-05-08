@@ -14,7 +14,7 @@ Streaming can be used for vesting, airdrops, grants, payroll, etc. You can read 
 
 To call Sablier's contract, there are three steps:
 
-1. Find the [address of Sablier contract](https://docs.sablier.com/contracts/v2/deployments) on your DAO's network.
+1. Find the [address of Sablier contract](https://docs.sablier.com/guides/lockup/deployments) on your DAO's network.
 2. Enter that address into Tally's Custom action.&#x20;
 
 <figure><img src="../../../../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
@@ -52,10 +52,11 @@ _Note:_ If the amount you are trying to send already has decimals (for example, 
 
 Finally, the `Target` value is the contract address of the token you are looking to stream, with the `Value` field having no relevance here given we won’t spend any ETH in this transaction; we are merely approving the spending of a certain ERC-20 token.
 
-On every chain Sablier is deployed on, there are two contracts you can interact with to create streams:
+On every chain Sablier is deployed on, there are three types of stream shapes you can create:
 
-* **SablierV2LockupLinear:** allows you to create linear streams, with or without cliffs.
-* **SablierV2LockupDynamic:** allows you to create streams with dynamic payment curves, including non-linear ones.
+1. **Linear:** allows you to create linear streams, with or without cliffs.
+2. **Tranched:** allows you to create streams by tranches, meaning timelocks, periodic unlocks, etc.
+3. **Dynamic:** allows you to create streams with dynamic payment curves, including non-linear ones.
 
 More can be read about the different types of streams [here](https://docs.sablier.com/concepts/protocol/stream-types). Depending on which contract you are looking to interact with, and on which chain you are will be doing so, the contract addresses will change. Head over [here](https://docs.sablier.com/contracts/v2/deployments) to find the right contract address.
 
@@ -63,24 +64,24 @@ We have approved the spending of our token, so we can create the actual stream n
 
 ### Stream Creation
 
-In this example, we will focus on LockupLinear as opposed to LockupDynamic, as interacting with the latter is harder. We recommend reaching out to the Sablier team if you are interested in doing that.
+In this example, we will focus on Lockup Linear. It's fairly similar for Lockup Tranched and Lockup Dynamic, though this latter one is harder to interact with. Feel free to reach out to the Sablier team on [Discord](https://discord.gg/bSwRCwWRsT) to get help.
 
-There are two ways to create a stream in LockupLinear:
+There are two ways to create a stream in Lockup Linear:
 
 * **CreateWithDurations:** allows you to create a stream that will start as soon as the stream creation transaction is included in the blockchain, which will run for a specific duration.
-* **CreateWithRange:** allows you to create a stream that will start on a specific date and will end on a specific date.
+* **CreateWithTimestamps:** allows you to create a stream that will start on a specific date and will end on a specific date.
 
-Both ways support cliffs, and differ only slightly in the way you call them programmatically in Sablier's contracts.
+Both ways support cliffs, and differ only slightly in the way you call them programmatically in Sablier's contracts. When using either function, whether CreateWithDurations or CreateWithTimestamps, they need to be appended with LL if using Linear, LT if using Tranched, and LD if using Dynamic
 
-Here is an example of what a function call with `CreateWithRange` looks like:
+Here is an example of what a function call with `CreateWithTimestamps` looks like:
 
 ```jsx
-Signature: createWithRange(tuple)
+Signature: createWithTimestampsLL(tuple,tuple,uint40)
 
 Calldata:
-tuple: [0xB57Ab8767CAe33bE61fF15167134861865F7D22C, 0xC09c8905cd3112deE53BbFBdeBC1e9C9963BD325, 3141000000000000000000, 0x6B175474E89094C44Da98b954EedeAC495271d0F, true, true, [1689811200, 1689811200, 1721433600], [0x0000000000000000000000000000000000000000, 0]]
+tuple: ["0xf26994E6Af0b95cCa8DFA22A0BC25E1f38a54C42", "0xb4bf8a8475d1e8e9a2088f118ad0e2cdc2896183", 100000000000000000000, "0x3DcBc355c5B5FdF45D2d2ccc8890d76C5b30394A", false, true, [1737936000, 1769472000], "", ["0x0000000000000000000000000000000000000000", 0], ["0", "2000000000000000000"], 1738195200]
 
-Target: 0xB10daee1FCF62243aE27776D7a92D39dC8740f95
+Target: 0x7C01AA3783577E15fD7e272443D44B92d5b21056
 Value: 0
 ```
 
@@ -170,6 +171,6 @@ As you may have noticed, the only different part is the following section:
 ]
 ```
 
-Instead of having a start date, cliff date, and end date, as in `CreateWithRange`, the `CreateWithDurations` function only requires a cliff duration (in seconds), and the total stream duration (also in seconds).
+Instead of having a start date, cliff date, and end date, as in `CreateWithTimestamps`, the `CreateWithDurations` function only requires a cliff duration (in seconds), and the total stream duration (also in seconds).
 
 There is no start date or end date required, as the stream will start as soon as the stream creation transaction is validated. Once that’s done, the stream starts and will last for the `total` duration.
