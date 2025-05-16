@@ -9,41 +9,29 @@ icon: circle-arrow-up-right
 
 ## Prerequisites
 
-The simplest version of staking requires just two things, a staking token and a reward source.
+To implement Tally's staking system, you'll need the following:
 
-* Holders stake the **staking token** for rewards.
-* The admin of staking distributes **rewards** to stakers.
+1.  **Compatible tokens**:
 
-The staking token and the reward source must be ERC20 tokens. The reward token can be the same as the staking token.
+    1. **A standard ERC20 token to use as the staking token**. Typically, the staking token is the native token of the protocol, like UNI.
+    2. **One or more ERC20 tokens to distribute as rewards**. e.g. WETH or the native token of the protocol for inflationary rewards.
 
-### Additional Options
+    Note: _Rebasing tokens or non-standard ERC20 tokens won't work._
+2. **Reward source**: Rewards come from protocol revenue, treasury funds, or minting new tokens.&#x20;
 
-#### Staking is compatible with governance
+Optionally, staking supports additional features:
 
-If the staking token is also a governance token - i.e. it implements `ERC20Votes -`then governance works with the staking system. Staking passes through voting power to the underlying governance token. No changes are needed on the governance system.
+* &#x20;**Governance compatibility -** for staking token that are also governance tokens. In other words, tokens that implement `ERC20Votes`**.** Staking passes through voting power to the underlying governance token. No changes are needed on the governance system.
+* **Staking reward criteria** can use an [EarningPowerCalculator](https://github.com/withtally/staker/tree/main/src/calculators).  Calculators increase or decrease rewards based on any criteria. Calculators can use offchain criteria with an oracle.
 
-#### Incentives
+## Combining Staking with Token Launch
 
-Optionally, staking rewards can depend on an [EarningPowerCalculator](https://github.com/withtally/staker/tree/main/src/calculators).  Calculators can increase or decreases rewards based on any criteria. Even offchain criteria can be used, with an oracle.
-
-## Token Launch Considerations
-
-Many protocols launch staking with their token launch. Combining the two offers several benefits:
+Many protocols launch staking with their token launch. Tally can help with a flow that combines the two events. Combining them offers several benefits:
 
 * Immediate utility for new tokens
 * Higher staking conversion rates
 * Reduced initial selling pressure
 * Clear value proposition for tokenholders
-
-#### Combining Token Launch with Staking
-
-Tally helps protocols launch tokens with integrated staking capabilities. Our token launch flow allows tokenholders to stake immediately after receiving tokens.
-
-This integrated approach:
-
-1. Improves conversion rates
-2. Increases the amount staked
-3. Establishes sustainable tokenomics from day one
 
 Learn more about how Tally helped Obol combine token launch with staking launch [here](https://tally.mirror.xyz/6e3I6e4K2FL_dcv5cnDTnJdQ0NSpqFnENZBAs7zre4s).
 
@@ -54,20 +42,24 @@ Your implementation approach depends on your protocol's stage and needs:
 #### For new protocols:
 
 * Implement staking alongside your token launch
-* Design tokenomics with value accrual in mind from day one
-* Create a complete economic loop between usage, fees, and rewards
+* Design with value accrual in mind from day one
+* Create an economic loop between usage, fees, and rewards
 
 #### For established protocols:
 
 * Add staking to create utility for existing tokens
-* Connect protocol revenue streams to reward stakers
-* Consider a phased approach to test and adjust parameters
+* Use protocol revenue or token inflation to reward stakers
+* Consider phasing in rewards over time to test and adjust parameters
 
 ## Next Steps
 
-Once you've considered these prerequisites and options:
+**For the fastest and most reliable implementation:**
 
-1. Review [How Staking Works](how-staking-works.md) in the next section
-2. Decide on your reward source and notifier approach
-3. Define your staking parameters
-4. [Contact Tally](https://www.tally.xyz/contact) for support with your implementation
+* Contact Tally's team at[ tally.xyz/contact](https://www.tally.xyz/contact)
+* Tell Tally about your staking and reward tokens
+* Tally will guide you through the deployment process
+* Get a fully-configured staking user interface on Tally
+
+**To deploy a test or self-serve staking contract**
+
+See the ['Usage' section of the Staker README doc.](https://github.com/withtally/staker?tab=readme-ov-file#usage)

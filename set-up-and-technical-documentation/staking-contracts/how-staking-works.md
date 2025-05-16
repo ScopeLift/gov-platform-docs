@@ -5,36 +5,10 @@ icon: gears
 
 # How Staking Works
 
-### Prerequisites
+[Staker](https://github.com/withtally/staker) is a flexible, configurable staking contract. It distributes onchain staking rewards to the holders of an ERC20 token, including DAO governance tokens. The rewards are proportional to  with arbitrary reward criteria.\
 
-To implement Tally's staking system, you'll need the following:
 
-1.  **Compatible tokens**:
-
-    1. **A standard ERC20 token to use as the staking token**. Typically, the staking token is the native token of the protocol, like UNI.
-    2. **One or more ERC20 tokens to distribute as rewards**. e.g. WETH or the native token of the protocol for inflationary rewards.
-
-    Note: _Rebasing tokens or non-standard ERC20 tokens won't work._
-2.  **Reward source**:
-
-    Rewards come from protocol revenue, treasury funds, or minting new tokens.&#x20;
-
-### Deployment Options
-
-**Deploy with Tally's assistance**
-
-For the fastest and most reliable implementation:
-
-1. Contact Tally's team at[ tally.xyz/contact](https://www.tally.xyz/contact)
-2. Tell Tally about your staking and reward tokens
-3. Tally will guide you through the deployment process
-4. Get a fully-configured staking user interface on Tally
-
-#### Deploy self-serve
-
-See the ['Usage' section of the Staker README doc.](https://github.com/withtally/staker?tab=readme-ov-file#usage)
-
-### &#x20;System Architecture
+**System Architecture**
 
 Here's an architecture diagram of the staking smart contracts:
 
