@@ -1,7 +1,7 @@
 ---
 description: >-
-  Tally is the software layer for onchain organizations. Winning teams use Tally
-  to launch tokens, govern protocols, and grow with staking
+  Tally powers institutional grade tokens. Launch, manage, and grow the value of
+  your token with Tally’s software stack ⬎
 icon: file-lines
 cover: .gitbook/assets/Git banner 2 (2).png
 coverY: 0
