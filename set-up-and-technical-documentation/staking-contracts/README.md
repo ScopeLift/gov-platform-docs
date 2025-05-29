@@ -5,7 +5,7 @@ icon: right-from-line
 
 # Staking Contracts
 
-These technical guides go in-depth how staking works, how to set it up, and how to operate a staking system.
+These technical guides go in-depth on how staking works, how to set it up, and how to operate a staking system.
 
 {% content-ref url="stgov-lst.md" %}
 [stgov-lst.md](stgov-lst.md)

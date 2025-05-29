@@ -55,6 +55,12 @@ Staking supports governance. If the staking token is also a governance token, ho
 
 Optionally, the staking system can have eligibility criteria stipulate particular actions from tokenholders to get rewards. For example, it could require that staked tokens be active in governance to earn rewards. There's a large design space for incentivizing token-aligned services.
 
+### Self-Serve Staking (Coming Soon)
+
+While not yet available, teams should review the [Staking Contracts Guide](../../set-up-and-technical-documentation/staking-contracts/) to go in-depth on how staking works, how to set it up, and how to operate a staking system.&#x20;
+
+For inquires, contact us [here](https://tally.xyz/contact).&#x20;
+
 ### Learn more
 
 {% content-ref url="staking-customizations.md" %}
