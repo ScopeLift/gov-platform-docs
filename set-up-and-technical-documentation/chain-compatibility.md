@@ -17,6 +17,7 @@ Tally is currently compatible with the following chains:
 * Filecoin
 * Flow Mainnet
 * Gnosis
+* HashKey Chain (coming soon)
 * Kinto
 * Linea
 * Lisk
