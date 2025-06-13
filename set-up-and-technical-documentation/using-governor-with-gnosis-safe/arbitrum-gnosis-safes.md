@@ -1,6 +1,5 @@
 ---
 description: Temporary work around for known WalletConnect V2 issue
-hidden: true
 noIndex: true
 ---
 
