@@ -1,5 +1,6 @@
 ---
 description: Create SubDAOs and manage Grants Programs using the Zodiac Governor module.
+hidden: true
 ---
 
 # Zodiac Governor Module for SubDAOs and Grants Programs
