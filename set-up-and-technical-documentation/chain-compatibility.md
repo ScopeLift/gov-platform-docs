@@ -34,4 +34,25 @@ Tally is currently compatible with the following chains:
 * Zircuit
 * ZKsync Era\
   \
-  If you would like to integrate your chain with Tally email us at [hello@tally.xyz](mailto:hello@tally.xyz).
+
+If you would like to integrate your chain with Tally email us at [hello@tally.xyz](mailto:hello@tally.xyz).
+
+## Deprecated Chains
+
+The following chains are deprecated and will no longer be supported in future releases:
+
+* Celo
+* Cyber
+* Darwinia
+* Gravity Alpha
+* Immutable
+* IOTA EVM
+* Kroma
+* Mantle
+* Mode
+* PulseChain
+* ShimmerEVM Mainnet
+* X Layer
+
+
+
