@@ -47,14 +47,16 @@ flowchart LR
   %% Teal: #008080, Nyanza: #D6F6D6, Purple: #725BFF, Off-Black: #1D1D1D
 
   %% Sources
-  A[Protocol Revenue]:::tallyTeal --> Staking_System
-  B[Token Issuance]:::tallyTeal --> Staking_System
+  A[<b>Protocol Revenue</b><br/>e.g. in ETH]:::tallyTeal --> Staking_System
+  B[<b>Token Issuance</b><br/> in native token]:::tallyTeal --> Staking_System
+  H[<b>Any other source</b><br/>in any ERC20]:::tallyTeal --> Staking_System
 
   %% Staking System
-  subgraph Staking_System[Staking Contracts]
+  subgraph Staking_System[<b>Staking Contracts</b>]
     direction LR
-    C[Liquid Staking Token]:::tallyNyanza
-    D[Native Staking]:::tallyNyanza
+    C[<b>Liquid Staking Token</b><br/>Wraps native staking. Accrues only native token by selling off ETH]:::tallyNyanza
+    D[<b>Native Staking</b><br/>Earns ETH and native token]:::tallyNyanza
+    G[<b>Eligibility Module</b><br/>Optional reward criteria]:::tallyNyanza
   end
 
   Staking_System:::transparent --> E
