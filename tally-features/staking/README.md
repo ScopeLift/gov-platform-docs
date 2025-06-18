@@ -41,6 +41,33 @@ Launch a new token with built-in utility, or enhance your existing tokenomics. E
 
 ### How does it work?
 
+```mermaid
+flowchart LR
+  %% Tally Brand Colors
+  %% Teal: #008080, Nyanza: #D6F6D6, Purple: #725BFF, Off-Black: #1D1D1D
+
+  %% Sources
+  A[Protocol Revenue]:::tallyTeal --> Staking_System
+  B[Token Issuance]:::tallyTeal --> Staking_System
+
+  %% Staking System
+  subgraph Staking_System[Staking Contracts]
+    direction LR
+    C[Liquid Staking Token]:::tallyNyanza
+    D[Native Staking]:::tallyNyanza
+  end
+
+  Staking_System:::transparent --> E
+  E["<b>Staking Interface</b><br/>tally.xyz"]:::tallyPurple --> F["<b>Tokenholder</b><br/>earns rewards"]:::tallyBlack
+
+  %% Tally Brand Styles
+  classDef tallyTeal fill:#008080,color:#fff,stroke:#008080,stroke-width:2px;
+  classDef tallyNyanza fill:#D6F6D6,color:#1D1D1D,stroke:#008080,stroke-width:2px;
+  classDef tallyPurple fill:#725BFF,color:#fff,stroke:#725BFF,stroke-width:2px;
+  classDef tallyBlack fill:#1D1D1D,color:#fff,stroke:#1D1D1D,stroke-width:2px;
+  classDef transparent fill:none,stroke:#008080,stroke-width:2px;
+```
+
 **1. Staking contracts distribute rewards over time**
 
 Rewards can come from anywhere. The most common sources are 1) protocol revenue and 2) issuance of the protocol's native token. The rewards can be in any ERC20 token or even in more than one token.
