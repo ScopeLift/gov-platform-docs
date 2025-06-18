@@ -5,50 +5,14 @@ icon: gears
 
 # How Staking Works
 
-[Staker](https://github.com/withtally/staker) is a flexible, configurable staking contract. It distributes onchain staking rewards to the holders of an ERC20 token, including DAO governance tokens. The rewards are proportional to  with arbitrary reward criteria.\
+[Staker](https://github.com/withtally/staker) is a flexible, configurable staking contract. It distributes onchain staking rewards to the holders of an ERC20 token, including DAO governance tokens. The rewards are proportional to the amount staked over time. Rewards can be boosted or penalized by the eligibility criteria.\
 
 
 **System Architecture**
 
 Here's an architecture diagram of the staking smart contracts:
 
-```mermaid
-stateDiagram-v2
-    direction TB
-
-    User --> CUF: Stakes tokens
-
-    state Staker {
-        state "Key User Functions" as CUF {
-            stake --> claimReward
-            claimReward --> withdraw
-        }
-
-        state "Key State" as KS {
-            rewardRate
-            deposits
-        }
-
-        state "Admin Functions" as CAF {
-            setRewardNotifier
-            setEarningPowerCalculator
-        }
-    }
-
-    state DelegationSurrogate {
-        state "Per Delegatee" as PD {
-            HoldsTokens
-            DelegatesVotes
-        }
-    }
-
-    KS  --> DelegationSurrogate: Holds tokens per delegatee
-    DelegationSurrogate --> Delegatee: Delegates voting power
-    Admin --> CAF: e.g. governance
-
-    RewardNotifier --> Staker: Tells Staker about new rewards
-    EarningPowerCalculator --> Staker: Calculates eligibility
-```
+<figure><img src="../../.gitbook/assets/mermaid-diagram-2025-06-18-134003 (2).png" alt=""><figcaption></figcaption></figure>
 
 * The staking contracts have modules for [calculating earning power](https://github.com/withtally/staker/tree/main/src/calculators), hooking up [sources of rewards](https://github.com/withtally/staker/tree/main/src/notifiers), and [extensions](https://github.com/withtally/staker/tree/main/src/extensions). Protocol teams can assemble a staking system from these audited pieces.
 * Staking is out-of-the-box compatible with existing \`ERC20Votes\` governance tokens. It supports \`ERC20Votes\` delegation with the "surrogate factory" pattern. Staking creates a surrogate contract for each delegate. It delegates voting power in each surrogate to the delegate.
