@@ -42,6 +42,21 @@ Holders can redeem their liquid staking tokens for the underlying staked token a
 * The fee is collecting on rewards. When a reward is distributed from the underlying staking system to stakers, the fee is applied to the reward amount.
 * The fee is only collected on rewards. There's no fee on deposits, staked assets, or withdrawals.
 
+#### Swapping mechanics:
+
+The LST uses an MEV auction to trade any non-native tokens for native tokens. The LST has a [public method](https://github.com/withtally/stGOV/blob/f41a2a24da46d86c54fe335de6320c1381cb3a14/src/GovLst.sol#L664-L697) that allows any caller to swap native tokens for lots of the LST's share of the staking rewards, which can be any token(s).\
+
+
+Here's an example:
+
+* An LST contract has accrued rewards of 1 ETH in the staking contract.
+* The payout amount in the LST is configured to 500 native tokens.&#x20;
+* Imagine ETH is trading at $2,500 and the governance token is trading at $5.&#x20;
+* At this point, the value of ETH available to be claimed is equal to the value of the payout amount required in staking token.&#x20;
+* Once a bit more ETH accrues, it will be profitable for a searcher to trade the 500 staking tokens in exchange for the accrued ETH rewards.
+* If the searcher offers a bad rate, other searchers are incentivized to \
+
+
 ### Contracts
 
 Each LST deployment consists of two ERC-20 tokens that distribute rewards through the same underlying accounting system.
