@@ -12,7 +12,43 @@ icon: gears
 
 Here's an architecture diagram of the staking smart contracts:
 
-<figure><img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXdEeZ22as7vFBVcreItQ3FzdzF__ZDU-TQm_cD3_qiP0Ytn247IcsOmlkG1JnJHQBbfTPn6RvBUJSho3KwOf8kssxnDO23D59UIEbw1BUX2T2egQOlMGJVNIsmNiNar-YZhFOyjaQ?key=-A0yyh0GoubDpQhSpbBdwPkR" alt=""><figcaption></figcaption></figure>
+```mermaid
+stateDiagram-v2
+    direction TB
+
+    User --> CUF: Stakes tokens
+
+    state Staker {
+        state "Key User Functions" as CUF {
+            stake --> claimReward
+            claimReward --> withdraw
+        }
+
+        state "Key State" as KS {
+            rewardRate
+            deposits
+        }
+
+        state "Admin Functions" as CAF {
+            setRewardNotifier
+            setEarningPowerCalculator
+        }
+    }
+
+    state DelegationSurrogate {
+        state "Per Delegatee" as PD {
+            HoldsTokens
+            DelegatesVotes
+        }
+    }
+
+    KS  --> DelegationSurrogate: Holds tokens per delegatee
+    DelegationSurrogate --> Delegatee: Delegates voting power
+    Admin --> CAF: e.g. governance
+
+    RewardNotifier --> Staker: Tells Staker about new rewards
+    EarningPowerCalculator --> Staker: Calculates eligibility
+```
 
 * The staking contracts have modules for [calculating earning power](https://github.com/withtally/staker/tree/main/src/calculators), hooking up [sources of rewards](https://github.com/withtally/staker/tree/main/src/notifiers), and [extensions](https://github.com/withtally/staker/tree/main/src/extensions). Protocol teams can assemble a staking system from these audited pieces.
 * Staking is out-of-the-box compatible with existing \`ERC20Votes\` governance tokens. It supports \`ERC20Votes\` delegation with the "surrogate factory" pattern. Staking creates a surrogate contract for each delegate. It delegates voting power in each surrogate to the delegate.
