@@ -1,6 +1,8 @@
 ---
 description: How to deploy an NFT DAO with onchain voting
 hidden: true
+noIndex: true
+noRobotsIndex: true
 icon: hexagon-vertical-nft
 ---
 

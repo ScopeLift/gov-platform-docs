@@ -67,8 +67,8 @@ _Learn about deploying a Governor contract and how to customize it for compatibi
 [deploying-daos](set-up-and-technical-documentation/deploying-daos/)
 {% endcontent-ref %}
 
-{% content-ref url="how-to-use-tally/use-tally-with-a-gnosis-safe/" %}
-[use-tally-with-a-gnosis-safe](how-to-use-tally/use-tally-with-a-gnosis-safe/)
+{% content-ref url="how-to-use-tally/proposals/voting-on-proposals/making-onchain-transactions-as-safe.md" %}
+[making-onchain-transactions-as-safe.md](how-to-use-tally/proposals/voting-on-proposals/making-onchain-transactions-as-safe.md)
 {% endcontent-ref %}
 
 {% content-ref url="set-up-and-technical-documentation/deploying-daos/smart-contract-compatibility/" %}
