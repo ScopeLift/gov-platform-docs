@@ -4,7 +4,7 @@ icon: clipboard-list-check
 
 # Signal Voting
 
-[Multisig governance](../../../../../how-to-use-tally/proposals/voting-on-proposals/making-onchain-transactions-as-safe.md) is typically paired with a signal voting mechanism to maintain legitimacy. As an example, Yearn, Synthetix, and Sushiswap all use the Snapshot voting tool to let token holders make key decisions and delegate authority.
+[Multisig governance](../../../../../how-to-use-tally/use-tally-as-a-safe-multisig/) is typically paired with a signal voting mechanism to maintain legitimacy. As an example, Yearn, Synthetix, and Sushiswap all use the Snapshot voting tool to let token holders make key decisions and delegate authority.
 
 After considering a proposal in the community's discussion venue, a signal vote will be held to assess support. While this typically involves voting with Snapshot, in some cases communities may use onchain signal voting (eg. early Yearn [ygov.finance voting tool](https://ygov.finance/vote)) or off chain voting which is weighted by user accounts instead of token holdings (eg. polls in Discourse forums or Discord).
 
