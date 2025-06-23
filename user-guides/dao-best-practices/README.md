@@ -8,3 +8,5 @@ icon: arrow-up-right
 {% content-ref url="running-an-onchain-dao-using-openzeppelin-governor.md" %}
 [running-an-onchain-dao-using-openzeppelin-governor.md](running-an-onchain-dao-using-openzeppelin-governor.md)
 {% endcontent-ref %}
+
+Running an Onchain DAO Using OpenZeppelin Governor

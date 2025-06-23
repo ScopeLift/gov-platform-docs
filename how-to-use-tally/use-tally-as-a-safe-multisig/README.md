@@ -13,7 +13,7 @@ Safe wallet users can now sign in directly to Tally using WalletConnect. The flo
 ### 1. Connect Safe wallet
 
 * Select Connect Wallet and choose WalletConnect.
-* Connect Safe wallet via WalletConnect.
+* [How to Connect a Safe using WalletConnect](https://help.safe.global/en/articles/108235-how-to-connect-a-safe-to-a-dapp-using-walletconnect).
 * Tally detects  the connected wallet is a smart contract wallet (Safe).
 
 ### 2. Safe wallet detected
