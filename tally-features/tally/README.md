@@ -14,7 +14,7 @@ Launching a token is a public commitment that sets the foundation for an organiz
 With Tally, protocols can:&#x20;
 --------------------------------
 
-* [Launch World-class Tokens ](../token-launch.md)
+* [Launch World-Class Tokens ](../token-launch.md)
 * [Accrue Value with Staking ](../staking/)
 * [Launch Governance](../governance/)
 * [Create & Pass Proposals](../../how-to-use-tally/proposals/creating-proposals/)
