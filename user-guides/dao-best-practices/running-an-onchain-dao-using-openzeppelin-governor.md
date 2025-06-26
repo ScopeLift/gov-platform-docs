@@ -1,5 +1,6 @@
 ---
 description: The best practices to ensure efficiency, security, and transparency
+icon: arrows-up-down-left-right
 ---
 
 # Running an Onchain DAO Using OpenZeppelin Governor

@@ -147,6 +147,7 @@
   * [Snapshot Polls](user-guides/governance-frameworks/snapshot-polls.md)
 * [DAO Best Practices](user-guides/dao-best-practices/README.md)
   * [Running an Onchain DAO Using OpenZeppelin Governor](user-guides/dao-best-practices/running-an-onchain-dao-using-openzeppelin-governor.md)
+  * [Seatbelt for Governance](user-guides/dao-best-practices/seatbelt-for-governance.md)
 * [Index of DAOs](user-guides/index-of-daos/README.md)
   * [DAOs on Tally](user-guides/index-of-daos/daos-on-tally/README.md)
     * [Aave (AAVE)](user-guides/index-of-daos/daos-on-tally/aave-aave.md)
