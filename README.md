@@ -3,7 +3,7 @@ description: >-
   Tally powers institutional grade tokens. Launch, manage, and grow the value of
   your token with Tally’s software stack ⬎
 icon: file-lines
-cover: .gitbook/assets/Git banner (4).png
+cover: .gitbook/assets/Git banner (5).png
 coverY: 0
 layout:
   cover:
