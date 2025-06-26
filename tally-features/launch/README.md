@@ -57,7 +57,7 @@ _Tally provides a comprehensive governance solution. These features are complete
 
 **Proposal Drafting and Collaboration:** Collaborative proposal creation through tools designed to enable multiple contributors to work together seamlessly.&#x20;
 
-**Proposal Creation with Arbitrary Executables:** Proposals can be created with customizable executable actions, allowing for a wide range of governance activities and decisions to be automated and enforced onchain.&#x20;
+**Proposal Creation with Arbitrary Executables:** Proposals can be created with customizable executable actions, allowing for a wide range of governance activities and decisions to be automated and enforced on-chain.&#x20;
 
 **No-Code Transfers:** Easy and secure fund transfers within the community without requiring any coding skills.&#x20;
 

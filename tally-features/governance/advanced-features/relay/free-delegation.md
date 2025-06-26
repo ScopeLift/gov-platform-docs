@@ -1,5 +1,6 @@
 ---
 description: Relay enables free delegation for eligible token holders.
+icon: gas-pump-slash
 ---
 
 # Gasless Delegation

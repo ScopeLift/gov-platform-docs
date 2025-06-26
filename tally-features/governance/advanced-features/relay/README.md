@@ -1,6 +1,6 @@
 ---
-icon: gas-pump
 description: Remove barriers to DAO governance participation with gasless transactions.
+icon: gas-pump-slash
 ---
 
 # Gasless Voting and Delegation (Relay)

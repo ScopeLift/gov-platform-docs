@@ -10,4 +10,4 @@ Running an effective on-chain DAO requires thoughtful design, secure implementat
 Explore the following resources:
 
 * [Running an Onchain DAO Using OpenZeppelin Governor](running-an-onchain-dao-using-openzeppelin-governor.md): A guide to launching and customizing secure, efficient DAOs using OpenZeppelin Governor.
-* [Seatbelt for Governance](seatbelt-for-governance.md): **Proposal Simulation for DAO Safety**: An overview of Seatbelt, an automated simulation layer that helps prevent costly onchain execution errors.
+* [Seatbelt for Governance](seatbelt-for-governance.md): **Proposal Simulation for DAO Safety**: An overview of Seatbelt, an automated simulation layer that helps prevent costly on-chain execution errors.

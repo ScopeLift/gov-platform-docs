@@ -1,5 +1,6 @@
 ---
 description: Gasless voting enables free voting for tokenholder on Tally
+icon: gas-pump-slash
 ---
 
 # Gasless Voting
