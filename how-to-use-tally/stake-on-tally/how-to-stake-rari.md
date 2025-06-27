@@ -9,7 +9,9 @@ icon: code-compare
 
 Staking for RARI is live on Tally. stRARI helps secure the RARI network and allows token holders to earn rewards by participating in governance. Follow the steps below to stake RARI directly from your wallet in just a few clicks.&#x20;
 
+###
 
+{% embed url="https://youtu.be/4Go1ZwI6MpQ" %}
 
 ### Bridge [$RARI](https://x.com/search?q=%24RARI\&src=cashtag_click) from Ethereum Mainnet to Arbitrum One
 
