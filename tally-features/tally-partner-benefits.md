@@ -1,4 +1,5 @@
 ---
+description: Tally offers exclusive discounts to ecosystem partners
 icon: handshake
 ---
 
@@ -24,4 +25,8 @@ icon: handshake
 * 10% off token launch and claim infrastructure products
 * 10% off protocol operations and governance products
 * 20% protocol value accrual products
+
+
+
+Ready to partner with Tally? [Contact our sales team](https://tally.xyz/contact)
 
