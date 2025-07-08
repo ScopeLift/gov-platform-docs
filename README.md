@@ -5,25 +5,11 @@ description: >-
 icon: file-lines
 cover: .gitbook/assets/Git banner (5).png
 coverY: 0
-layout:
-  cover:
-    visible: true
-    size: full
-  title:
-    visible: true
-  description:
-    visible: true
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: true
 ---
 
 # Tally Docs
 
-## Get Started
+
 
 _Learn how to navigate and use the Tally platform._
 
