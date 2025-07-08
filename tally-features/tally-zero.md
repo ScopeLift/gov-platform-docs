@@ -27,12 +27,6 @@ Tally Zero is designed to be a zero-dependency application. This means that it d
 
 The application is deployed on IPFS, a peer-to-peer hypermedia protocol designed to make the web faster, safer, and more open. This ensures that the application is accessible from anywhere in the world and is resistant to censorship.
 
-### How To
-
-{% embed url="https://www.loom.com/share/8c8fd97007274919845e6314e0a460af" %}
-How to use Tally Zero
-{% endembed %}
-
 ### Case Study
 
 In June 2023, AWS had a compute outage that affected Tally during a big vote in Aribtrum DAO. Voting through the outage was made possible by Tally Zero.
