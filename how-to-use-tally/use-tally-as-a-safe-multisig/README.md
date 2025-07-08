@@ -10,8 +10,6 @@ icon: shield-plus
 Safe wallet users can now sign in directly to Tally using WalletConnect. The flow detects Safe smart contract wallets and presents a unified authentication experience.\
 
 
-###
-
 {% embed url="https://youtu.be/GocnAc6pnHc" %}
 
 ### 1. Connect Safe wallet
