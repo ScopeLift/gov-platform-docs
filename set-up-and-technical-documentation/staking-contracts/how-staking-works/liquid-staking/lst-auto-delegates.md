@@ -18,6 +18,12 @@ Auto-delegates solve several critical problems:
 3. **Protecting Against Capture**: A well-designed auto-delegate strategy prevents governance capture when a large portion of tokens are inactive.
 4. **Reflecting Community Consensus**: Auto-delegates can be configured to vote according to established community values and preferences.
 
+### Auto-delegate tradeoffs
+
+Any version of a liquid staking token that tries to force users to update their delegate punitively, by withholding rewards, is likely to be beaten in the market by a version that doesn't do this. And that version is very likely to be less DAO aligned than this LST's strategy of moving voting weight to the AutoDelegate.
+
+In out view, the best option is to allow disengaged token holders to earn the same yield, but make sure their voting weight stayed active in a way that is under the DAO's contro&#x6C;_._ This approach is much better than trying to punish them, and allowing a more pathological set of incentives to play out. Ultimately, the AutoDelegate's is under the control of the active delegates and those that pick them.
+
 ### Available Auto-Delegate Options
 
 #### No Auto-Delegate (Burn Address)
