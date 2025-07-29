@@ -26,6 +26,7 @@
         * [Snapshot](tally-features/governance/advanced-features/advanced-voting/signal-voting/diff-checker.md)
       * [Private Voting](tally-features/governance/advanced-features/advanced-voting/private-voting.md)
     * [Partial Delegation](tally-features/governance/advanced-features/partial-delegation.md)
+    * [Delegate Reputation Score (DRS)](tally-features/governance/advanced-features/delegate-reputation-score-drs.md)
     * [Security Council Elections](tally-features/governance/advanced-features/security-council-elections/README.md)
       * [Arbitrum DAO Security Council Elections Guide](tally-features/governance/advanced-features/security-council-elections/arbitrum-dao-security-council-elections-guide.md)
     * [Chain Integration](tally-features/governance/advanced-features/chain-integration.md)
