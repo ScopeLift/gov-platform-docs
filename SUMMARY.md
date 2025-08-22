@@ -19,6 +19,7 @@
   * [Glossary](tally-features/staking/glossary.md)
 * [Governance](tally-features/governance/README.md)
   * [Advanced Features](tally-features/governance/advanced-features/README.md)
+    * [Optimistic Govern](tally-features/governance/advanced-features/optimistic-govern.md)
     * [MultiGov](tally-features/governance/advanced-features/multigov.md)
     * [Advanced Voting](tally-features/governance/advanced-features/advanced-voting/README.md)
       * [Flexible Voting Extension](tally-features/governance/advanced-features/advanced-voting/flexible-voting-extension.md)
