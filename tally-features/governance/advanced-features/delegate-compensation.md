@@ -1,3 +1,7 @@
+---
+icon: sack-dollar
+---
+
 # Delegate Compensation
 
 ### What is delegate compensation?  <a href="#id-7bd8cccb-6b50-4c44-a2f1-27975232711b" id="id-7bd8cccb-6b50-4c44-a2f1-27975232711b"></a>
