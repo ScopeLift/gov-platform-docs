@@ -6,13 +6,11 @@ icon: message-smile
 
 ### Introduction
 
-Liquid democracy, where each token represents one vote, is an ideal governance model in theory. However, in practice, many DAOs face challenges such as voter apathy, lack of technical knowledge, and an overwhelming volume of complex proposals. These barriers can significantly reduce the effectiveness and speed of decision-making.
+Liquid democracy, where each token represents one vote, is an ideal governance model in theory. But many DAOs face challenges such as voter apathy, lack of technical knowledge, and an overwhelming volume of complex proposals. These barriers can significantly reduce the effectiveness and speed of decision-making.
 
-### The case for optimistic governance
+### Why optimistic governance
 
 Optimistic governance offers a solution to these challenges by assuming that most proposals are approved, unless explicitly veto-ed by delegates otherwise. In this model, the decision-making process is streamlined, with a clear mechanism for delegates or community members to intervene if necessary. This is particularly useful for proposals related to maintenance upgrades, technical changes, or parameter adjustments, which may not require extensive community deliberation, but still need oversight and the ability to veto in the edge case that the proposed changes are malicious.
-
-
 
 ### Proposed process for optimistic governance
 
@@ -38,5 +36,28 @@ To implement optimistic governance, Tally proposes a structured process designed
    1. If the veto window closes without sufficient opposition, the proposal is executed as originally planned
    2. If the proposal is vetoed, it is canceled, and further revisions may be required before resubmission\
 
+
+### Implementation
+
+* **Scope limitation:** This process should typically only be reserved for maintenance-related or technical proposals that require timely decisions but do not necessitate lengthy discussions
+* **Council composition**: The council is composed of a diverse set of members, balancing technical expertise with community representation. This ensures both competent oversight and broad representation in decision-making
+* **Conflict of interest disclosures**: Council members are required to disclose any conflicts of interest that may affect their voting on proposals
+* **Transparency**: The entire process is transparent, with regular updates and community access to the proposal lifecycle through public channels
+
+### Modifications from standard OZ Governor setup
+
+* Both Governors could implement a "**Super Quorum**."&#x20;
+  * Once a majority votes in favor, the voting ends. The Governor can send the proposal or veto to the timelock immediately
+* The Optimistic Governor has the ‘PROPOSER\_ROLE’ role on the timelock
+* The Veto Governor has the ‘CANCELLER\_ROLE’ role on the Timelock. The veto Governor's voting period must be shorter than the timelock delay, so that it can cancel proposals in time
+* Tally's frontend will need to connect the Veto Governor to the Optimistic Governor
+
+### Next steps
+
+Optimistic governance provides an efficient way to manage routine and technical proposals, enabling a more agile decision-making process while ensuring that the DAO retains oversight and accountability.&#x20;
+
+This approach helps prevent decision-making gridlock while fostering community participation and informed decision-making. \
+\
+If you're interested in implementing Optimistic governance, reach out at [tally.xyz/contact.](https://tally.xyz/contact)
 
 \
