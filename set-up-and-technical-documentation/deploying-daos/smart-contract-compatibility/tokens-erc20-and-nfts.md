@@ -12,8 +12,6 @@ Specifically, Tally needs the following methods and event signatures for indexin
 
 ### Event signatures
 
-
-
 Tally's API listens to event logs from token contracts when indexing them. Your token contract will need to maintain the same event signatures:
 
 ```
@@ -53,13 +51,11 @@ event Transfer(
 );
 ```
 
-
-
 ### Function signatures
 
-Your token contract also needs to implement voting and delegation functions. If you are using an ERC20 token, you can use the [`ERC20Votes`](https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/token/ERC20/extensions/ERC20Votes.sol) or the [`ERC20VotesComp`](https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/token/ERC20/extensions/ERC20VotesComp.sol) extensions from the OpenZeppelin token contracts library.
+Your token contract also needs to implement voting and delegation functions. If you are using an ERC20 token, you can use the [`ERC20Votes`](https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/token/ERC20/extensions/ERC20Votes.sol) extension from OpenZeppelin contracts library.
 
-If you're using an ERC71 token, you can use OpenZeppelin's draft [`ERC721Votes`](https://github.com/OpenZeppelin/openzeppelin-contracts/tree/master/contracts/token/ERC721/extensions) extension.
+If you're using an ERC71 token, you can use OpenZeppelin's [`ERC721Votes`](https://github.com/OpenZeppelin/openzeppelin-contracts/tree/master/contracts/token/ERC721/extensions) extension.
 
 The Tally frontend helps users make these function calls to delegate their votes:
 

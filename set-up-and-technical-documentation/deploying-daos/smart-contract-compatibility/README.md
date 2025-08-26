@@ -1,6 +1,6 @@
 ---
-icon: check
 description: How to make your Token and Governor contract compatible with Tally
+icon: check
 ---
 
 # Check for Token Contract Compatibility
@@ -9,9 +9,13 @@ Tally supports DAOs on Ethereum, Polygon, Optimism, Arbitrum, Avalanche, Base, M
 
 Tally connects with the on-chain contracts for your DAO in two places. Tally’s servers index the onchain data, and Tally’s web3 site helps users make calls directly to the contracts running on the blockchain.
 
-Here, we describe the interface that your contracts need to follow to be compatible with Tally. The easiest way to be compatible is to fork [Open Zeppelin Governor](https://wizard.openzeppelin.com/) without changing anything.&#x20;
+Here, we describe the interface that your contracts need to follow to be compatible with Tally. The easiest way to be compatible is to use the [Open Zeppelin Wizard](https://wizard.openzeppelin.com/) to deploy a governance token and governor&#x20;
 
-If you do need to change something, check the dependencies here in the docs to make sure that your changes are compatible with Tally’s data indexing and web3 calls.
+If you do need to change something, check that your contracts implement the methods and event logs in the sections below to make sure that your changes are compatible with Tally’s data indexing and transaction calls.
+
+{% content-ref url="tokens-erc20-and-nfts.md" %}
+[tokens-erc20-and-nfts.md](tokens-erc20-and-nfts.md)
+{% endcontent-ref %}
 
 {% content-ref url="openzeppelin-governor.md" %}
 [openzeppelin-governor.md](openzeppelin-governor.md)
@@ -21,8 +25,8 @@ If you do need to change something, check the dependencies here in the docs to m
 [compound-governor-bravo.md](compound-governor-bravo.md)
 {% endcontent-ref %}
 
-{% content-ref url="tokens-erc20-and-nfts.md" %}
-[tokens-erc20-and-nfts.md](tokens-erc20-and-nfts.md)
+{% content-ref url="network-support.md" %}
+[network-support.md](network-support.md)
 {% endcontent-ref %}
 
 {% content-ref url="supported-use-cases-faq.md" %}

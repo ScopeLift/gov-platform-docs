@@ -4,7 +4,7 @@ description: Compatibility considerations when implementing OpenZeppelin governo
 
 # OpenZeppelin Governor
 
-To be compatible with the Tally app we recommend you to use OpenZeppelin's library [Governor contract](https://docs.openzeppelin.com/contracts/4.x/api/governance). If you want to implement changes to this base contract, here is the interface that you should follow to make sure your contract works with our app.
+To be compatible with the Tally app we recommend you to use OpenZeppelin's library [Governor contract](https://docs.openzeppelin.com/contracts/5.x/api/governance). If you want to implement changes to this base contract, here is the interface that you should follow to make sure your contract works with our app.
 
 ### Event signatures
 
