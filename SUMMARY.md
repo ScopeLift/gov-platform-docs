@@ -8,6 +8,7 @@
   * [Governor Framework](tally-features/tally/governor-framework.md)
   * [Onchain Governance](tally-features/tally/onchain-governance/README.md)
     * [The On-chain Thesis](tally-features/tally/onchain-governance/the-onchain-thesis.md)
+* [Compliance tooling](tally-features/compliance-tooling.md)
 * [Token Launch](tally-features/launch/README.md)
   * [Claim](tally-features/launch/claim.md)
   * [Governance Smart Contracts](tally-features/launch/governance-smart-contracts.md)
