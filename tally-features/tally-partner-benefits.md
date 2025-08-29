@@ -9,6 +9,7 @@ icon: handshake
 
 #### Tally’s best-in-class token infrastructure drives growth for your chain, protocol, or ecosystem. Tally provides the following value to teams in your ecosystem:
 
+* [Compliance tooling](compliance-tooling.md)
 * [Battle tested token claim UI and infrastructure](launch/claim.md)
 * [End-to-end governance application](governance/)
 * [Value accrual](staking/) infrastructure including:
