@@ -29,11 +29,12 @@ Tally is currently compatible with the following chains:
 * RARI Chain
 * Rootstock Mainnet
 * Scroll
+* Soneium
+* Swellchain
 * Vana Mainnet
 * Viction
 * Zircuit
-* ZKsync Era\
-  \
+* ZKsync Era
 
 If you would like to integrate your chain with Tally email us at [hello@tally.xyz](mailto:hello@tally.xyz).
 
@@ -53,6 +54,3 @@ The following chains are deprecated and will no longer be supported in future re
 * PulseChain
 * ShimmerEVM Mainnet
 * X Layer
-
-
-
