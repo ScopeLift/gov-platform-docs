@@ -163,6 +163,12 @@ Tally currently supports these EVM-compatible networks:
 * Corn Maizenet
 * Corn Testnet
 
+**Swell Network**
+
+* Swellchain Mainnet
+
+
+
 ***
 
 ### Adding chains to Tally
