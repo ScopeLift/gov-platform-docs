@@ -19,7 +19,7 @@ Advanced features are available for organizations looking for more complex gover
 * [Security Council Elections ](advanced-features/security-council-elections/)
 * [Chain Integration ](advanced-features/chain-integration.md)
 * [Proposal Templates ](advanced-features/proposal-templates.md)
-* [Optimistic Governance](advanced-features/optimistic-governance-1.md)&#x20;
+* [Optimistic Governance](advanced-features/optimistic-governance.md)&#x20;
 * [Gasless Voting and Delegation](advanced-features/relay/)
 
 If you are interested in Tally's advanced features, contact our sales team [here](https://www.tally.xyz/contact).\
