@@ -17,7 +17,7 @@ icon: rectangle-pro
 * [Security Council Elections](security-council-elections/): Run structured, secure elections for multisig or council roles.
 * [Chain Integration](chain-integration.md): Deploy and govern on multiple chains with ease.
 * [Proposal Templates](proposal-templates.md): Save time and reduce errors with reusable proposal formats.
-* [Optimistic Governance](optimistic-governance.md): Enable low-friction decision-making with challenge windows.
+* [Optimistic Governance](optimistic-governance-1.md): Enable low-friction decision-making with challenge windows.
 * [Gasless Voting and Delegation (Relay)](relay/): Remove gas costs for voters and delegates.
   * [Gasless Voting](relay/gasless-voting.md)
   * [Gasless Delegation](relay/free-delegation.md)
