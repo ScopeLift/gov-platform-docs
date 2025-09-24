@@ -63,11 +63,11 @@ There are currently three kinds of reward notifiers:
 * [TransferRewardNotifier](https://github.com/withtally/staker/blob/main/src/notifiers/TransferRewardNotifier.sol) - holds a balance of reward tokens in the notifier. Distributes them over time.
 * [MintRewardNotifier](https://github.com/withtally/staker/blob/main/src/notifiers/MintRewardNotifier.sol) - mints new reward tokens directly from the token contract
 
-#### Operating a RewardNotifier
+#### Operating a Reward Notifier
 
 In most cases, someone must periodically call the public [`notify()`](https://github.com/withtally/staker/blob/96588fce40554fe7003abada430dcbf3d1f870ba/src/notifiers/RewardTokenNotifierBase.sol#L97)  method on a reward notify to get it to push rewards into the staking system. The period depends on the `rewardInterval` , which is set when the notifier is deployed.
 
-#### Adding a new RewardNotifier
+#### Adding a new Reward Notifier
 
 To add a new reward source:
 
