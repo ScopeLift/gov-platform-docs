@@ -75,4 +75,4 @@ To add a new reward source:
 2. Give the notifier tokens with approve, a balance or mint permission as needed.
 3. Have the staker's admin call `setRewardNotifier(address _rewardNotifier, bool true)`
 
-Once the notifier is hooked up, calls `notify()` to push its rewards into the staking system.
+Once the notifier is hooked up, call `notify()` on it to push its rewards into the staking system.
