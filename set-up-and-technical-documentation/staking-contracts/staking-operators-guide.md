@@ -65,7 +65,9 @@ There are currently three kinds of reward notifiers:
 
 #### Operating a Reward Notifier
 
-In most cases, someone must periodically call the public [`notify()`](https://github.com/withtally/staker/blob/96588fce40554fe7003abada430dcbf3d1f870ba/src/notifiers/RewardTokenNotifierBase.sol#L97)  method on a reward notify to get it to push rewards into the staking system. The period depends on the `rewardInterval` , which is set when the notifier is deployed.
+In most cases, someone must periodically call the public [`notify()`](https://github.com/withtally/staker/blob/96588fce40554fe7003abada430dcbf3d1f870ba/src/notifiers/RewardTokenNotifierBase.sol#L97)  method on a reward notify for it to push rewards into the staking system.&#x20;
+
+The `rewardInterval` is set when the notifier is deployed. We'd recommend an interval like 30 days.
 
 #### Adding a new Reward Notifier
 
