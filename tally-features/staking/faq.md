@@ -13,7 +13,7 @@ Staking is the crypto-native way to align a protocol with its token. It lets pro
 
 Yes. The [native staking](https://github.com/withtally/staker) and [LST](https://github.com/withtally/stgov) contracts are code-complete, audited and open source. Tally's app includes a frontend for staking.&#x20;
 
-See, for example, [Obol staking](https://www.tally.xyz/gov/obol/stake).
+See [OBOL](../../how-to-use-tally/stake-on-tally/how-to-stake-obol.md) & [RARI Staking](../../how-to-use-tally/stake-on-tally/how-to-stake-obol.md).&#x20;
 
 #### Are the staking contracts audited?&#x20;
 
