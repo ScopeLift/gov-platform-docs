@@ -33,3 +33,19 @@ Staking for OBOL is live on Tally. stOBOL helps secure the OBOL network and allo
 ### Support
 
 If you need assistance with staking, submit a request to support@tally.xyz.
+
+### wstOBOL Support
+
+Tally now provides comprehensive support for wstOBOL (wrapped stOBOL), enabling OBOL governance participants to seamlessly manage their tokens across DeFi protocols while maintaining visibility of their total governance power.
+
+As OBOL expands into Pendle, token holders need tools to:
+
+* Track balances across all OBOL token variants (OBOL, stOBOL, wstOBOL)
+* Easily convert between token types in one canonical place
+* Understand their total voting power regardless of token distribution
+* Make informed decisions about governance vs. DeFi participation
+
+For detailed information about wstOBOL and how it works, see Obol's [wstOBOL documentation](https://docs.obol.org/community-and-governance/obol-token/wstobol#what-is-wstobol).&#x20;
+
+
+
