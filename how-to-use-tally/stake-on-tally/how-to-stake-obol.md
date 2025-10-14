@@ -45,6 +45,8 @@ As OBOL expands into Pendle, token holders need tools to:
 * Understand their total voting power regardless of token distribution
 * Make informed decisions about governance vs. DeFi participation
 
+Access NatSpec documentation of all the functions in the contract source code & more on [GitHub](https://github.com/withtally/stGOV/blob/main/src/WrappedGovLst.sol).
+
 For detailed information about wstOBOL and how it works, see Obol's [wstOBOL documentation](https://docs.obol.org/community-and-governance/obol-token/wstobol#what-is-wstobol).&#x20;
 
 
