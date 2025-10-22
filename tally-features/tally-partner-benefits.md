@@ -3,14 +3,14 @@ description: Tally offers exclusive discounts to ecosystem partners
 icon: handshake
 ---
 
-# Tally Partner Benefits
+# Tally partner benefits
 
 ### Why Partner with Tally
 
 #### Tally’s best-in-class token infrastructure drives growth for your chain, protocol, or ecosystem. Tally provides the following value to teams in your ecosystem:
 
 * [Compliance tooling](compliance-tooling.md)
-* [Battle tested token claim UI and infrastructure](launch/claim.md)
+* [Battle tested token claim UI and infrastructure](broken-reference)
 * [End-to-end governance application](governance/)
 * [Value accrual](staking/) infrastructure including:
   * Staking contracts

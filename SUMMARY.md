@@ -10,7 +10,6 @@
     * [The On-chain Thesis](tally-features/tally/onchain-governance/the-onchain-thesis.md)
 * [Compliance tooling](tally-features/compliance-tooling.md)
 * [Token launch](tally-features/launch/README.md)
-  * [Claim](tally-features/launch/claim.md)
   * [Governance smart contracts](tally-features/launch/governance-smart-contracts.md)
   * [Token wrapper](tally-features/launch/token-wrapper.md)
   * [Delegate registration & claim-and-delegate](tally-features/launch/delegate-registration-and-claim-and-delegate.md)
