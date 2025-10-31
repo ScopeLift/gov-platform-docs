@@ -13,7 +13,7 @@ Tally's token launch platform reduces time to launch with production-ready, end-
 * [**Airdrops**](https://docs.tally.xyz/tally-features/launch#airdrop): Distribute tokens to millions of recipients with gas-optimized claim processing
 * [**Custom eligibility criteria**](https://docs.tally.xyz/tally-features/launch#eligibility-criteria): Define claim requirements based on on-chain activity, snapshot data, or allowlists—create targeted distributions that reward your community
 * [**Branded claim experiences**](https://docs.tally.xyz/tally-features/launch#custom-interfaces): Ship custom-designed claim pages with your branding and domain that provide clarity and consistency across all token operations
-* [**Vesting integration**](https://docs.tally.xyz/tally-features/launch#vesting-and-compliance)**s**: Implement lockup periods and vesting schedules that integrate seamlessly with on-chain providers and custodians
+* [**Vesting integration**](https://docs.tally.xyz/tally-features/launch#vesting-and-compliance): Implement lockup periods and vesting schedules that integrate seamlessly with on-chain providers and custodians
 * [**Multichain support**](https://docs.tally.xyz/tally-features/launch#multichain-support): Launch tokens simultaneously across multiple EVM chains with unified supply management. Recipients claim on their preferred network without wrapped assets or bridging
 
 ## Get started
