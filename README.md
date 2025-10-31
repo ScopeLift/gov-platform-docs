@@ -9,7 +9,7 @@ coverY: 0
 
 # Get started
 
-Tally powers token launch, governance, operations, and utility for 500+ protocols including Arbitrum, Uniswap, ZKsync, and Wormhole. Tally customers ship faster and more efficiently by eliminating the need to coordinate across multiple vendors and freeing up internal resources to focus on growth.
+Tally powers token sales, distribution, and utility for 500+ protocols including Arbitrum, Uniswap, ZKsync, and Wormhole. Tally customers ship faster and more efficiently by eliminating the need to coordinate across multiple vendors and freeing up internal resources to focus on growth.
 
 ## With Tally, you can:&#x20;
 
