@@ -2,7 +2,7 @@
 icon: sack-dollar
 ---
 
-# Delegate Compensation
+# Delegate compensation
 
 ### What is delegate compensation?  <a href="#id-7bd8cccb-6b50-4c44-a2f1-27975232711b" id="id-7bd8cccb-6b50-4c44-a2f1-27975232711b"></a>
 
@@ -24,7 +24,7 @@ The Obol delegate compensation mechanism distributes 165,000 OBOL tokens over 6 
 1. **Check Eligibility**
    * Ensure your [DRS ](delegate-reputation-score-drs.md)is ≥65% (visible on the delegate profile)
 2. **View Accrued Compensation**
-   * Check unclaimed rewards on the [profile ](../../../how-to-use-tally/set-up-a-tally-profile.md)page
+   * Check unclaimed rewards on the [profile ](../../how-to-use-tally/set-up-a-tally-profile.md)page
    * Compensation accrues continuously while eligibility is maintained
 3. **Claim OBOL**
    * Click the claim button
@@ -69,3 +69,5 @@ The delegate compensation system is implemented as a Staker contract with custom
 * Uses `ObolBinaryVotingWeightEarningPowerCalculator.sol`
 * Integrates with DRS oracle for eligibility verification
 * Maintains same security model as main Staker system
+
+Ready to launch delegate compensation? [Talk to our team to get started](http://tally.xyz/contact).

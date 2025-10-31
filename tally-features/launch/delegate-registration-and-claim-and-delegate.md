@@ -1,8 +1,9 @@
 ---
+hidden: true
 icon: users-between-lines
 ---
 
-# Delegate Registration & Claim-and-Delegate
+# Delegate registration & claim-and-delegate
 
 ## Delegate Registration ([Demo](https://drive.google.com/file/d/1ryLl_-H9gNOZPCsz6Umdp330IIiVJFke/view))&#x20;
 

@@ -93,3 +93,4 @@ icon: book
 **OnBehalf**: Methods that allow actions to be performed on behalf of users via signatures.
 
 \
+Ready to launch incentives and staking? [Talk to our team to get started](http://tally.xyz/contact).

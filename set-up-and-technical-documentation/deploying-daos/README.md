@@ -1,9 +1,9 @@
 ---
+description: How to configure and deploy a Governor
 icon: person-circle-plus
-description: How to configure and deploy Governor DAOs
 ---
 
-# Deploy a Governor DAO
+# Deploy a Governor
 
 {% content-ref url="deploy-a-dao-with-token-voting/" %}
 [deploy-a-dao-with-token-voting](deploy-a-dao-with-token-voting/)

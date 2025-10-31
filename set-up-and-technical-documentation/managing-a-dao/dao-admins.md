@@ -1,8 +1,9 @@
 ---
 description: Manage your DAO.
+icon: people-arrows
 ---
 
-# DAO Admins
+# Organization admins
 
 > _The user who adds a DAO to Tally will automatically be granted Admin privileges. If you have an older Governor DAO, it may not have an Admin — reach out to us to start the process of adding one!_
 

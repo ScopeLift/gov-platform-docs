@@ -1,8 +1,9 @@
 ---
-description: Keep your DAO's details on Tally up-to-date.
+description: Keep your organization's details on Tally up-to-date.
+icon: gears
 ---
 
-# DAO Settings
+# Organization settings
 
 > _If you have the_ [_Admin or Superadmin_](dao-admins.md) _role for your DAO, you can update the settings of your_ [dao-page.md](../../tally-features/navigating-the-tally-platform/dao-page.md "mention") _on Tally._
 

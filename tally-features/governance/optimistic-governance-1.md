@@ -1,8 +1,9 @@
 ---
+hidden: true
 icon: face-smile-beam
 ---
 
-# Optimistic Governance
+# Optimistic governance
 
 
 

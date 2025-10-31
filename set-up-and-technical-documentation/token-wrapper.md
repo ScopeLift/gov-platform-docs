@@ -1,8 +1,9 @@
 ---
+hidden: true
 icon: gift
 ---
 
-# Token Wrapper
+# Token wrapper
 
 A Governor contract expects a particular interface from its token contract. An OpenZeppelin Governor requires a token contract that implements the ERC20Votes interface or the ERC721Votes interface.
 

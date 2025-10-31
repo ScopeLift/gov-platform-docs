@@ -1,7 +1,5 @@
 ---
-description: >-
-  Tally powers institutional grade tokens. Launch, manage, and grow the value of
-  your token with Tally’s software stack ⬎
+description: Institutional-grade tokens
 icon: file-lines
 cover:
   light: .gitbook/assets/X Bannerlightpng.png
@@ -9,15 +7,18 @@ cover:
 coverY: 0
 ---
 
-# Tally Docs
+# Get started
 
+Tally powers token launch, governance, operations, and utility for 500+ protocols including Arbitrum, Uniswap, ZKsync, and Wormhole. Tally customers ship faster and more efficiently by eliminating the need to coordinate across multiple vendors and freeing up internal resources to focus on growth.
 
+## With Tally, you can:&#x20;
 
-_Learn how to navigate and use the Tally platform._
+* Launch and scale tokens with confidence
+* Govern protocols effectively
+* Streamline token operations from launch to maturity
+* Design & deploy incentives to bootstrap protocol usage and accrue token value
 
-{% content-ref url="tally-features/tally/" %}
-[tally](tally-features/tally/)
-{% endcontent-ref %}
+### Tally features
 
 {% content-ref url="tally-features/staking/" %}
 [staking](tally-features/staking/)
@@ -31,38 +32,4 @@ _Learn how to navigate and use the Tally platform._
 [governance](tally-features/governance/)
 {% endcontent-ref %}
 
-{% content-ref url="set-up-and-technical-documentation/managing-a-dao/" %}
-[managing-a-dao](set-up-and-technical-documentation/managing-a-dao/)
-{% endcontent-ref %}
-
-{% content-ref url="how-to-use-tally/proposals/creating-proposals/" %}
-[creating-proposals](how-to-use-tally/proposals/creating-proposals/)
-{% endcontent-ref %}
-
-{% content-ref url="how-to-use-tally/delegate-on-tally/" %}
-[delegate-on-tally](how-to-use-tally/delegate-on-tally/)
-{% endcontent-ref %}
-
-{% content-ref url="how-to-use-tally/proposals/voting-on-proposals/" %}
-[voting-on-proposals](how-to-use-tally/proposals/voting-on-proposals/)
-{% endcontent-ref %}
-
-## Technical Documentation
-
-_Learn about deploying a Governor contract and how to customize it for compatibility with the Tally interface._
-
-{% content-ref url="set-up-and-technical-documentation/deploying-daos/" %}
-[deploying-daos](set-up-and-technical-documentation/deploying-daos/)
-{% endcontent-ref %}
-
-{% content-ref url="how-to-use-tally/use-tally-as-a-safe-multisig/" %}
-[use-tally-as-a-safe-multisig](how-to-use-tally/use-tally-as-a-safe-multisig/)
-{% endcontent-ref %}
-
-{% content-ref url="set-up-and-technical-documentation/deploying-daos/smart-contract-compatibility/" %}
-[smart-contract-compatibility](set-up-and-technical-documentation/deploying-daos/smart-contract-compatibility/)
-{% endcontent-ref %}
-
-{% content-ref url="set-up-and-technical-documentation/governor-proposals/" %}
-[governor-proposals](set-up-and-technical-documentation/governor-proposals/)
-{% endcontent-ref %}
+Ready to launch your token? [Talk to our team to get started](http://tally.xyz/contact).

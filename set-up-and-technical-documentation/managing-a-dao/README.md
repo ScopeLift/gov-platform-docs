@@ -1,9 +1,9 @@
 ---
+description: Add a new or existing organization to Tally's interface.
 icon: folder-plus
-description: Add a new or existing DAO to Tally's interface.
 ---
 
-# Add a DAO to Tally
+# Add an organization to Tally
 
 _Ready to add your DAO's governance to Tally? All you need is a deployed_ [_Governor contract_](../../tally-features/tally/governor-framework.md) _and a few minutes to get started._
 

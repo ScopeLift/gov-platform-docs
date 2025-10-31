@@ -80,4 +80,4 @@ In addition to weightings, there are also other important aspects to consider in
 
 Tally can surface delegate scores directly on your DAO’s delegate page, and if the scores are onchain, these scores can directly be streamed into reward‑distribution contracts. Whether you’re launching your first incentive pilot or scaling an existing scheme, our team can help.
 
-Contact us at [tally.xyz/contact](https://tally.xyz/contact) to explore delegate scoring, payout automation, and customised analytics.
+Interested in integrating DRS? [Talk to our team to get started](http://tally.xyz/contact).

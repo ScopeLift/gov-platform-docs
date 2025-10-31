@@ -1,6 +1,7 @@
 ---
-icon: robot
 description: Cross-post proposals to Discourse with Tally's forum bot.
+hidden: true
+icon: robot
 ---
 
 # Discourse

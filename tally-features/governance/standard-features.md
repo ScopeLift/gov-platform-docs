@@ -1,9 +1,10 @@
 ---
 description: Standard features are free to use on Tally.
+hidden: true
 icon: cube
 ---
 
-# Standard Features
+# Standard features
 
 ## **Voting**
 

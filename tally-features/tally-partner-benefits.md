@@ -5,29 +5,26 @@ icon: handshake
 
 # Tally partner benefits
 
-### Why Partner with Tally
+### Why partner with Tally
 
-#### Tally’s best-in-class token infrastructure drives growth for your chain, protocol, or ecosystem. Tally provides the following value to teams in your ecosystem:
+Tally drives growth for your chain, protocol, or ecosystem. We provide the following value to teams in your ecosystem:
 
-* [Compliance tooling](compliance-tooling.md)
-* [Battle tested token claim UI and infrastructure](broken-reference)
+* [Token launch services](launch/)
 * [End-to-end governance application](governance/)
-* [Value accrual](staking/) infrastructure including:
+* [Incentive and staking](staking/) infrastructure including:
   * Staking contracts
   * Revenue collection and distribution
   * Staking application layer
   * Liquid staking tokens (LSTs)
-* [Launch and protocol operations advisory services](token-launch.md)
+* Launch and protocol operations advisory services
 
 ### Partner Discounts
 
-#### For ecosystem partners, Tally offers priority support for development resources:
-
-* 10% off token launch and claim infrastructure products
-* 10% off protocol operations and governance products
-* 20% protocol value accrual products
+* 10% off [token launch](launch/) and claim infrastructure products
+* 10% off protocol operations and [governance](governance/) products
+* 20% protocol [incentive and staking](staking/) products
 
 
 
-Ready to partner with Tally? [Contact our sales team](https://tally.xyz/contact)
+Ready to partner with Tally? [Talk to our team to get started](http://tally.xyz/contact).
 

@@ -2,7 +2,7 @@
 icon: message-smile
 ---
 
-# Optimistic Governance
+# Optimistic governance
 
 ### Introduction
 
@@ -58,6 +58,6 @@ Optimistic governance provides an efficient way to manage routine and technical 
 
 This approach helps prevent decision-making gridlock while fostering community participation and informed decision-making. \
 \
-If you're interested in implementing Optimistic governance, reach out at [tally.xyz/contact.](https://tally.xyz/contact)
+If you're interested in implementing Optimistic governance,?  [Talk to our team to get started](http://tally.xyz/contact).
 
 \

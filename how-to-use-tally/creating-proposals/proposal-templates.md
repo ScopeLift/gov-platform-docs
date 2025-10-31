@@ -1,8 +1,4 @@
----
-icon: scroll
----
-
-# Proposal Templates
+# Proposal templates
 
 Users can easily draft proposals using proposal templates that are set up by their DAO. Instead of manually locating, copying, and pasting a contract address for a custom action, users can conveniently create a proposal using their DAO’s custom contract address book. Additionally, proposals created using proposal templates are also more easily identifiable on the proposal page since they have human readable names.
 

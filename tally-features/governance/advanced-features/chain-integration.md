@@ -1,8 +1,9 @@
 ---
+hidden: true
 icon: plus
 ---
 
-# Chain Integration
+# Chain integration
 
 #### To support protocols on a new network, Tally needs to integrate that network into its system. This integration enables all organizations on the new network to utilize our platform's features and services.  The integration process typically takes 5-10 business days to complete.&#x20;
 

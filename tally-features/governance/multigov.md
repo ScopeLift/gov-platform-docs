@@ -1,6 +1,6 @@
 ---
-icon: link
 description: Governing protocols on multiple chains
+icon: link
 ---
 
 # MultiGov
@@ -48,6 +48,6 @@ The Wormhole DAO, powered by $W token holders, will be the first to use this pio
 
 
 
-If you’re interested in implementing MultiGov for your protocol, reach out to our sales team at [sales@tally.xyz.](mailto:sales@tally.xyz)
+Interested in implementing MultiGov for your protocol?  [Talk to our team to get started](http://tally.xyz/contact).
 
 \

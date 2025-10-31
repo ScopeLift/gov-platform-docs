@@ -1,14 +1,96 @@
 ---
-description: >-
-  Tally's value accrual product offers several key features that help protocols
-  create sustainable tokenomics. Each feature addresses specific protocol needs
-  and can be customized to fit your goals.
+description: Key features of Tally's incentive and staking solutions
 icon: arrow-down-up-across-line
 ---
 
-# Features & Use Cases
+# Features & use cases
 
-### Returning Fees
+## Why incentives and staking?
+
+Protocols need sustainable token economics and aligned holders to succeed.
+
+Value accrual offers several key benefits:
+
+* **Stakeholder alignment**: Align tokenholders with protocol success
+* **Sustainable tokenomics**: Establish a foundation for ongoing value creation
+* **Enhanced retention**: Encourage long-term participation in the ecosystem
+* **Protocol resilience**: Secure the protocol with economic assets
+
+Protocols must move beyond initial hype cycles. Value accrual mechanisms help by distributing value directly to participants who secure and govern the network.
+
+## **Delegate compensation**
+
+Reward active governance participants for their time, expertise, and contributions. Compensation mechanisms encourage thoughtful participation while reducing voting power concentration among large holders. Systems include requirements to ensure only engaged and accountable delegates are rewarded, such as maintaining minimum [reputation scores](../governance/delegate-reputation-score-drs.md) or meeting participation thresholds.
+
+[See how Obol uses delegate compensation to reward token holders.](../governance/delegate-compensation.md)
+
+## Staking for value accrual
+
+Tally's value accrual product is a complete staking solution for protocols.&#x20;
+
+Staking on Tally distributes protocol revenue or native issuance to tokenholders. It's the foundation for open, trust-minimized systems.
+
+Optionally, the rewards can be incentives for particular actions. Rewards can depend on particular behavior, like validating the network, long-term holding or governance activity.
+
+Tally staking offers:
+
+1. **Flexible staking infrastructure**: Implement staking for your protocol’s specific needs.
+2. [**Multiple reward sources**](https://docs.tally.xyz/tally-features/staking/staking-customizations#returning-fees): Distribute rewards from protocol revenue, treasury assets, token emissions, or all of the above!
+3. [**Governance integration**](https://docs.tally.xyz/tally-features/staking/staking-customizations#governance-integration): Staking is compatible with governance, so that holders don’t have to choose between rewards and governance. Optionally, rewards can be conditional on active participation in governance.
+4. [**Validator support**](https://docs.tally.xyz/tally-features/staking/staking-customizations#network-protocol-validation): Pay stakers and operators to validate protocol security.
+5. [**Engagement mechanics**](https://docs.tally.xyz/tally-features/staking/staking-customizations#stake-streaks): Increase rewards for long-term alignment with stake streaks.\
+
+
+Tally's solution works for protocols at any stage. It supports new token launches and established projects. This guide covers both strategic direction and technical details.&#x20;
+
+Launch a new token with built-in utility, or enhance your existing tokenomics. Either way, Tally's product provides the foundation for sustainable economic alignment. Get in touch with our implementation and sales team to learn more: [tally.xyz/contact](https://www.tally.xyz/contact).
+
+### How it works
+
+```mermaid
+flowchart LR
+  %% Tally Brand Colors
+  %% Teal: #008080, Nyanza: #D6F6D6, Purple: #725BFF, Off-Black: #1D1D1D
+
+  %% Sources
+  A[<b>Protocol Revenue</b><br/>e.g. in ETH]:::tallyTeal --> Staking_System
+  B[<b>Token Issuance</b><br/> in native token]:::tallyTeal --> Staking_System
+  H[<b>Any other source</b><br/>in any ERC20]:::tallyTeal --> Staking_System
+
+  %% Staking System
+  subgraph Staking_System[<b>Staking Contracts</b>]
+    direction LR
+    C[<b>Liquid Staking Token</b><br/>Wraps native staking. Accrues only native token by selling off ETH]:::tallyNyanza
+    D[<b>Native Staking</b><br/>Earns ETH and native token]:::tallyNyanza
+    G[<b>Eligibility Module</b><br/>Optional reward criteria]:::tallyNyanza
+  end
+
+  Staking_System:::transparent --> E
+  E["<b>Staking Interface</b><br/>tally.xyz"]:::tallyPurple --> F["<b>Tokenholder</b><br/>earns rewards"]:::tallyBlack
+
+  %% Tally Brand Styles
+  classDef tallyTeal fill:#008080,color:#fff,stroke:#008080,stroke-width:2px;
+  classDef tallyNyanza fill:#D6F6D6,color:#1D1D1D,stroke:#008080,stroke-width:2px;
+  classDef tallyPurple fill:#725BFF,color:#fff,stroke:#725BFF,stroke-width:2px;
+  classDef tallyBlack fill:#1D1D1D,color:#fff,stroke:#1D1D1D,stroke-width:2px;
+  classDef transparent fill:none,stroke:#008080,stroke-width:2px;
+```
+
+**1. Staking contracts distribute rewards over time**
+
+Rewards can come from anywhere. The most common sources are 1) protocol revenue and 2) issuance of the protocol's native token. The rewards can be in any ERC20 token or even in more than one token.
+
+Tally's staking contracts distribute rewards among eligible staking users over time.&#x20;
+
+**2. Tokenholders stake protocol tokens for a share of the rewards**
+
+Tokenholders stake the staking token: the protocol's native token. Then, they earn a share of the rewards proportional to their share of all staked tokens over time. They can stake, claim rewards, and unstake at any time.
+
+Staking supports governance. If the staking token is also a governance token, holders can use their staked tokens in governance. That way, tokenholders don't have to choose between governance and receiving rewards.
+
+Optionally, the staking system can have eligibility criteria stipulate particular actions from tokenholders to get rewards. For example, it could require that staked tokens be active in governance to earn rewards. There's a large design space for incentivizing token-aligned services.
+
+### Returning fees
 
 Tally's staking system allows protocols to return protocol fees to token stakers. This creates direct economic alignment between protocol usage and token holder rewards.
 
@@ -33,7 +115,7 @@ Customer example: Obol implemented staking with governance integration, ensuring
 
 Other protocols like Rarible and Arbitrum are exploring making staking rewards conditional on delegating to an active delegate, further incentivizing governance participation.
 
-### Network/Protocol Validation
+### Network/protocol validation
 
 Tally's staking system is compatible with staking and restaking protocols that provide validated services.
 
@@ -43,7 +125,7 @@ Tally's staking system is compatible with staking and restaking protocols that p
 * Compatible with protocols like EigenLayer and Symbiotic
 * Aligns token holder incentives with network security
 
-### Insurance Fund
+### Insurance fund
 
 Staked tokens can serve as insurance against reorgs or losses
 
@@ -52,7 +134,7 @@ Staked tokens can serve as insurance against reorgs or losses
 * Native tokens are staked in a pool and accrue rewards
 * If something goes wrong, like a reorg or shortfall crash, staked tokens are slashed to cover the losses
 
-### Stake Streaks
+### Stake streaks
 
 Stake streaks reward long-term holders, creating incentives for extended token holding periods and reducing market volatility.
 
@@ -61,3 +143,5 @@ How it works:
 * Stakers' earning power increases over time
 * Rewards scale based on continuous staking duration
 * Encourages long-term protocol alignment, and reduces token velocity
+
+Ready to launch incentives and staking? [Talk to our team to get started](http://tally.xyz/contact).
