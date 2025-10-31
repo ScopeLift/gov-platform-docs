@@ -86,12 +86,12 @@
 * [Stake on Tally](how-to-use-tally/stake-on-tally/README.md)
   * [How to Stake OBOL](how-to-use-tally/stake-on-tally/how-to-stake-obol.md)
   * [How to Stake RARI](how-to-use-tally/stake-on-tally/how-to-stake-rari.md)
+* [Participate in Security Council Elections](how-to-use-tally/participate-in-security-council-elections.md)
 * [Use Tally as a Safe multisig](how-to-use-tally/use-tally-as-a-safe-multisig/README.md)
   * [Vote with a Gnosis Safe](how-to-use-tally/use-tally-as-a-safe-multisig/vote-with-a-gnosis-safe.md)
   * [Zodiac Governor Module for SubDAOs and Grants Programs](how-to-use-tally/use-tally-as-a-safe-multisig/zodiac-governor-module-for-subdaos-and-grants-programs.md)
   * [Upgrade Gnosis Safe to Governor with Zodiac](how-to-use-tally/use-tally-as-a-safe-multisig/upgrade-gnosis-safe-to-governor-with-zodiac.md)
 * [Get notifications on Tally](tally-features/enterprise-features/notifications.md)
-* [Participate in Security Council Elections](how-to-use-tally/participate-in-security-council-elections.md)
 * [Using Ledger with Solana](how-to-use-tally/using-ledger-with-solana.md)
 * [DAO Treasury](tally-features/enterprise-features/dao-treasury.md)
 
