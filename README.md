@@ -13,19 +13,19 @@ Tally powers token launch, governance, operations, and utility for 500+ protocol
 
 ## With Tally, you can:&#x20;
 
-* Launch and scale tokens with confidence
-* Govern protocols effectively
-* Streamline token operations from launch to maturity
-* Design & deploy incentives to bootstrap protocol usage and accrue token value
+* [Launch and scale tokens with confidence](tally-features/token-launch.md)
+* [Design & deploy incentives to bootstrap protocol usage and accrue token value](tally-features/staking/)
+* [Govern protocols effectively](tally-features/governance/)
+* [Streamline token operations from launch to maturity](tally-features/token-hub.md)
 
 ### Tally features
 
-{% content-ref url="tally-features/staking/" %}
-[staking](tally-features/staking/)
-{% endcontent-ref %}
-
 {% content-ref url="tally-features/token-launch.md" %}
 [token-launch.md](tally-features/token-launch.md)
+{% endcontent-ref %}
+
+{% content-ref url="tally-features/staking/" %}
+[staking](tally-features/staking/)
 {% endcontent-ref %}
 
 {% content-ref url="tally-features/governance/" %}
