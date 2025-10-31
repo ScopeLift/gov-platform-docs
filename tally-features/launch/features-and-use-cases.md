@@ -67,7 +67,7 @@ Tally builds branded claim interfaces in close collaboration with your team to e
 
 <details>
 
-<summary>Integrate with vesting partners</summary>
+<summary>Add vesting with Hedgey &#x26; sablier</summary>
 
 Optional transfer restrictions, vesting schedules, and lockup mechanisms with seamless integration to specialized on-chain vesting providers and custodians like [Hedgey](../../how-to-use-tally/proposals/creating-proposals/custom-actions/token-vesting-with-hedgey.md) and [Sablier](../../how-to-use-tally/proposals/creating-proposals/custom-actions/streaming-payments-with-sablier.md).&#x20;
 

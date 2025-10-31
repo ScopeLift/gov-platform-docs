@@ -1,17 +1,11 @@
 ---
-icon: arrow-up-right
 description: How to deploy a Governor contract to use with Tally
+icon: arrow-up-right
 ---
 
-# Deploy a Governor
+# Deploy a governor
 
 You can use Tally's open-source [Governor deployer](https://github.com/withtally/gov-deployer) to get started.&#x20;
-
-[#configuring-your-governor](./#configuring-your-governor "mention")
-
-[#compatibility-with-tally](./#compatibility-with-tally "mention")
-
-[#helpful-links-from-openzeppelin](./#helpful-links-from-openzeppelin "mention")
 
 ## Configuring your Governor
 
