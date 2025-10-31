@@ -1,5 +1,6 @@
 ---
 description: Streamline token operations from launch to maturity
+hidden: true
 icon: shield-check
 ---
 
