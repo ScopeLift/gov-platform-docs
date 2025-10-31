@@ -11,7 +11,7 @@ icon: arrow-down-up-across-line
 
 <details>
 
-<summary>Protocols need sustainable token economics and aligned holders to succeed.</summary>
+<summary>Protocols need sustainable token economics and aligned holders to succeed</summary>
 
 Value accrual offers several key benefits:
 
@@ -28,7 +28,7 @@ Protocols must move beyond initial hype cycles. Value accrual mechanisms help by
 
 <details>
 
-<summary>Reward active governance participants for their time, expertise, and contributions. </summary>
+<summary>Reward active governance participants for their time, expertise, and contributions</summary>
 
 Compensation mechanisms encourage thoughtful participation while reducing voting power concentration among large holders. Systems include requirements to ensure only engaged and accountable delegates are rewarded, such as maintaining minimum [reputation scores](../governance/delegate-reputation-score-drs.md) or meeting participation thresholds.
 
@@ -40,7 +40,7 @@ Compensation mechanisms encourage thoughtful participation while reducing voting
 
 <details>
 
-<summary>Tally's value accrual product is a complete staking solution for protocols. </summary>
+<summary>Tally's value accrual product is a complete staking solution for protocols</summary>
 
 Tally's value accrual product is a complete staking solution for protocols.&#x20;
 
