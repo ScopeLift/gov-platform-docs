@@ -44,7 +44,6 @@
   * [DAO Page](tally-features/navigating-the-tally-platform/dao-page.md)
   * [Proposal Page](tally-features/navigating-the-tally-platform/proposal-page.md)
   * [Delegates Page](tally-features/navigating-the-tally-platform/delegates-page.md)
-* [Staking on Tally](tally-features/staking-with-tally.md)
 * [Tally Fees](tally-features/tally-fees.md)
 
 ## How to Use Tally
