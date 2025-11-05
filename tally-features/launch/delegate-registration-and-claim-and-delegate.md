@@ -1,7 +1,5 @@
 ---
 hidden: true
-noIndex: true
-noRobotsIndex: true
 icon: users-between-lines
 ---
 

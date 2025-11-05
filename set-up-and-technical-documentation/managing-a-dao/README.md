@@ -5,7 +5,7 @@ icon: folder-plus
 
 # Add an organization to Tally
 
-_Ready to add your DAO's governance to Tally? All you need is a deployed_ [_Governor contract_](broken-reference) _and a few minutes to get started._
+_Ready to add your DAO's governance to Tally? All you need is a deployed_ [_Governor contract_](../../tally-features/tally/governor-framework.md) _and a few minutes to get started._
 
 <figure><img src="../../.gitbook/assets/image (131).png" alt=""><figcaption></figcaption></figure>
 
@@ -33,8 +33,8 @@ Enter your DAO's info: its name, description, and Governor Contract details. The
 
 Need help with your Governor contract? Here's where to start:
 
-{% content-ref url="broken-reference" %}
-[Broken link](broken-reference)
+{% content-ref url="../../tally-features/tally/governor-framework.md" %}
+[governor-framework.md](../../tally-features/tally/governor-framework.md)
 {% endcontent-ref %}
 
 {% content-ref url="../deploying-daos/" %}

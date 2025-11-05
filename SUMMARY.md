@@ -4,6 +4,10 @@
 
 ## Tally Features
 
+* [What is Tally?](tally-features/tally/README.md)
+  * [Governor Framework](tally-features/tally/governor-framework.md)
+  * [Onchain Governance](tally-features/tally/onchain-governance/README.md)
+    * [The On-chain Thesis](tally-features/tally/onchain-governance/the-onchain-thesis.md)
 * [Token launch](tally-features/launch/README.md)
   * [Features](tally-features/launch/features.md)
   * [Launch with governance](tally-features/launch/governance-smart-contracts.md)
@@ -28,10 +32,19 @@
   * [Advanced features](tally-features/governance/advanced-features/README.md)
     * [Chain integration](tally-features/governance/advanced-features/chain-integration.md)
   * [Standard features](tally-features/governance/standard-features.md)
+* [Token hub](tally-features/token-hub.md)
 * [Tally API](tally-features/welcome/README.md)
   * [How to use the Tally API](tally-features/welcome/how-to-use-the-tally-api.md)
 * [Tally Zero](tally-features/tally-zero.md)
 * [Tally partner benefits](tally-features/tally-partner-benefits.md)
+* [Token Launch](tally-features/token-launch.md)
+* [Navigating the Tally Platform](tally-features/navigating-the-tally-platform/README.md)
+  * [Getting Started](tally-features/navigating-the-tally-platform/getting-started.md)
+  * [Tally Profile](tally-features/navigating-the-tally-platform/tally-profile.md)
+  * [DAO Page](tally-features/navigating-the-tally-platform/dao-page.md)
+  * [Proposal Page](tally-features/navigating-the-tally-platform/proposal-page.md)
+  * [Delegates Page](tally-features/navigating-the-tally-platform/delegates-page.md)
+* [Staking on Tally](tally-features/staking-with-tally.md)
 * [Tally Fees](tally-features/tally-fees.md)
 
 ## How to Use Tally
@@ -70,9 +83,13 @@
   * [How to Stake OBOL](how-to-use-tally/stake-on-tally/how-to-stake-obol.md)
   * [How to Stake RARI](how-to-use-tally/stake-on-tally/how-to-stake-rari.md)
 * [Participate in Security Council Elections](how-to-use-tally/participate-in-security-council-elections.md)
-* [Use Tally as a Safe multisig](how-to-use-tally/use-tally-as-a-safe-multisig.md)
+* [Use Tally as a Safe multisig](how-to-use-tally/use-tally-as-a-safe-multisig/README.md)
+  * [Vote with a Gnosis Safe](how-to-use-tally/use-tally-as-a-safe-multisig/vote-with-a-gnosis-safe.md)
+  * [Zodiac Governor Module for SubDAOs and Grants Programs](how-to-use-tally/use-tally-as-a-safe-multisig/zodiac-governor-module-for-subdaos-and-grants-programs.md)
+  * [Upgrade Gnosis Safe to Governor with Zodiac](how-to-use-tally/use-tally-as-a-safe-multisig/upgrade-gnosis-safe-to-governor-with-zodiac.md)
 * [Get notifications on Tally](tally-features/enterprise-features/notifications.md)
 * [Using Ledger with Solana](how-to-use-tally/using-ledger-with-solana.md)
+* [DAO Treasury](how-to-use-tally/dao-treasury.md)
 
 ## Set up & Technical Documentation
 
@@ -86,6 +103,7 @@
   * [FAQ & troubleshooting](set-up-and-technical-documentation/staking-contracts/faq-and-troubleshooting.md)
 * [Tally Architecture](set-up-and-technical-documentation/tally-architecture.md)
 * [Chain compatibility](set-up-and-technical-documentation/chain-compatibility.md)
+* [Token wrapper](set-up-and-technical-documentation/token-wrapper.md)
 * [Deploy a governor](set-up-and-technical-documentation/deploying-daos/README.md)
   * [Deploy a governor](set-up-and-technical-documentation/deploying-daos/deploy-a-dao-with-token-voting/README.md)
     * [Deploy a Governor with a new token](set-up-and-technical-documentation/deploying-daos/deploy-a-dao-with-token-voting/deploy-a-governance-token.md)
@@ -108,6 +126,9 @@
   * [Zodiac Governor Module for SubDAOs and Grants Programs](set-up-and-technical-documentation/using-governor-with-gnosis-safe/zodiac-governor-module-for-subdaos-and-grants-programs.md)
   * [Upgrade Gnosis Safe to Governor with Zodiac](set-up-and-technical-documentation/using-governor-with-gnosis-safe/how-to-upgrade-a-gnosis-safe-to-a-governor-with-zodiac.md)
 * [Security](set-up-and-technical-documentation/security.md)
+* [Governor Proposal Standards](set-up-and-technical-documentation/governor-proposals/README.md)
+  * [Governor Proposal Descriptions Standards](set-up-and-technical-documentation/governor-proposals/whats-the-standard-for-governor-proposal-descriptions.md)
+* [Bridge Providers](set-up-and-technical-documentation/bridge-providers.md)
 
 ## Education <a href="#user-guides" id="user-guides"></a>
 
@@ -152,9 +173,9 @@
 
 ## Resources
 
-* [Use Tally](https://www.tally.xyz)
+* [Tally Platform](https://www.tally.xyz)
 * [Blog](https://blog.tally.xyz)
-* [The Tally podcast](https://linktr.ee/thetallypodcast)
+* [DAO Talk Podcast](https://www.youtube.com/channel/UC0J5KuukgFn8KCMuuhkBZQw)
 * [Newsletter](https://newsletter.tally.xyz)
 * [Twitter / X](https://x.com/tallyxyz)
 

@@ -15,7 +15,7 @@ To submit an onchain proposal, you must have sufficient voting power to meet the
 
 ### Create a Proposal
 
-Visit the [DAO Page](broken-reference) of the DAO you'd like to create a proposal for, then click the **Create new proposal** button at the top of the page.
+Visit the [DAO Page](../../../tally-features/navigating-the-tally-platform/dao-page.md) of the DAO you'd like to create a proposal for, then click the **Create new proposal** button at the top of the page.
 
 ![](<../../../.gitbook/assets/Screenshot 2023-08-25 at 2.10.18 pm.png>)
 

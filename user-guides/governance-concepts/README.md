@@ -9,8 +9,8 @@ icon: newspaper
 [decentralized-governance-overview.md](decentralized-governance-overview.md)
 {% endcontent-ref %}
 
-{% content-ref url="broken-reference" %}
-[Broken link](broken-reference)
+{% content-ref url="../../tally-features/tally/onchain-governance/" %}
+[onchain-governance](../../tally-features/tally/onchain-governance/)
 {% endcontent-ref %}
 
 {% content-ref url="application-layer-vs-base-layer-governance.md" %}
