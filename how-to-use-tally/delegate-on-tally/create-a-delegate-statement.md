@@ -8,7 +8,7 @@ Ready to become a DAO delegate? Tell DAO members what you stand for by creating 
 
 ## How to Create a Delegate Statement&#x20;
 
-1. From your [Tally Profile](../../tally-features/navigating-the-tally-platform/tally-profile.md), click on the DAO you want to create a statement for.&#x20;
+1. From your [Tally Profile](broken-reference), click on the DAO you want to create a statement for.&#x20;
 2. Click on the DAO you want to create a statement for.
 3. You'll see a Delegation Statement for that DAO directly beneath the header. Click **Edit**.
 4. Click **Edit** at the top right of the Delegation Statement box.

@@ -14,7 +14,7 @@ Creating a Gnosis Safe on Tally creates the exact same instance of Gnosis’s sm
 
 
 
-For help using Tally as a Safe multisig, read or watch our [tutorial](../../../how-to-use-tally/use-tally-as-a-safe-multisig/).
+For help using Tally as a Safe multisig, read or watch our [tutorial](../../../how-to-use-tally/use-tally-as-a-safe-multisig.md).
 
 
 

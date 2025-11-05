@@ -11,7 +11,7 @@ Extend Tally's governance platform with integrations that enhance security, comm
 
 Create or link a Safe to your organization for secure multi-signature treasury management. Managing your Safe through Tally enables access to all governance features maintaining the security of multi-sig approvals.
 
-For help using Tally as a Safe multisig, [read more](../../../how-to-use-tally/use-tally-as-a-safe-multisig/).
+For help using Tally as a Safe multisig, [read more](../../../how-to-use-tally/use-tally-as-a-safe-multisig.md).
 
 ### **Discourse**
 

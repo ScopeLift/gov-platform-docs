@@ -25,7 +25,7 @@ Tally deploys your token, a non-fungible, non-transferable token that can be min
 
 <summary>Deploy  Governor and Timelock contracts</summary>
 
-Tally deploys the [Governor and Timelock](../tally/governor-framework.md) contracts. The Governor contract facilitates the proposal and voting process, while the Timelock contract enforces a delay between the proposal's passage and its execution.
+Tally deploys the [Governor and Timelock](broken-reference) contracts. The Governor contract facilitates the proposal and voting process, while the Timelock contract enforces a delay between the proposal's passage and its execution.
 
 * [**Flexible Voting**](../../how-to-use-tally/voting-on-proposals/advanced-voting/flexible-voting-extension.md)**:** Tally's flexible voting setup prepares protocols for advanced governance structures. Flexible voting enables sophisticated governance models like MultiGov and partial delegation.
 

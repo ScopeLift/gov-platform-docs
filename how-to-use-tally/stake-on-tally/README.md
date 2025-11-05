@@ -1,34 +1,32 @@
 ---
-description: Stake tokens on Tally.
+description: Stake your tokens and earn rewards
 icon: mountain
 ---
 
 # Stake on Tally
 
-Token holders can now stake OBOL and RARI on Tally. To learn more, read the full announcements for [stOBOL](https://x.com/tallyxyz/status/1928152996099088727) and [stRARI](https://x.com/rarifoundation/status/1935322769509822969).&#x20;
+Staking is the easiest way to earn rewards and participate in governance. _To learn more about why protocols are using Tally Staking to accrue value, visit_ [_Incentives & staking._](../../tally-features/staking/)\
 
 
+## Protocols with Active Staking
 
-Staking is the easiest way to earn rewards and participate in governance. _To learn more about why protocols are using Tally Staking to accrue value, visit_ [_Staking_](../../tally-features/staking/)_._ &#x41;_&#x63;cess step-by-step staking guides below._&#x20;
+Token holders can now stake [OBOL](https://x.com/tallyxyz/status/1928152996099088727) and [RARI](https://x.com/rarifoundation/status/1935322769509822969) on Tally and earn rewards.
 
-## _Staking guides_
+{% content-ref url="how-to-stake-obol.md" %}
+[how-to-stake-obol.md](how-to-stake-obol.md)
+{% endcontent-ref %}
 
-\
-→ [_How to stake OBOL_](how-to-stake-obol.md)&#x20;
+{% content-ref url="how-to-stake-rari.md" %}
+[how-to-stake-rari.md](how-to-stake-rari.md)
+{% endcontent-ref %}
 
-\
-→ [_How to stake RARI_](how-to-stake-rari.md)
+## ZKsync staking
 
-## Uniswap and Wormhole Staking
+ZKsync staking is coming soon. To stay up to date with  ZK staking and learn more, read the full [staking proposal](https://www.tally.xyz/gov/zksync/proposal/97314764080859415498674952864578860560861880297360481348949362100730414449748?govId=eip155:324:0xb83FF6501214ddF40C91C9565d095400f3F45746) and [announcement](https://x.com/tallyxyz/status/1985758978308260134), or follow [Zksync](https://x.com/zksync) & [Tally](https://x.com/tallyxyz) on X.&#x20;
 
-Governance tokens like Uniswap's UNI and Wormhole's W can be staked for potential future rewards.
+## Wormhole Staking
 
-You can access staking for UNI on the [Tally staking page](https://www.tally.xyz/gov/uniswap/stake). Note that rewards have not been turned on yet.
+Wormhole's W token can be staked for potential future rewards. To stake your W tokens, visit the  [Wormhole W dashboard](https://w.wormhole.com/)\
 
-To stake W tokens, visit the [Tally Wormhole page](https://www.tally.xyz/gov/wormhole) for staking on EVM chains. Note that staking for Wormhole is also known as delegating voting power.
 
-&#x20;To stake on Solana, use the [Wormhole W dashboard](https://w.wormhole.com/)
-
-## Support
-
-For  assistance with staking, submit a request to support@tally.xyz.
+Ready to bring staking to your protocol? [Talk to our team to get started](http://tally.xyz/contact).
