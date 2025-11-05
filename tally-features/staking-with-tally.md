@@ -1,6 +1,7 @@
 ---
 description: Stake governance tokens on Tally
 hidden: true
+noRobotsIndex: true
 icon: square-up
 ---
 
