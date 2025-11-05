@@ -93,7 +93,6 @@
   * [Upgrade Gnosis Safe to Governor with Zodiac](how-to-use-tally/use-tally-as-a-safe-multisig/upgrade-gnosis-safe-to-governor-with-zodiac.md)
 * [Get notifications on Tally](tally-features/enterprise-features/notifications.md)
 * [Using Ledger with Solana](how-to-use-tally/using-ledger-with-solana.md)
-* [DAO Treasury](tally-features/enterprise-features/dao-treasury.md)
 
 ## Set up & Technical Documentation
 
