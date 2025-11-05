@@ -14,4 +14,4 @@ You can search by ENS name or wallet address. You can sort delegates by Voting P
 
 <figure><img src="../../.gitbook/assets/Screenshot 2024-07-11 at 3.07.48 PM.png" alt=""><figcaption></figcaption></figure>
 
-Click the **Delegate** button to easily [delegate your voting power](broken-reference) to that DAO member, or click on their [profile](tally-profile.md) name to learn more about their participation in the DAO.
+Click the **Delegate** button to easily [delegate your voting power](../delegations-on-tally/delegating-voting-power/) to that DAO member, or click on their [profile](tally-profile.md) name to learn more about their participation in the DAO.

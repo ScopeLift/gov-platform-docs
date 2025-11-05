@@ -34,7 +34,7 @@ Click on any DAO to navigate to its [dao-page.md](dao-page.md "mention")!
 
 <figure><img src="../../.gitbook/assets/CleanShot 2023-02-09 at 11.44.05@2x.png" alt=""><figcaption><p>Tally Profile.</p></figcaption></figure>
 
-At the top, you'll see a voter's display name, wallet address, and linked Twitter account. You'll also see a **Delegate** button, which allows you to [delegate your voting power](broken-reference) to that address.
+At the top, you'll see a voter's display name, wallet address, and linked Twitter account. You'll also see a **Delegate** button, which allows you to [delegate your voting power](../delegations-on-tally/delegating-voting-power/) to that address.
 
 Below, you'll see that voter's _DAO Memberships_, with information on their voting power and delegations for each DAO.
 
