@@ -4,7 +4,7 @@ icon: person-booth
 
 # Vote on Tally
 
-_In order to vote on a proposal, first make sure that you've_ [_connected your wallet_ ](../../tally-features/navigating-the-tally-platform/getting-started.md)_and_ [_delegated voting power to yourself_](../../tally-features/delegations-on-tally/delegating-voting-power/)_!_
+_In order to vote on a proposal, first make sure that you've_ [_connected your wallet_ ](../../tally-features/navigating-the-tally-platform/getting-started.md)_and_ [_delegated voting power to yourself_](broken-reference)_!_
 
 _Note that tokens you own are not active for voting until you delegate. **You must delegate to yourself if you wish to vote on proposals directly with your own tokens.**_
 
@@ -34,7 +34,7 @@ In the _Voting_ pop up, choose your vote— **For**, **Against**, or **Abstain**
 
 #### Are your votes delegated?
 
-For DAOs that use the [Governor contract](https://docs.tally.xyz/user-guides/deploying-governor-daos/deploy-a-governor), only delegated tokens can participate in voting. If you want to vote on proposals directly, you need to delegate your voting power to your own address. Check out our [Delegate Your Voting Power](../../tally-features/delegations-on-tally/delegating-voting-power/) doc for a step-by-step guide!
+For DAOs that use the [Governor contract](https://docs.tally.xyz/user-guides/deploying-governor-daos/deploy-a-governor), only delegated tokens can participate in voting. If you want to vote on proposals directly, you need to delegate your voting power to your own address. Check out our [Delegate Your Voting Power](broken-reference) doc for a step-by-step guide!
 
 #### Have you waited for Tally to index the onchain event?
 
