@@ -28,9 +28,9 @@ _Note: To vote on a proposal, votes must be delegated BEFORE the proposal is liv
 
 <figure><img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXf3iKOSgi7bnWQ9n_ZmMPNULcxLZbqkMiROg4vtRXC-GEgdSwtk69vtH_v90PAbj9HFOZV5Fn4EIv3GGpuoswa_LWRByvnXt69_7hdf8BiqljgD8jwegDWya3FubEPbNhu1fGCo?key=kP1qxu4KM5htmHS2m_BEJCzS" alt=""><figcaption><p>Confirm and sign the transaction via your wallet (this example shows MetaMask).</p></figcaption></figure>
 
-You can also delegate your voting power to a specific address directly on their [Profile Page](../../tally-features/navigating-the-tally-platform/tally-profile.md).
+You can also delegate your voting power to a specific address directly on their [Profile Page](broken-reference).
 
-Navigate to your [Profile Page](../../tally-features/navigating-the-tally-platform/tally-profile.md) by clicking your profile name at the top right and selecting Profile from the drop-down.
+Navigate to your [Profile Page](broken-reference) by clicking your profile name at the top right and selecting Profile from the drop-down.
 
 
 

@@ -4,10 +4,6 @@
 
 ## Tally Features
 
-* [What is Tally?](tally-features/tally/README.md)
-  * [Governor Framework](tally-features/tally/governor-framework.md)
-  * [Onchain Governance](tally-features/tally/onchain-governance/README.md)
-    * [The On-chain Thesis](tally-features/tally/onchain-governance/the-onchain-thesis.md)
 * [Token launch](tally-features/launch/README.md)
   * [Features](tally-features/launch/features.md)
   * [Launch with governance](tally-features/launch/governance-smart-contracts.md)
@@ -21,7 +17,6 @@
     * [Arbitrum DAO Security Council Elections Guide](tally-features/governance/security-council-elections/arbitrum-dao-security-council-elections-guide.md)
   * [Optimistic governance](tally-features/governance/optimistic-governance.md)
   * [Delegate compensation](tally-features/governance/delegate-compensation.md)
-  * [Optimistic governance](tally-features/governance/optimistic-governance-1.md)
   * [MultiGov](tally-features/governance/multigov.md)
   * [Delegate Reputation Score (DRS)](tally-features/governance/delegate-reputation-score-drs.md)
   * [Integrations](tally-features/governance/integrations/README.md)
@@ -29,21 +24,10 @@
     * [Discourse](tally-features/governance/integrations/forum-bot.md)
     * [Safe](tally-features/governance/integrations/safe.md)
   * [Features](tally-features/governance/features.md)
-  * [Advanced features](tally-features/governance/advanced-features/README.md)
-    * [Chain integration](tally-features/governance/advanced-features/chain-integration.md)
-  * [Standard features](tally-features/governance/standard-features.md)
-* [Token hub](tally-features/token-hub.md)
 * [Tally API](tally-features/welcome/README.md)
   * [How to use the Tally API](tally-features/welcome/how-to-use-the-tally-api.md)
 * [Tally Zero](tally-features/tally-zero.md)
 * [Tally partner benefits](tally-features/tally-partner-benefits.md)
-* [Token Launch](tally-features/token-launch.md)
-* [Navigating the Tally Platform](tally-features/navigating-the-tally-platform/README.md)
-  * [Getting Started](tally-features/navigating-the-tally-platform/getting-started.md)
-  * [Tally Profile](tally-features/navigating-the-tally-platform/tally-profile.md)
-  * [DAO Page](tally-features/navigating-the-tally-platform/dao-page.md)
-  * [Proposal Page](tally-features/navigating-the-tally-platform/proposal-page.md)
-  * [Delegates Page](tally-features/navigating-the-tally-platform/delegates-page.md)
 * [Tally Fees](tally-features/tally-fees.md)
 
 ## How to Use Tally

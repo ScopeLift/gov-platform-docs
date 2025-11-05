@@ -9,9 +9,9 @@ icon: people-arrows
 
 ## Admins Section
 
-Admins for a given DAO are displayed at the bottom of the [dao-page.md](../../tally-features/navigating-the-tally-platform/dao-page.md "mention"):
+Admins for a given DAO are displayed at the bottom of the [Broken link](broken-reference "mention"):
 
-<figure><img src="../../.gitbook/assets/image (3) (2).png" alt=""><figcaption><p>Admins section of the <a href="../../tally-features/navigating-the-tally-platform/dao-page.md">DAO Page</a>.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3) (2).png" alt=""><figcaption><p>Admins section of the <a href="broken-reference">DAO Page</a>.</p></figcaption></figure>
 
 ## Admin Abilities
 

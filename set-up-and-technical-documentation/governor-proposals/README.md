@@ -1,6 +1,5 @@
 ---
 description: Standards for interacting with onchain Governor Proposals
-hidden: true
 icon: pen-to-square
 ---
 

@@ -3,7 +3,7 @@ description: Key features of Tally's governance solutions
 icon: arrow-right-arrow-left
 ---
 
-# Features & use cases
+# Features
 
 ### **Voting and proposal management**
 
@@ -35,7 +35,7 @@ Enable token holders to delegate voting power to trusted representatives without
 
 Streamline routine governance decisions with an efficient approval process that assumes most proposals are valid unless challenged. Proposals related to maintenance, technical changes, or parameter adjustments move through a structured process including proposal submission, due diligence review, council vote by delegates with technical expertise, and an optimistic veto window where the broader community can block proposals if needed. This approach prevents decision-making gridlock while maintaining community oversight and accountability.
 
-Learn more about [optimistic governance](optimistic-governance-1.md).
+Learn more about [optimistic governance](broken-reference).
 
 </details>
 
