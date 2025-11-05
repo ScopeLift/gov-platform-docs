@@ -1,5 +1,5 @@
 ---
-hidden: true
+noIndex: true
 icon: sack-dollar
 ---
 
