@@ -3,9 +3,9 @@ description: Key features of Tally's token launch solutions
 icon: arrow-right-arrow-left
 ---
 
-# Features & use cases
+# Features
 
-### ICO
+### Public token sales (side)
 
 <details>
 
@@ -17,7 +17,7 @@ Tally builds branded token sale experiences that abstract away technical complex
 
 </details>
 
-### Airdrop
+### Airdrop (side)
 
 <details>
 
@@ -63,7 +63,7 @@ Tally builds branded claim interfaces in close collaboration with your team to e
 
 </details>
 
-### Vesting integrations&#x20;
+### Vesting & dsitribution  (side)
 
 <details>
 
@@ -96,7 +96,9 @@ Tally helps your team prepare for a clean launch:
 
 </details>
 
-###
+### Exchange listing & compliance documentation (side)
+
+Launch with governance (add here)&#x20;
 
 
 

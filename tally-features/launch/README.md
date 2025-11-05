@@ -18,8 +18,8 @@ Tally's token launch platform reduces time to launch with production-ready, end-
 
 ## Get started
 
-{% content-ref url="features-and-use-cases.md" %}
-[features-and-use-cases.md](features-and-use-cases.md)
+{% content-ref url="features.md" %}
+[features.md](features.md)
 {% endcontent-ref %}
 
 {% content-ref url="governance-smart-contracts.md" %}

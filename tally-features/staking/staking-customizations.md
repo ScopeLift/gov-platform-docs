@@ -3,7 +3,7 @@ description: Key features of Tally's incentive and staking solutions
 icon: arrow-down-up-across-line
 ---
 
-# Features & use cases
+# Features
 
 
 
@@ -24,7 +24,7 @@ Protocols must move beyond initial hype cycles. Value accrual mechanisms help by
 
 </details>
 
-## **Delegate compensation**
+## **Delegate compensation (side page)**
 
 <details>
 
@@ -36,7 +36,7 @@ Compensation mechanisms encourage thoughtful participation while reducing voting
 
 </details>
 
-## Staking for value accrual
+## Staking for value accrual (side page)
 
 <details>
 
