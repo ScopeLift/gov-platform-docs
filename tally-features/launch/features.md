@@ -7,7 +7,7 @@ icon: arrow-right-arrow-left
 
 ### Modular architecture
 
-Launch just the token, pair it with staking from day one to incentivize long-term commitment, add governance to enable decentralized decision-making immediately, or progressively enable components later as your protocol matures.&#x20;
+Launch just the token, pair it with [staking](../staking/) from day one to incentivize long-term commitment, add [governance](../governance/) to enable decentralized decision-making immediately, or progressively enable components later as your protocol matures.&#x20;
 
 ### Branded claim experience
 
@@ -22,9 +22,9 @@ Tally deploys your protocol's governance smart contracts, including Governor and
 * **Deploy  Governor and Timelock contracts**
   * Tally deploys the [Governor and Timelock contracts](../../set-up-and-technical-documentation/deploying-daos/). The Governor contract facilitates the proposal and voting process, while the Timelock contract enforces a delay between the proposal's passage and its execution.
     * [**Flexible Voting**](../../how-to-use-tally/voting-on-proposals/advanced-voting/flexible-voting-extension.md)**:** Tally's flexible voting setup prepares protocols for advanced governance structures. Flexible voting enables sophisticated governance models like MultiGov and partial delegation.
-* Claim & delegate&#x20;
+* **Claim & delegate**&#x20;
   * To ensure a smooth and convenient transition from token claim to active governance participation, Tally provides a post-claim delegation experience to enhance user engagement and simplify the delegation process.
-* Launch with expert guidance
+* **Launch with expert guidance**
   * Tally provides detailed guidance on setting key parameters to ensure smooth and effective operation of the protocol's governance system: Proposal Threshold, Quorum Requirement, Voting Period, Voting Delay, Execution Delay, and more.
 
 ### Multichain support
