@@ -1,5 +1,5 @@
 ---
-description: Launch and scale tokens with confidence
+description: Tally handles your airdrop, ICO, and vesting so you can focus on building
 icon: rocket-launch
 ---
 

@@ -21,7 +21,6 @@
   * [Security Council elections](tally-features/governance/security-council-elections/README.md)
     * [Arbitrum DAO Security Council Elections Guide](tally-features/governance/security-council-elections/arbitrum-dao-security-council-elections-guide.md)
   * [Optimistic governance](tally-features/governance/optimistic-governance.md)
-  * [Delegate compensation](tally-features/governance/delegate-compensation.md)
   * [MultiGov](tally-features/governance/multigov.md)
   * [Delegate Reputation Score (DRS)](tally-features/governance/delegate-reputation-score-drs.md)
   * [Integrations](tally-features/governance/integrations/README.md)

@@ -1,5 +1,5 @@
 ---
-description: Decentralize multi-sig control of your DAO.
+description: Decentralize multi-sig control of your organization.
 icon: people-group
 ---
 

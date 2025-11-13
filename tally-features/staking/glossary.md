@@ -20,61 +20,17 @@ icon: book
 
 ### Staking System Components
 
-<details>
+**Earning power:** A metric that determines a staker's proportional claim on rewards, which may be equal to or modified from their staked amount.
 
-<summary><strong>Staker Contract</strong></summary>
+**Earning power calculator:** A component that determines how rewards are distributed to stakers based on various criteria.
 
+**Reward notifier:** A contract that informs the staking system about new rewards and triggers their distribution.
 
+**Delegation surrogate:** A contract that holds staked tokens and delegates their voting power to a specified address.
 
-</details>
+**Reward stream:** The mechanism by which rewards are distributed gradually over time rather than all at once.
 
-<details>
-
-<summary>Earning power</summary>
-
-A metric that determines a staker's proportional claim on rewards, which may be equal to or modified from their staked amount.
-
-</details>
-
-<details>
-
-<summary>Earning power calculator</summary>
-
-A component that determines how rewards are distributed to stakers based on various criteria.
-
-</details>
-
-<details>
-
-<summary>Reward notifier </summary>
-
-A contract that informs the staking system about new rewards and triggers their distribution.
-
-</details>
-
-<details>
-
-<summary><strong>Delegation Surrogate</strong></summary>
-
-A contract that holds staked tokens and delegates their voting power to a specified address.
-
-</details>
-
-<details>
-
-<summary>Reward stream</summary>
-
-The mechanism by which rewards are distributed gradually over time rather than all at once.
-
-</details>
-
-<details>
-
-<summary>Reward duration</summary>
-
-&#x20;The time period over which rewards are distributed (default 30 days in the Tally system).
-
-</details>
+**Reward duration:** The time period over which rewards are distributed (default 30 days in the Tally system).
 
 ### Governance Integration
 
