@@ -15,7 +15,7 @@ Protocols use Tally's governance solutions to enable decentralized decision-maki
 * [Delegation](features.md)**:** Enable token holders to delegate voting power to trusted representatives without transferring token ownership. Supports full delegation, partial delegation across multiple delegates, and integrations with staking and token launch.
 * [Security council elections](security-council-elections/arbitrum-dao-security-council-elections-guide.md)**:** Establish democratic elections for security councils that safeguard protocol interests. Tally's custom-built council elections ensure the highest standards of integrity in selecting leadership.
 * [Optimstic governance:](optimistic-governance.md) Streamline decision-making by assuming proposals pass unless explicitly vetoed by delegates, enabling faster execution while maintaining community oversight for critical decisions.
-* [Delegate compensation](../staking/delegate-compensation.md)**:** Reward active governance participants for their time, expertise, and contributions. Systems ensure only engaged and accountable delegates are rewarded through minimum reputation scores or participation thresholds.
+* [Delegate compensation](../incentives-and-staking/delegate-compensation.md)**:** Reward active governance participants for their time, expertise, and contributions. Systems ensure only engaged and accountable delegates are rewarded through minimum reputation scores or participation thresholds.
 * [Multichain support](multigov.md)**:** Enable cross-chain governance with MultiGov to meet token holders where they are. Organization members can govern from any chain, with support for Solana, Ethereum, and EVM-compatible L2s.
 * [Gasless voting and delegation](features.md#gasless-voting-and-delegation-relay)**:** Remove financial barriers to governance participation by eliminating gas fees for voting and delegation. Organizations cover transaction costs for members' governance activities.
 
@@ -33,8 +33,8 @@ Protocols use Tally's governance solutions to enable decentralized decision-maki
 [multigov.md](multigov.md)
 {% endcontent-ref %}
 
-{% content-ref url="../staking/staking-customizations.md" %}
-[staking-customizations.md](../staking/staking-customizations.md)
+{% content-ref url="../incentives-and-staking/staking-customizations.md" %}
+[staking-customizations.md](../incentives-and-staking/staking-customizations.md)
 {% endcontent-ref %}
 
 {% content-ref url="integrations/" %}
@@ -44,3 +44,5 @@ Protocols use Tally's governance solutions to enable decentralized decision-maki
 {% content-ref url="../../user-guides/intro-to-governance/" %}
 [intro-to-governance](../../user-guides/intro-to-governance/)
 {% endcontent-ref %}
+
+Ready to launch governance? [Talk to our team to get started](http://tally.xyz/contact).

@@ -14,7 +14,7 @@ Tally's token launch platform reduces time to launch with production-ready, end-
 * [Branded claim experiences](features.md#branded-claim-experience): Ship custom-designed claim pages with your branding and domain that provide clarity and consistency across all token operations
 * [Vesting integration](vesting-and-disitribution.md): Implement lockup periods and vesting schedules that integrate seamlessly with on-chain providers and custodians
 * [Multichain support](features.md#multichain-support): Launch tokens simultaneously across multiple EVM chains with unified supply management. Recipients claim on their preferred network without wrapped assets or bridging
-* [Modular architecture](features.md#modular-architecture): Launch just the token, pair it with [staking](../staking/) from day one to incentivize long-term commitment, add [governance](../governance/) to enable decentralized decision-making immediately, or progressively enable components later as your protocol matures.&#x20;
+* [Modular architecture](features.md#modular-architecture): Launch just the token, pair it with [staking](../incentives-and-staking/) from day one to incentivize long-term commitment, add [governance](../governance/) to enable decentralized decision-making immediately, or progressively enable components later as your protocol matures.&#x20;
 
 ## Get started
 

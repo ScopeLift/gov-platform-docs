@@ -5,7 +5,7 @@ icon: mountain
 
 # Stake on Tally
 
-Staking is the easiest way to earn rewards and participate in governance. To learn more about why protocols are using Tally Staking to accrue value, visit [Incentives & staking](../../tally-features/staking/).
+Staking is the easiest way to earn rewards and participate in governance. To learn more about why protocols are using Tally Staking to accrue value, visit [Incentives & staking](../../tally-features/incentives-and-staking/).
 
 ### Protocols with Active Staking
 

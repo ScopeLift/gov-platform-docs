@@ -9,9 +9,9 @@ icon: handshake
 
 Tally drives growth for your chain, protocol, or ecosystem. We provide the following value to teams in your ecosystem:
 
-* [Token launch services](launch/)
+* [Token launch services](token-launch/)
 * [End-to-end governance application](governance/)
-* [Incentive and staking](staking/) infrastructure including:
+* [Incentive and staking](incentives-and-staking/) infrastructure including:
   * Staking contracts
   * Revenue collection and distribution
   * Staking application layer
@@ -20,9 +20,9 @@ Tally drives growth for your chain, protocol, or ecosystem. We provide the follo
 
 ### Partner Discounts
 
-* 10% off [token launch](launch/) and claim infrastructure products
+* 10% off [token launch](token-launch/) and claim infrastructure products
 * 10% off protocol operations and [governance](governance/) products
-* 20% protocol [incentive and staking](staking/) products
+* 20% protocol [incentive and staking](incentives-and-staking/) products
 
 
 

@@ -13,7 +13,7 @@ Learn more about [voting](../../how-to-use-tally/voting-on-proposals/) and deleg
 
 ### Delegation&#x20;
 
-Enable token holders to delegate voting power to trusted representatives without transferring token ownership. Tally's delegation system supports full delegation, [partial delegation](../../how-to-use-tally/delegate-on-tally/partial-delegation.md) across multiple delegates, and integrations with [staking](../staking/) and [token launch.](../launch/)
+Enable token holders to delegate voting power to trusted representatives without transferring token ownership. Tally's delegation system supports full delegation, [partial delegation](../../how-to-use-tally/delegate-on-tally/partial-delegation.md) across multiple delegates, and integrations with [staking](../incentives-and-staking/) and [token launch.](../token-launch/)
 
 ### **Multichain support**
 

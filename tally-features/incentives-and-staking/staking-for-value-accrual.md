@@ -49,3 +49,7 @@ ZKsync is using Tally's staking solution to create an economic feedback loop whe
 * **Governance integration** Staked tokens retain full voting power. Eligibility criteria ties rewards to governance activity, ensuring staking incentivizes active protocol participation.
 
 Learn more about [ZKsync Token Staking](https://forum.zknation.io/t/tpp-12-zknomics-token-staking).
+
+
+
+Ready to launch staking? [Talk to our team to get started](http://tally.xyz/contact).

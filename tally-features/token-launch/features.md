@@ -7,7 +7,7 @@ icon: arrow-right-arrow-left
 
 ### Modular architecture
 
-Launch just the token, pair it with [staking](../staking/) from day one to incentivize long-term commitment, add [governance](../governance/) to enable decentralized decision-making immediately, or progressively enable components later as your protocol matures.&#x20;
+Launch just the token, pair it with [staking](../incentives-and-staking/) from day one to incentivize long-term commitment, add [governance](../governance/) to enable decentralized decision-making immediately, or progressively enable components later as your protocol matures.&#x20;
 
 ### Branded claim experience
 

@@ -33,3 +33,5 @@ Only delegates with DRS ≥ 65 qualify for compensation. Active delegates receiv
 Token holders view delegate scores and participation history directly on Tally for informed delegation decisions.
 
 Learn more about [Obol's delegate compensation system](https://docs.obol.org/community-and-governance/governance/delegate-guide/delegate-reputation-score-and-compensation).
+
+Ready to launch delegate compensation? [Talk to our team to get started](http://tally.xyz/contact).
