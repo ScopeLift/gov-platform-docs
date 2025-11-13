@@ -5,8 +5,11 @@
 ## Tally Features
 
 * [Token launch](tally-features/launch/README.md)
+  * [Public token sales](tally-features/launch/public-token-sales.md)
+  * [Airdrops](tally-features/launch/airdrops.md)
+  * [Exchange listing & compliance documentation](tally-features/launch/exchange-listing-and-compliance-documentation.md)
+  * [Vesting & disitribution](tally-features/launch/vesting-and-disitribution.md)
   * [Features](tally-features/launch/features.md)
-  * [Launch with governance](tally-features/launch/governance-smart-contracts.md)
   * [Delegate registration & claim-and-delegate](tally-features/launch/delegate-registration-and-claim-and-delegate.md)
 * [Incentives & staking](tally-features/staking/README.md)
   * [Features](tally-features/staking/staking-customizations.md)

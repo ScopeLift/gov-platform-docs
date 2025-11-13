@@ -5,87 +5,35 @@ icon: arrow-right-arrow-left
 
 # Features
 
-### Public token sales (side)
-
-<details>
-
-<summary>Execute liquidity bootstrapping pools (LBPs) or other sale mechanisms with custom interfaces</summary>
-
-Tally builds branded token sale experiences that abstract away technical complexity, allowing you to distribute tokens without users needing to interact directly with underlying protocols.
-
-[_Hyperwave partnered with Tally_](https://x.com/Hyperwavefi/status/1978810531848028617) _to plan and execute its token sale using Balancer's liquidity-bootstrapping pool (LBP). Tally built a custom token sale interface and worked with the Hyperwave team throughout the launch process to maximize token sales._ Hyperwave raised [\~$500k ](https://x.com/AbishekFi/status/1979883930389242350)in its intital token sale.
-
-</details>
-
-### Airdrop (side)
-
-<details>
-
-<summary>Distribute tokens to millions of recipients with gas-optimized claim processing</summary>
-
-Configure custom claim experiences tailored to your community and tokenomics. Set flexible eligibility criteria based on on-chain activity, snapshots, or allowlists. Deploy branded claim pages that scale from hundreds to millions of recipients across any EVM chain.
-
-[_Hyperlane partnered with Tally_ ](https://tally.mirror.xyz/ctkM1FUWcpi9YdElMSVZcpXXiRTHsKBRMFTbiZNbggY)_to execute the HYPER token launch with native claim support across five blockchain networks. The launch distributed tokens to over 235,000 addresses who claimed nearly 70 million HYPER tokens using Tally's institutional-grade infrastructure._&#x20;
-
-</details>
-
-### Multichain support
-
-<details>
-
-<summary>Launch tokens simultaneously across multiple EVM chains</summary>
-
-
-
-Recipients claim on their preferred network without wrapped assets or bridging, eliminating friction and complexity from multichain distributions. Tally's cross chain claiming experience reduces operational overhead, improves user experience, and ensures token holders can participate from any supported chain without technical barriers.
-
-</details>
-
 ### Modular architecture
 
-<details>
-
-<summary>Launch with governance or staking</summary>
-
-Launch just the token, pair it with staking from day one to incentivize long-term commitment, add governance to enable decentralized decision-making immediately, or progressively enable components later as your protocol matures. T
-
-
-
-</details>
+Launch just the token, pair it with staking from day one to incentivize long-term commitment, add governance to enable decentralized decision-making immediately, or progressively enable components later as your protocol matures.&#x20;
 
 ### Branded claim experience
 
-<details>
-
-<summary>Launch branded claims</summary>
-
 Tally builds branded claim interfaces in close collaboration with your team to ensure brand alignment and user clarity. Custom domains maintain consistent branding across all token operations.
 
-</details>
+### Launch with governance&#x20;
 
-### Vesting & dsitribution  (side)
+Tally deploys your protocol's governance smart contracts, including Governor and Timelock, ensure a smooth and convenient transition from token claim to active governance participation.
 
-<details>
+* **Launch with ERC20Votes**
+  * Tally deploys your token, a non-fungible, non-transferable token that can be minted and revoked by the Governor. The ERC20Votes extension ensures your governance token supports vote delegation and efficient tracking of voting power over time.
+* **Deploy  Governor and Timelock contracts**
+  * Tally deploys the [Governor and Timelock contracts](../../set-up-and-technical-documentation/deploying-daos/). The Governor contract facilitates the proposal and voting process, while the Timelock contract enforces a delay between the proposal's passage and its execution.
+    * [**Flexible Voting**](../../how-to-use-tally/voting-on-proposals/advanced-voting/flexible-voting-extension.md)**:** Tally's flexible voting setup prepares protocols for advanced governance structures. Flexible voting enables sophisticated governance models like MultiGov and partial delegation.
+* Claim & delegate&#x20;
+  * To ensure a smooth and convenient transition from token claim to active governance participation, Tally provides a post-claim delegation experience to enhance user engagement and simplify the delegation process.
+* Launch with expert guidance
+  * Tally provides detailed guidance on setting key parameters to ensure smooth and effective operation of the protocol's governance system: Proposal Threshold, Quorum Requirement, Voting Period, Voting Delay, Execution Delay, and more.
 
-<summary>Add vesting with Hedgey &#x26; sablier</summary>
+### Multichain support
 
-Optional transfer restrictions, vesting schedules, and lockup mechanisms with seamless integration to specialized on-chain vesting providers and custodians like [Hedgey](../../how-to-use-tally/proposals/creating-proposals/custom-actions/token-vesting-with-hedgey.md) and [Sablier](../../how-to-use-tally/proposals/creating-proposals/custom-actions/streaming-payments-with-sablier.md).&#x20;
+Launch tokens simultaneously across multiple EVM chains. Recipients claim on their preferred network without wrapped assets or bridging, eliminating friction and complexity from multichain distributions. Tally's cross chain claiming experience reduces operational overhead, improves user experience, and ensures token holders can participate from any supported chain without technical barriers.
 
-</details>
-
-## Post-launch operations
-
-<details>
-
-<summary>Ongoing support and maintenance</summary>
+### Post-launch operations
 
 Tally provides continued technical support, infrastructure monitoring, and feature development as your protocol grows.
-
-</details>
-
-<details>
-
-<summary>Community Support and Integrations</summary>
 
 Tally helps your team prepare for a clean launch:
 
@@ -94,11 +42,7 @@ Tally helps your team prepare for a clean launch:
 * Page scaffolding
 * Integration with specialized tooling and providers as needed
 
-</details>
 
-### Exchange listing & compliance documentation (side)
-
-Launch with governance (add here)&#x20;
 
 
 

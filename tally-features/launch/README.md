@@ -9,7 +9,7 @@ Tally's token launch platform reduces time to launch with production-ready, end-
 
 #### **Key features of Tally's token launch system:** <a href="#h-key-features-of-tallys-token-launch-system" id="h-key-features-of-tallys-token-launch-system"></a>
 
-* [**ICOs**](https://docs.tally.xyz/tally-features/launch#ico): Execute liquidity bootstrapping pools (LBPs) or other sale mechanisms with custom interfaces that simplify participation
+* **Token sales**: Execute liquidity bootstrapping pools (LBPs) or other sale mechanisms with custom interfaces that simplify participation
 * [**Airdrops**](https://docs.tally.xyz/tally-features/launch#airdrop): Distribute tokens to millions of recipients with gas-optimized claim processing
 * [**Custom eligibility criteria**](https://docs.tally.xyz/tally-features/launch#eligibility-criteria): Define claim requirements based on on-chain activity, snapshot data, or allowlists—create targeted distributions that reward your community
 * [**Branded claim experiences**](https://docs.tally.xyz/tally-features/launch#custom-interfaces): Ship custom-designed claim pages with your branding and domain that provide clarity and consistency across all token operations
@@ -22,15 +22,9 @@ Tally's token launch platform reduces time to launch with production-ready, end-
 [features.md](features.md)
 {% endcontent-ref %}
 
-{% content-ref url="governance-smart-contracts.md" %}
-[governance-smart-contracts.md](governance-smart-contracts.md)
+{% content-ref url="public-token-sales.md" %}
+[public-token-sales.md](public-token-sales.md)
 {% endcontent-ref %}
-
-
-
-
-
-
 
 
 
