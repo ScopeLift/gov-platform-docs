@@ -2,7 +2,7 @@
 description: Learn how to propose streaming payments with Sablier on Tally.
 ---
 
-# Streaming Payments with Sablier
+# Streaming payments with Sablier
 
 Using [Sablier](https://sablier.com), you can make a proposal on Tally to stream ERC-20 tokens.&#x20;
 
@@ -14,7 +14,7 @@ Streaming can be used for vesting, airdrops, grants, payroll, etc. You can read 
 
 To call Sablier's contract, there are three steps:
 
-1. Find the [address of Sablier contract](https://docs.sablier.com/guides/lockup/deployments) on your DAO's network.
+1. Find the [address of Sablier contract](https://docs.sablier.com/guides/lockup/deployments) on your organization's network.
 2. Enter that address into Tally's Custom action.&#x20;
 
 <figure><img src="../../../../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
@@ -127,7 +127,7 @@ Let’s go over them one by one:
 
 Regarding cancelation, all streams in Sablier V2 have a cancelation setting.
 
-If it’s set to `true`, that means that the stream can be canceled at any time by the stream creator. The stream creator is the DAO. Canceling the stream will stop it and return the funds which haven’t yet been streamed over to the stream creator. If the DAO wants to cancel a cancellable stream, generally that will require another proposal.
+If it’s set to `true`, that means that the stream can be canceled at any time by the stream creator. The stream creator is the organization. Canceling the stream will stop it and return the funds which haven’t yet been streamed over to the stream creator. If the organization wants to cancel a cancellable stream, generally that will require another proposal.
 
 If it’s set to `false`, the stream is non-cancelable, which means that it cannot be stopped. The recipient is then guaranteed to receive the funds in the stream, no matter what happens. Setting the stream as non-cancelable is an irreversible action, there’s no way to make it cancelable afterwards.
 

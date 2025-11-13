@@ -2,7 +2,7 @@
 description: Mitigating friction in the governance process
 ---
 
-# Draft Proposals
+# Draft proposals
 
 ###
 
@@ -12,13 +12,13 @@ description: Mitigating friction in the governance process
 
 Want some feedback on your proposal before it goes live? Keen to write it and have someone else submit it?
 
-Draft proposals provide a more efficient and flexible way to get things done in DAOs. Draft proposals allow DAO contributors to save their proposals offchain in an easily digestible format for review before submitting them onchain.&#x20;
+Draft proposals provide a more efficient and flexible way to get things done in organizations. Draft proposals allow organization contributors to save their proposals offchain in an easily digestible format for review before submitting them on-chain.&#x20;
 
 ### Key Features
 
-1. **Gather Feedback**: Users can easily gather feedback on DAO proposals _before_ submitting them onchain.
-2. **Retain Context**: All draft proposal metadata is recorded and included in the onchain proposal when submitted.
-3. **Flexibility in Submission**: Draft proposals are created offchain and can later be submitted onchain at any time. This makes it possible for different stakeholders to create the proposal and ultimately submit it.
+1. **Gather Feedback**: Users can easily gather feedback on organization proposals _before_ submitting them on-chain.
+2. **Retain Context**: All draft proposal metadata is recorded and included in the on-chain proposal when submitted.
+3. **Flexibility in Submission**: Draft proposals are created offchain and can later be submitted on-chain at any time. This makes it possible for different stakeholders to create the proposal and ultimately submit it.
 
 ### How to Save a Draft Proposal
 

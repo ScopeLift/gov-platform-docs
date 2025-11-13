@@ -1,14 +1,14 @@
 ---
-description: You can put any onchain action into a Tally proposal using Custom Actions.
+description: You can put any on-chain action into a Tally proposal using Custom Actions.
 ---
 
-# Custom Actions
+# Custom actions
 
 
 
 {% embed url="https://youtu.be/_IbUeImW-sc" %}
 
-Custom Actions on Tally provide a versatile way to create and manage DAO proposals with complex requirements. These actions enable users to execute a variety of operations within a single proposal. Custom actions include any onchain action that Tally does not have a custom UI for (ex: token transfers).&#x20;
+Custom Actions on Tally provide a versatile way to create and manage organization proposals with complex requirements. These actions enable users to execute a variety of operations within a single proposal. Custom actions include any on-chain action that Tally does not have a custom UI for (ex: token transfers).&#x20;
 
 Tally has recipe books for the following custom actions:
 

@@ -1,5 +1,5 @@
 ---
-description: Take action in your DAO by initiating an onchain proposal on Tally.
+description: Take action in your organization by initiating an on-chain proposal on Tally.
 icon: box-ballot
 ---
 
@@ -9,13 +9,13 @@ icon: box-ballot
 
 {% embed url="https://youtu.be/zpdi5We7mpE" %}
 
-To submit an onchain proposal, you must have sufficient voting power to meet the DAO's Proposal threshold. This figure can be found on each DAO Page by expanding the Contract Parameters section near the top of the page.
+To submit an on-chain proposal, you must have sufficient voting power to meet the organization's Proposal threshold. This figure can be found on each organization Page by expanding the Contract Parameters section near the top of the page.
 
 ![](https://p434.p1.n0.cdn.getcloudapp.com/items/Wnu7L511/62adb73a-14cf-43fc-a2ec-f18d81da37fd.jpg?v=41fa4940cdd4058e9c1c5300247c9fab)
 
 ### Create a Proposal
 
-Visit the [DAO Page](broken-reference) of the DAO you'd like to create a proposal for, then click the **Create new proposal** button at the top of the page.
+Visit the [organization page](../../navigate-the-tally-homepage.md) of the organization you'd like to create a proposal for, then click the **Create new proposal** button at the top of the page.
 
 ![](<../../../.gitbook/assets/Screenshot 2023-08-25 at 2.10.18 pm.png>)
 
@@ -37,15 +37,15 @@ If you choose the Transfer tokens recipe, enter the Target wallet address, selec
 
 For a Custom action, enter the Target contract address or upload your ABI file if the contract is not on Etherscan. Select the desired Contract method, and enter the call data for that method.
 
-Actionless Proposals: If you choose to skip this step, and create a proposal with no actions, a transfer of 0 ETH to you (the proposer) will be added, as Governor requires one executable action for the proposal to be submitted onchain.
+Actionless Proposals: If you choose to skip this step, and create a proposal with no actions, a transfer of 0 ETH to you (the proposer) will be added, as Governor requires one executable action for the proposal to be submitted on-chain.
 
-Preview your proposal, then select Save draft or Publish. If you're ready to submit the proposal onchain, you'll also need to sign the transaction to the chain using your wallet. Draft proposals are created offchain and can later be submitted onchain at any time. Draft proposals can be created and submitted by different users.
+Preview your proposal, then select Save draft or Publish. If you're ready to submit the proposal on-chain, you'll also need to sign the transaction to the chain using your wallet. Draft proposals are created offchain and can later be submitted on-chain at any time. Draft proposals can be created and submitted by different users.
 
 <figure><img src="../../../.gitbook/assets/Screenshot 2023-12-08 at 7.17.22 pm.png" alt=""><figcaption></figcaption></figure>
 
 ## Running Proposal Simulations
 
-Having successful validations will give proposers, voters, and executors confidence that the proposal is valid. The Proposal Simulations feature is currently in beta and runs via the Tenderly Simulator API. Tally simulates the execution of the proposal assuming it is successful and queued on a fork of your DAO's network. From there, Tally runs each executable payload, impersonating the treasury (usually the timelock).
+Having successful validations will give proposers, voters, and executors confidence that the proposal is valid. The Proposal Simulations feature is currently in beta and runs via the Tenderly Simulator API. Tally simulates the execution of the proposal assuming it is successful and queued on a fork of your organization's network. From there, Tally runs each executable payload, impersonating the treasury (usually the timelock).
 
 When creating a proposal on Tally, the API will automatically run a simulation for the executable payload provided. You can view the result of this simulation in the Executable code tab of the proposal details. Each function will have its own result.
 
@@ -53,4 +53,4 @@ When creating a proposal on Tally, the API will automatically run a simulation f
 
 If one function fails, it is likely that the proposal execution will fail. If the function failed, click View raw result to inspect the response from the Tenderly Simulator API for additional insights. If the function fails or in cases when state changes may impact the success of a function, you may also want to re-run the simulation of the proposal.
 
-For example, a DAO proposes to transfer 1 ETH to an address, but their treasury has 0 ETH. As you might expect, the simulation result fails. From there, the DAO funds their treasury with 2 ETH; click Re-run to re-simulate the proposal. You should now expect a successful proposal!
+For example, an organization proposes to transfer 1 ETH to an address, but their treasury has 0 ETH. As you might expect, the simulation result fails. From there, the organization funds their treasury with 2 ETH; click Re-run to re-simulate the proposal. You should now expect a successful proposal!

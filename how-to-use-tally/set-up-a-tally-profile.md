@@ -2,7 +2,7 @@
 icon: paintbrush
 ---
 
-# Set up a Tally Profile
+# Set up a Tally profile
 
 
 
@@ -12,21 +12,21 @@ Once you've signed in to Tally, you can click your profile name at the top right
 
 ## Tally Profile
 
-### Your DAOs
+### Your organizations
 
-The Your DAOs page shows all the DAOs you're a member of.
+The Your organizations page shows all the organizations you're a member of.
 
-Your DAOs shows a list of all of the DAOs you're a member of, split into two sections: DAOs you manage (DAOs where you have the SuperAdmin or Admin role), and DAO memberships. Click on any DAO to navigate to its DAO Page.
+Your organizations shows a list of all of the organizations you're a member of, split into two sections: organizations you manage (organizations where you have the SuperAdmin or Admin role), and organization memberships. Click on any organization to navigate to its organization Page.
 
 <figure><img src="../.gitbook/assets/Screenshot 2025-01-10 at 2.33.41 PM.png" alt=""><figcaption></figcaption></figure>
 
 ### Profile&#x20;
 
-A Tally Profile shows details about that wallet's DAO Memberships and POAPs. It also includes information the user has added via Settings.
+A Tally Profile shows details about that wallet's organization Memberships and POAPs. It also includes information the user has added via Settings.
 
 At the top, you'll see a voter's display name, wallet address, and linked Twitter account. You'll also see a Delegate button, which allows you to delegate your voting power to that address.
 
-Below, you'll see that voter's DAO Memberships, with information on their voting power and delegations for each DAO.
+Below, you'll see that voter's organization Memberships, with information on their voting power and delegations for each organization.
 
 The POAPs section displays POAPs held by the address.
 
@@ -44,7 +44,7 @@ Update the information shown on your Tally Profile by accessing Settings from th
 
 Click the **Edit** button to make changes.
 
-The information you enter in Settings is public to everyone. The data in your Tally Profile is a mix of onchain data and off-chain data. Editing your Tally Profile adds off-chain data to the onchain data for your address. In some cases, it overrides the onchain data (e.g. your Tally name and avatar override your address’s ENS name and avatar, if any).
+The information you enter in Settings is public to everyone. The data in your Tally Profile is a mix of on-chain data and off-chain data. Editing your Tally Profile adds off-chain data to the on-chain data for your address. In some cases, it overrides the on-chain data (e.g. your Tally name and avatar override your address’s ENS name and avatar, if any).
 
 * Update your Tally username.
 * Choose a PFP from your wallet or upload an image.

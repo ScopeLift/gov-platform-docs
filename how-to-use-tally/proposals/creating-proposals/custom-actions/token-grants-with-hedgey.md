@@ -2,9 +2,9 @@
 description: Learn how to propose token grants with Hedgey on Tally.
 ---
 
-# Token Grants with Hedgey
+# Token grants with Hedgey
 
-Using [Hedgey](http://app.hedgey.finance), you can make a proposal for your DAO to distribute grants directly to grant recipients. Token Grants allow your DAO to distribute tokens for incentives, and other reward mechanisms to spur ecosystem development, decentralization, and proliferation.&#x20;
+Using [Hedgey](http://app.hedgey.finance), you can make a proposal for your organization to distribute grants directly to grant recipients. Token Grants allow your organization to distribute tokens for incentives, and other reward mechanisms to spur ecosystem development, decentralization, and proliferation.&#x20;
 
 Grants by Hedgey come in a few forms, so it is important to decide beforehand which version is most appropriate for your grant needs. Grants is at its core a simple distribution mechanism to distribute tokens to the grantees, with a public dashboard, and bake in time based milestones when the grantees will receive the tokens. Grants can be either revocable, or non-revocable, include ability to participate in governance with Tally, or can prevented from governance participation. Other key features include linear (streaming) or periodic time-based distribution schedules.
 
@@ -12,7 +12,7 @@ Grants by Hedgey come in a few forms, so it is important to decide beforehand wh
 
 For your grants distribution, you will need to make a decision on whether grants are revocable or not. A good rule of thumb is that for retroactive public goods funding, and other retroactive grants mechanisms, the milestones have already been achieved; so, the non-revocable grant is a great distribution mechanism to distribute tokens over time automatically, instead of simply disbursing tokens directly.&#x20;
 
-Conversely, revocable grants are a solution for grantees that are expected to perform tasks and achieve milestones, or distribute incentives and rewards, in the future. With a revocable grant, if the grantee does not meet their milestones, or for any other reason, the DAO can claw back the tokens from the grantee based on their vesting schedule - which is often configured to align with the time based milestones.&#x20;
+Conversely, revocable grants are a solution for grantees that are expected to perform tasks and achieve milestones, or distribute incentives and rewards, in the future. With a revocable grant, if the grantee does not meet their milestones, or for any other reason, the organization can claw back the tokens from the grantee based on their vesting schedule - which is often configured to align with the time based milestones.&#x20;
 
 ## Preparation
 
@@ -56,7 +56,7 @@ With your prepared data at hand, navigate to the Tally portal and create your pr
 
 #### Action #1&#x20;
 
-1. Target Contract address: the Address of your DAO Token or ERC-20 Token to be used for grants
+1. Target Contract address: the Address of your organization Token or ERC-20 Token to be used for grants
 2. Contract method: ‘approve’
 3. Calldatas:\
    spender: 0x3466EB008EDD8d5052446293D1a7D212cb65C646 (the Hedgey Batch Planner contract address)
@@ -75,7 +75,7 @@ If you are distributing Revocable Grants, choose the “batchVestingPlans” met
 Inputs are as follows:
 
 * Locker: _\<Hedgey Contract Address>_
-* Token: address of your DAO token
+* Token: address of your organization token
 * totalAmount: the total amount of tokens to be distributed to grant recipients
 * Plans: this is an array (tuple) of each grants plan, which you can paste in the details of each recipient individually
   * Recipient: address of grant recipient

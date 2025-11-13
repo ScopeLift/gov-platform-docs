@@ -6,7 +6,7 @@ description: Common questions about Swaps, asked and answered.
 
 ### Where do the quotes come from?
 
-The quotes come from[ CoW's price estimator API](https://docs.cow.fi/off-chain-services/api/price-estimation), which estimates current prices from onchain sources. As the order executes in the future, prices may vary.
+The quotes come from[ CoW's price estimator API](https://docs.cow.fi/off-chain-services/api/price-estimation), which estimates current prices from on-chain sources. As the order executes in the future, prices may vary.
 
 #### Quoted price is not guaranteed
 
@@ -22,13 +22,13 @@ The default price checker on Tally uses Uniswap v3 as a price oracle and sets a 
 
 #### Milkman price checker
 
-[Milkman](https://github.com/charlesndalton/milkman) enables smart contracts, like Governor, to place CoW Swap market orders onchain. Milkman's _price checker_ ensures that orders only fill at prices close to the market price.
+[Milkman](https://github.com/charlesndalton/milkman) enables smart contracts, like Governor, to place CoW Swap market orders on-chain. Milkman's _price checker_ ensures that orders only fill at prices close to the market price.
 
 ***
 
 ### What happens if the price checker doesn't see a good price?
 
-If the price checker rejects fills with unfavorable prices, the assets to sell remain in the Milkman order contract. To return those funds to the DAO's treasury, the Milkman order needs to be canceled with another onchain proposal. See [How do I cancel an order?](swaps-faqs.md#how-do-i-cancel-an-order).
+If the price checker rejects fills with unfavorable prices, the assets to sell remain in the Milkman order contract. To return those funds to the organization's treasury, the Milkman order needs to be canceled with another on-chain proposal. See [How do I cancel an order?](swaps-faqs.md#how-do-i-cancel-an-order).
 
 ***
 
@@ -46,7 +46,7 @@ _Note that steps 3-7 happen after the Governor proposal._
 
 1. You want to sell 5 COMP to buy USDT
 2. You create an order with Milkman. You set the price checker to use the Uniswap v3 oracle oracle and to accept 10% slippage.&#x20;
-3. That milkman order goes onchain. Solvers compete to offer the best price for your order.
+3. That milkman order goes on-chain. Solvers compete to offer the best price for your order.
 4. The best offer from CoW solvers is 100 USDT for 5 COMP.
 5. The price checker uses the Uniswap v3 oracle. The Uni v3 price is 21 USDT for 1 COMP.
 6.  The price checker confirms that the best offer is greater than the market price with slippage. Here’s the logic:
@@ -60,7 +60,7 @@ _Note that steps 3-7 happen after the Governor proposal._
     `21 USDT per COMP * 0.9 slippage = 18.9 COMP`&#x20;
 7. The price checker allows the order to execute on CoW protocol
 
-If no solver comes up with a price greater than 90% of the oracle’s market price, then the order will sit unfilled until someone does. This order can also be canceled by whoever has the cancel role. In the context of a Governor proposal, that’s the DAO, as it is the entity that request the swap.
+If no solver comes up with a price greater than 90% of the oracle’s market price, then the order will sit unfilled until someone does. This order can also be canceled by whoever has the cancel role. In the context of a Governor proposal, that’s the organization, as it is the entity that request the swap.
 
 ***
 
@@ -97,7 +97,7 @@ After a swap is executed successfully, the Swap Receipt will link to the CoW ord
 
 ### How do I cancel an order?
 
-To cancel an order, the Governor must call `cancel` on Milkman via an onchain proposal. Only the governor has authority to cancel an order. Canceling the order returns the assets that were for sale to the treasury.
+To cancel an order, the Governor must call `cancel` on Milkman via an on-chain proposal. Only the governor has authority to cancel an order. Canceling the order returns the assets that were for sale to the treasury.
 
 ***
 

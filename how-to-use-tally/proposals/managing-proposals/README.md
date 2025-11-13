@@ -12,7 +12,7 @@ Queuing, executing, and canceling proposals can all be accomplished directly fro
 ## Queuing and Executing Proposals
 
 {% hint style="warning" %}
-_Once voting ends, a proposal is not complete. If a proposal passes, additional steps are required before execution. A successful Governor proposal still needs to be **queued**—if the DAO uses a Timelock—and then **executed**._
+_Once voting ends, a proposal is not complete. If a proposal passes, additional steps are required before execution. A successful Governor proposal still needs to be **queued**—if the_ organization _uses a Timelock—and then **executed**._
 {% endhint %}
 
 Once a proposal passes, you can queue and execute it from the same place you voted:
@@ -37,7 +37,7 @@ This depends on the Timelock Delay of the Timelock contract. You can check that 
 
 ### _What does it mean to “execute” a proposal?_
 
-**Executing** a proposal runs its function calls onchain. Each proposal is associated with one or more function calls, which are visible in the `Executable Code` section of the [Proposal page](broken-reference). These calls can do things like transfer assets from the treasury, update parameters of the Governor itself, change or upgrade a DeFi protocol, or call another smart contract.
+**Executing** a proposal runs its function calls on-chain. Each proposal is associated with one or more function calls, which are visible in the `Executable Code` section of the [Proposal page](broken-reference). These calls can do things like transfer assets from the treasury, update parameters of the Governor itself, change or upgrade a DeFi protocol, or call another smart contract.
 
 ### _Who can execute a proposal?_
 
@@ -61,7 +61,7 @@ It depends! There isn’t a standard version of cancel logic across Governor imp
 
 **OpenZeppelin Governor**
 
-OpenZeppelin Governor leaves the cancellation up to the developer implementing the contract. Many DAOs implement a `Canceller` role that gives a list of addresses the power to cancel proposals.
+OpenZeppelin Governor leaves the cancellation up to the developer implementing the contract. Many organizations implement a `Canceller` role that gives a list of addresses the power to cancel proposals.
 
 **Governor Alpha**
 

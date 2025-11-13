@@ -2,11 +2,11 @@
 description: Learn how to propose token vesting plans with Hedgey on Tally.
 ---
 
-# Token Vesting with Hedgey
+# Token vesting with Hedgey
 
-Using [Hedgey](https://hedgey.finance/), you can make a proposal for ERC-20 token vesting plans. Token vesting plans allow onchain teams to issue vesting token plans to members, mirroring traditional vesting with features like cliffs, flexible schedules, and backdated start dates. It's fully onchain, revocable, and customized for onchain teams' needs.
+Using [Hedgey](https://hedgey.finance/), you can make a proposal for ERC-20 token vesting plans. Token vesting plans allow on-chain teams to issue vesting token plans to members, mirroring traditional vesting with features like cliffs, flexible schedules, and backdated start dates. It's fully on-chain, revocable, and customized for on-chain teams' needs.
 
-Key features include linear/periodic unlock strategies, onchain governance voting, customizable dates, governance rights to vesting tokens, admin features for transferring vesting plans, delegation of vesting plans to multiple addresses, and beneficiaries' ability to claim tokens at their discretion. The contracts are fully onchain, ensuring interaction even without Hedgey UIs​​.
+Key features include linear/periodic unlock strategies, on-chain governance voting, customizable dates, governance rights to vesting tokens, admin features for transferring vesting plans, delegation of vesting plans to multiple addresses, and beneficiaries' ability to claim tokens at their discretion. The contracts are fully on-chain, ensuring interaction even without Hedgey UIs​​.
 
 ## How to call Hedgey’s Contract
 
@@ -16,7 +16,7 @@ You can create vesting plans one at a time or multiple in the same transaction. 
 
 1.  The first custom action is to approve the allowance for the Hedgey contract to spend the tokens to create vesting plans.
 
-    * **Target contract address:** the address of your DAO governance token, or whatever token you are planning to use for vesting
+    * **Target contract address:** the address of your organization governance token, or whatever token you are planning to use for vesting
     * **Contract method:** approve
     * **Calldatas:**
       * **spender:** 0x3466EB008EDD8d5052446293D1a7D212cb65C646 (the Hedgey Batch Planner contract address)

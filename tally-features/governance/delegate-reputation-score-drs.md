@@ -4,13 +4,13 @@ icon: star
 
 # Delegate Reputation Score (DRS)
 
-Effective governance hinges on motivated, informed delegates. Yet in most mature DAOs, fewer than 10 % of token holders take the time to read, debate, and vote.&#x20;
+Effective governance hinges on motivated, informed delegates. Yet in most mature organizations, fewer than 10 % of token holders take the time to read, debate, and vote.&#x20;
 
-A transparent Delegate Reputation Score (DRS) turns that silent majority into a strategic resource by rewarding the behavior every protocol needs: participating in proposal commentary, adding context, and voting with responsibility and accountability. DAOs like Arbitrum and Obol are already utilizing DRS for delegate compensation mechanisms to reward quality governance participation.
+A transparent Delegate Reputation Score (DRS) turns that silent majority into a strategic resource by rewarding the behavior every protocol needs: participating in proposal commentary, adding context, and voting with responsibility and accountability. organizations like Arbitrum and Obol are already utilizing DRS for delegate compensation mechanisms to reward quality governance participation.
 
 ### Why does apathy persist?
 
-* **Lack of interest:** most token holders are speculators and are only interested in direct profits through upward price appreciation of their tokens. This has also resulted in low and/or stagnant rates of delegation. On the delegate front, voting in DAOs can be time-consuming, as it often requires reading through proposals and understanding the implications of each vote. Without an explicit upside, most are simply not interested enough to commit themselves to this process.
+* **Lack of interest:** most token holders are speculators and are only interested in direct profits through upward price appreciation of their tokens. This has also resulted in low and/or stagnant rates of delegation. On the delegate front, voting in organizations can be time-consuming, as it often requires reading through proposals and understanding the implications of each vote. Without an explicit upside, most are simply not interested enough to commit themselves to this process.
 * **Lack of Knowledge:** for non-technical delegates especially, some proposals are just too complex to understand. The sensible thing to do in such cases is to abstain from voting.
 * **Free‑rider dilemma:** most benefits accrue regardless of participation.
 * **Information overload**: proposals can exceed 40 pages; time is scarce.
@@ -40,7 +40,7 @@ Weightings should mirror the causal leverage of each action on proposal quality,
 
 Voting is an outcome event stemming from weeks of deliberation, and forum discourse is the process that actually shapes that outcome. Threads in which delegates surface trade‑offs, negotiate red lines, and integrate feedback from diverse stakeholders do more to refine a proposal’s final state than the eventual on‑chain “yes” or “no.”&#x20;
 
-Empirically, DAOs that weight forum contributions 2‑3× higher than raw vote counts (e.g., Arbitrum, Obol) observe faster consensus formation and fewer post‑vote amendments.&#x20;
+Empirically, organizations that weight forum contributions 2‑3× higher than raw vote counts (e.g., Arbitrum, Obol) observe faster consensus formation and fewer post‑vote amendments.&#x20;
 
 In addition to weightings, there are also other important aspects to consider in designing the delegate scoring formula.
 
@@ -78,6 +78,6 @@ In addition to weightings, there are also other important aspects to consider in
 
 ### Ready for DRS?&#x20;
 
-Tally can surface delegate scores directly on your DAO’s delegate page, and if the scores are onchain, these scores can directly be streamed into reward‑distribution contracts. Whether you’re launching your first incentive pilot or scaling an existing scheme, our team can help.
+Tally can surface delegate scores directly on your organization’s delegate page, and if the scores are onchain, these scores can directly be streamed into reward‑distribution contracts. Whether you’re launching your first incentive pilot or scaling an existing scheme, our team can help.
 
 Interested in integrating DRS? [Talk to our team to get started](http://tally.xyz/contact).
