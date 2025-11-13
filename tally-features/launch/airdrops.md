@@ -43,10 +43,9 @@ Tally's airdrop infrastructure uses Merkle tree-based claim processing to minimi
 
 #### Technical features
 
-**Merkle tree optimization:** Tally's airdrops use Merkle tree data structures to store recipient eligibility off-chain while enabling on-chain verification.
+* **Merkle tree optimization:** Tally's airdrops use Merkle tree data structures to store recipient eligibility off-chain while enabling on-chain verification.
+* **Multichain architecture:** Deploy the same airdrop across multiple EVM chains with consistent claiming logic. Recipients can claim on their preferred network without complex bridging or wrapped token mechanics.
+* **Claim window controls:** Set custom start and end dates for claim periods, with optional extensions and emergency pause functionality.
+* [**Vesting integration**](vesting-and-disitribution.md)**:** Combine airdrops with vesting schedules to distribute tokens over time while maintaining a seamless claiming experience.
 
-**Multi-chain architecture:** Deploy the same airdrop across multiple EVM chains with consistent claiming logic. Recipients can claim on their preferred network without complex bridging or wrapped token mechanics.
-
-**Claim window controls:** Set custom start and end dates for claim periods, with optional extensions and emergency pause functionality.
-
-[**Vesting integration**](vesting-and-disitribution.md)**:** Combine airdrops with vesting schedules to distribute tokens over time while maintaining a seamless claiming experience.
+Ready to airdrop? [Talk to our team to get started](http://tally.xyz/contact).

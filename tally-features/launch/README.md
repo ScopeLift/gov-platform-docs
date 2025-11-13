@@ -33,3 +33,5 @@ Tally's token launch platform reduces time to launch with production-ready, end-
 {% content-ref url="features.md" %}
 [features.md](features.md)
 {% endcontent-ref %}
+
+Ready to launch your token? [Talk to our team to get started](http://tally.xyz/contact).

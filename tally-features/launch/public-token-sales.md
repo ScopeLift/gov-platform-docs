@@ -36,3 +36,7 @@ Launch token sales with tailored experiences that match your brand and specific 
 * Users could participate through a simplified interface
 * The Tally team provided ongoing support throughout the launch window
 * Post-sale analytics and reporting helped inform future token distribution decisions
+
+
+
+Ready to launch a token sale? [Talk to our team to get started](http://tally.xyz/contact).

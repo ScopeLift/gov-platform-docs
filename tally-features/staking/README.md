@@ -15,8 +15,8 @@ Protocols use Tally's incentives and staking solution to return protocol revenue
 * [Delegate compensation](delegate-compensation.md): Reward active governance participants based on their contributions and engagement. Integrate reputation scoring to gate compensation.
 * Multiple reward sources: Distribute rewards from protocol revenue, treasury assets, token emissions, or combine all three—in any ERC20 token or multiple tokens simultaneously
 * Governance integration: Staked tokens retain full voting power, so holders don't have to choose between earning rewards and participating in governance. Optionally, make rewards conditional on active governance participation
-* **Liquid staking support:** Enable token holders to earn rewards while keeping their tokens transferable and usable across DeFi.
-* **Flexible eligibility criteria:** Design custom requirements for earning rewards based on specific behaviors that benefit your protocol.
+* Liquid staking suppor&#x74;**:** Enable token holders to earn rewards while keeping their tokens transferable and usable across DeFi.
+* Flexible eligibility criteri&#x61;**:** Design custom requirements for earning rewards based on specific behaviors that benefit your protocol.
 * [**Battle-tested contracts**](../../set-up-and-technical-documentation/staking-contracts/)**:** Deploy with confidence using audited, open-source smart contracts.
 
 ## Get started

@@ -14,3 +14,7 @@ Optional transfer restrictions, vesting schedules, and lockup mechanisms with se
 **Airdrop vesting:** Combine airdrops with vesting to prevent immediate sell pressure while rewarding community members over time.
 
 **Grants and contributor rewards:** Set up vesting schedules for grant recipients and protocol contributors to encourage sustained participation.
+
+
+
+Ready to integrate vesting? [Talk to our team to get started](http://tally.xyz/contact).
