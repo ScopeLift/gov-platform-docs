@@ -3,7 +3,7 @@ description: Understand what Gnosis Safes are and how they work on Tally.
 icon: shield-check
 ---
 
-# Gnosis Safe Overview
+# Gnosis Safe overview
 
 > _It's easy to create or link a Gnosis Safe on Tally from_ [dao-settings.md](../managing-a-dao/dao-settings.md "mention")_. Learn more about Gnosis Safes below, or skip right to the_ [_step-by-step instructions_](gnosis-safe.md#tally)_._
 
@@ -11,7 +11,7 @@ icon: shield-check
 
 Gnosis Safe is a smart contract multi-sig wallet running on Ethereum that requires a minimum number of people to approve a transaction before it can occur. This added layer of security helps to protect against the loss or theft of funds.
 
-Gnosis Safes are commonly used to manage pooled DAO funds. DAOs often require a certain number of members to sign off on any fund transfers. DAO actions are generally voted upon by all members and then executed by the core group of signers.
+Gnosis Safes are commonly used to manage pooled organization funds. organizations often require a certain number of members to sign off on any fund transfers. organization actions are generally voted upon by all members and then executed by the core group of signers.
 
 ### How does a Gnosis Safe work? <a href="#how" id="how"></a>
 
@@ -41,9 +41,9 @@ Delegates can be viewed, added and removed via the [Safe transaction service](ht
 
 ## Gnosis Safes on Tally <a href="#tally" id="tally"></a>
 
-To empower DAOs that use Gnosis Safes, Tally allows users to create or link their Safes to your DAO.
+To empower organizations that use Gnosis Safes, Tally allows users to create or link their Safes to your organization.
 
-Creating a Gnosis Safe on Tally creates the exact same instance of Gnosis’s smart contract that Gnosis’s own app does, with the added benefit of managing it from the same Tally DAO that you may be using for Governor and Tokenless DAOs. Having your Gnosis Safe linked on Tally will also allow users to take advantage of Tally features such as the Create Proposal tool and Recipes.
+Creating a Gnosis Safe on Tally creates the exact same instance of Gnosis’s smart contract that Gnosis’s own app does, with the added benefit of managing it from the same Tally organization that you may be using for Governor and Tokenless organizations. Having your Gnosis Safe linked on Tally will also allow users to take advantage of Tally features such as the Create Proposal tool and Recipes.
 
 <figure><img src="../../.gitbook/assets/CleanShot 2023-02-22 at 20.33.18@2x.png" alt=""><figcaption><p>Gnosis Safes tab in <a data-mention href="../managing-a-dao/dao-settings.md">dao-settings.md</a>.</p></figcaption></figure>
 

@@ -3,11 +3,11 @@ description: How to make your Token and Governor contract compatible with Tally
 icon: check
 ---
 
-# Check for Token Contract Compatibility
+# Check for token contract compatibility
 
-Tally supports DAOs on Ethereum, Polygon, Optimism, Arbitrum, Avalanche, Base, Moonbeam, Scroll, BNB Chain, Gnosis, and various testnets.
+Tally supports organizations on Ethereum, Polygon, Optimism, Arbitrum, Avalanche, Base, Moonbeam, Scroll, BNB Chain, Gnosis, and various testnets.
 
-Tally connects with the on-chain contracts for your DAO in two places. Tally’s servers index the onchain data, and Tally’s web3 site helps users make calls directly to the contracts running on the blockchain.
+Tally connects with the on-chain contracts for your organization in two places. Tally’s servers index the on-chain data, and Tally’s web3 site helps users make calls directly to the contracts running on the blockchain.
 
 Here, we describe the interface that your contracts need to follow to be compatible with Tally. The easiest way to be compatible is to use the [Open Zeppelin Wizard](https://wizard.openzeppelin.com/) to deploy a governance token and governor&#x20;
 
@@ -25,8 +25,8 @@ If you do need to change something, check that your contracts implement the meth
 [compound-governor-bravo.md](compound-governor-bravo.md)
 {% endcontent-ref %}
 
-{% content-ref url="network-support.md" %}
-[network-support.md](network-support.md)
+{% content-ref url="broken-reference" %}
+[Broken link](broken-reference)
 {% endcontent-ref %}
 
 {% content-ref url="supported-use-cases-faq.md" %}

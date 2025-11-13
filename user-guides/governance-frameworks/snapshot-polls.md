@@ -1,10 +1,10 @@
-# Snapshot Polls
+# Snapshot polls
 
 ## **Background**
 
-Snapshot is an offchain governance tool that enables gasless voting developed by the team behind the Balancer exchange. While Snapshot was initially released just for BAL signal polls, other projects quickly adopted it to help their users avoid high transaction fees while participating in governance.
+Snapshot is an off-chain governance tool that enables gasless voting developed by the team behind the Balancer exchange. While Snapshot was initially released just for BAL signal polls, other projects quickly adopted it to help their users avoid high transaction fees while participating in governance.
 
-Several governance systems use Snapshot polls to gauge community sentiment as part of a [procedural governance process](https://docs.tally.xyz/education/governance-concepts/procedural-governance), while maintaining a primary onchain voting system for ratifying proposals.
+Several governance systems use Snapshot polls to gauge community sentiment as part of a [procedural governance process](https://docs.tally.xyz/education/governance-concepts/procedural-governance), while maintaining a primary on-chain voting system for ratifying proposals.
 
 ## **Governance Process**
 

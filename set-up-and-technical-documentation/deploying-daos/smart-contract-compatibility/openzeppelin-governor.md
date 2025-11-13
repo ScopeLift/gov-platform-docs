@@ -1,5 +1,6 @@
 ---
 description: Compatibility considerations when implementing OpenZeppelin governor
+icon: building-columns
 ---
 
 # OpenZeppelin Governor

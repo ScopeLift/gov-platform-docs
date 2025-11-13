@@ -1,6 +1,6 @@
 ---
 description: >-
-  Tally enables onchain transactions via Safe, including submitting proposals,
+  Tally enables on-chain transactions via Safe, including submitting proposals,
   voting, and delegating.
 icon: shield-plus
 ---

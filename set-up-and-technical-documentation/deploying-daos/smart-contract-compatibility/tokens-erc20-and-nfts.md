@@ -1,7 +1,8 @@
 ---
 description: >-
-  How to make an ERC-20 or ERC-721 token contract that will work with onchain
+  How to make an ERC-20 or ERC-721 token contract that will work with on-chain
   governance.
+icon: image
 ---
 
 # Tokens: ERC-20 and NFTs

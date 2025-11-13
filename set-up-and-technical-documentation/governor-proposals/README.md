@@ -1,11 +1,11 @@
 ---
-description: Standards for interacting with onchain Governor Proposals
+description: Standards for interacting with on-chain Governor Proposals
 icon: pen-to-square
 ---
 
-# Governor Proposal Standards
+# Governor proposal standards
 
-Governor DAOs are smart contract accounts, which means they have the capability to make any on-chain call that a wallet or externally-owned account can. This flexibility is crucial for the integration of third-party applications with the Governor. This section will provide a detailed guide on how to integrate third-party apps with the Governor, ensuring seamless interaction and functionality.
+Governor organizations are smart contract accounts, which means they have the capability to make any on-chain call that a wallet or externally-owned account can. This flexibility is crucial for the integration of third-party applications with the Governor. This section will provide a detailed guide on how to integrate third-party apps with the Governor, ensuring seamless interaction and functionality.
 
 ### Integration Process&#x20;
 

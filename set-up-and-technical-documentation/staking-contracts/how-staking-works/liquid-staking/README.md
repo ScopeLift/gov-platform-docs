@@ -3,7 +3,7 @@ description: Auto-compounding liquid staking token
 icon: coin-vertical
 ---
 
-# Liquid Staking
+# Liquid staking
 
 The liquid staking token, also called the LST, is the easiest way to get rewards from staking. It's like what stETH does for ETH staking.
 
@@ -19,7 +19,7 @@ Check out the code in the open-source [stGOV repo](https://github.com/withtally/
 * Holder stake tokens to receive LST tokens.
 * Optionally, they can delegate the governance token voting power
 * The LST contracts deposit the staked tokens in Staker. The LST assigns the voting power to the holder's chosen delegate, if any. Otherwise, it assigns the voting power using the [default auto-](https://app.gitbook.com/o/zHytzWx2o7DjCP8sQY76/s/-MQO0N_aitpkSUyz4BYE/~/changes/699/set-up-and-technical-documentation/staking-contracts/how-staking-works/liquid-staking-tokens/lst-auto-delegates)delegate
-* The [auto-delegate](lst-auto-delegates.md) can be configured by governance. This keeps the default voting power aligned with the DAO and mitigates capture risk.
+* The [auto-delegate](lst-auto-delegates.md) can be configured by governance. This keeps the default voting power aligned with the organization and mitigates capture risk.
 * The LST contract claims Staker's rewards regularly.
 * The position compounds. The rewards are auctioned off for more of the staked token, which is added to each user's staked position. e.g. a deposit worth 100 GOV tokens might grow to be worth 105 GOV tokens.
 

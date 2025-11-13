@@ -1,21 +1,21 @@
 ---
-description: Manage your DAO.
+description: Manage your organization.
 icon: people-arrows
 ---
 
 # Organization admins
 
-> _The user who adds a DAO to Tally will automatically be granted Admin privileges. If you have an older Governor DAO, it may not have an Admin — reach out to us to start the process of adding one!_
+> _The user who adds a_ organization _to Tally will automatically be granted Admin privileges. If you have an older Governor_ organizatio&#x6E;_, it may not have an Admin — reach out to us to start the process of adding one!_
 
 ## Admins Section
 
-Admins for a given DAO are displayed at the bottom of the [Broken link](broken-reference "mention"):
+Admins for a given organization are displayed at the bottom of the [Broken link](broken-reference "mention"):
 
-<figure><img src="../../.gitbook/assets/image (3) (2).png" alt=""><figcaption><p>Admins section of the <a href="broken-reference">DAO Page</a>.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3) (2).png" alt=""><figcaption><p>Admins section of the organization page</p></figcaption></figure>
 
 ## Admin Abilities
 
-* Adjust DAO settings, including logo, description, and links.
+* Adjust organization settings, including logo, description, and links.
 * [Link Gnosis Safes](../using-governor-with-gnosis-safe/gnosis-safe.md).
 
 ## Superadmin Abilities
@@ -25,4 +25,4 @@ Admins for a given DAO are displayed at the bottom of the [Broken link](broken-r
 
 ## Add an Admin
 
-No Admin in your DAO? Reach out via chat support on the [Tally website](https://www.tally.xyz/) or the #support channel in the [Tally Discord](https://discord.gg/3wgMrqaCCk).
+No Admin in your organization? Reach out to the [Tally team](https://tally.xyz/contact).

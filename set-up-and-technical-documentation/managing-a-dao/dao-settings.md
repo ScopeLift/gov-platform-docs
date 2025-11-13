@@ -5,23 +5,21 @@ icon: gears
 
 # Organization settings
 
-> _If you have the_ [_Admin or Superadmin_](dao-admins.md) _role for your DAO, you can update the settings of your_ [Broken link](broken-reference "mention") _on Tally._
+<figure><img src="../../.gitbook/assets/CleanShot 2023-02-22 at 20.11.49@2x.png" alt=""><figcaption><p>Click <strong>Settings</strong> on your organization page.</p></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/CleanShot 2023-02-22 at 20.11.49@2x.png" alt=""><figcaption><p>Click <strong>Settings</strong> on your <a href="broken-reference">DAO Page</a>.</p></figcaption></figure>
-
-To access the DAO Settings page, click the **Settings** button in the header of your [Broken link](broken-reference "mention").
+To access the organization Settings page, click the **Settings** button in the header of your [Broken link](broken-reference "mention").
 
 ## Basics
 
 <figure><img src="../../.gitbook/assets/CleanShot 2023-02-22 at 20.17.19@2x.png" alt=""><figcaption><p>Basics tab.</p></figcaption></figure>
 
-From the **Basics** tab of DAO Settings, you can update all of your DAO's information, including its logo, name, description, and links. You can also include _Contact Information_ for your DAO.
+From the **Basics** tab of organization Settings, you can update all of your organization's information, including its logo, name, description, and links. You can also include _Contact Information_ for your organization.
 
 ## Admins
 
 <figure><img src="../../.gitbook/assets/CleanShot 2023-02-22 at 20.21.13@2x.png" alt=""><figcaption><p>Admins tab.</p></figcaption></figure>
 
-From the **Admins** tab, view your DAO's [Admins and Superadmins](dao-admins.md). If you have the Superadmin role, you can also add these roles for other wallet addresses.
+From the **Admins** tab, view your organization's [Admins and Superadmins](dao-admins.md). If you have the Superadmin role, you can also add these roles for other wallet addresses.
 
 ## Safes
 

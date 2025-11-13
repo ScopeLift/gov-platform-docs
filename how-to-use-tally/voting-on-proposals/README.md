@@ -36,7 +36,7 @@ In the _Voting_ pop up, choose your vote— **For**, **Against**, or **Abstain**
 
 For DAOs that use the [Governor contract](https://docs.tally.xyz/user-guides/deploying-governor-daos/deploy-a-governor), only delegated tokens can participate in voting. If you want to vote on proposals directly, you need to delegate your voting power to your own address. Check out our [Delegate Your Voting Power](broken-reference) doc for a step-by-step guide!
 
-#### Have you waited for Tally to index the onchain event?
+#### Have you waited for Tally to index the on-chain event?
 
 Tally may still be indexing the vote—check back in a bit!
 

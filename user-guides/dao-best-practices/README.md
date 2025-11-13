@@ -1,13 +1,18 @@
 ---
-description: Tips for creating and managing a successful onchain DAO
+description: Tips for creating and managing a successful on-chain organization
 icon: arrow-up-right
 ---
 
-# DAO Best Practices
+# Organizational best practices
 
-Running an effective on-chain DAO requires thoughtful design, secure implementation, and proactive governance. This section offers practical guidance and tools to help DAO builders and participants operate with confidence and clarity.
+Running an effective on-chain organization requires thoughtful design, secure implementation, and proactive governance. This section offers practical guidance and tools to help builders and participants operate with confidence and clarity.
 
 Explore the following resources:
 
-* [Running an Onchain DAO Using OpenZeppelin Governor](running-an-onchain-dao-using-openzeppelin-governor.md): A guide to launching and customizing secure, efficient DAOs using OpenZeppelin Governor.
-* [Seatbelt for Governance](seatbelt-for-governance.md): **Proposal Simulation for DAO Safety**: An overview of Seatbelt, an automated simulation layer that helps prevent costly on-chain execution errors.
+{% content-ref url="running-an-onchain-dao-using-openzeppelin-governor.md" %}
+[running-an-onchain-dao-using-openzeppelin-governor.md](running-an-onchain-dao-using-openzeppelin-governor.md)
+{% endcontent-ref %}
+
+{% content-ref url="seatbelt-for-governance.md" %}
+[seatbelt-for-governance.md](seatbelt-for-governance.md)
+{% endcontent-ref %}

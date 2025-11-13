@@ -10,17 +10,17 @@ Multisig governance is usually paired with offchain voting. Signers may be elect
 
 ## **Background**
 
-While onchain voting and proposal execution are often regarded as the pinnacle of decentralized governance, they come with several trade-offs. Protocols may encounter technical or crypto-economic vulnerabilities in their governance mechanisms, or even face a hostile takeover. Even in the absence of adverse events, onchain governance is inherently more expensive and less flexible compared to other execution methods, such as multisignature wallets (multisigs). Participating in onchain governance requires each voter to submit a transaction on the blockchain, incurring gas fees, and the proposal voting and timelock periods introduce significant delays.
+While on-chain voting and proposal execution are often regarded as the pinnacle of decentralized governance, they come with several trade-offs. Protocols may encounter technical or crypto-economic vulnerabilities in their governance mechanisms, or even face a hostile takeover. Even in the absence of adverse events, on-chain governance is inherently more expensive and less flexible compared to other execution methods, such as multisignature wallets (multisigs). Participating in on-chain governance requires each voter to submit a transaction on the blockchain, incurring gas fees, and the proposal voting and timelock periods introduce significant delays.
 
 On the other hand, multisigs present a different set of advantages and disadvantages. While protocols must depend on multisig signers to act ethically and respond promptly to signature requests, entrusting known individuals can sometimes be less risky than granting full power to anonymous token holders.
 
-Ultimately, there are trade-offs between multisig and onchain governance mechanisms, but both are widely regarded as superior and more reliable alternatives to allowing a single signer to dictate governance. A notable example from mid-2020 illustrates this point: the pseudonymous Sushiswap founder, Chef Nomi, was able to [cash out over $10 million](https://www.coindesk.com/tech/2020/09/11/i-fked-up-sushiswap-creator-chef-nomi-returns-14m-dev-fund/) by directly controlling the development fund through a single-signature wallet, without any oversight. This incident underscores the risks associated with centralized control and highlights the importance of implementing robust governance mechanisms.
+Ultimately, there are trade-offs between multisig and on-chain governance mechanisms, but both are widely regarded as superior and more reliable alternatives to allowing a single signer to dictate governance. A notable example from mid-2020 illustrates this point: the pseudonymous Sushiswap founder, Chef Nomi, was able to [cash out over $10 million](https://www.coindesk.com/tech/2020/09/11/i-fked-up-sushiswap-creator-chef-nomi-returns-14m-dev-fund/) by directly controlling the development fund through a single-signature wallet, without any oversight. This incident underscores the risks associated with centralized control and highlights the importance of implementing robust governance mechanisms.
 
 ### **Governance Process**
 
 Multisig governance is typically paired with a signal voting mechanism to maintain legitimacy. As an example, Yearn, Synthetix, and Sushiswap all use the Snapshot voting tool to let token holders make key decisions and delegate authority.
 
-After considering a proposal in the community's discussion venue, a signal vote will be held to assess support. While this typically involves voting with Snapshot, in some cases communities may use onchain signal voting (eg. early Yearn [ygov.finance voting tool](https://ygov.finance/vote)) or off chain voting which is weighted by user accounts instead of token holdings (eg. polls in Discourse forums or Discord).
+After considering a proposal in the community's discussion venue, a signal vote will be held to assess support. While this typically involves voting with Snapshot, in some cases communities may use on-chain signal voting (eg. early Yearn [ygov.finance voting tool](https://ygov.finance/vote)) or off chain voting which is weighted by user accounts instead of token holdings (eg. polls in Discourse forums or Discord).
 
 Regardless of voting system used (on or off chain, weighted by users or token holdings), the vote itself doesn't trigger execution of the proposal's effects. Instead, the vote serves as instructions for the multisig signers to execute the proposal using their admin priveledges.
 
@@ -30,7 +30,7 @@ Multisigs can act against the will of their community or voters. With tokens use
 
 Multisigs have a small number of identifiable signers, which makes them a clear target for government regulation, legal actions, or other attacks. Multisig signers' discretion in executing their authority could also cause liability issues. So a distributed set of token holders could potentially offer greater censorship resistance.
 
-## Which DAOs use multisig governance?
+## Which organizations use multisig governance?
 
 Synthetix, Yearn Finance, and [Sushiswap](https://docs.tally.xyz/education/index-of-daos/daos-not-on-tally/sushiswap-sushi) all use multisig governance.
 

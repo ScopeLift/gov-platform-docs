@@ -3,7 +3,7 @@ description: Tips for deploying and debugging the Staker system.
 icon: magnifying-glass-plus
 ---
 
-# FAQ & Troubleshooting
+# FAQ & troubleshooting
 
 ### Common Issues
 
@@ -11,7 +11,7 @@ icon: magnifying-glass-plus
    1. Ensure reward tokens are transferred to the staking contract before notification
    2. &#x20;Check that the reward notifier has sufficient balance or approval
 2. Oracle operations
-   1. If using an oracle-based calculator, tools like OpenZeppelin Defender can push earning power updates onchain
+   1. If using an oracle-based calculator, tools like OpenZeppelin Defender can push earning power updates on-chain
    2. The PauseGuardian should monitor the oracle’s updates and react quickly if the oracle goes offline or posts incorrect earning power
 3. Earning power not updating:
    1. Earning power doesn’t automatically update.&#x20;

@@ -5,7 +5,7 @@ description: >-
 icon: memo-circle-check
 ---
 
-# Seatbelt for Governance
+# Seatbelt for governance
 
 ## What is Seatbelt?
 
@@ -15,7 +15,7 @@ A small error in a proposal’s calldata like an incorrect parameter and/or a mi
 
 ## How seatbelt works
 
-Every few hours Seatbelt scans supported DAOs for active proposals, forks the chain at the current block, and runs each candidate through [Tenderly](https://tenderly.co/transaction-simulator/). The resulting trace is parsed for:
+Every few hours Seatbelt scans supported organizations for active proposals, forks the chain at the current block, and runs each candidate through [Tenderly](https://tenderly.co/transaction-simulator/). The resulting trace is parsed for:
 
 * State-variable mutations
 * External contract calls and target addresses
@@ -33,7 +33,7 @@ The fork can override timestamps, block numbers, and quorum thresholds, so Seatb
 
 ## Seatbelt implementation
 
-Seatbelt currently runs on Uniswap, Compound, and ENS. Additional DAOs can opt in by submitting a pull request to the Seatbelt repository or by contacting Tally. The same simulation routine can be executed locally for ad-hoc checks; the local output matches the report served to delegates.
+Seatbelt currently runs on Uniswap, Compound, and ENS. Additional organizations can opt in by submitting a pull request to the Seatbelt repository or by contacting Tally. The same simulation routine can be executed locally for ad-hoc checks; the local output matches the report served to delegates.
 
 \
 Helpful resources

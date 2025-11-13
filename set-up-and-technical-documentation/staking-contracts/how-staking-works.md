@@ -3,9 +3,9 @@ description: Understand how Tally's staking contracts work under the hood
 icon: gears
 ---
 
-# How Staking Works
+# How staking works
 
-[Staker](https://github.com/withtally/staker) is a flexible, configurable staking contract. It distributes onchain staking rewards to the holders of an ERC20 token, including DAO governance tokens. The rewards are proportional to the amount staked over time. Rewards can be boosted or penalized by the eligibility criteria.\
+[Staker](https://github.com/withtally/staker) is a flexible, configurable staking contract. It distributes on-chain staking rewards to the holders of an ERC20 token, including governance tokens. The rewards are proportional to the amount staked over time. Rewards can be boosted or penalized by the eligibility criteria.\
 
 
 **System Architecture**
@@ -103,7 +103,7 @@ Staker uses a concept called "Earning Power" to distribute rewards. Every deposi
 
 
 
-* An oracle puts scores onchain
+* An oracle puts scores on-chain
 * The calculator turns earning power on and off based on whether an address's score exceeds a configurable threshold
 * Staker uses the earning power over time to distribute rewards.
 

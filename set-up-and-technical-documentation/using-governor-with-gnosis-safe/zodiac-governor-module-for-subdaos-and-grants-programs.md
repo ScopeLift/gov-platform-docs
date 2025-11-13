@@ -1,18 +1,20 @@
 ---
-description: Create SubDAOs and manage Grants Programs using the Zodiac Governor module.
+description: >-
+  Create Sub-organizations and manage Grants Programs using the Zodiac Governor
+  module.
 icon: diagram-cells
 ---
 
-# Zodiac Governor Module for SubDAOs and Grants Programs
+# Zodiac Governor Module for sub-organizations and grants programs
 
 ### About Gnosis Zodiac
 
-Zodiac is a collection of tools built according to an open standard by the team behind Gnosis Safe. The Zodiac open standard enables DAOs to act more like constellations, connecting protocols, platforms, and chains, no longer confined to monolithic designs. To learn more about the ideas behind Zodiac, visit the [Gnosis Guild blog](http://gnosisguild.mirror.xyz/) or read the [Introduction: Zodiac Standard](https://www.zodiac.wiki/documentation/governor-module).\
+Zodiac is a collection of tools built according to an open standard by the team behind Gnosis Safe. The Zodiac open standard enables organizations to act more like constellations, connecting protocols, platforms, and chains, no longer confined to monolithic designs. To learn more about the ideas behind Zodiac, visit the [Gnosis Guild blog](http://gnosisguild.mirror.xyz/) or read the [Introduction: Zodiac Standard](https://www.zodiac.wiki/documentation/governor-module).\
 
 
 ### Introduction
 
-The [Zodiac Governor module](https://www.zodiac.wiki/documentation/governor-module) facilitates the management and control of Gnosis Safes by a DAO. With the Zodiac Governor module, a DAO can become a privileged member of the Safe, allowing it to manage signers and execute transactions. This page will guide you through the use case of creating SubDAOs and managing Grants Programs using the Zodiac Governor module.
+The [Zodiac Governor module](https://www.zodiac.wiki/documentation/governor-module) facilitates the management and control of Gnosis Safes by a DAO. With the Zodiac Governor module, a DAO can become a privileged member of the Safe, allowing it to manage signers and execute transactions. This page will guide you through the use case of creating Sub-organizations and managing Grants Programs using the Zodiac Governor module.
 
 ### Features
 
@@ -28,9 +30,9 @@ The Governor DAO maintains control over the Safe's funds. It can spend money and
 
 This design opens up several unique opportunities for DAO management:
 
-* It allows for the creation of **SubDAOs**, where a committee of experts act as signers on the multisig. Even while they operate independently, the parent DAO retains ultimate authority.
+* It allows for the creation of Su&#x62;**-**&#x6F;rganization**s**, where a committee of experts act as signers on the multisig. Even while they operate independently, the parent DAO retains ultimate authority.
 * It is an ideal mechanism for delegating funds to **Grants programs**. The DAO maintains authority over both the funds and the Grants program administrators, ensuring a chain of responsibility.
-* It helps in avoiding **centralization dangers**, where Grants program administrators could potentially misuse funds without any onchain recourse.
+* It helps in avoiding **centralization dangers**, where Grants program administrators could potentially misuse funds without any on-chain recourse.
 * It offers a solution to **political disagreements** among signers, preventing funds loss due to indecision or conflict.
 * It serves as a vital component in the operation of **decentralized Grants programs**.
 

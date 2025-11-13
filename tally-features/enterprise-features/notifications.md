@@ -1,11 +1,11 @@
 ---
+description: Get email notifications about organization proposals
 icon: lightbulb-on
-description: Get email notifications about DAO proposals
 ---
 
-# Get Notifications on Tally
+# Get notifications on Tally
 
-Subscribe to Tally Notifications to get emails when there's a new proposal in a DAO you follow. Tally supports the following types of notifications: 
+Subscribe to Tally Notifications to get emails when there's a new proposal in a organization you follow. Tally supports the following types of notifications: 
 
 1. **New proposal** - receive an email when a new  proposal begins.
 2. **Proposals ending soon** - if you have not voted on a proposal, receive an email when it has 24 hours remaining before votes close
@@ -40,22 +40,22 @@ Return to the Notifications Center and input the code you received.
 
 Click confirm to complete the email verification process.
 
-### &#x20; Subscribe to email notifications from a DAO
+### &#x20; Subscribe to email notifications from an organization
 
 <figure><img src="../../.gitbook/assets/notify_2.gif" alt=""><figcaption></figcaption></figure>
 
 1. Navigate to the home page.
-2. Search for the DAO you want to receive email notifications from.
+2. Search for the organization you want to receive email notifications from.
 3. Press the purple subscribe button.
 
-You will receive a notification that you have successfully subscribed  to email notifications from the specific DAO.\
+You will receive a notification that you have successfully subscribed  to email notifications from the specific organization.\
 \
 
 
-### Unsubscribe from email notifications from a  DAO.
+### Unsubscribe from email notifications from an organization.
 
 1. Navigate to the home page.
-2. Search for the DAO you want to unsubscribe from email notifications.
+2. Search for the organization you want to unsubscribe from email notifications.
 3. Press the unsubscribe button
 
-You will receive a notification that you have successfully unsubscribed from email notifications from the specific DAO.\
+You will receive a notification that you have successfully unsubscribed from email notifications from the specific organization.\

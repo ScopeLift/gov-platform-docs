@@ -2,9 +2,9 @@
 icon: box-ballot
 ---
 
-# Advanced Voting
+# Advanced voting
 
-Tally supports a variety of onchain voting mechanisms.&#x20;
+Tally supports a variety of on-chain voting mechanisms.&#x20;
 
 {% content-ref url="flexible-voting-extension.md" %}
 [flexible-voting-extension.md](flexible-voting-extension.md)
