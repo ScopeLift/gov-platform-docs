@@ -9,7 +9,7 @@ Well-designed incentives and staking programs attract aligned token holders who 
 
 Protocols use Tally's incentives and staking solution to return protocol revenue to token holders, reward long-term commitment, encourage governance participation, incentivize DeFi liquidity, and compensate network validators.
 
-#### Key features of Tally's incentive and staking system:
+#### Key features of Tally's incentive and staking solutions:
 
 * [Staking for value accrual](staking-for-value-accrual.md): Return protocol revenue or treasury assets to token holders through staking rewards. Distribute value from protocol fees, native token emissions, or treasury holdings.&#x20;
 * [Delegate compensation](delegate-compensation.md): Reward active governance participants based on their contributions and engagement. Integrate reputation scoring to gate compensation.
