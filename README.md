@@ -14,7 +14,7 @@ Tally powers token sales, distribution, and utility for 500+ protocols including
 ## With Tally, you can:&#x20;
 
 * [Launch and scale tokens with confidence](tally-features/token-launch/)
-* [Deploy incentives and staking to bootstrap protocol usage and accrue token value](tally-features/incentives-and-staking/)
+* [Reward your token holders and drive protocol growth](tally-features/incentives-and-staking/)
 * [Govern protocols effectively](tally-features/governance/)
 
 ### Tally features
