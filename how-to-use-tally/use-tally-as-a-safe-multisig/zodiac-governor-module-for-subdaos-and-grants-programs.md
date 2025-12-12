@@ -57,7 +57,6 @@ A couple of steps are needed to get your new SubDAO fully represented on Tally.
 1. Copy the contract address of the Governor that was created by the Zodiac Governor Module no-code tool and [add it directly to Tally](https://www.tally.xyz/get-started).
 2. Link the contract address of the Multisig that was created via the Zodiac Governor Module to your Parent DAO, making it easily visible from the parent DAO on Tally.
 
-\
+<br>
 
-
-\
+<br>

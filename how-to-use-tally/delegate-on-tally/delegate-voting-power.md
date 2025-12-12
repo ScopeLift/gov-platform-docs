@@ -28,9 +28,9 @@ _Note: To vote on a proposal, votes must be delegated BEFORE the proposal is liv
 
 <figure><img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXf3iKOSgi7bnWQ9n_ZmMPNULcxLZbqkMiROg4vtRXC-GEgdSwtk69vtH_v90PAbj9HFOZV5Fn4EIv3GGpuoswa_LWRByvnXt69_7hdf8BiqljgD8jwegDWya3FubEPbNhu1fGCo?key=kP1qxu4KM5htmHS2m_BEJCzS" alt=""><figcaption><p>Confirm and sign the transaction via your wallet (this example shows MetaMask).</p></figcaption></figure>
 
-You can also delegate your voting power to a specific address directly on their [Profile Page](broken-reference).
+You can also delegate your voting power to a specific address directly on their [Profile Page](/broken/pages/OjUcd7A2obKcZAdQ9eCY).
 
-Navigate to your [Profile Page](broken-reference) by clicking your profile name at the top right and selecting Profile from the drop-down.
+Navigate to your [Profile Page](/broken/pages/OjUcd7A2obKcZAdQ9eCY) by clicking your profile name at the top right and selecting Profile from the drop-down.
 
 
 
@@ -44,6 +44,5 @@ At any point, you have the complete freedom to re-delegate your tokens to a diff
 
 Additionally, you also have the option to undelegate your tokens, thereby reclaiming your voting power to participate directly in the decision-making process. This may be important if a vote you feel particularly strongly about comes up; you can take a more active role in the governance of the organization whenever you feel it is necessary or appropriate.
 
-\
-
+<br>
 

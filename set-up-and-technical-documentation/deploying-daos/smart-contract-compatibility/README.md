@@ -25,8 +25,8 @@ If you do need to change something, check that your contracts implement the meth
 [compound-governor-bravo.md](compound-governor-bravo.md)
 {% endcontent-ref %}
 
-{% content-ref url="broken-reference" %}
-[Broken link](broken-reference)
+{% content-ref url="/broken/pages/GHXQ6k3biAumJ9XZPY3Z" %}
+[Broken link](/broken/pages/GHXQ6k3biAumJ9XZPY3Z)
 {% endcontent-ref %}
 
 {% content-ref url="supported-use-cases-faq.md" %}

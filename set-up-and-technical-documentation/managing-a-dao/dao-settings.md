@@ -7,7 +7,7 @@ icon: gears
 
 <figure><img src="../../.gitbook/assets/CleanShot 2023-02-22 at 20.11.49@2x.png" alt=""><figcaption><p>Click <strong>Settings</strong> on your organization page.</p></figcaption></figure>
 
-To access the organization Settings page, click the **Settings** button in the header of your [Broken link](broken-reference "mention").
+To access the organization Settings page, click the **Settings** button in the header of your [Broken link](/broken/pages/LyBlfgdn940XFb1jagAQ "mention").
 
 ## Basics
 

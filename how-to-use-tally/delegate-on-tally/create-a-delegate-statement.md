@@ -16,4 +16,4 @@ Ready to become a organization delegate? Tell organization members what you stan
 5. Create a Delegate Profile.
 6. Click the **Save** button at the top right to share your delegate statement live on Tally.
 
-\
+<br>

@@ -43,4 +43,4 @@ Helpful resources
 * [Seatbelt GitHub Repository](https://github.com/uniswapfoundation/governance-seatbelt/actions/runs/15071483827)
 * [Scopelift technical update and walkthrough of Seatbelt](https://scopelift.co/blog/seatbelt-for-governance)
 
-\
+<br>

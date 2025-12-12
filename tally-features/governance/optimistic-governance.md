@@ -34,8 +34,7 @@ To implement optimistic governance, Tally proposes a structured process designed
       2. A majority (eg >50%) of the veto votes are cast. By default, if delegates don’t vote at all, then only veto votes will be captured. If delegates choose to cast ‘Support’ votes, then this condition will only be met if the number of veto votes exceeds the number of support votes
 5. **Execution**
    1. If the veto window closes without sufficient opposition, the proposal is executed as originally planned
-   2. If the proposal is vetoed, it is canceled, and further revisions may be required before resubmission\
-
+   2. If the proposal is vetoed, it is canceled, and further revisions may be required before resubmission<br>
 
 ### Implementation
 
@@ -60,4 +59,4 @@ This approach helps prevent decision-making gridlock while fostering community p
 \
 If you're interested in implementing Optimistic governance,?  [Talk to our team to get started](http://tally.xyz/contact).
 
-\
+<br>

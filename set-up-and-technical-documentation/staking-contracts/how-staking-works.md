@@ -5,8 +5,7 @@ icon: gears
 
 # How staking works
 
-[Staker](https://github.com/withtally/staker) is a flexible, configurable staking contract. It distributes on-chain staking rewards to the holders of an ERC20 token, including governance tokens. The rewards are proportional to the amount staked over time. Rewards can be boosted or penalized by the eligibility criteria.\
-
+[Staker](https://github.com/withtally/staker) is a flexible, configurable staking contract. It distributes on-chain staking rewards to the holders of an ERC20 token, including governance tokens. The rewards are proportional to the amount staked over time. Rewards can be boosted or penalized by the eligibility criteria.<br>
 
 **System Architecture**
 
@@ -278,4 +277,4 @@ The oracle-based calculator has failsafes in case the oracle misbehaves or goes 
 * Anyone can update earning power as it changes, but someone needs to do it. Staker provides “tips” as incentive for bots to do updates. If MEV bots do not know about the incentive, consider running the staker bots script directly.&#x20;
 * These incentives don’t work testnets or for tokens with no market value.
 
-\
+<br>

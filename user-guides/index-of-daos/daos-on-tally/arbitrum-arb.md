@@ -21,4 +21,4 @@ Arbitrum is a layer 2 scaling solution for Ethereum that aims to improve the spe
 * [Blog](https://arbitrumfoundation.medium.com/)
 * [Forum](https://forum.arbitrum.foundation/)
 
-\
+<br>

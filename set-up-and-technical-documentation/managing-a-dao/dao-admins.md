@@ -9,7 +9,7 @@ icon: people-arrows
 
 ## Admins Section
 
-Admins for a given organization are displayed at the bottom of the [Broken link](broken-reference "mention"):
+Admins for a given organization are displayed at the bottom of the [Broken link](/broken/pages/LyBlfgdn940XFb1jagAQ "mention"):
 
 <figure><img src="../../.gitbook/assets/image (3) (2).png" alt=""><figcaption><p>Admins section of the organization page</p></figcaption></figure>
 

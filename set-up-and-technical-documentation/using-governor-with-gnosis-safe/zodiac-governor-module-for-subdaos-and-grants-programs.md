@@ -9,8 +9,7 @@ icon: diagram-cells
 
 ### About Gnosis Zodiac
 
-Zodiac is a collection of tools built according to an open standard by the team behind Gnosis Safe. The Zodiac open standard enables organizations to act more like constellations, connecting protocols, platforms, and chains, no longer confined to monolithic designs. To learn more about the ideas behind Zodiac, visit the [Gnosis Guild blog](http://gnosisguild.mirror.xyz/) or read the [Introduction: Zodiac Standard](https://www.zodiac.wiki/documentation/governor-module).\
-
+Zodiac is a collection of tools built according to an open standard by the team behind Gnosis Safe. The Zodiac open standard enables organizations to act more like constellations, connecting protocols, platforms, and chains, no longer confined to monolithic designs. To learn more about the ideas behind Zodiac, visit the [Gnosis Guild blog](http://gnosisguild.mirror.xyz/) or read the [Introduction: Zodiac Standard](https://www.zodiac.wiki/documentation/governor-module).<br>
 
 ### Introduction
 

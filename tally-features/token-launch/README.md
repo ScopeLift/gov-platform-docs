@@ -3,13 +3,12 @@ description: Tally handles your airdrop, ICO, and vesting so you can focus on bu
 icon: rocket-launch
 ---
 
-# Token launch
+# Token launch & airdops
 
 Tally's token launch platform reduces time to launch with production-ready, end-to-end solutions. Set your protocol up for success with a launch platform that reduces engineering timelines, vendor migrations, and custom integration work. As your protocol evolves, add staking, vesting, governance, or multi-chain support to meet the needs of your ecosystem.
 
 #### **Key features of Tally's token launch solutions:** <a href="#h-key-features-of-tallys-token-launch-system" id="h-key-features-of-tallys-token-launch-system"></a>
 
-* [Public token sales](public-token-sales.md): Execute liquidity bootstrapping pools (LBPs) or other sale mechanisms with custom interfaces that simplify participation
 * [Airdrops](airdrops.md): Distribute tokens to millions of recipients with gas-optimized claim processing
 * [Branded claim experiences](features.md#branded-claim-experience): Ship custom-designed claim pages with your branding and domain that provide clarity and consistency across all token operations
 * [Vesting & distribution integration](vesting-and-disitribution.md): Implement lockup periods and vesting schedules that integrate seamlessly with on-chain providers and custodians
@@ -18,8 +17,8 @@ Tally's token launch platform reduces time to launch with production-ready, end-
 
 ## Get started
 
-{% content-ref url="public-token-sales.md" %}
-[public-token-sales.md](public-token-sales.md)
+{% content-ref url="../token-sales-and-icos.md" %}
+[token-sales-and-icos.md](../token-sales-and-icos.md)
 {% endcontent-ref %}
 
 {% content-ref url="airdrops.md" %}

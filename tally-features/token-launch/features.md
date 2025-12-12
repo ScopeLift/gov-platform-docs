@@ -21,7 +21,7 @@ Tally deploys your protocol's governance smart contracts, including Governor and
   * Tally deploys your token, a non-fungible, non-transferable token that can be minted and revoked by the Governor. The ERC20Votes extension ensures your governance token supports vote delegation and efficient tracking of voting power over time.
 * **Deploy  Governor and Timelock contracts**
   * Tally deploys the [Governor and Timelock contracts](../../set-up-and-technical-documentation/deploying-daos/). The Governor contract facilitates the proposal and voting process, while the Timelock contract enforces a delay between the proposal's passage and its execution.
-    * [**Flexible Voting**](../../how-to-use-tally/voting-on-proposals/advanced-voting/flexible-voting-extension.md)**:** Tally's flexible voting setup prepares protocols for advanced governance structures. Flexible voting enables sophisticated governance models like MultiGov and partial delegation.
+    * [Flexible Voting](../../how-to-use-tally/voting-on-proposals/advanced-voting/flexible-voting-extension.md)**:** Tally's flexible voting setup prepares protocols for advanced governance structures. Flexible voting enables sophisticated governance models like MultiGov and partial delegation.
 * **Claim & delegate**&#x20;
   * To ensure a smooth and convenient transition from token claim to active governance participation, Tally provides a post-claim delegation experience to enhance user engagement and simplify the delegation process.
 * **Launch with expert guidance**

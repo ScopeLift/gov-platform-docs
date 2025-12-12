@@ -32,8 +32,7 @@ When organizations sponsor transactions through Relay, they're making a powerful
 
 For organizations interested in implementing gasless voting and delegation with Relay, Tally's team can be reached at [**hello@tally.xyz**](mailto:hello@tally.xyz) to discuss specific needs and implementation details.
 
-\
-
+<br>
 
 ***
 

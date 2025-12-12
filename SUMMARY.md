@@ -4,8 +4,8 @@
 
 ## Tally Features
 
-* [Token launch](tally-features/token-launch/README.md)
-  * [Public token sales](tally-features/token-launch/public-token-sales.md)
+* [Token sales & ICOs](tally-features/token-sales-and-icos.md)
+* [Token launch & airdops](tally-features/token-launch/README.md)
   * [Airdrops](tally-features/token-launch/airdrops.md)
   * [Vesting & disitribution](tally-features/token-launch/vesting-and-disitribution.md)
   * [Exchange listing & compliance documentation](tally-features/token-launch/exchange-listing-and-compliance-documentation.md)

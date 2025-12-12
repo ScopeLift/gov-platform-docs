@@ -23,7 +23,6 @@ You can search by ENS name or wallet address. You can sort delegates by Voting P
 
 Click the **Delegate** button to easily delegate your voting power to that organization member, or click on their profile name to learn more about their participation in the organization.
 
-\
+<br>
 
-
-\
+<br>

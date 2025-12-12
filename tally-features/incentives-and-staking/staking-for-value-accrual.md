@@ -15,8 +15,7 @@ Tally staking offers:
 1. **Flexible staking infrastructure**: Implement staking for your protocol’s specific needs.
 2. **Multiple reward sources**: Distribute rewards from protocol revenue, treasury assets, token emissions, or all of the above.
 3. **Governance integration**: Staking is compatible with governance, so that holders don’t have to choose between rewards and governance. Optionally, rewards can be conditional on active participation in governance.
-4. **Validator support**: Pay stakers and operators to validate protocol security.\
-
+4. **Validator support**: Pay stakers and operators to validate protocol security.<br>
 
 Tally's solution works for protocols at any stage. It supports new token launches and established projects. This guide covers both strategic direction and technical details.&#x20;
 

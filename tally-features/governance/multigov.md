@@ -50,4 +50,4 @@ Wormhole, powered by $W token holders, will be the first to use this pioneering 
 
 Interested in implementing MultiGov for your protocol?  [Talk to our team to get started](http://tally.xyz/contact).
 
-\
+<br>

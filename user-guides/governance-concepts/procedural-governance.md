@@ -33,4 +33,4 @@ Uniswap published a suggested process for making governance proposals, from init
 * [MakerDAO Weekly Governance Cycle](https://forum.makerdao.com/t/mip16-the-weekly-governance-cycle/3008)
 * [Uniswap Suggested Governance Process](https://gov.uniswap.org/t/community-governance-process/7732)
 
-\
+<br>

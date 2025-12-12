@@ -25,4 +25,4 @@ The REWARD\_INTERVAL is configurable when deploying a new reward source. When th
 \
 **How does the system handle vote checkpoints/snapshots?**&#x20;
 
-The underlying governance token handles snapshotting. Staker puts the governance tokens for each delegate into a separate account, called a “surrogate”. Then, it calls delegate() on the underlying governance token to distribute voting power. This way, the underlying governance system does not have to change.\
+The underlying governance token handles snapshotting. Staker puts the governance tokens for each delegate into a separate account, called a “surrogate”. Then, it calls delegate() on the underlying governance token to distribute voting power. This way, the underlying governance system does not have to change.<br>

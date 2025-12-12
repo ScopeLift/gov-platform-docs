@@ -7,7 +7,7 @@ icon: computer-mouse
 
 Besides creating and voting on proposals, users can also: queue, execute, and cancel.
 
-Queuing, executing, and canceling proposals can all be accomplished directly from the [Broken link](broken-reference "mention").
+Queuing, executing, and canceling proposals can all be accomplished directly from the [Broken link](/broken/pages/k0IV8wkfQixA9j5jQeJZ "mention").
 
 ## Queuing and Executing Proposals
 
@@ -33,11 +33,11 @@ Generally, anyone can queue a proposal that has passed! The only exception is th
 
 ### _How long will the proposal be queued?_
 
-This depends on the Timelock Delay of the Timelock contract. You can check that delay on Etherscan until Tally adds it to the [Broken link](broken-reference "mention").
+This depends on the Timelock Delay of the Timelock contract. You can check that delay on Etherscan until Tally adds it to the [Broken link](/broken/pages/LyBlfgdn940XFb1jagAQ "mention").
 
 ### _What does it mean to “execute” a proposal?_
 
-**Executing** a proposal runs its function calls on-chain. Each proposal is associated with one or more function calls, which are visible in the `Executable Code` section of the [Proposal page](broken-reference). These calls can do things like transfer assets from the treasury, update parameters of the Governor itself, change or upgrade a DeFi protocol, or call another smart contract.
+**Executing** a proposal runs its function calls on-chain. Each proposal is associated with one or more function calls, which are visible in the `Executable Code` section of the [Proposal page](/broken/pages/k0IV8wkfQixA9j5jQeJZ). These calls can do things like transfer assets from the treasury, update parameters of the Governor itself, change or upgrade a DeFi protocol, or call another smart contract.
 
 ### _Who can execute a proposal?_
 

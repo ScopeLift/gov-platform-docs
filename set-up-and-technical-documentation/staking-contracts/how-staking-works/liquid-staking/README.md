@@ -46,8 +46,7 @@ Holders can redeem their liquid staking tokens for the underlying staked token a
 
 The LST wants to accrue rewards in staking tokens, not other reward tokens. To do so, it auctions off rewards to MEV searchers. The LST has a [public method](https://github.com/withtally/stGOV/blob/f41a2a24da46d86c54fe335de6320c1381cb3a14/src/GovLst.sol#L664-L697) that allows any caller to swap a fixed amount of native tokens for all its staking rewards, which can be in any token(s).&#x20;
 
-Think of this system as a reverse Dutch auction. The buyer, the LST, is always willing to accept X amount of staking tokens for its accumulated staking rewards. Each block, the accumulated staking rewards increase. Eventually, an MEV searcher should be willing to accept all the accumulated rewards in return for X amount of staking tokens. Note that the MEV searcher also has to pay the gas for this transaction.\
-
+Think of this system as a reverse Dutch auction. The buyer, the LST, is always willing to accept X amount of staking tokens for its accumulated staking rewards. Each block, the accumulated staking rewards increase. Eventually, an MEV searcher should be willing to accept all the accumulated rewards in return for X amount of staking tokens. Note that the MEV searcher also has to pay the gas for this transaction.<br>
 
 Here's an example:
 
@@ -75,4 +74,4 @@ For more information about the LST contracts, see [README of the stGOV repositor
 
 
 
-\
+<br>

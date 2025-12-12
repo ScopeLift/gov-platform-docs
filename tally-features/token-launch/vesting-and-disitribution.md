@@ -5,7 +5,7 @@ icon: handshake-simple
 
 # Vesting & disitribution
 
-Optional transfer restrictions, vesting schedules, and lockup mechanisms with seamless integration to specialized on-chain vesting providers and custodians like [Hedgey](../../how-to-use-tally/proposals/creating-proposals/custom-actions/token-vesting-with-hedgey.md) and [Sablier](../../how-to-use-tally/proposals/creating-proposals/custom-actions/streaming-payments-with-sablier.md).&#x20;
+Optional transfer restrictions, vesting schedules, and lockup mechanisms with seamless integration to specialized on-chain vesting providers like [Hedgey](../../how-to-use-tally/proposals/creating-proposals/custom-actions/token-vesting-with-hedgey.md) and [Sablier](../../how-to-use-tally/proposals/creating-proposals/custom-actions/streaming-payments-with-sablier.md) and custodians like Fireblocks, Anchorage, and BitGo.&#x20;
 
 ### Use cases
 

@@ -71,4 +71,4 @@ The timelock delay is the minimum amount of time between when a proposal posses 
 
 Tally recommends picking a delay of 0 for Governors that only manage a treasury. The security benefit of a delay isn’t as relevant. The exception is if the Timelock has someone with an emergency veto/cancel role. In that case, they probably want at least 3 days to react to potentially malicious proposals.&#x20;
 
-For Governors that control a DeFi protocol  where users might want to withdraw their funds before a big protocol change, we usually see timelock delays closer to 7 days.\
+For Governors that control a DeFi protocol  where users might want to withdraw their funds before a big protocol change, we usually see timelock delays closer to 7 days.<br>

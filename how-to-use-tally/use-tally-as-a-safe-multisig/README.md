@@ -7,8 +7,7 @@ icon: shield-plus
 
 # Use Tally as a Safe multisig
 
-Safe wallet users can now sign in directly to Tally using WalletConnect. The flow detects Safe smart contract wallets and presents a unified authentication experience.\
-
+Safe wallet users can now sign in directly to Tally using WalletConnect. The flow detects Safe smart contract wallets and presents a unified authentication experience.<br>
 
 {% embed url="https://youtu.be/GocnAc6pnHc" %}
 
@@ -48,8 +47,7 @@ Safe wallet users can now sign in directly to Tally using WalletConnect. The flo
   * Execute on-chain transactions
 
 \
-\
-
+<br>
 
 You can also sign in as Safe using WalletConnect from the Safe mobile app, following:
 

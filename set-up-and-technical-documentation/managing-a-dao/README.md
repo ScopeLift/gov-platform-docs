@@ -5,7 +5,7 @@ icon: folder-plus
 
 # Add an organization to Tally
 
-_Ready to add your_ organizatio&#x6E;_'s governance to Tally? All you need is a deployed_ [_Governor contract_](broken-reference) _and a few minutes to get started._
+_Ready to add your_ organizatio&#x6E;_'s governance to Tally? All you need is a deployed_ [_Governor contract_](/broken/pages/N2HH7OfrJjH094fJpygS) _and a few minutes to get started._
 
 <figure><img src="../../.gitbook/assets/image (131).png" alt=""><figcaption></figcaption></figure>
 

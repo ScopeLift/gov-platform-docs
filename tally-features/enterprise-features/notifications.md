@@ -49,8 +49,7 @@ Click confirm to complete the email verification process.
 3. Press the purple subscribe button.
 
 You will receive a notification that you have successfully subscribed  to email notifications from the specific organization.\
-\
-
+<br>
 
 ### Unsubscribe from email notifications from an organization.
 
@@ -58,4 +57,4 @@ You will receive a notification that you have successfully subscribed  to emai
 2. Search for the organization you want to unsubscribe from email notifications.
 3. Press the unsubscribe button
 
-You will receive a notification that you have successfully unsubscribed from email notifications from the specific organization.\
+You will receive a notification that you have successfully unsubscribed from email notifications from the specific organization.<br>

@@ -6,4 +6,4 @@ Users can easily draft proposals using proposal templates that are set up by the
 
 To implement proposal templates for your organization, reach out to us at [hello@tally.xyz](mailto:hello@tally.xyz).&#x20;
 
-\
+<br>
