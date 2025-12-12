@@ -13,6 +13,12 @@ A well-structured token sale avoids all three.
 
 Tally makes it easy for you to execute successful token sales. We handle the infrastructure — sale mechanics, compliance, branded interfaces, post-sale liquidity, and more — so you can focus on growth.
 
+## Demo
+
+{% embed url="https://youtu.be/UGoy6At6H6M" %}
+
+{% embed url="https://youtu.be/Q5_zLsDvZ3Q" %}
+
 ## How it works
 
 ### **What Tally does**
