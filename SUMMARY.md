@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Get started](README.md)
+* [Welcome to Tally](README.md)
 
 ## Tally Features
 

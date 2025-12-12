@@ -1,5 +1,5 @@
 ---
-description: Tally handles your airdrop, ICO, and vesting so you can focus on building
+description: Tally handles your airdrop so you can focus on building
 icon: rocket-launch
 ---
 
