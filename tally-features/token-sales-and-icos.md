@@ -69,7 +69,11 @@ Configure parameters, liquidity, compliance, and post-sale operations through a 
 
 {% embed url="https://youtu.be/UGoy6At6H6M" %}
 
-{% embed url="https://youtu.be/Q5_zLsDvZ3Q" %}
+
+
+{% embed url="https://youtu.be/ycZv_XrzcKo" %}
+
+{% embed url="https://youtu.be/ApvGHcz4wbI" %}
 
 ## Pricing & Implementation
 
