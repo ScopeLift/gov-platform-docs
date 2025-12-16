@@ -17,7 +17,7 @@ Tally makes it easy for you to execute successful token sales. We handle the inf
 
 ### **What Tally does**
 
-1. **Configure your sale:** Choose your mechanism (we support LBP, CCA, and fixed-price), set pricing parameters, and define eligibility rules. We’ll handle the app and smart contracts.
+1. **Configure your sale:** Choose your mechanism – we support fixed price or auctions like LBP and CCA – then set pricing parameters and define eligibility rules. We’ll handle the app and smart contracts.
 2. **Build your sale page:** Tally creates a branded, white-labeled experience on your domain. Your users never leave your site.
 3. **Integrate compliance measures:** KYC/KYB/KYI verification, geo-blocking, region-specific lockups.
 4. **Launch and monitor:** Go live with launch-day support. Real-time dashboards show participation, funds raised, and price discovery.
@@ -29,7 +29,7 @@ Tally makes it easy for you to execute successful token sales. We handle the inf
 * **Seed liquidity post-sale.** If you enable our DEX integration, a portion of funds and unsold tokens seed liquidity on Balancer or Uniswap. Your project controls this LP position.
 * **Unlocks on schedule.** Newly-purchased tokens can unlock instantly or lock onchain, according to your requirements.
 
-Keep building with Tally. After your sale, you can add [staking](incentives-and-staking/), [governance](governance/), and [incentive programs](incentives-and-staking/) through the same platform — no need to switch providers.
+Keep building with Tally. After your sale, you can add [staking](incentives-and-staking/), [governance](governance/), and [incentive programs](incentives-and-staking/) through the same platform. No need to switch providers.
 
 ## Features
 
@@ -39,15 +39,18 @@ Tally supports multiple sale mechanisms. Each can be configured to match your di
 
 **Liquidity Bootstrapping Pools (LBPs):**&#x20;
 
-* LBPs enable price discovery through a declining price curve. The price starts high and decreases over time, discouraging early speculation and allowing broader participation at fair prices. Tally builds custom interfaces that abstract away the complexity of interacting with Balancer directly. Learn more about [LBPs](https://docs.balancer.fi/concepts/explore-available-balancer-pools/liquidity-bootstrapping-pool.html).
+* LBPs enable price discovery through a declining price curve. The price starts high and decreases over time, discouraging early speculation and allowing broader participation at fair prices. Tally builds custom interfaces that abstract away the complexity of interacting with Balancer directly.
+* See [demo below](token-sales-and-icos.md#demos) or learn more about [LBPs](https://docs.balancer.fi/concepts/explore-available-balancer-pools/liquidity-bootstrapping-pool.html).
 
 **Continuous Clearing Auctions (CCAs):**&#x20;
 
-* CCAs enable market-driven price discovery through a fully on-chain auction. Bidders place orders that are split across auction blocks, with each block clearing at the identified market price. Transparent mechanics give buyers and investors confidence in the sale. Learn more about [CCAs](https://cca.uniswap.org/).
+* CCAs enable market-driven price discovery through a fully on-chain auction. Bidders place orders that are split across auction blocks, with each block clearing at the identified market price. Transparent mechanics give buyers and investors confidence in the sale.&#x20;
+* See [demo below](token-sales-and-icos.md#demos) or learn more about [CCAs](https://cca.uniswap.org/).
 
 **Fixed-Price Sales:**&#x20;
 
 * Set a predetermined price with optional allocation limits per wallet. Eligibility scoring and structured allocation reward long-term contributors, giving you control over who can participate and how much they can purchase.
+* See [demo below](token-sales-and-icos.md#demos).
 
 ### Platform capabilities
 
