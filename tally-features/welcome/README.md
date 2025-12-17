@@ -1,5 +1,7 @@
 ---
-description: The Tally API is in open beta!
+description: >-
+  Tally's API makes it easy to run custom queries and integrate governance into
+  your application.
 icon: computer
 ---
 
