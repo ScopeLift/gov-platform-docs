@@ -51,8 +51,8 @@ Industry benchmarks for token distribution:
 
 | Stakeholder        | Typical Allocation | Recommended Vesting | Recommended Cliff |
 | ------------------ | ------------------ | ------------------- | ----------------- |
-| Founders/Core Team | 15-22%             | 4 years             | 1 year            |
-| Early Investors    | 13-19%             | 2-3 years           | 12-18 months      |
+| Founders/Core Team | 50%                | 4 years             | 1 year            |
+| Early Investors    | 50%                | 2-3 years           | 12-18 months      |
 | Strategic Advisors | 0.5-5%             | 2-4 years           | 6-12 months       |
 | Community/Treasury | 40-45%             | Variable            | Variable          |
 | Public Sale        | 5-15%              | 0-6 months          | None              |
