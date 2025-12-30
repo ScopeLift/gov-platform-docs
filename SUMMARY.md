@@ -39,6 +39,7 @@
 * [Navigate the Tally homepage](how-to-use-tally/navigate-the-tally-homepage.md)
 * [Set up a Tally profile](how-to-use-tally/set-up-a-tally-profile.md)
 * [Create proposals](how-to-use-tally/proposals/creating-proposals/README.md)
+  * [Import & export proposal actions](how-to-use-tally/creating-proposals/import-and-export-proposal-actions.md)
   * [Proposal templates](how-to-use-tally/creating-proposals/proposal-templates.md)
   * [Custom actions](how-to-use-tally/proposals/creating-proposals/custom-actions/README.md)
     * [Chain Deployment of Uniswap v3](how-to-use-tally/proposals/creating-proposals/custom-actions/chain-deployment-of-uniswap-v3.md)
