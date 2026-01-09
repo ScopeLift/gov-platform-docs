@@ -84,20 +84,3 @@ Tally delivers production-ready token sales on accelerated timelines. Our team h
 
 [Talk to our team](http://tally.xyz/contact) to discuss your requirements.
 
-## Case study: Hyperwave
-
-[Hyperwave partnered with Tally ](https://x.com/Hyperwavefi/status/1978810531848028617)to plan and execute its token sale using Balancer's liquidity-bootstrapping pool (LBP). Tally built a custom token sale interface and worked with the Hyperwave team throughout the launch process to maximize token sales.
-
-**Results:**
-
-* Raised [\~$500k](https://x.com/AbishekFi/status/1979883930389242350) in initial token sale
-* Seamless user experience&#x20;
-* Custom interface that matched Hyperwave's brand
-
-**How it worked:**
-
-* Tally designed and deployed a branded token sale page
-* Users could participate through a simplified interface
-* The Tally team provided ongoing support throughout the launch window
-* Post-sale analytics and reporting helped inform future token distribution decisions
-
