@@ -1,7 +1,3 @@
----
-icon: building
----
-
 # Tally architecture
 
 

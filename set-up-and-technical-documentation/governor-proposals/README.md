@@ -1,6 +1,5 @@
 ---
 description: Standards for interacting with on-chain Governor Proposals
-icon: pen-to-square
 ---
 
 # Governor proposal standards

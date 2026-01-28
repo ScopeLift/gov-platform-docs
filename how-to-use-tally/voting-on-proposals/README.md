@@ -1,7 +1,3 @@
----
-icon: person-booth
----
-
 # Vote on Tally
 
 _In order to vote on a proposal, first make sure that you've_ [_connected your wallet_ ](/broken/pages/0sAKemyePWEqx94tfKjO)_and_ [_delegated voting power to yourself_](/broken/pages/kLvaqZBe00JDDZ3QBT28)_!_

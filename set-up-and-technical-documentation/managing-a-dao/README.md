@@ -1,6 +1,5 @@
 ---
 description: Add a new or existing organization to Tally's interface.
-icon: folder-plus
 ---
 
 # Add an organization to Tally

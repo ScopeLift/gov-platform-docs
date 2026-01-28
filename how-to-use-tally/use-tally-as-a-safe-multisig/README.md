@@ -2,7 +2,6 @@
 description: >-
   Tally enables on-chain transactions via Safe, including submitting proposals,
   voting, and delegating.
-icon: shield-plus
 ---
 
 # Use Tally as a Safe multisig

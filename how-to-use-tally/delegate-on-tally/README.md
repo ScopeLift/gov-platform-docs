@@ -1,6 +1,5 @@
 ---
 description: Tally is the best place to explore organization delegates.
-icon: users
 ---
 
 # Delegate on Tally

@@ -1,6 +1,5 @@
 ---
 description: Govern protocol upgrades and treasuries securely and efficiently
-icon: arrow-up-right
 ---
 
 # Governance

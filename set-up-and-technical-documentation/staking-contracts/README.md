@@ -1,9 +1,8 @@
 ---
 description: Learn how to deploy, configure and operate Tally staking contracts.
-icon: right-from-line
 ---
 
-# Staking Contracts
+# Staking contracts
 
 These technical guides go in-depth on how staking works, how to set it up, and how to operate a staking system.
 

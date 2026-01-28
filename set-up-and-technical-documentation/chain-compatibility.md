@@ -1,8 +1,4 @@
----
-icon: link
----
-
-# Chain Compatibility
+# Chain compatibility
 
 Tally is currently compatible with the following chains:
 

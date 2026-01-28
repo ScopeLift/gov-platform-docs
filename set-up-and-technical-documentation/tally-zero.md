@@ -1,6 +1,5 @@
 ---
 description: A decentralized voting application
-icon: '0'
 ---
 
 # Tally Zero

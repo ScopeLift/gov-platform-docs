@@ -1,6 +1,5 @@
 ---
 description: Get email notifications about organization proposals
-icon: lightbulb-on
 ---
 
 # Get notifications on Tally

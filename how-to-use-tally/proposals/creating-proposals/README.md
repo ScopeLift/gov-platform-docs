@@ -1,6 +1,5 @@
 ---
 description: Take action in your organization by initiating an on-chain proposal on Tally.
-icon: box-ballot
 ---
 
 # Create proposals

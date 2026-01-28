@@ -1,8 +1,4 @@
----
-icon: pencil
----
-
-# Governance Frameworks
+# Governance frameworks
 
 {% content-ref url="../../set-up-and-technical-documentation/deploying-daos/smart-contract-compatibility/openzeppelin-governor.md" %}
 [openzeppelin-governor.md](../../set-up-and-technical-documentation/deploying-daos/smart-contract-compatibility/openzeppelin-governor.md)

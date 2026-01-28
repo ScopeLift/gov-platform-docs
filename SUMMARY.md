@@ -1,38 +1,46 @@
 # Table of contents
 
 * [Welcome to Tally](README.md)
+* [Why token sales](why-token-sales.md)
 
-## Tally Features
+## Token sales
 
-* [Token sales & ICOs](tally-features/token-sales-and-icos.md)
-* [Token launch & airdops](tally-features/token-launch/README.md)
-  * [Airdrops](tally-features/token-launch/airdrops.md)
-  * [Vesting & disitribution](tally-features/token-launch/vesting-and-disitribution.md)
-  * [Exchange listing & compliance documentation](tally-features/token-launch/exchange-listing-and-compliance-documentation.md)
-  * [Features](tally-features/token-launch/features.md)
-  * [Delegate registration & claim-and-delegate](tally-features/token-launch/delegate-registration-and-claim-and-delegate.md)
-* [Incentives & staking](tally-features/incentives-and-staking/README.md)
-  * [Staking for value accrual](tally-features/incentives-and-staking/staking-for-value-accrual.md)
-  * [Delegate compensation](tally-features/incentives-and-staking/delegate-compensation.md)
-  * [Features](tally-features/incentives-and-staking/staking-customizations.md)
-  * [FAQ](tally-features/incentives-and-staking/faq.md)
-  * [Glossary](tally-features/incentives-and-staking/glossary.md)
-* [Governance](tally-features/governance/README.md)
-  * [Security Council elections](tally-features/governance/security-council-elections/README.md)
-    * [Arbitrum DAO Security Council Elections Guide](tally-features/governance/security-council-elections/arbitrum-dao-security-council-elections-guide.md)
-  * [Optimistic governance](tally-features/governance/optimistic-governance.md)
-  * [MultiGov](tally-features/governance/multigov.md)
-  * [Delegate Reputation Score (DRS)](tally-features/governance/delegate-reputation-score-drs.md)
-  * [Integrations](tally-features/governance/integrations/README.md)
-    * [Karma - Delegate Scoring](tally-features/governance/integrations/karma-delegate-scoring.md)
-    * [Discourse](tally-features/governance/integrations/forum-bot.md)
-    * [Safe](tally-features/governance/integrations/safe.md)
-  * [Features](tally-features/governance/features.md)
-* [Tally API](tally-features/welcome/README.md)
-  * [How to use the Tally API](tally-features/welcome/how-to-use-the-tally-api.md)
-* [Tally Zero](tally-features/tally-zero.md)
-* [Tally partner benefits](tally-features/tally-partner-benefits.md)
-* [Tally Fees](tally-features/tally-fees.md)
+* [Getting started](token-sales/getting-started.md)
+* [Choose your mechanism](token-sales/choose-your-mechanism.md)
+* [Set sale parameters](token-sales/set-sale-parameters.md)
+* [Design tokenomics](token-sales/design-tokenomics.md)
+* [Configure post-sale](token-sales/configure-post-sale.md)
+* [Integrate compliance](token-sales/integrate-compliance.md)
+* [Build your sale page](token-sales/build-your-sale-page.md)
+* [Launch & monitor](token-sales/launch-and-monitor.md)
+
+## On-chain operations
+
+* [Airdops](on-chain-operations/token-launch/README.md)
+  * [Airdrops](on-chain-operations/token-launch/airdrops.md)
+  * [Vesting & disitribution](on-chain-operations/token-launch/vesting-and-disitribution.md)
+  * [Exchange listing & compliance documentation](on-chain-operations/token-launch/exchange-listing-and-compliance-documentation.md)
+  * [Features](on-chain-operations/token-launch/features.md)
+  * [Delegate registration & claim-and-delegate](on-chain-operations/token-launch/delegate-registration-and-claim-and-delegate.md)
+* [Incentives & staking](on-chain-operations/incentives-and-staking/README.md)
+  * [Staking for value accrual](on-chain-operations/incentives-and-staking/staking-for-value-accrual.md)
+  * [Delegate compensation](on-chain-operations/incentives-and-staking/delegate-compensation.md)
+  * [Features](on-chain-operations/incentives-and-staking/staking-customizations.md)
+  * [FAQ](on-chain-operations/incentives-and-staking/faq.md)
+  * [Glossary](on-chain-operations/incentives-and-staking/glossary.md)
+* [Governance](on-chain-operations/governance/README.md)
+  * [Security Council elections](on-chain-operations/governance/security-council-elections/README.md)
+    * [Arbitrum DAO Security Council Elections Guide](on-chain-operations/governance/security-council-elections/arbitrum-dao-security-council-elections-guide.md)
+  * [Optimistic governance](on-chain-operations/governance/optimistic-governance.md)
+  * [MultiGov](on-chain-operations/governance/multigov.md)
+  * [Delegate Reputation Score (DRS)](on-chain-operations/governance/delegate-reputation-score-drs.md)
+  * [Integrations](on-chain-operations/governance/integrations/README.md)
+    * [Karma - Delegate Scoring](on-chain-operations/governance/integrations/karma-delegate-scoring.md)
+    * [Discourse](on-chain-operations/governance/integrations/forum-bot.md)
+    * [Safe](on-chain-operations/governance/integrations/safe.md)
+  * [Features](on-chain-operations/governance/features.md)
+* [Tally partner benefits](on-chain-operations/tally-partner-benefits.md)
+* [Tally Fees](on-chain-operations/tally-fees.md)
 
 ## How to Use Tally
 
@@ -80,6 +88,9 @@
 
 ## Set up & Technical Documentation
 
+* [Tally API](set-up-and-technical-documentation/welcome/README.md)
+  * [How to use the Tally API](set-up-and-technical-documentation/welcome/how-to-use-the-tally-api.md)
+* [Tally Zero](set-up-and-technical-documentation/tally-zero.md)
 * [Staking contracts](set-up-and-technical-documentation/staking-contracts/README.md)
   * [Get started](set-up-and-technical-documentation/staking-contracts/stgov-lst.md)
   * [How staking works](set-up-and-technical-documentation/staking-contracts/how-staking-works.md)

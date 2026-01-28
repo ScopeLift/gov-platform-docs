@@ -1,5 +1,6 @@
 ---
 description: Tally offers exclusive discounts to ecosystem partners
+hidden: true
 icon: handshake
 ---
 

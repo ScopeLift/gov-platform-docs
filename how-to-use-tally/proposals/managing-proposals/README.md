@@ -1,6 +1,5 @@
 ---
 description: How to queue, execute, and cancel proposals
-icon: computer-mouse
 ---
 
 # Execute Proposals

@@ -1,7 +1,6 @@
 ---
 hidden: true
 noIndex: true
-icon: gift
 ---
 
 # Token wrapper

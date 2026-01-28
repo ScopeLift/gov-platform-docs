@@ -1,7 +1,3 @@
----
-icon: paintbrush
----
-
 # Set up a Tally profile
 
 

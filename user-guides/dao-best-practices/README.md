@@ -1,6 +1,5 @@
 ---
 description: Tips for creating and managing a successful on-chain organization
-icon: arrow-up-right
 ---
 
 # Organizational best practices

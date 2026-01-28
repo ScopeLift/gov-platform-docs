@@ -1,5 +1,5 @@
 ---
-description: Supercharge your token sale
+description: Raise capital confidently
 icon: hand-wave
 cover:
   light: .gitbook/assets/X Bannerlightpng.png
@@ -9,35 +9,31 @@ coverY: 0
 
 # Welcome to Tally
 
-Go public without gatekeepers. Token sales are the future of fundraising — faster, cheaper, and more globally accessible than IPOs and venture rounds. Tally gives you the infrastructure to launch your token, raise capital, and scale — one platform for the full token lifecycle.
+### Token sales are a better way to raise capital
 
-## **Why token sales?**
+Token sales let you raise capital and build community in a single event — no multi-year IPO timelines, no gatekept VC rounds, no dilutive terms.
 
-The regulatory environment is catching up. Pending [U.S. market structure legislation](https://www.congress.gov/bill/119th-congress/house-bill/3633) will create a clear compliance framework for U.S. companies to raise capital via token sales. 2025 saw a wave of successful token sales. [MegaETH](https://x.com/megaeth_labs) raised $50M through a 72-hour auction with over 100,000 KYC-verified participants. [Plasma](https://x.com/aspect_build) filled a $500M deposit vault in minutes. [Monad](https://x.com/moaboreth) raised $269M from 85,000+ participants in the first major U.S.-regulated token sale since 2018.
+### But most token sales are flawed
 
-Token sales are a faster, more accessible way to raise capital. Compared to traditional fundraising, they offer real advantages:
+The standard playbook has problems:
 
-* **Global participation.** Anyone can participate. No geographic restrictions, no accredited investor gates.
-* **Better price discovery.** Prices are [set by the market during the sale](https://docs.doppler.lol/how-it-works/implementation), not by underwriters in a closed room.
-* **Instant settlement.** Transactions clear on-chain in [minutes](https://www.fireblocks.com/glossary/transaction-settlement), not days.
-* **Lower cost and faster execution.** Traditional IPOs require [12-18 months of preparation and millions in fees](https://www.pwc.com/us/en/services/consulting/deals/library/cost-of-an-ipo.html). Token sales can launch in weeks at a fraction of the cost.
+* **Compliance is an afterthought:** Many projects launch offshore, limiting access to U.S. participants and institutional capital.
+* **No infrastructure for what comes next:** Teams scramble to set up liquidity, vesting, and governance after the sale.
+* **Participants don't know what they're buying:** Opaque tokenomics, hidden insider allocations, and unclear unlock schedules erode trust.
 
-## Get started with Tally
+### Token sales are hard to get right. Tally fixed it.
 
-Ready to launch with tally? [Talk to our team to get started](http://tally.xyz/contact).
+Fundraising on Tally:
 
-{% content-ref url="tally-features/token-sales-and-icos.md" %}
-[token-sales-and-icos.md](tally-features/token-sales-and-icos.md)
-{% endcontent-ref %}
-
-{% content-ref url="tally-features/token-launch/" %}
-[token-launch](tally-features/token-launch/)
-{% endcontent-ref %}
-
-{% content-ref url="tally-features/incentives-and-staking/" %}
-[incentives-and-staking](tally-features/incentives-and-staking/)
-{% endcontent-ref %}
-
-{% content-ref url="tally-features/governance/" %}
-[governance](tally-features/governance/)
-{% endcontent-ref %}
+1. Reaches the right participants with Tally's audience and partners&#x20;
+   1. Promotion on the Tally app which has processed over $1B in transaction volume
+   2. Partnerships with the largest organizations in crypto
+   3. Roadshows targeting institutional investors
+2. Drives fair & efficient price discovery
+   1. Pricing a token for sale is hard. Too high, and there’s no buyers. Too low, and you give away value to arbitrageurs.
+      1. Uniswap's Continuous Clearing Auction eliminates guesswork and front-running
+3. Ensures strong economic rights for holders with guaranteed post-sale liquidity
+   1. 20% of raised funds are automatically locked in DEX LP for one year immediately after the sale concludes.
+   2. Tally removes the need for expensive third-party strategies like CEXs and risky backroom market making deals, while holders are guaranteed a safe on-chain liquid trading venue
+4. Offers teams advanced tooling for success&#x20;
+   1. Uniswap Continuous Clearing auctions are powerful, but complicated and time consuming to setup.Tally simplifies the process with a powerful orchestration protocol, best-in-class tooling, and built in features like KYC. Use our [simulator](https://tally.xyz/sale-simulator) to test your sale before going live.

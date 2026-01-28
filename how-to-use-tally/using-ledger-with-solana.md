@@ -2,7 +2,6 @@
 description: >-
   Ledger hardware wallets require a special setup process on our platform for
   Solana. Profile creation isn't directly compatible with Ledger devices.
-icon: wallet
 ---
 
 # Using Ledger with Solana

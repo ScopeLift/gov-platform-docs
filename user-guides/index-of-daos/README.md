@@ -1,7 +1,3 @@
----
-icon: folder-open
----
-
 # Index of on-chain organizations
 
 {% content-ref url="daos-on-tally/" %}

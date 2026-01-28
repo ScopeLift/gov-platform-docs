@@ -1,6 +1,5 @@
 ---
 description: Explore your organization's homepage.
-icon: compass
 ---
 
 # Navigate the Tally homepage

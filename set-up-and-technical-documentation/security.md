@@ -1,5 +1,4 @@
 ---
-icon: diamond-exclamation
 description: Tally Security Vulnerability Disclosure Policy
 ---
 

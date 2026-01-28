@@ -1,6 +1,5 @@
 ---
 description: Design & deploy incentives to bootstrap protocol usage and accrue token value
-icon: money-bill-transfer
 ---
 
 # Incentives & staking

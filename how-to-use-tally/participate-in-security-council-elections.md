@@ -3,7 +3,6 @@ description: >-
   Security Council elections are a pivotal aspect of decentralized governance,
   ensuring that the guardianship of a organization remains in the hands of its
   community.
-icon: shield-check
 ---
 
 # Participate in Security Council Elections

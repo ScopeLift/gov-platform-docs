@@ -1,5 +1,6 @@
 ---
 description: Key features of Tally's token launch solutions
+hidden: true
 icon: arrow-right-arrow-left
 ---
 
