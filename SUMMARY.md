@@ -13,6 +13,7 @@
 * [Integrate compliance](token-sales/integrate-compliance.md)
 * [Build your sale page](token-sales/build-your-sale-page.md)
 * [Launch & monitor](token-sales/launch-and-monitor.md)
+* [Bidder's Guide](token-sales/bidders-guide.md)
 
 ## On-chain operations
 
