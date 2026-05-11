@@ -1,0 +1,23 @@
+---
+description: How to make your Token and Governor contract compatible with Tally
+---
+
+# Check for token contract compatibility
+
+Tally supports organizations on Ethereum, Polygon, Optimism, Arbitrum, Avalanche, Base, Moonbeam, Scroll, BNB Chain, Gnosis, and various testnets.
+
+Tally connects with the on-chain contracts for your organization in two places. Tally’s servers index the on-chain data, and Tally’s web3 site helps users make calls directly to the contracts running on the blockchain.
+
+Here, we describe the interface that your contracts need to follow to be compatible with Tally. The easiest way to be compatible is to use the [Open Zeppelin Wizard](https://wizard.openzeppelin.com/) to deploy a governance token and governor
+
+If you do need to change something, check that your contracts implement the methods and event logs in the sections below to make sure that your changes are compatible with Tally’s data indexing and transaction calls.
+
+[Tokens Erc20 And Nfts](tokens-erc20-and-nfts)
+
+[Openzeppelin Governor](openzeppelin-governor)
+
+[Compound Governor Bravo](compound-governor-bravo)
+
+[Broken link](/broken/pages/GHXQ6k3biAumJ9XZPY3Z)
+
+[Supported Use Cases Faq](supported-use-cases-faq)

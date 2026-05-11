@@ -1,39 +1,38 @@
----
-description: Raise capital confidently
-icon: hand-wave
-cover:
-  light: .gitbook/assets/X Bannerlightpng.png
-  dark: .gitbook/assets/X Banner.png
-coverY: 0
----
+# Tally Docs
 
-# Welcome to Tally
+Source for the Tally documentation site. Built with [Nextra](https://nextra.site) (Next.js + MDX) and deployed to GitHub Pages.
 
-### Token sales are a better way to raise capital
+## Development
 
-Token sales let you raise capital and build community in a single event — no multi-year IPO timelines, no gatekept VC rounds, no dilutive terms.
+Requires Node and pnpm (pinned via Volta in `package.json`).
 
-### But most token sales are flawed
+```sh
+pnpm install
+pnpm dev          # local server on http://localhost:3000
+pnpm build        # static export to ./out
+```
 
-The standard playbook has problems:
+## Editing content
 
-* **Compliance is an afterthought:** Many projects launch offshore, limiting access to U.S. participants and institutional capital.
-* **No infrastructure for what comes next:** Teams scramble to set up liquidity, vesting, and governance after the sale.
-* **Participants don't know what they're buying:** Opaque tokenomics, hidden insider allocations, and unclear unlock schedules erode trust.
+All pages live under `pages/`. Files are MDX — standard Markdown plus a small set of components:
 
-### Token sales are hard to get right. Tally fixed it.
+- `<Callout type="info|warning|error|default">` for callouts
+- `<Embed url="..." />` for YouTube/Loom/Drive embeds
+- `<Steps>` and `<Columns>`/`<Column>` for layout
+- Standard `[text](slug)` for in-tab navigation; external `https://` links automatically open in a new tab via `components/link.tsx`
 
-Fundraising on Tally:
+Sidebar navigation is controlled per directory by `_meta.js` files.
 
-1. Reaches the right participants with Tally's audience and partners&#x20;
-   1. Promotion on the Tally app which has processed over $1B in transaction volume
-   2. Partnerships with the largest organizations in crypto
-   3. Roadshows targeting institutional investors
-2. Drives fair & efficient price discovery
-   1. Pricing a token for sale is hard. Too high, and there’s no buyers. Too low, and you give away value to arbitrageurs.
-      1. Uniswap's Continuous Clearing Auction eliminates guesswork and front-running
-3. Ensures strong economic rights for holders with guaranteed post-sale liquidity
-   1. 20% of raised funds are automatically locked in DEX LP for one year immediately after the sale concludes.
-   2. Tally removes the need for expensive third-party strategies like CEXs and risky backroom market making deals, while holders are guaranteed a safe on-chain liquid trading venue
-4. Offers teams advanced tooling for success&#x20;
-   1. Uniswap Continuous Clearing auctions are powerful, but complicated and time consuming to setup.Tally simplifies the process with a powerful orchestration protocol, best-in-class tooling, and built in features like KYC. Use our [simulator](https://tally.xyz/sale-simulator) to test your sale before going live.
+Images live in `public/images/`. Reference them as `/images/<filename>`.
+
+## Contributing
+
+1. Open a PR with your changes
+2. CI runs the build and a link check — fix any failures
+3. On merge to `main`, the site redeploys automatically via `.github/workflows/deploy.yml`
+
+See `STYLEGUIDE.md` for writing conventions.
+
+## Migration scripts
+
+Under `scripts/`. These were used to convert the previous GitBook export to Nextra. They're kept in the repo for traceability and aren't part of the runtime build.
