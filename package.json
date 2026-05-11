@@ -1,0 +1,31 @@
+{
+  "name": "gov-platform-docs",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "migrate:assets": "node scripts/build-asset-map.mjs",
+    "migrate:content": "node scripts/migrate-content.mjs",
+    "migrate:meta": "node scripts/build-meta.mjs"
+  },
+  "dependencies": {
+    "next": "^14.2.5",
+    "nextra": "^3.0.15",
+    "nextra-theme-docs": "^3.0.15",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.10",
+    "@types/react": "^18.3.3",
+    "typescript": "^5.5.3"
+  },
+  "packageManager": "pnpm@9.6.0",
+  "volta": {
+    "node": "20.20.2",
+    "pnpm": "9.6.0"
+  }
+}
