@@ -10,7 +10,7 @@ const SKIP_DIRS = new Set([
   "node_modules", ".git", ".next", "out", "public", "scripts",
   "components", ".gitbook", "pages",
 ]);
-const SKIP_ROOT_FILES = new Set(["SUMMARY.md", "STYLEGUIDE.md"]);
+const SKIP_ROOT_FILES = new Set(["SUMMARY.md", "STYLEGUIDE.md", "README.md", "CONTRIBUTING.md"]);
 
 const HINT_STYLE_TO_CALLOUT = {
   info: "info",
@@ -193,6 +193,21 @@ function escapeStrayAngleBrackets(s) {
     .join("\n");
 }
 
+function figuresToMarkdownImages(s) {
+  return s.replace(
+    /<figure>\s*<img\s+src="([^"]+)"(?:\s+alt="([^"]*)")?[^>]*\/?>(?:\s*<figcaption>([\s\S]*?)<\/figcaption>)?\s*<\/figure>/g,
+    (_m, src, alt = "", captionHtml = "") => {
+      const captionText = captionHtml
+        .replace(/<\/?p>/g, "")
+        .replace(/<[^>]+>/g, "")
+        .replace(/\s+/g, " ")
+        .trim();
+      const text = captionText || alt || "";
+      return `![${text}](${src})`;
+    }
+  );
+}
+
 function stripGitbookAnchors(s) {
   return s.replace(
     /\s*<a\s+(?:href="[^"]*"\s+id="[^"]*"|id="[^"]*"\s+href="[^"]*")\s*>\s*<\/a>/g,
@@ -325,6 +340,7 @@ async function main() {
     out = transformColumns(out);
     out = transformStepper(out);
     out = rewriteAssetReferences(out, assetMap);
+    out = figuresToMarkdownImages(out);
     out = rewriteInternalLinks(out);
     out = stripGitbookAnchors(out);
     out = escapeStrayAngleBrackets(out);

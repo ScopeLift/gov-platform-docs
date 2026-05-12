@@ -9,4 +9,5 @@ export default withNextra({
   output: "export",
   images: { unoptimized: true },
   trailingSlash: true,
+  basePath: "/gov-platform-docs",
 });

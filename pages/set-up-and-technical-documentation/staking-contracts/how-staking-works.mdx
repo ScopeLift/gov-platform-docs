@@ -10,7 +10,7 @@ description: Understand how Tally's staking contracts work under the hood
 
 Here's an architecture diagram of the staking smart contracts:
 
-<figure><img src="/images/mermaid-diagram-2025-06-18-134003-2.png" alt="" /><figcaption></figcaption></figure>
+![](/images/mermaid-diagram-2025-06-18-134003-2.png)
 
 * The staking contracts have modules for [calculating earning power](https://github.com/withtally/staker/tree/main/src/calculators), hooking up [sources of rewards](https://github.com/withtally/staker/tree/main/src/notifiers), and [extensions](https://github.com/withtally/staker/tree/main/src/extensions). Protocol teams can assemble a staking system from these audited pieces.
 * Staking is out-of-the-box compatible with existing \`ERC20Votes\` governance tokens. It supports \`ERC20Votes\` delegation with the "surrogate factory" pattern. Staking creates a surrogate contract for each delegate. It delegates voting power in each surrogate to the delegate.
