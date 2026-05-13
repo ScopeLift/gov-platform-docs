@@ -1,5 +1,5 @@
 export default {
-  "index": "Airdops",
+  "index": "Token launch",
   "airdrops": "Airdrops",
   "vesting-and-disitribution": "Vesting & disitribution",
   "exchange-listing-and-compliance-documentation": "Exchange listing & compliance documentation",

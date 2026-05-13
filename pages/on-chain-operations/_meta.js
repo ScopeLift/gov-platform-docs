@@ -1,5 +1,5 @@
 export default {
-  "token-launch": "Airdops",
+  "token-launch": "Token launch",
   "incentives-and-staking": "Incentives & staking",
   "governance": "Governance",
   "tally-partner-benefits": "Tally partner benefits",
