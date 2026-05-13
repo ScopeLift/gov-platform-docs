@@ -31,8 +31,8 @@ export default {
     "type": "separator",
     "title": "Resources"
   },
-  "-- ext-use-tally-6": {
-    "title": "Use Tally",
+  "-- ext-use-platform-6": {
+    "title": "Use Platform",
     "type": "page",
     "href": "https://www.tally.xyz",
     "newWindow": true
@@ -40,25 +40,13 @@ export default {
   "-- ext-blog-7": {
     "title": "Blog",
     "type": "page",
-    "href": "https://blog.tally.xyz",
-    "newWindow": true
-  },
-  "-- ext-the-tally-podcast-8": {
-    "title": "The Tally podcast",
-    "type": "page",
-    "href": "https://t.co/rOkH3FYeYA",
-    "newWindow": true
-  },
-  "-- ext-newsletter-9": {
-    "title": "Newsletter",
-    "type": "page",
-    "href": "https://newsletter.tally.xyz",
+    "href": "https://scopelift.co/blog",
     "newWindow": true
   },
   "-- ext-twitter-x-10": {
     "title": "Twitter / X",
     "type": "page",
-    "href": "https://x.com/tallyxyz",
+    "href": "https://x.com/scopelift",
     "newWindow": true
   },
   "-- hr-11": {
