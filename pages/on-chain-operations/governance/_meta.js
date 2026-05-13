@@ -1,5 +1,4 @@
 export default {
-  "index": "Governance",
   "security-council-elections": "Security Council elections",
   "optimistic-governance": "Optimistic governance",
   "multigov": "MultiGov",
