@@ -11,11 +11,10 @@ const config: DocsThemeConfig = {
     Column,
   } as never,
   logo: <span style={{ fontWeight: 600 }}>Tally Docs</span>,
-  project: {
-    link: "https://github.com/withtally/gov-platform-docs",
-  },
   docsRepositoryBase:
     "https://github.com/withtally/gov-platform-docs/tree/main",
+  editLink: { component: null },
+  feedback: { content: null },
   footer: {
     content: `© ${new Date().getFullYear()} Tally`,
   },
