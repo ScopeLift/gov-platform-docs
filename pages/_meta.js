@@ -16,7 +16,6 @@ export default {
     "title": "How to Use Tally"
   },
   "how-to-use-tally": "How to Use Tally",
-  "tally-features": "Tally Features",
   "-- sep-3": {
     "type": "separator",
     "title": "Set up & Technical Documentation"
