@@ -1,5 +1,4 @@
 export default {
-  "index": "Deploy a governor",
   "deploy-a-dao-with-token-voting": "Deploy a governor",
   "add-a-dao-to-an-existing-token": "Add a Governor to an existing token",
   "smart-contract-compatibility": "Check for token contract compatibility",

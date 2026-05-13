@@ -1,5 +1,4 @@
 export default {
-  "index": "Organizations on Tally",
   "aave-aave": "Aave (AAVE)",
   "ampleforth-forth": "Ampleforth (FORTH)",
   "arbitrum-arb": "Arbitrum (ARB)",
