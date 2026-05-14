@@ -10,6 +10,33 @@ const config: DocsThemeConfig = {
     Columns,
     Column,
   } as never,
+  banner: {
+    key: "docs-revamp-2026",
+    dismissible: false,
+    content: (
+      <>
+        These docs are being revamped as part of the platform{" "}
+        <a
+          className="prose-link"
+          href="https://scopelift.co/blog/scopelift-tally-operation"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          transition
+        </a>{" "}
+        and may be out of date. Reach out to{" "}
+        <a
+          className="prose-link"
+          href="https://www.tally.xyz/support"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          support
+        </a>{" "}
+        if assistance is needed.
+      </>
+    ),
+  },
   logo: <span style={{ fontWeight: 600 }}>Tally Docs</span>,
   docsRepositoryBase:
     "https://github.com/withtally/gov-platform-docs/tree/main",
