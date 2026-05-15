@@ -1,11 +1,5 @@
 export default {
-  "index": "Welcome to Tally",
-  "why-token-sales": "Why token sales",
-  "-- sep-0": {
-    "type": "separator",
-    "title": "Token sales"
-  },
-  "token-sales": { "title": "Token sales", "display": "children" },
+  "index": "Get started",
   "-- sep-1": {
     "type": "separator",
     "title": "On-chain operations"
