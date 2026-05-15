@@ -49,6 +49,7 @@ const config: DocsThemeConfig = {
   sidebar: {
     defaultMenuCollapseLevel: 1,
     toggleButton: true,
+    autoCollapse: true,
   },
   toc: { float: true },
   darkMode: true,
