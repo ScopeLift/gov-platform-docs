@@ -58,6 +58,17 @@ const config: DocsThemeConfig = {
     <>
       <meta name="viewport" content="width=device-width, initial-scale=1" />
       <meta property="og:title" content="Tally Docs" />
+      {/* Privacy-friendly analytics by Plausible */}
+      <script
+        async
+        src="https://plausible.io/js/pa-b5cBh6SFnScNFjraTUEZX.js"
+      />
+      <script
+        dangerouslySetInnerHTML={{
+          __html:
+            "window.plausible=window.plausible||function(){(plausible.q=plausible.q||[]).push(arguments)},plausible.init=plausible.init||function(i){plausible.o=i||{}};plausible.init()",
+        }}
+      />
     </>
   ),
 };
