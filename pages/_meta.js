@@ -20,10 +20,6 @@ export default {
     "title": "Education"
   },
   "user-guides": { "title": "Education", "display": "children" },
-  "-- sep-5": {
-    "type": "separator",
-    "title": "Resources"
-  },
   "-- ext-use-platform-6": {
     "title": "Use Platform",
     "type": "page",
@@ -42,9 +38,4 @@ export default {
     "href": "https://x.com/scopelift",
     "newWindow": true
   },
-  "-- hr-11": {
-    "type": "separator",
-    "title": ""
-  },
-  "payment-addresses": "Payment Addresses"
 };
