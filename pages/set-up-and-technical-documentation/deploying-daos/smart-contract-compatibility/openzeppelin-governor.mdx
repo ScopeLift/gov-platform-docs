@@ -182,4 +182,4 @@ Since Governor v4.9, all voting contracts (including [`ERC20Votes`](https://docs
 
 Tally checks the contract lock using the [IERC-6372](https://eips.ethereum.org/EIPS/eip-6372) standard. We accept `blocknumber` and `timestamp` clock modes.Specifically, Tally expects Governor and token contracts to implement a `CLOCK_MODE()` function that returns either `mode=blocknumber&from=default` or `mode=blocknumber&from=<CAIP-2-ID>` . If the call to the governor's `CLOCK_MODE()` method returns `mode=timestamp` then proposal start and end times will be interpreted as unix timestamps otherwise they will be interpreted as block numbers.
 
-If you're interested in support for another contract clock, Tally would need to do some custom work. Get in touch with [biz@tally.xyz](mailto:biz@tally.xyz).
+If you're interested in support for another contract clock, Tally would need to do some custom work. Get in touch with [Tally support form](https://www.tally.xyz/support).
