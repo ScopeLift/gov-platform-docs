@@ -1,5 +1,5 @@
 export default {
-  "token-launch": "Token launch",
+  "token-launch": { title: "Token launch", display: "hidden" },
   "incentives-and-staking": "Incentives & staking",
   "governance": "Governance",
   "tally-partner-benefits": "Tally partner benefits",

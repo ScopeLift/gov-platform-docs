@@ -7,7 +7,6 @@ export default {
   "participate-in-security-council-elections": "Participate in Security Council Elections",
   "use-tally-as-a-safe-multisig": "Use Tally as a Safe multisig",
   "get-notifications-on-tally": "Get notifications on Tally",
-  "using-ledger-with-solana": "Using Ledger with Solana",
-  "creating-proposals": "Creating Proposals",
+  "using-ledger-with-solana": { title: "Using Ledger with Solana", display: "hidden" },
   "proposals": "Proposals"
 };
