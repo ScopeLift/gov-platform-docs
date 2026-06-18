@@ -1,12 +1,12 @@
 ---
-description: Learn how to propose token grants with Hedgey on Tally.
+description: Learn how to propose token grants with Hedgey on Cactus.
 ---
 
 # Token grants with Hedgey
 
 Using [Hedgey](http://app.hedgey.finance), you can make a proposal for your organization to distribute grants directly to grant recipients. Token Grants allow your organization to distribute tokens for incentives, and other reward mechanisms to spur ecosystem development, decentralization, and proliferation.
 
-Grants by Hedgey come in a few forms, so it is important to decide beforehand which version is most appropriate for your grant needs. Grants is at its core a simple distribution mechanism to distribute tokens to the grantees, with a public dashboard, and bake in time based milestones when the grantees will receive the tokens. Grants can be either revocable, or non-revocable, include ability to participate in governance with Tally, or can prevented from governance participation. Other key features include linear (streaming) or periodic time-based distribution schedules.
+Grants by Hedgey come in a few forms, so it is important to decide beforehand which version is most appropriate for your grant needs. Grants is at its core a simple distribution mechanism to distribute tokens to the grantees, with a public dashboard, and bake in time based milestones when the grantees will receive the tokens. Grants can be either revocable, or non-revocable, include ability to participate in governance with Cactus, or can prevented from governance participation. Other key features include linear (streaming) or periodic time-based distribution schedules.
 
 #### Revocable vs Non-revocable Grants
 
@@ -16,7 +16,7 @@ Conversely, revocable grants are a solution for grantees that are expected to pe
 
 ## Preparation
 
-Before creating the grants proposal, you should prepare the data that will be pasted into Tally and be delivered to the Hedgey smart contract upon execution of the approved proposal.
+Before creating the grants proposal, you should prepare the data that will be pasted into Cactus and be delivered to the Hedgey smart contract upon execution of the approved proposal.
 
 #### Requirements:
 
@@ -26,8 +26,8 @@ Before creating the grants proposal, you should prepare the data that will be pa
 
 | Hedgey Grants Contracts | Revocable                                  | Not Revocable                              |
 | ----------------------- | ------------------------------------------ | ------------------------------------------ |
-| Allows Tally Governance | 0x1bb64AF7FE05fc69c740609267d2AbE3e119Ef82 | 0x73cD8626b3cD47B009E68380720CFE6679A3Ec3D |
-| No Tally Governance     | 0x2CDE9919e81b20B4B33DD562a48a84b54C48F00C | 0x1961A23409CA59EEDCA6a99c97E4087DaD752486 |
+| Allows Cactus Governance | 0x1bb64AF7FE05fc69c740609267d2AbE3e119Ef82 | 0x73cD8626b3cD47B009E68380720CFE6679A3Ec3D |
+| No Cactus Governance     | 0x2CDE9919e81b20B4B33DD562a48a84b54C48F00C | 0x1961A23409CA59EEDCA6a99c97E4087DaD752486 |
 
 4. Distribution Frequency / Period: This determines (in seconds) how frequently tokens are distributed to grantees. For the “streaming” version, this would be 1, where a small amount of tokens is distributed and claimable each second. Here are some other handy periods:
 
@@ -48,11 +48,11 @@ Before creating the grants proposal, you should prepare the data that will be pa
    4. Cliff date (in unix time)
    5. Rate: the amount of tokens that vest in each period
 
-You can use [this link](https://docs.google.com/spreadsheets/d/1uPW2cqSK_aXuOR873b_Q_Zajx0P4Czq7P9Riqy_Nm5s/edit?usp=sharing) and make a copy to help you create the plans, input the items in orange, and then you’ll have your finished Tuple of Plans in cell B6 to copy into Tally.
+You can use [this link](https://docs.google.com/spreadsheets/d/1uPW2cqSK_aXuOR873b_Q_Zajx0P4Czq7P9Riqy_Nm5s/edit?usp=sharing) and make a copy to help you create the plans, input the items in orange, and then you’ll have your finished Tuple of Plans in cell B6 to copy into Cactus.
 
 ## How to Create the Grants Distributions
 
-With your prepared data at hand, navigate to the Tally portal and create your proposal. In the "Custom Actions" section, you will need to input two actions: the first is the ERC-20 token allowance approval, and the second is the actual Hedgey Grants creation transaction.
+With your prepared data at hand, navigate to the Cactus portal and create your proposal. In the "Custom Actions" section, you will need to input two actions: the first is the ERC-20 token allowance approval, and the second is the actual Hedgey Grants creation transaction.
 
 #### Action #1
 
