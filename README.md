@@ -1,6 +1,6 @@
-# Tally Docs
+# Cactus Docs
 
-Source for the Tally documentation site. Built with [Nextra](https://nextra.site) (Next.js + MDX) and deployed to GitHub Pages.
+Source for the Cactus documentation site. Built with [Nextra](https://nextra.site) (Next.js + MDX) and deployed to GitHub Pages.
 
 ## Development
 
