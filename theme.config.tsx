@@ -37,13 +37,13 @@ const config: DocsThemeConfig = {
       </>
     ),
   },
-  logo: <span style={{ fontWeight: 600 }}>Tally Docs</span>,
+  logo: <span style={{ fontWeight: 600 }}>Cactus Docs</span>,
   docsRepositoryBase:
     "https://github.com/withtally/gov-platform-docs/tree/main",
   editLink: { component: null },
   feedback: { content: null },
   footer: {
-    content: `© ${new Date().getFullYear()} Tally`,
+    content: `© ${new Date().getFullYear()} Cactus`,
   },
   search: { placeholder: "Search docs..." },
   sidebar: {
@@ -57,7 +57,7 @@ const config: DocsThemeConfig = {
   head: (
     <>
       <meta name="viewport" content="width=device-width, initial-scale=1" />
-      <meta property="og:title" content="Tally Docs" />
+      <meta property="og:title" content="Cactus Docs" />
       {/* Privacy-friendly analytics by Plausible */}
       <script
         async
