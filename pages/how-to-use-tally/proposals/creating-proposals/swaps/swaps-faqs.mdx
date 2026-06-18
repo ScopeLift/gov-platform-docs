@@ -18,7 +18,7 @@ Upon proposal creation, you will receive a quote from CoW based on current marke
 
 [A Milkman price checker](https://github.com/charlesndalton/milkman#price-checkers) ensures that your order only executes if the market price is close, using a price oracle and a slippage parameter.
 
-The default price checker on Tally uses Uniswap v3 as a price oracle and sets a max slippage. Custom price checkers can implement any logic they want.
+The default price checker on Cactus uses Uniswap v3 as a price oracle and sets a max slippage. Custom price checkers can implement any logic they want.
 
 #### Milkman price checker
 
@@ -34,11 +34,11 @@ If the price checker rejects fills with unfavorable prices, the assets to sell r
 
 ### How does the Uniswap price checker work?
 
-Tally's default price checker uses the Uniswap V3 oracle to get market prices.
+Cactus's default price checker uses the Uniswap V3 oracle to get market prices.
 
-If you select this price checker, Tally suggests a max slippage and picks the Uniswap pair(s) to use for the price oracle.
+If you select this price checker, Cactus suggests a max slippage and picks the Uniswap pair(s) to use for the price oracle.
 
-If there is not a direct path (e.g. COMP&lt;&gt;USDT), Tally will try to make a “bridge” with two pairs, e.g. COMP->WETH->USDT instead of COMP->USDT. If that doesn’t work, you’ll have to make a custom price checker route.
+If there is not a direct path (e.g. COMP&lt;&gt;USDT), Cactus will try to make a “bridge” with two pairs, e.g. COMP->WETH->USDT instead of COMP->USDT. If that doesn’t work, you’ll have to make a custom price checker route.
 
 #### Example Using the Uniswap Price Checker
 

@@ -3,5 +3,4 @@ export default {
   "governance-concepts": "Governance concepts",
   "governance-frameworks": "Governance frameworks",
   "dao-best-practices": "Organizational best practices",
-  "index-of-daos": "Index of on-chain organizations"
 };

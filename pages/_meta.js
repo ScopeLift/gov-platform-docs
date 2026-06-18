@@ -1,5 +1,6 @@
 export default {
   "index": "Get started",
+  "tally-is-now-cactus": "Tally is now Cactus",
   "-- sep-1": {
     "type": "separator",
     "title": "On-chain operations"
@@ -7,9 +8,9 @@ export default {
   "on-chain-operations": { "title": "On-chain operations", "display": "children" },
   "-- sep-2": {
     "type": "separator",
-    "title": "How to Use Tally"
+    "title": "How to Use Cactus"
   },
-  "how-to-use-tally": { "title": "How to Use Tally", "display": "children" },
+  "how-to-use-tally": { "title": "How to Use Cactus", "display": "children" },
   "-- sep-3": {
     "type": "separator",
     "title": "Set up & Technical Documentation"
@@ -35,7 +36,7 @@ export default {
   "-- ext-twitter-x-10": {
     "title": "Twitter / X",
     "type": "page",
-    "href": "https://x.com/scopelift",
+    "href": "https://x.com/cactushqxyz",
     "newWindow": true
   },
 };

@@ -1,5 +1,5 @@
 ---
-description: Understand how Tally's staking contracts work under the hood
+description: Understand how Cactus's staking contracts work under the hood
 ---
 
 # How staking works
@@ -48,7 +48,7 @@ Access the open-source [stGOV repo](https://github.com/withtally/stGOV).
 
 ### In-Depth Technical Walkthrough
 
-#### Tally's Staking contracts are open source:
+#### Cactus's Staking contracts are open source:
 
 * [Staker ](https://github.com/withtally/staker)
 * [LST ](https://github.com/withtally/stGOV)
@@ -105,7 +105,7 @@ Staker uses a concept called "Earning Power" to distribute rewards. Every deposi
 * The calculator turns earning power on and off based on whether an address's score exceeds a configurable threshold
 * Staker uses the earning power over time to distribute rewards.
 
-**. Tally provides two implementations:**
+**. Cactus provides two implementations:**
 
 ```
 // Deploy a simple earning power calculator
@@ -127,7 +127,7 @@ BinaryEligibilityOracleEarningPowerCalculator oracleCalculator =
 
 #### Reward Source Options
 
-Tally's system distributes rewards through a stream mechanism:
+Cactus's system distributes rewards through a stream mechanism:
 
 1. Rewards periodically enter the staking system as lump sums
 2. Those rewards stream to stakers over time
@@ -137,7 +137,7 @@ This approach gives stakers time to respond to changes in rewards.
 
 #### Reward Notifiers
 
-Reward notifiers connect different token sources to the staking system. Tally provides three standard notifiers:
+Reward notifiers connect different token sources to the staking system. Cactus provides three standard notifiers:
 
 1. ERC20 transfer() Direct token transfers from a treasury or revenue source
 2. ERC20 transferFrom() Approved transfers from a separate contract or wallet
